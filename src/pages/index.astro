@@ -1,30 +1,35 @@
 ---
 import Layout from "../layouts/Layout.astro";
+import Math from "../components/Math.astro";
 import { site, stats } from "../data/site";
 import { topics } from "../data/theorems";
 
-// A few highlights pulled from the catalog for the landing page.
+// A few proved highlights pulled from the catalog for the landing page.
 const highlights = topics
   .flatMap((t) => t.theorems.map((th) => ({ ...th, topic: t.title })))
-  .filter((th) => th.status === "proved")
+  .filter((th) => th.status === "proved" && th.latex)
   .slice(0, 4);
 ---
 
 <Layout>
   <!-- Hero -->
-  <section class="relative overflow-hidden border-b border-gray-200 bg-grid">
-    <div class="mx-auto max-w-6xl px-6 py-24 sm:py-32">
-      <p class="font-mono text-sm font-medium text-accent">{site.org} · Lean 4 · Mathlib</p>
-      <h1 class="mt-4 max-w-3xl text-4xl font-bold tracking-tight text-ink sm:text-6xl">
+  <section>
+    <div class="mx-auto max-w-5xl px-6 pt-20 pb-16 sm:pt-28">
+      <p class="font-mono text-xs uppercase tracking-[0.18em] text-accent">
+        {site.org} · Lean 4 · Mathlib
+      </p>
+      <h1 class="mt-5 max-w-3xl font-serif text-4xl font-semibold leading-[1.12] tracking-tight text-ink sm:text-5xl">
         {site.tagline}
       </h1>
       <p class="mt-6 max-w-2xl text-lg leading-relaxed text-ink-soft">
-        {site.description}
+        <span class="font-serif font-semibold text-ink">Abstract.</span>
+        {site.description} Every entry is checked end to end by the Lean compiler —
+        no gaps, no hand-waving.
       </p>
-      <div class="mt-10 flex flex-wrap gap-4">
+      <div class="mt-9 flex flex-wrap gap-3">
         <a
           href="/library"
-          class="rounded-lg bg-accent px-5 py-3 text-sm font-semibold text-white shadow-sm transition hover:bg-accent/90"
+          class="rounded-md bg-accent px-5 py-2.5 text-sm font-semibold text-white transition hover:bg-accent/90"
         >
           Browse the library
         </a>
@@ -32,7 +37,7 @@ const highlights = topics
           href={site.githubUrl}
           target="_blank"
           rel="noopener noreferrer"
-          class="rounded-lg border border-gray-300 bg-white px-5 py-3 text-sm font-semibold text-ink transition hover:bg-gray-50"
+          class="rounded-md border border-line bg-surface px-5 py-2.5 text-sm font-semibold text-ink transition hover:bg-accent-soft/50"
         >
           View on GitHub →
         </a>
@@ -41,12 +46,12 @@ const highlights = topics
   </section>
 
   <!-- Stats strip -->
-  <section class="border-b border-gray-200 bg-white">
-    <div class="mx-auto grid max-w-6xl grid-cols-1 divide-y divide-gray-200 sm:grid-cols-3 sm:divide-x sm:divide-y-0">
+  <section class="border-y border-line bg-surface">
+    <div class="mx-auto grid max-w-5xl grid-cols-1 divide-y divide-line sm:grid-cols-3 sm:divide-x sm:divide-y-0">
       {
         stats.map((s) => (
-          <div class="px-6 py-8 text-center">
-            <div class="font-mono text-3xl font-bold text-ink">{s.value}</div>
+          <div class="px-6 py-7 text-center">
+            <div class="font-serif text-3xl font-semibold text-ink">{s.value}</div>
             <div class="mt-1 text-sm text-ink-soft">{s.label}</div>
           </div>
         ))
@@ -54,51 +59,65 @@ const highlights = topics
     </div>
   </section>
 
-  <!-- What it is -->
-  <section class="mx-auto max-w-6xl px-6 py-20">
-    <h2 class="text-2xl font-bold tracking-tight text-ink">What's inside</h2>
+  <!-- What's inside -->
+  <section class="mx-auto max-w-5xl px-6 py-20">
+    <div class="flex items-baseline gap-3">
+      <span class="font-mono text-sm text-faint">1</span>
+      <h2 class="font-serif text-2xl font-semibold tracking-tight text-ink">What's inside</h2>
+    </div>
     <p class="mt-3 max-w-2xl text-ink-soft">
-      Every entry is a real statement from statistics or probability, formalized
-      and proved in Lean 4 so that the proof is checked by the compiler — no gaps,
-      no hand-waving.
+      The library is organized into topic areas spanning probability, asymptotics,
+      estimation, and concentration. Each statement is a real result from the
+      literature, formalized against Mathlib.
     </p>
 
-    <div class="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+    <div class="mt-10 grid gap-px overflow-hidden rounded-lg border border-line bg-line sm:grid-cols-2">
       {
-        topics.map((t) => (
+        topics.map((t, i) => (
           <a
             href={`/library#${t.id}`}
-            class="group rounded-xl border border-gray-200 p-6 transition hover:border-accent/50 hover:shadow-sm"
+            class="group bg-surface p-6 transition hover:bg-accent-soft/40"
           >
-            <h3 class="font-semibold text-ink group-hover:text-accent">{t.title}</h3>
+            <div class="flex items-baseline gap-2">
+              <span class="font-mono text-xs text-faint">1.{i + 1}</span>
+              <h3 class="font-serif text-lg font-semibold text-ink group-hover:text-accent">
+                {t.title}
+              </h3>
+            </div>
             <p class="mt-2 text-sm leading-relaxed text-ink-soft">{t.summary}</p>
-            <p class="mt-4 font-mono text-xs text-gray-400">
-              {t.theorems.length} entries →
-            </p>
+            <p class="mt-4 font-mono text-xs text-faint">{t.theorems.length} entries →</p>
           </a>
         ))
       }
     </div>
   </section>
 
-  <!-- Highlights -->
+  <!-- Selected results -->
   {
     highlights.length > 0 && (
-      <section class="border-t border-gray-200 bg-gray-50">
-        <div class="mx-auto max-w-6xl px-6 py-20">
-          <h2 class="text-2xl font-bold tracking-tight text-ink">Selected results</h2>
-          <div class="mt-8 grid gap-4 sm:grid-cols-2">
+      <section class="border-t border-line bg-surface">
+        <div class="mx-auto max-w-5xl px-6 py-20">
+          <div class="flex items-baseline gap-3">
+            <span class="font-mono text-sm text-faint">2</span>
+            <h2 class="font-serif text-2xl font-semibold tracking-tight text-ink">
+              Selected results
+            </h2>
+          </div>
+          <div class="mt-8 grid gap-5 sm:grid-cols-2">
             {highlights.map((th) => (
-              <div class="rounded-xl border border-gray-200 bg-white p-6">
-                <p class="font-mono text-xs text-accent">{th.topic}</p>
-                <h3 class="mt-1 font-semibold text-ink">{th.name}</h3>
-                <p class="mt-2 text-sm text-ink-soft">{th.blurb}</p>
+              <figure class="rounded-lg border border-line p-6">
+                <figcaption class="font-mono text-xs uppercase tracking-wide text-accent">
+                  {th.topic}
+                </figcaption>
+                <h3 class="mt-1 font-serif text-lg font-semibold text-ink">{th.name}</h3>
+                <div class="mt-3 overflow-x-auto text-ink">
+                  <Math expr={th.latex!} display />
+                </div>
+                <p class="mt-3 text-sm text-ink-soft">{th.blurb}</p>
                 {th.lean && (
-                  <code class="mt-3 block truncate font-mono text-xs text-gray-400">
-                    {th.lean}
-                  </code>
+                  <code class="mt-3 block truncate font-mono text-xs text-faint">{th.lean}</code>
                 )}
-              </div>
+              </figure>
             ))}
           </div>
         </div>
@@ -107,19 +126,19 @@ const highlights = topics
   }
 
   <!-- CTA -->
-  <section class="mx-auto max-w-6xl px-6 py-20 text-center">
-    <h2 class="text-2xl font-bold tracking-tight text-ink">
+  <section class="mx-auto max-w-5xl px-6 py-20 text-center">
+    <h2 class="font-serif text-2xl font-semibold tracking-tight text-ink">
       How the proofs get built
     </h2>
     <p class="mx-auto mt-3 max-w-xl text-ink-soft">
       statlib is produced by an automated formalize-and-prove pipeline. A
-      technical report describing the method is on the way.
+      technical report describing the method is in preparation.
     </p>
-    <div class="mt-8 flex justify-center gap-4">
-      <a href="/approach" class="rounded-lg bg-accent px-5 py-3 text-sm font-semibold text-white transition hover:bg-accent/90">
+    <div class="mt-8 flex justify-center gap-3">
+      <a href="/approach" class="rounded-md bg-accent px-5 py-2.5 text-sm font-semibold text-white transition hover:bg-accent/90">
         Read the approach
       </a>
-      <a href="/report" class="rounded-lg border border-gray-300 px-5 py-3 text-sm font-semibold text-ink transition hover:bg-gray-50">
+      <a href="/report" class="rounded-md border border-line bg-surface px-5 py-2.5 text-sm font-semibold text-ink transition hover:bg-accent-soft/50">
         Technical report
       </a>
     </div>

@@ -1,11 +1,23 @@
 @import "tailwindcss";
 
-/* Design tokens — tweak the accent here to re-theme the whole site. */
+/* ---------------------------------------------------------------------------
+   Design tokens — academic / research aesthetic.
+   Cream paper background, near-black ink, muted deep-blue accent.
+   Serif headings (Source Serif 4) + sans body (Inter) + mono for Lean code.
+   Re-theme the whole site from here.
+--------------------------------------------------------------------------- */
 @theme {
-  --color-ink: #0e1116;
-  --color-ink-soft: #3a4150;
-  --color-accent: #5b5bd6;
-  --color-accent-soft: #ececfb;
+  --color-paper: #faf8f2;
+  --color-surface: #ffffff;
+  --color-ink: #1c1b19;
+  --color-ink-soft: #57534e;
+  --color-faint: #8a857c;
+  --color-line: #e7e2d6;
+  --color-accent: #1f4e79;
+  --color-accent-soft: #e9eef5;
+
+  --font-sans: "Inter", system-ui, -apple-system, sans-serif;
+  --font-serif: "Source Serif 4", Georgia, "Times New Roman", serif;
   --font-mono: "JetBrains Mono", ui-monospace, "SF Mono", Menlo, monospace;
 }
 
@@ -18,10 +30,17 @@ body {
   text-rendering: optimizeLegibility;
 }
 
-/* Subtle grid background used in the hero. */
-.bg-grid {
-  background-image:
-    linear-gradient(to right, rgba(91, 91, 214, 0.06) 1px, transparent 1px),
-    linear-gradient(to bottom, rgba(91, 91, 214, 0.06) 1px, transparent 1px);
-  background-size: 32px 32px;
+/* Headings default to the serif face. */
+h1, h2, h3, h4 {
+  font-family: var(--font-serif);
 }
+
+/* Hairline rule used to separate paper-style sections. */
+.rule {
+  border-top: 1px solid var(--color-line);
+}
+
+/* KaTeX: keep inline math from inflating line-height; scale display math down a touch. */
+.katex { font-size: 1.05em; }
+.katex-display { margin: 0.5rem 0; }
+.katex-display > .katex { font-size: 1.15em; }

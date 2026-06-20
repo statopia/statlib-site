@@ -1,0 +1,17 @@
+---
+// Build-time KaTeX rendering. Produces static HTML — no client JS shipped.
+import katex from "katex";
+
+interface Props {
+  expr: string;
+  display?: boolean;
+}
+const { expr, display = false } = Astro.props;
+
+const html = katex.renderToString(expr, {
+  throwOnError: false,
+  displayMode: display,
+});
+---
+
+<span set:html={html} />
