@@ -1,0 +1,126 @@
+# Mathlib — proof narratives
+
+122 headline result(s).
+
+- [_root_.IsCompactOperator.spectralExpansion](_root_.IsCompactOperator.spectralExpansion.md) — theorem, 10 decl(s) · `Statlib/Mathlib/Analysis/SpectralTruncation.lean:245`
+- [_root_.ProbabilityTheory.centralLimit_real](_root_.ProbabilityTheory.centralLimit_real.md) — theorem, 3 decl(s) · `Statlib/Mathlib/ProbabilityTheory/CentralLimitNamed.lean:197`
+- [aestronglyMeasurable](aestronglyMeasurable.md) — lemma, 2 decl(s) · `Statlib/Mathlib/ProbabilityTheory/CLTSums.lean:187`
+- [argmax_consistency_from_uniform_conv](argmax_consistency_from_uniform_conv.md) — theorem, 4 decl(s) · `Statlib/Mathlib/ProbabilityTheory/ArgmaxCMT.lean:142`
+- [basis_inner_self](basis_inner_self.md) — theorem, 3 decl(s) · `Statlib/Mathlib/MeasureTheory/L2Separable.lean:132`
+- [basis_norm_sq_one](basis_norm_sq_one.md) — theorem, 3 decl(s) · `Statlib/Mathlib/MeasureTheory/L2Separable.lean:140`
+- [basis_orthogonal](basis_orthogonal.md) — theorem, 2 decl(s) · `Statlib/Mathlib/MeasureTheory/L2Separable.lean:127`
+- [bound_pos](bound_pos__L186.md) — lemma, 6 decl(s) · `Statlib/Mathlib/EmpiricalProcess/BracketingIntegralConv.lean:186`
+- [bound_pos](bound_pos__L177.md) — lemma, 2 decl(s) · `Statlib/Mathlib/ProbabilityTheory/CLTSums.lean:177`
+- [card](card.md) — noncomputable def, 2 decl(s) · `Statlib/Mathlib/EmpiricalProcess/VWChainingInduction.lean:109`
+- [centralLimit_real_to_existing](centralLimit_real_to_existing.md) — theorem, 5 decl(s) · `Statlib/Mathlib/ProbabilityTheory/CentralLimitNamed.lean:224`
+- [centralLimit_to_multivariateCLTConclusion](centralLimit_to_multivariateCLTConclusion.md) — noncomputable def, 3 decl(s) · `Statlib/Mathlib/ProbabilityTheory/CentralLimitTheorem.lean:225`
+- [chain_telescoping_omega](chain_telescoping_omega.md) — theorem, 2 decl(s) · `Statlib/Mathlib/EmpiricalProcess/VWChaining.lean:219`
+- [charFun_norm_le_one](charFun_norm_le_one.md) — theorem, 2 decl(s) · `Statlib/Mathlib/ProbabilityTheory/LevyContinuity.lean:106`
+- [charFun_zero_eq](charFun_zero_eq.md) — theorem, 2 decl(s) · `Statlib/Mathlib/ProbabilityTheory/LevyContinuity.lean:95`
+- [compactSpectralTruncationOfTotal](compactSpectralTruncationOfTotal.md) — noncomputable def, 23 decl(s) · `Statlib/Mathlib/Analysis/BesselCompactSA.lean:309`
+- [CoxIIDBundle](CoxIIDBundle.md) — structure, 4 decl(s) · `Statlib/Mathlib/ProbabilityTheory/CoxCovOpNormBound.lean:247`
+- [CoxScoreSample.score_dim_match](CoxScoreSample.score_dim_match.md) — lemma, 5 decl(s) · `Statlib/Mathlib/ProbabilityTheory/CoxIIDInstance.lean:190`
+- [CoxScoreSample.toIIDBoundedHypotheses](CoxScoreSample.toIIDBoundedHypotheses.md) — def, 7 decl(s) · `Statlib/Mathlib/ProbabilityTheory/CoxIIDInstance.lean:154`
+- [davis_kahan_inner_bound_unit](davis_kahan_inner_bound_unit.md) — theorem, 4 decl(s) · `Statlib/Mathlib/Analysis/DavisKahan.lean:218`
+- [davisKahanSinTheta_of_finiteDim_aux](davisKahanSinTheta_of_finiteDim_aux.md) — noncomputable def, 9 decl(s) · `Statlib/Mathlib/Analysis/DavisKahanSquaredSin.lean:315`
+- [dudley_entropy_integral_bound](dudley_entropy_integral_bound.md) — def, 2 decl(s) · `Statlib/Mathlib/EmpiricalProcess/VWChaining.lean:430`
+- [dudleySum_le_2D_sup_log_root](dudleySum_le_2D_sup_log_root.md) — theorem, 13 decl(s) · `Statlib/Mathlib/EmpiricalProcess/VWChaining.lean:343`
+- [dudleySum_mono](dudleySum_mono.md) — lemma, 2 decl(s) · `Statlib/Mathlib/EmpiricalProcess/VWChaining.lean:314`
+- [dudleySum_nonneg](dudleySum_nonneg.md) — lemma, 2 decl(s) · `Statlib/Mathlib/EmpiricalProcess/VWChaining.lean:304`
+- [dyadic_level_union_bound](dyadic_level_union_bound.md) — theorem, 7 decl(s) · `Statlib/Mathlib/EmpiricalProcess/VWChaining.lean:275`
+- [dyadicScale_succ](dyadicScale_succ.md) — lemma, 2 decl(s) · `Statlib/Mathlib/EmpiricalProcess/VWChaining.lean:108`
+- [dyadicScale_tendsto_zero](dyadicScale_tendsto_zero.md) — lemma, 3 decl(s) · `Statlib/Mathlib/EmpiricalProcess/VWChaining.lean:148`
+- [eigenbasis_total_of_invariant_subspace_eigenvector](eigenbasis_total_of_invariant_subspace_eigenvector.md) — theorem, 8 decl(s) · `Statlib/Mathlib/Analysis/EigenbasisTotality.lean:228`
+- [eigenfn_in_topologicalClosure_span](eigenfn_in_topologicalClosure_span.md) — theorem, 3 decl(s) · `Statlib/Mathlib/Analysis/EigenbasisTotality.lean:77`
+- [eigval_summable_sq_implies_decay](eigval_summable_sq_implies_decay.md) — theorem, 2 decl(s) · `Statlib/Mathlib/Analysis/BesselCompactSA.lean:285`
+- [empiricalCov_isHermitian](empiricalCov_isHermitian.md) — lemma, 2 decl(s) · `Statlib/Mathlib/ProbabilityTheory/RandomMatrixOpNorm.lean:108`
+- [empiricalCov_isSymm](empiricalCov_isSymm.md) — lemma, 2 decl(s) · `Statlib/Mathlib/ProbabilityTheory/RandomMatrixOpNorm.lean:93`
+- [expansion_zero](expansion_zero.md) — lemma, 2 decl(s) · `Statlib/Mathlib/Statistics/LAN.lean:193`
+- [fromCoxScoreSample](fromCoxScoreSample.md) — noncomputable def, 13 decl(s) · `Statlib/Mathlib/Statistics/LeCamInstance.lean:324`
+- [gamma_three_halves_value](gamma_three_halves_value.md) — lemma, 2 decl(s) · `Statlib/Mathlib/EmpiricalProcess/BracketingIntegralConv.lean:125`
+- [gaussianCharFun_norm_le_one](gaussianCharFun_norm_le_one.md) — theorem, 4 decl(s) · `Statlib/Mathlib/ProbabilityTheory/CentralLimitNamed.lean:245`
+- [hilbertSchmidtNormSq_zero](hilbertSchmidtNormSq_zero.md) — theorem, 5 decl(s) · `Statlib/Mathlib/Analysis/HilbertSchmidt.lean:131`
+- [identityCov](identityCov.md) — def, 11 decl(s) · `Statlib/Mathlib/Statistics/LeCamInstance.lean:413`
+- [identityCov_info_eq_one](identityCov_info_eq_one.md) — lemma, 6 decl(s) · `Statlib/Mathlib/Statistics/LeCamInstance.lean:405`
+- [iidBounded](iidBounded.md) — def, 5 decl(s) · `Statlib/Mathlib/ProbabilityTheory/CLTSums.lean:247`
+- [IIDBoundedHypotheses.toMultivariateCLTConclusion](IIDBoundedHypotheses.toMultivariateCLTConclusion.md) — noncomputable def, 5 decl(s) · `Statlib/Mathlib/ProbabilityTheory/UnivariateCLTBridge.lean:203`
+- [integral_neg_log_finite](integral_neg_log_finite.md) — theorem, 2 decl(s) · `Statlib/Mathlib/EmpiricalProcess/BracketingIntegralConv.lean:140`
+- [isCompactOperator_trunc](isCompactOperator_trunc.md) — theorem, 4 decl(s) · `Statlib/Mathlib/Analysis/SpectralCompactSelfAdjoint.lean:275`
+- [isHilbertSchmidt](isHilbertSchmidt.md) — theorem, 5 decl(s) · `Statlib/Mathlib/Analysis/HilbertSchmidt.lean:244`
+- [isHilbertSchmidt_of_basis](isHilbertSchmidt_of_basis.md) — theorem, 6 decl(s) · `Statlib/Mathlib/MeasureTheory/L2Separable.lean:189`
+- [IsHilbertSchmidt.isCompactOperator](IsHilbertSchmidt.isCompactOperator.md) — theorem, 14 decl(s) · `Statlib/Mathlib/Analysis/HilbertSchmidt.lean:172`
+- [IsHilbertSchmidt.isCompactOperator_of_truncationLimit](IsHilbertSchmidt.isCompactOperator_of_truncationLimit.md) — theorem, 12 decl(s) · `Statlib/Mathlib/Analysis/HilbertSchmidtCompact.lean:153`
+- [IsHilbertSchmidt.isCompactOperator_via_truncate_complete](IsHilbertSchmidt.isCompactOperator_via_truncate_complete.md) — theorem, 7 decl(s) · `Statlib/Mathlib/Analysis/CompactClosed.lean:132`
+- [IsHilbertSchmidt.smul](IsHilbertSchmidt.smul.md) — theorem, 3 decl(s) · `Statlib/Mathlib/Analysis/HilbertSchmidt.lean:105`
+- [IsHilbertSchmidt.summable_of_hilbertBasis](IsHilbertSchmidt.summable_of_hilbertBasis.md) — theorem, 3 decl(s) · `Statlib/Mathlib/Analysis/HilbertSchmidt.lean:156`
+- [kernelNormSq_nonneg](kernelNormSq_nonneg.md) — theorem, 3 decl(s) · `Statlib/Mathlib/Analysis/HilbertSchmidt.lean:216`
+- [L2_inner_expansion](L2_inner_expansion.md) — theorem, 2 decl(s) · `Statlib/Mathlib/MeasureTheory/L2Separable.lean:216`
+- [L2Separable_of_isSeparable](L2Separable_of_isSeparable.md) — theorem, 2 decl(s) · `Statlib/Mathlib/MeasureTheory/L2Separable.lean:235`
+- [L2Separable.ofIsSeparable](L2Separable.ofIsSeparable.md) — instance, 2 decl(s) · `Statlib/Mathlib/MeasureTheory/L2Separable.lean:80`
+- [L2Separable.toSeparableSpace](L2Separable.toSeparableSpace.md) — instance, 3 decl(s) · `Statlib/Mathlib/MeasureTheory/L2Separable.lean:88`
+- [levyContinuity](levyContinuity.md) — theorem, 2 decl(s) · `Statlib/Mathlib/ProbabilityTheory/LevyContinuity.lean:138`
+- [LevyContinuityHypothesis.toCLT](LevyContinuityHypothesis.toCLT.md) — def, 2 decl(s) · `Statlib/Mathlib/ProbabilityTheory/LevyContinuity.lean:161`
+- [MatrixOpNormBound](MatrixOpNormBound.md) — structure, 4 decl(s) · `Statlib/Mathlib/ProbabilityTheory/CoxCovOpNormBound.lean:121`
+- [max_chain_tail_succ](max_chain_tail_succ.md) — theorem, 4 decl(s) · `Statlib/Mathlib/EmpiricalProcess/VWChainingInduction.lean:458`
+- [mean_eq](mean_eq.md) — lemma, 2 decl(s) · `Statlib/Mathlib/ProbabilityTheory/CLTSums.lean:182`
+- [MultivariateCLTConclusion.toCoxGaussianLimit](MultivariateCLTConclusion.toCoxGaussianLimit.md) — def, 2 decl(s) · `Statlib/Mathlib/ProbabilityTheory/MultivariateCLT.lean:215`
+- [MultivariateCLTConclusion.toScoreCLT](MultivariateCLTConclusion.toScoreCLT.md) — def, 2 decl(s) · `Statlib/Mathlib/ProbabilityTheory/MultivariateCLT.lean:200`
+- [multivariateCLTOfCramerWold](multivariateCLTOfCramerWold.md) — noncomputable def, 3 decl(s) · `Statlib/Mathlib/ProbabilityTheory/UnivariateCLTBridge.lean:174`
+- [multivariateGaussianStandard.instIsProbabilityMeasure](multivariateGaussianStandard.instIsProbabilityMeasure.md) — instance, 2 decl(s) · `Statlib/Mathlib/ProbabilityTheory/MultivariateCLT.lean:85`
+- [of_eq](of_eq.md) — theorem, 2 decl(s) · `Statlib/Mathlib/Statistics/LeCamThirdLemma.lean:112`
+- [ofDeterministic](ofDeterministic.md) — def, 3 decl(s) · `Statlib/Mathlib/ProbabilityTheory/ArgmaxCMT.lean:210`
+- [ofL2BoundedKernelOperator](ofL2BoundedKernelOperator.md) — noncomputable def, 4 decl(s) · `Statlib/Mathlib/Analysis/HilbertSchmidt.lean:269`
+- [ofZeroDifference](ofZeroDifference.md) — noncomputable def, 2 decl(s) · `Statlib/Mathlib/ProbabilityTheory/CoxCovOpNormBound.lean:212`
+- [one_sub_inner_sq_unit](one_sub_inner_sq_unit.md) — lemma, 2 decl(s) · `Statlib/Mathlib/Analysis/DavisKahan.lean:113`
+- [OpNormBoundFromExpectation.tendsto_in_prob](OpNormBoundFromExpectation.tendsto_in_prob.md) — theorem, 5 decl(s) · `Statlib/Mathlib/ProbabilityTheory/RandomMatrixOpNorm.lean:168`
+- [OpNormBoundFromExpectation.toCovDiffSq_integral_le](OpNormBoundFromExpectation.toCovDiffSq_integral_le.md) — lemma, 3 decl(s) · `Statlib/Mathlib/ProbabilityTheory/RandomMatrixOpNorm.lean:278`
+- [OpNormBoundFromExpectation.toCovDiffSq_nonneg](OpNormBoundFromExpectation.toCovDiffSq_nonneg.md) — lemma, 3 decl(s) · `Statlib/Mathlib/ProbabilityTheory/RandomMatrixOpNorm.lean:267`
+- [outerProduct_frobenius_sq](outerProduct_frobenius_sq.md) — theorem, 4 decl(s) · `Statlib/Mathlib/ProbabilityTheory/CoxCovOpNormBound.lean:95`
+- [outerProduct_isSymm](outerProduct_isSymm.md) — lemma, 2 decl(s) · `Statlib/Mathlib/ProbabilityTheory/CoxCovOpNormBound.lean:65`
+- [polynomialBracketingClass_integrand_pointwise_bound](polynomialBracketingClass_integrand_pointwise_bound.md) — theorem, 12 decl(s) · `Statlib/Mathlib/EmpiricalProcess/BracketingIntegralConv.lean:263`
+- [polynomialBracketingClass_log_bracketing_le](polynomialBracketingClass_log_bracketing_le.md) — theorem, 6 decl(s) · `Statlib/Mathlib/EmpiricalProcess/BracketingIntegralConv.lean:202`
+- [PolynomialBracketingClass.dudleyPrefactor_pos](PolynomialBracketingClass.dudleyPrefactor_pos.md) — lemma, 7 decl(s) · `Statlib/Mathlib/EmpiricalProcess/VWPolynomialClass.lean:116`
+- [PolynomialBracketingClass.one_le_dudleyPrefactor](PolynomialBracketingClass.one_le_dudleyPrefactor.md) — lemma, 7 decl(s) · `Statlib/Mathlib/EmpiricalProcess/VWPolynomialClass.lean:128`
+- [PolynomialBracketingClass.toChainingBound](PolynomialBracketingClass.toChainingBound.md) — def, 7 decl(s) · `Statlib/Mathlib/EmpiricalProcess/VWPolynomialClass.lean:156`
+- [PolynomialBracketingClass.toChainingBound_C_dudley](PolynomialBracketingClass.toChainingBound_C_dudley.md) — lemma, 6 decl(s) · `Statlib/Mathlib/EmpiricalProcess/VWPolynomialClass.lean:204`
+- [PolynomialBracketingClass.toChainingBound_K](PolynomialBracketingClass.toChainingBound_K.md) — lemma, 6 decl(s) · `Statlib/Mathlib/EmpiricalProcess/VWPolynomialClass.lean:219`
+- [PolynomialBracketingClass.toVW_2_14_9_Conclusion](PolynomialBracketingClass.toVW_2_14_9_Conclusion.md) — def, 7 decl(s) · `Statlib/Mathlib/EmpiricalProcess/BracketingIntegralConv.lean:304`
+- [PolynomialBracketingClass.toVWConclusion](PolynomialBracketingClass.toVWConclusion.md) — def, 9 decl(s) · `Statlib/Mathlib/EmpiricalProcess/VWPolynomialClass.lean:190`
+- [PolynomialBracketingClass.toVWConclusion_C](PolynomialBracketingClass.toVWConclusion_C.md) — lemma, 7 decl(s) · `Statlib/Mathlib/EmpiricalProcess/VWPolynomialClass.lean:233`
+- [PolynomialBracketingClass.unifConv](PolynomialBracketingClass.unifConv.md) — theorem, 9 decl(s) · `Statlib/Mathlib/EmpiricalProcess/VWPolynomialClass.lean:259`
+- [rayleigh_max_is_eigenvector](rayleigh_max_is_eigenvector.md) — theorem, 3 decl(s) · `Statlib/Mathlib/Analysis/RayleighMax.lean:157`
+- [rayleigh_zero_op](rayleigh_zero_op.md) — theorem, 2 decl(s) · `Statlib/Mathlib/Analysis/RayleighMax.lean:112`
+- [rayleighMaxAttained_via_BanachAlaoglu](rayleighMaxAttained_via_BanachAlaoglu.md) — noncomputable def, 3 decl(s) · `Statlib/Mathlib/Analysis/BanachAlaoglu.lean:207`
+- [RayleighMaxAttained.toRieszSchauder](RayleighMaxAttained.toRieszSchauder.md) — noncomputable def, 4 decl(s) · `Statlib/Mathlib/Analysis/RayleighMax.lean:172`
+- [rayleighQuotient_bounded_by_op_norm](rayleighQuotient_bounded_by_op_norm.md) — theorem, 2 decl(s) · `Statlib/Mathlib/Analysis/RayleighMax.lean:97`
+- [rayleighQuotient_continuous](rayleighQuotient_continuous.md) — theorem, 2 decl(s) · `Statlib/Mathlib/Analysis/RayleighMax.lean:87`
+- [refl](refl__L113.md) — theorem, 2 decl(s) · `Statlib/Mathlib/ProbabilityTheory/LevyContinuity.lean:113`
+- [refl](refl__L143.md) — def, 4 decl(s) · `Statlib/Mathlib/Statistics/LeCamThirdLemma.lean:143`
+- [riesz_schauder_zero](riesz_schauder_zero.md) — noncomputable def, 3 decl(s) · `Statlib/Mathlib/Analysis/RieszSchauder.lean:107`
+- [rieszSchauderToCompactSAOnInvariantHasEigenvector](rieszSchauderToCompactSAOnInvariantHasEigenvector.md) — def, 2 decl(s) · `Statlib/Mathlib/Analysis/RieszSchauder.lean:138`
+- [skorohodArgmaxCMT](skorohodArgmaxCMT.md) — def, 6 decl(s) · `Statlib/Mathlib/ProbabilityTheory/SkorohodArgmax.lean:200`
+- [skorohodRepresentation_dirac](skorohodRepresentation_dirac.md) — noncomputable def, 2 decl(s) · `Statlib/Mathlib/ProbabilityTheory/SkorohodArgmax.lean:137`
+- [spectralBasis_apply](spectralBasis_apply.md) — theorem, 2 decl(s) · `Statlib/Mathlib/Analysis/SpectralCompactSelfAdjoint.lean:168`
+- [spectralGap_le_dist_of_mem](spectralGap_le_dist_of_mem.md) — lemma, 5 decl(s) · `Statlib/Mathlib/Analysis/DavisKahan.lean:140`
+- [spectralGap_nonneg](spectralGap_nonneg.md) — lemma, 5 decl(s) · `Statlib/Mathlib/Analysis/DavisKahan.lean:151`
+- [spectralGap_of_punctured_spectrum_empty](spectralGap_of_punctured_spectrum_empty.md) — lemma, 2 decl(s) · `Statlib/Mathlib/Analysis/DavisKahan.lean:131`
+- [SpectralTheoremCompactSA.toFPCEigensystem](SpectralTheoremCompactSA.toFPCEigensystem.md) — noncomputable def, 21 decl(s) · `Statlib/Mathlib/Analysis/SpectralCompactSelfAdjoint.lean:354`
+- [spectralTruncate_apply_eigenfn](spectralTruncate_apply_eigenfn.md) — theorem, 4 decl(s) · `Statlib/Mathlib/Analysis/SpectralTruncation.lean:191`
+- [spectralTruncate_diff_apply_tendsto_zero](spectralTruncate_diff_apply_tendsto_zero.md) — theorem, 6 decl(s) · `Statlib/Mathlib/Analysis/SpectralTruncationConv.lean:130`
+- [spectralTruncate_op_norm_via_parseval](spectralTruncate_op_norm_via_parseval.md) — theorem, 3 decl(s) · `Statlib/Mathlib/Analysis/Parseval.lean:166`
+- [spectralTruncate_tendsto_op_norm](spectralTruncate_tendsto_op_norm.md) — theorem, 3 decl(s) · `Statlib/Mathlib/Analysis/SpectralTruncation.lean:231`
+- [spectralTruncate_tendsto_op_norm_complete](spectralTruncate_tendsto_op_norm_complete.md) — theorem, 18 decl(s) · `Statlib/Mathlib/Analysis/BesselCompactSA.lean:268`
+- [sum_dyadic_thresholds_le_two_t](sum_dyadic_thresholds_le_two_t.md) — lemma, 2 decl(s) · `Statlib/Mathlib/EmpiricalProcess/VWChainingInduction.lean:313`
+- [sum_inner_sq_eq_one_of_unit](sum_inner_sq_eq_one_of_unit.md) — lemma, 2 decl(s) · `Statlib/Mathlib/Analysis/DavisKahanSquaredSin.lean:82`
+- [Tendsto_argmax_of_skorohod](Tendsto_argmax_of_skorohod.md) — theorem, 5 decl(s) · `Statlib/Mathlib/ProbabilityTheory/SkorohodArgmax.lean:170`
+- [toHajekLeCam](toHajekLeCam.md) — def, 4 decl(s) · `Statlib/Mathlib/Statistics/LeCamThirdLemma.lean:259`
+- [toHajekLeCam_eq_viaThird_asymGaussian](toHajekLeCam_eq_viaThird_asymGaussian.md) — theorem, 13 decl(s) · `Statlib/Mathlib/Statistics/LeCamInstance.lean:274`
+- [toHajekLeCam_eq_viaThird_regular](toHajekLeCam_eq_viaThird_regular.md) — theorem, 13 decl(s) · `Statlib/Mathlib/Statistics/LeCamInstance.lean:283`
+- [toLeCamThirdLemma](toLeCamThirdLemma.md) — def, 4 decl(s) · `Statlib/Mathlib/Statistics/LeCamThirdLemma.lean:219`
+- [toOpNormBound](toOpNormBound.md) — noncomputable def, 4 decl(s) · `Statlib/Mathlib/ProbabilityTheory/CoxCovOpNormBound.lean:194`
+- [unifConv_of_VWConclusion](unifConv_of_VWConclusion.md) — theorem, 5 decl(s) · `Statlib/Mathlib/EmpiricalProcess/VWChaining.lean:555`
+- [univariate_clt_via_charFun](univariate_clt_via_charFun.md) — theorem, 2 decl(s) · `Statlib/Mathlib/ProbabilityTheory/UnivariateCLTBridge.lean:125`
+- [vw_2_14_9](vw_2_14_9.md) — def, 2 decl(s) · `Statlib/Mathlib/EmpiricalProcess/VWChaining.lean:538`
+- [vw_2_14_9_concrete_of_uniform_layer_bound](vw_2_14_9_concrete_of_uniform_layer_bound.md) — lemma, 8 decl(s) · `Statlib/Mathlib/EmpiricalProcess/VWChainingInduction.lean:364`
+- [VWConclusion.toCoxChangePoint](VWConclusion.toCoxChangePoint.md) — def, 3 decl(s) · `Statlib/Mathlib/EmpiricalProcess/VWChaining.lean:616`
+- [WeakConvImpliesSkorohod](WeakConvImpliesSkorohod.md) — def, 2 decl(s) · `Statlib/Mathlib/ProbabilityTheory/SkorohodArgmax.lean:124`
