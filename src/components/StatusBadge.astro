@@ -1,0 +1,19 @@
+---
+import type { TheoremStatus } from "../data/theorems";
+
+interface Props {
+  status: TheoremStatus;
+}
+const { status } = Astro.props;
+
+const map: Record<TheoremStatus, { label: string; cls: string }> = {
+  proved: { label: "proved", cls: "bg-emerald-100 text-emerald-700" },
+  wip: { label: "in progress", cls: "bg-amber-100 text-amber-700" },
+  planned: { label: "planned", cls: "bg-gray-100 text-gray-500" },
+};
+const { label, cls } = map[status];
+---
+
+<span class:list={["inline-flex shrink-0 rounded-full px-2 py-0.5 text-xs font-medium", cls]}>
+  {label}
+</span>

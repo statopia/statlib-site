@@ -1,0 +1,53 @@
+---
+import Layout from "../layouts/Layout.astro";
+
+// When the report is ready, flip this to true and fill in the links below.
+const published = false;
+const reportPdfUrl = "#"; // e.g. "/statlib-report.pdf" or an arXiv link
+const arxivUrl = "#";
+---
+
+<Layout title="Technical Report" description="Technical report describing the statlib pipeline and results.">
+  <section class="mx-auto max-w-3xl px-6 py-16">
+    <h1 class="text-3xl font-bold tracking-tight text-ink">Technical report</h1>
+
+    {
+      published ? (
+        <div class="mt-6">
+          <p class="text-lg text-ink-soft">
+            Read the full technical report describing the method, evaluation, and
+            results behind statlib.
+          </p>
+          <div class="mt-8 flex flex-wrap gap-4">
+            <a
+              href={reportPdfUrl}
+              class="rounded-lg bg-accent px-5 py-3 text-sm font-semibold text-white transition hover:bg-accent/90"
+            >
+              Download PDF
+            </a>
+            <a
+              href={arxivUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              class="rounded-lg border border-gray-300 px-5 py-3 text-sm font-semibold text-ink transition hover:bg-gray-50"
+            >
+              View on arXiv →
+            </a>
+          </div>
+        </div>
+      ) : (
+        <div class="mt-6 rounded-xl border border-dashed border-gray-300 bg-gray-50 p-10 text-center">
+          <p class="font-mono text-sm font-medium text-accent">Coming soon</p>
+          <h2 class="mt-2 text-xl font-semibold text-ink">
+            The technical report is in preparation.
+          </h2>
+          <p class="mx-auto mt-3 max-w-md text-sm text-ink-soft">
+            It will cover the formalize-and-prove pipeline, statement-integrity
+            guarantees, and an evaluation of coverage across the library. Check
+            back soon, or follow the repository for updates.
+          </p>
+        </div>
+      )
+    }
+  </section>
+</Layout>

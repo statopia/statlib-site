@@ -1,0 +1,92 @@
+---
+import Layout from "../layouts/Layout.astro";
+import StatusBadge from "../components/StatusBadge.astro";
+import { topics } from "../data/theorems";
+import { site } from "../data/site";
+
+const total = topics.reduce((n, t) => n + t.theorems.length, 0);
+const proved = topics.reduce(
+  (n, t) => n + t.theorems.filter((th) => th.status === "proved").length,
+  0,
+);
+---
+
+<Layout title="Library" description={`Catalog of ${total} formalized statements in ${site.name}.`}>
+  <section class="mx-auto max-w-6xl px-6 py-16">
+    <h1 class="text-3xl font-bold tracking-tight text-ink">Library catalog</h1>
+    <p class="mt-3 max-w-2xl text-ink-soft">
+      {total} statements across {topics.length} topic areas — {proved} fully
+      machine-checked so far. Use the search box to filter.
+    </p>
+
+    <!-- Client-side filter. No framework needed; vanilla JS over the rendered list. -->
+    <input
+      id="filter"
+      type="search"
+      placeholder="Filter by name, topic, or Lean declaration…"
+      class="mt-8 w-full rounded-lg border border-gray-300 px-4 py-3 text-sm focus:border-accent focus:outline-none focus:ring-2 focus:ring-accent/20"
+    />
+
+    <div class="mt-12 space-y-16">
+      {
+        topics.map((t) => (
+          <section id={t.id} data-topic class="scroll-mt-24">
+            <div class="flex items-baseline justify-between border-b border-gray-200 pb-3">
+              <h2 class="text-xl font-semibold text-ink">{t.title}</h2>
+              <span class="font-mono text-xs text-gray-400">#{t.id}</span>
+            </div>
+            <p class="mt-2 text-sm text-ink-soft">{t.summary}</p>
+
+            <ul class="mt-6 divide-y divide-gray-100">
+              {t.theorems.map((th) => (
+                <li
+                  data-row
+                  data-search={`${th.name} ${t.title} ${th.lean ?? ""} ${th.blurb}`.toLowerCase()}
+                  class="flex flex-col gap-2 py-4 sm:flex-row sm:items-start sm:justify-between"
+                >
+                  <div class="min-w-0">
+                    <div class="flex items-center gap-3">
+                      <h3 class="font-medium text-ink">{th.name}</h3>
+                      <StatusBadge status={th.status} />
+                    </div>
+                    <p class="mt-1 text-sm text-ink-soft">{th.blurb}</p>
+                  </div>
+                  {th.lean && (
+                    <code class="shrink-0 font-mono text-xs text-gray-400 sm:text-right">
+                      {th.lean}
+                    </code>
+                  )}
+                </li>
+              ))}
+            </ul>
+          </section>
+        ))
+      }
+    </div>
+
+    <p id="empty" class="mt-12 hidden text-center text-ink-soft">No matches.</p>
+  </section>
+</Layout>
+
+<script>
+  // Minimal vanilla filter — hides rows + whole topic sections that have no match.
+  const input = document.getElementById("filter") as HTMLInputElement | null;
+  const rows = Array.from(document.querySelectorAll<HTMLElement>("[data-row]"));
+  const sections = Array.from(document.querySelectorAll<HTMLElement>("[data-topic]"));
+  const empty = document.getElementById("empty");
+
+  input?.addEventListener("input", () => {
+    const q = input.value.trim().toLowerCase();
+    rows.forEach((row) => {
+      const hit = !q || (row.dataset.search ?? "").includes(q);
+      row.classList.toggle("hidden", !hit);
+    });
+    let anyVisible = false;
+    sections.forEach((sec) => {
+      const visible = sec.querySelectorAll("[data-row]:not(.hidden)").length > 0;
+      sec.classList.toggle("hidden", !visible);
+      if (visible) anyVisible = true;
+    });
+    empty?.classList.toggle("hidden", anyVisible);
+  });
+</script>
