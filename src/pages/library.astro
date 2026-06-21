@@ -3,6 +3,7 @@ import Layout from "../layouts/Layout.astro";
 import StatusBadge from "../components/StatusBadge.astro";
 import Math from "../components/Math.astro";
 import { topics } from "../data/theorems";
+import { modules } from "../data/modules";
 import { site } from "../data/site";
 
 const total = topics.reduce((n, t) => n + t.theorems.length, 0);
@@ -10,17 +11,26 @@ const proved = topics.reduce(
   (n, t) => n + t.theorems.filter((th) => th.status === "proved").length,
   0,
 );
+
+// Resolve each module's topic objects, in order.
+const grouped = modules.map((m) => ({
+  module: m,
+  topics: m.topicIds
+    .map((id) => topics.find((t) => t.id === id))
+    .filter((t): t is (typeof topics)[number] => t !== undefined),
+}));
 ---
 
 <Layout title="Library" description={`Catalog of ${total} formalized statements in ${site.name}.`}>
   <section class="mx-auto max-w-5xl px-6 py-16">
     <h1 class="font-serif text-3xl font-semibold tracking-tight text-ink">Library catalog</h1>
     <p class="mt-3 max-w-2xl text-ink-soft">
-      {total} statements across {topics.length} topic areas — {proved} fully
-      machine-checked so far. Filter by name, topic, or Lean declaration. Each
-      entry lives under <code class="font-mono text-sm">Statlib.&lt;Area&gt;</code>;
-      import the whole library with <code class="font-mono text-sm">import Statlib</code>,
-      or a single topic for faster builds.
+      {total} statements in {modules.length} modules ({topics.length} topic areas) —
+      {proved} fully machine-checked so far. Filter by name, topic, or Lean
+      declaration. Each entry lives under
+      <code class="font-mono text-sm">Statlib.&lt;Area&gt;</code>; import the whole
+      library with <code class="font-mono text-sm">import Statlib</code>, or a single
+      topic for faster builds.
     </p>
 
     <!-- Client-side filter. No framework needed; vanilla JS over the rendered list. -->
@@ -31,43 +41,58 @@ const proved = topics.reduce(
       class="mt-8 w-full rounded-md border border-line bg-surface px-4 py-2.5 text-sm focus:border-accent focus:outline-none focus:ring-2 focus:ring-accent/20"
     />
 
-    <div class="mt-12 space-y-14">
+    <div class="mt-12 space-y-16">
       {
-        topics.map((t, ti) => (
-          <section id={t.id} data-topic class="scroll-mt-24">
-            <div class="flex items-baseline gap-3 border-b border-line pb-3">
-              <span class="font-mono text-sm text-faint">{ti + 1}</span>
-              <h2 class="font-serif text-xl font-semibold text-ink">{t.title}</h2>
-              <span class="ml-auto font-mono text-xs text-faint">#{t.id}</span>
+        grouped.map(({ module: m, topics: mTopics }, mi) => (
+          <section data-module class="scroll-mt-24">
+            <div id={m.id} class="scroll-mt-24 rounded-lg border border-line bg-surface p-6">
+              <div class="flex flex-wrap items-baseline gap-x-3 gap-y-1">
+                <span class="font-mono text-sm text-faint">{mi + 1}</span>
+                <h2 class="font-serif text-2xl font-semibold text-ink">{m.title}</h2>
+                <code class="font-mono text-xs text-accent">{m.lean}</code>
+              </div>
+              <p class="mt-2 text-sm leading-relaxed text-ink-soft">{m.summary}</p>
             </div>
-            <p class="mt-2 text-sm text-ink-soft">{t.summary}</p>
 
-            <ul class="mt-5 divide-y divide-line">
-              {t.theorems.map((th, i) => (
-                <li
-                  data-row
-                  data-search={`${th.name} ${t.title} ${th.lean ?? ""} ${th.blurb}`.toLowerCase()}
-                  class="py-5"
-                >
-                  <div class="flex items-baseline gap-3">
-                    <span class="font-mono text-xs text-faint">{ti + 1}.{i + 1}</span>
-                    <h3 class="font-serif text-lg font-semibold text-ink">{th.name}</h3>
-                    <span class="ml-auto">
-                      <StatusBadge status={th.status} />
-                    </span>
+            <div class="mt-8 space-y-12">
+              {mTopics.map((t, ti) => (
+                <section id={t.id} data-topic class="scroll-mt-24">
+                  <div class="flex items-baseline gap-3 border-b border-line pb-3">
+                    <span class="font-mono text-sm text-faint">{mi + 1}.{ti + 1}</span>
+                    <h3 class="font-serif text-xl font-semibold text-ink">{t.title}</h3>
+                    <span class="ml-auto font-mono text-xs text-faint">#{t.id}</span>
                   </div>
-                  {th.latex && (
-                    <div class="mt-2 overflow-x-auto pl-7 text-ink">
-                      <Math expr={th.latex} display />
-                    </div>
-                  )}
-                  <p class="mt-2 pl-7 text-sm text-ink-soft">{th.blurb}</p>
-                  {th.lean && (
-                    <code class="mt-2 block pl-7 font-mono text-xs text-faint">{th.lean}</code>
-                  )}
-                </li>
+                  <p class="mt-2 text-sm text-ink-soft">{t.summary}</p>
+
+                  <ul class="mt-5 divide-y divide-line">
+                    {t.theorems.map((th, i) => (
+                      <li
+                        data-row
+                        data-search={`${th.name} ${t.title} ${m.title} ${th.lean ?? ""} ${th.blurb}`.toLowerCase()}
+                        class="py-5"
+                      >
+                        <div class="flex items-baseline gap-3">
+                          <span class="font-mono text-xs text-faint">{mi + 1}.{ti + 1}.{i + 1}</span>
+                          <h4 class="font-serif text-lg font-semibold text-ink">{th.name}</h4>
+                          <span class="ml-auto">
+                            <StatusBadge status={th.status} />
+                          </span>
+                        </div>
+                        {th.latex && (
+                          <div class="mt-2 overflow-x-auto pl-7 text-ink">
+                            <Math expr={th.latex} display />
+                          </div>
+                        )}
+                        <p class="mt-2 pl-7 text-sm text-ink-soft">{th.blurb}</p>
+                        {th.lean && (
+                          <code class="mt-2 block pl-7 font-mono text-xs text-faint">{th.lean}</code>
+                        )}
+                      </li>
+                    ))}
+                  </ul>
+                </section>
               ))}
-            </ul>
+            </div>
           </section>
         ))
       }
@@ -78,10 +103,12 @@ const proved = topics.reduce(
 </Layout>
 
 <script>
-  // Minimal vanilla filter — hides rows + whole topic sections that have no match.
+  // Minimal vanilla filter — hides rows, then topic sections and module groups
+  // that have no visible rows.
   const input = document.getElementById("filter") as HTMLInputElement | null;
   const rows = Array.from(document.querySelectorAll<HTMLElement>("[data-row]"));
-  const sections = Array.from(document.querySelectorAll<HTMLElement>("[data-topic]"));
+  const topicSections = Array.from(document.querySelectorAll<HTMLElement>("[data-topic]"));
+  const moduleSections = Array.from(document.querySelectorAll<HTMLElement>("[data-module]"));
   const empty = document.getElementById("empty");
 
   input?.addEventListener("input", () => {
@@ -91,10 +118,14 @@ const proved = topics.reduce(
       row.classList.toggle("hidden", !hit);
     });
     let anyVisible = false;
-    sections.forEach((sec) => {
+    topicSections.forEach((sec) => {
       const visible = sec.querySelectorAll("[data-row]:not(.hidden)").length > 0;
       sec.classList.toggle("hidden", !visible);
       if (visible) anyVisible = true;
+    });
+    moduleSections.forEach((sec) => {
+      const visible = sec.querySelectorAll("[data-topic]:not(.hidden)").length > 0;
+      sec.classList.toggle("hidden", !visible);
     });
     empty?.classList.toggle("hidden", anyVisible);
   });
