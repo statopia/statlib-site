@@ -66,9 +66,9 @@ const highlights = topics
       <h2 class="font-serif text-2xl font-semibold tracking-tight text-ink">What's inside</h2>
     </div>
     <p class="mt-3 max-w-2xl text-ink-soft">
-      The library is organized into topic areas spanning probability, asymptotics,
-      estimation, and concentration. Each statement is a real result from the
-      literature, formalized against Mathlib.
+      statlib is organized by domain. Each area provides reusable definitions and
+      representative theorems — chosen to clarify the structure of a field and to
+      be built on, not one-off encodings — all formalized against Mathlib.
     </p>
 
     <div class="mt-10 grid gap-px overflow-hidden rounded-lg border border-line bg-line sm:grid-cols-2">
@@ -128,11 +128,12 @@ const highlights = topics
   <!-- CTA -->
   <section class="mx-auto max-w-5xl px-6 py-20 text-center">
     <h2 class="font-serif text-2xl font-semibold tracking-tight text-ink">
-      How the proofs get built
+      Design &amp; construction
     </h2>
     <p class="mx-auto mt-3 max-w-xl text-ink-soft">
-      statlib is produced by an automated formalize-and-prove pipeline. A
-      technical report describing the method is in preparation.
+      statlib aims to fill a foundation gap — reusable, machine-checked
+      infrastructure for statistics and machine learning, built only on Mathlib.
+      A technical report on its design and construction method is in preparation.
     </p>
     <div class="mt-8 flex justify-center gap-3">
       <a href="/approach" class="rounded-md bg-accent px-5 py-2.5 text-sm font-semibold text-white transition hover:bg-accent/90">

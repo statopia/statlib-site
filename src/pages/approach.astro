@@ -1,57 +1,110 @@
 ---
 import Layout from "../layouts/Layout.astro";
 
-// The pipeline stages — EDIT to match the real method described in the report.
-const steps = [
+// Design principles — from the statlib README §2 (architecture philosophy).
+const principles = [
   {
-    title: "Source the statement",
-    body: "Theorems are taken from the statistics & probability literature and rendered into a precise mathematical specification.",
+    title: "Reusable over one-off",
+    body: "Prefer reusable definitions and theorem statements over one-off encodings. The aim is infrastructure later work can build on, not isolated results that are hard to apply elsewhere.",
   },
   {
-    title: "Formalize in Lean",
-    body: "The specification is translated into a Lean 4 statement against Mathlib, with the signature locked so the target can't be silently weakened.",
+    title: "Organized by domain",
+    body: "Material is found by mathematical topic, not by the paper it came from. Topic boundaries are kept clear enough that users can import only what they need.",
   },
   {
-    title: "Prove automatically",
-    body: "An automated prover decomposes the goal, searches for tactics, and fills the proof — iterating against the Lean compiler until it closes.",
+    title: "Representative & exposed",
+    body: "Each area collects representative results that clarify the structure of a field — and exposes the assumptions, intermediate lemmas, and vocabulary that make them reusable.",
   },
   {
-    title: "Verify & integrity-check",
-    body: "Independent checks confirm the final statement still matches the original specification before it enters the main library tree.",
+    title: "Machine-checked on Mathlib",
+    body: "The library depends only on Mathlib. Every statement is checked end to end by the Lean compiler — no gaps, no hand-waving.",
+  },
+];
+
+// Coverage roadmap — from the statlib README §1 (the order it aims to cover).
+const roadmap = [
+  {
+    title: "Basic probability",
+    body: "Probability spaces, random variables, distributions, expectation, variance, moments, independence, convergence, and related reusable properties.",
+  },
+  {
+    title: "Basic statistics",
+    body: "Statistical models, samples, estimators, risks and losses, tests, confidence statements, and asymptotic properties.",
+  },
+  {
+    title: "Classical statistical tools",
+    body: "Concentration inequalities, convergence theory, empirical processes, Gaussian tools, matrix/probabilistic estimates, and generalization-error machinery.",
+  },
+  {
+    title: "Machine-learning tools",
+    body: "Information-theoretic quantities, PAC-style statements, neural-network approximation results, and formal assumptions for models and algorithms.",
+  },
+  {
+    title: "Specialized domains",
+    body: "Areas that can grow independently while sharing the common definitions, notation, and proof infrastructure built underneath.",
   },
 ];
 ---
 
-<Layout title="Approach" description="How statlib's proofs are formalized and machine-checked.">
+<Layout title="Approach" description="statlib's design philosophy and coverage roadmap.">
   <article class="mx-auto max-w-3xl px-6 py-16">
-    <h1 class="font-serif text-3xl font-semibold tracking-tight text-ink">The approach</h1>
+    <h1 class="font-serif text-3xl font-semibold tracking-tight text-ink">Design &amp; approach</h1>
     <p class="mt-4 text-lg leading-relaxed text-ink-soft">
-      statlib is built by an automated formalize-and-prove pipeline. Every result
-      is machine-checked end to end — the goal is a library you can trust because
-      the compiler, not a person, signs off on each proof.
+      statlib exists to fill a foundation gap. Many statistical and
+      machine-learning arguments need basic formalized material that is missing,
+      scattered, or awkward to use. statlib provides that lower-level
+      infrastructure — and a growing set of usable formal results — on top of
+      Mathlib, so future formalization in statistics and ML has something to
+      build on.
     </p>
 
-    <ol class="mt-12 space-y-8">
+    <!-- Principles -->
+    <div class="mt-14 flex items-baseline gap-3">
+      <span class="font-mono text-sm text-faint">1</span>
+      <h2 class="font-serif text-2xl font-semibold tracking-tight text-ink">Design principles</h2>
+    </div>
+    <ol class="mt-8 space-y-7">
       {
-        steps.map((s, i) => (
-          <li class="flex gap-5 pl-1">
-            <span class="font-mono text-sm font-semibold text-accent">
-              {String(i + 1).padStart(2, "0")}
-            </span>
+        principles.map((p, i) => (
+          <li class="flex gap-5">
+            <span class="font-mono text-sm font-semibold text-accent">{String(i + 1).padStart(2, "0")}</span>
             <div>
-              <h2 class="font-serif text-lg font-semibold text-ink">{s.title}</h2>
-              <p class="mt-1 leading-relaxed text-ink-soft">{s.body}</p>
+              <h3 class="font-serif text-lg font-semibold text-ink">{p.title}</h3>
+              <p class="mt-1 leading-relaxed text-ink-soft">{p.body}</p>
             </div>
           </li>
         ))
       }
     </ol>
 
+    <!-- Roadmap -->
+    <div class="mt-16 flex items-baseline gap-3">
+      <span class="font-mono text-sm text-faint">2</span>
+      <h2 class="font-serif text-2xl font-semibold tracking-tight text-ink">Coverage roadmap</h2>
+    </div>
+    <p class="mt-3 leading-relaxed text-ink-soft">
+      statlib aims to cover, roughly in this order — each layer providing the
+      definitions and theorem patterns the next one builds on:
+    </p>
+    <ol class="mt-8 space-y-px overflow-hidden rounded-lg border border-line bg-line">
+      {
+        roadmap.map((r, i) => (
+          <li class="bg-surface p-5">
+            <div class="flex items-baseline gap-3">
+              <span class="font-mono text-xs text-faint">{i + 1}</span>
+              <h3 class="font-serif text-lg font-semibold text-ink">{r.title}</h3>
+            </div>
+            <p class="mt-1 pl-6 leading-relaxed text-ink-soft">{r.body}</p>
+          </li>
+        ))
+      }
+    </ol>
+
     <aside class="mt-16 rounded-lg border border-line bg-surface p-6">
-      <h2 class="font-serif text-lg font-semibold text-ink">Want the full method?</h2>
+      <h2 class="font-serif text-lg font-semibold text-ink">Construction method</h2>
       <p class="mt-2 text-sm text-ink-soft">
-        A technical report covering the pipeline, evaluation, and integrity
-        guarantees is in preparation.
+        A technical report on how statlib is constructed and verified is in
+        preparation.
       </p>
       <a href="/report" class="mt-4 inline-block text-sm font-semibold text-accent hover:underline">
         Go to the technical report →

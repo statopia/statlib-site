@@ -7,11 +7,12 @@ export const site = {
   name: "statlib",
   org: "statopia",
   // One-line positioning shown in the hero + meta description. EDIT ME.
-  tagline: "A machine-formalized library of statistics theorems in Lean 4.",
+  tagline: "A Lean 4 library for formalized statistics and machine learning.",
   description:
-    "statlib collects rigorously formalized theorems from statistics and " +
-    "probability — spanning concentration, limit theorems, tail behavior, and " +
-    "high-dimensional statistics — machine-checked end to end in Lean 4 / Mathlib.",
+    "statlib builds the foundational layer that statistical and machine-learning " +
+    "formalization needs — reusable definitions, common theorems, and proof " +
+    "infrastructure on top of Mathlib — rather than a handful of isolated " +
+    "showcase results.",
   // Links — point these at the real targets.
   githubUrl: "https://github.com/statopia/statlib",
   githubSiteUrl: "https://github.com/statopia/statlib-site",
