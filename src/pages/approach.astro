@@ -1,110 +1,130 @@
 ---
 import Layout from "../layouts/Layout.astro";
 
-// Design principles — from the statlib README §2 (architecture philosophy).
+// Architecture philosophy — statlib README §2.
 const principles = [
-  {
-    title: "Reusable over one-off",
-    body: "Prefer reusable definitions and theorem statements over one-off encodings. The aim is infrastructure later work can build on, not isolated results that are hard to apply elsewhere.",
-  },
-  {
-    title: "Organized by domain",
-    body: "Material is found by mathematical topic, not by the paper it came from. Topic boundaries are kept clear enough that users can import only what they need.",
-  },
-  {
-    title: "Representative & exposed",
-    body: "Each area collects representative results that clarify the structure of a field — and exposes the assumptions, intermediate lemmas, and vocabulary that make them reusable.",
-  },
-  {
-    title: "Machine-checked on Mathlib",
-    body: "The library depends only on Mathlib. Every statement is checked end to end by the Lean compiler — no gaps, no hand-waving.",
-  },
+  "Prefer reusable definitions and theorem statements over one-off encodings.",
+  "Keep topic boundaries clear enough that users can import only what they need.",
+  "Choose representative results that clarify the structure of a field.",
+  "Avoid long proof developments whose final statements are hard to apply elsewhere.",
+  "When adding specialized results, expose the assumptions, intermediate lemmas, and vocabulary that make them reusable.",
 ];
 
-// Coverage roadmap — from the statlib README §1 (the order it aims to cover).
-const roadmap = [
-  {
-    title: "Basic probability",
-    body: "Probability spaces, random variables, distributions, expectation, variance, moments, independence, convergence, and related reusable properties.",
-  },
-  {
-    title: "Basic statistics",
-    body: "Statistical models, samples, estimators, risks and losses, tests, confidence statements, and asymptotic properties.",
-  },
-  {
-    title: "Classical statistical tools",
-    body: "Concentration inequalities, convergence theory, empirical processes, Gaussian tools, matrix/probabilistic estimates, and generalization-error machinery.",
-  },
-  {
-    title: "Machine-learning tools",
-    body: "Information-theoretic quantities, PAC-style statements, neural-network approximation results, and formal assumptions for models and algorithms.",
-  },
-  {
-    title: "Specialized domains",
-    body: "Areas that can grow independently while sharing the common definitions, notation, and proof infrastructure built underneath.",
-  },
+// Construction workflow — statlib README §3 (Construction Method).
+const workflow = [
+  "Start from the smallest useful theorem or definition.",
+  "Put shared concepts in the vocabulary layer only when they are genuinely reusable.",
+  "Keep imports narrow — prefer topic-level dependencies, avoid broad root imports in leaf files.",
+  "Build the target module locally before expanding the proof.",
+  "Run lake build Statlib before submitting the change.",
+  "If the change creates a meaningful theorem chain, regenerate the proof narratives and inspect the dependency graph.",
+];
+
+// Near-term priorities — statlib README §3 (Near-Term Priorities).
+const priorities = [
+  "Clean up lint/style warnings in existing modules.",
+  "Discharge or replace the remaining named axiom where feasible.",
+  "Strengthen high-dimensional concentration, covariance, RIP, spectral perturbation, and regression chains.",
+  "Keep proof narratives and architecture diagrams useful as the dependency graph grows.",
 ];
 ---
 
-<Layout title="Approach" description="statlib's design philosophy and coverage roadmap.">
+<Layout title="Approach" description="statlib's architecture philosophy, construction method, and status.">
   <article class="mx-auto max-w-3xl px-6 py-16">
     <h1 class="font-serif text-3xl font-semibold tracking-tight text-ink">Design &amp; approach</h1>
     <p class="mt-4 text-lg leading-relaxed text-ink-soft">
-      statlib exists to fill a foundation gap. Many statistical and
-      machine-learning arguments need basic formalized material that is missing,
-      scattered, or awkward to use. statlib provides that lower-level
-      infrastructure — and a growing set of usable formal results — on top of
-      Mathlib, so future formalization in statistics and ML has something to
+      statlib is organized so that material is usable, not just present. Its
+      purpose is to support future formalization work — not to formalize one
+      textbook or collect impressive but hard-to-use isolated results. Each topic
+      aims to contain representative material exposed in a form later work can
       build on.
     </p>
 
-    <!-- Principles -->
+    <!-- Architecture -->
     <div class="mt-14 flex items-baseline gap-3">
       <span class="font-mono text-sm text-faint">1</span>
-      <h2 class="font-serif text-2xl font-semibold tracking-tight text-ink">Design principles</h2>
-    </div>
-    <ol class="mt-8 space-y-7">
-      {
-        principles.map((p, i) => (
-          <li class="flex gap-5">
-            <span class="font-mono text-sm font-semibold text-accent">{String(i + 1).padStart(2, "0")}</span>
-            <div>
-              <h3 class="font-serif text-lg font-semibold text-ink">{p.title}</h3>
-              <p class="mt-1 leading-relaxed text-ink-soft">{p.body}</p>
-            </div>
-          </li>
-        ))
-      }
-    </ol>
-
-    <!-- Roadmap -->
-    <div class="mt-16 flex items-baseline gap-3">
-      <span class="font-mono text-sm text-faint">2</span>
-      <h2 class="font-serif text-2xl font-semibold tracking-tight text-ink">Coverage roadmap</h2>
+      <h2 class="font-serif text-2xl font-semibold tracking-tight text-ink">Architecture</h2>
     </div>
     <p class="mt-3 leading-relaxed text-ink-soft">
-      statlib aims to cover, roughly in this order — each layer providing the
-      definitions and theorem patterns the next one builds on:
+      The library is organized by statistical and machine-learning
+      <span class="font-medium text-ink">domains</span> — you find material by
+      mathematical topic, not by the source a theorem came from. Inside each area,
+      the structure has two complementary parts:
     </p>
-    <ol class="mt-8 space-y-px overflow-hidden rounded-lg border border-line bg-line">
+    <div class="mt-6 grid gap-px overflow-hidden rounded-lg border border-line bg-line sm:grid-cols-2">
+      <div class="bg-surface p-5">
+        <h3 class="font-serif text-lg font-semibold text-ink">Concepts &amp; structures</h3>
+        <p class="mt-1 text-sm leading-relaxed text-ink-soft">
+          Names for the objects, assumptions, predicates, models, classes, and
+          reusable vocabulary specific to that area — easy to import and reuse.
+        </p>
+      </div>
+      <div class="bg-surface p-5">
+        <h3 class="font-serif text-lg font-semibold text-ink">Results &amp; proofs</h3>
+        <p class="mt-1 text-sm leading-relaxed text-ink-soft">
+          Theorems, lemmas, properties, and proof infrastructure for the main
+          subclasses and standard results in that area.
+        </p>
+      </div>
+    </div>
+    <ul class="mt-6 space-y-2">
       {
-        roadmap.map((r, i) => (
-          <li class="bg-surface p-5">
-            <div class="flex items-baseline gap-3">
-              <span class="font-mono text-xs text-faint">{i + 1}</span>
-              <h3 class="font-serif text-lg font-semibold text-ink">{r.title}</h3>
-            </div>
-            <p class="mt-1 pl-6 leading-relaxed text-ink-soft">{r.body}</p>
+        principles.map((p) => (
+          <li class="flex gap-3 text-ink-soft">
+            <span class="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-accent/60" />
+            <span class="leading-relaxed">{p}</span>
+          </li>
+        ))
+      }
+    </ul>
+
+    <!-- Construction method -->
+    <div class="mt-16 flex items-baseline gap-3">
+      <span class="font-mono text-sm text-faint">2</span>
+      <h2 class="font-serif text-2xl font-semibold tracking-tight text-ink">Construction method</h2>
+    </div>
+    <p class="mt-3 leading-relaxed text-ink-soft">
+      New material is added bottom-up, kept narrow, and verified before it grows:
+    </p>
+    <ol class="mt-6 space-y-4">
+      {
+        workflow.map((w, i) => (
+          <li class="flex gap-4">
+            <span class="font-mono text-sm font-semibold text-accent">{String(i + 1).padStart(2, "0")}</span>
+            <span class="leading-relaxed text-ink-soft">{w}</span>
           </li>
         ))
       }
     </ol>
 
+    <!-- Current status -->
+    <div class="mt-16 flex items-baseline gap-3">
+      <span class="font-mono text-sm text-faint">3</span>
+      <h2 class="font-serif text-2xl font-semibold tracking-tight text-ink">Current status</h2>
+    </div>
+    <p class="mt-3 leading-relaxed text-ink-soft">
+      <code class="rounded bg-accent-soft px-1.5 py-0.5 font-mono text-sm text-accent">lake build Statlib</code>
+      builds cleanly. The core tree has <span class="font-medium text-ink">zero <code class="font-mono text-sm">sorry</code></span>;
+      a single named axiom remains — a matrix Lieb trace step in high-dimensional
+      concentration — documented with its intended replacement path. The library
+      depends on <span class="font-medium text-ink">Mathlib only</span>.
+    </p>
+    <p class="mt-6 text-sm font-medium text-ink">Near-term priorities</p>
+    <ul class="mt-2 space-y-2">
+      {
+        priorities.map((p) => (
+          <li class="flex gap-3 text-ink-soft">
+            <span class="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-faint" />
+            <span class="leading-relaxed">{p}</span>
+          </li>
+        ))
+      }
+    </ul>
+
     <aside class="mt-16 rounded-lg border border-line bg-surface p-6">
-      <h2 class="font-serif text-lg font-semibold text-ink">Construction method</h2>
+      <h2 class="font-serif text-lg font-semibold text-ink">A technical report is coming</h2>
       <p class="mt-2 text-sm text-ink-soft">
-        A technical report on how statlib is constructed and verified is in
-        preparation.
+        A report on how statlib is constructed and verified is in preparation.
       </p>
       <a href="/report" class="mt-4 inline-block text-sm font-semibold text-accent hover:underline">
         Go to the technical report →

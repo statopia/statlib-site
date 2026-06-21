@@ -18,10 +18,10 @@ export const site = {
   githubSiteUrl: "https://github.com/statopia/statlib-site",
 };
 
-// Headline numbers for the hero strip — reflect the curated /library catalog
-// generated from the statlib `main` sources. Update when the catalog changes.
+// Headline numbers for the hero strip — grounded in the statlib README §3
+// (build status) and the curated /library catalog. Update when they change.
 export const stats: { label: string; value: string }[] = [
   { label: "Theorems cataloged", value: "48" },
-  { label: "Topic areas", value: "9" },
-  { label: "Machine-checked", value: "100%" },
+  { label: "sorry in the core", value: "0" },
+  { label: "Depends on", value: "Mathlib" },
 ];
