@@ -18,10 +18,10 @@ export const graphIndexUrl = `${graphBase}/index.html`;
 
 // Headline numbers — sourced from the artifact's INDEX.md. EDIT when refreshed.
 export const graphStats: { label: string; value: string }[] = [
-  { label: "Declarations (nodes)", value: "2,705" },
-  { label: "Dependencies (edges)", value: "4,738" },
-  { label: "Proof narratives", value: "869" },
-  { label: "Substantial developments", value: "98" },
+  { label: "Declarations (nodes)", value: "737" },
+  { label: "Dependencies (edges)", value: "1,534" },
+  { label: "Proof narratives", value: "126" },
+  { label: "Substantial developments", value: "37" },
 ];
 
 // A few large proof developments to feature as clickable previews.
@@ -33,39 +33,39 @@ export const featured: {
   svg: string;
 }[] = [
   {
-    name: "herbst_argument",
-    topic: "SubGaussian",
-    decls: 179,
-    svg: "SubGaussian/herbst_argument.svg",
+    name: "matrix_bernstein_rect",
+    topic: "High-dimensional",
+    decls: 133,
+    svg: "HighDim/matrix_bernstein_rect.svg",
   },
   {
-    name: "berry_esseen_theorem",
-    topic: "LimitTheorems",
-    decls: 93,
-    svg: "LimitTheorems/berry_esseen_theorem.svg",
+    name: "hanson_wright_isotropic",
+    topic: "High-dimensional",
+    decls: 106,
+    svg: "HighDim/hanson_wright_isotropic.svg",
   },
   {
-    name: "gaussian_poincare",
-    topic: "Gaussian",
-    decls: 81,
-    svg: "Gaussian/gaussian_poincare.svg",
+    name: "pca_eigvec_perturbation",
+    topic: "High-dimensional",
+    decls: 78,
+    svg: "HighDim/pca_eigvec_perturbation.svg",
   },
   {
-    name: "cox_consistency_end_to_end",
-    topic: "CoxChangePoint",
-    decls: 37,
-    svg: "CoxChangePoint/cox_consistency_end_to_end.svg",
-  },
-  {
-    name: "multivariate_clt",
-    topic: "LimitTheorems",
+    name: "multivariate_central_limit_theorem",
+    topic: "Limit theorems",
     decls: 28,
-    svg: "LimitTheorems/multivariate_clt.svg",
+    svg: "StatFoundation/multivariate_central_limit_theorem.svg",
   },
   {
-    name: "candes_tao_recovery",
-    topic: "CompressedSensing",
-    decls: 24,
-    svg: "CompressedSensing/candes_tao_recovery.svg",
+    name: "central_limit_theorem",
+    topic: "Limit theorems",
+    decls: 25,
+    svg: "StatFoundation/central_limit_theorem.svg",
+  },
+  {
+    name: "lindeberg_feller_central_limit_theorem",
+    topic: "Limit theorems",
+    decls: 21,
+    svg: "StatFoundation/lindeberg_feller_central_limit_theorem.svg",
   },
 ];

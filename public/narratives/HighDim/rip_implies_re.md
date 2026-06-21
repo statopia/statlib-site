@@ -1,16 +1,16 @@
 # Proof narrative — rip_implies_re
 
-Root: **rip_implies_re** (theorem) `Statlib/HighDim/RIPConstruction.lean:91` · topic `HighDim`
+Root: **rip_implies_re** (theorem) `Statlib/HighDim/Geometry/RIPConstruction.lean:1661` · topic `HighDim`
 Closure: 6 declarations across 4 files. Generated from `proof_graph.json` — no files were moved.
 
 Reading order (foundations first, headline last):
 
-    ◆ `IsSparse` — def · `Statlib/Vocabulary/Sparse.lean:36`  _(also used by 2: covering_number_sparse_ball, log_covering_number_sparse)_
-    ◆ `l2NormSq` — def · `Statlib/Regression/l2NormSq.lean:14`  _(also used by 7: IsRidgeEstimator.shrinkage_bound, elasticNetLoss, elasticNetLoss_nonneg, …)_
-  ◆ `SatisfiesRIP` — def · `Statlib/Vocabulary/DesignMatrix.lean:63`  _(also used by 2: subgaussian_rip_tail, subgaussian_rip_sample_complexity)_
-    ◆ `IsInCone` — def · `Statlib/Vocabulary/Sparse.lean:49`  _(also used by 1: lasso_cone_condition)_
-  ▣ `SatisfiesRE` — structure · `Statlib/Vocabulary/DesignMatrix.lean:43`  _(also used by 3: lasso_oracle_prediction, lasso_oracle_l1, lasso_oracle_l2)_
-★ `rip_implies_re` — theorem · `Statlib/HighDim/RIPConstruction.lean:91` **← headline**
+  ◆ `IsSparse` — def · `Statlib/HighDim/Vocabulary/Sparse.lean:36`  _(also used by 11: covering_number_sparse_ball, log_covering_number_sparse, isSparse_mono, …)_
+  ◆ `l2NormSq` — noncomputable def · `Statlib/HighDim/Vocabulary/Norms.lean:13`  _(also used by 30: matrixRowVec_norm_sq, offDiagCoeffVec_norm_sq_le_frobenius, offDiagCoeffVec_norm_sq_integral_le_frobenius, …)_
+  ◆ `SatisfiesRIP` — def · `Statlib/HighDim/Vocabulary/DesignMatrix.lean:62`  _(also used by 5: rip_cross_term_abs_le_half_delta_sum, rip_lower_restrictTo, rip_upper_restrictTo, …)_
+  ◆ `IsInCone` — def · `Statlib/HighDim/Vocabulary/Sparse.lean:49`  _(also used by 4: lasso_cone_condition, lasso_oracle_prediction, lasso_oracle_l1, …)_
+  ▣ `SatisfiesRE` — structure · `Statlib/HighDim/Vocabulary/DesignMatrix.lean:42`  _(also used by 3: lasso_oracle_prediction, lasso_oracle_l1, lasso_oracle_l2)_
+★ `rip_implies_re` — theorem · `Statlib/HighDim/Geometry/RIPConstruction.lean:1661` **← headline**
 
 ## Dependency diagram
 
@@ -28,6 +28,9 @@ flowchart TD
   n4 --> n1
   n5 --> n2
   n5 --> n4
+  n5 --> n3
+  n5 --> n1
+  n5 --> n0
   class n5 headline;
   classDef headline fill:#ffe08a,stroke:#d4a017,stroke-width:2px;
   classDef axiomNode fill:#ffd0d0,stroke:#c0392b,stroke-dasharray:4 2;
