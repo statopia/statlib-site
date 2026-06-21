@@ -1,0 +1,49 @@
+{
+  "id": "statistics",
+  "title": "Statistical inference & sufficiency",
+  "summary": "A measure-theoretic foundation for sufficient, ancillary, and complete statistics, culminating in the Lehmann-Scheffé and Basu theorems of classical estimation theory.",
+  "theorems": [
+    {
+      "name": "Lehmann-Scheffé theorem",
+      "lean": "lehmannScheffe_umvue",
+      "latex": "\\exists h,\\; \\mathbb{E}_\\theta[(h\\circ T - g(\\theta))^2] \\le \\mathbb{E}_\\theta[(\\delta' - g(\\theta))^2]\\ \\forall \\delta'\\text{ unbiased}",
+      "blurb": "If T is a complete sufficient statistic and δ is unbiased for g(θ), then a function of T is the unique uniformly minimum-variance unbiased estimator (UMVUE) of g(θ).",
+      "status": "proved"
+    },
+    {
+      "name": "Basu's theorem",
+      "lean": "basu_indepFun",
+      "latex": "T \\text{ complete sufficient},\\ V \\text{ ancillary} \\implies T \\perp\\!\\!\\!\\perp V \\text{ under each } P_i",
+      "blurb": "A boundedly complete sufficient statistic is independent of every ancillary statistic under each measure in the family.",
+      "status": "proved"
+    },
+    {
+      "name": "Conditioning reduces MSE",
+      "lean": "condExp_reduces_mse",
+      "latex": "\\int (\\mathbb{E}[f\\mid m] - c)^2 \\, d\\mu \\le \\int (f - c)^2 \\, d\\mu",
+      "blurb": "The Rao-Blackwell L² projection step: replacing an estimator by its conditional expectation given a sub-σ-algebra never increases mean squared error.",
+      "status": "proved"
+    },
+    {
+      "name": "Completeness uniqueness of unbiased estimators",
+      "lean": "ae_eq_of_complete_unbiased",
+      "latex": "T \\text{ complete},\\ \\mathbb{E}_\\theta[f_i\\circ T]=g(\\theta) \\implies f_1\\circ T \\stackrel{a.e.}{=} f_2\\circ T",
+      "blurb": "Under a complete statistic, any two unbiased σ(T)-measurable estimators of the same parameter coincide almost everywhere.",
+      "status": "proved"
+    },
+    {
+      "name": "Sufficiency invariance of conditional expectation",
+      "lean": "condExp_eq_of_sufficient",
+      "latex": "T \\text{ sufficient} \\implies \\mathbb{E}_{\\theta_1}[f\\mid \\sigma(T)] \\stackrel{a.e.}{=} \\mathbb{E}_{\\theta_2}[f\\mid \\sigma(T)]",
+      "blurb": "If T is sufficient, the conditional expectation given σ(T) does not depend on the parameter θ.",
+      "status": "proved"
+    },
+    {
+      "name": "Parametric family and sufficiency vocabulary",
+      "lean": "ParametricFamily",
+      "latex": "P : \\Theta \\to \\mathrm{Measure}(\\Omega),\\quad \\forall\\theta\\ \\text{IsProbabilityMeasure}(P_\\theta)",
+      "blurb": "The headline structure modeling a parametric family of probability measures, underpinning the definitions of sufficient, complete, ancillary, and unbiased statistics.",
+      "status": "proved"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": "spectral",
+  "title": "Spectral perturbation",
+  "summary": "Quantitative bounds on how a matrix's eigenvalues and eigenvectors move under perturbation, applied to high-dimensional PCA via sample-covariance concentration.",
+  "theorems": [
+    {
+      "name": "Weyl's inequality (per-index form)",
+      "lean": "weyl_sorted",
+      "latex": "|\\tilde\\lambda_k(A+E) - \\tilde\\lambda_k(A)| \\le \\lVert E\\rVert_{\\mathrm{op}}",
+      "blurb": "Each sorted eigenvalue of a Hermitian matrix moves by at most the operator norm of the perturbation.",
+      "status": "proved"
+    },
+    {
+      "name": "Davis-Kahan eigenvector bound",
+      "lean": "davis_kahan_eigvec",
+      "latex": "\\exists\\,\\hat u:\\ \\lVert \\hat u - u\\rVert_2 \\le \\tfrac{4\\lVert E\\rVert_{\\mathrm{op}}}{\\Delta}",
+      "blurb": "For a simple eigenvalue with eigengap Δ and a small symmetric perturbation, the perturbed unit eigenvector stays within 4‖E‖/Δ of the original.",
+      "status": "proved"
+    },
+    {
+      "name": "Davis-Kahan subspace bound (rank-r)",
+      "lean": "davis_kahan_subspace",
+      "latex": "\\lVert \\hat U\\hat U^\\top - UU^\\top\\rVert_F^2 \\le \\left(\\tfrac{2r\\lVert E\\rVert_{\\mathrm{op}}}{\\Delta}\\right)^2",
+      "blurb": "The r-dimensional invariant subspace of a Hermitian matrix is stable in Frobenius distance, controlled by the spectral gap separating the eigenvalue cluster.",
+      "status": "proved"
+    },
+    {
+      "name": "PCA eigenvector perturbation via covariance concentration",
+      "lean": "pca_eigvec_perturbation",
+      "latex": "\\lVert \\hat u_k - u_k\\rVert_2 \\le \\tfrac{2C\\sigma^2}{\\Delta}\\sqrt{\\tfrac{n+\\log(2/\\delta)}{m}}",
+      "blurb": "With high probability the empirical eigenvector from m sub-Gaussian samples converges to the population eigenvector at a rate set by dimension, sample size, and eigengap.",
+      "status": "proved"
+    }
+  ]
+}

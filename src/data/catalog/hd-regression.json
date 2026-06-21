@@ -1,0 +1,42 @@
+{
+  "id": "hd-regression",
+  "title": "High-dimensional regression",
+  "summary": "Oracle inequalities for the LASSO estimator in sparse high-dimensional linear models, bounding prediction and estimation error under the Restricted Eigenvalue condition.",
+  "theorems": [
+    {
+      "name": "LASSO solution (minimizer of the LASSO objective)",
+      "lean": "IsLassoSolution",
+      "latex": "\\hat\\beta \\in \\arg\\min_{\\beta}\\ \\tfrac{1}{2m}\\|y-X\\beta\\|_2^2 + \\lambda\\|\\beta\\|_1",
+      "blurb": "Defines the LASSO estimator as a minimizer of the squared-error plus L1-penalty objective over all coefficient vectors.",
+      "status": "proved"
+    },
+    {
+      "name": "LASSO oracle prediction-error bound",
+      "lean": "lasso_oracle_prediction",
+      "latex": "\\tfrac{1}{m}\\|X(\\hat\\beta-\\beta^\\star)\\|_2^2 \\le \\frac{16\\,\\lambda^2 s}{\\kappa^2}",
+      "blurb": "Under the Restricted Eigenvalue condition RE(s,3,κ) and a noise control on λ, the in-sample prediction error of the LASSO is bounded by a sparsity-scaled multiple of λ².",
+      "status": "proved"
+    },
+    {
+      "name": "LASSO oracle L1 estimation bound",
+      "lean": "lasso_oracle_l1",
+      "latex": "\\|\\hat\\beta-\\beta^\\star\\|_1 \\le \\frac{8\\,\\lambda s}{\\kappa^2}",
+      "blurb": "The L1 estimation error of the LASSO is bounded by a sparsity-scaled multiple of λ under the Restricted Eigenvalue condition.",
+      "status": "proved"
+    },
+    {
+      "name": "LASSO oracle L2 (support-restricted) bound",
+      "lean": "lasso_oracle_l2",
+      "latex": "\\sum_{j\\in S}(\\hat\\beta_j-\\beta^\\star_j)^2 \\le \\Big(\\frac{4\\lambda}{\\kappa^2}\\Big)^2 s",
+      "blurb": "The squared L2 estimation error restricted to the true support S is bounded by a sparsity-scaled function of λ and the RE constant κ.",
+      "status": "proved"
+    },
+    {
+      "name": "LASSO cone condition",
+      "lean": "lasso_cone_condition",
+      "latex": "\\|(\\hat\\beta-\\beta^\\star)_{S^c}\\|_1 \\le 3\\,\\|(\\hat\\beta-\\beta^\\star)_{S}\\|_1",
+      "blurb": "Any LASSO solution's error vector lies in the cone where off-support L1 mass is at most three times the on-support L1 mass, enabling the RE condition to apply.",
+      "status": "proved"
+    }
+  ]
+}

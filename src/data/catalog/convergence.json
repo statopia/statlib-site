@@ -1,0 +1,49 @@
+{
+  "id": "convergence",
+  "title": "Convergence & limit theorems",
+  "summary": "Formalizes the central limit theorems (IID, Lindeberg-Feller, multivariate), the Lévy continuity and Cramér-Wold tools behind weak convergence, and uniform laws of large numbers including Glivenko-Cantelli.",
+  "theorems": [
+    {
+      "name": "Central Limit Theorem (IID)",
+      "lean": "central_limit_theorem",
+      "latex": "\\frac{S_n}{\\sigma\\sqrt{n}} \\xrightarrow{d} \\mathcal{N}(0,1)",
+      "blurb": "For i.i.d. centered random variables with finite variance and third moment, the standardized partial sums converge in distribution to the standard normal.",
+      "status": "proved"
+    },
+    {
+      "name": "Lindeberg-Feller Central Limit Theorem",
+      "lean": "lindeberg_feller_central_limit_theorem",
+      "latex": "\\frac{\\sum_{j} X_{n,j}}{s_n} \\xrightarrow{d} \\mathcal{N}(0,1) \\text{ under Lindeberg's condition}",
+      "blurb": "A triangular array of independent, centered row-variables whose normalized sums satisfy the Lindeberg condition converges in distribution to the standard normal.",
+      "status": "proved"
+    },
+    {
+      "name": "Multivariate Central Limit Theorem",
+      "lean": "multivariate_central_limit_theorem",
+      "latex": "\\langle c, \\tfrac{1}{\\sqrt{n}}\\sum_{i} X_i\\rangle \\xrightarrow{d} \\mathcal{N}(0,\\sigma_c^2)",
+      "blurb": "For i.i.d. random vectors, every one-dimensional projection of the standardized sums converges to a Gaussian, giving the vector CLT via Cramér-Wold.",
+      "status": "proved"
+    },
+    {
+      "name": "Lévy Continuity Theorem",
+      "lean": "levy_continuity",
+      "latex": "\\varphi_{\\mu_n}(t) \\to f(t),\\ f \\text{ cont. at } 0 \\;\\Rightarrow\\; \\mu_n \\xrightarrow{w} \\mu_0",
+      "blurb": "Pointwise convergence of characteristic functions to a function continuous at zero implies weak convergence of the underlying probability measures.",
+      "status": "proved"
+    },
+    {
+      "name": "Cramér-Wold Theorem",
+      "lean": "cramer_wold_iff",
+      "latex": "\\mu_n \\xrightarrow{w} \\mu_0 \\iff \\forall c,\\ \\langle c, \\cdot\\rangle_*\\mu_n \\xrightarrow{w} \\langle c, \\cdot\\rangle_*\\mu_0",
+      "blurb": "Weak convergence of measures on a finite-dimensional space is equivalent to weak convergence of all one-dimensional linear projections.",
+      "status": "proved"
+    },
+    {
+      "name": "Glivenko-Cantelli Theorem",
+      "lean": "glivenko_cantelli_continuous_cdf",
+      "latex": "\\sup_{t} |F_n(t) - F(t)| \\xrightarrow{a.s.} 0",
+      "blurb": "For i.i.d. samples with continuous population CDF, the empirical CDF converges almost surely to the true CDF uniformly over the real line.",
+      "status": "proved"
+    }
+  ]
+}

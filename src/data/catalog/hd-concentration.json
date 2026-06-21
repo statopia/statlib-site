@@ -1,0 +1,49 @@
+{
+  "id": "hd-concentration",
+  "title": "High-dimensional concentration",
+  "summary": "Concentration inequalities for high-dimensional random objects — sub-Gaussian maxima, the matrix Bernstein inequality for sums of independent random matrices, and the Hanson-Wright bound for quadratic forms.",
+  "theorems": [
+    {
+      "name": "Matrix Bernstein inequality",
+      "lean": "matrix_bernstein",
+      "latex": "\\mathbb{P}\\!\\left(\\Big\\|\\sum_k X_k\\Big\\| \\ge t\\right) \\le 2n\\,\\exp\\!\\left(\\frac{-t^2/2}{\\sigma^2 + Rt/3}\\right)",
+      "blurb": "For a sum of independent, centered, Hermitian random matrices with spectral norm bounded by R and total variance σ², the operator norm of the sum has a Bernstein-type sub-exponential tail.",
+      "status": "proved"
+    },
+    {
+      "name": "Rectangular matrix Bernstein inequality",
+      "lean": "matrix_bernstein_rect",
+      "latex": "\\mathbb{P}\\!\\left(\\Big\\|\\sum_k X_k\\Big\\| \\ge t\\right) \\le (p+q)\\,\\exp\\!\\left(\\frac{-t^2/2}{\\sigma^2 + Rt/3}\\right)",
+      "blurb": "The matrix Bernstein bound extended to sums of independent centered rectangular p×q random matrices via Hermitian dilation, with variance the max of the two one-sided second-moment norms.",
+      "status": "proved"
+    },
+    {
+      "name": "Sub-Gaussian maximum tail bound",
+      "lean": "subgaussian_linf_tail",
+      "latex": "\\mathbb{P}\\!\\left(\\max_{i\\le n} |X_i| \\ge t\\right) \\le 2n\\,e^{-t^2/(2\\sigma^2)}",
+      "blurb": "A union bound giving a sub-Gaussian tail for the ℓ∞ norm (coordinate-wise maximum) of a centered sub-Gaussian random vector.",
+      "status": "proved"
+    },
+    {
+      "name": "Expected sub-Gaussian maximum bound",
+      "lean": "subgaussian_linf_expectation",
+      "latex": "\\mathbb{E}\\!\\left[\\max_{i\\le n} |X_i|\\right] \\le \\sigma\\sqrt{2\\log(2n)}",
+      "blurb": "The expected coordinate-wise maximum of a centered sub-Gaussian random vector grows only like σ times the square root of the log dimension.",
+      "status": "proved"
+    },
+    {
+      "name": "Hanson-Wright inequality",
+      "lean": "hanson_wright",
+      "latex": "\\mathbb{P}\\big(|X^\\top A X - \\mathbb{E}[X^\\top A X]| \\ge t\\big) \\le 2\\exp\\!\\left(-c\\min\\!\\Big(\\tfrac{t^2}{\\sigma^4\\|A\\|_F^2}, \\tfrac{t}{\\sigma^2\\|A\\|}\\Big)\\right)",
+      "blurb": "A quadratic form of a centered, independent-coordinate, sub-Gaussian random vector concentrates around its mean with a mixed sub-Gaussian / sub-exponential tail governed by the Frobenius and operator norms of A.",
+      "status": "proved"
+    },
+    {
+      "name": "Hanson-Wright inequality (isotropic)",
+      "lean": "hanson_wright_isotropic",
+      "latex": "\\mathbb{P}\\big(|X^\\top A X - \\operatorname{tr}A| \\ge t\\big) \\le 2\\exp\\!\\left(-c\\min\\!\\Big(\\tfrac{t^2}{\\sigma^4\\|A\\|_F^2}, \\tfrac{t}{\\sigma^2\\|A\\|}\\Big)\\right)",
+      "blurb": "The isotropic specialization of Hanson-Wright, where the centering term is exactly the trace of A.",
+      "status": "proved"
+    }
+  ]
+}

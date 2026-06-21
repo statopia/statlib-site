@@ -1,0 +1,42 @@
+{
+  "id": "covariance",
+  "title": "Covariance estimation",
+  "summary": "Concentration and unbiasedness guarantees for the sample second-moment (covariance) matrix estimator of high-dimensional sub-Gaussian random vectors.",
+  "theorems": [
+    {
+      "name": "Sample covariance matrix concentration",
+      "lean": "sampleCovariance_concentration",
+      "latex": "\\mathbb{P}\\big(\\|\\hat\\Sigma - \\Sigma\\| \\ge C\\sigma^2(\\sqrt{(n+t)/m} + (n+t)/m)\\big) \\le 2e^{-t}",
+      "blurb": "For i.i.d. centered sub-Gaussian vectors there is a universal constant so the sample second-moment matrix concentrates around the true covariance in operator norm with exponential tails.",
+      "status": "proved"
+    },
+    {
+      "name": "Sample covariance concentration (fixed-confidence form)",
+      "lean": "sampleCovariance_confidence",
+      "latex": "\\|\\hat\\Sigma - \\Sigma\\| \\le C\\sigma^2\\big(\\sqrt{(n+\\log(2/\\delta))/m} + (n+\\log(2/\\delta))/m\\big) \\text{ w.p. } \\ge 1-\\delta",
+      "blurb": "Restates the concentration bound as a high-probability operator-norm error guarantee holding with probability at least 1 minus delta.",
+      "status": "proved"
+    },
+    {
+      "name": "Unbiasedness of the sample second-moment estimator",
+      "lean": "sampleSecondMoment_unbiased",
+      "latex": "\\mathbb{E}[\\hat\\Sigma_{ij}] = \\Sigma_{ij} \\quad \\forall i,j",
+      "blurb": "Each entry of the sample second-moment matrix is an unbiased estimate of the corresponding entry of the population covariance matrix.",
+      "status": "proved"
+    },
+    {
+      "name": "Sample second-moment (covariance) matrix",
+      "lean": "sampleSecondMoment",
+      "latex": "\\hat\\Sigma(\\omega) = \\frac{1}{m}\\sum_{k=1}^m X_k(\\omega) X_k(\\omega)^\\top",
+      "blurb": "The headline estimator: the empirical average of outer products of the sample vectors, a random symmetric matrix.",
+      "status": "proved"
+    },
+    {
+      "name": "Isotropic norm concentration",
+      "lean": "isotropic_norm_concentration",
+      "latex": "\\mathbb{P}\\big(\\big|\\|X\\|^2 - n\\big| \\ge t\\big) \\le 2\\exp\\!\\big(-c\\min(t^2/(\\sigma^4 n),\\, t/\\sigma^2)\\big)",
+      "blurb": "An isotropic sub-Gaussian vector has squared norm tightly concentrated about its dimension n, with Bernstein-type sub-exponential tails.",
+      "status": "proved"
+    }
+  ]
+}

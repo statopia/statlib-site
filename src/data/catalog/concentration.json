@@ -1,0 +1,49 @@
+{
+  "id": "concentration",
+  "title": "Concentration inequalities",
+  "summary": "Tail and moment bounds controlling how sums and functions of independent (or martingale) random variables deviate from their means.",
+  "theorems": [
+    {
+      "name": "Hoeffding's inequality (sub-Gaussian sum)",
+      "lean": "hoeffding_sum_meas_ge_le_exp",
+      "latex": "\\mathbb{P}\\!\\left(\\sum_i X_i \\ge t\\right) \\le \\exp\\!\\left(\\frac{-t^2}{2\\sum_i \\sigma_i^2}\\right)",
+      "blurb": "For independent zero-mean sub-Gaussian variables, the probability the sum exceeds t decays like a Gaussian tail in t.",
+      "status": "proved"
+    },
+    {
+      "name": "Cramér–Chernoff bound",
+      "lean": "cramer_chernoff",
+      "latex": "\\mathbb{P}(X \\ge t) \\le e^{-\\lambda t}\\, \\mathbb{E}\\!\\left[e^{\\lambda X}\\right]",
+      "blurb": "The foundational moment-generating-function tail bound obtained by combining monotonicity of the exponential with Markov's inequality.",
+      "status": "proved"
+    },
+    {
+      "name": "Bernstein's inequality (sub-exponential sum)",
+      "lean": "bernstein_sum_meas_ge_le_exp",
+      "latex": "\\mathbb{P}\\!\\left(\\sum_i X_i \\ge t\\right) \\le \\exp\\!\\left(-\\tfrac12 \\min\\!\\left(\\tfrac{t^2}{\\sum_i \\sigma_i^2},\\, \\tfrac{t}{b_{\\max}}\\right)\\right)",
+      "blurb": "For independent zero-mean sub-exponential variables, the tail interpolates between Gaussian and exponential decay depending on the deviation scale.",
+      "status": "proved"
+    },
+    {
+      "name": "Azuma–Hoeffding inequality",
+      "lean": "azuma_sum_meas_ge_le_exp",
+      "latex": "\\mathbb{P}\\!\\left(\\sum_k d_k \\ge t\\right) \\le \\exp\\!\\left(\\frac{-t^2}{2\\sum_k c_k^2}\\right)",
+      "blurb": "A bounded martingale-difference sequence concentrates with a Gaussian-type tail, giving a martingale analogue of Hoeffding's inequality.",
+      "status": "proved"
+    },
+    {
+      "name": "McDiarmid's bounded-differences inequality",
+      "lean": "mcdiarmid_meas_ge_le_exp",
+      "latex": "\\mathbb{P}\\!\\left(f(X) - \\mathbb{E}f(X) \\ge t\\right) \\le \\exp\\!\\left(\\frac{-2t^2}{\\sum_i c_i^2}\\right)",
+      "blurb": "A function of independent variables that changes by at most c_i when one coordinate changes concentrates sharply around its mean.",
+      "status": "proved"
+    },
+    {
+      "name": "Efron–Stein inequality",
+      "lean": "efron_stein_inequality",
+      "latex": "\\mathrm{Var}\\big(f(X)\\big) \\le \\tfrac12 \\sum_i \\mathbb{E}\\!\\left[\\big(f(X) - f(X^{(i)})\\big)^2\\right]",
+      "blurb": "Bounds the variance of a function of independent variables by the expected squared effect of resampling each coordinate independently.",
+      "status": "proved"
+    }
+  ]
+}

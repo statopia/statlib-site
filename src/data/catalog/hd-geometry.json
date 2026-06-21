@@ -1,0 +1,42 @@
+{
+  "id": "hd-geometry",
+  "title": "High-dimensional geometry",
+  "summary": "Geometric foundations of high-dimensional statistics: covering numbers of Euclidean and sparse balls, Johnson-Lindenstrauss dimension reduction, and the restricted isometry property for random sub-Gaussian sensing matrices.",
+  "theorems": [
+    {
+      "name": "Covering number of the Euclidean unit ball",
+      "lean": "covering_number_euclidean_ball",
+      "latex": "N(B_2^n,\\varepsilon) \\le \\lceil 3/\\varepsilon \\rceil^{\\,n}",
+      "blurb": "The unit Euclidean ball in n dimensions admits an epsilon-cover of size at most ceil(3/epsilon)^n.",
+      "status": "proved"
+    },
+    {
+      "name": "Covering number lower bound (volumetric)",
+      "lean": "covering_number_euclidean_ball_lower",
+      "latex": "(1/\\varepsilon)^n \\le N(B_2^n,\\varepsilon)",
+      "blurb": "Any epsilon-cover of the unit ball must contain at least (1/epsilon)^n points, matching the upper bound up to constants.",
+      "status": "proved"
+    },
+    {
+      "name": "Johnson-Lindenstrauss embedding (probabilistic)",
+      "lean": "jl_distortion_probabilistic",
+      "latex": "\\Pr\\big[\\forall i,j:\\,(1-\\varepsilon)\\|v_{ij}\\|^2 \\le \\tfrac1k\\|\\Phi v_{ij}\\|^2 \\le (1+\\varepsilon)\\|v_{ij}\\|^2\\big] \\ge 1 - 2N^2 e^{-k\\varepsilon^2/4000}",
+      "blurb": "A random k-by-n sub-Gaussian projection preserves all pairwise distances among N points up to (1±epsilon) distortion with high probability.",
+      "status": "proved"
+    },
+    {
+      "name": "Restricted isometry property of sub-Gaussian matrices",
+      "lean": "subgaussian_rip_sample_complexity",
+      "latex": "m \\gtrsim \\sigma^4 s\\,\\log(en/s)/\\delta^2 \\;\\Rightarrow\\; \\Pr[X \\text{ is } (s,\\delta)\\text{-RIP}] \\ge 1 - 2e^{-c\\delta^2 m/\\sigma^4}",
+      "blurb": "An m-by-n matrix with i.i.d. isotropic sub-Gaussian rows satisfies the (s,delta) restricted isometry property with high probability once m exceeds order s·log(en/s)/delta^2.",
+      "status": "proved"
+    },
+    {
+      "name": "RIP implies restricted eigenvalue condition",
+      "lean": "rip_implies_re",
+      "latex": "(s,\\delta)\\text{-RIP},\\ \\delta < \\sqrt2 - 1 \\;\\Rightarrow\\; (s,3)\\text{-RE with constant } \\sqrt{1-\\delta(1+\\sqrt2)}",
+      "blurb": "A matrix satisfying RIP with small enough constant also satisfies the restricted eigenvalue condition used to guarantee Lasso/compressed-sensing recovery.",
+      "status": "proved"
+    }
+  ]
+}

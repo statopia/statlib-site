@@ -1,0 +1,42 @@
+{
+  "id": "random-variables",
+  "title": "Tail behavior of random variables",
+  "summary": "Concentration and tail-bound theory for sub-Gaussian and sub-exponential random variables, including Hoeffding-type MGF bounds and exponential tail inequalities.",
+  "theorems": [
+    {
+      "name": "Sub-Gaussian one-sided tail bound",
+      "lean": "subgaussian_meas_ge_le_exp",
+      "latex": "\\mathbb{P}(X \\ge t) \\le e^{-t^2/(2\\sigma^2)}",
+      "blurb": "A mean-zero sigma^2-sub-Gaussian random variable has its right tail bounded by a Gaussian exponential decay.",
+      "status": "proved"
+    },
+    {
+      "name": "Sub-Gaussian two-sided tail bound",
+      "lean": "subgaussian_meas_abs_ge_le_two_exp",
+      "latex": "\\mathbb{P}(|X| \\ge t) \\le 2\\,e^{-t^2/(2\\sigma^2)}",
+      "blurb": "A mean-zero sub-Gaussian random variable concentrates around zero with a two-sided exponential tail.",
+      "status": "proved"
+    },
+    {
+      "name": "Hoeffding's lemma (bounded implies sub-Gaussian)",
+      "lean": "subgaussian_mgf_le_of_bounded",
+      "latex": "a \\le X \\le b,\\ \\mathbb{E}X=0 \\implies X \\text{ is } \\tfrac{(b-a)^2}{4}\\text{-sub-Gaussian}",
+      "blurb": "A bounded mean-zero random variable is sub-Gaussian with proxy variance (b-a)^2/4, giving the classical Hoeffding MGF bound.",
+      "status": "proved"
+    },
+    {
+      "name": "Sub-exponential Bernstein tail bound",
+      "lean": "subexp_meas_ge_le_exp",
+      "latex": "\\mathbb{P}(X \\ge t) \\le \\exp\\!\\left(-\\tfrac{1}{2}\\min\\!\\left(\\tfrac{t^2}{\\sigma^2},\\tfrac{t}{b}\\right)\\right)",
+      "blurb": "A mean-zero sub-exponential random variable obeys a Bernstein-type tail that is Gaussian for small t and exponential for large t.",
+      "status": "proved"
+    },
+    {
+      "name": "Sub-exponential MGF bound for squared sub-Gaussian",
+      "lean": "subexp_mgf_le_of_sq_subgaussian",
+      "latex": "X \\text{ sub-Gaussian} \\implies X^2 \\text{ is sub-exponential}",
+      "blurb": "The square of a sub-Gaussian random variable is sub-exponential, with an explicit moment generating function bound.",
+      "status": "proved"
+    }
+  ]
+}
