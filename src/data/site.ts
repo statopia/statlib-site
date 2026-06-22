@@ -24,7 +24,6 @@ export const site = {
 //   find Statlib -name '*.lean' -exec cat {} + | wc -l               # lines
 //   grep -rhE '^[[:space:]]*theorem[[:space:]]' Statlib --include='*.lean' | wc -l  # theorems
 export const stats: { label: string; value: string }[] = [
-  { label: "Lean files", value: "135" },
   { label: "Lines of Lean", value: "44,978" },
   { label: "Theorems proved", value: "179" },
 ];
