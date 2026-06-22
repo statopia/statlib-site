@@ -1,0 +1,94 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Math from "../components/Math.astro";
+import { featuredThms } from "../data/featured";
+import { graphStats, graphIndexUrl, graphBase } from "../data/graph";
+---
+
+<Layout
+  title="Featured formalizations"
+  description="Representative statlib theorems shown as their real Lean statement, with the math and the proof's dependency graph."
+>
+  <article class="mx-auto max-w-4xl px-6 py-16">
+    <h1 class="font-serif text-3xl font-semibold tracking-tight text-ink">Featured formalizations</h1>
+    <p class="mt-4 max-w-2xl text-lg leading-relaxed text-ink-soft">
+      What does a real result look like inside statlib? Here are a few
+      representative theorems — the mathematical statement, the actual Lean
+      formalization (verbatim, proof omitted), and the dependency graph the proof
+      rests on.
+    </p>
+
+    <div class="mt-12 space-y-16">
+      {
+        featuredThms.map((f, i) => (
+          <section class="scroll-mt-24">
+            <div class="flex flex-wrap items-baseline gap-x-3 gap-y-1">
+              <span class="font-mono text-sm text-faint">{i + 1}</span>
+              <span class="font-mono text-xs uppercase tracking-wide text-accent">{f.module}</span>
+            </div>
+            <h2 class="mt-1 font-serif text-2xl font-semibold text-ink">{f.name}</h2>
+            <p class="mt-2 max-w-2xl leading-relaxed text-ink-soft">{f.blurb}</p>
+
+            {/* Math statement */}
+            <div class="mt-5 overflow-x-auto rounded-lg border border-line bg-surface px-5 py-4 text-ink">
+              <Math expr={f.math} display />
+            </div>
+
+            {/* Real Lean statement */}
+            <p class="mt-6 font-mono text-xs uppercase tracking-wide text-faint">In Lean</p>
+            <pre class="mt-2 overflow-x-auto rounded-lg bg-ink p-4 text-[13px] leading-relaxed text-paper"><code>{f.statement}</code></pre>
+            <p class="mt-2 font-mono text-xs text-faint">{f.leanFile}</p>
+
+            {/* Dependency diagram */}
+            <a
+              href={`${graphBase}/${f.svg}`}
+              target="_blank"
+              rel="noopener noreferrer"
+              class="group mt-5 block overflow-hidden rounded-lg border border-line bg-paper transition hover:border-accent/50"
+            >
+              <div class="flex max-h-72 items-center justify-center overflow-hidden p-4">
+                <img
+                  src={`${graphBase}/${f.svg}`}
+                  alt={`Dependency graph for ${f.name}`}
+                  loading="lazy"
+                  class="max-h-64 max-w-full object-contain opacity-90 transition group-hover:opacity-100"
+                />
+              </div>
+              <div class="border-t border-line px-4 py-2 font-mono text-xs text-ink-soft">
+                proof dependency graph · {f.decls} declarations · open full diagram →
+              </div>
+            </a>
+          </section>
+        ))
+      }
+    </div>
+
+    {/* Full dependency graph */}
+    <div class="mt-20 rounded-xl border border-line bg-surface p-6 sm:p-8">
+      <h2 class="font-serif text-2xl font-semibold tracking-tight text-ink">The full dependency graph</h2>
+      <p class="mt-2 max-w-2xl text-ink-soft">
+        Every proved result in statlib is the root of a chain of supporting
+        declarations. The proof-narrative tooling reconstructs all of them as
+        browsable diagrams over the Lean corpus.
+      </p>
+      <div class="mt-6 grid grid-cols-2 gap-px overflow-hidden rounded-lg border border-line bg-line sm:grid-cols-4">
+        {
+          graphStats.map((s) => (
+            <div class="bg-surface px-4 py-5 text-center">
+              <div class="font-serif text-2xl font-semibold text-ink">{s.value}</div>
+              <div class="mt-1 text-xs text-ink-soft">{s.label}</div>
+            </div>
+          ))
+        }
+      </div>
+      <a
+        href={graphIndexUrl}
+        target="_blank"
+        rel="noopener noreferrer"
+        class="mt-6 inline-block rounded-md bg-accent px-5 py-2.5 text-sm font-semibold text-white transition hover:bg-accent/90"
+      >
+        Browse all diagrams →
+      </a>
+    </div>
+  </article>
+</Layout>

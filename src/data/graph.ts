@@ -7,7 +7,7 @@
 //   1. Regenerate the narratives export (core/kb/theme/narratives in the prover repo).
 //   2. Replace the whole `public/narratives/` folder with the new output.
 //   3. Update the numbers in `stats` below and, if desired, the `featured` list.
-// The /graph page and nav entry stay unchanged — that's the point of the slot.
+// The /featured page and nav entry stay unchanged — that's the point of the slot.
 // ---------------------------------------------------------------------------
 
 // Base path of the static artifact (served from public/narratives/).
