@@ -2,17 +2,14 @@
 import Layout from "../layouts/Layout.astro";
 import StatusBadge from "../components/StatusBadge.astro";
 import Math from "../components/Math.astro";
+import TreeNode from "../components/TreeNode.astro";
 import { topics } from "../data/theorems";
 import { modules } from "../data/modules";
+import { libraryTree } from "../data/tree";
 import { site } from "../data/site";
 
-const total = topics.reduce((n, t) => n + t.theorems.length, 0);
-const proved = topics.reduce(
-  (n, t) => n + t.theorems.filter((th) => th.status === "proved").length,
-  0,
-);
-
-// Resolve each module's topic objects, in order.
+// Per module, the topic objects (in order) — limited to a few selected results each.
+const PER_TOPIC = 2;
 const grouped = modules.map((m) => ({
   module: m,
   topics: m.topicIds
@@ -21,95 +18,65 @@ const grouped = modules.map((m) => ({
 }));
 ---
 
-<Layout title="Library" description={`Catalog of ${total} formalized statements in ${site.name}.`}>
+<Layout title="Library" description={`Structure and selected results of ${site.name}.`}>
   <section class="mx-auto max-w-5xl px-6 py-16">
-    <h1 class="font-serif text-3xl font-semibold tracking-tight text-ink">Library catalog</h1>
+    <h1 class="font-serif text-3xl font-semibold tracking-tight text-ink">Library</h1>
     <p class="mt-3 max-w-2xl text-ink-soft">
-      {total} statements in {modules.length} modules ({topics.length} topic areas) —
-      {proved} fully machine-checked so far. Filter by name, topic, or Lean
-      declaration. Each entry lives under
-      <code class="font-mono text-sm">Statlib.&lt;Area&gt;</code>; import the whole
-      library with <code class="font-mono text-sm">import Statlib</code>, or a single
-      topic for faster builds.
+      135 Lean files and 179 theorems, organized into two modules
+      (<code class="font-mono text-sm">Statlib.StatFoundation</code> and
+      <code class="font-mono text-sm">Statlib.HighDim</code>). Browse the full
+      structure below, then a few selected results from each area.
     </p>
 
-    <!-- Structure overview: the two modules and their topic areas at a glance. -->
-    <div class="mt-8 grid gap-px overflow-hidden rounded-lg border border-line bg-line sm:grid-cols-2">
-      {
-        grouped.map(({ module: m, topics: mTopics }) => (
-          <div class="bg-surface p-5">
-            <a href={`#${m.id}`} class="group flex flex-wrap items-baseline gap-x-2">
-              <h2 class="font-serif text-lg font-semibold text-ink group-hover:text-accent">{m.title}</h2>
-              <code class="font-mono text-xs text-accent">{m.lean}</code>
-            </a>
-            <ul class="mt-3 space-y-1.5">
-              {mTopics.map((t) => (
-                <li>
-                  <a href={`#${t.id}`} class="flex items-baseline justify-between gap-3 text-sm text-ink-soft hover:text-accent">
-                    <span>{t.title}</span>
-                    <span class="font-mono text-xs text-faint">{t.theorems.length}</span>
-                  </a>
-                </li>
-              ))}
-            </ul>
-          </div>
-        ))
-      }
+    <!-- Structure: complete module/file tree -->
+    <div class="mt-12 flex items-baseline gap-3">
+      <h2 class="font-serif text-2xl font-semibold tracking-tight text-ink">Structure</h2>
+      <span class="text-sm text-faint">— the full <code class="font-mono text-xs">Statlib/</code> tree (click to expand)</span>
+    </div>
+    <div class="mt-5 max-h-[28rem] overflow-auto rounded-lg border border-line bg-surface p-5">
+      <TreeNode node={libraryTree} />
     </div>
 
-    <!-- Client-side filter. No framework needed; vanilla JS over the rendered list. -->
-    <input
-      id="filter"
-      type="search"
-      placeholder="Filter the catalog…"
-      class="mt-10 w-full rounded-md border border-line bg-surface px-4 py-2.5 text-sm focus:border-accent focus:outline-none focus:ring-2 focus:ring-accent/20"
-    />
+    <!-- Selected results -->
+    <div class="mt-16 flex items-baseline gap-3">
+      <h2 class="font-serif text-2xl font-semibold tracking-tight text-ink">Selected results</h2>
+      <span class="text-sm text-faint">— {PER_TOPIC} per area; see <a href="/featured" class="text-accent hover:underline">Featured</a> for deep dives</span>
+    </div>
 
-    <div class="mt-12 space-y-16">
+    <div class="mt-8 space-y-14">
       {
         grouped.map(({ module: m, topics: mTopics }, mi) => (
-          <section data-module class="scroll-mt-24">
-            <div id={m.id} class="scroll-mt-24 rounded-lg border border-line bg-surface p-6">
-              <div class="flex flex-wrap items-baseline gap-x-3 gap-y-1">
-                <span class="font-mono text-sm text-faint">{mi + 1}</span>
-                <h2 class="font-serif text-2xl font-semibold text-ink">{m.title}</h2>
-                <code class="font-mono text-xs text-accent">{m.lean}</code>
-              </div>
-              <p class="mt-2 text-sm leading-relaxed text-ink-soft">{m.summary}</p>
+          <section id={m.id} class="scroll-mt-24">
+            <div class="flex flex-wrap items-baseline gap-x-3 gap-y-1 border-b border-line pb-3">
+              <span class="font-mono text-sm text-faint">{mi + 1}</span>
+              <h3 class="font-serif text-xl font-semibold text-ink">{m.title}</h3>
+              <code class="font-mono text-xs text-accent">{m.lean}</code>
             </div>
 
-            <div class="mt-8 space-y-12">
+            <div class="mt-6 space-y-8">
               {mTopics.map((t, ti) => (
-                <section id={t.id} data-topic class="scroll-mt-24">
-                  <div class="flex items-baseline gap-3 border-b border-line pb-3">
-                    <span class="font-mono text-sm text-faint">{mi + 1}.{ti + 1}</span>
-                    <h3 class="font-serif text-xl font-semibold text-ink">{t.title}</h3>
-                    <span class="ml-auto font-mono text-xs text-faint">#{t.id}</span>
+                <section id={t.id} class="scroll-mt-24">
+                  <div class="flex items-baseline gap-3">
+                    <span class="font-mono text-xs text-faint">{mi + 1}.{ti + 1}</span>
+                    <h4 class="font-serif text-lg font-semibold text-ink">{t.title}</h4>
                   </div>
-                  <p class="mt-2 text-sm text-ink-soft">{t.summary}</p>
-
-                  <ul class="mt-5 divide-y divide-line">
-                    {t.theorems.map((th, i) => (
-                      <li
-                        data-row
-                        data-search={`${th.name} ${t.title} ${m.title} ${th.lean ?? ""} ${th.blurb}`.toLowerCase()}
-                        class="py-5"
-                      >
+                  <ul class="mt-3 divide-y divide-line">
+                    {t.theorems.slice(0, PER_TOPIC).map((th) => (
+                      <li class="py-4">
                         <div class="flex items-baseline gap-3">
-                          <span class="font-mono text-xs text-faint">{mi + 1}.{ti + 1}.{i + 1}</span>
-                          <h4 class="font-serif text-lg font-semibold text-ink">{th.name}</h4>
+                          <h5 class="font-medium text-ink">{th.name}</h5>
                           <span class="ml-auto">
                             <StatusBadge status={th.status} />
                           </span>
                         </div>
                         {th.latex && (
-                          <div class="mt-2 overflow-x-auto pl-7 text-ink">
+                          <div class="mt-2 overflow-x-auto text-ink">
                             <Math expr={th.latex} display />
                           </div>
                         )}
-                        <p class="mt-2 pl-7 text-sm text-ink-soft">{th.blurb}</p>
+                        <p class="mt-2 text-sm text-ink-soft">{th.blurb}</p>
                         {th.lean && (
-                          <code class="mt-2 block pl-7 font-mono text-xs text-faint">{th.lean}</code>
+                          <code class="mt-1 block font-mono text-xs text-faint">{th.lean}</code>
                         )}
                       </li>
                     ))}
@@ -121,36 +88,5 @@ const grouped = modules.map((m) => ({
         ))
       }
     </div>
-
-    <p id="empty" class="mt-12 hidden text-center text-ink-soft">No matches.</p>
   </section>
 </Layout>
-
-<script>
-  // Minimal vanilla filter — hides rows, then topic sections and module groups
-  // that have no visible rows.
-  const input = document.getElementById("filter") as HTMLInputElement | null;
-  const rows = Array.from(document.querySelectorAll<HTMLElement>("[data-row]"));
-  const topicSections = Array.from(document.querySelectorAll<HTMLElement>("[data-topic]"));
-  const moduleSections = Array.from(document.querySelectorAll<HTMLElement>("[data-module]"));
-  const empty = document.getElementById("empty");
-
-  input?.addEventListener("input", () => {
-    const q = input.value.trim().toLowerCase();
-    rows.forEach((row) => {
-      const hit = !q || (row.dataset.search ?? "").includes(q);
-      row.classList.toggle("hidden", !hit);
-    });
-    let anyVisible = false;
-    topicSections.forEach((sec) => {
-      const visible = sec.querySelectorAll("[data-row]:not(.hidden)").length > 0;
-      sec.classList.toggle("hidden", !visible);
-      if (visible) anyVisible = true;
-    });
-    moduleSections.forEach((sec) => {
-      const visible = sec.querySelectorAll("[data-topic]:not(.hidden)").length > 0;
-      sec.classList.toggle("hidden", !visible);
-    });
-    empty?.classList.toggle("hidden", anyVisible);
-  });
-</script>
