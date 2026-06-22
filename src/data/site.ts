@@ -18,10 +18,13 @@ export const site = {
   githubSiteUrl: "https://github.com/statopia/statlib-site",
 };
 
-// Headline numbers for the hero strip — grounded in the statlib README §3
-// (build status) and the curated /library catalog. Update when they change.
+// Headline numbers for the hero strip — measured from the statlib `main` core
+// (Statlib/ tree). Refresh when the library grows:
+//   find Statlib -name '*.lean' | wc -l                              # files
+//   find Statlib -name '*.lean' -exec cat {} + | wc -l               # lines
+//   grep -rhE '^[[:space:]]*theorem[[:space:]]' Statlib --include='*.lean' | wc -l  # theorems
 export const stats: { label: string; value: string }[] = [
-  { label: "Theorems cataloged", value: "48" },
-  { label: "sorry in the core", value: "0" },
-  { label: "Depends on", value: "Mathlib" },
+  { label: "Lean files", value: "135" },
+  { label: "Lines of Lean", value: "44,978" },
+  { label: "Theorems proved", value: "179" },
 ];
