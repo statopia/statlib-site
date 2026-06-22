@@ -9,12 +9,12 @@ import { modules } from "../data/modules";
 // modules and show range. Referenced by Lean id and resolved from the catalog so
 // statements stay single-sourced in theorems.ts.
 const flagship = [
-  "hanson_wright", // HighDim concentration
-  "matrix_bernstein", // HighDim concentration
-  "jl_distortion_probabilistic", // HighDim geometry
+  "lindeberg_feller_central_limit_theorem", // StatFoundation limit theorem
+  "bernstein_sum_meas_ge_le_exp", // StatFoundation concentration
+  "mcdiarmid_meas_ge_le_exp", // StatFoundation bounded differences
+  "covering_number_euclidean_ball", // HighDim geometry
+  "sampleCovariance_concentration", // HighDim covariance
   "lasso_oracle_prediction", // HighDim regression
-  "multivariate_central_limit_theorem", // StatFoundation
-  "lehmannScheffe_umvue", // StatFoundation
 ];
 const byLean = new Map(
   topics.flatMap((t) => t.theorems.map((th) => [th.lean, { ...th, topic: t.title }])),
@@ -22,6 +22,12 @@ const byLean = new Map(
 const highlights = flagship
   .map((l) => byLean.get(l))
   .filter((th) => th !== undefined && th.latex);
+
+function formatDeclarationCounts(topic: (typeof topics)[number]) {
+  const counts = topic.declarationCounts;
+  if (!counts) return `${topic.theorems.length} entries`;
+  return `${counts.theorems} thm · ${counts.lemmas} lem`;
+}
 ---
 
 <Layout>
@@ -108,7 +114,9 @@ const highlights = flagship
                       <h4 class="font-serif font-semibold text-ink group-hover:text-accent">
                         {t!.title}
                       </h4>
-                      <span class="shrink-0 font-mono text-xs text-faint">{t!.theorems.length}</span>
+                      <span class="shrink-0 font-mono text-xs text-faint">
+                        {formatDeclarationCounts(t!)}
+                      </span>
                     </div>
                     <p class="mt-1 text-sm leading-relaxed text-ink-soft">{t!.summary}</p>
                   </a>

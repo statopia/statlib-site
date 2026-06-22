@@ -23,12 +23,13 @@ export const modules: LibraryModule[] = [
     lean: "Statlib.StatFoundation",
     summary:
       "The probability and statistics core the rest of the library builds on: " +
-      "concentration inequalities, convergence and limit theorems, the tail " +
-      "behavior of sub-Gaussian and sub-exponential variables, and sufficiency.",
+      "sufficiency and statistical inference, convergence and limit theorems, " +
+      "the tail behavior of sub-Gaussian and sub-exponential variables, and " +
+      "concentration inequalities.",
     roadmap:
       "Grow shared vocabulary as concepts get reused across areas, and broaden " +
       "the estimation, testing, and asymptotic foundations.",
-    topicIds: ["concentration", "convergence", "random-variables", "statistics"],
+    topicIds: ["statistics", "convergence", "random-variables", "concentration"],
   },
   {
     id: "high-dim",

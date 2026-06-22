@@ -25,6 +25,10 @@ export interface TopicArea {
   id: string;
   title: string;
   summary: string;
+  declarationCounts?: {
+    theorems: number;
+    lemmas: number;
+  };
   theorems: TheoremEntry[];
 }
 
@@ -33,6 +37,7 @@ export const topics: TopicArea[] = [
     id: "concentration",
     title: "Concentration inequalities",
     summary: "Tail and moment bounds controlling how sums and functions of independent (or martingale) random variables deviate from their means.",
+    declarationCounts: { theorems: 37, lemmas: 1 },
     theorems: [
       {
         name: "Hoeffding's inequality (sub-Gaussian sum)",
@@ -53,6 +58,13 @@ export const topics: TopicArea[] = [
         lean: "bernstein_sum_meas_ge_le_exp",
         latex: "\\mathbb{P}\\!\\left(\\sum_i X_i \\ge t\\right) \\le \\exp\\!\\left(-\\tfrac12 \\min\\!\\left(\\tfrac{t^2}{\\sum_i \\sigma_i^2},\\, \\tfrac{t}{b_{\\max}}\\right)\\right)",
         blurb: "For independent zero-mean sub-exponential variables, the tail interpolates between Gaussian and exponential decay depending on the deviation scale.",
+        status: "proved",
+      },
+      {
+        name: "Bernstein's inequality (bounded two-sided form)",
+        lean: "bernstein_bounded_sum_meas_abs_ge_le_two_exp",
+        latex: "\\mathbb{P}\\!\\left(\\left|\\sum_i X_i\\right| \\ge t\\right) \\le 2\\exp\\!\\left(-\\frac{t^2}{2(v + Mt/3)}\\right)",
+        blurb: "For independent zero-mean bounded variables with |X_i| <= M and total second moment at most v, the absolute deviation of the sum has the classical Bernstein tail.",
         status: "proved",
       },
       {
@@ -82,6 +94,7 @@ export const topics: TopicArea[] = [
     id: "convergence",
     title: "Convergence & limit theorems",
     summary: "Formalizes the central limit theorems (IID, Lindeberg-Feller, multivariate), the Lévy continuity and Cramér-Wold tools behind weak convergence, and uniform laws of large numbers including Glivenko-Cantelli.",
+    declarationCounts: { theorems: 32, lemmas: 51 },
     theorems: [
       {
         name: "Central Limit Theorem (IID)",
@@ -95,6 +108,13 @@ export const topics: TopicArea[] = [
         lean: "lindeberg_feller_central_limit_theorem",
         latex: "\\frac{\\sum_{j} X_{n,j}}{s_n} \\xrightarrow{d} \\mathcal{N}(0,1) \\text{ under Lindeberg's condition}",
         blurb: "A triangular array of independent, centered row-variables whose normalized sums satisfy the Lindeberg condition converges in distribution to the standard normal.",
+        status: "proved",
+      },
+      {
+        name: "Uniform Strong Law of Large Numbers",
+        lean: "uniform_strong_law",
+        latex: "\\sup_{\\theta \\in \\Theta}\\left|\\frac1n\\sum_{j<n} U(X_j,\\theta) - \\mathbb{E}U(X,\\theta)\\right| \\xrightarrow{a.s.} 0",
+        blurb: "For i.i.d. samples and a compact parameter space, continuous dominated criterion functions satisfy uniform almost-sure convergence of sample averages to population means.",
         status: "proved",
       },
       {
@@ -131,6 +151,7 @@ export const topics: TopicArea[] = [
     id: "random-variables",
     title: "Tail behavior of random variables",
     summary: "Concentration and tail-bound theory for sub-Gaussian and sub-exponential random variables, including Hoeffding-type MGF bounds and exponential tail inequalities.",
+    declarationCounts: { theorems: 48, lemmas: 34 },
     theorems: [
       {
         name: "Sub-Gaussian one-sided tail bound",
@@ -167,12 +188,34 @@ export const topics: TopicArea[] = [
         blurb: "The square of a sub-Gaussian random variable is sub-exponential, with an explicit moment generating function bound.",
         status: "proved",
       },
+      {
+        name: "Sub-exponential implies local finite MGF",
+        lean: "subexp_mgf_finite",
+        latex: "X \\text{ sub-exponential} \\implies \\exists c_0>0,\\ \\mathbb{E}e^{\\lambda X}<\\infty\\ \\text{ for } |\\lambda|\\le c_0",
+        blurb: "A bundled sub-exponential MGF condition guarantees integrability of exp(lambda X) throughout a nontrivial neighborhood of the origin.",
+        status: "proved",
+      },
+      {
+        name: "Exponential tail implies local finite MGF",
+        lean: "subexp_mgf_finite_of_exp_tail",
+        latex: "\\mathbb{P}(|X|\\ge t) \\le c_1e^{-c_2t}\\ \\Rightarrow\\ \\exists c_0>0,\\ \\mathbb{E}e^{\\lambda X}<\\infty\\ \\text{ for } |\\lambda|\\le c_0",
+        blurb: "A clean two-sided exponential tail bound is converted into finite moment-generating functions near zero.",
+        status: "proved",
+      },
+      {
+        name: "Local finite MGF implies sub-exponential",
+        lean: "subexp_of_mgf_finite",
+        latex: "\\mathbb{E}X=0,\\ \\mathbb{E}e^{\\lambda X}<\\infty\\ \\text{ near }0 \\Rightarrow X \\text{ is sub-exponential}",
+        blurb: "The converse direction: a mean-zero variable with finite MGF on a neighborhood of zero admits sub-exponential parameters.",
+        status: "proved",
+      },
     ],
   },
   {
     id: "statistics",
     title: "Statistical inference & sufficiency",
     summary: "A measure-theoretic foundation for sufficient, ancillary, and complete statistics, culminating in the Lehmann-Scheffé and Basu theorems of classical estimation theory.",
+    declarationCounts: { theorems: 5, lemmas: 5 },
     theorems: [
       {
         name: "Lehmann-Scheffé theorem",
@@ -222,6 +265,7 @@ export const topics: TopicArea[] = [
     id: "hd-concentration",
     title: "High-dimensional concentration",
     summary: "Concentration inequalities for high-dimensional random objects — sub-Gaussian maxima, the matrix Bernstein inequality for sums of independent random matrices, and the Hanson-Wright bound for quadratic forms.",
+    declarationCounts: { theorems: 38, lemmas: 115 },
     theorems: [
       {
         name: "Matrix Bernstein inequality",
@@ -271,6 +315,7 @@ export const topics: TopicArea[] = [
     id: "covariance",
     title: "Covariance estimation",
     summary: "Concentration and unbiasedness guarantees for the sample second-moment (covariance) matrix estimator of high-dimensional sub-Gaussian random vectors.",
+    declarationCounts: { theorems: 2, lemmas: 26 },
     theorems: [
       {
         name: "Sample covariance matrix concentration",
@@ -313,12 +358,13 @@ export const topics: TopicArea[] = [
     id: "hd-geometry",
     title: "High-dimensional geometry",
     summary: "Geometric foundations of high-dimensional statistics: covering numbers of Euclidean and sparse balls, Johnson-Lindenstrauss dimension reduction, and the restricted isometry property for random sub-Gaussian sensing matrices.",
+    declarationCounts: { theorems: 10, lemmas: 31 },
     theorems: [
       {
-        name: "Covering number of the Euclidean unit ball",
+        name: "Covering number bounds for the Euclidean unit ball",
         lean: "covering_number_euclidean_ball",
-        latex: "N(B_2^n,\\varepsilon) \\le \\lceil 3/\\varepsilon \\rceil^{\\,n}",
-        blurb: "The unit Euclidean ball in n dimensions admits an epsilon-cover of size at most ceil(3/epsilon)^n.",
+        latex: "(1/\\varepsilon)^n \\le N(B_2^n,\\varepsilon) \\le \\lceil 3/\\varepsilon \\rceil^{\\,n}",
+        blurb: "The Euclidean unit ball has matching volumetric lower and constructive upper covering-number bounds, up to constants.",
         status: "proved",
       },
       {
@@ -355,6 +401,7 @@ export const topics: TopicArea[] = [
     id: "hd-regression",
     title: "High-dimensional regression",
     summary: "Oracle inequalities for the LASSO estimator in sparse high-dimensional linear models, bounding prediction and estimation error under the Restricted Eigenvalue condition.",
+    declarationCounts: { theorems: 3, lemmas: 2 },
     theorems: [
       {
         name: "LASSO solution (minimizer of the LASSO objective)",
@@ -397,6 +444,7 @@ export const topics: TopicArea[] = [
     id: "spectral",
     title: "Spectral perturbation",
     summary: "Quantitative bounds on how a matrix's eigenvalues and eigenvectors move under perturbation, applied to high-dimensional PCA via sample-covariance concentration.",
+    declarationCounts: { theorems: 4, lemmas: 49 },
     theorems: [
       {
         name: "Weyl's inequality (per-index form)",
