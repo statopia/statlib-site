@@ -5,11 +5,23 @@ import { site, stats } from "../data/site";
 import { topics } from "../data/theorems";
 import { modules } from "../data/modules";
 
-// A few proved highlights pulled from the catalog for the landing page.
-const highlights = topics
-  .flatMap((t) => t.theorems.map((th) => ({ ...th, topic: t.title })))
-  .filter((th) => th.status === "proved" && th.latex)
-  .slice(0, 4);
+// Curated flagship results to feature on the landing page — chosen to span both
+// modules and show range. Referenced by Lean id and resolved from the catalog so
+// statements stay single-sourced in theorems.ts.
+const flagship = [
+  "hanson_wright", // HighDim concentration
+  "matrix_bernstein", // HighDim concentration
+  "jl_distortion_probabilistic", // HighDim geometry
+  "lasso_oracle_prediction", // HighDim regression
+  "multivariate_central_limit_theorem", // StatFoundation
+  "lehmannScheffe_umvue", // StatFoundation
+];
+const byLean = new Map(
+  topics.flatMap((t) => t.theorems.map((th) => [th.lean, { ...th, topic: t.title }])),
+);
+const highlights = flagship
+  .map((l) => byLean.get(l))
+  .filter((th) => th !== undefined && th.latex);
 ---
 
 <Layout>
@@ -124,19 +136,19 @@ const highlights = topics
               Selected results
             </h2>
           </div>
-          <div class="mt-8 grid gap-5 sm:grid-cols-2">
+          <div class="mt-8 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
             {highlights.map((th) => (
-              <figure class="rounded-lg border border-line p-6">
+              <figure class="flex flex-col rounded-lg border border-line p-6">
                 <figcaption class="font-mono text-xs uppercase tracking-wide text-accent">
-                  {th.topic}
+                  {th!.topic}
                 </figcaption>
-                <h3 class="mt-1 font-serif text-lg font-semibold text-ink">{th.name}</h3>
+                <h3 class="mt-1 font-serif text-lg font-semibold text-ink">{th!.name}</h3>
                 <div class="mt-3 overflow-x-auto text-ink">
-                  <Math expr={th.latex!} display />
+                  <Math expr={th!.latex!} display />
                 </div>
-                <p class="mt-3 text-sm text-ink-soft">{th.blurb}</p>
-                {th.lean && (
-                  <code class="mt-3 block truncate font-mono text-xs text-faint">{th.lean}</code>
+                <p class="mt-3 text-sm text-ink-soft">{th!.blurb}</p>
+                {th!.lean && (
+                  <code class="mt-3 block truncate font-mono text-xs text-faint">{th!.lean}</code>
                 )}
               </figure>
             ))}
