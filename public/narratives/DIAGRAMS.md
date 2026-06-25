@@ -1,6 +1,6 @@
 # Deep proof-narrative diagrams (Graphviz SVG)
 
-37 narratives with closure ≥ 11, rendered to scalable SVG.
+40 narratives with closure ≥ 11, rendered to scalable SVG.
 Open an SVG in a browser to zoom; node colour = declaration kind (red=axiom, gold=theorem, blue=def, grey=lemma, purple=structure/class), dashed boxes group by source topic.
 
 | Closure | Kind | Narrative (SVG) | Source |
@@ -19,6 +19,8 @@ Open an SVG in a browser to zoom; node colour = declaration kind (red=axiom, gol
 | 52 | theorem | [subgaussian_rip_sample_complexity](HighDim/subgaussian_rip_sample_complexity.svg) | `Statlib/HighDim/Geometry/RIPConstruction.lean:1619` |
 | 41 | theorem | [hanson_wright_tail_high_of_offdiag_tail](HighDim/hanson_wright_tail_high_of_offdiag_tail.svg) | `Statlib/HighDim/Concentration/HansonWright.lean:4231` |
 | 38 | lemma | [decoupledOffDiagQuadForm_prod_tail_le_markov_plus_good_ofReal](HighDim/decoupledOffDiagQuadForm_prod_tail_le_markov_plus_good_ofReal.svg) | `Statlib/HighDim/Concentration/HansonWright.lean:1134` |
+| 34 | theorem | [sample_cov_min_eig_lower](HighDim/sample_cov_min_eig_lower.svg) | `Statlib/HighDim/CovarianceMatrix/SampleCovEigenvalueLower.lean:21` |
+| 34 | theorem | [sample_cov_max_eig_upper](HighDim/sample_cov_max_eig_upper.svg) | `Statlib/HighDim/CovarianceMatrix/SampleCovEigenvalueUpper.lean:22` |
 | 32 | lemma | [decoupledOffDiagQuadForm_prod_tail_le_lintegral_frobenius](HighDim/decoupledOffDiagQuadForm_prod_tail_le_lintegral_frobenius.svg) | `Statlib/HighDim/Concentration/HansonWright.lean:977` |
 | 30 | lemma | [decoupledOffDiagQuadForm_prod_tail_le_lintegral_spectral](HighDim/decoupledOffDiagQuadForm_prod_tail_le_lintegral_spectral.svg) | `Statlib/HighDim/Concentration/HansonWright.lean:936` |
 | 28 | theorem | [multivariate_central_limit_theorem](StatFoundation/multivariate_central_limit_theorem.svg) | `Statlib/StatFoundation/Convergence/CentralLimitTheorem/Multivariate.lean:86` |
@@ -30,6 +32,7 @@ Open an SVG in a browser to zoom; node colour = declaration kind (red=axiom, gol
 | 19 | lemma | [diagQuadForm_centered_tail_bernstein_explicit](HighDim/diagQuadForm_centered_tail_bernstein_explicit.svg) | `Statlib/HighDim/Concentration/HansonWright.lean:2342` |
 | 19 | theorem | [offdiag_hanson_wright_tail_high_of_const_decoupling_absorb](HighDim/offdiag_hanson_wright_tail_high_of_const_decoupling_absorb.svg) | `Statlib/HighDim/Concentration/HansonWright.lean:3955` |
 | 17 | theorem | [offdiag_hanson_wright_tail_high_of_const_decoupling_and_decoupled_tail](HighDim/offdiag_hanson_wright_tail_high_of_const_decoupling_and_decoupled_tail.svg) | `Statlib/HighDim/Concentration/HansonWright.lean:3916` |
+| 16 | theorem | [cov_quadratic_deviation](HighDim/cov_quadratic_deviation.svg) | `Statlib/HighDim/CovarianceMatrix/CovQuadraticDeviation.lean:23` |
 | 16 | theorem | [integral_deriv_mul_hermite_normalized](StatFoundation/integral_deriv_mul_hermite_normalized.svg) | `Statlib/StatFoundation/RandomVariable/Gaussian/Hermite.lean:405` |
 | 15 | theorem | [jl_distortion_probabilistic](HighDim/jl_distortion_probabilistic.svg) | `Statlib/HighDim/Geometry/JohnsonLindenstrauss.lean:530` |
 | 14 | lemma | [decoupledOffDiagQuadForm_prod_first_section_abs_tail_real](HighDim/decoupledOffDiagQuadForm_prod_first_section_abs_tail_real.svg) | `Statlib/HighDim/Concentration/HansonWright.lean:190` |

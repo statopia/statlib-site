@@ -23,7 +23,7 @@
 <!-- n0 -->
 <g id="node1" class="node">
 <title>n0</title>
-<g id="a_node1"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/gavin/statlib/Statlib/HighDim/Vocabulary/RandomVector.lean:83" xlink:title="structure · Statlib/HighDim/Vocabulary/RandomVector.lean:83" target="_blank">
+<g id="a_node1"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Vocabulary/RandomVector.lean:83" xlink:title="structure · Statlib/HighDim/Vocabulary/RandomVector.lean:83" target="_blank">
 <path fill="#e8dcff" stroke="#8b5cf6" d="M266.4,-196C266.4,-196 231.6,-196 231.6,-196 225.6,-196 219.6,-190 219.6,-184 219.6,-184 219.6,-172 219.6,-172 219.6,-166 225.6,-160 231.6,-160 231.6,-160 266.4,-160 266.4,-160 272.4,-160 278.4,-166 278.4,-172 278.4,-172 278.4,-184 278.4,-184 278.4,-190 272.4,-196 266.4,-196"/>
 <text xml:space="preserve" text-anchor="middle" x="249" y="-175" font-family="Helvetica,sans-Serif" font-size="10.00">HasMean</text>
 </a>
@@ -32,7 +32,7 @@
 <!-- n1 -->
 <g id="node2" class="node">
 <title>n1</title>
-<g id="a_node2"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/gavin/statlib/Statlib/HighDim/Vocabulary/RandomVector.lean:52" xlink:title="structure · Statlib/HighDim/Vocabulary/RandomVector.lean:52" target="_blank">
+<g id="a_node2"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Vocabulary/RandomVector.lean:52" xlink:title="structure · Statlib/HighDim/Vocabulary/RandomVector.lean:52" target="_blank">
 <path fill="#e8dcff" stroke="#8b5cf6" d="M306.36,-124C306.36,-124 217.64,-124 217.64,-124 211.64,-124 205.64,-118 205.64,-112 205.64,-112 205.64,-100 205.64,-100 205.64,-94 211.64,-88 217.64,-88 217.64,-88 306.36,-88 306.36,-88 312.36,-88 318.36,-94 318.36,-100 318.36,-100 318.36,-112 318.36,-112 318.36,-118 312.36,-124 306.36,-124"/>
 <text xml:space="preserve" text-anchor="middle" x="262" y="-103" font-family="Helvetica,sans-Serif" font-size="10.00">IsSubGaussianVector</text>
 </a>
@@ -41,7 +41,7 @@
 <!-- n2 -->
 <g id="node3" class="node">
 <title>n2</title>
-<g id="a_node3"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/gavin/statlib/Statlib/HighDim/Vocabulary/QuadraticForms.lean:21" xlink:title="noncomputable def · Statlib/HighDim/Vocabulary/QuadraticForms.lean:21" target="_blank">
+<g id="a_node3"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Vocabulary/QuadraticForms.lean:21" xlink:title="noncomputable def · Statlib/HighDim/Vocabulary/QuadraticForms.lean:21" target="_blank">
 <path fill="#d6e9ff" stroke="#3b82f6" d="M106.35,-341.2C106.35,-341.2 47.65,-341.2 47.65,-341.2 41.65,-341.2 35.65,-335.2 35.65,-329.2 35.65,-329.2 35.65,-317.2 35.65,-317.2 35.65,-311.2 41.65,-305.2 47.65,-305.2 47.65,-305.2 106.35,-305.2 106.35,-305.2 112.35,-305.2 118.35,-311.2 118.35,-317.2 118.35,-317.2 118.35,-329.2 118.35,-329.2 118.35,-335.2 112.35,-341.2 106.35,-341.2"/>
 <text xml:space="preserve" text-anchor="middle" x="77" y="-320.2" font-family="Helvetica,sans-Serif" font-size="10.00">diagQuadForm</text>
 </a>
@@ -50,7 +50,7 @@
 <!-- n3 -->
 <g id="node4" class="node">
 <title>n3</title>
-<g id="a_node4"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/gavin/statlib/Statlib/HighDim/Vocabulary/Norms.lean:32" xlink:title="lemma · Statlib/HighDim/Vocabulary/Norms.lean:32" target="_blank">
+<g id="a_node4"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Vocabulary/Norms.lean:32" xlink:title="lemma · Statlib/HighDim/Vocabulary/Norms.lean:32" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M141.69,-124C141.69,-124 86.31,-124 86.31,-124 80.31,-124 74.31,-118 74.31,-112 74.31,-112 74.31,-100 74.31,-100 74.31,-94 80.31,-88 86.31,-88 86.31,-88 141.69,-88 141.69,-88 147.69,-88 153.69,-94 153.69,-100 153.69,-100 153.69,-112 153.69,-112 153.69,-118 147.69,-124 141.69,-124"/>
 <text xml:space="preserve" text-anchor="middle" x="114" y="-103" font-family="Helvetica,sans-Serif" font-size="10.00">inner_eq_sum</text>
 </a>
@@ -59,7 +59,7 @@
 <!-- n4 -->
 <g id="node5" class="node">
 <title>n4</title>
-<g id="a_node5"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/gavin/statlib/Statlib/HighDim/Concentration/HansonWright.lean:1389" xlink:title="lemma · Statlib/HighDim/Concentration/HansonWright.lean:1389" target="_blank">
+<g id="a_node5"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Concentration/HansonWright.lean:1389" xlink:title="lemma · Statlib/HighDim/Concentration/HansonWright.lean:1389" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M169.76,-196C169.76,-196 58.24,-196 58.24,-196 52.24,-196 46.24,-190 46.24,-184 46.24,-184 46.24,-172 46.24,-172 46.24,-166 52.24,-160 58.24,-160 58.24,-160 169.76,-160 169.76,-160 175.76,-160 181.76,-166 181.76,-172 181.76,-172 181.76,-184 181.76,-184 181.76,-190 175.76,-196 169.76,-196"/>
 <text xml:space="preserve" text-anchor="middle" x="114" y="-175" font-family="Helvetica,sans-Serif" font-size="10.00">subgaussian_vector_coord</text>
 </a>
@@ -80,7 +80,7 @@
 <!-- n8 -->
 <g id="node6" class="node">
 <title>n8</title>
-<g id="a_node6"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/gavin/statlib/Statlib/HighDim/Concentration/HansonWright.lean:2109" xlink:title="lemma · Statlib/HighDim/Concentration/HansonWright.lean:2109" target="_blank">
+<g id="a_node6"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Concentration/HansonWright.lean:2109" xlink:title="lemma · Statlib/HighDim/Concentration/HansonWright.lean:2109" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M351.62,-269.2C351.62,-269.2 168.38,-269.2 168.38,-269.2 162.38,-269.2 156.38,-263.2 156.38,-257.2 156.38,-257.2 156.38,-245.2 156.38,-245.2 156.38,-239.2 162.38,-233.2 168.38,-233.2 168.38,-233.2 351.62,-233.2 351.62,-233.2 357.62,-233.2 363.62,-239.2 363.62,-245.2 363.62,-245.2 363.62,-257.2 363.62,-257.2 363.62,-263.2 357.62,-269.2 351.62,-269.2"/>
 <text xml:space="preserve" text-anchor="middle" x="260" y="-248.2" font-family="Helvetica,sans-Serif" font-size="10.00">coord_sq_centered_scaled_exp_integrable</text>
 </a>
@@ -107,7 +107,7 @@
 <!-- n7 -->
 <g id="node14" class="node">
 <title>n7</title>
-<g id="a_node14"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/gavin/statlib/Statlib/StatFoundation/RandomVariable/SubGaussian/subgaussian_exp_sq_le_at_one_third.lean:166" xlink:title="theorem · Statlib/StatFoundation/RandomVariable/SubGaussian/subgaussian_exp_sq_le_at_one_third.lean:166" target="_blank">
+<g id="a_node14"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/StatFoundation/RandomVariable/SubGaussian/subgaussian_exp_sq_le_at_one_third.lean:166" xlink:title="theorem · Statlib/StatFoundation/RandomVariable/SubGaussian/subgaussian_exp_sq_le_at_one_third.lean:166" target="_blank">
 <path fill="#ffe6a3" stroke="#d4a017" d="M827.3,-124C827.3,-124 630.7,-124 630.7,-124 624.7,-124 618.7,-118 618.7,-112 618.7,-112 618.7,-100 618.7,-100 618.7,-94 624.7,-88 630.7,-88 630.7,-88 827.3,-88 827.3,-88 833.3,-88 839.3,-94 839.3,-100 839.3,-100 839.3,-112 839.3,-112 839.3,-118 833.3,-124 827.3,-124"/>
 <text xml:space="preserve" text-anchor="middle" x="729" y="-103" font-family="Helvetica,sans-Serif" font-size="10.00">subgaussian_integrable_exp_sq_at_one_third</text>
 </a>
@@ -122,7 +122,7 @@
 <!-- n13 -->
 <g id="node7" class="node">
 <title>n13</title>
-<g id="a_node7"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/gavin/statlib/Statlib/HighDim/Concentration/HansonWright.lean:2044" xlink:title="lemma · Statlib/HighDim/Concentration/HansonWright.lean:2044" target="_blank">
+<g id="a_node7"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Concentration/HansonWright.lean:2044" xlink:title="lemma · Statlib/HighDim/Concentration/HansonWright.lean:2044" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M562.67,-269.2C562.67,-269.2 393.33,-269.2 393.33,-269.2 387.33,-269.2 381.33,-263.2 381.33,-257.2 381.33,-257.2 381.33,-245.2 381.33,-245.2 381.33,-239.2 387.33,-233.2 393.33,-233.2 393.33,-233.2 562.67,-233.2 562.67,-233.2 568.67,-233.2 574.67,-239.2 574.67,-245.2 574.67,-245.2 574.67,-257.2 574.67,-257.2 574.67,-263.2 568.67,-269.2 562.67,-269.2"/>
 <text xml:space="preserve" text-anchor="middle" x="478" y="-248.2" font-family="Helvetica,sans-Serif" font-size="10.00">coord_sq_centered_mgf_bound_explicit</text>
 </a>
@@ -149,7 +149,7 @@
 <!-- n12 -->
 <g id="node18" class="node">
 <title>n12</title>
-<g id="a_node18"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/gavin/statlib/Statlib/StatFoundation/RandomVariable/SubExponential/subexp_mgf_le_of_sq_subgaussian.lean:72" xlink:title="theorem · Statlib/StatFoundation/RandomVariable/SubExponential/subexp_mgf_le_of_sq_subgaussian.lean:72" target="_blank">
+<g id="a_node18"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/StatFoundation/RandomVariable/SubExponential/subexp_mgf_le_of_sq_subgaussian.lean:72" xlink:title="theorem · Statlib/StatFoundation/RandomVariable/SubExponential/subexp_mgf_le_of_sq_subgaussian.lean:72" target="_blank">
 <path fill="#ffe6a3" stroke="#d4a017" d="M1003.84,-196C1003.84,-196 816.16,-196 816.16,-196 810.16,-196 804.16,-190 804.16,-184 804.16,-184 804.16,-172 804.16,-172 804.16,-166 810.16,-160 816.16,-160 816.16,-160 1003.84,-160 1003.84,-160 1009.84,-160 1015.84,-166 1015.84,-172 1015.84,-172 1015.84,-184 1015.84,-184 1015.84,-190 1009.84,-196 1003.84,-196"/>
 <text xml:space="preserve" text-anchor="middle" x="910" y="-175" font-family="Helvetica,sans-Serif" font-size="10.00">subexp_mgf_le_of_sq_subgaussian_explicit</text>
 </a>
@@ -164,7 +164,7 @@
 <!-- n14 -->
 <g id="node8" class="node">
 <title>n14</title>
-<g id="a_node8"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/gavin/statlib/Statlib/HighDim/Concentration/HansonWright.lean:2192" xlink:title="lemma · Statlib/HighDim/Concentration/HansonWright.lean:2192" target="_blank">
+<g id="a_node8"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Concentration/HansonWright.lean:2192" xlink:title="lemma · Statlib/HighDim/Concentration/HansonWright.lean:2192" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M555.04,-341.2C555.04,-341.2 288.96,-341.2 288.96,-341.2 282.96,-341.2 276.96,-335.2 276.96,-329.2 276.96,-329.2 276.96,-317.2 276.96,-317.2 276.96,-311.2 282.96,-305.2 288.96,-305.2 288.96,-305.2 555.04,-305.2 555.04,-305.2 561.04,-305.2 567.04,-311.2 567.04,-317.2 567.04,-317.2 567.04,-329.2 567.04,-329.2 567.04,-335.2 561.04,-341.2 555.04,-341.2"/>
 <text xml:space="preserve" text-anchor="middle" x="422" y="-320.2" font-family="Helvetica,sans-Serif" font-size="10.00">coord_sq_centered_scaled_subexponential_explicit_of_range</text>
 </a>
@@ -197,7 +197,7 @@
 <!-- n5 -->
 <g id="node12" class="node">
 <title>n5</title>
-<g id="a_node12"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/gavin/statlib/Statlib/StatFoundation/Vocabulary/RandomVariable.lean:74" xlink:title="structure · Statlib/StatFoundation/Vocabulary/RandomVariable.lean:74" target="_blank">
+<g id="a_node12"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/StatFoundation/Vocabulary/RandomVariable.lean:74" xlink:title="structure · Statlib/StatFoundation/Vocabulary/RandomVariable.lean:74" target="_blank">
 <path fill="#e8dcff" stroke="#8b5cf6" d="M1417.47,-124C1417.47,-124 1316.53,-124 1316.53,-124 1310.53,-124 1304.53,-118 1304.53,-112 1304.53,-112 1304.53,-100 1304.53,-100 1304.53,-94 1310.53,-88 1316.53,-88 1316.53,-88 1417.47,-88 1417.47,-88 1423.47,-88 1429.47,-94 1429.47,-100 1429.47,-100 1429.47,-112 1429.47,-112 1429.47,-118 1423.47,-124 1417.47,-124"/>
 <text xml:space="preserve" text-anchor="middle" x="1367" y="-103" font-family="Helvetica,sans-Serif" font-size="10.00">HasSubexponentialMGF</text>
 </a>
@@ -212,7 +212,7 @@
 <!-- n16 -->
 <g id="node9" class="node">
 <title>n16</title>
-<g id="a_node9"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/gavin/statlib/Statlib/HighDim/Concentration/HansonWright.lean:2248" xlink:title="lemma · Statlib/HighDim/Concentration/HansonWright.lean:2248" target="_blank">
+<g id="a_node9"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Concentration/HansonWright.lean:2248" xlink:title="lemma · Statlib/HighDim/Concentration/HansonWright.lean:2248" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M496.07,-413.2C496.07,-413.2 293.93,-413.2 293.93,-413.2 287.93,-413.2 281.93,-407.2 281.93,-401.2 281.93,-401.2 281.93,-389.2 281.93,-389.2 281.93,-383.2 287.93,-377.2 293.93,-377.2 293.93,-377.2 496.07,-377.2 496.07,-377.2 502.07,-377.2 508.07,-383.2 508.07,-389.2 508.07,-389.2 508.07,-401.2 508.07,-401.2 508.07,-407.2 502.07,-413.2 496.07,-413.2"/>
 <text xml:space="preserve" text-anchor="middle" x="395" y="-392.2" font-family="Helvetica,sans-Serif" font-size="10.00">weighted_coord_sq_centered_sum_tail_explicit</text>
 </a>
@@ -251,7 +251,7 @@
 <!-- n15 -->
 <g id="node19" class="node">
 <title>n15</title>
-<g id="a_node19"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/gavin/statlib/Statlib/StatFoundation/Concentration/ExponentialType/bernstein_sum_meas_abs_ge_le_two_exp.lean:13" xlink:title="theorem · Statlib/StatFoundation/Concentration/ExponentialType/bernstein_sum_meas_abs_ge_le_two_exp.lean:13" target="_blank">
+<g id="a_node19"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/StatFoundation/Concentration/ExponentialType/bernstein_sum_meas_abs_ge_le_two_exp.lean:13" xlink:title="theorem · Statlib/StatFoundation/Concentration/ExponentialType/bernstein_sum_meas_abs_ge_le_two_exp.lean:13" target="_blank">
 <path fill="#ffe6a3" stroke="#d4a017" d="M1234.06,-196C1234.06,-196 1051.94,-196 1051.94,-196 1045.94,-196 1039.94,-190 1039.94,-184 1039.94,-184 1039.94,-172 1039.94,-172 1039.94,-166 1045.94,-160 1051.94,-160 1051.94,-160 1234.06,-160 1234.06,-160 1240.06,-160 1246.06,-166 1246.06,-172 1246.06,-172 1246.06,-184 1246.06,-184 1246.06,-190 1240.06,-196 1234.06,-196"/>
 <text xml:space="preserve" text-anchor="middle" x="1143" y="-175" font-family="Helvetica,sans-Serif" font-size="10.00">bernstein_sum_meas_abs_ge_le_two_exp</text>
 </a>
@@ -266,7 +266,7 @@
 <!-- n17 -->
 <g id="node10" class="node">
 <title>n17</title>
-<g id="a_node10"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/gavin/statlib/Statlib/HighDim/Concentration/HansonWright.lean:360" xlink:title="lemma · Statlib/HighDim/Concentration/HansonWright.lean:360" target="_blank">
+<g id="a_node10"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Concentration/HansonWright.lean:360" xlink:title="lemma · Statlib/HighDim/Concentration/HansonWright.lean:360" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M212.16,-413.2C212.16,-413.2 67.84,-413.2 67.84,-413.2 61.84,-413.2 55.84,-407.2 55.84,-401.2 55.84,-401.2 55.84,-389.2 55.84,-389.2 55.84,-383.2 61.84,-377.2 67.84,-377.2 67.84,-377.2 212.16,-377.2 212.16,-377.2 218.16,-377.2 224.16,-383.2 224.16,-389.2 224.16,-389.2 224.16,-401.2 224.16,-401.2 224.16,-407.2 218.16,-413.2 212.16,-413.2"/>
 <text xml:space="preserve" text-anchor="middle" x="140" y="-392.2" font-family="Helvetica,sans-Serif" font-size="10.00">diagQuadForm_centered_eq_sum</text>
 </a>
@@ -281,7 +281,7 @@
 <!-- n18 -->
 <g id="node11" class="node">
 <title>n18</title>
-<g id="a_node11"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/gavin/statlib/Statlib/HighDim/Concentration/HansonWright.lean:2342" xlink:title="lemma · Statlib/HighDim/Concentration/HansonWright.lean:2342" target="_blank">
+<g id="a_node11"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Concentration/HansonWright.lean:2342" xlink:title="lemma · Statlib/HighDim/Concentration/HansonWright.lean:2342" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" stroke-width="3" d="M293.17,-485.2C293.17,-485.2 88.83,-485.2 88.83,-485.2 82.83,-485.2 76.83,-479.2 76.83,-473.2 76.83,-473.2 76.83,-461.2 76.83,-461.2 76.83,-455.2 82.83,-449.2 88.83,-449.2 88.83,-449.2 293.17,-449.2 293.17,-449.2 299.17,-449.2 305.17,-455.2 305.17,-461.2 305.17,-461.2 305.17,-473.2 305.17,-473.2 305.17,-479.2 299.17,-485.2 293.17,-485.2"/>
 <text xml:space="preserve" text-anchor="middle" x="191" y="-464.2" font-family="Helvetica,sans-Serif" font-size="10.00">diagQuadForm_centered_tail_bernstein_explicit</text>
 </a>
@@ -326,7 +326,7 @@
 <!-- n6 -->
 <g id="node13" class="node">
 <title>n6</title>
-<g id="a_node13"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/gavin/statlib/Statlib/StatFoundation/RandomVariable/SubGaussian/subgaussian_meas_abs_ge_le_two_exp.lean:9" xlink:title="theorem · Statlib/StatFoundation/RandomVariable/SubGaussian/subgaussian_meas_abs_ge_le_two_exp.lean:9" target="_blank">
+<g id="a_node13"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/StatFoundation/RandomVariable/SubGaussian/subgaussian_meas_abs_ge_le_two_exp.lean:9" xlink:title="theorem · Statlib/StatFoundation/RandomVariable/SubGaussian/subgaussian_meas_abs_ge_le_two_exp.lean:9" target="_blank">
 <path fill="#ffe6a3" stroke="#d4a017" d="M986.34,-52C986.34,-52 813.66,-52 813.66,-52 807.66,-52 801.66,-46 801.66,-40 801.66,-40 801.66,-28 801.66,-28 801.66,-22 807.66,-16 813.66,-16 813.66,-16 986.34,-16 986.34,-16 992.34,-16 998.34,-22 998.34,-28 998.34,-28 998.34,-40 998.34,-40 998.34,-46 992.34,-52 986.34,-52"/>
 <text xml:space="preserve" text-anchor="middle" x="900" y="-31" font-family="Helvetica,sans-Serif" font-size="10.00">subgaussian_meas_abs_ge_le_two_exp</text>
 </a>
@@ -341,7 +341,7 @@
 <!-- n9 -->
 <g id="node15" class="node">
 <title>n9</title>
-<g id="a_node15"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/gavin/statlib/Statlib/StatFoundation/RandomVariable/SubExponential/subexp_mgf_le_of_sq_subgaussian.lean:13" xlink:title="lemma · Statlib/StatFoundation/RandomVariable/SubExponential/subexp_mgf_le_of_sq_subgaussian.lean:13" target="_blank">
+<g id="a_node15"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/StatFoundation/RandomVariable/SubExponential/subexp_mgf_le_of_sq_subgaussian.lean:13" xlink:title="lemma · Statlib/StatFoundation/RandomVariable/SubExponential/subexp_mgf_le_of_sq_subgaussian.lean:13" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M950.2,-124C950.2,-124 869.8,-124 869.8,-124 863.8,-124 857.8,-118 857.8,-112 857.8,-112 857.8,-100 857.8,-100 857.8,-94 863.8,-88 869.8,-88 869.8,-88 950.2,-88 950.2,-88 956.2,-88 962.2,-94 962.2,-100 962.2,-100 962.2,-112 962.2,-112 962.2,-118 956.2,-124 950.2,-124"/>
 <text xml:space="preserve" text-anchor="middle" x="910" y="-103" font-family="Helvetica,sans-Serif" font-size="10.00">sub_gauss_tail_abs</text>
 </a>
@@ -350,7 +350,7 @@
 <!-- n10 -->
 <g id="node16" class="node">
 <title>n10</title>
-<g id="a_node16"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/gavin/statlib/Statlib/StatFoundation/RandomVariable/SubGaussian/sq_le_two_mul_exp.lean:10" xlink:title="lemma · Statlib/StatFoundation/RandomVariable/SubGaussian/sq_le_two_mul_exp.lean:10" target="_blank">
+<g id="a_node16"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/StatFoundation/RandomVariable/SubGaussian/sq_le_two_mul_exp.lean:10" xlink:title="lemma · Statlib/StatFoundation/RandomVariable/SubGaussian/sq_le_two_mul_exp.lean:10" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M1274.19,-124C1274.19,-124 1193.81,-124 1193.81,-124 1187.81,-124 1181.81,-118 1181.81,-112 1181.81,-112 1181.81,-100 1181.81,-100 1181.81,-94 1187.81,-88 1193.81,-88 1193.81,-88 1274.19,-88 1274.19,-88 1280.19,-88 1286.19,-94 1286.19,-100 1286.19,-100 1286.19,-112 1286.19,-112 1286.19,-118 1280.19,-124 1274.19,-124"/>
 <text xml:space="preserve" text-anchor="middle" x="1234" y="-103" font-family="Helvetica,sans-Serif" font-size="10.00">sq_le_two_mul_exp</text>
 </a>
@@ -359,7 +359,7 @@
 <!-- n11 -->
 <g id="node17" class="node">
 <title>n11</title>
-<g id="a_node17"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/gavin/statlib/Statlib/StatFoundation/RandomVariable/SubGaussian/subgaussian_exp_sq_le_at_one_third.lean:14" xlink:title="theorem · Statlib/StatFoundation/RandomVariable/SubGaussian/subgaussian_exp_sq_le_at_one_third.lean:14" target="_blank">
+<g id="a_node17"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/StatFoundation/RandomVariable/SubGaussian/subgaussian_exp_sq_le_at_one_third.lean:14" xlink:title="theorem · Statlib/StatFoundation/RandomVariable/SubGaussian/subgaussian_exp_sq_le_at_one_third.lean:14" target="_blank">
 <path fill="#ffe6a3" stroke="#d4a017" d="M1152.23,-124C1152.23,-124 991.77,-124 991.77,-124 985.77,-124 979.77,-118 979.77,-112 979.77,-112 979.77,-100 979.77,-100 979.77,-94 985.77,-88 991.77,-88 991.77,-88 1152.23,-88 1152.23,-88 1158.23,-88 1164.23,-94 1164.23,-100 1164.23,-100 1164.23,-112 1164.23,-112 1164.23,-118 1158.23,-124 1152.23,-124"/>
 <text xml:space="preserve" text-anchor="middle" x="1072" y="-103" font-family="Helvetica,sans-Serif" font-size="10.00">subgaussian_exp_sq_le_at_one_third</text>
 </a>

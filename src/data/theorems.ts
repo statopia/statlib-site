@@ -315,7 +315,7 @@ export const topics: TopicArea[] = [
     id: "covariance",
     title: "Covariance estimation",
     summary: "Concentration and unbiasedness guarantees for the sample second-moment (covariance) matrix estimator of high-dimensional sub-Gaussian random vectors.",
-    declarationCounts: { theorems: 2, lemmas: 26 },
+    declarationCounts: { theorems: 5, lemmas: 26 },
     theorems: [
       {
         name: "Sample covariance matrix concentration",
@@ -401,7 +401,7 @@ export const topics: TopicArea[] = [
     id: "hd-regression",
     title: "High-dimensional regression",
     summary: "Oracle inequalities for the LASSO estimator in sparse high-dimensional linear models, bounding prediction and estimation error under the Restricted Eigenvalue condition.",
-    declarationCounts: { theorems: 3, lemmas: 2 },
+    declarationCounts: { theorems: 5, lemmas: 2 },
     theorems: [
       {
         name: "LASSO solution (minimizer of the LASSO objective)",

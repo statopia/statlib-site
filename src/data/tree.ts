@@ -32,11 +32,23 @@ export const libraryTree: TreeNode = {
           "dir": true,
           "children": [
             {
+              "name": "CovQuadraticDeviation.lean",
+              "dir": false
+            },
+            {
               "name": "Properties.lean",
               "dir": false
             },
             {
               "name": "SampleCovariance.lean",
+              "dir": false
+            },
+            {
+              "name": "SampleCovEigenvalueLower.lean",
+              "dir": false
+            },
+            {
+              "name": "SampleCovEigenvalueUpper.lean",
               "dir": false
             }
           ]
@@ -63,6 +75,14 @@ export const libraryTree: TreeNode = {
           "name": "Regression",
           "dir": true,
           "children": [
+            {
+              "name": "DesignNoiseSecondMoment.lean",
+              "dir": false
+            },
+            {
+              "name": "Incoherence.lean",
+              "dir": false
+            },
             {
               "name": "LassoOracle.lean",
               "dir": false
@@ -460,15 +480,15 @@ export const libraryTree: TreeNode = {
                   "dir": false
                 },
                 {
-                  "name": "subexp_mgf_finite.lean",
-                  "dir": false
-                },
-                {
                   "name": "subexp_mgf_finite_of_exp_tail.lean",
                   "dir": false
                 },
                 {
                   "name": "subexp_mgf_finite_of_moment_le.lean",
+                  "dir": false
+                },
+                {
+                  "name": "subexp_mgf_finite.lean",
                   "dir": false
                 },
                 {
@@ -510,19 +530,19 @@ export const libraryTree: TreeNode = {
                   "dir": false
                 },
                 {
-                  "name": "subgaussian_even_moment_le.lean",
-                  "dir": false
-                },
-                {
                   "name": "subgaussian_even_moment_le_of_tail.lean",
                   "dir": false
                 },
                 {
-                  "name": "subgaussian_exp_sq_le.lean",
+                  "name": "subgaussian_even_moment_le.lean",
                   "dir": false
                 },
                 {
                   "name": "subgaussian_exp_sq_le_at_one_third.lean",
+                  "dir": false
+                },
+                {
+                  "name": "subgaussian_exp_sq_le.lean",
                   "dir": false
                 },
                 {

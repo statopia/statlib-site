@@ -1,6 +1,6 @@
 # StatFoundation — proof narratives
 
-58 headline result(s).
+57 headline result(s).
 
 - [as_implies_inProbability](as_implies_inProbability.md) — theorem, 4 decl(s) · `Statlib/StatFoundation/Convergence/AnalysisTools/ConvergenceModes.lean:176`
 - [basu_indepFun](basu_indepFun.md) — theorem, 11 decl(s) · `Statlib/StatFoundation/Statistics/Sufficiency/Basu.lean:50`
@@ -47,7 +47,6 @@
 - [sub_gauss_tail_sq](sub_gauss_tail_sq.md) — lemma, 2 decl(s) · `Statlib/StatFoundation/RandomVariable/SubExponential/subexp_mgf_le_of_sq_subgaussian.lean:45`
 - [subexp_exp_tail_of_subexp](subexp_exp_tail_of_subexp.md) — theorem, 3 decl(s) · `Statlib/StatFoundation/RandomVariable/SubExponential/subexp_exp_tail_of_subexp.lean:27`
 - [subexp_max_meas_ge_le_exp](subexp_max_meas_ge_le_exp.md) — theorem, 2 decl(s) · `Statlib/StatFoundation/Concentration/ExponentialType/subexp_max_meas_ge_le_exp.lean:10`
-- [subexp_mean_meas_ge_le_exp](subexp_mean_meas_ge_le_exp.md) — theorem, 2 decl(s) · `Statlib/StatFoundation/Concentration/ExponentialType/subexp_mean_meas_ge_le_exp.lean:11`
 - [subexp_meas_ge_le_exp](subexp_meas_ge_le_exp.md) — theorem, 2 decl(s) · `Statlib/StatFoundation/RandomVariable/SubExponential/subexp_meas_ge_le_exp.lean:12`
 - [subexp_mgf_finite](subexp_mgf_finite.md) — theorem, 2 decl(s) · `Statlib/StatFoundation/RandomVariable/SubExponential/subexp_mgf_finite.lean:15`
 - [subexp_mgf_le_of_subgaussian](subexp_mgf_le_of_subgaussian.md) — theorem, 2 decl(s) · `Statlib/StatFoundation/RandomVariable/SubExponential/subexp_mgf_le_of_subgaussian.lean:12`

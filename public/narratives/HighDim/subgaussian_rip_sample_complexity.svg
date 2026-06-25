@@ -23,7 +23,7 @@
 <!-- n0 -->
 <g id="node1" class="node">
 <title>n0</title>
-<g id="a_node1"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/gavin/statlib/Statlib/HighDim/Vocabulary/RandomVector.lean:101" xlink:title="structure · Statlib/HighDim/Vocabulary/RandomVector.lean:101" target="_blank">
+<g id="a_node1"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Vocabulary/RandomVector.lean:101" xlink:title="structure · Statlib/HighDim/Vocabulary/RandomVector.lean:101" target="_blank">
 <path fill="#e8dcff" stroke="#8b5cf6" d="M215.79,-340C215.79,-340 128.21,-340 128.21,-340 122.21,-340 116.21,-334 116.21,-328 116.21,-328 116.21,-316 116.21,-316 116.21,-310 122.21,-304 128.21,-304 128.21,-304 215.79,-304 215.79,-304 221.79,-304 227.79,-310 227.79,-316 227.79,-316 227.79,-328 227.79,-328 227.79,-334 221.79,-340 215.79,-340"/>
 <text xml:space="preserve" text-anchor="middle" x="172" y="-319" font-family="Helvetica,sans-Serif" font-size="10.00">HasCovarianceMatrix</text>
 </a>
@@ -32,7 +32,7 @@
 <!-- n1 -->
 <g id="node2" class="node">
 <title>n1</title>
-<g id="a_node2"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/gavin/statlib/Statlib/HighDim/Vocabulary/RandomVector.lean:109" xlink:title="def · Statlib/HighDim/Vocabulary/RandomVector.lean:109" target="_blank">
+<g id="a_node2"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Vocabulary/RandomVector.lean:109" xlink:title="def · Statlib/HighDim/Vocabulary/RandomVector.lean:109" target="_blank">
 <path fill="#d6e9ff" stroke="#3b82f6" d="M195.79,-413.2C195.79,-413.2 158.21,-413.2 158.21,-413.2 152.21,-413.2 146.21,-407.2 146.21,-401.2 146.21,-401.2 146.21,-389.2 146.21,-389.2 146.21,-383.2 152.21,-377.2 158.21,-377.2 158.21,-377.2 195.79,-377.2 195.79,-377.2 201.79,-377.2 207.79,-383.2 207.79,-389.2 207.79,-389.2 207.79,-401.2 207.79,-401.2 207.79,-407.2 201.79,-413.2 195.79,-413.2"/>
 <text xml:space="preserve" text-anchor="middle" x="177" y="-392.2" font-family="Helvetica,sans-Serif" font-size="10.00">IsIsotropic</text>
 </a>
@@ -47,7 +47,7 @@
 <!-- n2 -->
 <g id="node3" class="node">
 <title>n2</title>
-<g id="a_node3"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/gavin/statlib/Statlib/HighDim/Vocabulary/RandomVector.lean:52" xlink:title="structure · Statlib/HighDim/Vocabulary/RandomVector.lean:52" target="_blank">
+<g id="a_node3"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Vocabulary/RandomVector.lean:52" xlink:title="structure · Statlib/HighDim/Vocabulary/RandomVector.lean:52" target="_blank">
 <path fill="#e8dcff" stroke="#8b5cf6" d="M116.36,-413.2C116.36,-413.2 27.64,-413.2 27.64,-413.2 21.64,-413.2 15.64,-407.2 15.64,-401.2 15.64,-401.2 15.64,-389.2 15.64,-389.2 15.64,-383.2 21.64,-377.2 27.64,-377.2 27.64,-377.2 116.36,-377.2 116.36,-377.2 122.36,-377.2 128.36,-383.2 128.36,-389.2 128.36,-389.2 128.36,-401.2 128.36,-401.2 128.36,-407.2 122.36,-413.2 116.36,-413.2"/>
 <text xml:space="preserve" text-anchor="middle" x="72" y="-392.2" font-family="Helvetica,sans-Serif" font-size="10.00">IsSubGaussianVector</text>
 </a>
@@ -56,7 +56,7 @@
 <!-- n3 -->
 <g id="node4" class="node">
 <title>n3</title>
-<g id="a_node4"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/gavin/statlib/Statlib/HighDim/Vocabulary/Sparse.lean:36" xlink:title="def · Statlib/HighDim/Vocabulary/Sparse.lean:36" target="_blank">
+<g id="a_node4"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Vocabulary/Sparse.lean:36" xlink:title="def · Statlib/HighDim/Vocabulary/Sparse.lean:36" target="_blank">
 <path fill="#d6e9ff" stroke="#3b82f6" d="M549.73,-340C549.73,-340 518.27,-340 518.27,-340 512.27,-340 506.27,-334 506.27,-328 506.27,-328 506.27,-316 506.27,-316 506.27,-310 512.27,-304 518.27,-304 518.27,-304 549.73,-304 549.73,-304 555.73,-304 561.73,-310 561.73,-316 561.73,-316 561.73,-328 561.73,-328 561.73,-334 555.73,-340 549.73,-340"/>
 <text xml:space="preserve" text-anchor="middle" x="534" y="-319" font-family="Helvetica,sans-Serif" font-size="10.00">IsSparse</text>
 </a>
@@ -65,7 +65,7 @@
 <!-- n4 -->
 <g id="node5" class="node">
 <title>n4</title>
-<g id="a_node5"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/gavin/statlib/Statlib/HighDim/Vocabulary/Norms.lean:13" xlink:title="noncomputable def · Statlib/HighDim/Vocabulary/Norms.lean:13" target="_blank">
+<g id="a_node5"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Vocabulary/Norms.lean:13" xlink:title="noncomputable def · Statlib/HighDim/Vocabulary/Norms.lean:13" target="_blank">
 <path fill="#d6e9ff" stroke="#3b82f6" d="M545.23,-52C545.23,-52 508.77,-52 508.77,-52 502.77,-52 496.77,-46 496.77,-40 496.77,-40 496.77,-28 496.77,-28 496.77,-22 502.77,-16 508.77,-16 508.77,-16 545.23,-16 545.23,-16 551.23,-16 557.23,-22 557.23,-28 557.23,-28 557.23,-40 557.23,-40 557.23,-46 551.23,-52 545.23,-52"/>
 <text xml:space="preserve" text-anchor="middle" x="527" y="-31" font-family="Helvetica,sans-Serif" font-size="10.00">l2NormSq</text>
 </a>
@@ -74,7 +74,7 @@
 <!-- n5 -->
 <g id="node6" class="node">
 <title>n5</title>
-<g id="a_node6"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/gavin/statlib/Statlib/HighDim/Vocabulary/DesignMatrix.lean:62" xlink:title="def · Statlib/HighDim/Vocabulary/DesignMatrix.lean:62" target="_blank">
+<g id="a_node6"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Vocabulary/DesignMatrix.lean:62" xlink:title="def · Statlib/HighDim/Vocabulary/DesignMatrix.lean:62" target="_blank">
 <path fill="#d6e9ff" stroke="#3b82f6" d="M2156.23,-413.2C2156.23,-413.2 2109.77,-413.2 2109.77,-413.2 2103.77,-413.2 2097.77,-407.2 2097.77,-401.2 2097.77,-401.2 2097.77,-389.2 2097.77,-389.2 2097.77,-383.2 2103.77,-377.2 2109.77,-377.2 2109.77,-377.2 2156.23,-377.2 2156.23,-377.2 2162.23,-377.2 2168.23,-383.2 2168.23,-389.2 2168.23,-389.2 2168.23,-401.2 2168.23,-401.2 2168.23,-407.2 2162.23,-413.2 2156.23,-413.2"/>
 <text xml:space="preserve" text-anchor="middle" x="2133" y="-392.2" font-family="Helvetica,sans-Serif" font-size="10.00">SatisfiesRIP</text>
 </a>
@@ -95,7 +95,7 @@
 <!-- n6 -->
 <g id="node7" class="node">
 <title>n6</title>
-<g id="a_node7"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/gavin/statlib/Statlib/HighDim/Vocabulary/Norms.lean:32" xlink:title="lemma · Statlib/HighDim/Vocabulary/Norms.lean:32" target="_blank">
+<g id="a_node7"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Vocabulary/Norms.lean:32" xlink:title="lemma · Statlib/HighDim/Vocabulary/Norms.lean:32" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M1437.69,-196C1437.69,-196 1382.31,-196 1382.31,-196 1376.31,-196 1370.31,-190 1370.31,-184 1370.31,-184 1370.31,-172 1370.31,-172 1370.31,-166 1376.31,-160 1382.31,-160 1382.31,-160 1437.69,-160 1437.69,-160 1443.69,-160 1449.69,-166 1449.69,-172 1449.69,-172 1449.69,-184 1449.69,-184 1449.69,-190 1443.69,-196 1437.69,-196"/>
 <text xml:space="preserve" text-anchor="middle" x="1410" y="-175" font-family="Helvetica,sans-Serif" font-size="10.00">inner_eq_sum</text>
 </a>
@@ -104,7 +104,7 @@
 <!-- n9 -->
 <g id="node8" class="node">
 <title>n9</title>
-<g id="a_node8"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/gavin/statlib/Statlib/HighDim/Vocabulary/Norms.lean:21" xlink:title="lemma · Statlib/HighDim/Vocabulary/Norms.lean:21" target="_blank">
+<g id="a_node8"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Vocabulary/Norms.lean:21" xlink:title="lemma · Statlib/HighDim/Vocabulary/Norms.lean:21" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M457.64,-124C457.64,-124 378.36,-124 378.36,-124 372.36,-124 366.36,-118 366.36,-112 366.36,-112 366.36,-100 366.36,-100 366.36,-94 372.36,-88 378.36,-88 378.36,-88 457.64,-88 457.64,-88 463.64,-88 469.64,-94 469.64,-100 469.64,-100 469.64,-112 469.64,-112 469.64,-118 463.64,-124 457.64,-124"/>
 <text xml:space="preserve" text-anchor="middle" x="418" y="-103" font-family="Helvetica,sans-Serif" font-size="10.00">euclidean_norm_sq</text>
 </a>
@@ -119,7 +119,7 @@
 <!-- n11 -->
 <g id="node9" class="node">
 <title>n11</title>
-<g id="a_node9"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/gavin/statlib/Statlib/HighDim/Geometry/RIPConstruction.lean:46" xlink:title="lemma · Statlib/HighDim/Geometry/RIPConstruction.lean:46" target="_blank">
+<g id="a_node9"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Geometry/RIPConstruction.lean:46" xlink:title="lemma · Statlib/HighDim/Geometry/RIPConstruction.lean:46" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M426.11,-413.2C426.11,-413.2 297.89,-413.2 297.89,-413.2 291.89,-413.2 285.89,-407.2 285.89,-401.2 285.89,-401.2 285.89,-389.2 285.89,-389.2 285.89,-383.2 291.89,-377.2 297.89,-377.2 297.89,-377.2 426.11,-377.2 426.11,-377.2 432.11,-377.2 438.11,-383.2 438.11,-389.2 438.11,-389.2 438.11,-401.2 438.11,-401.2 438.11,-407.2 432.11,-413.2 426.11,-413.2"/>
 <text xml:space="preserve" text-anchor="middle" x="362" y="-392.2" font-family="Helvetica,sans-Serif" font-size="10.00">subgaussian_integral_eq_zero</text>
 </a>
@@ -128,7 +128,7 @@
 <!-- n12 -->
 <g id="node10" class="node">
 <title>n12</title>
-<g id="a_node10"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/gavin/statlib/Statlib/HighDim/CovarianceMatrix/SampleCovariance.lean:393" xlink:title="lemma · Statlib/HighDim/CovarianceMatrix/SampleCovariance.lean:393" target="_blank">
+<g id="a_node10"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/CovarianceMatrix/SampleCovariance.lean:393" xlink:title="lemma · Statlib/HighDim/CovarianceMatrix/SampleCovariance.lean:393" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M2386.22,-340C2386.22,-340 2235.78,-340 2235.78,-340 2229.78,-340 2223.78,-334 2223.78,-328 2223.78,-328 2223.78,-316 2223.78,-316 2223.78,-310 2229.78,-304 2235.78,-304 2235.78,-304 2386.22,-304 2386.22,-304 2392.22,-304 2398.22,-310 2398.22,-316 2398.22,-316 2398.22,-328 2398.22,-328 2398.22,-334 2392.22,-340 2386.22,-340"/>
 <text xml:space="preserve" text-anchor="middle" x="2311" y="-319" font-family="Helvetica,sans-Serif" font-size="10.00">scalar_sq_centered_exp_integrable</text>
 </a>
@@ -137,7 +137,7 @@
 <!-- n19 -->
 <g id="node11" class="node">
 <title>n19</title>
-<g id="a_node11"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/gavin/statlib/Statlib/HighDim/CovarianceMatrix/SampleCovariance.lean:451" xlink:title="lemma · Statlib/HighDim/CovarianceMatrix/SampleCovariance.lean:451" target="_blank">
+<g id="a_node11"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/CovarianceMatrix/SampleCovariance.lean:451" xlink:title="lemma · Statlib/HighDim/CovarianceMatrix/SampleCovariance.lean:451" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M2386.12,-413.2C2386.12,-413.2 2197.88,-413.2 2197.88,-413.2 2191.88,-413.2 2185.88,-407.2 2185.88,-401.2 2185.88,-401.2 2185.88,-389.2 2185.88,-389.2 2185.88,-383.2 2191.88,-377.2 2197.88,-377.2 2197.88,-377.2 2386.12,-377.2 2386.12,-377.2 2392.12,-377.2 2398.12,-383.2 2398.12,-389.2 2398.12,-389.2 2398.12,-401.2 2398.12,-401.2 2398.12,-407.2 2392.12,-413.2 2386.12,-413.2"/>
 <text xml:space="preserve" text-anchor="middle" x="2292" y="-392.2" font-family="Helvetica,sans-Serif" font-size="10.00">scalar_sq_centered_subexponential_explicit</text>
 </a>
@@ -152,7 +152,7 @@
 <!-- n18 -->
 <g id="node51" class="node">
 <title>n18</title>
-<g id="a_node51"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/gavin/statlib/Statlib/StatFoundation/RandomVariable/SubExponential/subexp_mgf_le_of_sq_subgaussian.lean:72" xlink:title="theorem · Statlib/StatFoundation/RandomVariable/SubExponential/subexp_mgf_le_of_sq_subgaussian.lean:72" target="_blank">
+<g id="a_node51"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/StatFoundation/RandomVariable/SubExponential/subexp_mgf_le_of_sq_subgaussian.lean:72" xlink:title="theorem · Statlib/StatFoundation/RandomVariable/SubExponential/subexp_mgf_le_of_sq_subgaussian.lean:72" target="_blank">
 <path fill="#ffe6a3" stroke="#d4a017" d="M2621.84,-340C2621.84,-340 2434.16,-340 2434.16,-340 2428.16,-340 2422.16,-334 2422.16,-328 2422.16,-328 2422.16,-316 2422.16,-316 2422.16,-310 2428.16,-304 2434.16,-304 2434.16,-304 2621.84,-304 2621.84,-304 2627.84,-304 2633.84,-310 2633.84,-316 2633.84,-316 2633.84,-328 2633.84,-328 2633.84,-334 2627.84,-340 2621.84,-340"/>
 <text xml:space="preserve" text-anchor="middle" x="2528" y="-319" font-family="Helvetica,sans-Serif" font-size="10.00">subexp_mgf_le_of_sq_subgaussian_explicit</text>
 </a>
@@ -167,7 +167,7 @@
 <!-- n21 -->
 <g id="node12" class="node">
 <title>n21</title>
-<g id="a_node12"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/gavin/statlib/Statlib/HighDim/Geometry/CoveringNumbers.lean:42" xlink:title="theorem · Statlib/HighDim/Geometry/CoveringNumbers.lean:42" target="_blank">
+<g id="a_node12"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Geometry/CoveringNumbers.lean:42" xlink:title="theorem · Statlib/HighDim/Geometry/CoveringNumbers.lean:42" target="_blank">
 <path fill="#ffe6a3" stroke="#d4a017" d="M456.38,-340C456.38,-340 317.62,-340 317.62,-340 311.62,-340 305.62,-334 305.62,-328 305.62,-328 305.62,-316 305.62,-316 305.62,-310 311.62,-304 317.62,-304 317.62,-304 456.38,-304 456.38,-304 462.38,-304 468.38,-310 468.38,-316 468.38,-316 468.38,-328 468.38,-328 468.38,-334 462.38,-340 456.38,-340"/>
 <text xml:space="preserve" text-anchor="middle" x="387" y="-319" font-family="Helvetica,sans-Serif" font-size="10.00">covering_number_euclidean_ball</text>
 </a>
@@ -176,7 +176,7 @@
 <!-- n22 -->
 <g id="node13" class="node">
 <title>n22</title>
-<g id="a_node13"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/gavin/statlib/Statlib/HighDim/Vocabulary/Norms.lean:27" xlink:title="lemma · Statlib/HighDim/Vocabulary/Norms.lean:27" target="_blank">
+<g id="a_node13"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Vocabulary/Norms.lean:27" xlink:title="lemma · Statlib/HighDim/Vocabulary/Norms.lean:27" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M492.92,-196C492.92,-196 413.08,-196 413.08,-196 407.08,-196 401.08,-190 401.08,-184 401.08,-184 401.08,-172 401.08,-172 401.08,-166 407.08,-160 413.08,-160 413.08,-160 492.92,-160 492.92,-160 498.92,-160 504.92,-166 504.92,-172 504.92,-172 504.92,-184 504.92,-184 504.92,-190 498.92,-196 492.92,-196"/>
 <text xml:space="preserve" text-anchor="middle" x="453" y="-175" font-family="Helvetica,sans-Serif" font-size="10.00">euclidean_norm_eq</text>
 </a>
@@ -197,7 +197,7 @@
 <!-- n23 -->
 <g id="node14" class="node">
 <title>n23</title>
-<g id="a_node14"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/gavin/statlib/Statlib/HighDim/Geometry/CoveringNumbers.lean:405" xlink:title="theorem · Statlib/HighDim/Geometry/CoveringNumbers.lean:405" target="_blank">
+<g id="a_node14"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Geometry/CoveringNumbers.lean:405" xlink:title="theorem · Statlib/HighDim/Geometry/CoveringNumbers.lean:405" target="_blank">
 <path fill="#ffe6a3" stroke="#d4a017" d="M593.98,-413.2C593.98,-413.2 468.02,-413.2 468.02,-413.2 462.02,-413.2 456.02,-407.2 456.02,-401.2 456.02,-401.2 456.02,-389.2 456.02,-389.2 456.02,-383.2 462.02,-377.2 468.02,-377.2 468.02,-377.2 593.98,-377.2 593.98,-377.2 599.98,-377.2 605.98,-383.2 605.98,-389.2 605.98,-389.2 605.98,-401.2 605.98,-401.2 605.98,-407.2 599.98,-413.2 593.98,-413.2"/>
 <text xml:space="preserve" text-anchor="middle" x="531" y="-392.2" font-family="Helvetica,sans-Serif" font-size="10.00">covering_number_sparse_ball</text>
 </a>
@@ -230,7 +230,7 @@
 <!-- n24 -->
 <g id="node15" class="node">
 <title>n24</title>
-<g id="a_node15"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/gavin/statlib/Statlib/HighDim/Geometry/RIPConstruction.lean:217" xlink:title="lemma · Statlib/HighDim/Geometry/RIPConstruction.lean:217" target="_blank">
+<g id="a_node15"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Geometry/RIPConstruction.lean:217" xlink:title="lemma · Statlib/HighDim/Geometry/RIPConstruction.lean:217" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M907.57,-413.2C907.57,-413.2 834.43,-413.2 834.43,-413.2 828.43,-413.2 822.43,-407.2 822.43,-401.2 822.43,-401.2 822.43,-389.2 822.43,-389.2 822.43,-383.2 828.43,-377.2 834.43,-377.2 834.43,-377.2 907.57,-377.2 907.57,-377.2 913.57,-377.2 919.57,-383.2 919.57,-389.2 919.57,-389.2 919.57,-401.2 919.57,-401.2 919.57,-407.2 913.57,-413.2 907.57,-413.2"/>
 <text xml:space="preserve" text-anchor="middle" x="871" y="-392.2" font-family="Helvetica,sans-Serif" font-size="10.00">mulVec_smul_vec</text>
 </a>
@@ -239,7 +239,7 @@
 <!-- n25 -->
 <g id="node16" class="node">
 <title>n25</title>
-<g id="a_node16"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/gavin/statlib/Statlib/HighDim/Geometry/RIPConstruction.lean:209" xlink:title="lemma · Statlib/HighDim/Geometry/RIPConstruction.lean:209" target="_blank">
+<g id="a_node16"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Geometry/RIPConstruction.lean:209" xlink:title="lemma · Statlib/HighDim/Geometry/RIPConstruction.lean:209" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M255.57,-124C255.57,-124 192.43,-124 192.43,-124 186.43,-124 180.43,-118 180.43,-112 180.43,-112 180.43,-100 180.43,-100 180.43,-94 186.43,-88 192.43,-88 192.43,-88 255.57,-88 255.57,-88 261.57,-88 267.57,-94 267.57,-100 267.57,-100 267.57,-112 267.57,-112 267.57,-118 261.57,-124 255.57,-124"/>
 <text xml:space="preserve" text-anchor="middle" x="224" y="-103" font-family="Helvetica,sans-Serif" font-size="10.00">l2NormSq_smul</text>
 </a>
@@ -254,7 +254,7 @@
 <!-- n26 -->
 <g id="node17" class="node">
 <title>n26</title>
-<g id="a_node17"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/gavin/statlib/Statlib/HighDim/CovarianceMatrix/SampleCovariance.lean:190" xlink:title="noncomputable def · Statlib/HighDim/CovarianceMatrix/SampleCovariance.lean:190" target="_blank">
+<g id="a_node17"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/CovarianceMatrix/SampleCovariance.lean:190" xlink:title="noncomputable def · Statlib/HighDim/CovarianceMatrix/SampleCovariance.lean:190" target="_blank">
 <path fill="#d6e9ff" stroke="#3b82f6" d="M982.14,-268C982.14,-268 887.86,-268 887.86,-268 881.86,-268 875.86,-262 875.86,-256 875.86,-256 875.86,-244 875.86,-244 875.86,-238 881.86,-232 887.86,-232 887.86,-232 982.14,-232 982.14,-232 988.14,-232 994.14,-238 994.14,-244 994.14,-244 994.14,-256 994.14,-256 994.14,-262 988.14,-268 982.14,-268"/>
 <text xml:space="preserve" text-anchor="middle" x="935" y="-247" font-family="Helvetica,sans-Serif" font-size="10.00">sampleSecondMoment</text>
 </a>
@@ -263,7 +263,7 @@
 <!-- n27 -->
 <g id="node18" class="node">
 <title>n27</title>
-<g id="a_node18"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/gavin/statlib/Statlib/HighDim/Vocabulary/Restrictions.lean:15" xlink:title="def · Statlib/HighDim/Vocabulary/Restrictions.lean:15" target="_blank">
+<g id="a_node18"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Vocabulary/Restrictions.lean:15" xlink:title="def · Statlib/HighDim/Vocabulary/Restrictions.lean:15" target="_blank">
 <path fill="#d6e9ff" stroke="#3b82f6" d="M783.34,-196C783.34,-196 724.66,-196 724.66,-196 718.66,-196 712.66,-190 712.66,-184 712.66,-184 712.66,-172 712.66,-172 712.66,-166 718.66,-160 724.66,-160 724.66,-160 783.34,-160 783.34,-160 789.34,-160 795.34,-166 795.34,-172 795.34,-172 795.34,-184 795.34,-184 795.34,-190 789.34,-196 783.34,-196"/>
 <text xml:space="preserve" text-anchor="middle" x="754" y="-175" font-family="Helvetica,sans-Serif" font-size="10.00">restrictByEquiv</text>
 </a>
@@ -272,7 +272,7 @@
 <!-- n28 -->
 <g id="node19" class="node">
 <title>n28</title>
-<g id="a_node19"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/gavin/statlib/Statlib/HighDim/Vocabulary/Restrictions.lean:20" xlink:title="def · Statlib/HighDim/Vocabulary/Restrictions.lean:20" target="_blank">
+<g id="a_node19"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Vocabulary/Restrictions.lean:20" xlink:title="def · Statlib/HighDim/Vocabulary/Restrictions.lean:20" target="_blank">
 <path fill="#d6e9ff" stroke="#3b82f6" d="M843.35,-124C843.35,-124 784.65,-124 784.65,-124 778.65,-124 772.65,-118 772.65,-112 772.65,-112 772.65,-100 772.65,-100 772.65,-94 778.65,-88 784.65,-88 784.65,-88 843.35,-88 843.35,-88 849.35,-88 855.35,-94 855.35,-100 855.35,-100 855.35,-112 855.35,-112 855.35,-118 849.35,-124 843.35,-124"/>
 <text xml:space="preserve" text-anchor="middle" x="814" y="-103" font-family="Helvetica,sans-Serif" font-size="10.00">extendByEquiv</text>
 </a>
@@ -281,7 +281,7 @@
 <!-- n29 -->
 <g id="node20" class="node">
 <title>n29</title>
-<g id="a_node20"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/gavin/statlib/Statlib/HighDim/Geometry/RIPConstruction.lean:368" xlink:title="lemma · Statlib/HighDim/Geometry/RIPConstruction.lean:368" target="_blank">
+<g id="a_node20"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Geometry/RIPConstruction.lean:368" xlink:title="lemma · Statlib/HighDim/Geometry/RIPConstruction.lean:368" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M643.36,-196C643.36,-196 534.64,-196 534.64,-196 528.64,-196 522.64,-190 522.64,-184 522.64,-184 522.64,-172 522.64,-172 522.64,-166 528.64,-160 534.64,-160 534.64,-160 643.36,-160 643.36,-160 649.36,-160 655.36,-166 655.36,-172 655.36,-172 655.36,-184 655.36,-184 655.36,-190 649.36,-196 643.36,-196"/>
 <text xml:space="preserve" text-anchor="middle" x="589" y="-175" font-family="Helvetica,sans-Serif" font-size="10.00">extendByEquiv_l2NormSq</text>
 </a>
@@ -302,7 +302,7 @@
 <!-- n30 -->
 <g id="node21" class="node">
 <title>n30</title>
-<g id="a_node21"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/gavin/statlib/Statlib/HighDim/Geometry/RIPConstruction.lean:398" xlink:title="lemma · Statlib/HighDim/Geometry/RIPConstruction.lean:398" target="_blank">
+<g id="a_node21"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Geometry/RIPConstruction.lean:398" xlink:title="lemma · Statlib/HighDim/Geometry/RIPConstruction.lean:398" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M539.53,-268C539.53,-268 452.47,-268 452.47,-268 446.47,-268 440.47,-262 440.47,-256 440.47,-256 440.47,-244 440.47,-244 440.47,-238 446.47,-232 452.47,-232 452.47,-232 539.53,-232 539.53,-232 545.53,-232 551.53,-238 551.53,-244 551.53,-244 551.53,-256 551.53,-256 551.53,-262 545.53,-268 539.53,-268"/>
 <text xml:space="preserve" text-anchor="middle" x="496" y="-247" font-family="Helvetica,sans-Serif" font-size="10.00">extendByEquiv_norm</text>
 </a>
@@ -329,7 +329,7 @@
 <!-- n31 -->
 <g id="node22" class="node">
 <title>n31</title>
-<g id="a_node22"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/gavin/statlib/Statlib/HighDim/Geometry/RIPConstruction.lean:403" xlink:title="lemma · Statlib/HighDim/Geometry/RIPConstruction.lean:403" target="_blank">
+<g id="a_node22"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Geometry/RIPConstruction.lean:403" xlink:title="lemma · Statlib/HighDim/Geometry/RIPConstruction.lean:403" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M845.89,-268C845.89,-268 662.11,-268 662.11,-268 656.11,-268 650.11,-262 650.11,-256 650.11,-256 650.11,-244 650.11,-244 650.11,-238 656.11,-232 662.11,-232 662.11,-232 845.89,-232 845.89,-232 851.89,-232 857.89,-238 857.89,-244 857.89,-244 857.89,-256 857.89,-256 857.89,-262 851.89,-268 845.89,-268"/>
 <text xml:space="preserve" text-anchor="middle" x="754" y="-247" font-family="Helvetica,sans-Serif" font-size="10.00">extendByEquiv_restrictByEquiv_of_support</text>
 </a>
@@ -350,7 +350,7 @@
 <!-- n32 -->
 <g id="node23" class="node">
 <title>n32</title>
-<g id="a_node23"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/gavin/statlib/Statlib/HighDim/Geometry/RIPConstruction.lean:420" xlink:title="lemma · Statlib/HighDim/Geometry/RIPConstruction.lean:420" target="_blank">
+<g id="a_node23"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Geometry/RIPConstruction.lean:420" xlink:title="lemma · Statlib/HighDim/Geometry/RIPConstruction.lean:420" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M831.92,-340C831.92,-340 692.08,-340 692.08,-340 686.08,-340 680.08,-334 680.08,-328 680.08,-328 680.08,-316 680.08,-316 680.08,-310 686.08,-304 692.08,-304 692.08,-304 831.92,-304 831.92,-304 837.92,-304 843.92,-310 843.92,-316 843.92,-316 843.92,-328 843.92,-328 843.92,-334 837.92,-340 831.92,-340"/>
 <text xml:space="preserve" text-anchor="middle" x="762" y="-319" font-family="Helvetica,sans-Serif" font-size="10.00">restrictByEquiv_norm_of_support</text>
 </a>
@@ -377,7 +377,7 @@
 <!-- n33 -->
 <g id="node24" class="node">
 <title>n33</title>
-<g id="a_node24"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/gavin/statlib/Statlib/HighDim/Geometry/RIPConstruction.lean:428" xlink:title="lemma · Statlib/HighDim/Geometry/RIPConstruction.lean:428" target="_blank">
+<g id="a_node24"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Geometry/RIPConstruction.lean:428" xlink:title="lemma · Statlib/HighDim/Geometry/RIPConstruction.lean:428" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M1142.31,-413.2C1142.31,-413.2 1009.69,-413.2 1009.69,-413.2 1003.69,-413.2 997.69,-407.2 997.69,-401.2 997.69,-401.2 997.69,-389.2 997.69,-389.2 997.69,-383.2 1003.69,-377.2 1009.69,-377.2 1009.69,-377.2 1142.31,-377.2 1142.31,-377.2 1148.31,-377.2 1154.31,-383.2 1154.31,-389.2 1154.31,-389.2 1154.31,-401.2 1154.31,-401.2 1154.31,-407.2 1148.31,-413.2 1142.31,-413.2"/>
 <text xml:space="preserve" text-anchor="middle" x="1076" y="-392.2" font-family="Helvetica,sans-Serif" font-size="10.00">restrictByEquiv_dist_of_support</text>
 </a>
@@ -398,7 +398,7 @@
 <!-- n34 -->
 <g id="node25" class="node">
 <title>n34</title>
-<g id="a_node25"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/gavin/statlib/Statlib/HighDim/Geometry/RIPConstruction.lean:413" xlink:title="lemma · Statlib/HighDim/Geometry/RIPConstruction.lean:413" target="_blank">
+<g id="a_node25"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Geometry/RIPConstruction.lean:413" xlink:title="lemma · Statlib/HighDim/Geometry/RIPConstruction.lean:413" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M1174.48,-268C1174.48,-268 1043.52,-268 1043.52,-268 1037.52,-268 1031.52,-262 1031.52,-256 1031.52,-256 1031.52,-244 1031.52,-244 1031.52,-238 1037.52,-232 1043.52,-232 1043.52,-232 1174.48,-232 1174.48,-232 1180.48,-232 1186.48,-238 1186.48,-244 1186.48,-244 1186.48,-256 1186.48,-256 1186.48,-262 1180.48,-268 1174.48,-268"/>
 <text xml:space="preserve" text-anchor="middle" x="1109" y="-247" font-family="Helvetica,sans-Serif" font-size="10.00">restrictByEquiv_extendByEquiv</text>
 </a>
@@ -419,7 +419,7 @@
 <!-- n35 -->
 <g id="node26" class="node">
 <title>n35</title>
-<g id="a_node26"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/gavin/statlib/Statlib/HighDim/CovarianceMatrix/SampleCovariance.lean:196" xlink:title="lemma · Statlib/HighDim/CovarianceMatrix/SampleCovariance.lean:196" target="_blank">
+<g id="a_node26"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/CovarianceMatrix/SampleCovariance.lean:196" xlink:title="lemma · Statlib/HighDim/CovarianceMatrix/SampleCovariance.lean:196" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M1239.69,-340C1239.69,-340 1104.31,-340 1104.31,-340 1098.31,-340 1092.31,-334 1092.31,-328 1092.31,-328 1092.31,-316 1092.31,-316 1092.31,-310 1098.31,-304 1104.31,-304 1104.31,-304 1239.69,-304 1239.69,-304 1245.69,-304 1251.69,-310 1251.69,-316 1251.69,-316 1251.69,-328 1251.69,-328 1251.69,-334 1245.69,-340 1239.69,-340"/>
 <text xml:space="preserve" text-anchor="middle" x="1172" y="-319" font-family="Helvetica,sans-Serif" font-size="10.00">sampleSecondMoment_isSymm</text>
 </a>
@@ -434,7 +434,7 @@
 <!-- n36 -->
 <g id="node27" class="node">
 <title>n36</title>
-<g id="a_node27"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/gavin/statlib/Statlib/HighDim/CovarianceMatrix/SampleCovariance.lean:178" xlink:title="lemma · Statlib/HighDim/CovarianceMatrix/SampleCovariance.lean:178" target="_blank">
+<g id="a_node27"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/CovarianceMatrix/SampleCovariance.lean:178" xlink:title="lemma · Statlib/HighDim/CovarianceMatrix/SampleCovariance.lean:178" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M1383.63,-413.2C1383.63,-413.2 1264.37,-413.2 1264.37,-413.2 1258.37,-413.2 1252.37,-407.2 1252.37,-401.2 1252.37,-401.2 1252.37,-389.2 1252.37,-389.2 1252.37,-383.2 1258.37,-377.2 1264.37,-377.2 1264.37,-377.2 1383.63,-377.2 1383.63,-377.2 1389.63,-377.2 1395.63,-383.2 1395.63,-389.2 1395.63,-389.2 1395.63,-401.2 1395.63,-401.2 1395.63,-407.2 1389.63,-413.2 1383.63,-413.2"/>
 <text xml:space="preserve" text-anchor="middle" x="1324" y="-392.2" font-family="Helvetica,sans-Serif" font-size="10.00">real_isHermitian_of_isSymm</text>
 </a>
@@ -443,7 +443,7 @@
 <!-- n37 -->
 <g id="node28" class="node">
 <title>n37</title>
-<g id="a_node28"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/gavin/statlib/Statlib/HighDim/Vocabulary/Norms.lean:41" xlink:title="noncomputable def · Statlib/HighDim/Vocabulary/Norms.lean:41" target="_blank">
+<g id="a_node28"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Vocabulary/Norms.lean:41" xlink:title="noncomputable def · Statlib/HighDim/Vocabulary/Norms.lean:41" target="_blank">
 <path fill="#d6e9ff" stroke="#3b82f6" d="M1970.13,-196C1970.13,-196 1925.87,-196 1925.87,-196 1919.87,-196 1913.87,-190 1913.87,-184 1913.87,-184 1913.87,-172 1913.87,-172 1913.87,-166 1919.87,-160 1925.87,-160 1925.87,-160 1970.13,-160 1970.13,-160 1976.13,-160 1982.13,-166 1982.13,-172 1982.13,-172 1982.13,-184 1982.13,-184 1982.13,-190 1976.13,-196 1970.13,-196"/>
 <text xml:space="preserve" text-anchor="middle" x="1948" y="-175" font-family="Helvetica,sans-Serif" font-size="10.00">toEuclidean</text>
 </a>
@@ -452,7 +452,7 @@
 <!-- n38 -->
 <g id="node29" class="node">
 <title>n38</title>
-<g id="a_node29"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/gavin/statlib/Statlib/HighDim/CovarianceMatrix/SampleCovariance.lean:38" xlink:title="lemma · Statlib/HighDim/CovarianceMatrix/SampleCovariance.lean:38" target="_blank">
+<g id="a_node29"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/CovarianceMatrix/SampleCovariance.lean:38" xlink:title="lemma · Statlib/HighDim/CovarianceMatrix/SampleCovariance.lean:38" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M2114.23,-268C2114.23,-268 1933.77,-268 1933.77,-268 1927.77,-268 1921.77,-262 1921.77,-256 1921.77,-256 1921.77,-244 1921.77,-244 1921.77,-238 1927.77,-232 1933.77,-232 1933.77,-232 2114.23,-232 2114.23,-232 2120.23,-232 2126.23,-238 2126.23,-244 2126.23,-244 2126.23,-256 2126.23,-256 2126.23,-262 2120.23,-268 2114.23,-268"/>
 <text xml:space="preserve" text-anchor="middle" x="2024" y="-247" font-family="Helvetica,sans-Serif" font-size="10.00">hermitian_norm_eq_diagonal_eigenvalues</text>
 </a>
@@ -461,7 +461,7 @@
 <!-- n39 -->
 <g id="node30" class="node">
 <title>n39</title>
-<g id="a_node30"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/gavin/statlib/Statlib/HighDim/CovarianceMatrix/SampleCovariance.lean:58" xlink:title="lemma · Statlib/HighDim/CovarianceMatrix/SampleCovariance.lean:58" target="_blank">
+<g id="a_node30"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/CovarianceMatrix/SampleCovariance.lean:58" xlink:title="lemma · Statlib/HighDim/CovarianceMatrix/SampleCovariance.lean:58" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M1892.21,-268C1892.21,-268 1781.79,-268 1781.79,-268 1775.79,-268 1769.79,-262 1769.79,-256 1769.79,-256 1769.79,-244 1769.79,-244 1769.79,-238 1775.79,-232 1781.79,-232 1781.79,-232 1892.21,-232 1892.21,-232 1898.21,-232 1904.21,-238 1904.21,-244 1904.21,-244 1904.21,-256 1904.21,-256 1904.21,-262 1898.21,-268 1892.21,-268"/>
 <text xml:space="preserve" text-anchor="middle" x="1837" y="-247" font-family="Helvetica,sans-Serif" font-size="10.00">pi_real_norm_eq_sup_abs</text>
 </a>
@@ -470,7 +470,7 @@
 <!-- n40 -->
 <g id="node31" class="node">
 <title>n40</title>
-<g id="a_node31"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/gavin/statlib/Statlib/HighDim/CovarianceMatrix/SampleCovariance.lean:68" xlink:title="lemma · Statlib/HighDim/CovarianceMatrix/SampleCovariance.lean:68" target="_blank">
+<g id="a_node31"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/CovarianceMatrix/SampleCovariance.lean:68" xlink:title="lemma · Statlib/HighDim/CovarianceMatrix/SampleCovariance.lean:68" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M1936.23,-340C1936.23,-340 1755.77,-340 1755.77,-340 1749.77,-340 1743.77,-334 1743.77,-328 1743.77,-328 1743.77,-316 1743.77,-316 1743.77,-310 1749.77,-304 1755.77,-304 1755.77,-304 1936.23,-304 1936.23,-304 1942.23,-304 1948.23,-310 1948.23,-316 1948.23,-316 1948.23,-328 1948.23,-328 1948.23,-334 1942.23,-340 1936.23,-340"/>
 <text xml:space="preserve" text-anchor="middle" x="1846" y="-319" font-family="Helvetica,sans-Serif" font-size="10.00">hermitian_norm_eq_sup_abs_eigenvalues</text>
 </a>
@@ -491,7 +491,7 @@
 <!-- n41 -->
 <g id="node32" class="node">
 <title>n41</title>
-<g id="a_node32"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/gavin/statlib/Statlib/HighDim/CovarianceMatrix/SampleCovariance.lean:77" xlink:title="lemma · Statlib/HighDim/CovarianceMatrix/SampleCovariance.lean:77" target="_blank">
+<g id="a_node32"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/CovarianceMatrix/SampleCovariance.lean:77" xlink:title="lemma · Statlib/HighDim/CovarianceMatrix/SampleCovariance.lean:77" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M1809.54,-413.2C1809.54,-413.2 1672.46,-413.2 1672.46,-413.2 1666.46,-413.2 1660.46,-407.2 1660.46,-401.2 1660.46,-401.2 1660.46,-389.2 1660.46,-389.2 1660.46,-383.2 1666.46,-377.2 1672.46,-377.2 1672.46,-377.2 1809.54,-377.2 1809.54,-377.2 1815.54,-377.2 1821.54,-383.2 1821.54,-389.2 1821.54,-389.2 1821.54,-401.2 1821.54,-401.2 1821.54,-407.2 1815.54,-413.2 1809.54,-413.2"/>
 <text xml:space="preserve" text-anchor="middle" x="1741" y="-392.2" font-family="Helvetica,sans-Serif" font-size="10.00">hermitian_norm_le_two_net_sup</text>
 </a>
@@ -512,7 +512,7 @@
 <!-- n42 -->
 <g id="node33" class="node">
 <title>n42</title>
-<g id="a_node33"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/gavin/statlib/Statlib/HighDim/CovarianceMatrix/SampleCovariance.lean:315" xlink:title="lemma · Statlib/HighDim/CovarianceMatrix/SampleCovariance.lean:315" target="_blank">
+<g id="a_node33"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/CovarianceMatrix/SampleCovariance.lean:315" xlink:title="lemma · Statlib/HighDim/CovarianceMatrix/SampleCovariance.lean:315" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M1659.53,-268C1659.53,-268 1552.47,-268 1552.47,-268 1546.47,-268 1540.47,-262 1540.47,-256 1540.47,-256 1540.47,-244 1540.47,-244 1540.47,-238 1546.47,-232 1552.47,-232 1552.47,-232 1659.53,-232 1659.53,-232 1665.53,-232 1671.53,-238 1671.53,-244 1671.53,-244 1671.53,-256 1671.53,-256 1671.53,-262 1665.53,-268 1659.53,-268"/>
 <text xml:space="preserve" text-anchor="middle" x="1606" y="-247" font-family="Helvetica,sans-Serif" font-size="10.00">matrix_quadratic_eq_sum</text>
 </a>
@@ -533,7 +533,7 @@
 <!-- n43 -->
 <g id="node34" class="node">
 <title>n43</title>
-<g id="a_node34"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/gavin/statlib/Statlib/HighDim/CovarianceMatrix/SampleCovariance.lean:327" xlink:title="lemma · Statlib/HighDim/CovarianceMatrix/SampleCovariance.lean:327" target="_blank">
+<g id="a_node34"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/CovarianceMatrix/SampleCovariance.lean:327" xlink:title="lemma · Statlib/HighDim/CovarianceMatrix/SampleCovariance.lean:327" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M1510.08,-268C1510.08,-268 1421.92,-268 1421.92,-268 1415.92,-268 1409.92,-262 1409.92,-256 1409.92,-256 1409.92,-244 1409.92,-244 1409.92,-238 1415.92,-232 1421.92,-232 1421.92,-232 1510.08,-232 1510.08,-232 1516.08,-232 1522.08,-238 1522.08,-244 1522.08,-244 1522.08,-256 1522.08,-256 1522.08,-262 1516.08,-268 1510.08,-268"/>
 <text xml:space="preserve" text-anchor="middle" x="1466" y="-247" font-family="Helvetica,sans-Serif" font-size="10.00">fin_sum_comm_three</text>
 </a>
@@ -542,7 +542,7 @@
 <!-- n44 -->
 <g id="node35" class="node">
 <title>n44</title>
-<g id="a_node35"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/gavin/statlib/Statlib/HighDim/CovarianceMatrix/SampleCovariance.lean:337" xlink:title="lemma · Statlib/HighDim/CovarianceMatrix/SampleCovariance.lean:337" target="_blank">
+<g id="a_node35"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/CovarianceMatrix/SampleCovariance.lean:337" xlink:title="lemma · Statlib/HighDim/CovarianceMatrix/SampleCovariance.lean:337" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M1633.52,-340C1633.52,-340 1402.48,-340 1402.48,-340 1396.48,-340 1390.48,-334 1390.48,-328 1390.48,-328 1390.48,-316 1390.48,-316 1390.48,-310 1396.48,-304 1402.48,-304 1402.48,-304 1633.52,-304 1633.52,-304 1639.52,-304 1645.52,-310 1645.52,-316 1645.52,-316 1645.52,-328 1645.52,-328 1645.52,-334 1639.52,-340 1633.52,-340"/>
 <text xml:space="preserve" text-anchor="middle" x="1518" y="-319" font-family="Helvetica,sans-Serif" font-size="10.00">sampleSecondMoment_quadratic_eq_projection_sum</text>
 </a>
@@ -581,7 +581,7 @@
 <!-- n45 -->
 <g id="node36" class="node">
 <title>n45</title>
-<g id="a_node36"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/gavin/statlib/Statlib/HighDim/Geometry/RIPConstruction.lean:442" xlink:title="lemma · Statlib/HighDim/Geometry/RIPConstruction.lean:442" target="_blank">
+<g id="a_node36"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Geometry/RIPConstruction.lean:442" xlink:title="lemma · Statlib/HighDim/Geometry/RIPConstruction.lean:442" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M1319.58,-268C1319.58,-268 1216.42,-268 1216.42,-268 1210.42,-268 1204.42,-262 1204.42,-256 1204.42,-256 1204.42,-244 1204.42,-244 1204.42,-238 1210.42,-232 1216.42,-232 1216.42,-232 1319.58,-232 1319.58,-232 1325.58,-232 1331.58,-238 1331.58,-244 1331.58,-244 1331.58,-256 1331.58,-256 1331.58,-262 1325.58,-268 1319.58,-268"/>
 <text xml:space="preserve" text-anchor="middle" x="1268" y="-247" font-family="Helvetica,sans-Serif" font-size="10.00">restrictByEquiv_inner_eq</text>
 </a>
@@ -608,7 +608,7 @@
 <!-- n46 -->
 <g id="node37" class="node">
 <title>n46</title>
-<g id="a_node37"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/gavin/statlib/Statlib/HighDim/Geometry/RIPConstruction.lean:490" xlink:title="lemma · Statlib/HighDim/Geometry/RIPConstruction.lean:490" target="_blank">
+<g id="a_node37"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Geometry/RIPConstruction.lean:490" xlink:title="lemma · Statlib/HighDim/Geometry/RIPConstruction.lean:490" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M1609.61,-413.2C1609.61,-413.2 1446.39,-413.2 1446.39,-413.2 1440.39,-413.2 1434.39,-407.2 1434.39,-401.2 1434.39,-401.2 1434.39,-389.2 1434.39,-389.2 1434.39,-383.2 1440.39,-377.2 1446.39,-377.2 1446.39,-377.2 1609.61,-377.2 1609.61,-377.2 1615.61,-377.2 1621.61,-383.2 1621.61,-389.2 1621.61,-389.2 1621.61,-401.2 1621.61,-401.2 1621.61,-407.2 1615.61,-413.2 1609.61,-413.2"/>
 <text xml:space="preserve" text-anchor="middle" x="1528" y="-392.2" font-family="Helvetica,sans-Serif" font-size="10.00">restricted_sample_deviation_quadratic</text>
 </a>
@@ -677,7 +677,7 @@
 <!-- n47 -->
 <g id="node38" class="node">
 <title>n47</title>
-<g id="a_node38"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/gavin/statlib/Statlib/HighDim/Geometry/RIPConstruction.lean:120" xlink:title="lemma · Statlib/HighDim/Geometry/RIPConstruction.lean:120" target="_blank">
+<g id="a_node38"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Geometry/RIPConstruction.lean:120" xlink:title="lemma · Statlib/HighDim/Geometry/RIPConstruction.lean:120" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M792.27,-413.2C792.27,-413.2 635.73,-413.2 635.73,-413.2 629.73,-413.2 623.73,-407.2 623.73,-401.2 623.73,-401.2 623.73,-389.2 623.73,-389.2 623.73,-383.2 629.73,-377.2 635.73,-377.2 635.73,-377.2 792.27,-377.2 792.27,-377.2 798.27,-377.2 804.27,-383.2 804.27,-389.2 804.27,-389.2 804.27,-401.2 804.27,-401.2 804.27,-407.2 798.27,-413.2 792.27,-413.2"/>
 <text xml:space="preserve" text-anchor="middle" x="714" y="-392.2" font-family="Helvetica,sans-Serif" font-size="10.00">exists_support_card_eq_of_isSparse</text>
 </a>
@@ -692,7 +692,7 @@
 <!-- n48 -->
 <g id="node39" class="node">
 <title>n48</title>
-<g id="a_node39"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/gavin/statlib/Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:159" xlink:title="lemma · Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:159" target="_blank">
+<g id="a_node39"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:159" xlink:title="lemma · Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:159" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M2134.26,-340C2134.26,-340 2017.74,-340 2017.74,-340 2011.74,-340 2005.74,-334 2005.74,-328 2005.74,-328 2005.74,-316 2005.74,-316 2005.74,-310 2011.74,-304 2017.74,-304 2017.74,-304 2134.26,-304 2134.26,-304 2140.26,-304 2146.26,-310 2146.26,-316 2146.26,-316 2146.26,-328 2146.26,-328 2146.26,-334 2140.26,-340 2134.26,-340"/>
 <text xml:space="preserve" text-anchor="middle" x="2076" y="-319" font-family="Helvetica,sans-Serif" font-size="10.00">abs_rayleigh_le_l2_opNorm</text>
 </a>
@@ -701,7 +701,7 @@
 <!-- n49 -->
 <g id="node40" class="node">
 <title>n49</title>
-<g id="a_node40"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/gavin/statlib/Statlib/HighDim/Geometry/RIPConstruction.lean:549" xlink:title="lemma · Statlib/HighDim/Geometry/RIPConstruction.lean:549" target="_blank">
+<g id="a_node40"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Geometry/RIPConstruction.lean:549" xlink:title="lemma · Statlib/HighDim/Geometry/RIPConstruction.lean:549" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M2047.72,-413.2C2047.72,-413.2 1872.28,-413.2 1872.28,-413.2 1866.28,-413.2 1860.28,-407.2 1860.28,-401.2 1860.28,-401.2 1860.28,-389.2 1860.28,-389.2 1860.28,-383.2 1866.28,-377.2 1872.28,-377.2 1872.28,-377.2 2047.72,-377.2 2047.72,-377.2 2053.72,-377.2 2059.72,-383.2 2059.72,-389.2 2059.72,-389.2 2059.72,-401.2 2059.72,-401.2 2059.72,-407.2 2053.72,-413.2 2047.72,-413.2"/>
 <text xml:space="preserve" text-anchor="middle" x="1960" y="-392.2" font-family="Helvetica,sans-Serif" font-size="10.00">abs_quadratic_le_opNorm_mul_norm_sq</text>
 </a>
@@ -722,7 +722,7 @@
 <!-- n50 -->
 <g id="node41" class="node">
 <title>n50</title>
-<g id="a_node41"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/gavin/statlib/Statlib/HighDim/Geometry/RIPConstruction.lean:582" xlink:title="theorem · Statlib/HighDim/Geometry/RIPConstruction.lean:582" target="_blank">
+<g id="a_node41"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Geometry/RIPConstruction.lean:582" xlink:title="theorem · Statlib/HighDim/Geometry/RIPConstruction.lean:582" target="_blank">
 <path fill="#ffe6a3" stroke="#d4a017" d="M1244.59,-485.2C1244.59,-485.2 1161.41,-485.2 1161.41,-485.2 1155.41,-485.2 1149.41,-479.2 1149.41,-473.2 1149.41,-473.2 1149.41,-461.2 1149.41,-461.2 1149.41,-455.2 1155.41,-449.2 1161.41,-449.2 1161.41,-449.2 1244.59,-449.2 1244.59,-449.2 1250.59,-449.2 1256.59,-455.2 1256.59,-461.2 1256.59,-461.2 1256.59,-473.2 1256.59,-473.2 1256.59,-479.2 1250.59,-485.2 1244.59,-485.2"/>
 <text xml:space="preserve" text-anchor="middle" x="1203" y="-464.2" font-family="Helvetica,sans-Serif" font-size="10.00">subgaussian_rip_tail</text>
 </a>
@@ -893,7 +893,7 @@
 <!-- n7 -->
 <g id="node43" class="node">
 <title>n7</title>
-<g id="a_node43"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/gavin/statlib/Statlib/StatFoundation/RandomVariable/SubGaussian/subgaussian_fourth_moment_le.lean:8" xlink:title="lemma · Statlib/StatFoundation/RandomVariable/SubGaussian/subgaussian_fourth_moment_le.lean:8" target="_blank">
+<g id="a_node43"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/StatFoundation/RandomVariable/SubGaussian/subgaussian_fourth_moment_le.lean:8" xlink:title="lemma · Statlib/StatFoundation/RandomVariable/SubGaussian/subgaussian_fourth_moment_le.lean:8" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M2776.05,-340C2776.05,-340 2663.95,-340 2663.95,-340 2657.95,-340 2651.95,-334 2651.95,-328 2651.95,-328 2651.95,-316 2651.95,-316 2651.95,-310 2657.95,-304 2663.95,-304 2663.95,-304 2776.05,-304 2776.05,-304 2782.05,-304 2788.05,-310 2788.05,-316 2788.05,-316 2788.05,-328 2788.05,-328 2788.05,-334 2782.05,-340 2776.05,-340"/>
 <text xml:space="preserve" text-anchor="middle" x="2720" y="-319" font-family="Helvetica,sans-Serif" font-size="10.00">cosh_ge_one_add_half_sq</text>
 </a>
@@ -908,7 +908,7 @@
 <!-- n8 -->
 <g id="node44" class="node">
 <title>n8</title>
-<g id="a_node44"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/gavin/statlib/Statlib/StatFoundation/RandomVariable/SubGaussian/subgaussian_variance_le.lean:8" xlink:title="theorem · Statlib/StatFoundation/RandomVariable/SubGaussian/subgaussian_variance_le.lean:8" target="_blank">
+<g id="a_node44"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/StatFoundation/RandomVariable/SubGaussian/subgaussian_variance_le.lean:8" xlink:title="theorem · Statlib/StatFoundation/RandomVariable/SubGaussian/subgaussian_variance_le.lean:8" target="_blank">
 <path fill="#ffe6a3" stroke="#d4a017" d="M2922.43,-340C2922.43,-340 2817.57,-340 2817.57,-340 2811.57,-340 2805.57,-334 2805.57,-328 2805.57,-328 2805.57,-316 2805.57,-316 2805.57,-310 2811.57,-304 2817.57,-304 2817.57,-304 2922.43,-304 2922.43,-304 2928.43,-304 2934.43,-310 2934.43,-316 2934.43,-316 2934.43,-328 2934.43,-328 2934.43,-334 2928.43,-340 2922.43,-340"/>
 <text xml:space="preserve" text-anchor="middle" x="2870" y="-319" font-family="Helvetica,sans-Serif" font-size="10.00">subgaussian_variance_le</text>
 </a>
@@ -923,7 +923,7 @@
 <!-- n10 -->
 <g id="node45" class="node">
 <title>n10</title>
-<g id="a_node45"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/gavin/statlib/Statlib/StatFoundation/Vocabulary/RandomVariable.lean:74" xlink:title="structure · Statlib/StatFoundation/Vocabulary/RandomVariable.lean:74" target="_blank">
+<g id="a_node45"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/StatFoundation/Vocabulary/RandomVariable.lean:74" xlink:title="structure · Statlib/StatFoundation/Vocabulary/RandomVariable.lean:74" target="_blank">
 <path fill="#e8dcff" stroke="#8b5cf6" d="M3220.47,-268C3220.47,-268 3119.53,-268 3119.53,-268 3113.53,-268 3107.53,-262 3107.53,-256 3107.53,-256 3107.53,-244 3107.53,-244 3107.53,-238 3113.53,-232 3119.53,-232 3119.53,-232 3220.47,-232 3220.47,-232 3226.47,-232 3232.47,-238 3232.47,-244 3232.47,-244 3232.47,-256 3232.47,-256 3232.47,-262 3226.47,-268 3220.47,-268"/>
 <text xml:space="preserve" text-anchor="middle" x="3170" y="-247" font-family="Helvetica,sans-Serif" font-size="10.00">HasSubexponentialMGF</text>
 </a>
@@ -938,7 +938,7 @@
 <!-- n20 -->
 <g id="node52" class="node">
 <title>n20</title>
-<g id="a_node52"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/gavin/statlib/Statlib/StatFoundation/Concentration/ExponentialType/bernstein_sum_meas_abs_ge_le_two_exp.lean:13" xlink:title="theorem · Statlib/StatFoundation/Concentration/ExponentialType/bernstein_sum_meas_abs_ge_le_two_exp.lean:13" target="_blank">
+<g id="a_node52"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/StatFoundation/Concentration/ExponentialType/bernstein_sum_meas_abs_ge_le_two_exp.lean:13" xlink:title="theorem · Statlib/StatFoundation/Concentration/ExponentialType/bernstein_sum_meas_abs_ge_le_two_exp.lean:13" target="_blank">
 <path fill="#ffe6a3" stroke="#d4a017" d="M3146.06,-340C3146.06,-340 2963.94,-340 2963.94,-340 2957.94,-340 2951.94,-334 2951.94,-328 2951.94,-328 2951.94,-316 2951.94,-316 2951.94,-310 2957.94,-304 2963.94,-304 2963.94,-304 3146.06,-304 3146.06,-304 3152.06,-304 3158.06,-310 3158.06,-316 3158.06,-316 3158.06,-328 3158.06,-328 3158.06,-334 3152.06,-340 3146.06,-340"/>
 <text xml:space="preserve" text-anchor="middle" x="3055" y="-319" font-family="Helvetica,sans-Serif" font-size="10.00">bernstein_sum_meas_abs_ge_le_two_exp</text>
 </a>
@@ -953,7 +953,7 @@
 <!-- n51 -->
 <g id="node42" class="node">
 <title>n51</title>
-<g id="a_node42"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/gavin/statlib/Statlib/HighDim/Geometry/RIPConstruction.lean:1619" xlink:title="theorem · Statlib/HighDim/Geometry/RIPConstruction.lean:1619" target="_blank">
+<g id="a_node42"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Geometry/RIPConstruction.lean:1619" xlink:title="theorem · Statlib/HighDim/Geometry/RIPConstruction.lean:1619" target="_blank">
 <path fill="#ffe6a3" stroke="#d4a017" stroke-width="3" d="M1115.71,-557.2C1115.71,-557.2 960.29,-557.2 960.29,-557.2 954.29,-557.2 948.29,-551.2 948.29,-545.2 948.29,-545.2 948.29,-533.2 948.29,-533.2 948.29,-527.2 954.29,-521.2 960.29,-521.2 960.29,-521.2 1115.71,-521.2 1115.71,-521.2 1121.71,-521.2 1127.71,-527.2 1127.71,-533.2 1127.71,-533.2 1127.71,-545.2 1127.71,-545.2 1127.71,-551.2 1121.71,-557.2 1115.71,-557.2"/>
 <text xml:space="preserve" text-anchor="middle" x="1038" y="-536.2" font-family="Helvetica,sans-Serif" font-size="10.00">subgaussian_rip_sample_complexity</text>
 </a>
@@ -986,7 +986,7 @@
 <!-- n13 -->
 <g id="node46" class="node">
 <title>n13</title>
-<g id="a_node46"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/gavin/statlib/Statlib/StatFoundation/RandomVariable/SubExponential/subexp_mgf_le_of_sq_subgaussian.lean:13" xlink:title="lemma · Statlib/StatFoundation/RandomVariable/SubExponential/subexp_mgf_le_of_sq_subgaussian.lean:13" target="_blank">
+<g id="a_node46"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/StatFoundation/RandomVariable/SubExponential/subexp_mgf_le_of_sq_subgaussian.lean:13" xlink:title="lemma · Statlib/StatFoundation/RandomVariable/SubExponential/subexp_mgf_le_of_sq_subgaussian.lean:13" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M2753.2,-268C2753.2,-268 2672.8,-268 2672.8,-268 2666.8,-268 2660.8,-262 2660.8,-256 2660.8,-256 2660.8,-244 2660.8,-244 2660.8,-238 2666.8,-232 2672.8,-232 2672.8,-232 2753.2,-232 2753.2,-232 2759.2,-232 2765.2,-238 2765.2,-244 2765.2,-244 2765.2,-256 2765.2,-256 2765.2,-262 2759.2,-268 2753.2,-268"/>
 <text xml:space="preserve" text-anchor="middle" x="2713" y="-247" font-family="Helvetica,sans-Serif" font-size="10.00">sub_gauss_tail_abs</text>
 </a>
@@ -995,7 +995,7 @@
 <!-- n14 -->
 <g id="node47" class="node">
 <title>n14</title>
-<g id="a_node47"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/gavin/statlib/Statlib/StatFoundation/RandomVariable/SubGaussian/sq_le_two_mul_exp.lean:10" xlink:title="lemma · Statlib/StatFoundation/RandomVariable/SubGaussian/sq_le_two_mul_exp.lean:10" target="_blank">
+<g id="a_node47"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/StatFoundation/RandomVariable/SubGaussian/sq_le_two_mul_exp.lean:10" xlink:title="lemma · Statlib/StatFoundation/RandomVariable/SubGaussian/sq_le_two_mul_exp.lean:10" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M2875.19,-268C2875.19,-268 2794.81,-268 2794.81,-268 2788.81,-268 2782.81,-262 2782.81,-256 2782.81,-256 2782.81,-244 2782.81,-244 2782.81,-238 2788.81,-232 2794.81,-232 2794.81,-232 2875.19,-232 2875.19,-232 2881.19,-232 2887.19,-238 2887.19,-244 2887.19,-244 2887.19,-256 2887.19,-256 2887.19,-262 2881.19,-268 2875.19,-268"/>
 <text xml:space="preserve" text-anchor="middle" x="2835" y="-247" font-family="Helvetica,sans-Serif" font-size="10.00">sq_le_two_mul_exp</text>
 </a>
@@ -1004,7 +1004,7 @@
 <!-- n15 -->
 <g id="node48" class="node">
 <title>n15</title>
-<g id="a_node48"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/gavin/statlib/Statlib/StatFoundation/RandomVariable/SubGaussian/subgaussian_meas_abs_ge_le_two_exp.lean:9" xlink:title="theorem · Statlib/StatFoundation/RandomVariable/SubGaussian/subgaussian_meas_abs_ge_le_two_exp.lean:9" target="_blank">
+<g id="a_node48"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/StatFoundation/RandomVariable/SubGaussian/subgaussian_meas_abs_ge_le_two_exp.lean:9" xlink:title="theorem · Statlib/StatFoundation/RandomVariable/SubGaussian/subgaussian_meas_abs_ge_le_two_exp.lean:9" target="_blank">
 <path fill="#ffe6a3" stroke="#d4a017" d="M2850.34,-196C2850.34,-196 2677.66,-196 2677.66,-196 2671.66,-196 2665.66,-190 2665.66,-184 2665.66,-184 2665.66,-172 2665.66,-172 2665.66,-166 2671.66,-160 2677.66,-160 2677.66,-160 2850.34,-160 2850.34,-160 2856.34,-160 2862.34,-166 2862.34,-172 2862.34,-172 2862.34,-184 2862.34,-184 2862.34,-190 2856.34,-196 2850.34,-196"/>
 <text xml:space="preserve" text-anchor="middle" x="2764" y="-175" font-family="Helvetica,sans-Serif" font-size="10.00">subgaussian_meas_abs_ge_le_two_exp</text>
 </a>
@@ -1013,7 +1013,7 @@
 <!-- n16 -->
 <g id="node49" class="node">
 <title>n16</title>
-<g id="a_node49"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/gavin/statlib/Statlib/StatFoundation/RandomVariable/SubGaussian/subgaussian_exp_sq_le_at_one_third.lean:14" xlink:title="theorem · Statlib/StatFoundation/RandomVariable/SubGaussian/subgaussian_exp_sq_le_at_one_third.lean:14" target="_blank">
+<g id="a_node49"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/StatFoundation/RandomVariable/SubGaussian/subgaussian_exp_sq_le_at_one_third.lean:14" xlink:title="theorem · Statlib/StatFoundation/RandomVariable/SubGaussian/subgaussian_exp_sq_le_at_one_third.lean:14" target="_blank">
 <path fill="#ffe6a3" stroke="#d4a017" d="M3077.23,-268C3077.23,-268 2916.77,-268 2916.77,-268 2910.77,-268 2904.77,-262 2904.77,-256 2904.77,-256 2904.77,-244 2904.77,-244 2904.77,-238 2910.77,-232 2916.77,-232 2916.77,-232 3077.23,-232 3077.23,-232 3083.23,-232 3089.23,-238 3089.23,-244 3089.23,-244 3089.23,-256 3089.23,-256 3089.23,-262 3083.23,-268 3077.23,-268"/>
 <text xml:space="preserve" text-anchor="middle" x="2997" y="-247" font-family="Helvetica,sans-Serif" font-size="10.00">subgaussian_exp_sq_le_at_one_third</text>
 </a>
@@ -1028,7 +1028,7 @@
 <!-- n17 -->
 <g id="node50" class="node">
 <title>n17</title>
-<g id="a_node50"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/gavin/statlib/Statlib/StatFoundation/RandomVariable/SubGaussian/subgaussian_exp_sq_le_at_one_third.lean:166" xlink:title="theorem · Statlib/StatFoundation/RandomVariable/SubGaussian/subgaussian_exp_sq_le_at_one_third.lean:166" target="_blank">
+<g id="a_node50"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/StatFoundation/RandomVariable/SubGaussian/subgaussian_exp_sq_le_at_one_third.lean:166" xlink:title="theorem · Statlib/StatFoundation/RandomVariable/SubGaussian/subgaussian_exp_sq_le_at_one_third.lean:166" target="_blank">
 <path fill="#ffe6a3" stroke="#d4a017" d="M2630.3,-268C2630.3,-268 2433.7,-268 2433.7,-268 2427.7,-268 2421.7,-262 2421.7,-256 2421.7,-256 2421.7,-244 2421.7,-244 2421.7,-238 2427.7,-232 2433.7,-232 2433.7,-232 2630.3,-232 2630.3,-232 2636.3,-232 2642.3,-238 2642.3,-244 2642.3,-244 2642.3,-256 2642.3,-256 2642.3,-262 2636.3,-268 2630.3,-268"/>
 <text xml:space="preserve" text-anchor="middle" x="2532" y="-247" font-family="Helvetica,sans-Serif" font-size="10.00">subgaussian_integrable_exp_sq_at_one_third</text>
 </a>

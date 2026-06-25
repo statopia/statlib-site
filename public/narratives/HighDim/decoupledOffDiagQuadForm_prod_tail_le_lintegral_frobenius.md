@@ -5,7 +5,7 @@ Closure: 32 declarations across 4 files. Generated from `proof_graph.json` — n
 
 Reading order (foundations first, headline last):
 
-  ▣ `IsSubGaussianVector` — structure · `Statlib/HighDim/Vocabulary/RandomVector.lean:52`  _(also used by 70: decoupledOffDiagQuadForm_const_right_abs_tail_real, decoupledOffDiagQuadForm_prod_first_section_abs_tail_real, subgaussian_projection_second_moment_le, …)_
+  ▣ `IsSubGaussianVector` — structure · `Statlib/HighDim/Vocabulary/RandomVector.lean:52`  _(also used by 73: decoupledOffDiagQuadForm_const_right_abs_tail_real, decoupledOffDiagQuadForm_prod_first_section_abs_tail_real, subgaussian_projection_second_moment_le, …)_
   ◆ `decoupledOffDiagQuadForm` — noncomputable def · `Statlib/HighDim/Vocabulary/QuadraticForms.lean:33`  _(also used by 40: decoupledOffDiagQuadForm_const_right_abs_tail_real, decoupledOffDiagQuadForm_prod_first_section_abs_tail_real, decoupledOffDiagQuadForm_const_right_abs_tail_real_spectral, …)_
   ◆ `frobeniusNormSq` — noncomputable def · `Statlib/HighDim/Vocabulary/Norms.lean:37`  _(also used by 39: diag_sq_sum_le_frobeniusNormSq, offDiagCoeffVec_norm_sq_integral_le_frobenius, offDiagCoeffVec_norm_sq_tail_le_frobenius, …)_
       · `decoupledOffDiagQuadForm_measurable` — lemma · `Statlib/HighDim/Concentration/HansonWright.lean:86`
@@ -19,7 +19,7 @@ Reading order (foundations first, headline last):
           · `euclidean_norm_sq` — lemma · `Statlib/HighDim/Vocabulary/Norms.lean:21`  _(also used by 10: offDiagCoeffVec_norm_sq_integral_le_frobenius, offDiagCoeffVec_norm_sq_integrable, subgaussian_norm_sq_integrable, …)_
           · `matrixRowVec_norm_sq` — lemma · `Statlib/HighDim/Concentration/HansonWright.lean:465`  _(also used by 1: offDiagCoeffVec_norm_sq_integral_le_frobenius)_
             · `offDiagCoeffVec_eq_zeroDiagMatrix_mulVec` — lemma · `Statlib/HighDim/Concentration/HansonWright.lean:251`  _(also used by 1: offDiagCoeffVec_norm_le_zeroDiag)_
-            · `inner_eq_sum` — lemma · `Statlib/HighDim/Vocabulary/Norms.lean:32`  _(also used by 11: subgaussian_vector_coord, subgaussian_norm_sq_mean_le_dim, projection_mean_zero, …)_
+            · `inner_eq_sum` — lemma · `Statlib/HighDim/Vocabulary/Norms.lean:32`  _(also used by 12: subgaussian_vector_coord, subgaussian_norm_sq_mean_le_dim, cov_quadratic_deviation, …)_
           · `offDiagCoeffVec_apply_eq_inner_row_zeroDiag` — lemma · `Statlib/HighDim/Concentration/HansonWright.lean:472`  _(also used by 2: offDiagCoeffVec_norm_sq_integral_le_frobenius, offDiagCoeffVec_norm_sq_integrable)_
           · `frobeniusNormSq_zeroDiagMatrix_le` — lemma · `Statlib/HighDim/Concentration/HansonWright.lean:436`  _(also used by 2: offDiagCoeffVec_norm_sq_integral_le_frobenius, zeroDiag_hanson_scale_half_le)_
         · `offDiagCoeffVec_norm_sq_le_frobenius` — lemma · `Statlib/HighDim/Concentration/HansonWright.lean:479`
