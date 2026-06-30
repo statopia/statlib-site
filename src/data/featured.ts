@@ -82,13 +82,13 @@ export const featuredThms: FeaturedThm[] = [
     module: "High-dimensional statistics",
     leanFile: "Statlib/HighDim/Geometry/JohnsonLindenstrauss.lean",
     math:
-      "\\Pr\\big[\\forall i,j:\\,(1-\\varepsilon)\\|v_{ij}\\|^2 \\le " +
-      "\\tfrac1k\\|\\Phi v_{ij}\\|^2 \\le (1+\\varepsilon)\\|v_{ij}\\|^2\\big] " +
-      "\\ge 1 - 2N^2 e^{-k\\varepsilon^2/4000}",
+      "2N^2 e^{-k\\varepsilon^2/4000} < 1 \\;\\Rightarrow\\; " +
+      "\\exists\\,\\omega:\\;\\forall i,j,\\; (1-\\varepsilon)\\|v_{ij}\\|^2 \\le " +
+      "\\tfrac1k\\|\\Phi(\\omega)v_{ij}\\|^2 \\le (1+\\varepsilon)\\|v_{ij}\\|^2",
     blurb:
-      "A random k×n sub-Gaussian projection preserves all pairwise distances " +
-      "among N points up to (1±ε) distortion, with high probability.",
-    statement: `theorem jl_distortion_probabilistic {n k : ℕ} {N : ℕ} (hk : 0 < k)
+      "Under the JL dimension condition, the probabilistic method extracts a " +
+      "concrete k×n projection preserving all pairwise distances up to (1±ε) distortion.",
+    statement: `theorem johnson_lindenstrauss {n k N : ℕ} (hk : 0 < k)
     (μ : Measure Ω) [IsProbabilityMeasure μ]
     (Φ : Ω → Matrix (Fin k) (Fin n) ℝ)
     (hΦ_meas : ∀ i : Fin k, ∀ j : Fin n, Measurable (fun ω => Φ ω i j))
@@ -98,15 +98,15 @@ export const featuredThms: FeaturedThm[] = [
     (hΦ_mulVec_iIndep : ∀ x : EuclideanSpace ℝ (Fin n),
       iIndepFun (fun i : Fin k => fun ω => ((Φ ω).mulVec x) i) μ)
     (points : Fin N → EuclideanSpace ℝ (Fin n))
-    (ε : ℝ) (hε₀ : 0 < ε) (hε₁ : ε < 1) :
-    μ {ω | ∀ i j : Fin N,
+    (ε : ℝ) (hε₀ : 0 < ε) (hε₁ : ε < 1)
+    (hdim : 2 * (N : ℝ) ^ 2 * Real.exp (-(k : ℝ) * ε ^ 2 / 4000) < 1) :
+    ∃ ω : Ω, ∀ i j : Fin N,
         let v := points i - points j
         (1 - ε) * ‖v‖ ^ 2 ≤
           l2NormSq ((1 / Real.sqrt k : ℝ) • (Matrix.mulVec (Φ ω) v)) ∧
         l2NormSq ((1 / Real.sqrt k : ℝ) • (Matrix.mulVec (Φ ω) v)) ≤
-          (1 + ε) * ‖v‖ ^ 2} ≥
-    1 - ENNReal.ofReal (2 * (N : ℝ) ^ 2 * Real.exp (-(k : ℝ) * ε ^ 2 / 4000)) := by`,
-    svg: "HighDim/jl_distortion_probabilistic.svg",
-    decls: 15,
+          (1 + ε) * ‖v‖ ^ 2 := by`,
+    svg: "HighDim/johnson_lindenstrauss.svg",
+    decls: 16,
   },
 ];
