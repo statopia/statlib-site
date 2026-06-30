@@ -1,6 +1,6 @@
 # Proof narrative — lindeberg_feller_central_limit_theorem
 
-Root: **lindeberg_feller_central_limit_theorem** (theorem) `Statlib/StatFoundation/Convergence/CentralLimitTheorem/LindebergFeller.lean:676` · topic `StatFoundation`
+Root: **lindeberg_feller_central_limit_theorem** (theorem) `Statlib/StatFoundation/Convergence/CentralLimitTheorem/LindebergFeller.lean:675` · topic `StatFoundation`
 Closure: 21 declarations across 4 files. Generated from `proof_graph.json` — no files were moved.
 
 Reading order (foundations first, headline last):
@@ -11,13 +11,13 @@ Reading order (foundations first, headline last):
       · `var_ratio_le_lindeberg` — lemma · `Statlib/StatFoundation/Convergence/CentralLimitTheorem/LindebergFeller.lean:274`
     · `lindeberg_implies_max_var_tendsto` — lemma · `Statlib/StatFoundation/Convergence/CentralLimitTheorem/LindebergFeller.lean:327`
     · `norm_prod_sub_prod_le_sum_mul_pow` — lemma · `Statlib/StatFoundation/Convergence/AnalysisTools/CharacteristicFunction.lean:227`
-    · `prod_one_sub_tendsto_exp_neg` — lemma · `Statlib/StatFoundation/Convergence/CentralLimitTheorem/LindebergFeller.lean:380`
+    · `prod_one_sub_tendsto_exp_neg` — lemma · `Statlib/StatFoundation/Convergence/CentralLimitTheorem/LindebergFeller.lean:379`
             · `norm_ofReal_mul_I` — lemma · `Statlib/StatFoundation/Convergence/AnalysisTools/CharacteristicFunction.lean:16`  _(also used by 1: norm_cexp_sub_quadratic_le_third)_
         · `norm_cexp_sub_quadratic_le` — lemma · `Statlib/StatFoundation/Convergence/AnalysisTools/CharacteristicFunction.lean:22`  _(also used by 1: charfun_taylor_third_moment)_
         · `norm_cexp_sub_quadratic_le_sq` — lemma · `Statlib/StatFoundation/Convergence/CentralLimitTheorem/LindebergFeller.lean:79`
       · `charfun_error_le_j` — lemma · `Statlib/StatFoundation/Convergence/CentralLimitTheorem/LindebergFeller.lean:110`
     · `sum_charfun_errors_le` — lemma · `Statlib/StatFoundation/Convergence/CentralLimitTheorem/LindebergFeller.lean:243`
-  ★ `charfun_lindeberg_pointwise` — theorem · `Statlib/StatFoundation/Convergence/CentralLimitTheorem/LindebergFeller.lean:476`
+  ★ `charfun_lindeberg_pointwise` — theorem · `Statlib/StatFoundation/Convergence/CentralLimitTheorem/LindebergFeller.lean:475`
       · `compl_Icc_eq_abs_gt` — lemma · `Statlib/StatFoundation/Convergence/AnalysisTools/LevyContinuity.lean:15`
       ★ `isTight_finiteRange` — theorem · `Statlib/StatFoundation/Convergence/AnalysisTools/Tightness.lean:14`
     ★ `isTight_of_charFun_tendsto` — theorem · `Statlib/StatFoundation/Convergence/AnalysisTools/LevyContinuity.lean:44`  _(also used by 1: isTight_of_charFun_tendsto_inner)_
@@ -25,7 +25,7 @@ Reading order (foundations first, headline last):
     · `charFun_eq_of_subseq` — lemma · `Statlib/StatFoundation/Convergence/AnalysisTools/LevyContinuity.lean:168`
     · `probMeasure_eq_of_charFun_eq` — lemma · `Statlib/StatFoundation/Convergence/AnalysisTools/LevyContinuity.lean:180`
   ★ `levy_continuity` — theorem · `Statlib/StatFoundation/Convergence/AnalysisTools/LevyContinuity.lean:193`  _(also used by 1: iid_central_limit_theorem)_
-★ `lindeberg_feller_central_limit_theorem` — theorem · `Statlib/StatFoundation/Convergence/CentralLimitTheorem/LindebergFeller.lean:676` **← headline**
+★ `lindeberg_feller_central_limit_theorem` — theorem · `Statlib/StatFoundation/Convergence/CentralLimitTheorem/LindebergFeller.lean:675` **← headline**
 
 ## Dependency diagram
 

@@ -1,11 +1,11 @@
 # Proof narrative — isotropic_norm_concentration
 
-Root: **isotropic_norm_concentration** (lemma) `Statlib/HighDim/CovarianceMatrix/Properties.lean:653` · topic `HighDim`
+Root: **isotropic_norm_concentration** (lemma) `Statlib/HighDim/CovarianceMatrix/Properties.lean:651` · topic `HighDim`
 Closure: 21 declarations across 11 files. Generated from `proof_graph.json` — no files were moved.
 
 Reading order (foundations first, headline last):
 
-  ▣ `HasMean` — structure · `Statlib/HighDim/Vocabulary/RandomVector.lean:83`  _(also used by 56: coord_mul_integral_eq_zero_of_indep, offDiagQuadForm_integral_eq_zero_of_indep, offDiagQuadForm_centered_eq_self_of_indep, …)_
+  ▣ `HasMean` — structure · `Statlib/HighDim/Vocabulary/RandomVector.lean:83`  _(also used by 35: coord_mul_integral_eq_zero_of_indep, offDiagQuadForm_integral_eq_zero_of_indep, offDiagQuadForm_centered_eq_self_of_indep, …)_
     ▣ `HasCovarianceMatrix` — structure · `Statlib/HighDim/Vocabulary/RandomVector.lean:101`  _(also used by 18: cov_quadratic_deviation, secondMoment_isSymm, secondMoment_posSemidef, …)_
   ◆ `IsIsotropic` — def · `Statlib/HighDim/Vocabulary/RandomVector.lean:109`  _(also used by 5: quadratic_form_mean_isotropic, hanson_wright_isotropic, restrictByEquiv_cov_identity, …)_
   ▣ `IsSubGaussianVector` — structure · `Statlib/HighDim/Vocabulary/RandomVector.lean:52`  _(also used by 71: decoupledOffDiagQuadForm_const_right_subgaussian, decoupledOffDiagQuadForm_const_right_abs_tail_real, decoupledOffDiagQuadForm_prod_first_section_abs_tail_real, …)_
@@ -13,19 +13,19 @@ Reading order (foundations first, headline last):
           · `inner_eq_sum` — lemma · `Statlib/HighDim/Vocabulary/Norms.lean:32`  _(also used by 13: decoupledOffDiagQuadForm_eq_inner_coeff, offDiagCoeffVec_apply_eq_inner_row_zeroDiag, subgaussian_norm_sq_mean_le_dim, …)_
         · `subgaussian_vector_coord` — lemma · `Statlib/HighDim/Concentration/HansonWright.lean:1389`  _(also used by 16: coord_mul_subexponential_exists_of_indep, coord_sq_centered_mgf_bound, weighted_coord_sq_centered_sum_tail_explicit, …)_
           ★ `subgaussian_meas_abs_ge_le_two_exp` — theorem · `Statlib/StatFoundation/RandomVariable/SubGaussian/subgaussian_meas_abs_ge_le_two_exp.lean:9`  _(also used by 3: subgaussian_linf_tail, lasso_noise_condition, subgaussian_even_moment_le)_
-        ★ `subgaussian_integrable_exp_sq_at_one_third` — theorem · `Statlib/StatFoundation/RandomVariable/SubGaussian/subgaussian_exp_sq_le_at_one_third.lean:166`  _(also used by 2: coord_mul_subexponential_exists_of_indep, coord_sq_centered_subexponential_exists)_
-      · `coord_sq_centered_scaled_exp_integrable` — lemma · `Statlib/HighDim/Concentration/HansonWright.lean:2109`
+        ★ `subgaussian_integrable_exp_sq_at_one_third` — theorem · `Statlib/StatFoundation/RandomVariable/SubGaussian/subgaussian_exp_sq_le_at_one_third.lean:165`  _(also used by 2: coord_mul_subexponential_exists_of_indep, coord_sq_centered_subexponential_exists)_
+      · `coord_sq_centered_scaled_exp_integrable` — lemma · `Statlib/HighDim/Concentration/HansonWright.lean:2101`
           · `sub_gauss_tail_abs` — lemma · `Statlib/StatFoundation/RandomVariable/SubExponential/subexp_mgf_le_of_sq_subgaussian.lean:13`  _(also used by 1: sub_gauss_tail_sq)_
           · `sq_le_two_mul_exp` — lemma · `Statlib/StatFoundation/RandomVariable/SubGaussian/sq_le_two_mul_exp.lean:10`
           ★ `subgaussian_exp_sq_le_at_one_third` — theorem · `Statlib/StatFoundation/RandomVariable/SubGaussian/subgaussian_exp_sq_le_at_one_third.lean:14`
         ★ `subexp_mgf_le_of_sq_subgaussian_explicit` — theorem · `Statlib/StatFoundation/RandomVariable/SubExponential/subexp_mgf_le_of_sq_subgaussian.lean:72`  _(also used by 2: scalar_sq_centered_subexponential_explicit, subexp_mgf_le_of_sq_subgaussian)_
-      · `coord_sq_centered_mgf_bound_explicit` — lemma · `Statlib/HighDim/Concentration/HansonWright.lean:2044`  _(also used by 1: coord_sq_centered_scaled_mgf_bound_explicit)_
-    · `coord_sq_centered_scaled_subexponential_explicit_of_range` — lemma · `Statlib/HighDim/Concentration/HansonWright.lean:2192`  _(also used by 2: weighted_coord_sq_centered_sum_tail_explicit, diag_hanson_wright_tail_high)_
+      · `coord_sq_centered_mgf_bound_explicit` — lemma · `Statlib/HighDim/Concentration/HansonWright.lean:2038`  _(also used by 1: coord_sq_centered_scaled_mgf_bound_explicit)_
+    · `coord_sq_centered_scaled_subexponential_explicit_of_range` — lemma · `Statlib/HighDim/Concentration/HansonWright.lean:2182`  _(also used by 2: weighted_coord_sq_centered_sum_tail_explicit, diag_hanson_wright_tail_high)_
     ★ `subexp_sum_mgf_le_of_indep` — theorem · `Statlib/StatFoundation/Concentration/ExponentialType/subexp_sum_mgf_le_of_indep.lean:11`
-  · `subgaussian_norm_sq_subexponential` — lemma · `Statlib/HighDim/CovarianceMatrix/Properties.lean:458`
-  · `isotropic_mean_sq_norm` — lemma · `Statlib/HighDim/CovarianceMatrix/Properties.lean:624`
+  · `subgaussian_norm_sq_subexponential` — lemma · `Statlib/HighDim/CovarianceMatrix/Properties.lean:456`
+  · `isotropic_mean_sq_norm` — lemma · `Statlib/HighDim/CovarianceMatrix/Properties.lean:622`
   ★ `subexp_meas_abs_ge_le_two_exp` — theorem · `Statlib/StatFoundation/RandomVariable/SubExponential/subexp_meas_abs_ge_le_two_exp.lean:12`  _(also used by 1: subexp_exp_tail_of_subexp)_
-· `isotropic_norm_concentration` — lemma · `Statlib/HighDim/CovarianceMatrix/Properties.lean:653` **← headline**
+· `isotropic_norm_concentration` — lemma · `Statlib/HighDim/CovarianceMatrix/Properties.lean:651` **← headline**
 
 ## Dependency diagram
 
@@ -56,7 +56,6 @@ flowchart TD
   n6 --> n3
   n6 --> n5
   n8 --> n7
-  n9 --> n0
   n9 --> n3
   n9 --> n6
   n9 --> n8
@@ -65,11 +64,9 @@ flowchart TD
   n13 --> n11
   n13 --> n12
   n13 --> n8
-  n14 --> n0
   n14 --> n3
   n14 --> n6
   n14 --> n13
-  n15 --> n0
   n15 --> n3
   n15 --> n4
   n15 --> n9

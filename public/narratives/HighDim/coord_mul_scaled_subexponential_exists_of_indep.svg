@@ -134,7 +134,7 @@
 <!-- n6 -->
 <g id="node11" class="node">
 <title>n6</title>
-<g id="a_node11"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/StatFoundation/RandomVariable/SubGaussian/subgaussian_exp_sq_le_at_one_third.lean:166" xlink:title="theorem · Statlib/StatFoundation/RandomVariable/SubGaussian/subgaussian_exp_sq_le_at_one_third.lean:166" target="_blank">
+<g id="a_node11"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/StatFoundation/RandomVariable/SubGaussian/subgaussian_exp_sq_le_at_one_third.lean:165" xlink:title="theorem · Statlib/StatFoundation/RandomVariable/SubGaussian/subgaussian_exp_sq_le_at_one_third.lean:165" target="_blank">
 <path fill="#ffe6a3" stroke="#d4a017" d="M712.3,-124C712.3,-124 515.7,-124 515.7,-124 509.7,-124 503.7,-118 503.7,-112 503.7,-112 503.7,-100 503.7,-100 503.7,-94 509.7,-88 515.7,-88 515.7,-88 712.3,-88 712.3,-88 718.3,-88 724.3,-94 724.3,-100 724.3,-100 724.3,-112 724.3,-112 724.3,-118 718.3,-124 712.3,-124"/>
 <text xml:space="preserve" text-anchor="middle" x="614" y="-103" font-family="Helvetica,sans-Serif" font-size="10.00">subgaussian_integrable_exp_sq_at_one_third</text>
 </a>
@@ -164,7 +164,7 @@
 <!-- n10 -->
 <g id="node7" class="node">
 <title>n10</title>
-<g id="a_node7"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Concentration/HansonWright.lean:1917" xlink:title="lemma · Statlib/HighDim/Concentration/HansonWright.lean:1917" target="_blank">
+<g id="a_node7"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Concentration/HansonWright.lean:1913" xlink:title="lemma · Statlib/HighDim/Concentration/HansonWright.lean:1913" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M467.5,-197.2C467.5,-197.2 296.5,-197.2 296.5,-197.2 290.5,-197.2 284.5,-191.2 284.5,-185.2 284.5,-185.2 284.5,-173.2 284.5,-173.2 284.5,-167.2 290.5,-161.2 296.5,-161.2 296.5,-161.2 467.5,-161.2 467.5,-161.2 473.5,-161.2 479.5,-167.2 479.5,-173.2 479.5,-173.2 479.5,-185.2 479.5,-185.2 479.5,-191.2 473.5,-197.2 467.5,-197.2"/>
 <text xml:space="preserve" text-anchor="middle" x="382" y="-176.2" font-family="Helvetica,sans-Serif" font-size="10.00">subexponential_mgf_const_mul_relaxed</text>
 </a>
@@ -179,7 +179,7 @@
 <!-- n11 -->
 <g id="node8" class="node">
 <title>n11</title>
-<g id="a_node8"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Concentration/HansonWright.lean:1970" xlink:title="lemma · Statlib/HighDim/Concentration/HansonWright.lean:1970" target="_blank">
+<g id="a_node8"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Concentration/HansonWright.lean:1966" xlink:title="lemma · Statlib/HighDim/Concentration/HansonWright.lean:1966" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" stroke-width="3" d="M271.52,-269.2C271.52,-269.2 50.48,-269.2 50.48,-269.2 44.48,-269.2 38.48,-263.2 38.48,-257.2 38.48,-257.2 38.48,-245.2 38.48,-245.2 38.48,-239.2 44.48,-233.2 50.48,-233.2 50.48,-233.2 271.52,-233.2 271.52,-233.2 277.52,-233.2 283.52,-239.2 283.52,-245.2 283.52,-245.2 283.52,-257.2 283.52,-257.2 283.52,-263.2 277.52,-269.2 271.52,-269.2"/>
 <text xml:space="preserve" text-anchor="middle" x="161" y="-248.2" font-family="Helvetica,sans-Serif" font-size="10.00">coord_mul_scaled_subexponential_exists_of_indep</text>
 </a>

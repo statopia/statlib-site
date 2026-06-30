@@ -30,7 +30,7 @@ Reading order (foundations first, headline last):
         ◆ `matrixRowVec` — noncomputable def · `Statlib/HighDim/Vocabulary/QuadraticForms.lean:62`  _(also used by 2: matrixRowVec_apply, offDiagCoeffVec_norm_sq_le_frobenius)_
         ◆ `zeroDiagMatrix` — def · `Statlib/HighDim/Vocabulary/QuadraticForms.lean:52`  _(also used by 38: offDiagCoeff_eq_zeroDiagMatrix_mulVec, offDiagCoeff_norm_le_zeroDiag, offDiagCoeffVec_norm_le_zeroDiag, …)_
         · `subgaussian_projection_sq_integrable` — lemma · `Statlib/HighDim/Concentration/HansonWright.lean:541`
-        ◆ `l2NormSq` — noncomputable def · `Statlib/HighDim/Vocabulary/Norms.lean:13`  _(also used by 29: offDiagCoeffVec_norm_sq_le_frobenius, subgaussian_norm_sq_integrable, subgaussian_norm_sq_mean_le_dim, …)_
+        ◆ `l2NormSq` — noncomputable def · `Statlib/HighDim/Vocabulary/Norms.lean:13`  _(also used by 30: offDiagCoeffVec_norm_sq_le_frobenius, subgaussian_norm_sq_integrable, subgaussian_norm_sq_mean_le_dim, …)_
         · `euclidean_norm_sq` — lemma · `Statlib/HighDim/Vocabulary/Norms.lean:21`  _(also used by 9: offDiagCoeffVec_norm_sq_le_frobenius, subgaussian_norm_sq_integrable, subgaussian_norm_sq_mean_le_dim, …)_
           · `offDiagCoeffVec_eq_zeroDiagMatrix_mulVec` — lemma · `Statlib/HighDim/Concentration/HansonWright.lean:251`  _(also used by 1: offDiagCoeffVec_norm_le_zeroDiag)_
         · `offDiagCoeffVec_apply_eq_inner_row_zeroDiag` — lemma · `Statlib/HighDim/Concentration/HansonWright.lean:472`  _(also used by 1: offDiagCoeffVec_norm_sq_le_frobenius)_

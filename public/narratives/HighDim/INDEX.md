@@ -1,32 +1,32 @@
 # HighDim — proof narratives
 
-71 headline result(s).
+72 headline result(s).
 
-- [const_exp_hanson_weaken_of_high_log_bound](const_exp_hanson_weaken_of_high_log_bound.md) — lemma, 2 decl(s) · `Statlib/HighDim/Concentration/HansonWright.lean:1714`
-- [const_mul_exp_neg_le_exp_neg_hanson_weaken_of_log](const_mul_exp_neg_le_exp_neg_hanson_weaken_of_log.md) — lemma, 3 decl(s) · `Statlib/HighDim/Concentration/HansonWright.lean:1699`
-- [coord_mul_scaled_subexponential_exists_of_indep](coord_mul_scaled_subexponential_exists_of_indep.md) — lemma, 12 decl(s) · `Statlib/HighDim/Concentration/HansonWright.lean:1970`
-- [coord_sq_centered_mgf_bound](coord_sq_centered_mgf_bound.md) — lemma, 12 decl(s) · `Statlib/HighDim/Concentration/HansonWright.lean:2021`
-- [coord_sq_centered_scaled_mgf_bound_explicit](coord_sq_centered_scaled_mgf_bound_explicit.md) — lemma, 12 decl(s) · `Statlib/HighDim/Concentration/HansonWright.lean:2065`
-- [coord_sq_centered_subexponential_exists](coord_sq_centered_subexponential_exists.md) — lemma, 9 decl(s) · `Statlib/HighDim/Concentration/HansonWright.lean:2856`
+- [const_exp_hanson_weaken_of_high_log_bound](const_exp_hanson_weaken_of_high_log_bound.md) — lemma, 2 decl(s) · `Statlib/HighDim/Concentration/HansonWright.lean:1710`
+- [const_mul_exp_neg_le_exp_neg_hanson_weaken_of_log](const_mul_exp_neg_le_exp_neg_hanson_weaken_of_log.md) — lemma, 3 decl(s) · `Statlib/HighDim/Concentration/HansonWright.lean:1695`
+- [coord_mul_scaled_subexponential_exists_of_indep](coord_mul_scaled_subexponential_exists_of_indep.md) — lemma, 12 decl(s) · `Statlib/HighDim/Concentration/HansonWright.lean:1966`
+- [coord_sq_centered_mgf_bound](coord_sq_centered_mgf_bound.md) — lemma, 11 decl(s) · `Statlib/HighDim/Concentration/HansonWright.lean:2017`
+- [coord_sq_centered_scaled_mgf_bound_explicit](coord_sq_centered_scaled_mgf_bound_explicit.md) — lemma, 11 decl(s) · `Statlib/HighDim/Concentration/HansonWright.lean:2057`
+- [coord_sq_centered_subexponential_exists](coord_sq_centered_subexponential_exists.md) — lemma, 8 decl(s) · `Statlib/HighDim/Concentration/HansonWright.lean:2840`
 - [cov_quadratic_deviation](cov_quadratic_deviation.md) — theorem, 16 decl(s) · `Statlib/HighDim/CovarianceMatrix/CovQuadraticDeviation.lean:23`
 - [davis_kahan_subspace](davis_kahan_subspace.md) — theorem, 3 decl(s) · `Statlib/HighDim/SpectralPerturbation/DavisKahan.lean:144`
-- [decoupled_zeroDiag_quadratic_form_tail_high_norm_bernstein_absorb_of_exponents'](decoupled_zeroDiag_quadratic_form_tail_high_norm_bernstein_absorb_of_exponents_.md) — lemma, 60 decl(s) · `Statlib/HighDim/Concentration/HansonWright.lean:2797`
+- [decoupled_zeroDiag_quadratic_form_tail_high_norm_bernstein_absorb_of_exponents'](decoupled_zeroDiag_quadratic_form_tail_high_norm_bernstein_absorb_of_exponents_.md) — lemma, 59 decl(s) · `Statlib/HighDim/Concentration/HansonWright.lean:2782`
 - [decoupledOffDiagQuadForm_prod_first_section_abs_tail_real](decoupledOffDiagQuadForm_prod_first_section_abs_tail_real.md) — lemma, 14 decl(s) · `Statlib/HighDim/Concentration/HansonWright.lean:190`
 - [decoupledOffDiagQuadForm_prod_tail_le_lintegral_frobenius](decoupledOffDiagQuadForm_prod_tail_le_lintegral_frobenius.md) — lemma, 32 decl(s) · `Statlib/HighDim/Concentration/HansonWright.lean:977`
 - [decoupledOffDiagQuadForm_prod_tail_le_lintegral_spectral](decoupledOffDiagQuadForm_prod_tail_le_lintegral_spectral.md) — lemma, 30 decl(s) · `Statlib/HighDim/Concentration/HansonWright.lean:936`
 - [decoupledOffDiagQuadForm_prod_tail_le_markov_plus_good_ofReal](decoupledOffDiagQuadForm_prod_tail_le_markov_plus_good_ofReal.md) — lemma, 38 decl(s) · `Statlib/HighDim/Concentration/HansonWright.lean:1134`
-- [diagQuadForm_centered_tail_bernstein_explicit](diagQuadForm_centered_tail_bernstein_explicit.md) — lemma, 19 decl(s) · `Statlib/HighDim/Concentration/HansonWright.lean:2342`
-- [hanson_high_frobenius_pos](hanson_high_frobenius_pos.md) — lemma, 5 decl(s) · `Statlib/HighDim/Concentration/HansonWright.lean:1618`
-- [hanson_wright_isotropic](hanson_wright_isotropic.md) — theorem, 106 decl(s) · `Statlib/HighDim/Concentration/HansonWright.lean:5490`
-- [hanson_wright_of_const_decoupling_norm_bernstein_absorb_of_exponents](hanson_wright_of_const_decoupling_norm_bernstein_absorb_of_exponents.md) — theorem, 100 decl(s) · `Statlib/HighDim/Concentration/HansonWright.lean:4716`
-- [hanson_wright_tail_high_of_offdiag_tail](hanson_wright_tail_high_of_offdiag_tail.md) — theorem, 41 decl(s) · `Statlib/HighDim/Concentration/HansonWright.lean:4231`
+- [diagQuadForm_centered_tail_bernstein_explicit](diagQuadForm_centered_tail_bernstein_explicit.md) — lemma, 18 decl(s) · `Statlib/HighDim/Concentration/HansonWright.lean:2332`
+- [hanson_high_frobenius_pos](hanson_high_frobenius_pos.md) — lemma, 5 decl(s) · `Statlib/HighDim/Concentration/HansonWright.lean:1614`
+- [hanson_wright_isotropic](hanson_wright_isotropic.md) — theorem, 106 decl(s) · `Statlib/HighDim/Concentration/HansonWright.lean:5462`
+- [hanson_wright_of_const_decoupling_norm_bernstein_absorb_of_exponents](hanson_wright_of_const_decoupling_norm_bernstein_absorb_of_exponents.md) — theorem, 100 decl(s) · `Statlib/HighDim/Concentration/HansonWright.lean:4690`
+- [hanson_wright_tail_high_of_offdiag_tail](hanson_wright_tail_high_of_offdiag_tail.md) — theorem, 41 decl(s) · `Statlib/HighDim/Concentration/HansonWright.lean:4205`
 - [hermitian_exp_smul_le_exp_norm_bound](hermitian_exp_smul_le_exp_norm_bound.md) — private theorem, 2 decl(s) · `Statlib/HighDim/Concentration/MatrixBernstein.lean:767`
 - [hermitian_trace_exp_le_quadratic_norm](hermitian_trace_exp_le_quadratic_norm.md) — private theorem, 5 decl(s) · `Statlib/HighDim/Concentration/MatrixBernstein.lean:884`
 - [hermitianDilation_sum](hermitianDilation_sum.md) — private theorem, 4 decl(s) · `Statlib/HighDim/Concentration/MatrixBernstein.lean:2567`
 - [incoherence_implies_re](incoherence_implies_re.md) — theorem, 2 decl(s) · `Statlib/HighDim/Regression/Incoherence.lean:19`
-- [isotropic_norm_concentration](isotropic_norm_concentration.md) — lemma, 21 decl(s) · `Statlib/HighDim/CovarianceMatrix/Properties.lean:653`
+- [isotropic_norm_concentration](isotropic_norm_concentration.md) — lemma, 21 decl(s) · `Statlib/HighDim/CovarianceMatrix/Properties.lean:651`
 - [IsSubExponentialVector](IsSubExponentialVector.md) — structure, 2 decl(s) · `Statlib/HighDim/Vocabulary/RandomVector.lean:70`
-- [jl_distortion_probabilistic](jl_distortion_probabilistic.md) — theorem, 15 decl(s) · `Statlib/HighDim/Geometry/JohnsonLindenstrauss.lean:530`
+- [johnson_lindenstrauss](johnson_lindenstrauss.md) — theorem, 16 decl(s) · `Statlib/HighDim/Geometry/JohnsonLindenstrauss.lean:702`
 - [lasso_noise_condition](lasso_noise_condition.md) — theorem, 2 decl(s) · `Statlib/HighDim/Concentration/SubGaussianMax.lean:577`
 - [lasso_oracle_l1](lasso_oracle_l1.md) — theorem, 8 decl(s) · `Statlib/HighDim/Regression/LassoOracle.lean:523`
 - [lasso_oracle_l2](lasso_oracle_l2.md) — theorem, 9 decl(s) · `Statlib/HighDim/Regression/LassoOracle.lean:719`
@@ -36,40 +36,41 @@
 - [matrix_lieb_pair_trace_of_concave](matrix_lieb_pair_trace_of_concave.md) — private theorem, 4 decl(s) · `Statlib/HighDim/Concentration/MatrixBernstein.lean:1749`
 - [matrixRowVec_apply](matrixRowVec_apply.md) — lemma, 2 decl(s) · `Statlib/HighDim/Concentration/HansonWright.lean:459`
 - [measurable_restrictByEquiv](measurable_restrictByEquiv.md) — lemma, 2 decl(s) · `Statlib/HighDim/Geometry/RIPConstruction.lean:333`
-- [offdiag_hanson_wright_tail_high_norm_bernstein_of_const_decoupling](offdiag_hanson_wright_tail_high_norm_bernstein_of_const_decoupling.md) — theorem, 66 decl(s) · `Statlib/HighDim/Concentration/HansonWright.lean:3354`
-- [offdiag_hanson_wright_tail_high_of_const_decoupling_absorb](offdiag_hanson_wright_tail_high_of_const_decoupling_absorb.md) — theorem, 19 decl(s) · `Statlib/HighDim/Concentration/HansonWright.lean:3955`
-- [offdiag_hanson_wright_tail_high_of_const_decoupling_and_decoupled_tail](offdiag_hanson_wright_tail_high_of_const_decoupling_and_decoupled_tail.md) — theorem, 17 decl(s) · `Statlib/HighDim/Concentration/HansonWright.lean:3916`
-- [offdiag_hanson_wright_tail_high_of_const_decoupling_norm_bernstein_absorb](offdiag_hanson_wright_tail_high_of_const_decoupling_norm_bernstein_absorb.md) — theorem, 69 decl(s) · `Statlib/HighDim/Concentration/HansonWright.lean:3719`
-- [offdiag_hanson_wright_tail_high_of_const_decoupling_norm_bernstein_absorb_of_exponents'](offdiag_hanson_wright_tail_high_of_const_decoupling_norm_bernstein_absorb_of_exponents_.md) — theorem, 76 decl(s) · `Statlib/HighDim/Concentration/HansonWright.lean:3849`
-- [offdiag_hanson_wright_tail_high_of_decoupling_norm_bernstein_absorb](offdiag_hanson_wright_tail_high_of_decoupling_norm_bernstein_absorb.md) — theorem, 68 decl(s) · `Statlib/HighDim/Concentration/HansonWright.lean:3674`
+- [offdiag_hanson_wright_tail_high_norm_bernstein_of_const_decoupling](offdiag_hanson_wright_tail_high_norm_bernstein_of_const_decoupling.md) — theorem, 66 decl(s) · `Statlib/HighDim/Concentration/HansonWright.lean:3334`
+- [offdiag_hanson_wright_tail_high_of_const_decoupling_absorb](offdiag_hanson_wright_tail_high_of_const_decoupling_absorb.md) — theorem, 19 decl(s) · `Statlib/HighDim/Concentration/HansonWright.lean:3931`
+- [offdiag_hanson_wright_tail_high_of_const_decoupling_and_decoupled_tail](offdiag_hanson_wright_tail_high_of_const_decoupling_and_decoupled_tail.md) — theorem, 17 decl(s) · `Statlib/HighDim/Concentration/HansonWright.lean:3892`
+- [offdiag_hanson_wright_tail_high_of_const_decoupling_norm_bernstein_absorb](offdiag_hanson_wright_tail_high_of_const_decoupling_norm_bernstein_absorb.md) — theorem, 69 decl(s) · `Statlib/HighDim/Concentration/HansonWright.lean:3695`
+- [offdiag_hanson_wright_tail_high_of_const_decoupling_norm_bernstein_absorb_of_exponents'](offdiag_hanson_wright_tail_high_of_const_decoupling_norm_bernstein_absorb_of_exponents_.md) — theorem, 76 decl(s) · `Statlib/HighDim/Concentration/HansonWright.lean:3825`
+- [offdiag_hanson_wright_tail_high_of_decoupling_norm_bernstein_absorb](offdiag_hanson_wright_tail_high_of_decoupling_norm_bernstein_absorb.md) — theorem, 68 decl(s) · `Statlib/HighDim/Concentration/HansonWright.lean:3650`
 - [offDiagCoeff_norm_sq_le](offDiagCoeff_norm_sq_le.md) — lemma, 10 decl(s) · `Statlib/HighDim/Concentration/HansonWright.lean:744`
-- [pca_eigvec_perturbation](pca_eigvec_perturbation.md) — theorem, 78 decl(s) · `Statlib/HighDim/SpectralPerturbation/PCA.lean:31`
+- [pca_eigvec_perturbation](pca_eigvec_perturbation.md) — theorem, 77 decl(s) · `Statlib/HighDim/SpectralPerturbation/PCA.lean:31`
+- [projection_mean_zero](projection_mean_zero.md) — lemma, 3 decl(s) · `Statlib/HighDim/CovarianceMatrix/SampleCovariance.lean:227`
 - [restrictByEquiv_cov_identity](restrictByEquiv_cov_identity.md) — lemma, 4 decl(s) · `Statlib/HighDim/Geometry/RIPConstruction.lean:349`
 - [restrictByEquiv_hasMean_zero](restrictByEquiv_hasMean_zero.md) — lemma, 3 decl(s) · `Statlib/HighDim/Geometry/RIPConstruction.lean:339`
 - [restrictByEquiv_subgaussian](restrictByEquiv_subgaussian.md) — lemma, 11 decl(s) · `Statlib/HighDim/Geometry/RIPConstruction.lean:472`
 - [restrictTo_mul_eq_zero_of_disjoint](restrictTo_mul_eq_zero_of_disjoint.md) — lemma, 2 decl(s) · `Statlib/HighDim/Geometry/RIPConstruction.lean:177`
 - [rip_cross_term_abs_le_half_delta_sum](rip_cross_term_abs_le_half_delta_sum.md) — lemma, 11 decl(s) · `Statlib/HighDim/Geometry/RIPConstruction.lean:242`
-- [rip_implies_re](rip_implies_re.md) — theorem, 6 decl(s) · `Statlib/HighDim/Geometry/RIPConstruction.lean:1661`
+- [rip_implies_re](rip_implies_re.md) — theorem, 6 decl(s) · `Statlib/HighDim/Geometry/RIPConstruction.lean:1659`
 - [rip_lower_restrictTo](rip_lower_restrictTo.md) — lemma, 7 decl(s) · `Statlib/HighDim/Geometry/RIPConstruction.lean:315`
 - [rip_upper_restrictTo](rip_upper_restrictTo.md) — lemma, 7 decl(s) · `Statlib/HighDim/Geometry/RIPConstruction.lean:324`
-- [sample_cov_max_eig_upper](sample_cov_max_eig_upper.md) — theorem, 34 decl(s) · `Statlib/HighDim/CovarianceMatrix/SampleCovEigenvalueUpper.lean:22`
-- [sample_cov_min_eig_lower](sample_cov_min_eig_lower.md) — theorem, 34 decl(s) · `Statlib/HighDim/CovarianceMatrix/SampleCovEigenvalueLower.lean:21`
+- [sample_cov_max_eig_upper](sample_cov_max_eig_upper.md) — theorem, 33 decl(s) · `Statlib/HighDim/CovarianceMatrix/SampleCovEigenvalueUpper.lean:22`
+- [sample_cov_min_eig_lower](sample_cov_min_eig_lower.md) — theorem, 33 decl(s) · `Statlib/HighDim/CovarianceMatrix/SampleCovEigenvalueLower.lean:21`
 - [sampleSecondMoment_unbiased](sampleSecondMoment_unbiased.md) — lemma, 3 decl(s) · `Statlib/HighDim/CovarianceMatrix/SampleCovariance.lean:485`
 - [secondMoment_eq_cov_centered](secondMoment_eq_cov_centered.md) — lemma, 3 decl(s) · `Statlib/HighDim/CovarianceMatrix/Properties.lean:115`
 - [secondMoment_posSemidef](secondMoment_posSemidef.md) — lemma, 3 decl(s) · `Statlib/HighDim/CovarianceMatrix/Properties.lean:52`
 - [simple_eigenvalue_index_card_eq_one](simple_eigenvalue_index_card_eq_one.md) — lemma, 6 decl(s) · `Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:699`
-- [subexponential_mgf_const_mul](subexponential_mgf_const_mul.md) — lemma, 2 decl(s) · `Statlib/HighDim/Concentration/HansonWright.lean:1878`
-- [subexponential_mgf_mono_sigma](subexponential_mgf_mono_sigma.md) — lemma, 2 decl(s) · `Statlib/HighDim/Concentration/HansonWright.lean:1989`
-- [subgaussian_cov_offdiag_bound](subgaussian_cov_offdiag_bound.md) — lemma, 5 decl(s) · `Statlib/HighDim/CovarianceMatrix/Properties.lean:342`
+- [subexponential_mgf_const_mul](subexponential_mgf_const_mul.md) — lemma, 2 decl(s) · `Statlib/HighDim/Concentration/HansonWright.lean:1874`
+- [subexponential_mgf_mono_sigma](subexponential_mgf_mono_sigma.md) — lemma, 2 decl(s) · `Statlib/HighDim/Concentration/HansonWright.lean:1985`
+- [subgaussian_cov_offdiag_bound](subgaussian_cov_offdiag_bound.md) — lemma, 4 decl(s) · `Statlib/HighDim/CovarianceMatrix/Properties.lean:341`
 - [subgaussian_linf_expectation](subgaussian_linf_expectation.md) — theorem, 3 decl(s) · `Statlib/HighDim/Concentration/SubGaussianMax.lean:144`
 - [subgaussian_linf_tail](subgaussian_linf_tail.md) — theorem, 4 decl(s) · `Statlib/HighDim/Concentration/SubGaussianMax.lean:40`
-- [subgaussian_norm_sq_integrable](subgaussian_norm_sq_integrable.md) — lemma, 6 decl(s) · `Statlib/HighDim/Concentration/HansonWright.lean:2385`
-- [subgaussian_rip_sample_complexity](subgaussian_rip_sample_complexity.md) — theorem, 52 decl(s) · `Statlib/HighDim/Geometry/RIPConstruction.lean:1619`
+- [subgaussian_norm_sq_integrable](subgaussian_norm_sq_integrable.md) — lemma, 6 decl(s) · `Statlib/HighDim/Concentration/HansonWright.lean:2375`
+- [subgaussian_rip_sample_complexity](subgaussian_rip_sample_complexity.md) — theorem, 51 decl(s) · `Statlib/HighDim/Geometry/RIPConstruction.lean:1617`
 - [subgaussianVector_hasMean_zero](subgaussianVector_hasMean_zero.md) — lemma, 5 decl(s) · `Statlib/HighDim/Geometry/RIPConstruction.lean:69`
 - [weyl_maxeig_upper](weyl_maxeig_upper.md) — lemma, 6 decl(s) · `Statlib/HighDim/SpectralPerturbation/Weyl.lean:66`
 - [weyl_mineig_lower](weyl_mineig_lower.md) — lemma, 6 decl(s) · `Statlib/HighDim/SpectralPerturbation/Weyl.lean:20`
-- [zeroDiag_centered_quadratic_form_tail_high_of_decoupling_and_decoupled_tail](zeroDiag_centered_quadratic_form_tail_high_of_decoupling_and_decoupled_tail.md) — theorem, 5 decl(s) · `Statlib/HighDim/Concentration/HansonWright.lean:3031`
-- [zeroDiag_centered_quadratic_form_tail_high_of_decoupling_norm_bernstein_absorb](zeroDiag_centered_quadratic_form_tail_high_of_decoupling_norm_bernstein_absorb.md) — theorem, 57 decl(s) · `Statlib/HighDim/Concentration/HansonWright.lean:3407`
-- [zeroDiag_centered_quadratic_form_tail_high_of_offdiag_entries_zero](zeroDiag_centered_quadratic_form_tail_high_of_offdiag_entries_zero.md) — theorem, 10 decl(s) · `Statlib/HighDim/Concentration/HansonWright.lean:4473`
+- [zeroDiag_centered_quadratic_form_tail_high_of_decoupling_and_decoupled_tail](zeroDiag_centered_quadratic_form_tail_high_of_decoupling_and_decoupled_tail.md) — theorem, 5 decl(s) · `Statlib/HighDim/Concentration/HansonWright.lean:3013`
+- [zeroDiag_centered_quadratic_form_tail_high_of_decoupling_norm_bernstein_absorb](zeroDiag_centered_quadratic_form_tail_high_of_decoupling_norm_bernstein_absorb.md) — theorem, 56 decl(s) · `Statlib/HighDim/Concentration/HansonWright.lean:3387`
+- [zeroDiag_centered_quadratic_form_tail_high_of_offdiag_entries_zero](zeroDiag_centered_quadratic_form_tail_high_of_offdiag_entries_zero.md) — theorem, 10 decl(s) · `Statlib/HighDim/Concentration/HansonWright.lean:4447`
 - [zeroDiag_hanson_scale_half_le](zeroDiag_hanson_scale_half_le.md) — lemma, 9 decl(s) · `Statlib/HighDim/Concentration/HansonWright.lean:1250`
 - [zeroDiagMatrix_add_diagPartMatrix](zeroDiagMatrix_add_diagPartMatrix.md) — lemma, 3 decl(s) · `Statlib/HighDim/Concentration/HansonWright.lean:693`

@@ -6,7 +6,7 @@ Closure: 11 declarations across 4 files. Generated from `proof_graph.json` — n
 Reading order (foundations first, headline last):
 
   ◆ `IsSparse` — def · `Statlib/HighDim/Vocabulary/Sparse.lean:36`  _(also used by 8: covering_number_sparse_ball, log_covering_number_sparse, exists_support_card_eq_of_isSparse, …)_
-  ◆ `l2NormSq` — noncomputable def · `Statlib/HighDim/Vocabulary/Norms.lean:13`  _(also used by 28: matrixRowVec_norm_sq, offDiagCoeffVec_norm_sq_le_frobenius, offDiagCoeffVec_norm_sq_integral_le_frobenius, …)_
+  ◆ `l2NormSq` — noncomputable def · `Statlib/HighDim/Vocabulary/Norms.lean:13`  _(also used by 29: matrixRowVec_norm_sq, offDiagCoeffVec_norm_sq_le_frobenius, offDiagCoeffVec_norm_sq_integral_le_frobenius, …)_
   ◆ `SatisfiesRIP` — def · `Statlib/HighDim/Vocabulary/DesignMatrix.lean:62`  _(also used by 5: rip_lower_restrictTo, rip_upper_restrictTo, subgaussian_rip_tail, …)_
   · `isSparse_mono` — lemma · `Statlib/HighDim/Geometry/RIPConstruction.lean:85`
   · `isSparse_add` — lemma · `Statlib/HighDim/Geometry/RIPConstruction.lean:97`

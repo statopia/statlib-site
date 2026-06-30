@@ -1,14 +1,14 @@
 # Proof narrative — delta_method_sqrt_n
 
-Root: **delta_method_sqrt_n** (theorem) `Statlib/StatFoundation/Convergence/AnalysisTools/MappingTheorems.lean:396` · topic `StatFoundation`
+Root: **delta_method_sqrt_n** (theorem) `Statlib/StatFoundation/Convergence/AnalysisTools/MappingTheorems.lean:395` · topic `StatFoundation`
 Closure: 4 declarations across 1 files. Generated from `proof_graph.json` — no files were moved.
 
 Reading order (foundations first, headline last):
 
-    ★ `remainder_tendstoInMeasure` — theorem · `Statlib/StatFoundation/Convergence/AnalysisTools/MappingTheorems.lean:238`
+    ★ `remainder_tendstoInMeasure` — theorem · `Statlib/StatFoundation/Convergence/AnalysisTools/MappingTheorems.lean:237`
     ★ `slutsky_add` — theorem · `Statlib/StatFoundation/Convergence/AnalysisTools/MappingTheorems.lean:23`
-  ★ `delta_method` — theorem · `Statlib/StatFoundation/Convergence/AnalysisTools/MappingTheorems.lean:351`
-★ `delta_method_sqrt_n` — theorem · `Statlib/StatFoundation/Convergence/AnalysisTools/MappingTheorems.lean:396` **← headline**
+  ★ `delta_method` — theorem · `Statlib/StatFoundation/Convergence/AnalysisTools/MappingTheorems.lean:350`
+★ `delta_method_sqrt_n` — theorem · `Statlib/StatFoundation/Convergence/AnalysisTools/MappingTheorems.lean:395` **← headline**
 
 ## Dependency diagram
 

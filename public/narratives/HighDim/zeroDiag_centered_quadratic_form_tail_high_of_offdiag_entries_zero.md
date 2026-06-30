@@ -1,6 +1,6 @@
 # Proof narrative — zeroDiag_centered_quadratic_form_tail_high_of_offdiag_entries_zero
 
-Root: **zeroDiag_centered_quadratic_form_tail_high_of_offdiag_entries_zero** (theorem) `Statlib/HighDim/Concentration/HansonWright.lean:4473` · topic `HighDim`
+Root: **zeroDiag_centered_quadratic_form_tail_high_of_offdiag_entries_zero** (theorem) `Statlib/HighDim/Concentration/HansonWright.lean:4447` · topic `HighDim`
 Closure: 10 declarations across 2 files. Generated from `proof_graph.json` — no files were moved.
 
 Reading order (foundations first, headline last):
@@ -14,7 +14,7 @@ Reading order (foundations first, headline last):
     · `offDiagQuadForm_zeroDiagMatrix` — lemma · `Statlib/HighDim/Concentration/HansonWright.lean:308`
   · `quadForm_zeroDiagMatrix_eq_offDiagQuadForm` — lemma · `Statlib/HighDim/Concentration/HansonWright.lean:319`  _(also used by 1: offdiag_tail_of_zeroDiag_centered_quad_tail)_
   · `offDiagQuadForm_eq_zero_of_entries` — lemma · `Statlib/HighDim/Concentration/HansonWright.lean:328`  _(also used by 1: offdiag_hanson_wright_tail_high_of_offdiag_entries_zero)_
-★ `zeroDiag_centered_quadratic_form_tail_high_of_offdiag_entries_zero` — theorem · `Statlib/HighDim/Concentration/HansonWright.lean:4473` **← headline**
+★ `zeroDiag_centered_quadratic_form_tail_high_of_offdiag_entries_zero` — theorem · `Statlib/HighDim/Concentration/HansonWright.lean:4447` **← headline**
 
 ## Dependency diagram
 

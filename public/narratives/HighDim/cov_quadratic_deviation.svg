@@ -98,7 +98,7 @@
 <!-- n13 -->
 <g id="node7" class="node">
 <title>n13</title>
-<g id="a_node7"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Concentration/HansonWright.lean:2006" xlink:title="lemma · Statlib/HighDim/Concentration/HansonWright.lean:2006" target="_blank">
+<g id="a_node7"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Concentration/HansonWright.lean:2002" xlink:title="lemma · Statlib/HighDim/Concentration/HansonWright.lean:2002" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M609.6,-269.2C609.6,-269.2 486.4,-269.2 486.4,-269.2 480.4,-269.2 474.4,-263.2 474.4,-257.2 474.4,-257.2 474.4,-245.2 474.4,-245.2 474.4,-239.2 480.4,-233.2 486.4,-233.2 486.4,-233.2 609.6,-233.2 609.6,-233.2 615.6,-233.2 621.6,-239.2 621.6,-245.2 621.6,-245.2 621.6,-257.2 621.6,-257.2 621.6,-263.2 615.6,-269.2 609.6,-269.2"/>
 <text xml:space="preserve" text-anchor="middle" x="548" y="-248.2" font-family="Helvetica,sans-Serif" font-size="10.00">subexponential_mgf_mono_b</text>
 </a>
@@ -224,7 +224,7 @@
 <!-- n9 -->
 <g id="node13" class="node">
 <title>n9</title>
-<g id="a_node13"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/StatFoundation/RandomVariable/SubGaussian/subgaussian_exp_sq_le_at_one_third.lean:166" xlink:title="theorem · Statlib/StatFoundation/RandomVariable/SubGaussian/subgaussian_exp_sq_le_at_one_third.lean:166" target="_blank">
+<g id="a_node13"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/StatFoundation/RandomVariable/SubGaussian/subgaussian_exp_sq_le_at_one_third.lean:165" xlink:title="theorem · Statlib/StatFoundation/RandomVariable/SubGaussian/subgaussian_exp_sq_le_at_one_third.lean:165" target="_blank">
 <path fill="#ffe6a3" stroke="#d4a017" d="M1650.3,-124C1650.3,-124 1453.7,-124 1453.7,-124 1447.7,-124 1441.7,-118 1441.7,-112 1441.7,-112 1441.7,-100 1441.7,-100 1441.7,-94 1447.7,-88 1453.7,-88 1453.7,-88 1650.3,-88 1650.3,-88 1656.3,-88 1662.3,-94 1662.3,-100 1662.3,-100 1662.3,-112 1662.3,-112 1662.3,-118 1656.3,-124 1650.3,-124"/>
 <text xml:space="preserve" text-anchor="middle" x="1552" y="-103" font-family="Helvetica,sans-Serif" font-size="10.00">subgaussian_integrable_exp_sq_at_one_third</text>
 </a>

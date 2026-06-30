@@ -19,8 +19,8 @@ export const graphIndexUrl = `${graphBase}/index.html`;
 // Headline numbers — sourced from the artifact's INDEX.md. EDIT when refreshed.
 export const graphStats: { label: string; value: string }[] = [
   { label: "Declarations (nodes)", value: "742" },
-  { label: "Dependencies (edges)", value: "1,552" },
-  { label: "Proof narratives", value: "128" },
+  { label: "Dependencies (edges)", value: "1,528" },
+  { label: "Proof narratives", value: "129" },
   { label: "Substantial developments", value: "40" },
 ];
 

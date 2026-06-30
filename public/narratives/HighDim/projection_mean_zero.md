@@ -1,21 +1,21 @@
-# Proof narrative — restrictByEquiv_hasMean_zero
+# Proof narrative — projection_mean_zero
 
-Root: **restrictByEquiv_hasMean_zero** (lemma) `Statlib/HighDim/Geometry/RIPConstruction.lean:339` · topic `HighDim`
+Root: **projection_mean_zero** (lemma) `Statlib/HighDim/CovarianceMatrix/SampleCovariance.lean:227` · topic `HighDim`
 Closure: 3 declarations across 3 files. Generated from `proof_graph.json` — no files were moved.
 
 Reading order (foundations first, headline last):
 
   ▣ `HasMean` — structure · `Statlib/HighDim/Vocabulary/RandomVector.lean:83`  _(also used by 36: coord_mul_integral_eq_zero_of_indep, offDiagQuadForm_integral_eq_zero_of_indep, offDiagQuadForm_centered_eq_self_of_indep, …)_
-  ◆ `restrictByEquiv` — def · `Statlib/HighDim/Vocabulary/Restrictions.lean:15`  _(also used by 10: measurable_restrictByEquiv, restrictByEquiv_cov_identity, extendByEquiv_restrictByEquiv_of_support, …)_
-· `restrictByEquiv_hasMean_zero` — lemma · `Statlib/HighDim/Geometry/RIPConstruction.lean:339` **← headline**
+  · `inner_eq_sum` — lemma · `Statlib/HighDim/Vocabulary/Norms.lean:32`  _(also used by 13: decoupledOffDiagQuadForm_eq_inner_coeff, offDiagCoeffVec_apply_eq_inner_row_zeroDiag, subgaussian_vector_coord, …)_
+· `projection_mean_zero` — lemma · `Statlib/HighDim/CovarianceMatrix/SampleCovariance.lean:227` **← headline**
 
 ## Dependency diagram
 
 ```mermaid
 flowchart TD
   n0["▣ HasMean"]
-  n1["◆ restrictByEquiv"]
-  n2["· restrictByEquiv_hasMean_zero"]
+  n1["· inner_eq_sum"]
+  n2["· projection_mean_zero"]
   n2 --> n0
   n2 --> n1
   class n2 headline;

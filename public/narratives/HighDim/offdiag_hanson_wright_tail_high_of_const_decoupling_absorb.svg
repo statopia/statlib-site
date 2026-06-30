@@ -252,7 +252,7 @@
 <!-- n14 -->
 <g id="node15" class="node">
 <title>n14</title>
-<g id="a_node15"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Concentration/HansonWright.lean:2986" xlink:title="lemma · Statlib/HighDim/Concentration/HansonWright.lean:2986" target="_blank">
+<g id="a_node15"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Concentration/HansonWright.lean:2968" xlink:title="lemma · Statlib/HighDim/Concentration/HansonWright.lean:2968" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M1026.24,-268C1026.24,-268 835.76,-268 835.76,-268 829.76,-268 823.76,-262 823.76,-256 823.76,-256 823.76,-244 823.76,-244 823.76,-238 829.76,-232 835.76,-232 835.76,-232 1026.24,-232 1026.24,-232 1032.24,-232 1038.24,-238 1038.24,-244 1038.24,-244 1038.24,-256 1038.24,-256 1038.24,-262 1032.24,-268 1026.24,-268"/>
 <text xml:space="preserve" text-anchor="middle" x="931" y="-247" font-family="Helvetica,sans-Serif" font-size="10.00">offdiag_tail_of_zeroDiag_centered_quad_tail</text>
 </a>
@@ -297,7 +297,7 @@
 <!-- n15 -->
 <g id="node16" class="node">
 <title>n15</title>
-<g id="a_node16"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Concentration/HansonWright.lean:3064" xlink:title="theorem · Statlib/HighDim/Concentration/HansonWright.lean:3064" target="_blank">
+<g id="a_node16"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Concentration/HansonWright.lean:3046" xlink:title="theorem · Statlib/HighDim/Concentration/HansonWright.lean:3046" target="_blank">
 <path fill="#ffe6a3" stroke="#d4a017" d="M1920.59,-124C1920.59,-124 1539.41,-124 1539.41,-124 1533.41,-124 1527.41,-118 1527.41,-112 1527.41,-112 1527.41,-100 1527.41,-100 1527.41,-94 1533.41,-88 1539.41,-88 1539.41,-88 1920.59,-88 1920.59,-88 1926.59,-88 1932.59,-94 1932.59,-100 1932.59,-100 1932.59,-112 1932.59,-112 1932.59,-118 1926.59,-124 1920.59,-124"/>
 <text xml:space="preserve" text-anchor="middle" x="1730" y="-103" font-family="Helvetica,sans-Serif" font-size="10.00">zeroDiag_centered_quadratic_form_tail_high_of_const_decoupling_and_decoupled_tail</text>
 </a>
@@ -330,7 +330,7 @@
 <!-- n16 -->
 <g id="node17" class="node">
 <title>n16</title>
-<g id="a_node17"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Concentration/HansonWright.lean:1677" xlink:title="lemma · Statlib/HighDim/Concentration/HansonWright.lean:1677" target="_blank">
+<g id="a_node17"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Concentration/HansonWright.lean:1673" xlink:title="lemma · Statlib/HighDim/Concentration/HansonWright.lean:1673" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M1497.59,-124C1497.59,-124 1280.41,-124 1280.41,-124 1274.41,-124 1268.41,-118 1268.41,-112 1268.41,-112 1268.41,-100 1268.41,-100 1268.41,-94 1274.41,-88 1280.41,-88 1280.41,-88 1497.59,-88 1497.59,-88 1503.59,-88 1509.59,-94 1509.59,-100 1509.59,-100 1509.59,-112 1509.59,-112 1509.59,-118 1503.59,-124 1497.59,-124"/>
 <text xml:space="preserve" text-anchor="middle" x="1389" y="-103" font-family="Helvetica,sans-Serif" font-size="10.00">const_mul_exp_neg_le_exp_neg_hanson_weaken</text>
 </a>
@@ -339,7 +339,7 @@
 <!-- n17 -->
 <g id="node18" class="node">
 <title>n17</title>
-<g id="a_node18"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Concentration/HansonWright.lean:3129" xlink:title="theorem · Statlib/HighDim/Concentration/HansonWright.lean:3129" target="_blank">
+<g id="a_node18"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Concentration/HansonWright.lean:3111" xlink:title="theorem · Statlib/HighDim/Concentration/HansonWright.lean:3111" target="_blank">
 <path fill="#ffe6a3" stroke="#d4a017" d="M1585.5,-196C1585.5,-196 1260.5,-196 1260.5,-196 1254.5,-196 1248.5,-190 1248.5,-184 1248.5,-184 1248.5,-172 1248.5,-172 1248.5,-166 1254.5,-160 1260.5,-160 1260.5,-160 1585.5,-160 1585.5,-160 1591.5,-160 1597.5,-166 1597.5,-172 1597.5,-172 1597.5,-184 1597.5,-184 1597.5,-190 1591.5,-196 1585.5,-196"/>
 <text xml:space="preserve" text-anchor="middle" x="1423" y="-175" font-family="Helvetica,sans-Serif" font-size="10.00">zeroDiag_centered_quadratic_form_tail_high_of_const_decoupling_absorb</text>
 </a>
@@ -384,7 +384,7 @@
 <!-- n18 -->
 <g id="node19" class="node">
 <title>n18</title>
-<g id="a_node19"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Concentration/HansonWright.lean:3955" xlink:title="theorem · Statlib/HighDim/Concentration/HansonWright.lean:3955" target="_blank">
+<g id="a_node19"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Concentration/HansonWright.lean:3931" xlink:title="theorem · Statlib/HighDim/Concentration/HansonWright.lean:3931" target="_blank">
 <path fill="#ffe6a3" stroke="#d4a017" stroke-width="3" d="M1353.44,-340C1353.44,-340 1084.56,-340 1084.56,-340 1078.56,-340 1072.56,-334 1072.56,-328 1072.56,-328 1072.56,-316 1072.56,-316 1072.56,-310 1078.56,-304 1084.56,-304 1084.56,-304 1353.44,-304 1353.44,-304 1359.44,-304 1365.44,-310 1365.44,-316 1365.44,-316 1365.44,-328 1365.44,-328 1365.44,-334 1359.44,-340 1353.44,-340"/>
 <text xml:space="preserve" text-anchor="middle" x="1219" y="-319" font-family="Helvetica,sans-Serif" font-size="10.00">offdiag_hanson_wright_tail_high_of_const_decoupling_absorb</text>
 </a>

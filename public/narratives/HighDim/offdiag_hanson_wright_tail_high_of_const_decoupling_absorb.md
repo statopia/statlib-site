@@ -1,11 +1,11 @@
 # Proof narrative — offdiag_hanson_wright_tail_high_of_const_decoupling_absorb
 
-Root: **offdiag_hanson_wright_tail_high_of_const_decoupling_absorb** (theorem) `Statlib/HighDim/Concentration/HansonWright.lean:3955` · topic `HighDim`
+Root: **offdiag_hanson_wright_tail_high_of_const_decoupling_absorb** (theorem) `Statlib/HighDim/Concentration/HansonWright.lean:3931` · topic `HighDim`
 Closure: 19 declarations across 4 files. Generated from `proof_graph.json` — no files were moved.
 
 Reading order (foundations first, headline last):
 
-  ▣ `HasMean` — structure · `Statlib/HighDim/Vocabulary/RandomVector.lean:83`  _(also used by 57: offDiagQuadForm_centered_eq_self_of_indep, coord_mul_subexponential_exists_of_indep, coord_mul_scaled_subexponential_exists_of_indep, …)_
+  ▣ `HasMean` — structure · `Statlib/HighDim/Vocabulary/RandomVector.lean:83`  _(also used by 33: offDiagQuadForm_centered_eq_self_of_indep, coord_mul_subexponential_exists_of_indep, coord_mul_scaled_subexponential_exists_of_indep, …)_
   ◆ `frobeniusNormSq` — noncomputable def · `Statlib/HighDim/Vocabulary/Norms.lean:37`  _(also used by 43: diag_sq_sum_le_frobeniusNormSq, frobeniusNormSq_zeroDiagMatrix_le, frobeniusNormSq_nonneg, …)_
   ◆ `quadForm` — noncomputable def · `Statlib/HighDim/Vocabulary/QuadraticForms.lean:15`  _(also used by 28: quadForm_centered_eq_diag_offdiag_centered, quadForm_centered_tail_le_diag_offdiag_tail, quadForm_centered_tail_le_two_mul_of_diag_offdiag_tail_bounds, …)_
   ◆ `zeroDiagMatrix` — def · `Statlib/HighDim/Vocabulary/QuadraticForms.lean:52`  _(also used by 36: offDiagCoeff_eq_zeroDiagMatrix_mulVec, offDiagCoeff_norm_le_zeroDiag, offDiagCoeffVec_eq_zeroDiagMatrix_mulVec, …)_
@@ -19,11 +19,11 @@ Reading order (foundations first, headline last):
       · `coord_mul_integrable_of_sq_integrable` — lemma · `Statlib/HighDim/Concentration/HansonWright.lean:1280`  _(also used by 1: offDiagQuadForm_integrable_of_coord_sq_integrable)_
       · `coord_mul_integral_eq_zero_of_indep` — lemma · `Statlib/HighDim/Concentration/HansonWright.lean:1297`  _(also used by 1: coord_mul_subexponential_exists_of_indep)_
     · `offDiagQuadForm_integral_eq_zero_of_indep` — lemma · `Statlib/HighDim/Concentration/HansonWright.lean:1331`  _(also used by 1: offDiagQuadForm_centered_eq_self_of_indep)_
-  · `offdiag_tail_of_zeroDiag_centered_quad_tail` — lemma · `Statlib/HighDim/Concentration/HansonWright.lean:2986`  _(also used by 6: offdiag_hanson_wright_tail_high_norm_bernstein_of_decoupling, offdiag_hanson_wright_tail_high_norm_bernstein_of_const_decoupling, offdiag_hanson_wright_tail_high_of_const_decoupling_norm_bernstein_absorb, …)_
-    ★ `zeroDiag_centered_quadratic_form_tail_high_of_const_decoupling_and_decoupled_tail` — theorem · `Statlib/HighDim/Concentration/HansonWright.lean:3064`  _(also used by 1: offdiag_hanson_wright_tail_high_of_const_decoupling_and_decoupled_tail)_
-    · `const_mul_exp_neg_le_exp_neg_hanson_weaken` — lemma · `Statlib/HighDim/Concentration/HansonWright.lean:1677`  _(also used by 2: const_mul_exp_neg_le_exp_neg_hanson_weaken_of_log, zeroDiag_centered_quadratic_form_tail_high_of_const_decoupling_norm_bernstein_absorb)_
-  ★ `zeroDiag_centered_quadratic_form_tail_high_of_const_decoupling_absorb` — theorem · `Statlib/HighDim/Concentration/HansonWright.lean:3129`  _(also used by 1: zeroDiag_centered_quadratic_form_tail_high_of_const_decoupling_norm_bernstein_absorb_of_exponents)_
-★ `offdiag_hanson_wright_tail_high_of_const_decoupling_absorb` — theorem · `Statlib/HighDim/Concentration/HansonWright.lean:3955` **← headline**
+  · `offdiag_tail_of_zeroDiag_centered_quad_tail` — lemma · `Statlib/HighDim/Concentration/HansonWright.lean:2968`  _(also used by 6: offdiag_hanson_wright_tail_high_norm_bernstein_of_decoupling, offdiag_hanson_wright_tail_high_norm_bernstein_of_const_decoupling, offdiag_hanson_wright_tail_high_of_const_decoupling_norm_bernstein_absorb, …)_
+    ★ `zeroDiag_centered_quadratic_form_tail_high_of_const_decoupling_and_decoupled_tail` — theorem · `Statlib/HighDim/Concentration/HansonWright.lean:3046`  _(also used by 1: offdiag_hanson_wright_tail_high_of_const_decoupling_and_decoupled_tail)_
+    · `const_mul_exp_neg_le_exp_neg_hanson_weaken` — lemma · `Statlib/HighDim/Concentration/HansonWright.lean:1673`  _(also used by 2: const_mul_exp_neg_le_exp_neg_hanson_weaken_of_log, zeroDiag_centered_quadratic_form_tail_high_of_const_decoupling_norm_bernstein_absorb)_
+  ★ `zeroDiag_centered_quadratic_form_tail_high_of_const_decoupling_absorb` — theorem · `Statlib/HighDim/Concentration/HansonWright.lean:3111`  _(also used by 1: zeroDiag_centered_quadratic_form_tail_high_of_const_decoupling_norm_bernstein_absorb_of_exponents)_
+★ `offdiag_hanson_wright_tail_high_of_const_decoupling_absorb` — theorem · `Statlib/HighDim/Concentration/HansonWright.lean:3931` **← headline**
 
 ## Dependency diagram
 
