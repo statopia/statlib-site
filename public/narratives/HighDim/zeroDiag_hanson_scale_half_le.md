@@ -1,19 +1,19 @@
 # Proof narrative — zeroDiag_hanson_scale_half_le
 
-Root: **zeroDiag_hanson_scale_half_le** (lemma) `Statlib/HighDim/Concentration/HansonWright.lean:1250` · topic `HighDim`
+Root: **zeroDiag_hanson_scale_half_le** (lemma) `Statlib/HighDim/Concentration/HansonWright.lean:1201` · topic `HighDim`
 Closure: 9 declarations across 3 files. Generated from `proof_graph.json` — no files were moved.
 
 Reading order (foundations first, headline last):
 
   ◆ `frobeniusNormSq` — noncomputable def · `Statlib/HighDim/Vocabulary/Norms.lean:37`  _(also used by 44: diag_sq_sum_le_frobeniusNormSq, frobeniusNormSq_nonneg, offDiagCoeffVec_norm_sq_le_frobenius, …)_
   ◆ `zeroDiagMatrix` — def · `Statlib/HighDim/Vocabulary/QuadraticForms.lean:52`  _(also used by 40: offDiagCoeff_eq_zeroDiagMatrix_mulVec, offDiagCoeff_norm_le_zeroDiag, offDiagCoeffVec_eq_zeroDiagMatrix_mulVec, …)_
-  · `frobeniusNormSq_zeroDiagMatrix_le` — lemma · `Statlib/HighDim/Concentration/HansonWright.lean:436`  _(also used by 2: offDiagCoeffVec_norm_sq_le_frobenius, offDiagCoeffVec_norm_sq_integral_le_frobenius)_
+  · `frobeniusNormSq_zeroDiagMatrix_le` — lemma · `Statlib/HighDim/Concentration/HansonWright.lean:387`  _(also used by 2: offDiagCoeffVec_norm_sq_le_frobenius, offDiagCoeffVec_norm_sq_integral_le_frobenius)_
     ◆ `diagPartMatrix` — def · `Statlib/HighDim/Vocabulary/QuadraticForms.lean:57`  _(also used by 1: zeroDiagMatrix_add_diagPartMatrix)_
-      · `matrix_entry_abs_le_l2_opNorm` — lemma · `Statlib/HighDim/Concentration/HansonWright.lean:398`  _(also used by 1: diag_hanson_wright_tail_high)_
-    · `diagPartMatrix_norm_le` — lemma · `Statlib/HighDim/Concentration/HansonWright.lean:685`
-  · `zeroDiagMatrix_norm_le_two` — lemma · `Statlib/HighDim/Concentration/HansonWright.lean:704`  _(also used by 2: offDiagCoeff_norm_le, offDiagCoeffVec_norm_le)_
-  · `half_min_le_min_of_den_le` — lemma · `Statlib/HighDim/Concentration/HansonWright.lean:1224`
-· `zeroDiag_hanson_scale_half_le` — lemma · `Statlib/HighDim/Concentration/HansonWright.lean:1250` **← headline**
+      · `matrix_entry_abs_le_l2_opNorm` — lemma · `Statlib/HighDim/Concentration/HansonWright.lean:349`  _(also used by 1: diag_hanson_wright_tail_high)_
+    · `diagPartMatrix_norm_le` — lemma · `Statlib/HighDim/Concentration/HansonWright.lean:636`
+  · `zeroDiagMatrix_norm_le_two` — lemma · `Statlib/HighDim/Concentration/HansonWright.lean:655`  _(also used by 2: offDiagCoeff_norm_le, offDiagCoeffVec_norm_le)_
+  · `half_min_le_min_of_den_le` — lemma · `Statlib/HighDim/Concentration/HansonWright.lean:1175`
+· `zeroDiag_hanson_scale_half_le` — lemma · `Statlib/HighDim/Concentration/HansonWright.lean:1201` **← headline**
 
 ## Dependency diagram
 

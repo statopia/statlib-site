@@ -37,7 +37,7 @@ export const topics: TopicArea[] = [
     id: "concentration",
     title: "Concentration inequalities",
     summary: "Tail and moment bounds controlling how sums and functions of independent (or martingale) random variables deviate from their means.",
-    declarationCounts: { theorems: 37, lemmas: 1 },
+    declarationCounts: { theorems: 37, lemmas: 2 },
     theorems: [
       {
         name: "Hoeffding's inequality (sub-Gaussian sum)",
@@ -151,7 +151,7 @@ export const topics: TopicArea[] = [
     id: "random-variables",
     title: "Tail behavior of random variables",
     summary: "Concentration and tail-bound theory for sub-Gaussian and sub-exponential random variables, including Hoeffding-type MGF bounds and exponential tail inequalities.",
-    declarationCounts: { theorems: 48, lemmas: 34 },
+    declarationCounts: { theorems: 52, lemmas: 39 },
     theorems: [
       {
         name: "Sub-Gaussian one-sided tail bound",
@@ -265,7 +265,7 @@ export const topics: TopicArea[] = [
     id: "hd-concentration",
     title: "High-dimensional concentration",
     summary: "Concentration inequalities for high-dimensional random objects — sub-Gaussian maxima, the matrix Bernstein inequality for sums of independent random matrices, and the Hanson-Wright bound for quadratic forms.",
-    declarationCounts: { theorems: 38, lemmas: 115 },
+    declarationCounts: { theorems: 38, lemmas: 110 },
     theorems: [
       {
         name: "Matrix Bernstein inequality",
@@ -315,7 +315,7 @@ export const topics: TopicArea[] = [
     id: "covariance",
     title: "Covariance estimation",
     summary: "Concentration and unbiasedness guarantees for the sample second-moment (covariance) matrix estimator of high-dimensional sub-Gaussian random vectors.",
-    declarationCounts: { theorems: 5, lemmas: 26 },
+    declarationCounts: { theorems: 7, lemmas: 24 },
     theorems: [
       {
         name: "Sample covariance matrix concentration",
@@ -358,7 +358,7 @@ export const topics: TopicArea[] = [
     id: "hd-geometry",
     title: "High-dimensional geometry",
     summary: "Geometric foundations of high-dimensional statistics: covering numbers of Euclidean and sparse balls, Johnson-Lindenstrauss dimension reduction, and the restricted isometry property for random sub-Gaussian sensing matrices.",
-    declarationCounts: { theorems: 10, lemmas: 31 },
+    declarationCounts: { theorems: 10, lemmas: 30 },
     theorems: [
       {
         name: "Covering number bounds for the Euclidean unit ball",
@@ -401,7 +401,7 @@ export const topics: TopicArea[] = [
     id: "hd-regression",
     title: "High-dimensional regression",
     summary: "Oracle inequalities for the LASSO estimator in sparse high-dimensional linear models, bounding prediction and estimation error under the Restricted Eigenvalue condition.",
-    declarationCounts: { theorems: 5, lemmas: 2 },
+    declarationCounts: { theorems: 6, lemmas: 2 },
     theorems: [
       {
         name: "LASSO solution (minimizer of the LASSO objective)",
@@ -444,7 +444,7 @@ export const topics: TopicArea[] = [
     id: "spectral",
     title: "Spectral perturbation",
     summary: "Quantitative bounds on how a matrix's eigenvalues and eigenvectors move under perturbation, applied to high-dimensional PCA via sample-covariance concentration.",
-    declarationCounts: { theorems: 4, lemmas: 49 },
+    declarationCounts: { theorems: 4, lemmas: 48 },
     theorems: [
       {
         name: "Weyl's inequality (per-index form)",

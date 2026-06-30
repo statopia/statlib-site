@@ -18,7 +18,7 @@
 <!-- n0 -->
 <g id="node1" class="node">
 <title>n0</title>
-<g id="a_node1"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/StatFoundation/Convergence/CentralLimitTheorem/Multivariate.lean:22" xlink:title="lemma · Statlib/StatFoundation/Convergence/CentralLimitTheorem/Multivariate.lean:22" target="_blank">
+<g id="a_node1"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/tmp/statlib-main-refresh.tmBBiR/Statlib/StatFoundation/Convergence/CentralLimitTheorem/Multivariate.lean:22" xlink:title="lemma · Statlib/StatFoundation/Convergence/CentralLimitTheorem/Multivariate.lean:22" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M108.24,-340C108.24,-340 41.76,-340 41.76,-340 35.76,-340 29.76,-334 29.76,-328 29.76,-328 29.76,-316 29.76,-316 29.76,-310 35.76,-304 41.76,-304 41.76,-304 108.24,-304 108.24,-304 114.24,-304 120.24,-310 120.24,-316 120.24,-316 120.24,-328 120.24,-328 120.24,-334 114.24,-340 108.24,-340"/>
 <text xml:space="preserve" text-anchor="middle" x="75" y="-319" font-family="Helvetica,sans-Serif" font-size="10.00">measurable_proj</text>
 </a>
@@ -27,7 +27,7 @@
 <!-- n1 -->
 <g id="node2" class="node">
 <title>n1</title>
-<g id="a_node2"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/StatFoundation/Convergence/CentralLimitTheorem/Multivariate.lean:34" xlink:title="lemma · Statlib/StatFoundation/Convergence/CentralLimitTheorem/Multivariate.lean:34" target="_blank">
+<g id="a_node2"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/tmp/statlib-main-refresh.tmBBiR/Statlib/StatFoundation/Convergence/CentralLimitTheorem/Multivariate.lean:34" xlink:title="lemma · Statlib/StatFoundation/Convergence/CentralLimitTheorem/Multivariate.lean:34" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M138.36,-412C138.36,-412 79.64,-412 79.64,-412 73.64,-412 67.64,-406 67.64,-400 67.64,-400 67.64,-388 67.64,-388 67.64,-382 73.64,-376 79.64,-376 79.64,-376 138.36,-376 138.36,-376 144.36,-376 150.36,-382 150.36,-388 150.36,-388 150.36,-400 150.36,-400 150.36,-406 144.36,-412 138.36,-412"/>
 <text xml:space="preserve" text-anchor="middle" x="109" y="-391" font-family="Helvetica,sans-Serif" font-size="10.00">iIndepFun_proj</text>
 </a>
@@ -36,7 +36,7 @@
 <!-- n2 -->
 <g id="node3" class="node">
 <title>n2</title>
-<g id="a_node3"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/StatFoundation/Convergence/CentralLimitTheorem/Multivariate.lean:52" xlink:title="lemma · Statlib/StatFoundation/Convergence/CentralLimitTheorem/Multivariate.lean:52" target="_blank">
+<g id="a_node3"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/tmp/statlib-main-refresh.tmBBiR/Statlib/StatFoundation/Convergence/CentralLimitTheorem/Multivariate.lean:52" xlink:title="lemma · Statlib/StatFoundation/Convergence/CentralLimitTheorem/Multivariate.lean:52" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M244.13,-412C244.13,-412 179.87,-412 179.87,-412 173.87,-412 167.87,-406 167.87,-400 167.87,-400 167.87,-388 167.87,-388 167.87,-382 173.87,-376 179.87,-376 179.87,-376 244.13,-376 244.13,-376 250.13,-376 256.13,-382 256.13,-388 256.13,-388 256.13,-400 256.13,-400 256.13,-406 250.13,-412 244.13,-412"/>
 <text xml:space="preserve" text-anchor="middle" x="212" y="-391" font-family="Helvetica,sans-Serif" font-size="10.00">identDistrib_proj</text>
 </a>
@@ -51,7 +51,7 @@
 <!-- n3 -->
 <g id="node4" class="node">
 <title>n3</title>
-<g id="a_node4"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/StatFoundation/Convergence/CentralLimitTheorem/IID.lean:21" xlink:title="abbrev · Statlib/StatFoundation/Convergence/CentralLimitTheorem/IID.lean:21" target="_blank">
+<g id="a_node4"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/tmp/statlib-main-refresh.tmBBiR/Statlib/StatFoundation/Convergence/CentralLimitTheorem/IID.lean:21" xlink:title="abbrev · Statlib/StatFoundation/Convergence/CentralLimitTheorem/IID.lean:21" target="_blank">
 <path fill="#d6e9ff" stroke="#3b82f6" d="M97.91,-268C97.91,-268 28.09,-268 28.09,-268 22.09,-268 16.09,-262 16.09,-256 16.09,-256 16.09,-244 16.09,-244 16.09,-238 22.09,-232 28.09,-232 28.09,-232 97.91,-232 97.91,-232 103.91,-232 109.91,-238 109.91,-244 109.91,-244 109.91,-256 109.91,-256 109.91,-262 103.91,-268 97.91,-268"/>
 <text xml:space="preserve" text-anchor="middle" x="63" y="-247" font-family="Helvetica,sans-Serif" font-size="10.00">standardizedSum</text>
 </a>
@@ -60,7 +60,7 @@
 <!-- n4 -->
 <g id="node5" class="node">
 <title>n4</title>
-<g id="a_node5"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/StatFoundation/Convergence/CentralLimitTheorem/IID.lean:24" xlink:title="lemma · Statlib/StatFoundation/Convergence/CentralLimitTheorem/IID.lean:24" target="_blank">
+<g id="a_node5"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/tmp/statlib-main-refresh.tmBBiR/Statlib/StatFoundation/Convergence/CentralLimitTheorem/IID.lean:24" xlink:title="lemma · Statlib/StatFoundation/Convergence/CentralLimitTheorem/IID.lean:24" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M374.82,-340C374.82,-340 247.18,-340 247.18,-340 241.18,-340 235.18,-334 235.18,-328 235.18,-328 235.18,-316 235.18,-316 235.18,-310 241.18,-304 247.18,-304 247.18,-304 374.82,-304 374.82,-304 380.82,-304 386.82,-310 386.82,-316 386.82,-316 386.82,-328 386.82,-328 386.82,-334 380.82,-340 374.82,-340"/>
 <text xml:space="preserve" text-anchor="middle" x="311" y="-319" font-family="Helvetica,sans-Serif" font-size="10.00">measurable_standardizedSum</text>
 </a>
@@ -75,7 +75,7 @@
 <!-- n5 -->
 <g id="node6" class="node">
 <title>n5</title>
-<g id="a_node6"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/StatFoundation/Convergence/AnalysisTools/CharacteristicFunction.lean:563" xlink:title="lemma · Statlib/StatFoundation/Convergence/AnalysisTools/CharacteristicFunction.lean:563" target="_blank">
+<g id="a_node6"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/tmp/statlib-main-refresh.tmBBiR/Statlib/StatFoundation/Convergence/AnalysisTools/CharacteristicFunction.lean:563" xlink:title="lemma · Statlib/StatFoundation/Convergence/AnalysisTools/CharacteristicFunction.lean:563" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M238.36,-268C238.36,-268 139.64,-268 139.64,-268 133.64,-268 127.64,-262 127.64,-256 127.64,-256 127.64,-244 127.64,-244 127.64,-238 133.64,-232 139.64,-232 139.64,-232 238.36,-232 238.36,-232 244.36,-232 250.36,-238 250.36,-244 250.36,-244 250.36,-256 250.36,-256 250.36,-262 244.36,-268 238.36,-268"/>
 <text xml:space="preserve" text-anchor="middle" x="189" y="-247" font-family="Helvetica,sans-Serif" font-size="10.00">lyapunov_third_moment</text>
 </a>
@@ -84,7 +84,7 @@
 <!-- n6 -->
 <g id="node7" class="node">
 <title>n6</title>
-<g id="a_node7"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/StatFoundation/Convergence/AnalysisTools/CharacteristicFunction.lean:282" xlink:title="lemma · Statlib/StatFoundation/Convergence/AnalysisTools/CharacteristicFunction.lean:282" target="_blank">
+<g id="a_node7"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/tmp/statlib-main-refresh.tmBBiR/Statlib/StatFoundation/Convergence/AnalysisTools/CharacteristicFunction.lean:282" xlink:title="lemma · Statlib/StatFoundation/Convergence/AnalysisTools/CharacteristicFunction.lean:282" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M373.92,-196C373.92,-196 294.08,-196 294.08,-196 288.08,-196 282.08,-190 282.08,-184 282.08,-184 282.08,-172 282.08,-172 282.08,-166 288.08,-160 294.08,-160 294.08,-160 373.92,-160 373.92,-160 379.92,-160 385.92,-166 385.92,-172 385.92,-172 385.92,-184 385.92,-184 385.92,-190 379.92,-196 373.92,-196"/>
 <text xml:space="preserve" text-anchor="middle" x="334" y="-175" font-family="Helvetica,sans-Serif" font-size="10.00">charfun_sum_indep</text>
 </a>
@@ -93,7 +93,7 @@
 <!-- n7 -->
 <g id="node8" class="node">
 <title>n7</title>
-<g id="a_node8"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/StatFoundation/Convergence/AnalysisTools/CharacteristicFunction.lean:323" xlink:title="lemma · Statlib/StatFoundation/Convergence/AnalysisTools/CharacteristicFunction.lean:323" target="_blank">
+<g id="a_node8"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/tmp/statlib-main-refresh.tmBBiR/Statlib/StatFoundation/Convergence/AnalysisTools/CharacteristicFunction.lean:323" xlink:title="lemma · Statlib/StatFoundation/Convergence/AnalysisTools/CharacteristicFunction.lean:323" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M387.82,-268C387.82,-268 280.18,-268 280.18,-268 274.18,-268 268.18,-262 268.18,-256 268.18,-256 268.18,-244 268.18,-244 268.18,-238 274.18,-232 280.18,-232 280.18,-232 387.82,-232 387.82,-232 393.82,-232 399.82,-238 399.82,-244 399.82,-244 399.82,-256 399.82,-256 399.82,-262 393.82,-268 387.82,-268"/>
 <text xml:space="preserve" text-anchor="middle" x="334" y="-247" font-family="Helvetica,sans-Serif" font-size="10.00">charfun_iid_sum_eq_prod</text>
 </a>
@@ -108,7 +108,7 @@
 <!-- n8 -->
 <g id="node9" class="node">
 <title>n8</title>
-<g id="a_node9"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/StatFoundation/Convergence/AnalysisTools/CharacteristicFunction.lean:272" xlink:title="lemma · Statlib/StatFoundation/Convergence/AnalysisTools/CharacteristicFunction.lean:272" target="_blank">
+<g id="a_node9"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/tmp/statlib-main-refresh.tmBBiR/Statlib/StatFoundation/Convergence/AnalysisTools/CharacteristicFunction.lean:272" xlink:title="lemma · Statlib/StatFoundation/Convergence/AnalysisTools/CharacteristicFunction.lean:272" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M568.66,-268C568.66,-268 429.34,-268 429.34,-268 423.34,-268 417.34,-262 417.34,-256 417.34,-256 417.34,-244 417.34,-244 417.34,-238 423.34,-232 429.34,-232 429.34,-232 568.66,-232 568.66,-232 574.66,-232 580.66,-238 580.66,-244 580.66,-244 580.66,-256 580.66,-256 580.66,-262 574.66,-268 568.66,-268"/>
 <text xml:space="preserve" text-anchor="middle" x="499" y="-247" font-family="Helvetica,sans-Serif" font-size="10.00">charFun_gaussianReal_standard</text>
 </a>
@@ -117,7 +117,7 @@
 <!-- n9 -->
 <g id="node10" class="node">
 <title>n9</title>
-<g id="a_node10"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/StatFoundation/Convergence/AnalysisTools/CharacteristicFunction.lean:16" xlink:title="lemma · Statlib/StatFoundation/Convergence/AnalysisTools/CharacteristicFunction.lean:16" target="_blank">
+<g id="a_node10"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/tmp/statlib-main-refresh.tmBBiR/Statlib/StatFoundation/Convergence/AnalysisTools/CharacteristicFunction.lean:16" xlink:title="lemma · Statlib/StatFoundation/Convergence/AnalysisTools/CharacteristicFunction.lean:16" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M529.63,-52C529.63,-52 450.37,-52 450.37,-52 444.37,-52 438.37,-46 438.37,-40 438.37,-40 438.37,-28 438.37,-28 438.37,-22 444.37,-16 450.37,-16 450.37,-16 529.63,-16 529.63,-16 535.63,-16 541.63,-22 541.63,-28 541.63,-28 541.63,-40 541.63,-40 541.63,-46 535.63,-52 529.63,-52"/>
 <text xml:space="preserve" text-anchor="middle" x="490" y="-31" font-family="Helvetica,sans-Serif" font-size="10.00">norm_ofReal_mul_I</text>
 </a>
@@ -126,7 +126,7 @@
 <!-- n10 -->
 <g id="node11" class="node">
 <title>n10</title>
-<g id="a_node11"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/StatFoundation/Convergence/AnalysisTools/CharacteristicFunction.lean:22" xlink:title="lemma · Statlib/StatFoundation/Convergence/AnalysisTools/CharacteristicFunction.lean:22" target="_blank">
+<g id="a_node11"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/tmp/statlib-main-refresh.tmBBiR/Statlib/StatFoundation/Convergence/AnalysisTools/CharacteristicFunction.lean:22" xlink:title="lemma · Statlib/StatFoundation/Convergence/AnalysisTools/CharacteristicFunction.lean:22" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M551.6,-124C551.6,-124 428.4,-124 428.4,-124 422.4,-124 416.4,-118 416.4,-112 416.4,-112 416.4,-100 416.4,-100 416.4,-94 422.4,-88 428.4,-88 428.4,-88 551.6,-88 551.6,-88 557.6,-88 563.6,-94 563.6,-100 563.6,-100 563.6,-112 563.6,-112 563.6,-118 557.6,-124 551.6,-124"/>
 <text xml:space="preserve" text-anchor="middle" x="490" y="-103" font-family="Helvetica,sans-Serif" font-size="10.00">norm_cexp_sub_quadratic_le</text>
 </a>
@@ -141,7 +141,7 @@
 <!-- n11 -->
 <g id="node12" class="node">
 <title>n11</title>
-<g id="a_node12"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/StatFoundation/Convergence/AnalysisTools/CharacteristicFunction.lean:86" xlink:title="lemma · Statlib/StatFoundation/Convergence/AnalysisTools/CharacteristicFunction.lean:86" target="_blank">
+<g id="a_node12"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/tmp/statlib-main-refresh.tmBBiR/Statlib/StatFoundation/Convergence/AnalysisTools/CharacteristicFunction.lean:86" xlink:title="lemma · Statlib/StatFoundation/Convergence/AnalysisTools/CharacteristicFunction.lean:86" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M551.03,-196C551.03,-196 428.97,-196 428.97,-196 422.97,-196 416.97,-190 416.97,-184 416.97,-184 416.97,-172 416.97,-172 416.97,-166 422.97,-160 428.97,-160 428.97,-160 551.03,-160 551.03,-160 557.03,-160 563.03,-166 563.03,-172 563.03,-172 563.03,-184 563.03,-184 563.03,-190 557.03,-196 551.03,-196"/>
 <text xml:space="preserve" text-anchor="middle" x="490" y="-175" font-family="Helvetica,sans-Serif" font-size="10.00">charfun_taylor_third_moment</text>
 </a>
@@ -156,7 +156,7 @@
 <!-- n12 -->
 <g id="node13" class="node">
 <title>n12</title>
-<g id="a_node13"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/StatFoundation/Convergence/AnalysisTools/CharacteristicFunction.lean:187" xlink:title="lemma · Statlib/StatFoundation/Convergence/AnalysisTools/CharacteristicFunction.lean:187" target="_blank">
+<g id="a_node13"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/tmp/statlib-main-refresh.tmBBiR/Statlib/StatFoundation/Convergence/AnalysisTools/CharacteristicFunction.lean:187" xlink:title="lemma · Statlib/StatFoundation/Convergence/AnalysisTools/CharacteristicFunction.lean:187" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M718.71,-196C718.71,-196 593.29,-196 593.29,-196 587.29,-196 581.29,-190 581.29,-184 581.29,-184 581.29,-172 581.29,-172 581.29,-166 587.29,-160 593.29,-160 593.29,-160 718.71,-160 718.71,-160 724.71,-160 730.71,-166 730.71,-172 730.71,-172 730.71,-184 730.71,-184 730.71,-190 724.71,-196 718.71,-196"/>
 <text xml:space="preserve" text-anchor="middle" x="656" y="-175" font-family="Helvetica,sans-Serif" font-size="10.00">norm_prod_sub_prod_le_sum</text>
 </a>
@@ -165,7 +165,7 @@
 <!-- n13 -->
 <g id="node14" class="node">
 <title>n13</title>
-<g id="a_node14"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/StatFoundation/Convergence/AnalysisTools/CharacteristicFunction.lean:419" xlink:title="lemma · Statlib/StatFoundation/Convergence/AnalysisTools/CharacteristicFunction.lean:419" target="_blank">
+<g id="a_node14"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/tmp/statlib-main-refresh.tmBBiR/Statlib/StatFoundation/Convergence/AnalysisTools/CharacteristicFunction.lean:419" xlink:title="lemma · Statlib/StatFoundation/Convergence/AnalysisTools/CharacteristicFunction.lean:419" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M734.88,-268C734.88,-268 611.12,-268 611.12,-268 605.12,-268 599.12,-262 599.12,-256 599.12,-256 599.12,-244 599.12,-244 599.12,-238 605.12,-232 611.12,-232 611.12,-232 734.88,-232 734.88,-232 740.88,-232 746.88,-238 746.88,-244 746.88,-244 746.88,-256 746.88,-256 746.88,-262 740.88,-268 734.88,-268"/>
 <text xml:space="preserve" text-anchor="middle" x="673" y="-247" font-family="Helvetica,sans-Serif" font-size="10.00">charfun_prod_vs_pow_bound</text>
 </a>
@@ -186,7 +186,7 @@
 <!-- n14 -->
 <g id="node15" class="node">
 <title>n14</title>
-<g id="a_node15"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/StatFoundation/Convergence/AnalysisTools/CharacteristicFunction.lean:350" xlink:title="lemma · Statlib/StatFoundation/Convergence/AnalysisTools/CharacteristicFunction.lean:350" target="_blank">
+<g id="a_node15"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/tmp/statlib-main-refresh.tmBBiR/Statlib/StatFoundation/Convergence/AnalysisTools/CharacteristicFunction.lean:350" xlink:title="lemma · Statlib/StatFoundation/Convergence/AnalysisTools/CharacteristicFunction.lean:350" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M903.61,-196C903.61,-196 760.39,-196 760.39,-196 754.39,-196 748.39,-190 748.39,-184 748.39,-184 748.39,-172 748.39,-172 748.39,-166 754.39,-160 760.39,-160 760.39,-160 903.61,-160 903.61,-160 909.61,-160 915.61,-166 915.61,-172 915.61,-172 915.61,-184 915.61,-184 915.61,-190 909.61,-196 903.61,-196"/>
 <text xml:space="preserve" text-anchor="middle" x="832" y="-175" font-family="Helvetica,sans-Serif" font-size="10.00">complex_pow_approx_exp_decay</text>
 </a>
@@ -195,7 +195,7 @@
 <!-- n15 -->
 <g id="node16" class="node">
 <title>n15</title>
-<g id="a_node16"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/StatFoundation/Convergence/AnalysisTools/CharacteristicFunction.lean:401" xlink:title="lemma · Statlib/StatFoundation/Convergence/AnalysisTools/CharacteristicFunction.lean:401" target="_blank">
+<g id="a_node16"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/tmp/statlib-main-refresh.tmBBiR/Statlib/StatFoundation/Convergence/AnalysisTools/CharacteristicFunction.lean:401" xlink:title="lemma · Statlib/StatFoundation/Convergence/AnalysisTools/CharacteristicFunction.lean:401" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M887.48,-268C887.48,-268 776.52,-268 776.52,-268 770.52,-268 764.52,-262 764.52,-256 764.52,-256 764.52,-244 764.52,-244 764.52,-238 770.52,-232 776.52,-232 776.52,-232 887.48,-232 887.48,-232 893.48,-232 899.48,-238 899.48,-244 899.48,-244 899.48,-256 899.48,-256 899.48,-262 893.48,-268 887.48,-268"/>
 <text xml:space="preserve" text-anchor="middle" x="832" y="-247" font-family="Helvetica,sans-Serif" font-size="10.00">complex_pow_approx_exp</text>
 </a>
@@ -210,7 +210,7 @@
 <!-- n16 -->
 <g id="node17" class="node">
 <title>n16</title>
-<g id="a_node17"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/StatFoundation/Convergence/AnalysisTools/CharacteristicFunction.lean:486" xlink:title="lemma · Statlib/StatFoundation/Convergence/AnalysisTools/CharacteristicFunction.lean:486" target="_blank">
+<g id="a_node17"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/tmp/statlib-main-refresh.tmBBiR/Statlib/StatFoundation/Convergence/AnalysisTools/CharacteristicFunction.lean:486" xlink:title="lemma · Statlib/StatFoundation/Convergence/AnalysisTools/CharacteristicFunction.lean:486" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M1018.03,-196C1018.03,-196 945.97,-196 945.97,-196 939.97,-196 933.97,-190 933.97,-184 933.97,-184 933.97,-172 933.97,-172 933.97,-166 939.97,-160 945.97,-160 945.97,-160 1018.03,-160 1018.03,-160 1024.03,-160 1030.03,-166 1030.03,-172 1030.03,-172 1030.03,-184 1030.03,-184 1030.03,-190 1024.03,-196 1018.03,-196"/>
 <text xml:space="preserve" text-anchor="middle" x="982" y="-175" font-family="Helvetica,sans-Serif" font-size="10.00">charfun_arith_aux</text>
 </a>
@@ -219,7 +219,7 @@
 <!-- n17 -->
 <g id="node18" class="node">
 <title>n17</title>
-<g id="a_node18"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/StatFoundation/Convergence/AnalysisTools/CharacteristicFunction.lean:510" xlink:title="lemma · Statlib/StatFoundation/Convergence/AnalysisTools/CharacteristicFunction.lean:510" target="_blank">
+<g id="a_node18"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/tmp/statlib-main-refresh.tmBBiR/Statlib/StatFoundation/Convergence/AnalysisTools/CharacteristicFunction.lean:510" xlink:title="lemma · Statlib/StatFoundation/Convergence/AnalysisTools/CharacteristicFunction.lean:510" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M1028.08,-268C1028.08,-268 929.92,-268 929.92,-268 923.92,-268 917.92,-262 917.92,-256 917.92,-256 917.92,-244 917.92,-244 917.92,-238 923.92,-232 929.92,-232 929.92,-232 1028.08,-232 1028.08,-232 1034.08,-232 1040.08,-238 1040.08,-244 1040.08,-244 1040.08,-256 1040.08,-256 1040.08,-262 1034.08,-268 1028.08,-268"/>
 <text xml:space="preserve" text-anchor="middle" x="979" y="-247" font-family="Helvetica,sans-Serif" font-size="10.00">charfun_final_arithmetic</text>
 </a>
@@ -234,7 +234,7 @@
 <!-- n18 -->
 <g id="node19" class="node">
 <title>n18</title>
-<g id="a_node19"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/StatFoundation/Convergence/AnalysisTools/CharacteristicFunction.lean:612" xlink:title="lemma · Statlib/StatFoundation/Convergence/AnalysisTools/CharacteristicFunction.lean:612" target="_blank">
+<g id="a_node19"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/tmp/statlib-main-refresh.tmBBiR/Statlib/StatFoundation/Convergence/AnalysisTools/CharacteristicFunction.lean:612" xlink:title="lemma · Statlib/StatFoundation/Convergence/AnalysisTools/CharacteristicFunction.lean:612" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M567.82,-340C567.82,-340 430.18,-340 430.18,-340 424.18,-340 418.18,-334 418.18,-328 418.18,-328 418.18,-316 418.18,-316 418.18,-310 424.18,-304 430.18,-304 430.18,-304 567.82,-304 567.82,-304 573.82,-304 579.82,-310 579.82,-316 579.82,-316 579.82,-328 579.82,-328 579.82,-334 573.82,-340 567.82,-340"/>
 <text xml:space="preserve" text-anchor="middle" x="499" y="-319" font-family="Helvetica,sans-Serif" font-size="10.00">charfun_normalized_sum_bound</text>
 </a>
@@ -279,7 +279,7 @@
 <!-- n19 -->
 <g id="node20" class="node">
 <title>n19</title>
-<g id="a_node20"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/StatFoundation/Convergence/AnalysisTools/LevyContinuity.lean:15" xlink:title="lemma · Statlib/StatFoundation/Convergence/AnalysisTools/LevyContinuity.lean:15" target="_blank">
+<g id="a_node20"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/tmp/statlib-main-refresh.tmBBiR/Statlib/StatFoundation/Convergence/AnalysisTools/LevyContinuity.lean:15" xlink:title="lemma · Statlib/StatFoundation/Convergence/AnalysisTools/LevyContinuity.lean:15" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M1149.64,-196C1149.64,-196 1060.36,-196 1060.36,-196 1054.36,-196 1048.36,-190 1048.36,-184 1048.36,-184 1048.36,-172 1048.36,-172 1048.36,-166 1054.36,-160 1060.36,-160 1060.36,-160 1149.64,-160 1149.64,-160 1155.64,-160 1161.64,-166 1161.64,-172 1161.64,-172 1161.64,-184 1161.64,-184 1161.64,-190 1155.64,-196 1149.64,-196"/>
 <text xml:space="preserve" text-anchor="middle" x="1105" y="-175" font-family="Helvetica,sans-Serif" font-size="10.00">compl_Icc_eq_abs_gt</text>
 </a>
@@ -288,7 +288,7 @@
 <!-- n20 -->
 <g id="node21" class="node">
 <title>n20</title>
-<g id="a_node21"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/StatFoundation/Convergence/AnalysisTools/Tightness.lean:14" xlink:title="theorem · Statlib/StatFoundation/Convergence/AnalysisTools/Tightness.lean:14" target="_blank">
+<g id="a_node21"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/tmp/statlib-main-refresh.tmBBiR/Statlib/StatFoundation/Convergence/AnalysisTools/Tightness.lean:14" xlink:title="theorem · Statlib/StatFoundation/Convergence/AnalysisTools/Tightness.lean:14" target="_blank">
 <path fill="#ffe6a3" stroke="#d4a017" d="M1268.8,-196C1268.8,-196 1191.2,-196 1191.2,-196 1185.2,-196 1179.2,-190 1179.2,-184 1179.2,-184 1179.2,-172 1179.2,-172 1179.2,-166 1185.2,-160 1191.2,-160 1191.2,-160 1268.8,-160 1268.8,-160 1274.8,-160 1280.8,-166 1280.8,-172 1280.8,-172 1280.8,-184 1280.8,-184 1280.8,-190 1274.8,-196 1268.8,-196"/>
 <text xml:space="preserve" text-anchor="middle" x="1230" y="-175" font-family="Helvetica,sans-Serif" font-size="10.00">isTight_finiteRange</text>
 </a>
@@ -297,7 +297,7 @@
 <!-- n21 -->
 <g id="node22" class="node">
 <title>n21</title>
-<g id="a_node22"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/StatFoundation/Convergence/AnalysisTools/LevyContinuity.lean:44" xlink:title="theorem · Statlib/StatFoundation/Convergence/AnalysisTools/LevyContinuity.lean:44" target="_blank">
+<g id="a_node22"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/tmp/statlib-main-refresh.tmBBiR/Statlib/StatFoundation/Convergence/AnalysisTools/LevyContinuity.lean:44" xlink:title="theorem · Statlib/StatFoundation/Convergence/AnalysisTools/LevyContinuity.lean:44" target="_blank">
 <path fill="#ffe6a3" stroke="#d4a017" d="M1185.98,-268C1185.98,-268 1070.02,-268 1070.02,-268 1064.02,-268 1058.02,-262 1058.02,-256 1058.02,-256 1058.02,-244 1058.02,-244 1058.02,-238 1064.02,-232 1070.02,-232 1070.02,-232 1185.98,-232 1185.98,-232 1191.98,-232 1197.98,-238 1197.98,-244 1197.98,-244 1197.98,-256 1197.98,-256 1197.98,-262 1191.98,-268 1185.98,-268"/>
 <text xml:space="preserve" text-anchor="middle" x="1128" y="-247" font-family="Helvetica,sans-Serif" font-size="10.00">isTight_of_charFun_tendsto</text>
 </a>
@@ -318,7 +318,7 @@
 <!-- n22 -->
 <g id="node23" class="node">
 <title>n22</title>
-<g id="a_node23"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/StatFoundation/Convergence/AnalysisTools/LevyContinuity.lean:31" xlink:title="theorem · Statlib/StatFoundation/Convergence/AnalysisTools/LevyContinuity.lean:31" target="_blank">
+<g id="a_node23"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/tmp/statlib-main-refresh.tmBBiR/Statlib/StatFoundation/Convergence/AnalysisTools/LevyContinuity.lean:31" xlink:title="theorem · Statlib/StatFoundation/Convergence/AnalysisTools/LevyContinuity.lean:31" target="_blank">
 <path fill="#ffe6a3" stroke="#d4a017" d="M1359.34,-196C1359.34,-196 1310.66,-196 1310.66,-196 1304.66,-196 1298.66,-190 1298.66,-184 1298.66,-184 1298.66,-172 1298.66,-172 1298.66,-166 1304.66,-160 1310.66,-160 1310.66,-160 1359.34,-160 1359.34,-160 1365.34,-160 1371.34,-166 1371.34,-172 1371.34,-172 1371.34,-184 1371.34,-184 1371.34,-190 1365.34,-196 1359.34,-196"/>
 <text xml:space="preserve" text-anchor="middle" x="1335" y="-175" font-family="Helvetica,sans-Serif" font-size="10.00">levy_forward</text>
 </a>
@@ -327,7 +327,7 @@
 <!-- n23 -->
 <g id="node24" class="node">
 <title>n23</title>
-<g id="a_node24"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/StatFoundation/Convergence/AnalysisTools/LevyContinuity.lean:168" xlink:title="lemma · Statlib/StatFoundation/Convergence/AnalysisTools/LevyContinuity.lean:168" target="_blank">
+<g id="a_node24"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/tmp/statlib-main-refresh.tmBBiR/Statlib/StatFoundation/Convergence/AnalysisTools/LevyContinuity.lean:168" xlink:title="lemma · Statlib/StatFoundation/Convergence/AnalysisTools/LevyContinuity.lean:168" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M1325.54,-268C1325.54,-268 1228.46,-268 1228.46,-268 1222.46,-268 1216.46,-262 1216.46,-256 1216.46,-256 1216.46,-244 1216.46,-244 1216.46,-238 1222.46,-232 1228.46,-232 1228.46,-232 1325.54,-232 1325.54,-232 1331.54,-232 1337.54,-238 1337.54,-244 1337.54,-244 1337.54,-256 1337.54,-256 1337.54,-262 1331.54,-268 1325.54,-268"/>
 <text xml:space="preserve" text-anchor="middle" x="1277" y="-247" font-family="Helvetica,sans-Serif" font-size="10.00">charFun_eq_of_subseq</text>
 </a>
@@ -342,7 +342,7 @@
 <!-- n24 -->
 <g id="node25" class="node">
 <title>n24</title>
-<g id="a_node25"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/StatFoundation/Convergence/AnalysisTools/LevyContinuity.lean:180" xlink:title="lemma · Statlib/StatFoundation/Convergence/AnalysisTools/LevyContinuity.lean:180" target="_blank">
+<g id="a_node25"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/tmp/statlib-main-refresh.tmBBiR/Statlib/StatFoundation/Convergence/AnalysisTools/LevyContinuity.lean:180" xlink:title="lemma · Statlib/StatFoundation/Convergence/AnalysisTools/LevyContinuity.lean:180" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M1508.22,-268C1508.22,-268 1367.78,-268 1367.78,-268 1361.78,-268 1355.78,-262 1355.78,-256 1355.78,-256 1355.78,-244 1355.78,-244 1355.78,-238 1361.78,-232 1367.78,-232 1367.78,-232 1508.22,-232 1508.22,-232 1514.22,-232 1520.22,-238 1520.22,-244 1520.22,-244 1520.22,-256 1520.22,-256 1520.22,-262 1514.22,-268 1508.22,-268"/>
 <text xml:space="preserve" text-anchor="middle" x="1438" y="-247" font-family="Helvetica,sans-Serif" font-size="10.00">probMeasure_eq_of_charFun_eq</text>
 </a>
@@ -351,7 +351,7 @@
 <!-- n25 -->
 <g id="node26" class="node">
 <title>n25</title>
-<g id="a_node26"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/StatFoundation/Convergence/AnalysisTools/LevyContinuity.lean:193" xlink:title="theorem · Statlib/StatFoundation/Convergence/AnalysisTools/LevyContinuity.lean:193" target="_blank">
+<g id="a_node26"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/tmp/statlib-main-refresh.tmBBiR/Statlib/StatFoundation/Convergence/AnalysisTools/LevyContinuity.lean:193" xlink:title="theorem · Statlib/StatFoundation/Convergence/AnalysisTools/LevyContinuity.lean:193" target="_blank">
 <path fill="#ffe6a3" stroke="#d4a017" d="M1230.8,-340C1230.8,-340 1173.2,-340 1173.2,-340 1167.2,-340 1161.2,-334 1161.2,-328 1161.2,-328 1161.2,-316 1161.2,-316 1161.2,-310 1167.2,-304 1173.2,-304 1173.2,-304 1230.8,-304 1230.8,-304 1236.8,-304 1242.8,-310 1242.8,-316 1242.8,-316 1242.8,-328 1242.8,-328 1242.8,-334 1236.8,-340 1230.8,-340"/>
 <text xml:space="preserve" text-anchor="middle" x="1202" y="-319" font-family="Helvetica,sans-Serif" font-size="10.00">levy_continuity</text>
 </a>
@@ -378,7 +378,7 @@
 <!-- n26 -->
 <g id="node27" class="node">
 <title>n26</title>
-<g id="a_node27"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/StatFoundation/Convergence/CentralLimitTheorem/IID.lean:42" xlink:title="theorem · Statlib/StatFoundation/Convergence/CentralLimitTheorem/IID.lean:42" target="_blank">
+<g id="a_node27"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/tmp/statlib-main-refresh.tmBBiR/Statlib/StatFoundation/Convergence/CentralLimitTheorem/IID.lean:42" xlink:title="theorem · Statlib/StatFoundation/Convergence/CentralLimitTheorem/IID.lean:42" target="_blank">
 <path fill="#ffe6a3" stroke="#d4a017" d="M389.58,-412C389.58,-412 286.42,-412 286.42,-412 280.42,-412 274.42,-406 274.42,-400 274.42,-400 274.42,-388 274.42,-388 274.42,-382 280.42,-376 286.42,-376 286.42,-376 389.58,-376 389.58,-376 395.58,-376 401.58,-382 401.58,-388 401.58,-388 401.58,-400 401.58,-400 401.58,-406 395.58,-412 389.58,-412"/>
 <text xml:space="preserve" text-anchor="middle" x="338" y="-391" font-family="Helvetica,sans-Serif" font-size="10.00">iid_central_limit_theorem</text>
 </a>
@@ -411,7 +411,7 @@
 <!-- n27 -->
 <g id="node28" class="node">
 <title>n27</title>
-<g id="a_node28"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/StatFoundation/Convergence/CentralLimitTheorem/Multivariate.lean:86" xlink:title="theorem · Statlib/StatFoundation/Convergence/CentralLimitTheorem/Multivariate.lean:86" target="_blank">
+<g id="a_node28"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/tmp/statlib-main-refresh.tmBBiR/Statlib/StatFoundation/Convergence/CentralLimitTheorem/Multivariate.lean:86" xlink:title="theorem · Statlib/StatFoundation/Convergence/CentralLimitTheorem/Multivariate.lean:86" target="_blank">
 <path fill="#ffe6a3" stroke="#d4a017" stroke-width="3" d="M221.14,-484C221.14,-484 76.86,-484 76.86,-484 70.86,-484 64.86,-478 64.86,-472 64.86,-472 64.86,-460 64.86,-460 64.86,-454 70.86,-448 76.86,-448 76.86,-448 221.14,-448 221.14,-448 227.14,-448 233.14,-454 233.14,-460 233.14,-460 233.14,-472 233.14,-472 233.14,-478 227.14,-484 221.14,-484"/>
 <text xml:space="preserve" text-anchor="middle" x="149" y="-463" font-family="Helvetica,sans-Serif" font-size="10.00">multivariate_central_limit_theorem</text>
 </a>

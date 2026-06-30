@@ -6,7 +6,7 @@ Closure: 8 declarations across 4 files. Generated from `proof_graph.json` — no
 Reading order (foundations first, headline last):
 
   ◆ `IsInCone` — def · `Statlib/HighDim/Vocabulary/Sparse.lean:49`  _(also used by 3: rip_implies_re, lasso_oracle_prediction, lasso_oracle_l2)_
-  ◆ `l2NormSq` — noncomputable def · `Statlib/HighDim/Vocabulary/Norms.lean:13`  _(also used by 29: matrixRowVec_norm_sq, offDiagCoeffVec_norm_sq_le_frobenius, offDiagCoeffVec_norm_sq_integral_le_frobenius, …)_
+  ◆ `l2NormSq` — noncomputable def · `Statlib/HighDim/Vocabulary/Norms.lean:13`  _(also used by 30: matrixRowVec_norm_sq, offDiagCoeffVec_norm_sq_le_frobenius, offDiagCoeffVec_norm_sq_integral_le_frobenius, …)_
   ▣ `SatisfiesRE` — structure · `Statlib/HighDim/Vocabulary/DesignMatrix.lean:42`  _(also used by 3: rip_implies_re, lasso_oracle_prediction, lasso_oracle_l2)_
     ◆ `lassoObj` — noncomputable def · `Statlib/HighDim/Regression/LassoOracle.lean:45`
   ◆ `IsLassoSolution` — def · `Statlib/HighDim/Regression/LassoOracle.lean:50`  _(also used by 2: lasso_oracle_prediction, lasso_oracle_l2)_

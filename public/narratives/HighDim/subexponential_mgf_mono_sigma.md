@@ -1,12 +1,12 @@
 # Proof narrative — subexponential_mgf_mono_sigma
 
-Root: **subexponential_mgf_mono_sigma** (lemma) `Statlib/HighDim/Concentration/HansonWright.lean:1985` · topic `HighDim`
+Root: **subexponential_mgf_mono_sigma** (lemma) `Statlib/HighDim/Concentration/HansonWright.lean:1898` · topic `HighDim`
 Closure: 2 declarations across 2 files. Generated from `proof_graph.json` — no files were moved.
 
 Reading order (foundations first, headline last):
 
-  ▣ `HasSubexponentialMGF` — structure · `Statlib/StatFoundation/Vocabulary/RandomVariable.lean:74`  _(also used by 24: coord_mul_subexponential_exists_of_indep, subexponential_mgf_const_mul, subexponential_mgf_const_mul_relaxed, …)_
-· `subexponential_mgf_mono_sigma` — lemma · `Statlib/HighDim/Concentration/HansonWright.lean:1985` **← headline**
+  ▣ `HasSubexponentialMGF` — structure · `Statlib/StatFoundation/Vocabulary/RandomVariable.lean:74`  _(also used by 30: coord_mul_subexponential_exists_of_indep, subexponential_mgf_const_mul_relaxed, coord_mul_scaled_subexponential_exists_of_indep, …)_
+· `subexponential_mgf_mono_sigma` — lemma · `Statlib/HighDim/Concentration/HansonWright.lean:1898` **← headline**
 
 ## Dependency diagram
 

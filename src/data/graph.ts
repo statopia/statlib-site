@@ -18,10 +18,10 @@ export const graphIndexUrl = `${graphBase}/index.html`;
 
 // Headline numbers — sourced from the artifact's INDEX.md. EDIT when refreshed.
 export const graphStats: { label: string; value: string }[] = [
-  { label: "Declarations (nodes)", value: "742" },
-  { label: "Dependencies (edges)", value: "1,528" },
-  { label: "Proof narratives", value: "129" },
-  { label: "Substantial developments", value: "40" },
+  { label: "Declarations (nodes)", value: "749" },
+  { label: "Dependencies (edges)", value: "1,556" },
+  { label: "Proof narratives", value: "131" },
+  { label: "Substantial developments", value: "41" },
 ];
 
 // A few large proof developments to feature as clickable previews.
@@ -47,7 +47,7 @@ export const featured: {
   {
     name: "pca_eigvec_perturbation",
     topic: "High-dimensional",
-    decls: 78,
+    decls: 77,
     svg: "HighDim/pca_eigvec_perturbation.svg",
   },
   {

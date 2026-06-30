@@ -18,7 +18,7 @@
 <!-- n0 -->
 <g id="node1" class="node">
 <title>n0</title>
-<g id="a_node1"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Vocabulary/RandomVector.lean:52" xlink:title="structure · Statlib/HighDim/Vocabulary/RandomVector.lean:52" target="_blank">
+<g id="a_node1"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/tmp/statlib-main-refresh.tmBBiR/Statlib/HighDim/Vocabulary/RandomVector.lean:52" xlink:title="structure · Statlib/HighDim/Vocabulary/RandomVector.lean:52" target="_blank">
 <path fill="#e8dcff" stroke="#8b5cf6" d="M116.36,-268C116.36,-268 27.64,-268 27.64,-268 21.64,-268 15.64,-262 15.64,-256 15.64,-256 15.64,-244 15.64,-244 15.64,-238 21.64,-232 27.64,-232 27.64,-232 116.36,-232 116.36,-232 122.36,-232 128.36,-238 128.36,-244 128.36,-244 128.36,-256 128.36,-256 128.36,-262 122.36,-268 116.36,-268"/>
 <text xml:space="preserve" text-anchor="middle" x="72" y="-247" font-family="Helvetica,sans-Serif" font-size="10.00">IsSubGaussianVector</text>
 </a>
@@ -27,7 +27,7 @@
 <!-- n1 -->
 <g id="node2" class="node">
 <title>n1</title>
-<g id="a_node2"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Vocabulary/Restrictions.lean:15" xlink:title="def · Statlib/HighDim/Vocabulary/Restrictions.lean:15" target="_blank">
+<g id="a_node2"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/tmp/statlib-main-refresh.tmBBiR/Statlib/HighDim/Vocabulary/Restrictions.lean:15" xlink:title="def · Statlib/HighDim/Vocabulary/Restrictions.lean:15" target="_blank">
 <path fill="#d6e9ff" stroke="#3b82f6" d="M86.34,-196C86.34,-196 27.66,-196 27.66,-196 21.66,-196 15.66,-190 15.66,-184 15.66,-184 15.66,-172 15.66,-172 15.66,-166 21.66,-160 27.66,-160 27.66,-160 86.34,-160 86.34,-160 92.34,-160 98.34,-166 98.34,-172 98.34,-172 98.34,-184 98.34,-184 98.34,-190 92.34,-196 86.34,-196"/>
 <text xml:space="preserve" text-anchor="middle" x="57" y="-175" font-family="Helvetica,sans-Serif" font-size="10.00">restrictByEquiv</text>
 </a>
@@ -36,7 +36,7 @@
 <!-- n2 -->
 <g id="node3" class="node">
 <title>n2</title>
-<g id="a_node3"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Vocabulary/Restrictions.lean:20" xlink:title="def · Statlib/HighDim/Vocabulary/Restrictions.lean:20" target="_blank">
+<g id="a_node3"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/tmp/statlib-main-refresh.tmBBiR/Statlib/HighDim/Vocabulary/Restrictions.lean:20" xlink:title="def · Statlib/HighDim/Vocabulary/Restrictions.lean:20" target="_blank">
 <path fill="#d6e9ff" stroke="#3b82f6" d="M274.35,-124C274.35,-124 215.65,-124 215.65,-124 209.65,-124 203.65,-118 203.65,-112 203.65,-112 203.65,-100 203.65,-100 203.65,-94 209.65,-88 215.65,-88 215.65,-88 274.35,-88 274.35,-88 280.35,-88 286.35,-94 286.35,-100 286.35,-100 286.35,-112 286.35,-112 286.35,-118 280.35,-124 274.35,-124"/>
 <text xml:space="preserve" text-anchor="middle" x="245" y="-103" font-family="Helvetica,sans-Serif" font-size="10.00">extendByEquiv</text>
 </a>
@@ -45,7 +45,7 @@
 <!-- n3 -->
 <g id="node4" class="node">
 <title>n3</title>
-<g id="a_node4"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Vocabulary/Norms.lean:13" xlink:title="noncomputable def · Statlib/HighDim/Vocabulary/Norms.lean:13" target="_blank">
+<g id="a_node4"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/tmp/statlib-main-refresh.tmBBiR/Statlib/HighDim/Vocabulary/Norms.lean:13" xlink:title="noncomputable def · Statlib/HighDim/Vocabulary/Norms.lean:13" target="_blank">
 <path fill="#d6e9ff" stroke="#3b82f6" d="M429.23,-52C429.23,-52 392.77,-52 392.77,-52 386.77,-52 380.77,-46 380.77,-40 380.77,-40 380.77,-28 380.77,-28 380.77,-22 386.77,-16 392.77,-16 392.77,-16 429.23,-16 429.23,-16 435.23,-16 441.23,-22 441.23,-28 441.23,-28 441.23,-40 441.23,-40 441.23,-46 435.23,-52 429.23,-52"/>
 <text xml:space="preserve" text-anchor="middle" x="411" y="-31" font-family="Helvetica,sans-Serif" font-size="10.00">l2NormSq</text>
 </a>
@@ -54,7 +54,7 @@
 <!-- n4 -->
 <g id="node5" class="node">
 <title>n4</title>
-<g id="a_node5"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Vocabulary/Norms.lean:21" xlink:title="lemma · Statlib/HighDim/Vocabulary/Norms.lean:21" target="_blank">
+<g id="a_node5"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/tmp/statlib-main-refresh.tmBBiR/Statlib/HighDim/Vocabulary/Norms.lean:21" xlink:title="lemma · Statlib/HighDim/Vocabulary/Norms.lean:21" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M450.64,-124C450.64,-124 371.36,-124 371.36,-124 365.36,-124 359.36,-118 359.36,-112 359.36,-112 359.36,-100 359.36,-100 359.36,-94 365.36,-88 371.36,-88 371.36,-88 450.64,-88 450.64,-88 456.64,-88 462.64,-94 462.64,-100 462.64,-100 462.64,-112 462.64,-112 462.64,-118 456.64,-124 450.64,-124"/>
 <text xml:space="preserve" text-anchor="middle" x="411" y="-103" font-family="Helvetica,sans-Serif" font-size="10.00">euclidean_norm_sq</text>
 </a>
@@ -69,7 +69,7 @@
 <!-- n5 -->
 <g id="node6" class="node">
 <title>n5</title>
-<g id="a_node6"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Vocabulary/Norms.lean:27" xlink:title="lemma · Statlib/HighDim/Vocabulary/Norms.lean:27" target="_blank">
+<g id="a_node6"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/tmp/statlib-main-refresh.tmBBiR/Statlib/HighDim/Vocabulary/Norms.lean:27" xlink:title="lemma · Statlib/HighDim/Vocabulary/Norms.lean:27" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M515.92,-196C515.92,-196 436.08,-196 436.08,-196 430.08,-196 424.08,-190 424.08,-184 424.08,-184 424.08,-172 424.08,-172 424.08,-166 430.08,-160 436.08,-160 436.08,-160 515.92,-160 515.92,-160 521.92,-160 527.92,-166 527.92,-172 527.92,-172 527.92,-184 527.92,-184 527.92,-190 521.92,-196 515.92,-196"/>
 <text xml:space="preserve" text-anchor="middle" x="476" y="-175" font-family="Helvetica,sans-Serif" font-size="10.00">euclidean_norm_eq</text>
 </a>
@@ -90,7 +90,7 @@
 <!-- n6 -->
 <g id="node7" class="node">
 <title>n6</title>
-<g id="a_node7"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Geometry/RIPConstruction.lean:368" xlink:title="lemma · Statlib/HighDim/Geometry/RIPConstruction.lean:368" target="_blank">
+<g id="a_node7"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/tmp/statlib-main-refresh.tmBBiR/Statlib/HighDim/Geometry/RIPConstruction.lean:346" xlink:title="lemma · Statlib/HighDim/Geometry/RIPConstruction.lean:346" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M394.36,-196C394.36,-196 285.64,-196 285.64,-196 279.64,-196 273.64,-190 273.64,-184 273.64,-184 273.64,-172 273.64,-172 273.64,-166 279.64,-160 285.64,-160 285.64,-160 394.36,-160 394.36,-160 400.36,-160 406.36,-166 406.36,-172 406.36,-172 406.36,-184 406.36,-184 406.36,-190 400.36,-196 394.36,-196"/>
 <text xml:space="preserve" text-anchor="middle" x="340" y="-175" font-family="Helvetica,sans-Serif" font-size="10.00">extendByEquiv_l2NormSq</text>
 </a>
@@ -111,7 +111,7 @@
 <!-- n7 -->
 <g id="node8" class="node">
 <title>n7</title>
-<g id="a_node8"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Geometry/RIPConstruction.lean:398" xlink:title="lemma · Statlib/HighDim/Geometry/RIPConstruction.lean:398" target="_blank">
+<g id="a_node8"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/tmp/statlib-main-refresh.tmBBiR/Statlib/HighDim/Geometry/RIPConstruction.lean:376" xlink:title="lemma · Statlib/HighDim/Geometry/RIPConstruction.lean:376" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M431.53,-268C431.53,-268 344.47,-268 344.47,-268 338.47,-268 332.47,-262 332.47,-256 332.47,-256 332.47,-244 332.47,-244 332.47,-238 338.47,-232 344.47,-232 344.47,-232 431.53,-232 431.53,-232 437.53,-232 443.53,-238 443.53,-244 443.53,-244 443.53,-256 443.53,-256 443.53,-262 437.53,-268 431.53,-268"/>
 <text xml:space="preserve" text-anchor="middle" x="388" y="-247" font-family="Helvetica,sans-Serif" font-size="10.00">extendByEquiv_norm</text>
 </a>
@@ -138,7 +138,7 @@
 <!-- n8 -->
 <g id="node9" class="node">
 <title>n8</title>
-<g id="a_node9"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Vocabulary/Norms.lean:32" xlink:title="lemma · Statlib/HighDim/Vocabulary/Norms.lean:32" target="_blank">
+<g id="a_node9"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/tmp/statlib-main-refresh.tmBBiR/Statlib/HighDim/Vocabulary/Norms.lean:32" xlink:title="lemma · Statlib/HighDim/Vocabulary/Norms.lean:32" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M183.69,-196C183.69,-196 128.31,-196 128.31,-196 122.31,-196 116.31,-190 116.31,-184 116.31,-184 116.31,-172 116.31,-172 116.31,-166 122.31,-160 128.31,-160 128.31,-160 183.69,-160 183.69,-160 189.69,-160 195.69,-166 195.69,-172 195.69,-172 195.69,-184 195.69,-184 195.69,-190 189.69,-196 183.69,-196"/>
 <text xml:space="preserve" text-anchor="middle" x="156" y="-175" font-family="Helvetica,sans-Serif" font-size="10.00">inner_eq_sum</text>
 </a>
@@ -147,7 +147,7 @@
 <!-- n9 -->
 <g id="node10" class="node">
 <title>n9</title>
-<g id="a_node10"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Geometry/RIPConstruction.lean:442" xlink:title="lemma · Statlib/HighDim/Geometry/RIPConstruction.lean:442" target="_blank">
+<g id="a_node10"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/tmp/statlib-main-refresh.tmBBiR/Statlib/HighDim/Geometry/RIPConstruction.lean:420" xlink:title="lemma · Statlib/HighDim/Geometry/RIPConstruction.lean:420" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M281.58,-268C281.58,-268 178.42,-268 178.42,-268 172.42,-268 166.42,-262 166.42,-256 166.42,-256 166.42,-244 166.42,-244 166.42,-238 172.42,-232 178.42,-232 178.42,-232 281.58,-232 281.58,-232 287.58,-232 293.58,-238 293.58,-244 293.58,-244 293.58,-256 293.58,-256 293.58,-262 287.58,-268 281.58,-268"/>
 <text xml:space="preserve" text-anchor="middle" x="230" y="-247" font-family="Helvetica,sans-Serif" font-size="10.00">restrictByEquiv_inner_eq</text>
 </a>
@@ -174,7 +174,7 @@
 <!-- n10 -->
 <g id="node11" class="node">
 <title>n10</title>
-<g id="a_node11"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Geometry/RIPConstruction.lean:472" xlink:title="lemma · Statlib/HighDim/Geometry/RIPConstruction.lean:472" target="_blank">
+<g id="a_node11"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/tmp/statlib-main-refresh.tmBBiR/Statlib/HighDim/Geometry/RIPConstruction.lean:450" xlink:title="lemma · Statlib/HighDim/Geometry/RIPConstruction.lean:450" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" stroke-width="3" d="M290.2,-340C290.2,-340 169.8,-340 169.8,-340 163.8,-340 157.8,-334 157.8,-328 157.8,-328 157.8,-316 157.8,-316 157.8,-310 163.8,-304 169.8,-304 169.8,-304 290.2,-304 290.2,-304 296.2,-304 302.2,-310 302.2,-316 302.2,-316 302.2,-328 302.2,-328 302.2,-334 296.2,-340 290.2,-340"/>
 <text xml:space="preserve" text-anchor="middle" x="230" y="-319" font-family="Helvetica,sans-Serif" font-size="10.00">restrictByEquiv_subgaussian</text>
 </a>

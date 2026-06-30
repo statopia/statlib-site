@@ -23,7 +23,7 @@
 <!-- n0 -->
 <g id="node1" class="node">
 <title>n0</title>
-<g id="a_node1"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Vocabulary/RandomMatrix.lean:62" xlink:title="structure · Statlib/HighDim/Vocabulary/RandomMatrix.lean:62" target="_blank">
+<g id="a_node1"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/tmp/statlib-main-refresh.tmBBiR/Statlib/HighDim/Vocabulary/RandomMatrix.lean:62" xlink:title="structure · Statlib/HighDim/Vocabulary/RandomMatrix.lean:62" target="_blank">
 <path fill="#e8dcff" stroke="#8b5cf6" d="M316.68,-412C316.68,-412 261.32,-412 261.32,-412 255.32,-412 249.32,-406 249.32,-400 249.32,-400 249.32,-388 249.32,-388 249.32,-382 255.32,-376 261.32,-376 261.32,-376 316.68,-376 316.68,-376 322.68,-376 328.68,-382 328.68,-388 328.68,-388 328.68,-400 328.68,-400 328.68,-406 322.68,-412 316.68,-412"/>
 <text xml:space="preserve" text-anchor="middle" x="289" y="-391" font-family="Helvetica,sans-Serif" font-size="10.00">HasZeroMean</text>
 </a>
@@ -32,7 +32,7 @@
 <!-- n1 -->
 <g id="node2" class="node">
 <title>n1</title>
-<g id="a_node2"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Vocabulary/RandomMatrix.lean:38" xlink:title="def · Statlib/HighDim/Vocabulary/RandomMatrix.lean:38" target="_blank">
+<g id="a_node2"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/tmp/statlib-main-refresh.tmBBiR/Statlib/HighDim/Vocabulary/RandomMatrix.lean:38" xlink:title="def · Statlib/HighDim/Vocabulary/RandomMatrix.lean:38" target="_blank">
 <path fill="#d6e9ff" stroke="#3b82f6" d="M218.48,-484C218.48,-484 107.52,-484 107.52,-484 101.52,-484 95.52,-478 95.52,-472 95.52,-472 95.52,-460 95.52,-460 95.52,-454 101.52,-448 107.52,-448 107.52,-448 218.48,-448 218.48,-448 224.48,-448 230.48,-454 230.48,-460 230.48,-460 230.48,-472 230.48,-472 230.48,-478 224.48,-484 218.48,-484"/>
 <text xml:space="preserve" text-anchor="middle" x="163" y="-463" font-family="Helvetica,sans-Serif" font-size="10.00">HasBoundedSpectralNorm</text>
 </a>
@@ -41,7 +41,7 @@
 <!-- n2 -->
 <g id="node3" class="node">
 <title>n2</title>
-<g id="a_node3"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Concentration/MatrixBernstein.lean:293" xlink:title="private theorem · Statlib/HighDim/Concentration/MatrixBernstein.lean:293" target="_blank">
+<g id="a_node3"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/tmp/statlib-main-refresh.tmBBiR/Statlib/HighDim/Concentration/MatrixBernstein.lean:293" xlink:title="private theorem · Statlib/HighDim/Concentration/MatrixBernstein.lean:293" target="_blank">
 <path fill="#ffe6a3" stroke="#d4a017" d="M449.29,-268C449.29,-268 242.71,-268 242.71,-268 236.71,-268 230.71,-262 230.71,-256 230.71,-256 230.71,-244 230.71,-244 230.71,-238 236.71,-232 242.71,-232 242.71,-232 449.29,-232 449.29,-232 455.29,-232 461.29,-238 461.29,-244 461.29,-244 461.29,-256 461.29,-256 461.29,-262 455.29,-268 449.29,-268"/>
 <text xml:space="preserve" text-anchor="middle" x="346" y="-247" font-family="Helvetica,sans-Serif" font-size="10.00">hermitian_l2_opNorm_eq_sup_abs_eigenvalues</text>
 </a>
@@ -50,7 +50,7 @@
 <!-- n3 -->
 <g id="node4" class="node">
 <title>n3</title>
-<g id="a_node4"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Concentration/MatrixBernstein.lean:1040" xlink:title="private theorem · Statlib/HighDim/Concentration/MatrixBernstein.lean:1040" target="_blank">
+<g id="a_node4"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/tmp/statlib-main-refresh.tmBBiR/Statlib/HighDim/Concentration/MatrixBernstein.lean:1040" xlink:title="private theorem · Statlib/HighDim/Concentration/MatrixBernstein.lean:1040" target="_blank">
 <path fill="#ffe6a3" stroke="#d4a017" d="M221.62,-701.2C221.62,-701.2 28.38,-701.2 28.38,-701.2 22.38,-701.2 16.38,-695.2 16.38,-689.2 16.38,-689.2 16.38,-677.2 16.38,-677.2 16.38,-671.2 22.38,-665.2 28.38,-665.2 28.38,-665.2 221.62,-665.2 221.62,-665.2 227.62,-665.2 233.62,-671.2 233.62,-677.2 233.62,-677.2 233.62,-689.2 233.62,-689.2 233.62,-695.2 227.62,-701.2 221.62,-701.2"/>
 <text xml:space="preserve" text-anchor="middle" x="125" y="-680.2" font-family="Helvetica,sans-Serif" font-size="10.00">hermitian_l2_opNorm_lt_of_posDef_sub_add</text>
 </a>
@@ -65,7 +65,7 @@
 <!-- n4 -->
 <g id="node5" class="node">
 <title>n4</title>
-<g id="a_node5"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Concentration/MatrixBernstein.lean:3137" xlink:title="private theorem · Statlib/HighDim/Concentration/MatrixBernstein.lean:3137" target="_blank">
+<g id="a_node5"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/tmp/statlib-main-refresh.tmBBiR/Statlib/HighDim/Concentration/MatrixBernstein.lean:3137" xlink:title="private theorem · Statlib/HighDim/Concentration/MatrixBernstein.lean:3137" target="_blank">
 <path fill="#ffe6a3" stroke="#d4a017" d="M1302.1,-628C1302.1,-628 1193.9,-628 1193.9,-628 1187.9,-628 1181.9,-622 1181.9,-616 1181.9,-616 1181.9,-604 1181.9,-604 1181.9,-598 1187.9,-592 1193.9,-592 1193.9,-592 1302.1,-592 1302.1,-592 1308.1,-592 1314.1,-598 1314.1,-604 1314.1,-604 1314.1,-616 1314.1,-616 1314.1,-622 1308.1,-628 1302.1,-628"/>
 <text xml:space="preserve" text-anchor="middle" x="1248" y="-607" font-family="Helvetica,sans-Serif" font-size="10.00">posDef_smul_one_of_pos</text>
 </a>
@@ -74,7 +74,7 @@
 <!-- n5 -->
 <g id="node6" class="node">
 <title>n5</title>
-<g id="a_node6"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Concentration/MatrixBernstein.lean:1132" xlink:title="private theorem · Statlib/HighDim/Concentration/MatrixBernstein.lean:1132" target="_blank">
+<g id="a_node6"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/tmp/statlib-main-refresh.tmBBiR/Statlib/HighDim/Concentration/MatrixBernstein.lean:1132" xlink:title="private theorem · Statlib/HighDim/Concentration/MatrixBernstein.lean:1132" target="_blank">
 <path fill="#ffe6a3" stroke="#d4a017" d="M2501.94,-556C2501.94,-556 2322.06,-556 2322.06,-556 2316.06,-556 2310.06,-550 2310.06,-544 2310.06,-544 2310.06,-532 2310.06,-532 2310.06,-526 2316.06,-520 2322.06,-520 2322.06,-520 2501.94,-520 2501.94,-520 2507.94,-520 2513.94,-526 2513.94,-532 2513.94,-532 2513.94,-544 2513.94,-544 2513.94,-550 2507.94,-556 2501.94,-556"/>
 <text xml:space="preserve" text-anchor="middle" x="2412" y="-535" font-family="Helvetica,sans-Serif" font-size="10.00">matrix_dotProduct_mulVec_le_l2_opNorm</text>
 </a>
@@ -83,7 +83,7 @@
 <!-- n6 -->
 <g id="node7" class="node">
 <title>n6</title>
-<g id="a_node7"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Concentration/MatrixBernstein.lean:1154" xlink:title="private theorem · Statlib/HighDim/Concentration/MatrixBernstein.lean:1154" target="_blank">
+<g id="a_node7"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/tmp/statlib-main-refresh.tmBBiR/Statlib/HighDim/Concentration/MatrixBernstein.lean:1154" xlink:title="private theorem · Statlib/HighDim/Concentration/MatrixBernstein.lean:1154" target="_blank">
 <path fill="#ffe6a3" stroke="#d4a017" d="M2342.5,-628C2342.5,-628 2171.5,-628 2171.5,-628 2165.5,-628 2159.5,-622 2159.5,-616 2159.5,-616 2159.5,-604 2159.5,-604 2159.5,-598 2165.5,-592 2171.5,-592 2171.5,-592 2342.5,-592 2342.5,-592 2348.5,-592 2354.5,-598 2354.5,-604 2354.5,-604 2354.5,-616 2354.5,-616 2354.5,-622 2348.5,-628 2342.5,-628"/>
 <text xml:space="preserve" text-anchor="middle" x="2257" y="-607" font-family="Helvetica,sans-Serif" font-size="10.00">hermitian_posDef_sub_of_l2_opNorm_lt</text>
 </a>
@@ -98,7 +98,7 @@
 <!-- n7 -->
 <g id="node8" class="node">
 <title>n7</title>
-<g id="a_node8"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Concentration/MatrixBernstein.lean:2952" xlink:title="private theorem · Statlib/HighDim/Concentration/MatrixBernstein.lean:2952" target="_blank">
+<g id="a_node8"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/tmp/statlib-main-refresh.tmBBiR/Statlib/HighDim/Concentration/MatrixBernstein.lean:2952" xlink:title="private theorem · Statlib/HighDim/Concentration/MatrixBernstein.lean:2952" target="_blank">
 <path fill="#ffe6a3" stroke="#d4a017" d="M614.73,-556C614.73,-556 449.27,-556 449.27,-556 443.27,-556 437.27,-550 437.27,-544 437.27,-544 437.27,-532 437.27,-532 437.27,-526 443.27,-520 449.27,-520 449.27,-520 614.73,-520 614.73,-520 620.73,-520 626.73,-526 626.73,-532 626.73,-532 626.73,-544 626.73,-544 626.73,-550 620.73,-556 614.73,-556"/>
 <text xml:space="preserve" text-anchor="middle" x="532" y="-535" font-family="Helvetica,sans-Serif" font-size="10.00">integrable_mul_transpose_of_bounded</text>
 </a>
@@ -113,7 +113,7 @@
 <!-- n8 -->
 <g id="node9" class="node">
 <title>n8</title>
-<g id="a_node9"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Concentration/MatrixBernstein.lean:2932" xlink:title="private theorem · Statlib/HighDim/Concentration/MatrixBernstein.lean:2932" target="_blank">
+<g id="a_node9"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/tmp/statlib-main-refresh.tmBBiR/Statlib/HighDim/Concentration/MatrixBernstein.lean:2932" xlink:title="private theorem · Statlib/HighDim/Concentration/MatrixBernstein.lean:2932" target="_blank">
 <path fill="#ffe6a3" stroke="#d4a017" d="M771.7,-556C771.7,-556 656.3,-556 656.3,-556 650.3,-556 644.3,-550 644.3,-544 644.3,-544 644.3,-532 644.3,-532 644.3,-526 650.3,-520 656.3,-520 656.3,-520 771.7,-520 771.7,-520 777.7,-520 783.7,-526 783.7,-532 783.7,-532 783.7,-544 783.7,-544 783.7,-550 777.7,-556 771.7,-556"/>
 <text xml:space="preserve" text-anchor="middle" x="714" y="-535" font-family="Helvetica,sans-Serif" font-size="10.00">measurable_mul_transpose</text>
 </a>
@@ -122,7 +122,7 @@
 <!-- n9 -->
 <g id="node10" class="node">
 <title>n9</title>
-<g id="a_node10"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Concentration/MatrixBernstein.lean:2988" xlink:title="private theorem · Statlib/HighDim/Concentration/MatrixBernstein.lean:2988" target="_blank">
+<g id="a_node10"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/tmp/statlib-main-refresh.tmBBiR/Statlib/HighDim/Concentration/MatrixBernstein.lean:2988" xlink:title="private theorem · Statlib/HighDim/Concentration/MatrixBernstein.lean:2988" target="_blank">
 <path fill="#ffe6a3" stroke="#d4a017" d="M701.74,-628C701.74,-628 506.26,-628 506.26,-628 500.26,-628 494.26,-622 494.26,-616 494.26,-616 494.26,-604 494.26,-604 494.26,-598 500.26,-592 506.26,-592 506.26,-592 701.74,-592 701.74,-592 707.74,-592 713.74,-598 713.74,-604 713.74,-604 713.74,-616 713.74,-616 713.74,-622 707.74,-628 701.74,-628"/>
 <text xml:space="preserve" text-anchor="middle" x="604" y="-607" font-family="Helvetica,sans-Serif" font-size="10.00">integrable_mul_transpose_of_bounded_meas</text>
 </a>
@@ -149,7 +149,7 @@
 <!-- n10 -->
 <g id="node11" class="node">
 <title>n10</title>
-<g id="a_node11"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Concentration/MatrixBernstein.lean:1188" xlink:title="private theorem · Statlib/HighDim/Concentration/MatrixBernstein.lean:1188" target="_blank">
+<g id="a_node11"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/tmp/statlib-main-refresh.tmBBiR/Statlib/HighDim/Concentration/MatrixBernstein.lean:1188" xlink:title="private theorem · Statlib/HighDim/Concentration/MatrixBernstein.lean:1188" target="_blank">
 <path fill="#ffe6a3" stroke="#d4a017" d="M186.37,-124C186.37,-124 27.63,-124 27.63,-124 21.63,-124 15.63,-118 15.63,-112 15.63,-112 15.63,-100 15.63,-100 15.63,-94 21.63,-88 27.63,-88 27.63,-88 186.37,-88 186.37,-88 192.37,-88 198.37,-94 198.37,-100 198.37,-100 198.37,-112 198.37,-112 198.37,-118 192.37,-124 186.37,-124"/>
 <text xml:space="preserve" text-anchor="middle" x="107" y="-103" font-family="Helvetica,sans-Serif" font-size="10.00">matrix_entry_abs_le_l2_opNorm_rect</text>
 </a>
@@ -158,7 +158,7 @@
 <!-- n11 -->
 <g id="node12" class="node">
 <title>n11</title>
-<g id="a_node12"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Concentration/MatrixBernstein.lean:1259" xlink:title="private def · Statlib/HighDim/Concentration/MatrixBernstein.lean:1259" target="_blank">
+<g id="a_node12"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/tmp/statlib-main-refresh.tmBBiR/Statlib/HighDim/Concentration/MatrixBernstein.lean:1259" xlink:title="private def · Statlib/HighDim/Concentration/MatrixBernstein.lean:1259" target="_blank">
 <path fill="#d6e9ff" stroke="#3b82f6" d="M777.84,-196C777.84,-196 714.16,-196 714.16,-196 708.16,-196 702.16,-190 702.16,-184 702.16,-184 702.16,-172 702.16,-172 702.16,-166 708.16,-160 714.16,-160 714.16,-160 777.84,-160 777.84,-160 783.84,-160 789.84,-166 789.84,-172 789.84,-172 789.84,-184 789.84,-184 789.84,-190 783.84,-196 777.84,-196"/>
 <text xml:space="preserve" text-anchor="middle" x="746" y="-175" font-family="Helvetica,sans-Serif" font-size="10.00">matrixEntryCLM</text>
 </a>
@@ -173,7 +173,7 @@
 <!-- n12 -->
 <g id="node13" class="node">
 <title>n12</title>
-<g id="a_node13"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Concentration/MatrixBernstein.lean:1269" xlink:title="private theorem · Statlib/HighDim/Concentration/MatrixBernstein.lean:1269" target="_blank">
+<g id="a_node13"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/tmp/statlib-main-refresh.tmBBiR/Statlib/HighDim/Concentration/MatrixBernstein.lean:1269" xlink:title="private theorem · Statlib/HighDim/Concentration/MatrixBernstein.lean:1269" target="_blank">
 <path fill="#ffe6a3" stroke="#d4a017" d="M947.22,-268C947.22,-268 796.78,-268 796.78,-268 790.78,-268 784.78,-262 784.78,-256 784.78,-256 784.78,-244 784.78,-244 784.78,-238 790.78,-232 796.78,-232 796.78,-232 947.22,-232 947.22,-232 953.22,-232 959.22,-238 959.22,-244 959.22,-244 959.22,-256 959.22,-256 959.22,-262 953.22,-268 947.22,-268"/>
 <text xml:space="preserve" text-anchor="middle" x="872" y="-247" font-family="Helvetica,sans-Serif" font-size="10.00">matrix_integral_apply_of_integrable</text>
 </a>
@@ -188,7 +188,7 @@
 <!-- n13 -->
 <g id="node14" class="node">
 <title>n13</title>
-<g id="a_node14"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Concentration/MatrixBernstein.lean:3169" xlink:title="private theorem · Statlib/HighDim/Concentration/MatrixBernstein.lean:3169" target="_blank">
+<g id="a_node14"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/tmp/statlib-main-refresh.tmBBiR/Statlib/HighDim/Concentration/MatrixBernstein.lean:3169" xlink:title="private theorem · Statlib/HighDim/Concentration/MatrixBernstein.lean:3169" target="_blank">
 <path fill="#ffe6a3" stroke="#d4a017" d="M443.83,-628C443.83,-628 286.17,-628 286.17,-628 280.17,-628 274.17,-622 274.17,-616 274.17,-616 274.17,-604 274.17,-604 274.17,-598 280.17,-592 286.17,-592 286.17,-592 443.83,-592 443.83,-592 449.83,-592 455.83,-598 455.83,-604 455.83,-604 455.83,-616 455.83,-616 455.83,-622 449.83,-628 443.83,-628"/>
 <text xml:space="preserve" text-anchor="middle" x="365" y="-607" font-family="Helvetica,sans-Serif" font-size="10.00">hermitian_mul_self_diag_eq_sum_sq</text>
 </a>
@@ -197,7 +197,7 @@
 <!-- n15 -->
 <g id="node15" class="node">
 <title>n15</title>
-<g id="a_node15"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Concentration/MatrixBernstein.lean:3148" xlink:title="private theorem · Statlib/HighDim/Concentration/MatrixBernstein.lean:3148" target="_blank">
+<g id="a_node15"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/tmp/statlib-main-refresh.tmBBiR/Statlib/HighDim/Concentration/MatrixBernstein.lean:3148" xlink:title="private theorem · Statlib/HighDim/Concentration/MatrixBernstein.lean:3148" target="_blank">
 <path fill="#ffe6a3" stroke="#d4a017" d="M183.7,-556C183.7,-556 108.3,-556 108.3,-556 102.3,-556 96.3,-550 96.3,-544 96.3,-544 96.3,-532 96.3,-532 96.3,-526 102.3,-520 108.3,-520 108.3,-520 183.7,-520 183.7,-520 189.7,-520 195.7,-526 195.7,-532 195.7,-532 195.7,-544 195.7,-544 195.7,-550 189.7,-556 183.7,-556"/>
 <text xml:space="preserve" text-anchor="middle" x="146" y="-535" font-family="Helvetica,sans-Serif" font-size="10.00">posDef_fin_one_iff</text>
 </a>
@@ -206,7 +206,7 @@
 <!-- n16 -->
 <g id="node16" class="node">
 <title>n16</title>
-<g id="a_node16"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Concentration/MatrixBernstein.lean:3164" xlink:title="private theorem · Statlib/HighDim/Concentration/MatrixBernstein.lean:3164" target="_blank">
+<g id="a_node16"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/tmp/statlib-main-refresh.tmBBiR/Statlib/HighDim/Concentration/MatrixBernstein.lean:3164" xlink:title="private theorem · Statlib/HighDim/Concentration/MatrixBernstein.lean:3164" target="_blank">
 <path fill="#ffe6a3" stroke="#d4a017" d="M224.27,-628C224.27,-628 107.73,-628 107.73,-628 101.73,-628 95.73,-622 95.73,-616 95.73,-616 95.73,-604 95.73,-604 95.73,-598 101.73,-592 107.73,-592 107.73,-592 224.27,-592 224.27,-592 230.27,-592 236.27,-598 236.27,-604 236.27,-604 236.27,-616 236.27,-616 236.27,-622 230.27,-628 224.27,-628"/>
 <text xml:space="preserve" text-anchor="middle" x="166" y="-607" font-family="Helvetica,sans-Serif" font-size="10.00">not_posDef_fin_one_sub_iff</text>
 </a>
@@ -221,7 +221,7 @@
 <!-- n17 -->
 <g id="node17" class="node">
 <title>n17</title>
-<g id="a_node17"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Concentration/MatrixBernstein.lean:328" xlink:title="private theorem · Statlib/HighDim/Concentration/MatrixBernstein.lean:328" target="_blank">
+<g id="a_node17"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/tmp/statlib-main-refresh.tmBBiR/Statlib/HighDim/Concentration/MatrixBernstein.lean:328" xlink:title="private theorem · Statlib/HighDim/Concentration/MatrixBernstein.lean:328" target="_blank">
 <path fill="#ffe6a3" stroke="#d4a017" d="M1289.18,-412C1289.18,-412 1084.82,-412 1084.82,-412 1078.82,-412 1072.82,-406 1072.82,-400 1072.82,-400 1072.82,-388 1072.82,-388 1072.82,-382 1078.82,-376 1084.82,-376 1084.82,-376 1289.18,-376 1289.18,-376 1295.18,-376 1301.18,-382 1301.18,-388 1301.18,-388 1301.18,-400 1301.18,-400 1301.18,-406 1295.18,-412 1289.18,-412"/>
 <text xml:space="preserve" text-anchor="middle" x="1187" y="-391" font-family="Helvetica,sans-Serif" font-size="10.00">hermitian_trace_exp_eq_sum_exp_eigenvalues</text>
 </a>
@@ -230,7 +230,7 @@
 <!-- n18 -->
 <g id="node18" class="node">
 <title>n18</title>
-<g id="a_node18"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Concentration/MatrixBernstein.lean:358" xlink:title="private theorem · Statlib/HighDim/Concentration/MatrixBernstein.lean:358" target="_blank">
+<g id="a_node18"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/tmp/statlib-main-refresh.tmBBiR/Statlib/HighDim/Concentration/MatrixBernstein.lean:358" xlink:title="private theorem · Statlib/HighDim/Concentration/MatrixBernstein.lean:358" target="_blank">
 <path fill="#ffe6a3" stroke="#d4a017" d="M2260.31,-556C2260.31,-556 2023.69,-556 2023.69,-556 2017.69,-556 2011.69,-550 2011.69,-544 2011.69,-544 2011.69,-532 2011.69,-532 2011.69,-526 2017.69,-520 2023.69,-520 2023.69,-520 2260.31,-520 2260.31,-520 2266.31,-520 2272.31,-526 2272.31,-532 2272.31,-532 2272.31,-544 2272.31,-544 2272.31,-550 2266.31,-556 2260.31,-556"/>
 <text xml:space="preserve" text-anchor="middle" x="2142" y="-535" font-family="Helvetica,sans-Serif" font-size="10.00">hermitian_exp_trace_ge_exp_of_exists_eigenvalue_ge</text>
 </a>
@@ -245,7 +245,7 @@
 <!-- n19 -->
 <g id="node19" class="node">
 <title>n19</title>
-<g id="a_node19"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Concentration/MatrixBernstein.lean:961" xlink:title="private theorem · Statlib/HighDim/Concentration/MatrixBernstein.lean:961" target="_blank">
+<g id="a_node19"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/tmp/statlib-main-refresh.tmBBiR/Statlib/HighDim/Concentration/MatrixBernstein.lean:961" xlink:title="private theorem · Statlib/HighDim/Concentration/MatrixBernstein.lean:961" target="_blank">
 <path fill="#ffe6a3" stroke="#d4a017" d="M1506.35,-484C1506.35,-484 1303.65,-484 1303.65,-484 1297.65,-484 1291.65,-478 1291.65,-472 1291.65,-472 1291.65,-460 1291.65,-460 1291.65,-454 1297.65,-448 1303.65,-448 1303.65,-448 1506.35,-448 1506.35,-448 1512.35,-448 1518.35,-454 1518.35,-460 1518.35,-460 1518.35,-472 1518.35,-472 1518.35,-478 1512.35,-484 1506.35,-484"/>
 <text xml:space="preserve" text-anchor="middle" x="1405" y="-463" font-family="Helvetica,sans-Serif" font-size="10.00">hermitian_posDef_sub_of_forall_eigenvalues_lt</text>
 </a>
@@ -254,7 +254,7 @@
 <!-- n20 -->
 <g id="node20" class="node">
 <title>n20</title>
-<g id="a_node20"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Concentration/MatrixBernstein.lean:1024" xlink:title="private theorem · Statlib/HighDim/Concentration/MatrixBernstein.lean:1024" target="_blank">
+<g id="a_node20"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/tmp/statlib-main-refresh.tmBBiR/Statlib/HighDim/Concentration/MatrixBernstein.lean:1024" xlink:title="private theorem · Statlib/HighDim/Concentration/MatrixBernstein.lean:1024" target="_blank">
 <path fill="#ffe6a3" stroke="#d4a017" d="M1981.58,-556C1981.58,-556 1754.42,-556 1754.42,-556 1748.42,-556 1742.42,-550 1742.42,-544 1742.42,-544 1742.42,-532 1742.42,-532 1742.42,-526 1748.42,-520 1754.42,-520 1754.42,-520 1981.58,-520 1981.58,-520 1987.58,-520 1993.58,-526 1993.58,-532 1993.58,-532 1993.58,-544 1993.58,-544 1993.58,-550 1987.58,-556 1981.58,-556"/>
 <text xml:space="preserve" text-anchor="middle" x="1868" y="-535" font-family="Helvetica,sans-Serif" font-size="10.00">hermitian_exists_eigenvalue_ge_of_not_posDef_sub</text>
 </a>
@@ -269,7 +269,7 @@
 <!-- n21 -->
 <g id="node21" class="node">
 <title>n21</title>
-<g id="a_node21"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Concentration/MatrixBernstein.lean:1033" xlink:title="private theorem · Statlib/HighDim/Concentration/MatrixBernstein.lean:1033" target="_blank">
+<g id="a_node21"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/tmp/statlib-main-refresh.tmBBiR/Statlib/HighDim/Concentration/MatrixBernstein.lean:1033" xlink:title="private theorem · Statlib/HighDim/Concentration/MatrixBernstein.lean:1033" target="_blank">
 <path fill="#ffe6a3" stroke="#d4a017" d="M1974.63,-628C1974.63,-628 1761.37,-628 1761.37,-628 1755.37,-628 1749.37,-622 1749.37,-616 1749.37,-616 1749.37,-604 1749.37,-604 1749.37,-598 1755.37,-592 1761.37,-592 1761.37,-592 1974.63,-592 1974.63,-592 1980.63,-592 1986.63,-598 1986.63,-604 1986.63,-604 1986.63,-616 1986.63,-616 1986.63,-622 1980.63,-628 1974.63,-628"/>
 <text xml:space="preserve" text-anchor="middle" x="1868" y="-607" font-family="Helvetica,sans-Serif" font-size="10.00">hermitian_exp_trace_ge_exp_of_not_posDef_sub</text>
 </a>
@@ -290,7 +290,7 @@
 <!-- n22 -->
 <g id="node22" class="node">
 <title>n22</title>
-<g id="a_node22"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Concentration/MatrixBernstein.lean:936" xlink:title="private theorem · Statlib/HighDim/Concentration/MatrixBernstein.lean:936" target="_blank">
+<g id="a_node22"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/tmp/statlib-main-refresh.tmBBiR/Statlib/HighDim/Concentration/MatrixBernstein.lean:936" xlink:title="private theorem · Statlib/HighDim/Concentration/MatrixBernstein.lean:936" target="_blank">
 <path fill="#ffe6a3" stroke="#d4a017" d="M796.33,-484C796.33,-484 603.67,-484 603.67,-484 597.67,-484 591.67,-478 591.67,-472 591.67,-472 591.67,-460 591.67,-460 591.67,-454 597.67,-448 603.67,-448 603.67,-448 796.33,-448 796.33,-448 802.33,-448 808.33,-454 808.33,-460 808.33,-460 808.33,-472 808.33,-472 808.33,-478 802.33,-484 796.33,-484"/>
 <text xml:space="preserve" text-anchor="middle" x="700" y="-463" font-family="Helvetica,sans-Serif" font-size="10.00">hermitian_trace_exp_le_card_mul_exp_norm</text>
 </a>
@@ -311,7 +311,7 @@
 <!-- n23 -->
 <g id="node23" class="node">
 <title>n23</title>
-<g id="a_node23"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Concentration/MatrixBernstein.lean:369" xlink:title="private theorem · Statlib/HighDim/Concentration/MatrixBernstein.lean:369" target="_blank">
+<g id="a_node23"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/tmp/statlib-main-refresh.tmBBiR/Statlib/HighDim/Concentration/MatrixBernstein.lean:369" xlink:title="private theorem · Statlib/HighDim/Concentration/MatrixBernstein.lean:369" target="_blank">
 <path fill="#ffe6a3" stroke="#d4a017" d="M1261.77,-484C1261.77,-484 1140.23,-484 1140.23,-484 1134.23,-484 1128.23,-478 1128.23,-472 1128.23,-472 1128.23,-460 1128.23,-460 1128.23,-454 1134.23,-448 1140.23,-448 1140.23,-448 1261.77,-448 1261.77,-448 1267.77,-448 1273.77,-454 1273.77,-460 1273.77,-460 1273.77,-472 1273.77,-472 1273.77,-478 1267.77,-484 1261.77,-484"/>
 <text xml:space="preserve" text-anchor="middle" x="1201" y="-463" font-family="Helvetica,sans-Serif" font-size="10.00">hermitian_trace_exp_nonneg</text>
 </a>
@@ -326,7 +326,7 @@
 <!-- n24 -->
 <g id="node24" class="node">
 <title>n24</title>
-<g id="a_node24"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Concentration/MatrixBernstein.lean:1276" xlink:title="private theorem · Statlib/HighDim/Concentration/MatrixBernstein.lean:1276" target="_blank">
+<g id="a_node24"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/tmp/statlib-main-refresh.tmBBiR/Statlib/HighDim/Concentration/MatrixBernstein.lean:1276" xlink:title="private theorem · Statlib/HighDim/Concentration/MatrixBernstein.lean:1276" target="_blank">
 <path fill="#ffe6a3" stroke="#d4a017" d="M1042.94,-412C1042.94,-412 883.06,-412 883.06,-412 877.06,-412 871.06,-406 871.06,-400 871.06,-400 871.06,-388 871.06,-388 871.06,-382 877.06,-376 883.06,-376 883.06,-376 1042.94,-376 1042.94,-376 1048.94,-376 1054.94,-382 1054.94,-388 1054.94,-388 1054.94,-400 1054.94,-400 1054.94,-406 1048.94,-412 1042.94,-412"/>
 <text xml:space="preserve" text-anchor="middle" x="963" y="-391" font-family="Helvetica,sans-Serif" font-size="10.00">matrix_integrable_of_entry_integrable</text>
 </a>
@@ -335,7 +335,7 @@
 <!-- n25 -->
 <g id="node25" class="node">
 <title>n25</title>
-<g id="a_node25"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Concentration/MatrixBernstein.lean:1376" xlink:title="private theorem · Statlib/HighDim/Concentration/MatrixBernstein.lean:1376" target="_blank">
+<g id="a_node25"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/tmp/statlib-main-refresh.tmBBiR/Statlib/HighDim/Concentration/MatrixBernstein.lean:1376" xlink:title="private theorem · Statlib/HighDim/Concentration/MatrixBernstein.lean:1376" target="_blank">
 <path fill="#ffe6a3" stroke="#d4a017" d="M1058.22,-484C1058.22,-484 877.78,-484 877.78,-484 871.78,-484 865.78,-478 865.78,-472 865.78,-472 865.78,-460 865.78,-460 865.78,-454 871.78,-448 877.78,-448 877.78,-448 1058.22,-448 1058.22,-448 1064.22,-448 1070.22,-454 1070.22,-460 1070.22,-460 1070.22,-472 1070.22,-472 1070.22,-478 1064.22,-484 1058.22,-484"/>
 <text xml:space="preserve" text-anchor="middle" x="968" y="-463" font-family="Helvetica,sans-Serif" font-size="10.00">matrix_integral_eq_zero_of_hasZeroMean</text>
 </a>
@@ -362,7 +362,7 @@
 <!-- n26 -->
 <g id="node26" class="node">
 <title>n26</title>
-<g id="a_node26"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Concentration/MatrixBernstein.lean:1524" xlink:title="private theorem · Statlib/HighDim/Concentration/MatrixBernstein.lean:1524" target="_blank">
+<g id="a_node26"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/tmp/statlib-main-refresh.tmBBiR/Statlib/HighDim/Concentration/MatrixBernstein.lean:1524" xlink:title="private theorem · Statlib/HighDim/Concentration/MatrixBernstein.lean:1524" target="_blank">
 <path fill="#ffe6a3" stroke="#d4a017" d="M1928.38,-484C1928.38,-484 1779.62,-484 1779.62,-484 1773.62,-484 1767.62,-478 1767.62,-472 1767.62,-472 1767.62,-460 1767.62,-460 1767.62,-454 1773.62,-448 1779.62,-448 1779.62,-448 1928.38,-448 1928.38,-448 1934.38,-448 1940.38,-454 1940.38,-460 1940.38,-460 1940.38,-472 1940.38,-472 1940.38,-478 1934.38,-484 1928.38,-484"/>
 <text xml:space="preserve" text-anchor="middle" x="1854" y="-463" font-family="Helvetica,sans-Serif" font-size="10.00">matrix_trace_integral_of_integrable</text>
 </a>
@@ -383,7 +383,7 @@
 <!-- n27 -->
 <g id="node27" class="node">
 <title>n27</title>
-<g id="a_node27"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Concentration/MatrixBernstein.lean:809" xlink:title="private theorem · Statlib/HighDim/Concentration/MatrixBernstein.lean:809" target="_blank">
+<g id="a_node27"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/tmp/statlib-main-refresh.tmBBiR/Statlib/HighDim/Concentration/MatrixBernstein.lean:809" xlink:title="private theorem · Statlib/HighDim/Concentration/MatrixBernstein.lean:809" target="_blank">
 <path fill="#ffe6a3" stroke="#d4a017" d="M2576.77,-412C2576.77,-412 2455.23,-412 2455.23,-412 2449.23,-412 2443.23,-406 2443.23,-400 2443.23,-400 2443.23,-388 2443.23,-388 2443.23,-382 2449.23,-376 2455.23,-376 2455.23,-376 2576.77,-376 2576.77,-376 2582.77,-376 2588.77,-382 2588.77,-388 2588.77,-388 2588.77,-400 2588.77,-400 2588.77,-406 2582.77,-412 2576.77,-412"/>
 <text xml:space="preserve" text-anchor="middle" x="2516" y="-391" font-family="Helvetica,sans-Serif" font-size="10.00">trace_le_of_sub_posSemidef</text>
 </a>
@@ -392,7 +392,7 @@
 <!-- n28 -->
 <g id="node28" class="node">
 <title>n28</title>
-<g id="a_node28"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Concentration/MatrixBernstein.lean:80" xlink:title="private theorem · Statlib/HighDim/Concentration/MatrixBernstein.lean:80" target="_blank">
+<g id="a_node28"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/tmp/statlib-main-refresh.tmBBiR/Statlib/HighDim/Concentration/MatrixBernstein.lean:80" xlink:title="private theorem · Statlib/HighDim/Concentration/MatrixBernstein.lean:80" target="_blank">
 <path fill="#ffe6a3" stroke="#d4a017" d="M651.55,-268C651.55,-268 514.45,-268 514.45,-268 508.45,-268 502.45,-262 502.45,-256 502.45,-256 502.45,-244 502.45,-244 502.45,-238 508.45,-232 514.45,-232 514.45,-232 651.55,-232 651.55,-232 657.55,-232 663.55,-238 663.55,-244 663.55,-244 663.55,-256 663.55,-256 663.55,-262 657.55,-268 651.55,-268"/>
 <text xml:space="preserve" text-anchor="middle" x="583" y="-247" font-family="Helvetica,sans-Serif" font-size="10.00">real_exp_le_bernstein_quadratic</text>
 </a>
@@ -401,7 +401,7 @@
 <!-- n29 -->
 <g id="node29" class="node">
 <title>n29</title>
-<g id="a_node29"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Concentration/MatrixBernstein.lean:818" xlink:title="private theorem · Statlib/HighDim/Concentration/MatrixBernstein.lean:818" target="_blank">
+<g id="a_node29"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/tmp/statlib-main-refresh.tmBBiR/Statlib/HighDim/Concentration/MatrixBernstein.lean:818" xlink:title="private theorem · Statlib/HighDim/Concentration/MatrixBernstein.lean:818" target="_blank">
 <path fill="#ffe6a3" stroke="#d4a017" d="M654.6,-340C654.6,-340 511.4,-340 511.4,-340 505.4,-340 499.4,-334 499.4,-328 499.4,-328 499.4,-316 499.4,-316 499.4,-310 505.4,-304 511.4,-304 511.4,-304 654.6,-304 654.6,-304 660.6,-304 666.6,-310 666.6,-316 666.6,-316 666.6,-328 666.6,-328 666.6,-334 660.6,-340 654.6,-340"/>
 <text xml:space="preserve" text-anchor="middle" x="583" y="-319" font-family="Helvetica,sans-Serif" font-size="10.00">hermitian_exp_le_quadratic_norm</text>
 </a>
@@ -422,7 +422,7 @@
 <!-- n30 -->
 <g id="node30" class="node">
 <title>n30</title>
-<g id="a_node30"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Concentration/MatrixBernstein.lean:892" xlink:title="private theorem · Statlib/HighDim/Concentration/MatrixBernstein.lean:892" target="_blank">
+<g id="a_node30"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/tmp/statlib-main-refresh.tmBBiR/Statlib/HighDim/Concentration/MatrixBernstein.lean:892" xlink:title="private theorem · Statlib/HighDim/Concentration/MatrixBernstein.lean:892" target="_blank">
 <path fill="#ffe6a3" stroke="#d4a017" d="M800.77,-412C800.77,-412 659.23,-412 659.23,-412 653.23,-412 647.23,-406 647.23,-400 647.23,-400 647.23,-388 647.23,-388 647.23,-382 653.23,-376 659.23,-376 659.23,-376 800.77,-376 800.77,-376 806.77,-376 812.77,-382 812.77,-388 812.77,-388 812.77,-400 812.77,-400 812.77,-406 806.77,-412 800.77,-412"/>
 <text xml:space="preserve" text-anchor="middle" x="730" y="-391" font-family="Helvetica,sans-Serif" font-size="10.00">hermitian_exp_smul_le_quadratic</text>
 </a>
@@ -437,7 +437,7 @@
 <!-- n31 -->
 <g id="node31" class="node">
 <title>n31</title>
-<g id="a_node31"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Concentration/MatrixBernstein.lean:926" xlink:title="private theorem · Statlib/HighDim/Concentration/MatrixBernstein.lean:926" target="_blank">
+<g id="a_node31"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/tmp/statlib-main-refresh.tmBBiR/Statlib/HighDim/Concentration/MatrixBernstein.lean:926" xlink:title="private theorem · Statlib/HighDim/Concentration/MatrixBernstein.lean:926" target="_blank">
 <path fill="#ffe6a3" stroke="#d4a017" d="M1717.66,-484C1717.66,-484 1548.34,-484 1548.34,-484 1542.34,-484 1536.34,-478 1536.34,-472 1536.34,-472 1536.34,-460 1536.34,-460 1536.34,-454 1542.34,-448 1548.34,-448 1548.34,-448 1717.66,-448 1717.66,-448 1723.66,-448 1729.66,-454 1729.66,-460 1729.66,-460 1729.66,-472 1729.66,-472 1729.66,-478 1723.66,-484 1717.66,-484"/>
 <text xml:space="preserve" text-anchor="middle" x="1633" y="-463" font-family="Helvetica,sans-Serif" font-size="10.00">hermitian_trace_exp_smul_le_quadratic</text>
 </a>
@@ -458,7 +458,7 @@
 <!-- n32 -->
 <g id="node32" class="node">
 <title>n32</title>
-<g id="a_node32"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Concentration/MatrixBernstein.lean:2302" xlink:title="private theorem · Statlib/HighDim/Concentration/MatrixBernstein.lean:2302" target="_blank">
+<g id="a_node32"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/tmp/statlib-main-refresh.tmBBiR/Statlib/HighDim/Concentration/MatrixBernstein.lean:2302" xlink:title="private theorem · Statlib/HighDim/Concentration/MatrixBernstein.lean:2302" target="_blank">
 <path fill="#ffe6a3" stroke="#d4a017" d="M1632,-556C1632,-556 1466,-556 1466,-556 1460,-556 1454,-550 1454,-544 1454,-544 1454,-532 1454,-532 1454,-526 1460,-520 1466,-520 1466,-520 1632,-520 1632,-520 1638,-520 1644,-526 1644,-532 1644,-532 1644,-544 1644,-544 1644,-550 1638,-556 1632,-556"/>
 <text xml:space="preserve" text-anchor="middle" x="1549" y="-535" font-family="Helvetica,sans-Serif" font-size="10.00">single_trace_exp_integral_le_quadratic</text>
 </a>
@@ -521,7 +521,7 @@
 <!-- n33 -->
 <g id="node33" class="node">
 <title>n33</title>
-<g id="a_node33"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Concentration/MatrixBernstein.lean:376" xlink:title="private theorem · Statlib/HighDim/Concentration/MatrixBernstein.lean:376" target="_blank">
+<g id="a_node33"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/tmp/statlib-main-refresh.tmBBiR/Statlib/HighDim/Concentration/MatrixBernstein.lean:376" xlink:title="private theorem · Statlib/HighDim/Concentration/MatrixBernstein.lean:376" target="_blank">
 <path fill="#ffe6a3" stroke="#d4a017" d="M930.59,-340C930.59,-340 817.41,-340 817.41,-340 811.41,-340 805.41,-334 805.41,-328 805.41,-328 805.41,-316 805.41,-316 805.41,-310 811.41,-304 817.41,-304 817.41,-304 930.59,-304 930.59,-304 936.59,-304 942.59,-310 942.59,-316 942.59,-316 942.59,-328 942.59,-328 942.59,-334 936.59,-340 930.59,-340"/>
 <text xml:space="preserve" text-anchor="middle" x="874" y="-319" font-family="Helvetica,sans-Serif" font-size="10.00">hermitian_exp_posSemidef</text>
 </a>
@@ -530,7 +530,7 @@
 <!-- n34 -->
 <g id="node34" class="node">
 <title>n34</title>
-<g id="a_node34"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Concentration/MatrixBernstein.lean:1225" xlink:title="private theorem · Statlib/HighDim/Concentration/MatrixBernstein.lean:1225" target="_blank">
+<g id="a_node34"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/tmp/statlib-main-refresh.tmBBiR/Statlib/HighDim/Concentration/MatrixBernstein.lean:1225" xlink:title="private theorem · Statlib/HighDim/Concentration/MatrixBernstein.lean:1225" target="_blank">
 <path fill="#ffe6a3" stroke="#d4a017" d="M422.21,-340C422.21,-340 281.79,-340 281.79,-340 275.79,-340 269.79,-334 269.79,-328 269.79,-328 269.79,-316 269.79,-316 269.79,-310 275.79,-304 281.79,-304 281.79,-304 422.21,-304 422.21,-304 428.21,-304 434.21,-310 434.21,-316 434.21,-316 434.21,-328 434.21,-328 434.21,-334 428.21,-340 422.21,-340"/>
 <text xml:space="preserve" text-anchor="middle" x="352" y="-319" font-family="Helvetica,sans-Serif" font-size="10.00">posSemidef_l2_opNorm_le_trace</text>
 </a>
@@ -545,7 +545,7 @@
 <!-- n35 -->
 <g id="node35" class="node">
 <title>n35</title>
-<g id="a_node35"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Concentration/MatrixBernstein.lean:1294" xlink:title="private theorem · Statlib/HighDim/Concentration/MatrixBernstein.lean:1294" target="_blank">
+<g id="a_node35"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/tmp/statlib-main-refresh.tmBBiR/Statlib/HighDim/Concentration/MatrixBernstein.lean:1294" xlink:title="private theorem · Statlib/HighDim/Concentration/MatrixBernstein.lean:1294" target="_blank">
 <path fill="#ffe6a3" stroke="#d4a017" d="M577.12,-412C577.12,-412 358.88,-412 358.88,-412 352.88,-412 346.88,-406 346.88,-400 346.88,-400 346.88,-388 346.88,-388 346.88,-382 352.88,-376 358.88,-376 358.88,-376 577.12,-376 577.12,-376 583.12,-376 589.12,-382 589.12,-388 589.12,-388 589.12,-400 589.12,-400 589.12,-406 583.12,-412 577.12,-412"/>
 <text xml:space="preserve" text-anchor="middle" x="468" y="-391" font-family="Helvetica,sans-Serif" font-size="10.00">matrix_integrable_of_posSemidef_trace_integrable</text>
 </a>
@@ -560,7 +560,7 @@
 <!-- n36 -->
 <g id="node36" class="node">
 <title>n36</title>
-<g id="a_node36"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Concentration/MatrixBernstein.lean:1303" xlink:title="private theorem · Statlib/HighDim/Concentration/MatrixBernstein.lean:1303" target="_blank">
+<g id="a_node36"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/tmp/statlib-main-refresh.tmBBiR/Statlib/HighDim/Concentration/MatrixBernstein.lean:1303" xlink:title="private theorem · Statlib/HighDim/Concentration/MatrixBernstein.lean:1303" target="_blank">
 <path fill="#ffe6a3" stroke="#d4a017" d="M561.78,-484C561.78,-484 380.22,-484 380.22,-484 374.22,-484 368.22,-478 368.22,-472 368.22,-472 368.22,-460 368.22,-460 368.22,-454 374.22,-448 380.22,-448 380.22,-448 561.78,-448 561.78,-448 567.78,-448 573.78,-454 573.78,-460 573.78,-460 573.78,-472 573.78,-472 573.78,-478 567.78,-484 561.78,-484"/>
 <text xml:space="preserve" text-anchor="middle" x="471" y="-463" font-family="Helvetica,sans-Serif" font-size="10.00">matrix_exp_integrable_of_trace_integrable</text>
 </a>
@@ -581,7 +581,7 @@
 <!-- n37 -->
 <g id="node37" class="node">
 <title>n37</title>
-<g id="a_node37"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Concentration/MatrixBernstein.lean:1322" xlink:title="private theorem · Statlib/HighDim/Concentration/MatrixBernstein.lean:1322" target="_blank">
+<g id="a_node37"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/tmp/statlib-main-refresh.tmBBiR/Statlib/HighDim/Concentration/MatrixBernstein.lean:1322" xlink:title="private theorem · Statlib/HighDim/Concentration/MatrixBernstein.lean:1322" target="_blank">
 <path fill="#ffe6a3" stroke="#d4a017" d="M1403.74,-556C1403.74,-556 1208.26,-556 1208.26,-556 1202.26,-556 1196.26,-550 1196.26,-544 1196.26,-544 1196.26,-532 1196.26,-532 1196.26,-526 1202.26,-520 1208.26,-520 1208.26,-520 1403.74,-520 1403.74,-520 1409.74,-520 1415.74,-526 1415.74,-532 1415.74,-532 1415.74,-544 1415.74,-544 1415.74,-550 1409.74,-556 1403.74,-556"/>
 <text xml:space="preserve" text-anchor="middle" x="1306" y="-535" font-family="Helvetica,sans-Serif" font-size="10.00">matrix_exp_integrable_of_bounded_hermitian</text>
 </a>
@@ -614,7 +614,7 @@
 <!-- n38 -->
 <g id="node38" class="node">
 <title>n38</title>
-<g id="a_node38"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Concentration/MatrixBernstein.lean:1386" xlink:title="private theorem · Statlib/HighDim/Concentration/MatrixBernstein.lean:1386" target="_blank">
+<g id="a_node38"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/tmp/statlib-main-refresh.tmBBiR/Statlib/HighDim/Concentration/MatrixBernstein.lean:1386" xlink:title="private theorem · Statlib/HighDim/Concentration/MatrixBernstein.lean:1386" target="_blank">
 <path fill="#ffe6a3" stroke="#d4a017" d="M1179.27,-340C1179.27,-340 1032.73,-340 1032.73,-340 1026.73,-340 1020.73,-334 1020.73,-328 1020.73,-328 1020.73,-316 1020.73,-316 1020.73,-310 1026.73,-304 1032.73,-304 1032.73,-304 1179.27,-304 1179.27,-304 1185.27,-304 1191.27,-310 1191.27,-316 1191.27,-316 1191.27,-328 1191.27,-328 1191.27,-334 1185.27,-340 1179.27,-340"/>
 <text xml:space="preserve" text-anchor="middle" x="1106" y="-319" font-family="Helvetica,sans-Serif" font-size="10.00">matrix_integral_posSemidef_of_ae</text>
 </a>
@@ -635,7 +635,7 @@
 <!-- n39 -->
 <g id="node39" class="node">
 <title>n39</title>
-<g id="a_node39"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Concentration/MatrixBernstein.lean:1514" xlink:title="private theorem · Statlib/HighDim/Concentration/MatrixBernstein.lean:1514" target="_blank">
+<g id="a_node39"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/tmp/statlib-main-refresh.tmBBiR/Statlib/HighDim/Concentration/MatrixBernstein.lean:1514" xlink:title="private theorem · Statlib/HighDim/Concentration/MatrixBernstein.lean:1514" target="_blank">
 <path fill="#ffe6a3" stroke="#d4a017" d="M1901.11,-412C1901.11,-412 1732.89,-412 1732.89,-412 1726.89,-412 1720.89,-406 1720.89,-400 1720.89,-400 1720.89,-388 1720.89,-388 1720.89,-382 1726.89,-376 1732.89,-376 1732.89,-376 1901.11,-376 1901.11,-376 1907.11,-376 1913.11,-382 1913.11,-388 1913.11,-388 1913.11,-400 1913.11,-400 1913.11,-406 1907.11,-412 1901.11,-412"/>
 <text xml:space="preserve" text-anchor="middle" x="1817" y="-391" font-family="Helvetica,sans-Serif" font-size="10.00">matrix_integral_sub_posSemidef_of_ae</text>
 </a>
@@ -650,7 +650,7 @@
 <!-- n40 -->
 <g id="node40" class="node">
 <title>n40</title>
-<g id="a_node40"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Concentration/MatrixBernstein.lean:2212" xlink:title="private theorem · Statlib/HighDim/Concentration/MatrixBernstein.lean:2212" target="_blank">
+<g id="a_node40"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/tmp/statlib-main-refresh.tmBBiR/Statlib/HighDim/Concentration/MatrixBernstein.lean:2212" xlink:title="private theorem · Statlib/HighDim/Concentration/MatrixBernstein.lean:2212" target="_blank">
 <path fill="#ffe6a3" stroke="#d4a017" d="M1166.34,-556C1166.34,-556 973.66,-556 973.66,-556 967.66,-556 961.66,-550 961.66,-544 961.66,-544 961.66,-532 961.66,-532 961.66,-526 967.66,-520 973.66,-520 973.66,-520 1166.34,-520 1166.34,-520 1172.34,-520 1178.34,-526 1178.34,-532 1178.34,-532 1178.34,-544 1178.34,-544 1178.34,-550 1172.34,-556 1166.34,-556"/>
 <text xml:space="preserve" text-anchor="middle" x="1070" y="-535" font-family="Helvetica,sans-Serif" font-size="10.00">single_exp_integral_le_quadratic_matrix_raw</text>
 </a>
@@ -677,7 +677,7 @@
 <!-- n41 -->
 <g id="node41" class="node">
 <title>n41</title>
-<g id="a_node41"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Concentration/MatrixBernstein.lean:2242" xlink:title="private theorem · Statlib/HighDim/Concentration/MatrixBernstein.lean:2242" target="_blank">
+<g id="a_node41"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/tmp/statlib-main-refresh.tmBBiR/Statlib/HighDim/Concentration/MatrixBernstein.lean:2242" xlink:title="private theorem · Statlib/HighDim/Concentration/MatrixBernstein.lean:2242" target="_blank">
 <path fill="#ffe6a3" stroke="#d4a017" d="M1515.5,-628C1515.5,-628 1344.5,-628 1344.5,-628 1338.5,-628 1332.5,-622 1332.5,-616 1332.5,-616 1332.5,-604 1332.5,-604 1332.5,-598 1338.5,-592 1344.5,-592 1344.5,-592 1515.5,-592 1515.5,-592 1521.5,-592 1527.5,-598 1527.5,-604 1527.5,-604 1527.5,-616 1527.5,-616 1527.5,-622 1521.5,-628 1515.5,-628"/>
 <text xml:space="preserve" text-anchor="middle" x="1430" y="-607" font-family="Helvetica,sans-Serif" font-size="10.00">single_exp_integral_le_quadratic_matrix</text>
 </a>
@@ -722,7 +722,7 @@
 <!-- n42 -->
 <g id="node42" class="node">
 <title>n42</title>
-<g id="a_node42"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Concentration/MatrixBernstein.lean:747" xlink:title="private theorem · Statlib/HighDim/Concentration/MatrixBernstein.lean:747" target="_blank">
+<g id="a_node42"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/tmp/statlib-main-refresh.tmBBiR/Statlib/HighDim/Concentration/MatrixBernstein.lean:747" xlink:title="private theorem · Statlib/HighDim/Concentration/MatrixBernstein.lean:747" target="_blank">
 <path fill="#ffe6a3" stroke="#d4a017" d="M1091.89,-628C1091.89,-628 958.11,-628 958.11,-628 952.11,-628 946.11,-622 946.11,-616 946.11,-616 946.11,-604 946.11,-604 946.11,-598 952.11,-592 958.11,-592 958.11,-592 1091.89,-592 1091.89,-592 1097.89,-592 1103.89,-598 1103.89,-604 1103.89,-604 1103.89,-616 1103.89,-616 1103.89,-622 1097.89,-628 1091.89,-628"/>
 <text xml:space="preserve" text-anchor="middle" x="1025" y="-607" font-family="Helvetica,sans-Serif" font-size="10.00">hermitian_one_add_self_le_exp</text>
 </a>
@@ -731,7 +731,7 @@
 <!-- n43 -->
 <g id="node43" class="node">
 <title>n43</title>
-<g id="a_node43"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Concentration/MatrixBernstein.lean:1213" xlink:title="private theorem · Statlib/HighDim/Concentration/MatrixBernstein.lean:1213" target="_blank">
+<g id="a_node43"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/tmp/statlib-main-refresh.tmBBiR/Statlib/HighDim/Concentration/MatrixBernstein.lean:1213" xlink:title="private theorem · Statlib/HighDim/Concentration/MatrixBernstein.lean:1213" target="_blank">
 <path fill="#ffe6a3" stroke="#d4a017" d="M386.76,-556C386.76,-556 225.24,-556 225.24,-556 219.24,-556 213.24,-550 213.24,-544 213.24,-544 213.24,-532 213.24,-532 213.24,-526 219.24,-520 225.24,-520 225.24,-520 386.76,-520 386.76,-520 392.76,-520 398.76,-526 398.76,-532 398.76,-532 398.76,-544 398.76,-544 398.76,-550 392.76,-556 386.76,-556"/>
 <text xml:space="preserve" text-anchor="middle" x="306" y="-535" font-family="Helvetica,sans-Serif" font-size="10.00">matrix_trace_le_card_mul_l2_opNorm</text>
 </a>
@@ -746,7 +746,7 @@
 <!-- n44 -->
 <g id="node44" class="node">
 <title>n44</title>
-<g id="a_node44"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Concentration/MatrixBernstein.lean:2433" xlink:title="private theorem · Statlib/HighDim/Concentration/MatrixBernstein.lean:2433" target="_blank">
+<g id="a_node44"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/tmp/statlib-main-refresh.tmBBiR/Statlib/HighDim/Concentration/MatrixBernstein.lean:2433" xlink:title="private theorem · Statlib/HighDim/Concentration/MatrixBernstein.lean:2433" target="_blank">
 <path fill="#ffe6a3" stroke="#d4a017" d="M915.78,-628C915.78,-628 744.22,-628 744.22,-628 738.22,-628 732.22,-622 732.22,-616 732.22,-616 732.22,-604 732.22,-604 732.22,-598 738.22,-592 744.22,-592 744.22,-592 915.78,-592 915.78,-592 921.78,-592 927.78,-598 927.78,-604 927.78,-604 927.78,-616 927.78,-616 927.78,-622 921.78,-628 915.78,-628"/>
 <text xml:space="preserve" text-anchor="middle" x="830" y="-607" font-family="Helvetica,sans-Serif" font-size="10.00">matrix_laplace_trace_mgf_bound_single</text>
 </a>
@@ -785,7 +785,7 @@
 <!-- n45 -->
 <g id="node45" class="node">
 <title>n45</title>
-<g id="a_node45"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Concentration/MatrixBernstein.lean:1583" xlink:title="private theorem · Statlib/HighDim/Concentration/MatrixBernstein.lean:1583" target="_blank">
+<g id="a_node45"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/tmp/statlib-main-refresh.tmBBiR/Statlib/HighDim/Concentration/MatrixBernstein.lean:1583" xlink:title="private theorem · Statlib/HighDim/Concentration/MatrixBernstein.lean:1583" target="_blank">
 <path fill="#ffe6a3" stroke="#d4a017" d="M2803.66,-556C2803.66,-556 2624.34,-556 2624.34,-556 2618.34,-556 2612.34,-550 2612.34,-544 2612.34,-544 2612.34,-532 2612.34,-532 2612.34,-526 2618.34,-520 2624.34,-520 2624.34,-520 2803.66,-520 2803.66,-520 2809.66,-520 2815.66,-526 2815.66,-532 2815.66,-532 2815.66,-544 2815.66,-544 2815.66,-550 2809.66,-556 2803.66,-556"/>
 <text xml:space="preserve" text-anchor="middle" x="2714" y="-535" font-family="Helvetica,sans-Serif" font-size="10.00">iIndepFun_matrix_sum_indep_of_notMem</text>
 </a>
@@ -794,7 +794,7 @@
 <!-- n46 -->
 <g id="node46" class="node">
 <title>n46</title>
-<g id="a_node46"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Concentration/MatrixBernstein.lean:956" xlink:title="private theorem · Statlib/HighDim/Concentration/MatrixBernstein.lean:956" target="_blank">
+<g id="a_node46"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/tmp/statlib-main-refresh.tmBBiR/Statlib/HighDim/Concentration/MatrixBernstein.lean:956" xlink:title="private theorem · Statlib/HighDim/Concentration/MatrixBernstein.lean:956" target="_blank">
 <path fill="#ffe6a3" stroke="#d4a017" d="M2169.29,-412C2169.29,-412 1962.71,-412 1962.71,-412 1956.71,-412 1950.71,-406 1950.71,-400 1950.71,-400 1950.71,-388 1950.71,-388 1950.71,-382 1956.71,-376 1962.71,-376 1962.71,-376 2169.29,-376 2169.29,-376 2175.29,-376 2181.29,-382 2181.29,-388 2181.29,-388 2181.29,-400 2181.29,-400 2181.29,-406 2175.29,-412 2169.29,-412"/>
 <text xml:space="preserve" text-anchor="middle" x="2066" y="-391" font-family="Helvetica,sans-Serif" font-size="10.00">trace_exp_add_eq_trace_exp_mul_of_commute</text>
 </a>
@@ -803,7 +803,7 @@
 <!-- n47 -->
 <g id="node47" class="node">
 <title>n47</title>
-<g id="a_node47"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Concentration/MatrixBernstein.lean:1540" xlink:title="private theorem · Statlib/HighDim/Concentration/MatrixBernstein.lean:1540" target="_blank">
+<g id="a_node47"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/tmp/statlib-main-refresh.tmBBiR/Statlib/HighDim/Concentration/MatrixBernstein.lean:1540" xlink:title="private theorem · Statlib/HighDim/Concentration/MatrixBernstein.lean:1540" target="_blank">
 <path fill="#ffe6a3" stroke="#d4a017" d="M1494.36,-340C1494.36,-340 1221.64,-340 1221.64,-340 1215.64,-340 1209.64,-334 1209.64,-328 1209.64,-328 1209.64,-316 1209.64,-316 1209.64,-310 1215.64,-304 1221.64,-304 1221.64,-304 1494.36,-304 1494.36,-304 1500.36,-304 1506.36,-310 1506.36,-316 1506.36,-316 1506.36,-328 1506.36,-328 1506.36,-334 1500.36,-340 1494.36,-340"/>
 <text xml:space="preserve" text-anchor="middle" x="1358" y="-319" font-family="Helvetica,sans-Serif" font-size="10.00">matrix_trace_mul_integral_eq_trace_mul_integral_of_indepFun</text>
 </a>
@@ -824,7 +824,7 @@
 <!-- n48 -->
 <g id="node48" class="node">
 <title>n48</title>
-<g id="a_node48"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Concentration/MatrixBernstein.lean:1238" xlink:title="private theorem · Statlib/HighDim/Concentration/MatrixBernstein.lean:1238" target="_blank">
+<g id="a_node48"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/tmp/statlib-main-refresh.tmBBiR/Statlib/HighDim/Concentration/MatrixBernstein.lean:1238" xlink:title="private theorem · Statlib/HighDim/Concentration/MatrixBernstein.lean:1238" target="_blank">
 <path fill="#ffe6a3" stroke="#d4a017" d="M1176.55,-268C1176.55,-268 1029.45,-268 1029.45,-268 1023.45,-268 1017.45,-262 1017.45,-256 1017.45,-256 1017.45,-244 1017.45,-244 1017.45,-238 1023.45,-232 1029.45,-232 1029.45,-232 1176.55,-232 1176.55,-232 1182.55,-232 1188.55,-238 1188.55,-244 1188.55,-244 1188.55,-256 1188.55,-256 1188.55,-262 1182.55,-268 1176.55,-268"/>
 <text xml:space="preserve" text-anchor="middle" x="1103" y="-247" font-family="Helvetica,sans-Serif" font-size="10.00">trace_mul_nonneg_of_posSemidef</text>
 </a>
@@ -833,7 +833,7 @@
 <!-- n49 -->
 <g id="node49" class="node">
 <title>n49</title>
-<g id="a_node49"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Concentration/MatrixBernstein.lean:1250" xlink:title="private theorem · Statlib/HighDim/Concentration/MatrixBernstein.lean:1250" target="_blank">
+<g id="a_node49"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/tmp/statlib-main-refresh.tmBBiR/Statlib/HighDim/Concentration/MatrixBernstein.lean:1250" xlink:title="private theorem · Statlib/HighDim/Concentration/MatrixBernstein.lean:1250" target="_blank">
 <path fill="#ffe6a3" stroke="#d4a017" d="M1729.34,-340C1729.34,-340 1536.66,-340 1536.66,-340 1530.66,-340 1524.66,-334 1524.66,-328 1524.66,-328 1524.66,-316 1524.66,-316 1524.66,-310 1530.66,-304 1536.66,-304 1536.66,-304 1729.34,-304 1729.34,-304 1735.34,-304 1741.34,-310 1741.34,-316 1741.34,-316 1741.34,-328 1741.34,-328 1741.34,-334 1735.34,-340 1729.34,-340"/>
 <text xml:space="preserve" text-anchor="middle" x="1633" y="-319" font-family="Helvetica,sans-Serif" font-size="10.00">trace_mul_le_trace_mul_of_sub_posSemidef</text>
 </a>
@@ -848,7 +848,7 @@
 <!-- n50 -->
 <g id="node50" class="node">
 <title>n50</title>
-<g id="a_node50"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Concentration/MatrixBernstein.lean:1606" xlink:title="private theorem · Statlib/HighDim/Concentration/MatrixBernstein.lean:1606" target="_blank">
+<g id="a_node50"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/tmp/statlib-main-refresh.tmBBiR/Statlib/HighDim/Concentration/MatrixBernstein.lean:1606" xlink:title="private theorem · Statlib/HighDim/Concentration/MatrixBernstein.lean:1606" target="_blank">
 <path fill="#ffe6a3" stroke="#d4a017" d="M2413.08,-412C2413.08,-412 2210.92,-412 2210.92,-412 2204.92,-412 2198.92,-406 2198.92,-400 2198.92,-400 2198.92,-388 2198.92,-388 2198.92,-382 2204.92,-376 2210.92,-376 2210.92,-376 2413.08,-376 2413.08,-376 2419.08,-376 2425.08,-382 2425.08,-388 2425.08,-388 2425.08,-400 2425.08,-400 2425.08,-406 2419.08,-412 2413.08,-412"/>
 <text xml:space="preserve" text-anchor="middle" x="2312" y="-391" font-family="Helvetica,sans-Serif" font-size="10.00">matrix_laplace_one_step_of_trace_exp_add_le</text>
 </a>
@@ -881,7 +881,7 @@
 <!-- n51 -->
 <g id="node51" class="node">
 <title>n51</title>
-<g id="a_node51"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Concentration/MatrixBernstein.lean:1668" xlink:title="private theorem · Statlib/HighDim/Concentration/MatrixBernstein.lean:1668" target="_blank">
+<g id="a_node51"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/tmp/statlib-main-refresh.tmBBiR/Statlib/HighDim/Concentration/MatrixBernstein.lean:1668" xlink:title="private theorem · Statlib/HighDim/Concentration/MatrixBernstein.lean:1668" target="_blank">
 <path fill="#ffe6a3" stroke="#d4a017" d="M2621.88,-484C2621.88,-484 2458.12,-484 2458.12,-484 2452.12,-484 2446.12,-478 2446.12,-472 2446.12,-472 2446.12,-460 2446.12,-460 2446.12,-454 2452.12,-448 2458.12,-448 2458.12,-448 2621.88,-448 2621.88,-448 2627.88,-448 2633.88,-454 2633.88,-460 2633.88,-460 2633.88,-472 2633.88,-472 2633.88,-478 2627.88,-484 2621.88,-484"/>
 <text xml:space="preserve" text-anchor="middle" x="2540" y="-463" font-family="Helvetica,sans-Serif" font-size="10.00">matrix_laplace_one_step_of_commute</text>
 </a>
@@ -902,7 +902,7 @@
 <!-- n52 -->
 <g id="node52" class="node">
 <title>n52</title>
-<g id="a_node52"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Concentration/MatrixBernstein.lean:1439" xlink:title="private theorem · Statlib/HighDim/Concentration/MatrixBernstein.lean:1439" target="_blank">
+<g id="a_node52"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/tmp/statlib-main-refresh.tmBBiR/Statlib/HighDim/Concentration/MatrixBernstein.lean:1439" xlink:title="private theorem · Statlib/HighDim/Concentration/MatrixBernstein.lean:1439" target="_blank">
 <path fill="#ffe6a3" stroke="#d4a017" d="M1690.71,-412C1690.71,-412 1565.29,-412 1565.29,-412 1559.29,-412 1553.29,-406 1553.29,-400 1553.29,-400 1553.29,-388 1553.29,-388 1553.29,-382 1559.29,-376 1565.29,-376 1565.29,-376 1690.71,-376 1690.71,-376 1696.71,-376 1702.71,-382 1702.71,-388 1702.71,-388 1702.71,-400 1702.71,-400 1702.71,-406 1696.71,-412 1690.71,-412"/>
 <text xml:space="preserve" text-anchor="middle" x="1628" y="-391" font-family="Helvetica,sans-Serif" font-size="10.00">matrix_integral_posDef_of_ae</text>
 </a>
@@ -929,7 +929,7 @@
 <!-- n53 -->
 <g id="node53" class="node">
 <title>n53</title>
-<g id="a_node53"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Concentration/MatrixBernstein.lean:385" xlink:title="private theorem · Statlib/HighDim/Concentration/MatrixBernstein.lean:385" target="_blank">
+<g id="a_node53"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/tmp/statlib-main-refresh.tmBBiR/Statlib/HighDim/Concentration/MatrixBernstein.lean:385" xlink:title="private theorem · Statlib/HighDim/Concentration/MatrixBernstein.lean:385" target="_blank">
 <path fill="#ffe6a3" stroke="#d4a017" d="M1523.03,-412C1523.03,-412 1430.97,-412 1430.97,-412 1424.97,-412 1418.97,-406 1418.97,-400 1418.97,-400 1418.97,-388 1418.97,-388 1418.97,-382 1424.97,-376 1430.97,-376 1430.97,-376 1523.03,-376 1523.03,-376 1529.03,-376 1535.03,-382 1535.03,-388 1535.03,-388 1535.03,-400 1535.03,-400 1535.03,-406 1529.03,-412 1523.03,-412"/>
 <text xml:space="preserve" text-anchor="middle" x="1477" y="-391" font-family="Helvetica,sans-Serif" font-size="10.00">hermitian_exp_posDef</text>
 </a>
@@ -944,7 +944,7 @@
 <!-- n54 -->
 <g id="node54" class="node">
 <title>n54</title>
-<g id="a_node54"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Concentration/MatrixBernstein.lean:1505" xlink:title="private theorem · Statlib/HighDim/Concentration/MatrixBernstein.lean:1505" target="_blank">
+<g id="a_node54"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/tmp/statlib-main-refresh.tmBBiR/Statlib/HighDim/Concentration/MatrixBernstein.lean:1505" xlink:title="private theorem · Statlib/HighDim/Concentration/MatrixBernstein.lean:1505" target="_blank">
 <path fill="#ffe6a3" stroke="#d4a017" d="M2166.26,-484C2166.26,-484 2049.74,-484 2049.74,-484 2043.74,-484 2037.74,-478 2037.74,-472 2037.74,-472 2037.74,-460 2037.74,-460 2037.74,-454 2043.74,-448 2049.74,-448 2049.74,-448 2166.26,-448 2166.26,-448 2172.26,-448 2178.26,-454 2178.26,-460 2178.26,-460 2178.26,-472 2178.26,-472 2178.26,-478 2172.26,-484 2166.26,-484"/>
 <text xml:space="preserve" text-anchor="middle" x="2108" y="-463" font-family="Helvetica,sans-Serif" font-size="10.00">matrix_exp_integral_posDef</text>
 </a>
@@ -965,7 +965,7 @@
 <!-- n55 -->
 <g id="node55" class="node">
 <title>n55</title>
-<g id="a_node55"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Concentration/MatrixBernstein.lean:554" xlink:title="private theorem · Statlib/HighDim/Concentration/MatrixBernstein.lean:554" target="_blank">
+<g id="a_node55"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/tmp/statlib-main-refresh.tmBBiR/Statlib/HighDim/Concentration/MatrixBernstein.lean:554" xlink:title="private theorem · Statlib/HighDim/Concentration/MatrixBernstein.lean:554" target="_blank">
 <path fill="#ffe6a3" stroke="#d4a017" d="M2830.54,-484C2830.54,-484 2663.46,-484 2663.46,-484 2657.46,-484 2651.46,-478 2651.46,-472 2651.46,-472 2651.46,-460 2651.46,-460 2651.46,-454 2657.46,-448 2663.46,-448 2663.46,-448 2830.54,-448 2830.54,-448 2836.54,-448 2842.54,-454 2842.54,-460 2842.54,-460 2842.54,-472 2842.54,-472 2842.54,-478 2836.54,-484 2830.54,-484"/>
 <text xml:space="preserve" text-anchor="middle" x="2747" y="-463" font-family="Helvetica,sans-Serif" font-size="10.00">real_log_matrix_isHermitian_of_posDef</text>
 </a>
@@ -974,7 +974,7 @@
 <!-- n56 -->
 <g id="node56" class="node">
 <title>n56</title>
-<g id="a_node56"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Concentration/MatrixBernstein.lean:560" xlink:title="private theorem · Statlib/HighDim/Concentration/MatrixBernstein.lean:560" target="_blank">
+<g id="a_node56"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/tmp/statlib-main-refresh.tmBBiR/Statlib/HighDim/Concentration/MatrixBernstein.lean:560" xlink:title="private theorem · Statlib/HighDim/Concentration/MatrixBernstein.lean:560" target="_blank">
 <path fill="#ffe6a3" stroke="#d4a017" d="M3005.6,-484C3005.6,-484 2872.4,-484 2872.4,-484 2866.4,-484 2860.4,-478 2860.4,-472 2860.4,-472 2860.4,-460 2860.4,-460 2860.4,-454 2866.4,-448 2872.4,-448 2872.4,-448 3005.6,-448 3005.6,-448 3011.6,-448 3017.6,-454 3017.6,-460 3017.6,-460 3017.6,-472 3017.6,-472 3017.6,-478 3011.6,-484 3005.6,-484"/>
 <text xml:space="preserve" text-anchor="middle" x="2939" y="-463" font-family="Helvetica,sans-Serif" font-size="10.00">real_matrix_exp_log_of_posDef</text>
 </a>
@@ -983,7 +983,7 @@
 <!-- n57 -->
 <g id="node57" class="node">
 <title>n57</title>
-<g id="a_node57"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Concentration/MatrixBernstein.lean:566" xlink:title="private theorem · Statlib/HighDim/Concentration/MatrixBernstein.lean:566" target="_blank">
+<g id="a_node57"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/tmp/statlib-main-refresh.tmBBiR/Statlib/HighDim/Concentration/MatrixBernstein.lean:566" xlink:title="private theorem · Statlib/HighDim/Concentration/MatrixBernstein.lean:566" target="_blank">
 <path fill="#ffe6a3" stroke="#d4a017" d="M3178.48,-484C3178.48,-484 3047.52,-484 3047.52,-484 3041.52,-484 3035.52,-478 3035.52,-472 3035.52,-472 3035.52,-460 3035.52,-460 3035.52,-454 3041.52,-448 3047.52,-448 3047.52,-448 3178.48,-448 3178.48,-448 3184.48,-448 3190.48,-454 3190.48,-460 3190.48,-460 3190.48,-472 3190.48,-472 3190.48,-478 3184.48,-484 3178.48,-484"/>
 <text xml:space="preserve" text-anchor="middle" x="3113" y="-463" font-family="Helvetica,sans-Serif" font-size="10.00">matrix_posSemidef_set_closed</text>
 </a>
@@ -992,7 +992,7 @@
 <!-- n58 -->
 <g id="node58" class="node">
 <title>n58</title>
-<g id="a_node58"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Concentration/MatrixBernstein.lean:590" xlink:title="private theorem · Statlib/HighDim/Concentration/MatrixBernstein.lean:590" target="_blank">
+<g id="a_node58"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/tmp/statlib-main-refresh.tmBBiR/Statlib/HighDim/Concentration/MatrixBernstein.lean:590" xlink:title="private theorem · Statlib/HighDim/Concentration/MatrixBernstein.lean:590" target="_blank">
 <path fill="#ffe6a3" stroke="#d4a017" d="M3353.87,-484C3353.87,-484 3220.13,-484 3220.13,-484 3214.13,-484 3208.13,-478 3208.13,-472 3208.13,-472 3208.13,-460 3208.13,-460 3208.13,-454 3214.13,-448 3220.13,-448 3220.13,-448 3353.87,-448 3353.87,-448 3359.87,-448 3365.87,-454 3365.87,-460 3365.87,-460 3365.87,-472 3365.87,-472 3365.87,-478 3359.87,-484 3353.87,-484"/>
 <text xml:space="preserve" text-anchor="middle" x="3287" y="-463" font-family="Helvetica,sans-Serif" font-size="10.00">matrix_posSemidef_set_convex</text>
 </a>
@@ -1001,7 +1001,7 @@
 <!-- n59 -->
 <g id="node59" class="node">
 <title>n59</title>
-<g id="a_node59"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Concentration/MatrixBernstein.lean:392" xlink:title="private noncomputable abbrev · Statlib/HighDim/Concentration/MatrixBernstein.lean:392" target="_blank">
+<g id="a_node59"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/tmp/statlib-main-refresh.tmBBiR/Statlib/HighDim/Concentration/MatrixBernstein.lean:392" xlink:title="private noncomputable abbrev · Statlib/HighDim/Concentration/MatrixBernstein.lean:392" target="_blank">
 <path fill="#f1f5f9" stroke="#94a3b8" d="M3471.56,-196C3471.56,-196 3398.44,-196 3398.44,-196 3392.44,-196 3386.44,-190 3386.44,-184 3386.44,-184 3386.44,-172 3386.44,-172 3386.44,-166 3392.44,-160 3398.44,-160 3398.44,-160 3471.56,-160 3471.56,-160 3477.56,-160 3483.56,-166 3483.56,-172 3483.56,-172 3483.56,-184 3483.56,-184 3483.56,-190 3477.56,-196 3471.56,-196"/>
 <text xml:space="preserve" text-anchor="middle" x="3435" y="-175" font-family="Helvetica,sans-Serif" font-size="10.00">realToCStarMatrix</text>
 </a>
@@ -1010,7 +1010,7 @@
 <!-- n60 -->
 <g id="node60" class="node">
 <title>n60</title>
-<g id="a_node60"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Concentration/MatrixBernstein.lean:433" xlink:title="private theorem · Statlib/HighDim/Concentration/MatrixBernstein.lean:433" target="_blank">
+<g id="a_node60"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/tmp/statlib-main-refresh.tmBBiR/Statlib/HighDim/Concentration/MatrixBernstein.lean:433" xlink:title="private theorem · Statlib/HighDim/Concentration/MatrixBernstein.lean:433" target="_blank">
 <path fill="#ffe6a3" stroke="#d4a017" d="M3589.16,-268C3589.16,-268 3404.84,-268 3404.84,-268 3398.84,-268 3392.84,-262 3392.84,-256 3392.84,-256 3392.84,-244 3392.84,-244 3392.84,-238 3398.84,-232 3404.84,-232 3404.84,-232 3589.16,-232 3589.16,-232 3595.16,-232 3601.16,-238 3601.16,-244 3601.16,-244 3601.16,-256 3601.16,-256 3601.16,-262 3595.16,-268 3589.16,-268"/>
 <text xml:space="preserve" text-anchor="middle" x="3497" y="-247" font-family="Helvetica,sans-Serif" font-size="10.00">realToCStarMatrix_nonneg_of_posSemidef</text>
 </a>
@@ -1025,7 +1025,7 @@
 <!-- n61 -->
 <g id="node61" class="node">
 <title>n61</title>
-<g id="a_node61"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Concentration/MatrixBernstein.lean:417" xlink:title="private theorem · Statlib/HighDim/Concentration/MatrixBernstein.lean:417" target="_blank">
+<g id="a_node61"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/tmp/statlib-main-refresh.tmBBiR/Statlib/HighDim/Concentration/MatrixBernstein.lean:417" xlink:title="private theorem · Statlib/HighDim/Concentration/MatrixBernstein.lean:417" target="_blank">
 <path fill="#ffe6a3" stroke="#d4a017" d="M3342.53,-268C3342.53,-268 3215.47,-268 3215.47,-268 3209.47,-268 3203.47,-262 3203.47,-256 3203.47,-256 3203.47,-244 3203.47,-244 3203.47,-238 3209.47,-232 3215.47,-232 3215.47,-232 3342.53,-232 3342.53,-232 3348.53,-232 3354.53,-238 3354.53,-244 3354.53,-244 3354.53,-256 3354.53,-256 3354.53,-262 3348.53,-268 3342.53,-268"/>
 <text xml:space="preserve" text-anchor="middle" x="3279" y="-247" font-family="Helvetica,sans-Serif" font-size="10.00">realToCStarMatrix_continuous</text>
 </a>
@@ -1040,7 +1040,7 @@
 <!-- n62 -->
 <g id="node62" class="node">
 <title>n62</title>
-<g id="a_node62"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Concentration/MatrixBernstein.lean:424" xlink:title="private theorem · Statlib/HighDim/Concentration/MatrixBernstein.lean:424" target="_blank">
+<g id="a_node62"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/tmp/statlib-main-refresh.tmBBiR/Statlib/HighDim/Concentration/MatrixBernstein.lean:424" xlink:title="private theorem · Statlib/HighDim/Concentration/MatrixBernstein.lean:424" target="_blank">
 <path fill="#ffe6a3" stroke="#d4a017" d="M3361.41,-340C3361.41,-340 3266.59,-340 3266.59,-340 3260.59,-340 3254.59,-334 3254.59,-328 3254.59,-328 3254.59,-316 3254.59,-316 3254.59,-310 3260.59,-304 3266.59,-304 3266.59,-304 3361.41,-304 3361.41,-304 3367.41,-304 3373.41,-310 3373.41,-316 3373.41,-316 3373.41,-328 3373.41,-328 3373.41,-334 3367.41,-340 3361.41,-340"/>
 <text xml:space="preserve" text-anchor="middle" x="3314" y="-319" font-family="Helvetica,sans-Serif" font-size="10.00">realToCStarMatrix_exp</text>
 </a>
@@ -1061,7 +1061,7 @@
 <!-- n63 -->
 <g id="node63" class="node">
 <title>n63</title>
-<g id="a_node63"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Concentration/MatrixBernstein.lean:508" xlink:title="private theorem · Statlib/HighDim/Concentration/MatrixBernstein.lean:508" target="_blank">
+<g id="a_node63"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/tmp/statlib-main-refresh.tmBBiR/Statlib/HighDim/Concentration/MatrixBernstein.lean:508" xlink:title="private theorem · Statlib/HighDim/Concentration/MatrixBernstein.lean:508" target="_blank">
 <path fill="#ffe6a3" stroke="#d4a017" d="M3608.98,-340C3608.98,-340 3423.02,-340 3423.02,-340 3417.02,-340 3411.02,-334 3411.02,-328 3411.02,-328 3411.02,-316 3411.02,-316 3411.02,-310 3417.02,-304 3423.02,-304 3423.02,-304 3608.98,-304 3608.98,-304 3614.98,-304 3620.98,-310 3620.98,-316 3620.98,-316 3620.98,-328 3620.98,-328 3620.98,-334 3614.98,-340 3608.98,-340"/>
 <text xml:space="preserve" text-anchor="middle" x="3516" y="-319" font-family="Helvetica,sans-Serif" font-size="10.00">realToCStarMatrix_strictPositive_of_posDef</text>
 </a>
@@ -1082,7 +1082,7 @@
 <!-- n64 -->
 <g id="node64" class="node">
 <title>n64</title>
-<g id="a_node64"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Concentration/MatrixBernstein.lean:518" xlink:title="private theorem · Statlib/HighDim/Concentration/MatrixBernstein.lean:518" target="_blank">
+<g id="a_node64"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/tmp/statlib-main-refresh.tmBBiR/Statlib/HighDim/Concentration/MatrixBernstein.lean:518" xlink:title="private theorem · Statlib/HighDim/Concentration/MatrixBernstein.lean:518" target="_blank">
 <path fill="#ffe6a3" stroke="#d4a017" d="M3173.6,-268C3173.6,-268 2970.4,-268 2970.4,-268 2964.4,-268 2958.4,-262 2958.4,-256 2958.4,-256 2958.4,-244 2958.4,-244 2958.4,-238 2964.4,-232 2970.4,-232 2970.4,-232 3173.6,-232 3173.6,-232 3179.6,-232 3185.6,-238 3185.6,-244 3185.6,-244 3185.6,-256 3185.6,-256 3185.6,-262 3179.6,-268 3173.6,-268"/>
 <text xml:space="preserve" text-anchor="middle" x="3072" y="-247" font-family="Helvetica,sans-Serif" font-size="10.00">realToCStarMatrix_isSelfAdjoint_of_isHermitian</text>
 </a>
@@ -1097,7 +1097,7 @@
 <!-- n65 -->
 <g id="node65" class="node">
 <title>n65</title>
-<g id="a_node65"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Concentration/MatrixBernstein.lean:603" xlink:title="private theorem · Statlib/HighDim/Concentration/MatrixBernstein.lean:603" target="_blank">
+<g id="a_node65"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/tmp/statlib-main-refresh.tmBBiR/Statlib/HighDim/Concentration/MatrixBernstein.lean:603" xlink:title="private theorem · Statlib/HighDim/Concentration/MatrixBernstein.lean:603" target="_blank">
 <path fill="#ffe6a3" stroke="#d4a017" d="M3562.29,-412C3562.29,-412 3345.71,-412 3345.71,-412 3339.71,-412 3333.71,-406 3333.71,-400 3333.71,-400 3333.71,-388 3333.71,-388 3333.71,-382 3339.71,-376 3345.71,-376 3345.71,-376 3562.29,-376 3562.29,-376 3568.29,-376 3574.29,-382 3574.29,-388 3574.29,-388 3574.29,-400 3574.29,-400 3574.29,-406 3568.29,-412 3562.29,-412"/>
 <text xml:space="preserve" text-anchor="middle" x="3454" y="-391" font-family="Helvetica,sans-Serif" font-size="10.00">cstar_log_real_matrix_le_of_exp_sub_posSemidef</text>
 </a>
@@ -1136,7 +1136,7 @@
 <!-- n66 -->
 <g id="node66" class="node">
 <title>n66</title>
-<g id="a_node66"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Concentration/MatrixBernstein.lean:398" xlink:title="private noncomputable def · Statlib/HighDim/Concentration/MatrixBernstein.lean:398" target="_blank">
+<g id="a_node66"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/tmp/statlib-main-refresh.tmBBiR/Statlib/HighDim/Concentration/MatrixBernstein.lean:398" xlink:title="private noncomputable def · Statlib/HighDim/Concentration/MatrixBernstein.lean:398" target="_blank">
 <path fill="#f1f5f9" stroke="#94a3b8" d="M2907.52,-268C2907.52,-268 2780.48,-268 2780.48,-268 2774.48,-268 2768.48,-262 2768.48,-256 2768.48,-256 2768.48,-244 2768.48,-244 2768.48,-238 2774.48,-232 2780.48,-232 2780.48,-232 2907.52,-232 2907.52,-232 2913.52,-232 2919.52,-238 2919.52,-244 2919.52,-244 2919.52,-256 2919.52,-256 2919.52,-262 2913.52,-268 2907.52,-268"/>
 <text xml:space="preserve" text-anchor="middle" x="2844" y="-247" font-family="Helvetica,sans-Serif" font-size="10.00">realToCStarMatrixStarAlgHom</text>
 </a>
@@ -1151,7 +1151,7 @@
 <!-- n67 -->
 <g id="node67" class="node">
 <title>n67</title>
-<g id="a_node67"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Concentration/MatrixBernstein.lean:530" xlink:title="private theorem · Statlib/HighDim/Concentration/MatrixBernstein.lean:530" target="_blank">
+<g id="a_node67"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/tmp/statlib-main-refresh.tmBBiR/Statlib/HighDim/Concentration/MatrixBernstein.lean:530" xlink:title="private theorem · Statlib/HighDim/Concentration/MatrixBernstein.lean:530" target="_blank">
 <path fill="#ffe6a3" stroke="#d4a017" d="M3120.73,-340C3120.73,-340 3029.27,-340 3029.27,-340 3023.27,-340 3017.27,-334 3017.27,-328 3017.27,-328 3017.27,-316 3017.27,-316 3017.27,-310 3023.27,-304 3029.27,-304 3029.27,-304 3120.73,-304 3120.73,-304 3126.73,-304 3132.73,-310 3132.73,-316 3132.73,-316 3132.73,-328 3132.73,-328 3132.73,-334 3126.73,-340 3120.73,-340"/>
 <text xml:space="preserve" text-anchor="middle" x="3075" y="-319" font-family="Helvetica,sans-Serif" font-size="10.00">realToCStarMatrix_cfc</text>
 </a>
@@ -1184,7 +1184,7 @@
 <!-- n68 -->
 <g id="node68" class="node">
 <title>n68</title>
-<g id="a_node68"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Concentration/MatrixBernstein.lean:540" xlink:title="private theorem · Statlib/HighDim/Concentration/MatrixBernstein.lean:540" target="_blank">
+<g id="a_node68"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/tmp/statlib-main-refresh.tmBBiR/Statlib/HighDim/Concentration/MatrixBernstein.lean:540" xlink:title="private theorem · Statlib/HighDim/Concentration/MatrixBernstein.lean:540" target="_blank">
 <path fill="#ffe6a3" stroke="#d4a017" d="M3152.59,-412C3152.59,-412 3009.41,-412 3009.41,-412 3003.41,-412 2997.41,-406 2997.41,-400 2997.41,-400 2997.41,-388 2997.41,-388 2997.41,-382 3003.41,-376 3009.41,-376 3009.41,-376 3152.59,-376 3152.59,-376 3158.59,-376 3164.59,-382 3164.59,-388 3164.59,-388 3164.59,-400 3164.59,-400 3164.59,-406 3158.59,-412 3152.59,-412"/>
 <text xml:space="preserve" text-anchor="middle" x="3081" y="-391" font-family="Helvetica,sans-Serif" font-size="10.00">realToCStarMatrix_log_of_posDef</text>
 </a>
@@ -1205,7 +1205,7 @@
 <!-- n69 -->
 <g id="node69" class="node">
 <title>n69</title>
-<g id="a_node69"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Concentration/MatrixBernstein.lean:446" xlink:title="private theorem · Statlib/HighDim/Concentration/MatrixBernstein.lean:446" target="_blank">
+<g id="a_node69"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/tmp/statlib-main-refresh.tmBBiR/Statlib/HighDim/Concentration/MatrixBernstein.lean:446" xlink:title="private theorem · Statlib/HighDim/Concentration/MatrixBernstein.lean:446" target="_blank">
 <path fill="#ffe6a3" stroke="#d4a017" d="M3895.01,-196C3895.01,-196 3678.99,-196 3678.99,-196 3672.99,-196 3666.99,-190 3666.99,-184 3666.99,-184 3666.99,-172 3666.99,-172 3666.99,-166 3672.99,-160 3678.99,-160 3678.99,-160 3895.01,-160 3895.01,-160 3901.01,-160 3907.01,-166 3907.01,-172 3907.01,-172 3907.01,-184 3907.01,-184 3907.01,-190 3901.01,-196 3895.01,-196"/>
 <text xml:space="preserve" text-anchor="middle" x="3787" y="-175" font-family="Helvetica,sans-Serif" font-size="10.00">real_posSemidef_of_complexification_posSemidef</text>
 </a>
@@ -1214,7 +1214,7 @@
 <!-- n70 -->
 <g id="node70" class="node">
 <title>n70</title>
-<g id="a_node70"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Concentration/MatrixBernstein.lean:477" xlink:title="private theorem · Statlib/HighDim/Concentration/MatrixBernstein.lean:477" target="_blank">
+<g id="a_node70"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/tmp/statlib-main-refresh.tmBBiR/Statlib/HighDim/Concentration/MatrixBernstein.lean:477" xlink:title="private theorem · Statlib/HighDim/Concentration/MatrixBernstein.lean:477" target="_blank">
 <path fill="#ffe6a3" stroke="#d4a017" d="M3895.16,-268C3895.16,-268 3710.84,-268 3710.84,-268 3704.84,-268 3698.84,-262 3698.84,-256 3698.84,-256 3698.84,-244 3698.84,-244 3698.84,-238 3704.84,-232 3710.84,-232 3710.84,-232 3895.16,-232 3895.16,-232 3901.16,-232 3907.16,-238 3907.16,-244 3907.16,-244 3907.16,-256 3907.16,-256 3907.16,-262 3901.16,-268 3895.16,-268"/>
 <text xml:space="preserve" text-anchor="middle" x="3803" y="-247" font-family="Helvetica,sans-Serif" font-size="10.00">realToCStarMatrix_posSemidef_of_nonneg</text>
 </a>
@@ -1235,7 +1235,7 @@
 <!-- n71 -->
 <g id="node71" class="node">
 <title>n71</title>
-<g id="a_node71"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Concentration/MatrixBernstein.lean:490" xlink:title="private theorem · Statlib/HighDim/Concentration/MatrixBernstein.lean:490" target="_blank">
+<g id="a_node71"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/tmp/statlib-main-refresh.tmBBiR/Statlib/HighDim/Concentration/MatrixBernstein.lean:490" xlink:title="private theorem · Statlib/HighDim/Concentration/MatrixBernstein.lean:490" target="_blank">
 <path fill="#ffe6a3" stroke="#d4a017" d="M3891.32,-340C3891.32,-340 3708.68,-340 3708.68,-340 3702.68,-340 3696.68,-334 3696.68,-328 3696.68,-328 3696.68,-316 3696.68,-316 3696.68,-310 3702.68,-304 3708.68,-304 3708.68,-304 3891.32,-304 3891.32,-304 3897.32,-304 3903.32,-310 3903.32,-316 3903.32,-316 3903.32,-328 3903.32,-328 3903.32,-334 3897.32,-340 3891.32,-340"/>
 <text xml:space="preserve" text-anchor="middle" x="3800" y="-319" font-family="Helvetica,sans-Serif" font-size="10.00">realToCStarMatrix_le_reflects_posSemidef</text>
 </a>
@@ -1256,7 +1256,7 @@
 <!-- n72 -->
 <g id="node72" class="node">
 <title>n72</title>
-<g id="a_node72"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Concentration/MatrixBernstein.lean:629" xlink:title="private theorem · Statlib/HighDim/Concentration/MatrixBernstein.lean:629" target="_blank">
+<g id="a_node72"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/tmp/statlib-main-refresh.tmBBiR/Statlib/HighDim/Concentration/MatrixBernstein.lean:629" xlink:title="private theorem · Statlib/HighDim/Concentration/MatrixBernstein.lean:629" target="_blank">
 <path fill="#ffe6a3" stroke="#d4a017" d="M3894.67,-484C3894.67,-484 3705.33,-484 3705.33,-484 3699.33,-484 3693.33,-478 3693.33,-472 3693.33,-472 3693.33,-460 3693.33,-460 3693.33,-454 3699.33,-448 3705.33,-448 3705.33,-448 3894.67,-448 3894.67,-448 3900.67,-448 3906.67,-454 3906.67,-460 3906.67,-460 3906.67,-472 3906.67,-472 3906.67,-478 3900.67,-484 3894.67,-484"/>
 <text xml:space="preserve" text-anchor="middle" x="3800" y="-463" font-family="Helvetica,sans-Serif" font-size="10.00">real_log_matrix_le_of_exp_sub_posSemidef</text>
 </a>
@@ -1289,7 +1289,7 @@
 <!-- n73 -->
 <g id="node73" class="node">
 <title>n73</title>
-<g id="a_node73"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Vocabulary/Spectral.lean:11" xlink:title="noncomputable def · Statlib/HighDim/Vocabulary/Spectral.lean:11" target="_blank">
+<g id="a_node73"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/tmp/statlib-main-refresh.tmBBiR/Statlib/HighDim/Vocabulary/Spectral.lean:11" xlink:title="noncomputable def · Statlib/HighDim/Vocabulary/Spectral.lean:11" target="_blank">
 <path fill="#d6e9ff" stroke="#3b82f6" d="M2520.14,-124C2520.14,-124 2445.86,-124 2445.86,-124 2439.86,-124 2433.86,-118 2433.86,-112 2433.86,-112 2433.86,-100 2433.86,-100 2433.86,-94 2439.86,-88 2445.86,-88 2445.86,-88 2520.14,-88 2520.14,-88 2526.14,-88 2532.14,-94 2532.14,-100 2532.14,-100 2532.14,-112 2532.14,-112 2532.14,-118 2526.14,-124 2520.14,-124"/>
 <text xml:space="preserve" text-anchor="middle" x="2483" y="-103" font-family="Helvetica,sans-Serif" font-size="10.00">sortedEigenvalues</text>
 </a>
@@ -1298,7 +1298,7 @@
 <!-- n74 -->
 <g id="node74" class="node">
 <title>n74</title>
-<g id="a_node74"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Vocabulary/Spectral.lean:16" xlink:title="noncomputable def · Statlib/HighDim/Vocabulary/Spectral.lean:16" target="_blank">
+<g id="a_node74"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/tmp/statlib-main-refresh.tmBBiR/Statlib/HighDim/Vocabulary/Spectral.lean:16" xlink:title="noncomputable def · Statlib/HighDim/Vocabulary/Spectral.lean:16" target="_blank">
 <path fill="#d6e9ff" stroke="#3b82f6" d="M1445.03,-196C1445.03,-196 1372.97,-196 1372.97,-196 1366.97,-196 1360.97,-190 1360.97,-184 1360.97,-184 1360.97,-172 1360.97,-172 1360.97,-166 1366.97,-160 1372.97,-160 1372.97,-160 1445.03,-160 1445.03,-160 1451.03,-160 1457.03,-166 1457.03,-172 1457.03,-172 1457.03,-184 1457.03,-184 1457.03,-190 1451.03,-196 1445.03,-196"/>
 <text xml:space="preserve" text-anchor="middle" x="1409" y="-175" font-family="Helvetica,sans-Serif" font-size="10.00">eigenSubspaceLe</text>
 </a>
@@ -1307,7 +1307,7 @@
 <!-- n75 -->
 <g id="node75" class="node">
 <title>n75</title>
-<g id="a_node75"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Vocabulary/Spectral.lean:23" xlink:title="noncomputable def · Statlib/HighDim/Vocabulary/Spectral.lean:23" target="_blank">
+<g id="a_node75"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/tmp/statlib-main-refresh.tmBBiR/Statlib/HighDim/Vocabulary/Spectral.lean:23" xlink:title="noncomputable def · Statlib/HighDim/Vocabulary/Spectral.lean:23" target="_blank">
 <path fill="#d6e9ff" stroke="#3b82f6" d="M2305.75,-196C2305.75,-196 2234.25,-196 2234.25,-196 2228.25,-196 2222.25,-190 2222.25,-184 2222.25,-184 2222.25,-172 2222.25,-172 2222.25,-166 2228.25,-160 2234.25,-160 2234.25,-160 2305.75,-160 2305.75,-160 2311.75,-160 2317.75,-166 2317.75,-172 2317.75,-172 2317.75,-184 2317.75,-184 2317.75,-190 2311.75,-196 2305.75,-196"/>
 <text xml:space="preserve" text-anchor="middle" x="2270" y="-175" font-family="Helvetica,sans-Serif" font-size="10.00">eigenSubspaceGt</text>
 </a>
@@ -1316,7 +1316,7 @@
 <!-- n76 -->
 <g id="node76" class="node">
 <title>n76</title>
-<g id="a_node76"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:442" xlink:title="lemma · Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:442" target="_blank">
+<g id="a_node76"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/tmp/statlib-main-refresh.tmBBiR/Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:434" xlink:title="lemma · Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:434" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M1325.82,-268C1325.82,-268 1218.18,-268 1218.18,-268 1212.18,-268 1206.18,-262 1206.18,-256 1206.18,-256 1206.18,-244 1206.18,-244 1206.18,-238 1212.18,-232 1218.18,-232 1218.18,-232 1325.82,-232 1325.82,-232 1331.82,-232 1337.82,-238 1337.82,-244 1337.82,-244 1337.82,-256 1337.82,-256 1337.82,-262 1331.82,-268 1325.82,-268"/>
 <text xml:space="preserve" text-anchor="middle" x="1272" y="-247" font-family="Helvetica,sans-Serif" font-size="10.00">finrank_eigenSubspaceLe</text>
 </a>
@@ -1331,7 +1331,7 @@
 <!-- n77 -->
 <g id="node77" class="node">
 <title>n77</title>
-<g id="a_node77"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:38" xlink:title="lemma · Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:38" target="_blank">
+<g id="a_node77"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/tmp/statlib-main-refresh.tmBBiR/Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:40" xlink:title="lemma · Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:40" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M2452.43,-196C2452.43,-196 2347.57,-196 2347.57,-196 2341.57,-196 2335.57,-190 2335.57,-184 2335.57,-184 2335.57,-172 2335.57,-172 2335.57,-166 2341.57,-160 2347.57,-160 2347.57,-160 2452.43,-160 2452.43,-160 2458.43,-160 2464.43,-166 2464.43,-172 2464.43,-172 2464.43,-184 2464.43,-184 2464.43,-190 2458.43,-196 2452.43,-196"/>
 <text xml:space="preserve" text-anchor="middle" x="2400" y="-175" font-family="Helvetica,sans-Serif" font-size="10.00">sortedEigenvalues_mono</text>
 </a>
@@ -1346,7 +1346,7 @@
 <!-- n78 -->
 <g id="node78" class="node">
 <title>n78</title>
-<g id="a_node78"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:67" xlink:title="lemma · Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:67" target="_blank">
+<g id="a_node78"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/tmp/statlib-main-refresh.tmBBiR/Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:69" xlink:title="lemma · Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:69" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M2246.28,-268C2246.28,-268 2089.72,-268 2089.72,-268 2083.72,-268 2077.72,-262 2077.72,-256 2077.72,-256 2077.72,-244 2077.72,-244 2077.72,-238 2083.72,-232 2089.72,-232 2089.72,-232 2246.28,-232 2246.28,-232 2252.28,-232 2258.28,-238 2258.28,-244 2258.28,-244 2258.28,-256 2258.28,-256 2258.28,-262 2252.28,-268 2246.28,-268"/>
 <text xml:space="preserve" text-anchor="middle" x="2168" y="-247" font-family="Helvetica,sans-Serif" font-size="10.00">sortedEigenvalues_lt_card_le_sorted</text>
 </a>
@@ -1367,7 +1367,7 @@
 <!-- n79 -->
 <g id="node79" class="node">
 <title>n79</title>
-<g id="a_node79"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:76" xlink:title="lemma · Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:76" target="_blank">
+<g id="a_node79"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/tmp/statlib-main-refresh.tmBBiR/Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:78" xlink:title="lemma · Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:78" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M2413.29,-340C2413.29,-340 2226.71,-340 2226.71,-340 2220.71,-340 2214.71,-334 2214.71,-328 2214.71,-328 2214.71,-316 2214.71,-316 2214.71,-310 2220.71,-304 2226.71,-304 2226.71,-304 2413.29,-304 2413.29,-304 2419.29,-304 2425.29,-310 2425.29,-316 2425.29,-316 2425.29,-328 2425.29,-328 2425.29,-334 2419.29,-340 2413.29,-340"/>
 <text xml:space="preserve" text-anchor="middle" x="2320" y="-319" font-family="Helvetica,sans-Serif" font-size="10.00">sortedEigenvalues_lt_card_eigen_le_sorted</text>
 </a>
@@ -1388,7 +1388,7 @@
 <!-- n80 -->
 <g id="node80" class="node">
 <title>n80</title>
-<g id="a_node80"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:486" xlink:title="lemma · Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:486" target="_blank">
+<g id="a_node80"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/tmp/statlib-main-refresh.tmBBiR/Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:478" xlink:title="lemma · Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:478" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M2730.54,-340C2730.54,-340 2623.46,-340 2623.46,-340 2617.46,-340 2611.46,-334 2611.46,-328 2611.46,-328 2611.46,-316 2611.46,-316 2611.46,-310 2617.46,-304 2623.46,-304 2623.46,-304 2730.54,-304 2730.54,-304 2736.54,-304 2742.54,-310 2742.54,-316 2742.54,-316 2742.54,-328 2742.54,-328 2742.54,-334 2736.54,-340 2730.54,-340"/>
 <text xml:space="preserve" text-anchor="middle" x="2677" y="-319" font-family="Helvetica,sans-Serif" font-size="10.00">finrank_eigenSubspaceGt</text>
 </a>
@@ -1403,7 +1403,7 @@
 <!-- n81 -->
 <g id="node81" class="node">
 <title>n81</title>
-<g id="a_node81"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:103" xlink:title="lemma · Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:103" target="_blank">
+<g id="a_node81"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/tmp/statlib-main-refresh.tmBBiR/Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:105" xlink:title="lemma · Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:105" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M2657.61,-196C2657.61,-196 2514.39,-196 2514.39,-196 2508.39,-196 2502.39,-190 2502.39,-184 2502.39,-184 2502.39,-172 2502.39,-172 2502.39,-166 2508.39,-160 2514.39,-160 2514.39,-160 2657.61,-160 2657.61,-160 2663.61,-160 2669.61,-166 2669.61,-172 2669.61,-172 2669.61,-184 2669.61,-184 2669.61,-190 2663.61,-196 2657.61,-196"/>
 <text xml:space="preserve" text-anchor="middle" x="2586" y="-175" font-family="Helvetica,sans-Serif" font-size="10.00">card_sorted_le_eq_card_eigen_le</text>
 </a>
@@ -1418,7 +1418,7 @@
 <!-- n82 -->
 <g id="node82" class="node">
 <title>n82</title>
-<g id="a_node82"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:125" xlink:title="lemma · Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:125" target="_blank">
+<g id="a_node82"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/tmp/statlib-main-refresh.tmBBiR/Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:127" xlink:title="lemma · Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:127" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M2657.99,-268C2657.99,-268 2542.01,-268 2542.01,-268 2536.01,-268 2530.01,-262 2530.01,-256 2530.01,-256 2530.01,-244 2530.01,-244 2530.01,-238 2536.01,-232 2542.01,-232 2542.01,-232 2657.99,-232 2657.99,-232 2663.99,-232 2669.99,-238 2669.99,-244 2669.99,-244 2669.99,-256 2669.99,-256 2669.99,-262 2663.99,-268 2657.99,-268"/>
 <text xml:space="preserve" text-anchor="middle" x="2600" y="-247" font-family="Helvetica,sans-Serif" font-size="10.00">card_eigen_le_of_sorted_gt</text>
 </a>
@@ -1445,7 +1445,7 @@
 <!-- n83 -->
 <g id="node83" class="node">
 <title>n83</title>
-<g id="a_node83"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:145" xlink:title="lemma · Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:145" target="_blank">
+<g id="a_node83"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/tmp/statlib-main-refresh.tmBBiR/Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:147" xlink:title="lemma · Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:147" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M2926.61,-340C2926.61,-340 2793.39,-340 2793.39,-340 2787.39,-340 2781.39,-334 2781.39,-328 2781.39,-328 2781.39,-316 2781.39,-316 2781.39,-310 2787.39,-304 2793.39,-304 2793.39,-304 2926.61,-304 2926.61,-304 2932.61,-304 2938.61,-310 2938.61,-316 2938.61,-316 2938.61,-328 2938.61,-328 2938.61,-334 2932.61,-340 2926.61,-340"/>
 <text xml:space="preserve" text-anchor="middle" x="2860" y="-319" font-family="Helvetica,sans-Serif" font-size="10.00">card_eigen_gt_ge_of_sorted_gt</text>
 </a>
@@ -1466,7 +1466,7 @@
 <!-- n84 -->
 <g id="node84" class="node">
 <title>n84</title>
-<g id="a_node84"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:837" xlink:title="lemma · Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:837" target="_blank">
+<g id="a_node84"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/tmp/statlib-main-refresh.tmBBiR/Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:829" xlink:title="lemma · Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:829" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M2164.73,-340C2164.73,-340 1979.27,-340 1979.27,-340 1973.27,-340 1967.27,-334 1967.27,-328 1967.27,-328 1967.27,-316 1967.27,-316 1967.27,-310 1973.27,-304 1979.27,-304 1979.27,-304 2164.73,-304 2164.73,-304 2170.73,-304 2176.73,-310 2176.73,-316 2176.73,-316 2176.73,-328 2176.73,-328 2176.73,-334 2170.73,-340 2164.73,-340"/>
 <text xml:space="preserve" text-anchor="middle" x="2072" y="-319" font-family="Helvetica,sans-Serif" font-size="10.00">exists_ne_zero_mem_inf_of_finrank_lt_add</text>
 </a>
@@ -1475,7 +1475,7 @@
 <!-- n85 -->
 <g id="node85" class="node">
 <title>n85</title>
-<g id="a_node85"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:198" xlink:title="lemma · Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:198" target="_blank">
+<g id="a_node85"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/tmp/statlib-main-refresh.tmBBiR/Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:200" xlink:title="lemma · Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:200" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M1761.66,-52C1761.66,-52 1622.34,-52 1622.34,-52 1616.34,-52 1610.34,-46 1610.34,-40 1610.34,-40 1610.34,-28 1610.34,-28 1610.34,-22 1616.34,-16 1622.34,-16 1622.34,-16 1761.66,-16 1761.66,-16 1767.66,-16 1773.66,-22 1773.66,-28 1773.66,-28 1773.66,-40 1773.66,-40 1773.66,-46 1767.66,-52 1761.66,-52"/>
 <text xml:space="preserve" text-anchor="middle" x="1692" y="-31" font-family="Helvetica,sans-Serif" font-size="10.00">toEuclideanLin_eigenvectorBasis</text>
 </a>
@@ -1484,7 +1484,7 @@
 <!-- n86 -->
 <g id="node86" class="node">
 <title>n86</title>
-<g id="a_node86"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:205" xlink:title="lemma · Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:205" target="_blank">
+<g id="a_node86"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/tmp/statlib-main-refresh.tmBBiR/Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:207" xlink:title="lemma · Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:207" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M1744.7,-124C1744.7,-124 1639.3,-124 1639.3,-124 1633.3,-124 1627.3,-118 1627.3,-112 1627.3,-112 1627.3,-100 1627.3,-100 1627.3,-94 1633.3,-88 1639.3,-88 1639.3,-88 1744.7,-88 1744.7,-88 1750.7,-88 1756.7,-94 1756.7,-100 1756.7,-100 1756.7,-112 1756.7,-112 1756.7,-118 1750.7,-124 1744.7,-124"/>
 <text xml:space="preserve" text-anchor="middle" x="1692" y="-103" font-family="Helvetica,sans-Serif" font-size="10.00">toEuclideanLin_sum_repr</text>
 </a>
@@ -1499,7 +1499,7 @@
 <!-- n87 -->
 <g id="node87" class="node">
 <title>n87</title>
-<g id="a_node87"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:223" xlink:title="lemma · Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:223" target="_blank">
+<g id="a_node87"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/tmp/statlib-main-refresh.tmBBiR/Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:225" xlink:title="lemma · Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:225" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M1764.44,-196C1764.44,-196 1619.56,-196 1619.56,-196 1613.56,-196 1607.56,-190 1607.56,-184 1607.56,-184 1607.56,-172 1607.56,-172 1607.56,-166 1613.56,-160 1619.56,-160 1619.56,-160 1764.44,-160 1764.44,-160 1770.44,-160 1776.44,-166 1776.44,-172 1776.44,-172 1776.44,-184 1776.44,-184 1776.44,-190 1770.44,-196 1764.44,-196"/>
 <text xml:space="preserve" text-anchor="middle" x="1692" y="-175" font-family="Helvetica,sans-Serif" font-size="10.00">hermitian_rayleigh_eq_sum_eigen</text>
 </a>
@@ -1514,7 +1514,7 @@
 <!-- n88 -->
 <g id="node88" class="node">
 <title>n88</title>
-<g id="a_node88"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:256" xlink:title="lemma · Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:256" target="_blank">
+<g id="a_node88"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/tmp/statlib-main-refresh.tmBBiR/Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:258" xlink:title="lemma · Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:258" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M2005.44,-196C2005.44,-196 1810.56,-196 1810.56,-196 1804.56,-196 1798.56,-190 1798.56,-184 1798.56,-184 1798.56,-172 1798.56,-172 1798.56,-166 1804.56,-160 1810.56,-160 1810.56,-160 2005.44,-160 2005.44,-160 2011.44,-160 2017.44,-166 2017.44,-172 2017.44,-172 2017.44,-184 2017.44,-184 2017.44,-190 2011.44,-196 2005.44,-196"/>
 <text xml:space="preserve" text-anchor="middle" x="1908" y="-175" font-family="Helvetica,sans-Serif" font-size="10.00">orthonormalBasis_norm_sq_eq_sum_repr_sq</text>
 </a>
@@ -1523,7 +1523,7 @@
 <!-- n89 -->
 <g id="node89" class="node">
 <title>n89</title>
-<g id="a_node89"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:422" xlink:title="lemma · Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:422" target="_blank">
+<g id="a_node89"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/tmp/statlib-main-refresh.tmBBiR/Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:414" xlink:title="lemma · Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:414" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M1781.62,-268C1781.62,-268 1598.38,-268 1598.38,-268 1592.38,-268 1586.38,-262 1586.38,-256 1586.38,-256 1586.38,-244 1586.38,-244 1586.38,-238 1592.38,-232 1598.38,-232 1598.38,-232 1781.62,-232 1781.62,-232 1787.62,-232 1793.62,-238 1793.62,-244 1793.62,-244 1793.62,-256 1793.62,-256 1793.62,-262 1787.62,-268 1781.62,-268"/>
 <text xml:space="preserve" text-anchor="middle" x="1690" y="-247" font-family="Helvetica,sans-Serif" font-size="10.00">hermitian_rayleigh_le_of_support_eigen_le</text>
 </a>
@@ -1544,7 +1544,7 @@
 <!-- n90 -->
 <g id="node90" class="node">
 <title>n90</title>
-<g id="a_node90"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:455" xlink:title="lemma · Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:455" target="_blank">
+<g id="a_node90"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/tmp/statlib-main-refresh.tmBBiR/Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:447" xlink:title="lemma · Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:447" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M1536.39,-268C1536.39,-268 1387.61,-268 1387.61,-268 1381.61,-268 1375.61,-262 1375.61,-256 1375.61,-256 1375.61,-244 1375.61,-244 1375.61,-238 1381.61,-232 1387.61,-232 1387.61,-232 1536.39,-232 1536.39,-232 1542.39,-232 1548.39,-238 1548.39,-244 1548.39,-244 1548.39,-256 1548.39,-256 1548.39,-262 1542.39,-268 1536.39,-268"/>
 <text xml:space="preserve" text-anchor="middle" x="1462" y="-247" font-family="Helvetica,sans-Serif" font-size="10.00">eigenSubspaceLe_coeff_zero_of_lt</text>
 </a>
@@ -1559,7 +1559,7 @@
 <!-- n91 -->
 <g id="node91" class="node">
 <title>n91</title>
-<g id="a_node91"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:477" xlink:title="lemma · Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:477" target="_blank">
+<g id="a_node91"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/tmp/statlib-main-refresh.tmBBiR/Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:469" xlink:title="lemma · Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:469" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M1917,-340C1917,-340 1791,-340 1791,-340 1785,-340 1779,-334 1779,-328 1779,-328 1779,-316 1779,-316 1779,-310 1785,-304 1791,-304 1791,-304 1917,-304 1917,-304 1923,-304 1929,-310 1929,-316 1929,-316 1929,-328 1929,-328 1929,-334 1923,-340 1917,-340"/>
 <text xml:space="preserve" text-anchor="middle" x="1854" y="-319" font-family="Helvetica,sans-Serif" font-size="10.00">eigenSubspaceLe_rayleigh_le</text>
 </a>
@@ -1586,7 +1586,7 @@
 <!-- n92 -->
 <g id="node92" class="node">
 <title>n92</title>
-<g id="a_node92"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:521" xlink:title="lemma · Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:521" target="_blank">
+<g id="a_node92"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/tmp/statlib-main-refresh.tmBBiR/Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:513" xlink:title="lemma · Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:513" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M2008.18,-268C2008.18,-268 1823.82,-268 1823.82,-268 1817.82,-268 1811.82,-262 1811.82,-256 1811.82,-256 1811.82,-244 1811.82,-244 1811.82,-238 1817.82,-232 1823.82,-232 1823.82,-232 2008.18,-232 2008.18,-232 2014.18,-232 2020.18,-238 2020.18,-244 2020.18,-244 2020.18,-256 2020.18,-256 2020.18,-262 2014.18,-268 2008.18,-268"/>
 <text xml:space="preserve" text-anchor="middle" x="1916" y="-247" font-family="Helvetica,sans-Serif" font-size="10.00">hermitian_rayleigh_gt_of_support_eigen_gt</text>
 </a>
@@ -1607,7 +1607,7 @@
 <!-- n93 -->
 <g id="node93" class="node">
 <title>n93</title>
-<g id="a_node93"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:499" xlink:title="lemma · Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:499" target="_blank">
+<g id="a_node93"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/tmp/statlib-main-refresh.tmBBiR/Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:491" xlink:title="lemma · Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:491" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M2459.5,-268C2459.5,-268 2308.5,-268 2308.5,-268 2302.5,-268 2296.5,-262 2296.5,-256 2296.5,-256 2296.5,-244 2296.5,-244 2296.5,-238 2302.5,-232 2308.5,-232 2308.5,-232 2459.5,-232 2459.5,-232 2465.5,-232 2471.5,-238 2471.5,-244 2471.5,-244 2471.5,-256 2471.5,-256 2471.5,-262 2465.5,-268 2459.5,-268"/>
 <text xml:space="preserve" text-anchor="middle" x="2384" y="-247" font-family="Helvetica,sans-Serif" font-size="10.00">eigenSubspaceGt_coeff_zero_of_le</text>
 </a>
@@ -1622,7 +1622,7 @@
 <!-- n94 -->
 <g id="node94" class="node">
 <title>n94</title>
-<g id="a_node94"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:570" xlink:title="lemma · Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:570" target="_blank">
+<g id="a_node94"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/tmp/statlib-main-refresh.tmBBiR/Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:562" xlink:title="lemma · Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:562" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M2580.99,-340C2580.99,-340 2455.01,-340 2455.01,-340 2449.01,-340 2443.01,-334 2443.01,-328 2443.01,-328 2443.01,-316 2443.01,-316 2443.01,-310 2449.01,-304 2455.01,-304 2455.01,-304 2580.99,-304 2580.99,-304 2586.99,-304 2592.99,-310 2592.99,-316 2592.99,-316 2592.99,-328 2592.99,-328 2592.99,-334 2586.99,-340 2580.99,-340"/>
 <text xml:space="preserve" text-anchor="middle" x="2518" y="-319" font-family="Helvetica,sans-Serif" font-size="10.00">eigenSubspaceGt_rayleigh_gt</text>
 </a>
@@ -1649,7 +1649,7 @@
 <!-- n95 -->
 <g id="node95" class="node">
 <title>n95</title>
-<g id="a_node95"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Concentration/MatrixBernstein.lean:640" xlink:title="private theorem · Statlib/HighDim/Concentration/MatrixBernstein.lean:640" target="_blank">
+<g id="a_node95"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/tmp/statlib-main-refresh.tmBBiR/Statlib/HighDim/Concentration/MatrixBernstein.lean:640" xlink:title="private theorem · Statlib/HighDim/Concentration/MatrixBernstein.lean:640" target="_blank">
 <path fill="#ffe6a3" stroke="#d4a017" d="M2821.07,-412C2821.07,-412 2638.93,-412 2638.93,-412 2632.93,-412 2626.93,-406 2626.93,-400 2626.93,-400 2626.93,-388 2626.93,-388 2626.93,-382 2632.93,-376 2638.93,-376 2638.93,-376 2821.07,-376 2821.07,-376 2827.07,-376 2833.07,-382 2833.07,-388 2833.07,-388 2833.07,-400 2833.07,-400 2833.07,-406 2827.07,-412 2821.07,-412"/>
 <text xml:space="preserve" text-anchor="middle" x="2730" y="-391" font-family="Helvetica,sans-Serif" font-size="10.00">sortedEigenvalues_le_of_add_posSemidef</text>
 </a>
@@ -1718,7 +1718,7 @@
 <!-- n96 -->
 <g id="node96" class="node">
 <title>n96</title>
-<g id="a_node96"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:44" xlink:title="lemma · Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:44" target="_blank">
+<g id="a_node96"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/tmp/statlib-main-refresh.tmBBiR/Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:46" xlink:title="lemma · Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:46" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M2842.31,-196C2842.31,-196 2739.69,-196 2739.69,-196 2733.69,-196 2727.69,-190 2727.69,-184 2727.69,-184 2727.69,-172 2727.69,-172 2727.69,-166 2733.69,-160 2739.69,-160 2739.69,-160 2842.31,-160 2842.31,-160 2848.31,-160 2854.31,-166 2854.31,-172 2854.31,-172 2854.31,-184 2854.31,-184 2854.31,-190 2848.31,-196 2842.31,-196"/>
 <text xml:space="preserve" text-anchor="middle" x="2791" y="-175" font-family="Helvetica,sans-Serif" font-size="10.00">sortedEigenvalues_perm</text>
 </a>
@@ -1733,7 +1733,7 @@
 <!-- n97 -->
 <g id="node97" class="node">
 <title>n97</title>
-<g id="a_node97"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Concentration/MatrixBernstein.lean:703" xlink:title="private theorem · Statlib/HighDim/Concentration/MatrixBernstein.lean:703" target="_blank">
+<g id="a_node97"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/tmp/statlib-main-refresh.tmBBiR/Statlib/HighDim/Concentration/MatrixBernstein.lean:703" xlink:title="private theorem · Statlib/HighDim/Concentration/MatrixBernstein.lean:703" target="_blank">
 <path fill="#ffe6a3" stroke="#d4a017" d="M3663.57,-484C3663.57,-484 3456.43,-484 3456.43,-484 3450.43,-484 3444.43,-478 3444.43,-472 3444.43,-472 3444.43,-460 3444.43,-460 3444.43,-454 3450.43,-448 3456.43,-448 3456.43,-448 3663.57,-448 3663.57,-448 3669.57,-448 3675.57,-454 3675.57,-460 3675.57,-460 3675.57,-472 3675.57,-472 3675.57,-478 3669.57,-484 3663.57,-484"/>
 <text xml:space="preserve" text-anchor="middle" x="3560" y="-463" font-family="Helvetica,sans-Serif" font-size="10.00">hermitian_trace_exp_mono_of_sub_posSemidef</text>
 </a>
@@ -1766,7 +1766,7 @@
 <!-- n98 -->
 <g id="node98" class="node">
 <title>n98</title>
-<g id="a_node98"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Concentration/MatrixBernstein.lean:63" xlink:title="axiom · Statlib/HighDim/Concentration/MatrixBernstein.lean:63" target="_blank">
+<g id="a_node98"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/tmp/statlib-main-refresh.tmBBiR/Statlib/HighDim/Concentration/MatrixBernstein.lean:63" xlink:title="axiom · Statlib/HighDim/Concentration/MatrixBernstein.lean:63" target="_blank">
 <path fill="#ffd6d6" stroke="#c0392b" d="M2375.54,-484C2375.54,-484 2228.46,-484 2228.46,-484 2222.46,-484 2216.46,-478 2216.46,-472 2216.46,-472 2216.46,-460 2216.46,-460 2216.46,-454 2222.46,-448 2228.46,-448 2228.46,-448 2375.54,-448 2375.54,-448 2381.54,-448 2387.54,-454 2387.54,-460 2387.54,-460 2387.54,-472 2387.54,-472 2387.54,-478 2381.54,-484 2375.54,-484"/>
 <text xml:space="preserve" text-anchor="middle" x="2302" y="-463" font-family="Helvetica,sans-Serif" font-size="10.00">matrix_lieb_one_step_trace_axiom</text>
 </a>
@@ -1775,7 +1775,7 @@
 <!-- n99 -->
 <g id="node99" class="node">
 <title>n99</title>
-<g id="a_node99"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Concentration/MatrixBernstein.lean:1861" xlink:title="private theorem · Statlib/HighDim/Concentration/MatrixBernstein.lean:1861" target="_blank">
+<g id="a_node99"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/tmp/statlib-main-refresh.tmBBiR/Statlib/HighDim/Concentration/MatrixBernstein.lean:1861" xlink:title="private theorem · Statlib/HighDim/Concentration/MatrixBernstein.lean:1861" target="_blank">
 <path fill="#ffe6a3" stroke="#d4a017" d="M2960.43,-556C2960.43,-556 2845.57,-556 2845.57,-556 2839.57,-556 2833.57,-550 2833.57,-544 2833.57,-544 2833.57,-532 2833.57,-532 2833.57,-526 2839.57,-520 2845.57,-520 2845.57,-520 2960.43,-520 2960.43,-520 2966.43,-520 2972.43,-526 2972.43,-532 2972.43,-532 2972.43,-544 2972.43,-544 2972.43,-550 2966.43,-556 2960.43,-556"/>
 <text xml:space="preserve" text-anchor="middle" x="2903" y="-535" font-family="Helvetica,sans-Serif" font-size="10.00">matrix_lieb_one_step_trace</text>
 </a>
@@ -1886,7 +1886,7 @@
 <!-- n100 -->
 <g id="node100" class="node">
 <title>n100</title>
-<g id="a_node100"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Concentration/MatrixBernstein.lean:2074" xlink:title="private theorem · Statlib/HighDim/Concentration/MatrixBernstein.lean:2074" target="_blank">
+<g id="a_node100"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/tmp/statlib-main-refresh.tmBBiR/Statlib/HighDim/Concentration/MatrixBernstein.lean:2074" xlink:title="private theorem · Statlib/HighDim/Concentration/MatrixBernstein.lean:2074" target="_blank">
 <path fill="#ffe6a3" stroke="#d4a017" d="M2807,-628C2807,-628 2621,-628 2621,-628 2615,-628 2609,-622 2609,-616 2609,-616 2609,-604 2609,-604 2609,-598 2615,-592 2621,-592 2621,-592 2807,-592 2807,-592 2813,-592 2819,-598 2819,-604 2819,-604 2819,-616 2819,-616 2819,-622 2813,-628 2807,-628"/>
 <text xml:space="preserve" text-anchor="middle" x="2714" y="-607" font-family="Helvetica,sans-Serif" font-size="10.00">matrix_laplace_trace_mgf_bound_lieb_core</text>
 </a>
@@ -1919,7 +1919,7 @@
 <!-- n101 -->
 <g id="node101" class="node">
 <title>n101</title>
-<g id="a_node101"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Concentration/MatrixBernstein.lean:3190" xlink:title="private theorem · Statlib/HighDim/Concentration/MatrixBernstein.lean:3190" target="_blank">
+<g id="a_node101"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/tmp/statlib-main-refresh.tmBBiR/Statlib/HighDim/Concentration/MatrixBernstein.lean:3190" xlink:title="private theorem · Statlib/HighDim/Concentration/MatrixBernstein.lean:3190" target="_blank">
 <path fill="#ffe6a3" stroke="#d4a017" d="M1488.82,-701.2C1488.82,-701.2 1371.18,-701.2 1371.18,-701.2 1365.18,-701.2 1359.18,-695.2 1359.18,-689.2 1359.18,-689.2 1359.18,-677.2 1359.18,-677.2 1359.18,-671.2 1365.18,-665.2 1371.18,-665.2 1371.18,-665.2 1488.82,-665.2 1488.82,-665.2 1494.82,-665.2 1500.82,-671.2 1500.82,-677.2 1500.82,-677.2 1500.82,-689.2 1500.82,-689.2 1500.82,-695.2 1494.82,-701.2 1488.82,-701.2"/>
 <text xml:space="preserve" text-anchor="middle" x="1430" y="-680.2" font-family="Helvetica,sans-Serif" font-size="10.00">matrix_bernstein_one_sided</text>
 </a>
@@ -2078,7 +2078,7 @@
 <!-- n14 -->
 <g id="node103" class="node">
 <title>n14</title>
-<g id="a_node103"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/StatFoundation/Concentration/ExponentialType/bernstein_bounded_sum_meas_ge_le_exp.lean:9" xlink:title="theorem · Statlib/StatFoundation/Concentration/ExponentialType/bernstein_bounded_sum_meas_ge_le_exp.lean:9" target="_blank">
+<g id="a_node103"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/tmp/statlib-main-refresh.tmBBiR/Statlib/StatFoundation/Concentration/ExponentialType/bernstein_bounded_sum_meas_ge_le_exp.lean:9" xlink:title="theorem · Statlib/StatFoundation/Concentration/ExponentialType/bernstein_bounded_sum_meas_ge_le_exp.lean:9" target="_blank">
 <path fill="#ffe6a3" stroke="#d4a017" d="M4126.91,-628C4126.91,-628 3943.09,-628 3943.09,-628 3937.09,-628 3931.09,-622 3931.09,-616 3931.09,-616 3931.09,-604 3931.09,-604 3931.09,-598 3937.09,-592 3943.09,-592 3943.09,-592 4126.91,-592 4126.91,-592 4132.91,-592 4138.91,-598 4138.91,-604 4138.91,-604 4138.91,-616 4138.91,-616 4138.91,-622 4132.91,-628 4126.91,-628"/>
 <text xml:space="preserve" text-anchor="middle" x="4035" y="-607" font-family="Helvetica,sans-Serif" font-size="10.00">bernstein_bounded_sum_meas_ge_le_exp</text>
 </a>
@@ -2093,7 +2093,7 @@
 <!-- n102 -->
 <g id="node102" class="node">
 <title>n102</title>
-<g id="a_node102"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Concentration/MatrixBernstein.lean:4446" xlink:title="theorem · Statlib/HighDim/Concentration/MatrixBernstein.lean:4446" target="_blank">
+<g id="a_node102"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/tmp/statlib-main-refresh.tmBBiR/Statlib/HighDim/Concentration/MatrixBernstein.lean:4446" xlink:title="theorem · Statlib/HighDim/Concentration/MatrixBernstein.lean:4446" target="_blank">
 <path fill="#ffe6a3" stroke="#d4a017" stroke-width="3" d="M295.96,-773.2C295.96,-773.2 230.04,-773.2 230.04,-773.2 224.04,-773.2 218.04,-767.2 218.04,-761.2 218.04,-761.2 218.04,-749.2 218.04,-749.2 218.04,-743.2 224.04,-737.2 230.04,-737.2 230.04,-737.2 295.96,-737.2 295.96,-737.2 301.96,-737.2 307.96,-743.2 307.96,-749.2 307.96,-749.2 307.96,-761.2 307.96,-761.2 307.96,-767.2 301.96,-773.2 295.96,-773.2"/>
 <text xml:space="preserve" text-anchor="middle" x="263" y="-752.2" font-family="Helvetica,sans-Serif" font-size="10.00">matrix_bernstein</text>
 </a>

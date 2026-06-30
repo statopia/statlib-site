@@ -1,6 +1,6 @@
 # StatFoundation — proof narratives
 
-57 headline result(s).
+59 headline result(s).
 
 - [as_implies_inProbability](as_implies_inProbability.md) — theorem, 4 decl(s) · `Statlib/StatFoundation/Convergence/AnalysisTools/ConvergenceModes.lean:176`
 - [basu_indepFun](basu_indepFun.md) — theorem, 11 decl(s) · `Statlib/StatFoundation/Statistics/Sufficiency/Basu.lean:50`
@@ -50,12 +50,14 @@
 - [subexp_meas_ge_le_exp](subexp_meas_ge_le_exp.md) — theorem, 2 decl(s) · `Statlib/StatFoundation/RandomVariable/SubExponential/subexp_meas_ge_le_exp.lean:12`
 - [subexp_mgf_finite](subexp_mgf_finite.md) — theorem, 2 decl(s) · `Statlib/StatFoundation/RandomVariable/SubExponential/subexp_mgf_finite.lean:15`
 - [subexp_mgf_le_of_subgaussian](subexp_mgf_le_of_subgaussian.md) — theorem, 2 decl(s) · `Statlib/StatFoundation/RandomVariable/SubExponential/subexp_mgf_le_of_subgaussian.lean:12`
+- [subexp_sub](subexp_sub.md) — theorem, 5 decl(s) · `Statlib/StatFoundation/RandomVariable/SubExponential/subexp_closure.lean:536`
 - [subexp_variance_le](subexp_variance_le.md) — theorem, 2 decl(s) · `Statlib/StatFoundation/RandomVariable/SubExponential/subexp_variance_le.lean:9`
 - [subexponentialOrliczNorm](subexponentialOrliczNorm.md) — noncomputable abbrev, 3 decl(s) · `Statlib/StatFoundation/Vocabulary/OrliczNorm.lean:59`
 - [subgaussian_even_moment_le](subgaussian_even_moment_le.md) — theorem, 2 decl(s) · `Statlib/StatFoundation/RandomVariable/SubGaussian/subgaussian_even_moment_le.lean:20`
 - [subgaussian_fourth_moment_le](subgaussian_fourth_moment_le.md) — theorem, 3 decl(s) · `Statlib/StatFoundation/RandomVariable/SubGaussian/subgaussian_fourth_moment_le.lean:112`
 - [subgaussian_mgf_le_of_even_moment](subgaussian_mgf_le_of_even_moment.md) — theorem, 8 decl(s) · `Statlib/StatFoundation/RandomVariable/SubGaussian/subgaussian_mgf_le_of_even_moment.lean:183`
 - [subgaussian_mgf_le_of_exp_sq](subgaussian_mgf_le_of_exp_sq.md) — theorem, 3 decl(s) · `Statlib/StatFoundation/RandomVariable/SubGaussian/subgaussian_mgf_le_of_exp_sq.lean:90`
+- [subgaussian_prod_subexponential](subgaussian_prod_subexponential.md) — theorem, 11 decl(s) · `Statlib/StatFoundation/RandomVariable/SubExponential/subgaussian_prod_subexponential.lean:25`
 - [subgaussianOrliczNorm](subgaussianOrliczNorm.md) — noncomputable abbrev, 3 decl(s) · `Statlib/StatFoundation/Vocabulary/OrliczNorm.lean:55`
 - [TotalVariationConvergence](TotalVariationConvergence.md) — def, 3 decl(s) · `Statlib/StatFoundation/Convergence/AnalysisTools/ConvergenceModes.lean:145`
 - [uniform_strong_law](uniform_strong_law.md) — theorem, 14 decl(s) · `Statlib/StatFoundation/Convergence/LawOfLargeNumbers/UniformStrongLaw.lean:404`

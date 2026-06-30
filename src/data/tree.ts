@@ -32,7 +32,15 @@ export const libraryTree: TreeNode = {
           "dir": true,
           "children": [
             {
+              "name": "CovDiagonalConcentration.lean",
+              "dir": false
+            },
+            {
               "name": "CovQuadraticDeviation.lean",
+              "dir": false
+            },
+            {
+              "name": "CovTraceConcentration.lean",
               "dir": false
             },
             {
@@ -75,6 +83,10 @@ export const libraryTree: TreeNode = {
           "name": "Regression",
           "dir": true,
           "children": [
+            {
+              "name": "DesignNoiseInnerSubexponential.lean",
+              "dir": false
+            },
             {
               "name": "DesignNoiseSecondMoment.lean",
               "dir": false
@@ -184,6 +196,24 @@ export const libraryTree: TreeNode = {
       "dir": true,
       "children": [
         {
+          "name": "BasicAnalysis",
+          "dir": true,
+          "children": [
+            {
+              "name": "exp_neg_sq_div_le_exp_neg_sq_div_of_den_le.lean",
+              "dir": false
+            },
+            {
+              "name": "measure_le_ofReal_of_measureReal_le.lean",
+              "dir": false
+            },
+            {
+              "name": "sub_le_abs_sub_of_gap_near.lean",
+              "dir": false
+            }
+          ]
+        },
+        {
           "name": "Concentration",
           "dir": true,
           "children": [
@@ -277,6 +307,10 @@ export const libraryTree: TreeNode = {
                 },
                 {
                   "name": "subexp_sum_mgf_le_of_indep.lean",
+                  "dir": false
+                },
+                {
+                  "name": "subgaussian_abs_tail_real.lean",
                   "dir": false
                 },
                 {
@@ -468,6 +502,18 @@ export const libraryTree: TreeNode = {
               "dir": true,
               "children": [
                 {
+                  "name": "scalar_sq_centered_exp_integrable.lean",
+                  "dir": false
+                },
+                {
+                  "name": "scalar_sq_centered_subexponential_explicit.lean",
+                  "dir": false
+                },
+                {
+                  "name": "subexp_closure.lean",
+                  "dir": false
+                },
+                {
                   "name": "subexp_exp_tail_of_subexp.lean",
                   "dir": false
                 },
@@ -518,6 +564,14 @@ export const libraryTree: TreeNode = {
                 {
                   "name": "subexp_variance_le.lean",
                   "dir": false
+                },
+                {
+                  "name": "subexponential_mgf_const_mul.lean",
+                  "dir": false
+                },
+                {
+                  "name": "subgaussian_prod_subexponential.lean",
+                  "dir": false
                 }
               ]
             },
@@ -550,6 +604,10 @@ export const libraryTree: TreeNode = {
                   "dir": false
                 },
                 {
+                  "name": "subgaussian_integral_eq_zero.lean",
+                  "dir": false
+                },
+                {
                   "name": "subgaussian_meas_abs_ge_le_two_exp.lean",
                   "dir": false
                 },
@@ -571,6 +629,10 @@ export const libraryTree: TreeNode = {
                 },
                 {
                   "name": "subgaussian_mgf_le_of_exp_sq.lean",
+                  "dir": false
+                },
+                {
+                  "name": "subgaussian_mgf_mono_param.lean",
                   "dir": false
                 },
                 {
@@ -663,6 +725,10 @@ export const libraryTree: TreeNode = {
         },
         {
           "name": "Basic.lean",
+          "dir": false
+        },
+        {
+          "name": "BasicAnalysis.lean",
           "dir": false
         },
         {

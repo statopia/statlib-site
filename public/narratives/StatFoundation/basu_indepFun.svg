@@ -18,7 +18,7 @@
 <!-- n0 -->
 <g id="node1" class="node">
 <title>n0</title>
-<g id="a_node1"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/StatFoundation/Statistics/Sufficiency/Basic.lean:27" xlink:title="def · Statlib/StatFoundation/Statistics/Sufficiency/Basic.lean:27" target="_blank">
+<g id="a_node1"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/tmp/statlib-main-refresh.tmBBiR/Statlib/StatFoundation/Statistics/Sufficiency/Basic.lean:27" xlink:title="def · Statlib/StatFoundation/Statistics/Sufficiency/Basic.lean:27" target="_blank">
 <path fill="#d6e9ff" stroke="#3b82f6" d="M98.96,-52C98.96,-52 43.04,-52 43.04,-52 37.04,-52 31.04,-46 31.04,-40 31.04,-40 31.04,-28 31.04,-28 31.04,-22 37.04,-16 43.04,-16 43.04,-16 98.96,-16 98.96,-16 104.96,-16 110.96,-22 110.96,-28 110.96,-28 110.96,-40 110.96,-40 110.96,-46 104.96,-52 98.96,-52"/>
 <text xml:space="preserve" text-anchor="middle" x="71" y="-31" font-family="Helvetica,sans-Serif" font-size="10.00">IsSufficientFor</text>
 </a>
@@ -27,7 +27,7 @@
 <!-- n1 -->
 <g id="node2" class="node">
 <title>n1</title>
-<g id="a_node2"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/StatFoundation/Statistics/Sufficiency/Basic.lean:34" xlink:title="def · Statlib/StatFoundation/Statistics/Sufficiency/Basic.lean:34" target="_blank">
+<g id="a_node2"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/tmp/statlib-main-refresh.tmBBiR/Statlib/StatFoundation/Statistics/Sufficiency/Basic.lean:34" xlink:title="def · Statlib/StatFoundation/Statistics/Sufficiency/Basic.lean:34" target="_blank">
 <path fill="#d6e9ff" stroke="#3b82f6" d="M113.68,-124C113.68,-124 28.32,-124 28.32,-124 22.32,-124 16.32,-118 16.32,-112 16.32,-112 16.32,-100 16.32,-100 16.32,-94 22.32,-88 28.32,-88 28.32,-88 113.68,-88 113.68,-88 119.68,-88 125.68,-94 125.68,-100 125.68,-100 125.68,-112 125.68,-112 125.68,-118 119.68,-124 113.68,-124"/>
 <text xml:space="preserve" text-anchor="middle" x="71" y="-103" font-family="Helvetica,sans-Serif" font-size="10.00">IsSufficientForFamily</text>
 </a>
@@ -42,7 +42,7 @@
 <!-- n2 -->
 <g id="node3" class="node">
 <title>n2</title>
-<g id="a_node3"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/StatFoundation/Statistics/Sufficiency/Basic.lean:43" xlink:title="def · Statlib/StatFoundation/Statistics/Sufficiency/Basic.lean:43" target="_blank">
+<g id="a_node3"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/tmp/statlib-main-refresh.tmBBiR/Statlib/StatFoundation/Statistics/Sufficiency/Basic.lean:43" xlink:title="def · Statlib/StatFoundation/Statistics/Sufficiency/Basic.lean:43" target="_blank">
 <path fill="#d6e9ff" stroke="#3b82f6" d="M245.92,-124C245.92,-124 156.08,-124 156.08,-124 150.08,-124 144.08,-118 144.08,-112 144.08,-112 144.08,-100 144.08,-100 144.08,-94 150.08,-88 156.08,-88 156.08,-88 245.92,-88 245.92,-88 251.92,-88 257.92,-94 257.92,-100 257.92,-100 257.92,-112 257.92,-112 257.92,-118 251.92,-124 245.92,-124"/>
 <text xml:space="preserve" text-anchor="middle" x="201" y="-103" font-family="Helvetica,sans-Serif" font-size="10.00">IsBoundedlyComplete</text>
 </a>
@@ -51,7 +51,7 @@
 <!-- n3 -->
 <g id="node4" class="node">
 <title>n3</title>
-<g id="a_node4"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/StatFoundation/Statistics/Sufficiency/Basic.lean:39" xlink:title="def · Statlib/StatFoundation/Statistics/Sufficiency/Basic.lean:39" target="_blank">
+<g id="a_node4"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/tmp/statlib-main-refresh.tmBBiR/Statlib/StatFoundation/Statistics/Sufficiency/Basic.lean:39" xlink:title="def · Statlib/StatFoundation/Statistics/Sufficiency/Basic.lean:39" target="_blank">
 <path fill="#d6e9ff" stroke="#3b82f6" d="M325.78,-124C325.78,-124 288.22,-124 288.22,-124 282.22,-124 276.22,-118 276.22,-112 276.22,-112 276.22,-100 276.22,-100 276.22,-94 282.22,-88 288.22,-88 288.22,-88 325.78,-88 325.78,-88 331.78,-88 337.78,-94 337.78,-100 337.78,-100 337.78,-112 337.78,-112 337.78,-118 331.78,-124 325.78,-124"/>
 <text xml:space="preserve" text-anchor="middle" x="307" y="-103" font-family="Helvetica,sans-Serif" font-size="10.00">IsAncillary</text>
 </a>
@@ -60,7 +60,7 @@
 <!-- n4 -->
 <g id="node5" class="node">
 <title>n4</title>
-<g id="a_node5"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/StatFoundation/Statistics/Sufficiency/Basu.lean:36" xlink:title="lemma · Statlib/StatFoundation/Statistics/Sufficiency/Basu.lean:36" target="_blank">
+<g id="a_node5"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/tmp/statlib-main-refresh.tmBBiR/Statlib/StatFoundation/Statistics/Sufficiency/Basu.lean:36" xlink:title="lemma · Statlib/StatFoundation/Statistics/Sufficiency/Basu.lean:36" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M458.49,-124C458.49,-124 367.51,-124 367.51,-124 361.51,-124 355.51,-118 355.51,-112 355.51,-112 355.51,-100 355.51,-100 355.51,-94 361.51,-88 367.51,-88 367.51,-88 458.49,-88 458.49,-88 464.49,-88 470.49,-94 470.49,-100 470.49,-100 470.49,-112 470.49,-112 470.49,-118 464.49,-124 458.49,-124"/>
 <text xml:space="preserve" text-anchor="middle" x="413" y="-103" font-family="Helvetica,sans-Serif" font-size="10.00">indicator_one_nonneg</text>
 </a>
@@ -69,7 +69,7 @@
 <!-- n5 -->
 <g id="node6" class="node">
 <title>n5</title>
-<g id="a_node6"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/StatFoundation/Statistics/Sufficiency/Basu.lean:42" xlink:title="lemma · Statlib/StatFoundation/Statistics/Sufficiency/Basu.lean:42" target="_blank">
+<g id="a_node6"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/tmp/statlib-main-refresh.tmBBiR/Statlib/StatFoundation/Statistics/Sufficiency/Basu.lean:42" xlink:title="lemma · Statlib/StatFoundation/Statistics/Sufficiency/Basu.lean:42" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M587.82,-124C587.82,-124 500.18,-124 500.18,-124 494.18,-124 488.18,-118 488.18,-112 488.18,-112 488.18,-100 488.18,-100 488.18,-94 494.18,-88 500.18,-88 500.18,-88 587.82,-88 587.82,-88 593.82,-88 599.82,-94 599.82,-100 599.82,-100 599.82,-112 599.82,-112 599.82,-118 593.82,-124 587.82,-124"/>
 <text xml:space="preserve" text-anchor="middle" x="544" y="-103" font-family="Helvetica,sans-Serif" font-size="10.00">indicator_one_le_one</text>
 </a>
@@ -78,7 +78,7 @@
 <!-- n6 -->
 <g id="node7" class="node">
 <title>n6</title>
-<g id="a_node7"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/StatFoundation/Statistics/Sufficiency/Basu.lean:18" xlink:title="def · Statlib/StatFoundation/Statistics/Sufficiency/Basu.lean:18" target="_blank">
+<g id="a_node7"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/tmp/statlib-main-refresh.tmBBiR/Statlib/StatFoundation/Statistics/Sufficiency/Basu.lean:18" xlink:title="def · Statlib/StatFoundation/Statistics/Sufficiency/Basu.lean:18" target="_blank">
 <path fill="#d6e9ff" stroke="#3b82f6" d="M724,-52C724,-52 694,-52 694,-52 688,-52 682,-46 682,-40 682,-40 682,-28 682,-28 682,-22 688,-16 694,-16 694,-16 724,-16 724,-16 730,-16 736,-22 736,-28 736,-28 736,-40 736,-40 736,-46 730,-52 724,-52"/>
 <text xml:space="preserve" text-anchor="middle" x="709" y="-31" font-family="Helvetica,sans-Serif" font-size="10.00">clip</text>
 </a>
@@ -87,7 +87,7 @@
 <!-- n7 -->
 <g id="node8" class="node">
 <title>n7</title>
-<g id="a_node8"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/StatFoundation/Statistics/Sufficiency/Basu.lean:31" xlink:title="lemma · Statlib/StatFoundation/Statistics/Sufficiency/Basu.lean:31" target="_blank">
+<g id="a_node8"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/tmp/statlib-main-refresh.tmBBiR/Statlib/StatFoundation/Statistics/Sufficiency/Basu.lean:31" xlink:title="lemma · Statlib/StatFoundation/Statistics/Sufficiency/Basu.lean:31" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M680,-124C680,-124 650,-124 650,-124 644,-124 638,-118 638,-112 638,-112 638,-100 638,-100 638,-94 644,-88 650,-88 650,-88 680,-88 680,-88 686,-88 692,-94 692,-100 692,-100 692,-112 692,-112 692,-118 686,-124 680,-124"/>
 <text xml:space="preserve" text-anchor="middle" x="665" y="-103" font-family="Helvetica,sans-Serif" font-size="10.00">clip_eq</text>
 </a>
@@ -102,7 +102,7 @@
 <!-- n8 -->
 <g id="node9" class="node">
 <title>n8</title>
-<g id="a_node9"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/StatFoundation/Statistics/Sufficiency/Basu.lean:20" xlink:title="lemma · Statlib/StatFoundation/Statistics/Sufficiency/Basu.lean:20" target="_blank">
+<g id="a_node9"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/tmp/statlib-main-refresh.tmBBiR/Statlib/StatFoundation/Statistics/Sufficiency/Basu.lean:20" xlink:title="lemma · Statlib/StatFoundation/Statistics/Sufficiency/Basu.lean:20" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M786.41,-124C786.41,-124 721.59,-124 721.59,-124 715.59,-124 709.59,-118 709.59,-112 709.59,-112 709.59,-100 709.59,-100 709.59,-94 715.59,-88 721.59,-88 721.59,-88 786.41,-88 786.41,-88 792.41,-88 798.41,-94 798.41,-100 798.41,-100 798.41,-112 798.41,-112 798.41,-118 792.41,-124 786.41,-124"/>
 <text xml:space="preserve" text-anchor="middle" x="754" y="-103" font-family="Helvetica,sans-Serif" font-size="10.00">clip_measurable</text>
 </a>
@@ -117,7 +117,7 @@
 <!-- n9 -->
 <g id="node10" class="node">
 <title>n9</title>
-<g id="a_node10"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/StatFoundation/Statistics/Sufficiency/Basu.lean:24" xlink:title="lemma · Statlib/StatFoundation/Statistics/Sufficiency/Basu.lean:24" target="_blank">
+<g id="a_node10"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/tmp/statlib-main-refresh.tmBBiR/Statlib/StatFoundation/Statistics/Sufficiency/Basu.lean:24" xlink:title="lemma · Statlib/StatFoundation/Statistics/Sufficiency/Basu.lean:24" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M879.75,-124C879.75,-124 828.25,-124 828.25,-124 822.25,-124 816.25,-118 816.25,-112 816.25,-112 816.25,-100 816.25,-100 816.25,-94 822.25,-88 828.25,-88 828.25,-88 879.75,-88 879.75,-88 885.75,-88 891.75,-94 891.75,-100 891.75,-100 891.75,-112 891.75,-112 891.75,-118 885.75,-124 879.75,-124"/>
 <text xml:space="preserve" text-anchor="middle" x="854" y="-103" font-family="Helvetica,sans-Serif" font-size="10.00">clip_bounded</text>
 </a>
@@ -132,7 +132,7 @@
 <!-- n10 -->
 <g id="node11" class="node">
 <title>n10</title>
-<g id="a_node11"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/StatFoundation/Statistics/Sufficiency/Basu.lean:50" xlink:title="theorem · Statlib/StatFoundation/Statistics/Sufficiency/Basu.lean:50" target="_blank">
+<g id="a_node11"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/tmp/statlib-main-refresh.tmBBiR/Statlib/StatFoundation/Statistics/Sufficiency/Basu.lean:50" xlink:title="theorem · Statlib/StatFoundation/Statistics/Sufficiency/Basu.lean:50" target="_blank">
 <path fill="#ffe6a3" stroke="#d4a017" stroke-width="3" d="M574.47,-196C574.47,-196 513.53,-196 513.53,-196 507.53,-196 501.53,-190 501.53,-184 501.53,-184 501.53,-172 501.53,-172 501.53,-166 507.53,-160 513.53,-160 513.53,-160 574.47,-160 574.47,-160 580.47,-160 586.47,-166 586.47,-172 586.47,-172 586.47,-184 586.47,-184 586.47,-190 580.47,-196 574.47,-196"/>
 <text xml:space="preserve" text-anchor="middle" x="544" y="-175" font-family="Helvetica,sans-Serif" font-size="10.00">basu_indepFun</text>
 </a>
