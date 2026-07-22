@@ -198,7 +198,7 @@ export const topics: TopicArea[] = [
       {
         name: "Uniform deviation for finite classes",
         lean: "uniform_deviation_finite_class",
-        latex: "\\Pr\\!\\left(\\sup_{f\\in\\mathcal{F}} |P_nf-Pf|>t\\right) \\le |\\mathcal{F}|\\,e^{-c n t^2}",
+        latex: "\\Pr\\!\\left(\\sup_{f\\in\\mathcal{F}} |P_n f-P f|>t\\right) \\le |\\mathcal{F}|\\,e^{-c n t^2}",
         blurb: "A union-bound finite-class uniform deviation theorem for bounded measurable functions.",
         status: "proved",
       },
