@@ -49,12 +49,19 @@ const selectedLeanByTopic: Record<string, string[]> = {
   ],
   "nonparametric-approximation": [
     "finiteLinearSpan_classApproximationError_self_series_le_zero",
-    "finiteLinearSpan_classApproximationError_le_of_pointwise_series_bound",
-    "exists_sieveApproximationError_uniform_bound_of_exists_pointwise_series",
+    "holderBall_selectorIndicator_sieveApproximationError_rate_of_cover",
+    "unitCube_selectorIndicatorSieve_holderBall_grid_rate",
   ],
 };
 
+const topicsWithoutExamples = new Set([
+  "nonparametric-vocabulary",
+  "nonparametric-oracle",
+]);
+
 function selectedTheorems(topic: (typeof topics)[number]) {
+  if (topicsWithoutExamples.has(topic.id)) return [];
+
   const selected = selectedLeanByTopic[topic.id];
   if (!selected) return topic.theorems.slice(0, DEFAULT_PER_TOPIC);
 
@@ -109,35 +116,44 @@ const grouped = modules.map((m) => ({
             </div>
 
             <div class="mt-6 space-y-8">
-              {mTopics.map((t, ti) => (
-                <section id={t.id} class="scroll-mt-24">
-                  <div class="flex items-baseline gap-3">
-                    <span class="font-mono text-xs text-faint">{mi + 1}.{ti + 1}</span>
-                    <h4 class="font-serif text-lg font-semibold text-ink">{t.title}</h4>
-                  </div>
-                  <ul class="mt-3 divide-y divide-line">
-                    {selectedTheorems(t).map((th) => (
-                      <li class="py-4">
-                        <div class="flex items-baseline gap-3">
-                          <h5 class="font-medium text-ink">{th.name}</h5>
-                          <span class="ml-auto">
-                            <StatusBadge status={th.status} />
-                          </span>
-                        </div>
-                        {th.latex && (
-                          <div class="mt-2 overflow-x-auto text-ink">
-                            <Math expr={th.latex} display />
-                          </div>
-                        )}
-                        <p class="mt-2 text-sm text-ink-soft">{th.blurb}</p>
-                        {th.lean && (
-                          <code class="mt-1 block font-mono text-xs text-faint">{th.lean}</code>
-                        )}
-                      </li>
-                    ))}
-                  </ul>
-                </section>
-              ))}
+              {mTopics.map((t, ti) => {
+                const selected = selectedTheorems(t);
+                return (
+                  <section id={t.id} class="scroll-mt-24">
+                    <div class="flex items-baseline gap-3">
+                      <span class="font-mono text-xs text-faint">{mi + 1}.{ti + 1}</span>
+                      <h4 class="font-serif text-lg font-semibold text-ink">{t.title}</h4>
+                    </div>
+                    {selected.length > 0 ? (
+                      <ul class="mt-3 divide-y divide-line">
+                        {selected.map((th) => (
+                          <li class="py-4">
+                            <div class="flex items-baseline gap-3">
+                              <h5 class="font-medium text-ink">{th.name}</h5>
+                              <span class="ml-auto">
+                                <StatusBadge status={th.status} />
+                              </span>
+                            </div>
+                            {th.latex && (
+                              <div class="mt-2 overflow-x-auto text-ink">
+                                <Math expr={th.latex} display />
+                              </div>
+                            )}
+                            <p class="mt-2 text-sm text-ink-soft">{th.blurb}</p>
+                            {th.lean && (
+                              <code class="mt-1 block font-mono text-xs text-faint">{th.lean}</code>
+                            )}
+                          </li>
+                        ))}
+                      </ul>
+                    ) : (
+                      <p class="mt-3 max-w-3xl text-sm leading-relaxed text-ink-soft">
+                        {t.summary}
+                      </p>
+                    )}
+                  </section>
+                );
+              })}
             </div>
           </section>
         ))

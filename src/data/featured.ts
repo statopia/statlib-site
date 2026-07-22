@@ -125,26 +125,63 @@ export const featuredThms: FeaturedThm[] = [
     decls: 62,
   },
   {
-    name: "Finite linear span approximation",
-    module: "Nonparametric approximation",
-    leanFile: "Statlib/Nonparametric/Approximation/Sieve.lean",
+    name: "Rademacher generalization bound",
+    module: "Empirical processes",
+    leanFile: "Statlib/StatFoundation/EmpiricalProcess/RademacherGeneralizationBound.lean",
     math:
-      "\\sup_x |s_\\theta(x)-f_0(x)|\\le\\varepsilon \\Rightarrow " +
-      "\\mathcal{E}(\\operatorname{span}\\phi,f_0)\\le \\nu(X)\\varepsilon^2",
+      "\\Pr\\!\\left[\\sup_{f\\in\\mathcal{F}}(Pf-P_n f) \\le " +
+      "2\\mathfrak{R}_n(\\mathcal{F}) + \\sqrt{\\log(1/\\delta)/(2n)}\\right] " +
+      "\\ge 1-\\delta",
     blurb:
-      "The nonparametric sieve interface turns a pointwise finite-series witness " +
-      "into an integrated squared-error approximation bound.",
-    statement: `theorem finiteLinearSpan_classApproximationError_le_of_pointwise_series_bound
-  {X : Type u_1} [MeasurableSpace X] (m : ℕ) (phi : Fin m → X → ℝ) (theta : Fin m → ℝ) (f0 : X → ℝ)
-  (nu : Measure X) [IsFiniteMeasure nu] (eps : ℝ)
-  (h_eps_nonneg : 0 ≤ eps)
-  (h_series_meas : Measurable (seriesFunction m phi theta))
-  (hphi_meas : ∀ i, Measurable (phi i))
-  (h_f0_meas : Measurable f0)
-  (h_pointwise : ∀ x : X, |seriesFunction m phi theta x - f0 x| ≤ eps)
-  (h_bdd : BddBelow ((fun f => integratedSquaredError nu f f0) '' (finiteLinearSpan m phi)))
-  : classApproximationError nu (finiteLinearSpan m phi) f0 ≤ (nu Set.univ).toReal * (eps ^ 2) := by`,
-    svg: "Nonparametric/finiteLinearSpan_classApproximationError_le_of_pointwise_series_bound.svg",
-    decls: 11,
+      "A finite-class empirical-process generalization bound combining " +
+      "symmetrization, Rademacher complexity, and McDiarmid concentration.",
+    statement: `theorem rademacher_generalization_bound (Ω 𝒳 : Type*) [MeasurableSpace Ω] [MeasurableSpace 𝒳]
+  (μ : Measure Ω) [IsProbabilityMeasure μ]
+  (n N : ℕ) (hn : 0 < n) (hNpos : 0 < N)
+  (X : Fin n → Ω → 𝒳) (hXmeas : ∀ i, Measurable (X i))
+  (hXindep : iIndepFun X μ)
+  (hXident : ∀ i j, IdentDistrib (X i) (X j) μ μ)
+  (f : Fin N → 𝒳 → ℝ) (hfmeas : ∀ j, Measurable (f j))
+  (hf_nonneg : ∀ j x, 0 ≤ f j x) (hf_le_one : ∀ j x, f j x ≤ 1)
+  (δ : ℝ) (hδpos : 0 < δ) (hδlt1 : δ < 1) :
+  μ {ω | (⨆ j : Fin N, (∫ ω', f j (X ⟨0, hn⟩ ω') ∂μ
+                         - (empiricalAverage n (f j) (fun k => X k ω) : ℝ)))
+         ≤ 2 * rademacherComplexity n f μ X + Real.sqrt (Real.log (1/δ) / (2 * (n : ℝ)))} ≥ (1 : ENNReal) - ENNReal.ofReal δ :=
+by`,
+    svg: "StatFoundation/rademacher_generalization_bound.svg",
+    decls: 8,
+  },
+  {
+    name: "Zero-order Holder sieve approximation",
+    module: "Nonparametric approximation",
+    leanFile: "Statlib/Nonparametric/Approximation/Holder.lean",
+    math:
+      "\\exists\\phi:\\ \\forall f_0\\in\\mathcal{H}^{\\alpha}(C,B),\\ " +
+      "\\mathcal{E}_m(f_0)\\le \\nu(X)(C A^{\\alpha})^2 m^{-2\\alpha/d}",
+    blurb:
+      "A measurable m-cell selector cover gives a piecewise-constant " +
+      "selector-indicator sieve whose integrated squared-error rate over a " +
+      "Holder ball is m^{-2 alpha / d}.",
+    statement: `theorem holderBall_selectorIndicator_sieveApproximationError_rate_of_cover
+    {X : Type*} [PseudoMetricSpace X] [MeasurableSpace X]
+    (nu : Measure X) [IsFiniteMeasure nu]
+    (m d : ℕ) (alpha C B A : ℝ)
+    (hm : 0 < m) (hd : 0 < d)
+    (hC : 0 ≤ C) (hA : 0 ≤ A) (hAlpha : 0 ≤ alpha)
+    (hf0_meas :
+      ∀ f0 : X → ℝ, f0 ∈ holderBall alpha C B → Measurable f0)
+    (hcover :
+      ∃ z : Fin m → X, ∃ pi : X → Fin m,
+        Measurable pi ∧
+          ∀ x : X,
+            dist x (z (pi x)) ≤
+              A * (m : ℝ) ^ (-(1 : ℝ) / (d : ℝ))) :
+    ∃ phi : Fin m → X → ℝ,
+      ∀ f0 : X → ℝ, f0 ∈ holderBall alpha C B →
+        sieveApproximationError nu m phi f0
+          ≤ (nu Set.univ).toReal * (C * A.rpow alpha) ^ 2 *
+              (m : ℝ) ^ (-(2 * alpha) / (d : ℝ)) := by`,
+    svg: "Nonparametric/holderBall_selectorIndicator_sieveApproximationError_rate_of_cover.svg",
+    decls: 24,
   },
 ];

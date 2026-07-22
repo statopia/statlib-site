@@ -625,6 +625,20 @@ export const topics: TopicArea[] = [
         status: "proved",
       },
       {
+        name: "Zero-order Holder selector-indicator sieve rate",
+        lean: "holderBall_selectorIndicator_sieveApproximationError_rate_of_cover",
+        latex: "\\exists\\phi:\\ \\forall f_0\\in\\mathcal{H}^{\\alpha}(C,B),\\ \\mathcal{E}_m(f_0)\\le \\nu(X)(C A^{\\alpha})^2 m^{-2\\alpha/d}",
+        blurb: "A measurable m-cell selector cover gives a piecewise-constant selector-indicator sieve with integrated squared-error rate m^{-2 alpha / d} over a Holder ball.",
+        status: "proved",
+      },
+      {
+        name: "Unit-cube zero-order Holder grid rate",
+        lean: "unitCube_selectorIndicatorSieve_holderBall_grid_rate",
+        latex: "\\mathcal{E}_m(\\mathcal{H}^{\\alpha})\\le \\nu([0,1]^d)(C A^{\\alpha})^2 m^{-2\\alpha/d}",
+        blurb: "On the unit cube, a selector-indicator grid realizes the same zero-order Holder sieve approximation rate.",
+        status: "proved",
+      },
+      {
         name: "Finite linear span approximation from pointwise series error",
         lean: "finiteLinearSpan_classApproximationError_le_of_pointwise_series_bound",
         latex: "\\sup_x |\\sum_{j<m}\\theta_j\\phi_j(x)-f_0(x)|\\le\\varepsilon \\Rightarrow \\mathcal{E}(\\operatorname{span}\\phi,f_0)\\le \\nu(X)\\varepsilon^2",

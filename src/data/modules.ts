@@ -14,6 +14,7 @@ export interface LibraryModule {
   summary: string;
   roadmap: string;
   topicIds: string[];
+  homeTopicIds?: string[];
 }
 
 export const modules: LibraryModule[] = [
@@ -71,6 +72,10 @@ export const modules: LibraryModule[] = [
     topicIds: [
       "nonparametric-approximation",
       "nonparametric-vocabulary",
+      "nonparametric-oracle",
+    ],
+    homeTopicIds: [
+      "nonparametric-approximation",
       "nonparametric-oracle",
     ],
   },

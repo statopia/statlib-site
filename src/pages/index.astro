@@ -13,7 +13,7 @@ const flagship = [
   "subgaussian_rip_tail_anisotropic",
   "hanson_wright_isotropic",
   "rademacher_contraction",
-  "finiteLinearSpan_classApproximationError_self_series_le_zero",
+  "holderBall_selectorIndicator_sieveApproximationError_rate_of_cover",
   "glivenko_cantelli_quantitative",
 ];
 const byLean = new Map(
@@ -89,7 +89,7 @@ function formatDeclarationCounts(topic: (typeof topics)[number]) {
     <div class="mt-10 space-y-10">
       {
         modules.map((m, mi) => {
-          const mTopics = m.topicIds
+          const mTopics = (m.homeTopicIds ?? m.topicIds)
             .map((id) => topics.find((t) => t.id === id))
             .filter((t) => t !== undefined);
           return (

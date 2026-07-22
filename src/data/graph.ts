@@ -57,16 +57,22 @@ export const featured: {
     svg: "HighDim/subgaussian_rip_tail_anisotropic.svg",
   },
   {
+    name: "rademacher_generalization_bound",
+    topic: "Empirical processes",
+    decls: 8,
+    svg: "StatFoundation/rademacher_generalization_bound.svg",
+  },
+  {
     name: "trace_exp_add_log_simpleFunc_jensen_posDef",
     topic: "Matrix analysis",
     decls: 43,
     svg: "HighDim/trace_exp_add_log_simpleFunc_jensen_posDef.svg",
   },
   {
-    name: "finiteLinearSpan_classApproximationError_le_of_pointwise_series_bound",
+    name: "holderBall_selectorIndicator_sieveApproximationError_rate_of_cover",
     topic: "Nonparametric",
-    decls: 11,
-    svg: "Nonparametric/finiteLinearSpan_classApproximationError_le_of_pointwise_series_bound.svg",
+    decls: 24,
+    svg: "Nonparametric/holderBall_selectorIndicator_sieveApproximationError_rate_of_cover.svg",
   },
   {
     name: "standardReal_ou_mehler_generator_pos",

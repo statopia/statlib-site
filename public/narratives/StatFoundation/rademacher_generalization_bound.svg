@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1120 560" role="img" aria-labelledby="title desc">
+  <title id="title">Proof narrative - rademacher_generalization_bound</title>
+  <desc id="desc">Dependency graph for the Rademacher generalization bound theorem.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#8f97aa" />
+    </marker>
+    <style>
+      .bg { fill: #fffdfa; }
+      .edge { fill: none; stroke: #8f97aa; stroke-width: 1.7; marker-end: url(#arrow); }
+      .node { fill: #f8f6f2; stroke: #d7d0c5; stroke-width: 1.4; }
+      .theorem { fill: #eef6ff; stroke: #7aa4d8; stroke-width: 1.5; }
+      .headline { fill: #fff1bd; stroke: #c6911d; stroke-width: 2.1; }
+      .label { fill: #1f2937; font: 500 15px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+      .small { fill: #697386; font: 12px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+      .caption { fill: #1f2937; font: 600 18px ui-serif, Georgia, Cambria, serif; }
+    </style>
+  </defs>
+
+  <rect class="bg" width="1120" height="560" />
+  <text class="caption" x="40" y="42">Proof narrative - rademacher_generalization_bound (8 declarations)</text>
+
+  <path class="edge" d="M 366 112 C 412 112, 420 174, 464 190" />
+  <path class="edge" d="M 366 184 C 410 184, 424 194, 464 204" />
+  <path class="edge" d="M 366 256 C 404 256, 424 236, 464 220" />
+  <path class="edge" d="M 366 256 C 414 282, 424 328, 464 346" />
+  <path class="edge" d="M 366 328 C 412 328, 424 258, 464 230" />
+  <path class="edge" d="M 366 400 C 570 400, 632 298, 796 238" />
+  <path class="edge" d="M 366 112 C 548 120, 624 172, 796 206" />
+  <path class="edge" d="M 366 328 C 538 330, 626 256, 796 224" />
+  <path class="edge" d="M 686 210 C 730 210, 748 210, 796 210" />
+  <path class="edge" d="M 686 356 C 732 344, 756 296, 796 236" />
+
+  <g transform="translate(40 90)">
+    <rect class="node" width="326" height="44" rx="6" />
+    <text class="label" x="16" y="27">empiricalAverage</text>
+  </g>
+  <g transform="translate(40 162)">
+    <rect class="node" width="326" height="44" rx="6" />
+    <text class="label" x="16" y="27">rademacherSign</text>
+  </g>
+  <g transform="translate(40 234)">
+    <rect class="node" width="326" height="44" rx="6" />
+    <text class="label" x="16" y="27">empiricalRademacherComplexity</text>
+  </g>
+  <g transform="translate(40 306)">
+    <rect class="node" width="326" height="44" rx="6" />
+    <text class="label" x="16" y="27">uniformDeviation</text>
+  </g>
+  <g transform="translate(40 378)">
+    <rect class="theorem" width="326" height="44" rx="6" />
+    <text class="label" x="16" y="27">mcdiarmid_meas_ge_le_exp</text>
+  </g>
+
+  <g transform="translate(464 182)">
+    <rect class="theorem" width="222" height="56" rx="6" />
+    <text class="label" x="16" y="25">empirical_</text>
+    <text class="label" x="16" y="44">symmetrization</text>
+  </g>
+  <g transform="translate(464 328)">
+    <rect class="node" width="222" height="56" rx="6" />
+    <text class="label" x="16" y="35">rademacherComplexity</text>
+  </g>
+
+  <g transform="translate(796 174)">
+    <rect class="headline" width="284" height="80" rx="6" />
+    <text class="label" x="16" y="30">rademacher_</text>
+    <text class="label" x="16" y="49">generalization_bound</text>
+    <text class="small" x="16" y="66">headline theorem</text>
+  </g>
+</svg>
