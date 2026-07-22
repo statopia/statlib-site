@@ -5,7 +5,7 @@ Closure: 3 declarations across 2 files. Generated from `proof_graph.json` — no
 
 Reading order (foundations first, headline last):
 
-  ▣ `HasCovarianceMatrix` — structure · `Statlib/HighDim/Vocabulary/RandomVector.lean:101`  _(also used by 19: cov_diagonal_concentration, cov_quadratic_deviation, cov_trace_concentration, …)_
+  ▣ `HasCovarianceMatrix` — structure · `Statlib/HighDim/Vocabulary/RandomVector.lean:101`  _(also used by 20: cov_diagonal_concentration, cov_quadratic_deviation, cov_trace_concentration, …)_
   · `secondMoment_isSymm` — lemma · `Statlib/HighDim/CovarianceMatrix/Properties.lean:33`
 · `secondMoment_posSemidef` — lemma · `Statlib/HighDim/CovarianceMatrix/Properties.lean:52` **← headline**
 

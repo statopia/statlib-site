@@ -1,39 +1,47 @@
 # StatFoundation — proof narratives
 
-59 headline result(s).
+77 headline result(s).
 
 - [as_implies_inProbability](as_implies_inProbability.md) — theorem, 4 decl(s) · `Statlib/StatFoundation/Convergence/AnalysisTools/ConvergenceModes.lean:176`
 - [basu_indepFun](basu_indepFun.md) — theorem, 11 decl(s) · `Statlib/StatFoundation/Statistics/Sufficiency/Basu.lean:50`
-- [bennett_sum_meas_ge_le_exp](bennett_sum_meas_ge_le_exp.md) — theorem, 2 decl(s) · `Statlib/StatFoundation/Concentration/ExponentialType/bennett_sum_meas_ge_le_exp.lean:10`
-- [bernstein_martingale_bounded_sum_meas_abs_ge_le_two_exp](bernstein_martingale_bounded_sum_meas_abs_ge_le_two_exp.md) — theorem, 2 decl(s) · `Statlib/StatFoundation/Concentration/ExponentialType/bernstein_martingale_bounded_sum_meas_abs_ge_le_two_exp.lean:15`
+- [bennett_sum_meas_ge_le_exp](bennett_sum_meas_ge_le_exp.md) — theorem, 2 decl(s) · `Statlib/StatFoundation/Concentration/ExponentialType/bennett_sum_meas_ge_le_exp.lean:11`
+- [bernstein_martingale_bounded_sum_meas_abs_ge_le_two_exp](bernstein_martingale_bounded_sum_meas_abs_ge_le_two_exp.md) — theorem, 2 decl(s) · `Statlib/StatFoundation/Concentration/ExponentialType/bernstein_martingale_bounded_sum_meas_abs_ge_le_two_exp.lean:16`
 - [bernstein_martingale_sum_meas_abs_ge_le_two_exp](bernstein_martingale_sum_meas_abs_ge_le_two_exp.md) — theorem, 3 decl(s) · `Statlib/StatFoundation/Concentration/ExponentialType/bernstein_martingale_sum_meas_abs_ge_le_two_exp.lean:15`
 - [bernstein_sum_meas_ge_le_exp](bernstein_sum_meas_ge_le_exp.md) — theorem, 2 decl(s) · `Statlib/StatFoundation/Concentration/ExponentialType/bernstein_sum_meas_ge_le_exp.lean:12`
-- [central_limit_theorem](central_limit_theorem.md) — theorem, 25 decl(s) · `Statlib/StatFoundation/Convergence/CentralLimitTheorem/IID.lean:96`
+- [central_limit_theorem](central_limit_theorem.md) — theorem, 25 decl(s) · `Statlib/StatFoundation/Convergence/CentralLimitTheorem/IID.lean:97`
 - [complete_implies_as](complete_implies_as.md) — theorem, 4 decl(s) · `Statlib/StatFoundation/Convergence/AnalysisTools/ConvergenceModes.lean:225`
+- [cond_subgaussian_linear_form_of_indep](cond_subgaussian_linear_form_of_indep.md) — theorem, 2 decl(s) · `Statlib/StatFoundation/RandomVariable/SubGaussian/cond_subgaussian_linear_form_of_indep.lean:23`
 - [continuous_sampleAverage](continuous_sampleAverage.md) — lemma, 2 decl(s) · `Statlib/StatFoundation/Convergence/LawOfLargeNumbers/UniformStrongLaw.lean:45`
 - [covarianceBilinearForm_comm](covarianceBilinearForm_comm.md) — theorem, 5 decl(s) · `Statlib/StatFoundation/RandomVariable/Gaussian/HilbertSpace.lean:210`
 - [covarianceBilinearForm_self_eq_variance](covarianceBilinearForm_self_eq_variance.md) — theorem, 5 decl(s) · `Statlib/StatFoundation/RandomVariable/Gaussian/HilbertSpace.lean:223`
 - [covarianceBilinearForm_self_nonneg](covarianceBilinearForm_self_nonneg.md) — theorem, 5 decl(s) · `Statlib/StatFoundation/RandomVariable/Gaussian/HilbertSpace.lean:216`
-- [cramer_chernoff_inf](cramer_chernoff_inf.md) — theorem, 2 decl(s) · `Statlib/StatFoundation/Concentration/MomentType/cramer_chernoff.lean:65`
+- [cramer_chernoff_inf](cramer_chernoff_inf.md) — theorem, 2 decl(s) · `Statlib/StatFoundation/Concentration/MomentType/cramer_chernoff.lean:69`
 - [cramer_wold_iff](cramer_wold_iff.md) — theorem, 14 decl(s) · `Statlib/StatFoundation/Convergence/AnalysisTools/CramerWold.lean:324`
-- [delta_method_sqrt_n](delta_method_sqrt_n.md) — theorem, 4 decl(s) · `Statlib/StatFoundation/Convergence/AnalysisTools/MappingTheorems.lean:395`
+- [delta_method_sqrt_n](delta_method_sqrt_n.md) — theorem, 4 decl(s) · `Statlib/StatFoundation/Convergence/AnalysisTools/MappingTheorems.lean:399`
+- [dudley_entropy_integral](dudley_entropy_integral.md) — theorem, 7 decl(s) · `Statlib/StatFoundation/EmpiricalProcess/DudleyEntropyIntegral.lean:989`
+- [dudley_exists_subgaussian_max_bound](dudley_exists_subgaussian_max_bound.md) — lemma, 3 decl(s) · `Statlib/StatFoundation/EmpiricalProcess/DudleyEntropyIntegral.lean:109`
 - [efron_stein_inequality](efron_stein_inequality.md) — theorem, 8 decl(s) · `Statlib/StatFoundation/Concentration/MomentType/efron_stein_inequality.lean:254`
-- [glivenko_cantelli_continuous_cdf](glivenko_cantelli_continuous_cdf.md) — theorem, 7 decl(s) · `Statlib/StatFoundation/Convergence/LawOfLargeNumbers/GlivenkoCantelli.lean:312`
+- [empirical_process_bounded_difference](empirical_process_bounded_difference.md) — theorem, 4 decl(s) · `Statlib/StatFoundation/EmpiricalProcess/BoundedDifference.lean:8`
+- [finite_class_rademacher_complexity](finite_class_rademacher_complexity.md) — theorem, 7 decl(s) · `Statlib/StatFoundation/EmpiricalProcess/FiniteClassRademacherComplexity.lean:13`
+- [glivenko_cantelli_continuous_cdf](glivenko_cantelli_continuous_cdf.md) — theorem, 7 decl(s) · `Statlib/StatFoundation/Convergence/LawOfLargeNumbers/GlivenkoCantelli.lean:314`
+- [glivenko_cantelli_quantitative](glivenko_cantelli_quantitative.md) — theorem, 7 decl(s) · `Statlib/StatFoundation/EmpiricalProcess/GlivenkoCantelliQuantitative.lean:937`
 - [HasFiniteOrliczNorm](HasFiniteOrliczNorm.md) — def, 3 decl(s) · `Statlib/StatFoundation/Vocabulary/OrliczNorm.lean:51`
 - [HasUnitVariance](HasUnitVariance.md) — structure, 2 decl(s) · `Statlib/StatFoundation/Vocabulary/RandomVariable.lean:41`
-- [hermite_normalized_recurrence](hermite_normalized_recurrence.md) — theorem, 5 decl(s) · `Statlib/StatFoundation/RandomVariable/Gaussian/Hermite.lean:249`
-- [hermite_span_dense_L2_standard](hermite_span_dense_L2_standard.md) — theorem, 13 decl(s) · `Statlib/StatFoundation/RandomVariable/Gaussian/Hermite.lean:682`
+- [hermite_normalized_recurrence](hermite_normalized_recurrence.md) — theorem, 5 decl(s) · `Statlib/StatFoundation/RandomVariable/Gaussian/Hermite.lean:250`
+- [hermite_span_dense_L2_standard](hermite_span_dense_L2_standard.md) — theorem, 13 decl(s) · `Statlib/StatFoundation/RandomVariable/Gaussian/Hermite.lean:684`
 - [inner_eq_integral_mul](inner_eq_integral_mul.md) — theorem, 6 decl(s) · `Statlib/StatFoundation/RandomVariable/Gaussian/HilbertSpace.lean:115`
 - [inProbability_implies_subseq_as](inProbability_implies_subseq_as.md) — theorem, 4 decl(s) · `Statlib/StatFoundation/Convergence/AnalysisTools/ConvergenceModes.lean:199`
 - [integrable_exp_centered_lipschitz_standardPi](integrable_exp_centered_lipschitz_standardPi.md) — lemma, 6 decl(s) · `Statlib/StatFoundation/RandomVariable/Gaussian/Standard.lean:312`
 - [integrable_innerDual](integrable_innerDual.md) — private theorem, 3 decl(s) · `Statlib/StatFoundation/RandomVariable/Gaussian/HilbertSpace.lean:175`
+- [integrable_linear_mul_exp_abs_standard](integrable_linear_mul_exp_abs_standard.md) — lemma, 4 decl(s) · `Statlib/StatFoundation/RandomVariable/Gaussian/LogSobolev.lean:755`
 - [integrable_lipschitz_standardPi](integrable_lipschitz_standardPi.md) — lemma, 4 decl(s) · `Statlib/StatFoundation/RandomVariable/Gaussian/Standard.lean:211`
 - [integrable_polynomial_mul_pdf_standard](integrable_polynomial_mul_pdf_standard.md) — lemma, 5 decl(s) · `Statlib/StatFoundation/RandomVariable/Gaussian/Standard.lean:162`
+- [integrable_quadratic_mul_exp_abs_mul_gaussianPDFReal](integrable_quadratic_mul_exp_abs_mul_gaussianPDFReal.md) — lemma, 3 decl(s) · `Statlib/StatFoundation/RandomVariable/Gaussian/LogSobolev.lean:869`
 - [integrable_sq_norm](integrable_sq_norm.md) — theorem, 2 decl(s) · `Statlib/StatFoundation/RandomVariable/Gaussian/HilbertSpace.lean:259`
-- [integral_deriv_mul_hermite_normalized](integral_deriv_mul_hermite_normalized.md) — theorem, 16 decl(s) · `Statlib/StatFoundation/RandomVariable/Gaussian/Hermite.lean:405`
+- [integral_deriv_mul_hermite_normalized](integral_deriv_mul_hermite_normalized.md) — theorem, 16 decl(s) · `Statlib/StatFoundation/RandomVariable/Gaussian/Hermite.lean:407`
 - [integral_hermite_normalized_mul_eq](integral_hermite_normalized_mul_eq.md) — theorem, 21 decl(s) · `Statlib/StatFoundation/RandomVariable/Gaussian/Hermite.lean:226`
-- [integral_polynomial_mul_eq_zero_of_moments](integral_polynomial_mul_eq_zero_of_moments.md) — lemma, 6 decl(s) · `Statlib/StatFoundation/RandomVariable/Gaussian/Hermite.lean:435`
-- [khintchine_inequality](khintchine_inequality.md) — theorem, 6 decl(s) · `Statlib/StatFoundation/Concentration/MomentType/khintchine_inequality.lean:246`
+- [integral_polynomial_mul_eq_zero_of_moments](integral_polynomial_mul_eq_zero_of_moments.md) — lemma, 6 decl(s) · `Statlib/StatFoundation/RandomVariable/Gaussian/Hermite.lean:437`
+- [khintchine_inequality](khintchine_inequality.md) — theorem, 6 decl(s) · `Statlib/StatFoundation/Concentration/MomentType/khintchine_inequality.lean:264`
 - [lehmannScheffe_umvue](lehmannScheffe_umvue.md) — theorem, 8 decl(s) · `Statlib/StatFoundation/Statistics/Sufficiency/LehmannScheffe/UMVUE.lean:28`
 - [lindeberg_feller_central_limit_theorem](lindeberg_feller_central_limit_theorem.md) — theorem, 21 decl(s) · `Statlib/StatFoundation/Convergence/CentralLimitTheorem/LindebergFeller.lean:675`
 - [lyapunov_condition_implies_lindeberg_condition](lyapunov_condition_implies_lindeberg_condition.md) — theorem, 2 decl(s) · `Statlib/StatFoundation/Convergence/CentralLimitTheorem/Lyapunov.lean:41`
@@ -41,23 +49,33 @@
 - [multivariate_central_limit_theorem](multivariate_central_limit_theorem.md) — theorem, 28 decl(s) · `Statlib/StatFoundation/Convergence/CentralLimitTheorem/Multivariate.lean:86`
 - [norm_cexp_sub_quadratic_le_third](norm_cexp_sub_quadratic_le_third.md) — lemma, 2 decl(s) · `Statlib/StatFoundation/Convergence/AnalysisTools/CharacteristicFunction.lean:64`
 - [portmanteau_of_weak_conv](portmanteau_of_weak_conv.md) — theorem, 2 decl(s) · `Statlib/StatFoundation/Convergence/AnalysisTools/ConvergenceModes.lean:296`
+- [rademacher_contraction](rademacher_contraction.md) — theorem, 3 decl(s) · `Statlib/StatFoundation/EmpiricalProcess/RademacherContraction.lean:772`
+- [rademacher_generalization_bound](rademacher_generalization_bound.md) — theorem, 8 decl(s) · `Statlib/StatFoundation/EmpiricalProcess/RademacherGeneralizationBound.lean:15`
 - [slutsky_div](slutsky_div.md) — theorem, 3 decl(s) · `Statlib/StatFoundation/Convergence/AnalysisTools/MappingTheorems.lean:108`
 - [standardPi_absolutelyContinuous](standardPi_absolutelyContinuous.md) — lemma, 3 decl(s) · `Statlib/StatFoundation/RandomVariable/Gaussian/Standard.lean:40`
-- [standardPi_integration_by_parts_coord](standardPi_integration_by_parts_coord.md) — lemma, 22 decl(s) · `Statlib/StatFoundation/RandomVariable/Gaussian/Stein.lean:428`
+- [standardPi_integration_by_parts_coord](standardPi_integration_by_parts_coord.md) — lemma, 22 decl(s) · `Statlib/StatFoundation/RandomVariable/Gaussian/Stein.lean:432`
+- [standardReal_integrable_mul_log_of_pos_contDiff_deriv_bounded](standardReal_integrable_mul_log_of_pos_contDiff_deriv_bounded.md) — lemma, 4 decl(s) · `Statlib/StatFoundation/RandomVariable/Gaussian/LogSobolev.lean:74`
+- [standardReal_mehler_apply_continuous](standardReal_mehler_apply_continuous.md) — lemma, 5 decl(s) · `Statlib/StatFoundation/RandomVariable/Gaussian/LogSobolev.lean:1427`
+- [standardReal_ou_mehler_basic](standardReal_ou_mehler_basic.md) — theorem, 17 decl(s) · `Statlib/StatFoundation/RandomVariable/Gaussian/LogSobolev.lean:1822`
+- [standardReal_ou_mehler_generator_pos](standardReal_ou_mehler_generator_pos.md) — theorem, 26 decl(s) · `Statlib/StatFoundation/RandomVariable/Gaussian/LogSobolev.lean:3250`
+- [standardReal_ou_mehler_log_growth_local_pos](standardReal_ou_mehler_log_growth_local_pos.md) — theorem, 9 decl(s) · `Statlib/StatFoundation/RandomVariable/Gaussian/LogSobolev.lean:2488`
+- [standardReal_ou_mehler_log_growth_pos](standardReal_ou_mehler_log_growth_pos.md) — theorem, 7 decl(s) · `Statlib/StatFoundation/RandomVariable/Gaussian/LogSobolev.lean:1855`
 - [sub_gauss_tail_sq](sub_gauss_tail_sq.md) — lemma, 2 decl(s) · `Statlib/StatFoundation/RandomVariable/SubExponential/subexp_mgf_le_of_sq_subgaussian.lean:45`
+- [subexp_cond_mgf_le_of_indep](subexp_cond_mgf_le_of_indep.md) — theorem, 2 decl(s) · `Statlib/StatFoundation/RandomVariable/SubExponential/subexp_cond_mgf_le_of_indep.lean:24`
 - [subexp_exp_tail_of_subexp](subexp_exp_tail_of_subexp.md) — theorem, 3 decl(s) · `Statlib/StatFoundation/RandomVariable/SubExponential/subexp_exp_tail_of_subexp.lean:27`
 - [subexp_max_meas_ge_le_exp](subexp_max_meas_ge_le_exp.md) — theorem, 2 decl(s) · `Statlib/StatFoundation/Concentration/ExponentialType/subexp_max_meas_ge_le_exp.lean:11`
 - [subexp_meas_ge_le_exp](subexp_meas_ge_le_exp.md) — theorem, 2 decl(s) · `Statlib/StatFoundation/RandomVariable/SubExponential/subexp_meas_ge_le_exp.lean:12`
 - [subexp_mgf_finite](subexp_mgf_finite.md) — theorem, 2 decl(s) · `Statlib/StatFoundation/RandomVariable/SubExponential/subexp_mgf_finite.lean:15`
-- [subexp_mgf_le_of_subgaussian](subexp_mgf_le_of_subgaussian.md) — theorem, 2 decl(s) · `Statlib/StatFoundation/RandomVariable/SubExponential/subexp_mgf_le_of_subgaussian.lean:12`
-- [subexp_sub](subexp_sub.md) — theorem, 5 decl(s) · `Statlib/StatFoundation/RandomVariable/SubExponential/subexp_closure.lean:536`
+- [subexp_mgf_le_of_subgaussian](subexp_mgf_le_of_subgaussian.md) — theorem, 2 decl(s) · `Statlib/StatFoundation/RandomVariable/SubExponential/subexp_mgf_le_of_subgaussian.lean:13`
+- [subexp_sub](subexp_sub.md) — theorem, 5 decl(s) · `Statlib/StatFoundation/RandomVariable/SubExponential/subexp_closure.lean:578`
 - [subexp_variance_le](subexp_variance_le.md) — theorem, 2 decl(s) · `Statlib/StatFoundation/RandomVariable/SubExponential/subexp_variance_le.lean:9`
 - [subexponentialOrliczNorm](subexponentialOrliczNorm.md) — noncomputable abbrev, 3 decl(s) · `Statlib/StatFoundation/Vocabulary/OrliczNorm.lean:59`
 - [subgaussian_even_moment_le](subgaussian_even_moment_le.md) — theorem, 2 decl(s) · `Statlib/StatFoundation/RandomVariable/SubGaussian/subgaussian_even_moment_le.lean:20`
 - [subgaussian_fourth_moment_le](subgaussian_fourth_moment_le.md) — theorem, 3 decl(s) · `Statlib/StatFoundation/RandomVariable/SubGaussian/subgaussian_fourth_moment_le.lean:112`
-- [subgaussian_mgf_le_of_even_moment](subgaussian_mgf_le_of_even_moment.md) — theorem, 8 decl(s) · `Statlib/StatFoundation/RandomVariable/SubGaussian/subgaussian_mgf_le_of_even_moment.lean:183`
-- [subgaussian_mgf_le_of_exp_sq](subgaussian_mgf_le_of_exp_sq.md) — theorem, 3 decl(s) · `Statlib/StatFoundation/RandomVariable/SubGaussian/subgaussian_mgf_le_of_exp_sq.lean:90`
-- [subgaussian_prod_subexponential](subgaussian_prod_subexponential.md) — theorem, 11 decl(s) · `Statlib/StatFoundation/RandomVariable/SubExponential/subgaussian_prod_subexponential.lean:25`
+- [subgaussian_mgf_le_of_even_moment](subgaussian_mgf_le_of_even_moment.md) — theorem, 8 decl(s) · `Statlib/StatFoundation/RandomVariable/SubGaussian/subgaussian_mgf_le_of_even_moment.lean:184`
+- [subgaussian_mgf_le_of_exp_sq](subgaussian_mgf_le_of_exp_sq.md) — theorem, 3 decl(s) · `Statlib/StatFoundation/RandomVariable/SubGaussian/subgaussian_mgf_le_of_exp_sq.lean:91`
+- [subgaussian_prod_subexponential](subgaussian_prod_subexponential.md) — theorem, 11 decl(s) · `Statlib/StatFoundation/RandomVariable/SubExponential/subgaussian_prod_subexponential.lean:27`
 - [subgaussianOrliczNorm](subgaussianOrliczNorm.md) — noncomputable abbrev, 3 decl(s) · `Statlib/StatFoundation/Vocabulary/OrliczNorm.lean:55`
 - [TotalVariationConvergence](TotalVariationConvergence.md) — def, 3 decl(s) · `Statlib/StatFoundation/Convergence/AnalysisTools/ConvergenceModes.lean:145`
-- [uniform_strong_law](uniform_strong_law.md) — theorem, 14 decl(s) · `Statlib/StatFoundation/Convergence/LawOfLargeNumbers/UniformStrongLaw.lean:404`
+- [uniform_deviation_finite_class](uniform_deviation_finite_class.md) — theorem, 4 decl(s) · `Statlib/StatFoundation/EmpiricalProcess/UniformDeviationFiniteClass.lean:10`
+- [uniform_strong_law](uniform_strong_law.md) — theorem, 14 decl(s) · `Statlib/StatFoundation/Convergence/LawOfLargeNumbers/UniformStrongLaw.lean:408`

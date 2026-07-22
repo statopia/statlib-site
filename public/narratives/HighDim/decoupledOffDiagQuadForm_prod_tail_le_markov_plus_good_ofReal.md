@@ -1,48 +1,48 @@
 # Proof narrative — decoupledOffDiagQuadForm_prod_tail_le_markov_plus_good_ofReal
 
-Root: **decoupledOffDiagQuadForm_prod_tail_le_markov_plus_good_ofReal** (lemma) `Statlib/HighDim/Concentration/HansonWright.lean:1085` · topic `HighDim`
+Root: **decoupledOffDiagQuadForm_prod_tail_le_markov_plus_good_ofReal** (lemma) `Statlib/HighDim/Concentration/HansonWright.lean:1086` · topic `HighDim`
 Closure: 38 declarations across 8 files. Generated from `proof_graph.json` — no files were moved.
 
 Reading order (foundations first, headline last):
 
-  ▣ `IsSubGaussianVector` — structure · `Statlib/HighDim/Vocabulary/RandomVector.lean:52`  _(also used by 70: decoupledOffDiagQuadForm_const_right_abs_tail_real, decoupledOffDiagQuadForm_prod_first_section_abs_tail_real, decoupledOffDiagQuadForm_const_right_abs_tail_real_spectral, …)_
-  ◆ `decoupledOffDiagQuadForm` — noncomputable def · `Statlib/HighDim/Vocabulary/QuadraticForms.lean:33`  _(also used by 40: decoupledOffDiagQuadForm_const_right_abs_tail_real, decoupledOffDiagQuadForm_prod_mk_eq_const_right, decoupledOffDiagQuadForm_prod_first_section_abs_tail_real, …)_
-  ◆ `frobeniusNormSq` — noncomputable def · `Statlib/HighDim/Vocabulary/Norms.lean:37`  _(also used by 40: diag_sq_sum_le_frobeniusNormSq, offDiagCoeffVec_norm_sq_le_frobenius, decoupled_const_right_subgaussian_parameter_le_frobenius, …)_
-  · `frobeniusNormSq_nonneg` — lemma · `Statlib/HighDim/Concentration/HansonWright.lean:401`  _(also used by 2: decoupledOffDiagQuadForm_const_right_abs_tail_real_frobenius, hanson_high_frobenius_pos)_
+  ▣ `IsSubGaussianVector` — structure · `Statlib/HighDim/Vocabulary/RandomVector.lean:52`  _(also used by 69: decoupledOffDiagQuadForm_const_right_abs_tail_real, decoupledOffDiagQuadForm_prod_first_section_abs_tail_real, decoupledOffDiagQuadForm_const_right_abs_tail_real_spectral, …)_
+  ◆ `decoupledOffDiagQuadForm` — noncomputable def · `Statlib/HighDim/Vocabulary/QuadraticForms.lean:33`  _(also used by 38: decoupledOffDiagQuadForm_const_right_abs_tail_real, decoupledOffDiagQuadForm_prod_mk_eq_const_right, decoupledOffDiagQuadForm_prod_first_section_abs_tail_real, …)_
+  ◆ `frobeniusNormSq` — noncomputable def · `Statlib/HighDim/Vocabulary/Norms.lean:37`  _(also used by 38: diag_sq_sum_le_frobeniusNormSq, offDiagCoeffVec_norm_sq_le_frobenius, decoupled_const_right_subgaussian_parameter_le_frobenius, …)_
+  · `frobeniusNormSq_nonneg` — lemma · `Statlib/HighDim/Concentration/HansonWright.lean:402`  _(also used by 2: decoupledOffDiagQuadForm_const_right_abs_tail_real_frobenius, hanson_high_frobenius_pos)_
       ◆ `offDiagCoeffVec` — noncomputable def · `Statlib/HighDim/Vocabulary/QuadraticForms.lean:46`  _(also used by 11: decoupledOffDiagQuadForm_const_right_abs_tail_real, decoupledOffDiagQuadForm_prod_first_section_abs_tail_real, offDiagCoeffVec_norm_le_zeroDiag, …)_
-          · `decoupledOffDiagQuadForm_measurable` — lemma · `Statlib/HighDim/Concentration/HansonWright.lean:89`
-        · `decoupledOffDiagQuadForm_prod_measurable` — lemma · `Statlib/HighDim/Concentration/HansonWright.lean:98`
-      · `decoupledOffDiagQuadForm_prod_tail_measurableSet` — lemma · `Statlib/HighDim/Concentration/HansonWright.lean:108`  _(also used by 2: decoupledOffDiagQuadForm_prod_tail_le_lintegral_spectral, decoupledOffDiagQuadForm_prod_tail_le_lintegral_frobenius)_
-        · `offDiagCoeffVec_comp_measurable` — lemma · `Statlib/HighDim/Concentration/HansonWright.lean:621`
-      · `offDiagCoeffVec_norm_sq_measurable` — lemma · `Statlib/HighDim/Concentration/HansonWright.lean:629`
-        · `subgaussian_mgf_mono_param` — lemma · `Statlib/StatFoundation/RandomVariable/SubGaussian/subgaussian_mgf_mono_param.lean:10`  _(also used by 2: decoupledOffDiagQuadForm_const_right_abs_tail_real_spectral, decoupledOffDiagQuadForm_const_right_abs_tail_real_frobenius)_
+          · `decoupledOffDiagQuadForm_measurable` — lemma · `Statlib/HighDim/Concentration/HansonWright.lean:90`
+        · `decoupledOffDiagQuadForm_prod_measurable` — lemma · `Statlib/HighDim/Concentration/HansonWright.lean:99`
+      · `decoupledOffDiagQuadForm_prod_tail_measurableSet` — lemma · `Statlib/HighDim/Concentration/HansonWright.lean:109`  _(also used by 2: decoupledOffDiagQuadForm_prod_tail_le_lintegral_spectral, decoupledOffDiagQuadForm_prod_tail_le_lintegral_frobenius)_
+        · `offDiagCoeffVec_comp_measurable` — lemma · `Statlib/HighDim/Concentration/HansonWright.lean:622`
+      · `offDiagCoeffVec_norm_sq_measurable` — lemma · `Statlib/HighDim/Concentration/HansonWright.lean:630`
+        · `subgaussian_mgf_mono_param` — lemma · `Statlib/StatFoundation/RandomVariable/SubGaussian/subgaussian_mgf_mono_param.lean:10`  _(also used by 5: decoupledOffDiagQuadForm_const_right_abs_tail_real_spectral, decoupledOffDiagQuadForm_const_right_abs_tail_real_frobenius, dudley_exists_subgaussian_max_bound, …)_
             ◆ `offDiagCoeff` — noncomputable def · `Statlib/HighDim/Vocabulary/QuadraticForms.lean:39`  _(also used by 4: offDiagCoeff_eq_zeroDiagMatrix_mulVec, offDiagCoeff_norm_le_zeroDiag, offDiagCoeff_norm_le, …)_
-            · `decoupledOffDiagQuadForm_eq_sum_coeff` — lemma · `Statlib/HighDim/Concentration/HansonWright.lean:45`
-          · `inner_eq_sum` — lemma · `Statlib/HighDim/Vocabulary/Norms.lean:32`  _(also used by 12: subgaussian_vector_coord, subgaussian_norm_sq_mean_le_dim, cov_quadratic_deviation, …)_
-            · `decoupledOffDiagQuadForm_eq_inner_coeff` — lemma · `Statlib/HighDim/Concentration/HansonWright.lean:64`
-            · `offDiagCoeff_const` — lemma · `Statlib/HighDim/Concentration/HansonWright.lean:38`
-          · `decoupledOffDiagQuadForm_const_right_eq_inner_coeffVec` — lemma · `Statlib/HighDim/Concentration/HansonWright.lean:72`
-        · `decoupledOffDiagQuadForm_const_right_subgaussian` — lemma · `Statlib/HighDim/Concentration/HansonWright.lean:79`  _(also used by 3: decoupledOffDiagQuadForm_const_right_abs_tail_real, decoupledOffDiagQuadForm_const_right_abs_tail_real_spectral, decoupledOffDiagQuadForm_const_right_abs_tail_real_frobenius)_
+            · `decoupledOffDiagQuadForm_eq_sum_coeff` — lemma · `Statlib/HighDim/Concentration/HansonWright.lean:46`
+          · `inner_eq_sum` — lemma · `Statlib/HighDim/Vocabulary/Norms.lean:32`  _(also used by 14: subgaussian_vector_coord, subgaussian_norm_sq_mean_le_dim, cov_quadratic_deviation, …)_
+            · `decoupledOffDiagQuadForm_eq_inner_coeff` — lemma · `Statlib/HighDim/Concentration/HansonWright.lean:65`
+            · `offDiagCoeff_const` — lemma · `Statlib/HighDim/Concentration/HansonWright.lean:39`
+          · `decoupledOffDiagQuadForm_const_right_eq_inner_coeffVec` — lemma · `Statlib/HighDim/Concentration/HansonWright.lean:73`
+        · `decoupledOffDiagQuadForm_const_right_subgaussian` — lemma · `Statlib/HighDim/Concentration/HansonWright.lean:80`  _(also used by 3: decoupledOffDiagQuadForm_const_right_abs_tail_real, decoupledOffDiagQuadForm_const_right_abs_tail_real_spectral, decoupledOffDiagQuadForm_const_right_abs_tail_real_frobenius)_
         · `subgaussian_abs_tail_real` — lemma · `Statlib/StatFoundation/Concentration/ExponentialType/subgaussian_abs_tail_real.lean:11`  _(also used by 3: decoupledOffDiagQuadForm_const_right_abs_tail_real, decoupledOffDiagQuadForm_const_right_abs_tail_real_spectral, decoupledOffDiagQuadForm_const_right_abs_tail_real_frobenius)_
-      · `decoupledOffDiagQuadForm_const_right_abs_tail_real_of_coeff_norm_sq_le` — lemma · `Statlib/HighDim/Concentration/HansonWright.lean:797`
+      · `decoupledOffDiagQuadForm_const_right_abs_tail_real_of_coeff_norm_sq_le` — lemma · `Statlib/HighDim/Concentration/HansonWright.lean:798`
       · `measure_le_ofReal_of_measureReal_le` — lemma · `Statlib/StatFoundation/BasicAnalysis/measure_le_ofReal_of_measureReal_le.lean:10`  _(also used by 2: decoupledOffDiagQuadForm_prod_tail_le_lintegral_spectral, decoupledOffDiagQuadForm_prod_tail_le_lintegral_frobenius)_
-    · `decoupledOffDiagQuadForm_prod_tail_le_bad_plus_good` — lemma · `Statlib/HighDim/Concentration/HansonWright.lean:972`  _(also used by 1: decoupledOffDiagQuadForm_prod_tail_le_norm_bad_plus_good)_
+    · `decoupledOffDiagQuadForm_prod_tail_le_bad_plus_good` — lemma · `Statlib/HighDim/Concentration/HansonWright.lean:973`  _(also used by 1: decoupledOffDiagQuadForm_prod_tail_le_norm_bad_plus_good)_
         ◆ `matrixRowVec` — noncomputable def · `Statlib/HighDim/Vocabulary/QuadraticForms.lean:62`  _(also used by 2: matrixRowVec_apply, offDiagCoeffVec_norm_sq_le_frobenius)_
-        ◆ `zeroDiagMatrix` — def · `Statlib/HighDim/Vocabulary/QuadraticForms.lean:52`  _(also used by 38: offDiagCoeff_eq_zeroDiagMatrix_mulVec, offDiagCoeff_norm_le_zeroDiag, offDiagCoeffVec_norm_le_zeroDiag, …)_
-        · `subgaussian_projection_sq_integrable` — lemma · `Statlib/HighDim/Concentration/HansonWright.lean:492`
-        ◆ `l2NormSq` — noncomputable def · `Statlib/HighDim/Vocabulary/Norms.lean:13`  _(also used by 31: offDiagCoeffVec_norm_sq_le_frobenius, subgaussian_norm_sq_integrable, subgaussian_norm_sq_mean_le_dim, …)_
-        · `euclidean_norm_sq` — lemma · `Statlib/HighDim/Vocabulary/Norms.lean:21`  _(also used by 10: offDiagCoeffVec_norm_sq_le_frobenius, subgaussian_norm_sq_integrable, subgaussian_norm_sq_mean_le_dim, …)_
-          · `offDiagCoeffVec_eq_zeroDiagMatrix_mulVec` — lemma · `Statlib/HighDim/Concentration/HansonWright.lean:202`  _(also used by 1: offDiagCoeffVec_norm_le_zeroDiag)_
-        · `offDiagCoeffVec_apply_eq_inner_row_zeroDiag` — lemma · `Statlib/HighDim/Concentration/HansonWright.lean:423`  _(also used by 1: offDiagCoeffVec_norm_sq_le_frobenius)_
-      · `offDiagCoeffVec_norm_sq_integrable` — lemma · `Statlib/HighDim/Concentration/HansonWright.lean:553`
+        ◆ `zeroDiagMatrix` — def · `Statlib/HighDim/Vocabulary/QuadraticForms.lean:52`  _(also used by 36: offDiagCoeff_eq_zeroDiagMatrix_mulVec, offDiagCoeff_norm_le_zeroDiag, offDiagCoeffVec_norm_le_zeroDiag, …)_
+        · `subgaussian_projection_sq_integrable` — lemma · `Statlib/HighDim/Concentration/HansonWright.lean:493`
+        ◆ `l2NormSq` — noncomputable def · `Statlib/HighDim/Vocabulary/Norms.lean:13`  _(also used by 53: offDiagCoeffVec_norm_sq_le_frobenius, subgaussian_norm_sq_integrable, subgaussian_norm_sq_mean_le_dim, …)_
+        · `euclidean_norm_sq` — lemma · `Statlib/HighDim/Vocabulary/Norms.lean:21`  _(also used by 12: offDiagCoeffVec_norm_sq_le_frobenius, subgaussian_norm_sq_integrable, subgaussian_norm_sq_mean_le_dim, …)_
+          · `offDiagCoeffVec_eq_zeroDiagMatrix_mulVec` — lemma · `Statlib/HighDim/Concentration/HansonWright.lean:203`  _(also used by 1: offDiagCoeffVec_norm_le_zeroDiag)_
+        · `offDiagCoeffVec_apply_eq_inner_row_zeroDiag` — lemma · `Statlib/HighDim/Concentration/HansonWright.lean:424`  _(also used by 1: offDiagCoeffVec_norm_sq_le_frobenius)_
+      · `offDiagCoeffVec_norm_sq_integrable` — lemma · `Statlib/HighDim/Concentration/HansonWright.lean:554`
           ★ `subgaussian_variance_le` — theorem · `Statlib/StatFoundation/RandomVariable/SubGaussian/subgaussian_variance_le.lean:8`  _(also used by 1: subgaussian_rip_tail)_
-        · `subgaussian_projection_second_moment_le` — lemma · `Statlib/HighDim/Concentration/HansonWright.lean:470`  _(also used by 1: subgaussian_norm_sq_mean_le_dim)_
-        · `matrixRowVec_norm_sq` — lemma · `Statlib/HighDim/Concentration/HansonWright.lean:416`  _(also used by 1: offDiagCoeffVec_norm_sq_le_frobenius)_
-        · `frobeniusNormSq_zeroDiagMatrix_le` — lemma · `Statlib/HighDim/Concentration/HansonWright.lean:387`  _(also used by 2: offDiagCoeffVec_norm_sq_le_frobenius, zeroDiag_hanson_scale_half_le)_
-      · `offDiagCoeffVec_norm_sq_integral_le_frobenius` — lemma · `Statlib/HighDim/Concentration/HansonWright.lean:502`
-    · `offDiagCoeffVec_norm_sq_tail_le_frobenius` — lemma · `Statlib/HighDim/Concentration/HansonWright.lean:585`
-  · `decoupledOffDiagQuadForm_prod_tail_le_markov_plus_good` — lemma · `Statlib/HighDim/Concentration/HansonWright.lean:1062`
-· `decoupledOffDiagQuadForm_prod_tail_le_markov_plus_good_ofReal` — lemma · `Statlib/HighDim/Concentration/HansonWright.lean:1085` **← headline**
+        · `subgaussian_projection_second_moment_le` — lemma · `Statlib/HighDim/Concentration/HansonWright.lean:471`  _(also used by 1: subgaussian_norm_sq_mean_le_dim)_
+        · `matrixRowVec_norm_sq` — lemma · `Statlib/HighDim/Concentration/HansonWright.lean:417`  _(also used by 1: offDiagCoeffVec_norm_sq_le_frobenius)_
+        · `frobeniusNormSq_zeroDiagMatrix_le` — lemma · `Statlib/HighDim/Concentration/HansonWright.lean:388`  _(also used by 2: offDiagCoeffVec_norm_sq_le_frobenius, zeroDiag_hanson_scale_half_le)_
+      · `offDiagCoeffVec_norm_sq_integral_le_frobenius` — lemma · `Statlib/HighDim/Concentration/HansonWright.lean:503`
+    · `offDiagCoeffVec_norm_sq_tail_le_frobenius` — lemma · `Statlib/HighDim/Concentration/HansonWright.lean:586`
+  · `decoupledOffDiagQuadForm_prod_tail_le_markov_plus_good` — lemma · `Statlib/HighDim/Concentration/HansonWright.lean:1063`
+· `decoupledOffDiagQuadForm_prod_tail_le_markov_plus_good_ofReal` — lemma · `Statlib/HighDim/Concentration/HansonWright.lean:1086` **← headline**
 
 ## Dependency diagram
 

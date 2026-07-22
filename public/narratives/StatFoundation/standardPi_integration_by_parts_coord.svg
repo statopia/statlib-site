@@ -18,7 +18,7 @@
 <!-- n0 -->
 <g id="node1" class="node">
 <title>n0</title>
-<g id="a_node1"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/tmp/statlib-main-refresh.tmBBiR/Statlib/StatFoundation/RandomVariable/Gaussian/Standard.lean:31" xlink:title="abbrev · Statlib/StatFoundation/RandomVariable/Gaussian/Standard.lean:31" target="_blank">
+<g id="a_node1"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/StatFoundation/RandomVariable/Gaussian/Standard.lean#L31" xlink:title="abbrev · Statlib/StatFoundation/RandomVariable/Gaussian/Standard.lean:31" target="_blank">
 <path fill="#d6e9ff" stroke="#3b82f6" d="M687.74,-52C687.74,-52 636.26,-52 636.26,-52 630.26,-52 624.26,-46 624.26,-40 624.26,-40 624.26,-28 624.26,-28 624.26,-22 630.26,-16 636.26,-16 636.26,-16 687.74,-16 687.74,-16 693.74,-16 699.74,-22 699.74,-28 699.74,-28 699.74,-40 699.74,-40 699.74,-46 693.74,-52 687.74,-52"/>
 <text xml:space="preserve" text-anchor="middle" x="662" y="-31" font-family="Helvetica,sans-Serif" font-size="10.00">standardReal</text>
 </a>
@@ -27,7 +27,7 @@
 <!-- n1 -->
 <g id="node2" class="node">
 <title>n1</title>
-<g id="a_node2"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/tmp/statlib-main-refresh.tmBBiR/Statlib/StatFoundation/RandomVariable/Gaussian/Standard.lean:34" xlink:title="def · Statlib/StatFoundation/RandomVariable/Gaussian/Standard.lean:34" target="_blank">
+<g id="a_node2"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/StatFoundation/RandomVariable/Gaussian/Standard.lean#L34" xlink:title="def · Statlib/StatFoundation/RandomVariable/Gaussian/Standard.lean:34" target="_blank">
 <path fill="#d6e9ff" stroke="#3b82f6" d="M87.9,-124C87.9,-124 48.1,-124 48.1,-124 42.1,-124 36.1,-118 36.1,-112 36.1,-112 36.1,-100 36.1,-100 36.1,-94 42.1,-88 48.1,-88 48.1,-88 87.9,-88 87.9,-88 93.9,-88 99.9,-94 99.9,-100 99.9,-100 99.9,-112 99.9,-112 99.9,-118 93.9,-124 87.9,-124"/>
 <text xml:space="preserve" text-anchor="middle" x="68" y="-103" font-family="Helvetica,sans-Serif" font-size="10.00">standardPi</text>
 </a>
@@ -42,7 +42,7 @@
 <!-- n2 -->
 <g id="node3" class="node">
 <title>n2</title>
-<g id="a_node3"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/tmp/statlib-main-refresh.tmBBiR/Statlib/StatFoundation/RandomVariable/Gaussian/Stein.lean:354" xlink:title="private lemma · Statlib/StatFoundation/RandomVariable/Gaussian/Stein.lean:354" target="_blank">
+<g id="a_node3"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/StatFoundation/RandomVariable/Gaussian/Stein.lean#L358" xlink:title="private lemma · Statlib/StatFoundation/RandomVariable/Gaussian/Stein.lean:358" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M297.7,-268C297.7,-268 192.3,-268 192.3,-268 186.3,-268 180.3,-262 180.3,-256 180.3,-256 180.3,-244 180.3,-244 180.3,-238 186.3,-232 192.3,-232 192.3,-232 297.7,-232 297.7,-232 303.7,-232 309.7,-238 309.7,-244 309.7,-244 309.7,-256 309.7,-256 309.7,-262 303.7,-268 297.7,-268"/>
 <text xml:space="preserve" text-anchor="middle" x="245" y="-247" font-family="Helvetica,sans-Serif" font-size="10.00">lineDeriv_eq_deriv_coord</text>
 </a>
@@ -51,7 +51,7 @@
 <!-- n3 -->
 <g id="node4" class="node">
 <title>n3</title>
-<g id="a_node4"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/tmp/statlib-main-refresh.tmBBiR/Statlib/StatFoundation/RandomVariable/Gaussian/Stein.lean:378" xlink:title="private lemma · Statlib/StatFoundation/RandomVariable/Gaussian/Stein.lean:378" target="_blank">
+<g id="a_node4"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/StatFoundation/RandomVariable/Gaussian/Stein.lean#L382" xlink:title="private lemma · Statlib/StatFoundation/RandomVariable/Gaussian/Stein.lean:382" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M412.57,-268C412.57,-268 339.43,-268 339.43,-268 333.43,-268 327.43,-262 327.43,-256 327.43,-256 327.43,-244 327.43,-244 327.43,-238 333.43,-232 339.43,-232 339.43,-232 412.57,-232 412.57,-232 418.57,-232 424.57,-238 424.57,-244 424.57,-244 424.57,-256 424.57,-256 424.57,-262 418.57,-268 412.57,-268"/>
 <text xml:space="preserve" text-anchor="middle" x="376" y="-247" font-family="Helvetica,sans-Serif" font-size="10.00">lipschitz_insertNth</text>
 </a>
@@ -60,7 +60,7 @@
 <!-- n4 -->
 <g id="node5" class="node">
 <title>n4</title>
-<g id="a_node5"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/tmp/statlib-main-refresh.tmBBiR/Statlib/StatFoundation/RandomVariable/Gaussian/Stein.lean:86" xlink:title="private lemma · Statlib/StatFoundation/RandomVariable/Gaussian/Stein.lean:86" target="_blank">
+<g id="a_node5"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/StatFoundation/RandomVariable/Gaussian/Stein.lean#L86" xlink:title="private lemma · Statlib/StatFoundation/RandomVariable/Gaussian/Stein.lean:86" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M1215.31,-196C1215.31,-196 1082.69,-196 1082.69,-196 1076.69,-196 1070.69,-190 1070.69,-184 1070.69,-184 1070.69,-172 1070.69,-172 1070.69,-166 1076.69,-160 1082.69,-160 1082.69,-160 1215.31,-160 1215.31,-160 1221.31,-160 1227.31,-166 1227.31,-172 1227.31,-172 1227.31,-184 1227.31,-184 1227.31,-190 1221.31,-196 1215.31,-196"/>
 <text xml:space="preserve" text-anchor="middle" x="1149" y="-175" font-family="Helvetica,sans-Serif" font-size="10.00">lipschitz_memLp_gaussianReal</text>
 </a>
@@ -75,7 +75,7 @@
 <!-- n5 -->
 <g id="node6" class="node">
 <title>n5</title>
-<g id="a_node6"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/tmp/statlib-main-refresh.tmBBiR/Statlib/StatFoundation/RandomVariable/Gaussian/Standard.lean:178" xlink:title="lemma · Statlib/StatFoundation/RandomVariable/Gaussian/Standard.lean:178" target="_blank">
+<g id="a_node6"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/StatFoundation/RandomVariable/Gaussian/Standard.lean#L178" xlink:title="lemma · Statlib/StatFoundation/RandomVariable/Gaussian/Standard.lean:178" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M977.1,-124C977.1,-124 808.9,-124 808.9,-124 802.9,-124 796.9,-118 796.9,-112 796.9,-112 796.9,-100 796.9,-100 796.9,-94 802.9,-88 808.9,-88 808.9,-88 977.1,-88 977.1,-88 983.1,-88 989.1,-94 989.1,-100 989.1,-100 989.1,-112 989.1,-112 989.1,-118 983.1,-124 977.1,-124"/>
 <text xml:space="preserve" text-anchor="middle" x="893" y="-103" font-family="Helvetica,sans-Serif" font-size="10.00">hasDerivAt_standardGaussianPDFReal</text>
 </a>
@@ -84,7 +84,7 @@
 <!-- n6 -->
 <g id="node7" class="node">
 <title>n6</title>
-<g id="a_node7"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/tmp/statlib-main-refresh.tmBBiR/Statlib/StatFoundation/RandomVariable/Gaussian/Standard.lean:96" xlink:title="lemma · Statlib/StatFoundation/RandomVariable/Gaussian/Standard.lean:96" target="_blank">
+<g id="a_node7"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/StatFoundation/RandomVariable/Gaussian/Standard.lean#L96" xlink:title="lemma · Statlib/StatFoundation/RandomVariable/Gaussian/Standard.lean:96" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M766.68,-124C766.68,-124 557.32,-124 557.32,-124 551.32,-124 545.32,-118 545.32,-112 545.32,-112 545.32,-100 545.32,-100 545.32,-94 551.32,-88 557.32,-88 557.32,-88 766.68,-88 766.68,-88 772.68,-88 778.68,-94 778.68,-100 778.68,-100 778.68,-112 778.68,-112 778.68,-118 772.68,-124 766.68,-124"/>
 <text xml:space="preserve" text-anchor="middle" x="662" y="-103" font-family="Helvetica,sans-Serif" font-size="10.00">integrable_id_mul_mul_pdf_of_memLp_standard</text>
 </a>
@@ -99,7 +99,7 @@
 <!-- n7 -->
 <g id="node8" class="node">
 <title>n7</title>
-<g id="a_node8"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/tmp/statlib-main-refresh.tmBBiR/Statlib/StatFoundation/RandomVariable/Gaussian/Standard.lean:84" xlink:title="lemma · Statlib/StatFoundation/RandomVariable/Gaussian/Standard.lean:84" target="_blank">
+<g id="a_node8"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/StatFoundation/RandomVariable/Gaussian/Standard.lean#L84" xlink:title="lemma · Statlib/StatFoundation/RandomVariable/Gaussian/Standard.lean:84" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M1193.17,-124C1193.17,-124 1018.83,-124 1018.83,-124 1012.83,-124 1006.83,-118 1006.83,-112 1006.83,-112 1006.83,-100 1006.83,-100 1006.83,-94 1012.83,-88 1018.83,-88 1018.83,-88 1193.17,-88 1193.17,-88 1199.17,-88 1205.17,-94 1205.17,-100 1205.17,-100 1205.17,-112 1205.17,-112 1205.17,-118 1199.17,-124 1193.17,-124"/>
 <text xml:space="preserve" text-anchor="middle" x="1106" y="-103" font-family="Helvetica,sans-Serif" font-size="10.00">integrable_mul_pdf_of_memLp_standard</text>
 </a>
@@ -114,7 +114,7 @@
 <!-- n8 -->
 <g id="node9" class="node">
 <title>n8</title>
-<g id="a_node9"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/tmp/statlib-main-refresh.tmBBiR/Statlib/StatFoundation/RandomVariable/Gaussian/Stein.lean:25" xlink:title="lemma · Statlib/StatFoundation/RandomVariable/Gaussian/Stein.lean:25" target="_blank">
+<g id="a_node9"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/StatFoundation/RandomVariable/Gaussian/Stein.lean#L25" xlink:title="lemma · Statlib/StatFoundation/RandomVariable/Gaussian/Stein.lean:25" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M1040.42,-196C1040.42,-196 945.58,-196 945.58,-196 939.58,-196 933.58,-190 933.58,-184 933.58,-184 933.58,-172 933.58,-172 933.58,-166 939.58,-160 945.58,-160 945.58,-160 1040.42,-160 1040.42,-160 1046.42,-160 1052.42,-166 1052.42,-172 1052.42,-172 1052.42,-184 1052.42,-184 1052.42,-190 1046.42,-196 1040.42,-196"/>
 <text xml:space="preserve" text-anchor="middle" x="993" y="-175" font-family="Helvetica,sans-Serif" font-size="10.00">standard_stein_identity</text>
 </a>
@@ -147,7 +147,7 @@
 <!-- n9 -->
 <g id="node10" class="node">
 <title>n9</title>
-<g id="a_node10"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/tmp/statlib-main-refresh.tmBBiR/Statlib/StatFoundation/RandomVariable/Gaussian/Stein.lean:63" xlink:title="private lemma · Statlib/StatFoundation/RandomVariable/Gaussian/Stein.lean:63" target="_blank">
+<g id="a_node10"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/StatFoundation/RandomVariable/Gaussian/Stein.lean#L63" xlink:title="private lemma · Statlib/StatFoundation/RandomVariable/Gaussian/Stein.lean:63" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M573.8,-196C573.8,-196 496.2,-196 496.2,-196 490.2,-196 484.2,-190 484.2,-184 484.2,-184 484.2,-172 484.2,-172 484.2,-166 490.2,-160 496.2,-160 496.2,-160 573.8,-160 573.8,-160 579.8,-160 585.8,-166 585.8,-172 585.8,-172 585.8,-184 585.8,-184 585.8,-190 579.8,-196 573.8,-196"/>
 <text xml:space="preserve" text-anchor="middle" x="535" y="-175" font-family="Helvetica,sans-Serif" font-size="10.00">steklov_hasDerivAt</text>
 </a>
@@ -156,7 +156,7 @@
 <!-- n10 -->
 <g id="node11" class="node">
 <title>n10</title>
-<g id="a_node11"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/tmp/statlib-main-refresh.tmBBiR/Statlib/StatFoundation/RandomVariable/Gaussian/Stein.lean:106" xlink:title="private lemma · Statlib/StatFoundation/RandomVariable/Gaussian/Stein.lean:106" target="_blank">
+<g id="a_node11"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/StatFoundation/RandomVariable/Gaussian/Stein.lean#L107" xlink:title="private lemma · Statlib/StatFoundation/RandomVariable/Gaussian/Stein.lean:107" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M386.31,-124C386.31,-124 303.69,-124 303.69,-124 297.69,-124 291.69,-118 291.69,-112 291.69,-112 291.69,-100 291.69,-100 291.69,-94 297.69,-88 303.69,-88 303.69,-88 386.31,-88 386.31,-88 392.31,-88 398.31,-94 398.31,-100 398.31,-100 398.31,-112 398.31,-112 398.31,-118 392.31,-124 386.31,-124"/>
 <text xml:space="preserve" text-anchor="middle" x="345" y="-103" font-family="Helvetica,sans-Serif" font-size="10.00">forward_diff_tendsto</text>
 </a>
@@ -165,7 +165,7 @@
 <!-- n11 -->
 <g id="node12" class="node">
 <title>n11</title>
-<g id="a_node12"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/tmp/statlib-main-refresh.tmBBiR/Statlib/StatFoundation/RandomVariable/Gaussian/Stein.lean:116" xlink:title="private lemma · Statlib/StatFoundation/RandomVariable/Gaussian/Stein.lean:116" target="_blank">
+<g id="a_node12"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/StatFoundation/RandomVariable/Gaussian/Stein.lean#L120" xlink:title="private lemma · Statlib/StatFoundation/RandomVariable/Gaussian/Stein.lean:120" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M262.03,-124C262.03,-124 169.97,-124 169.97,-124 163.97,-124 157.97,-118 157.97,-112 157.97,-112 157.97,-100 157.97,-100 157.97,-94 163.97,-88 169.97,-88 169.97,-88 262.03,-88 262.03,-88 268.03,-88 274.03,-94 274.03,-100 274.03,-100 274.03,-112 274.03,-112 274.03,-118 268.03,-124 262.03,-124"/>
 <text xml:space="preserve" text-anchor="middle" x="216" y="-103" font-family="Helvetica,sans-Serif" font-size="10.00">backward_diff_tendsto</text>
 </a>
@@ -174,7 +174,7 @@
 <!-- n12 -->
 <g id="node13" class="node">
 <title>n12</title>
-<g id="a_node13"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/tmp/statlib-main-refresh.tmBBiR/Statlib/StatFoundation/RandomVariable/Gaussian/Stein.lean:128" xlink:title="private lemma · Statlib/StatFoundation/RandomVariable/Gaussian/Stein.lean:128" target="_blank">
+<g id="a_node13"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/StatFoundation/RandomVariable/Gaussian/Stein.lean#L132" xlink:title="private lemma · Statlib/StatFoundation/RandomVariable/Gaussian/Stein.lean:132" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M732.54,-196C732.54,-196 615.46,-196 615.46,-196 609.46,-196 603.46,-190 603.46,-184 603.46,-184 603.46,-172 603.46,-172 603.46,-166 609.46,-160 615.46,-160 615.46,-160 732.54,-160 732.54,-160 738.54,-160 744.54,-166 744.54,-172 744.54,-172 744.54,-184 744.54,-184 744.54,-190 738.54,-196 732.54,-196"/>
 <text xml:space="preserve" text-anchor="middle" x="674" y="-175" font-family="Helvetica,sans-Serif" font-size="10.00">symm_diff_quotient_tendsto</text>
 </a>
@@ -195,7 +195,7 @@
 <!-- n13 -->
 <g id="node14" class="node">
 <title>n13</title>
-<g id="a_node14"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/tmp/statlib-main-refresh.tmBBiR/Statlib/StatFoundation/RandomVariable/Gaussian/Stein.lean:139" xlink:title="private lemma · Statlib/StatFoundation/RandomVariable/Gaussian/Stein.lean:139" target="_blank">
+<g id="a_node14"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/StatFoundation/RandomVariable/Gaussian/Stein.lean#L143" xlink:title="private lemma · Statlib/StatFoundation/RandomVariable/Gaussian/Stein.lean:143" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M515.25,-124C515.25,-124 428.75,-124 428.75,-124 422.75,-124 416.75,-118 416.75,-112 416.75,-112 416.75,-100 416.75,-100 416.75,-94 422.75,-88 428.75,-88 428.75,-88 515.25,-88 515.25,-88 521.25,-88 527.25,-94 527.25,-100 527.25,-100 527.25,-112 527.25,-112 527.25,-118 521.25,-124 515.25,-124"/>
 <text xml:space="preserve" text-anchor="middle" x="472" y="-103" font-family="Helvetica,sans-Serif" font-size="10.00">steklov_sub_norm_le</text>
 </a>
@@ -204,7 +204,7 @@
 <!-- n14 -->
 <g id="node15" class="node">
 <title>n14</title>
-<g id="a_node15"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/tmp/statlib-main-refresh.tmBBiR/Statlib/StatFoundation/RandomVariable/Gaussian/Stein.lean:174" xlink:title="private lemma · Statlib/StatFoundation/RandomVariable/Gaussian/Stein.lean:174" target="_blank">
+<g id="a_node15"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/StatFoundation/RandomVariable/Gaussian/Stein.lean#L178" xlink:title="private lemma · Statlib/StatFoundation/RandomVariable/Gaussian/Stein.lean:178" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M903.37,-196C903.37,-196 794.63,-196 794.63,-196 788.63,-196 782.63,-190 782.63,-184 782.63,-184 782.63,-172 782.63,-172 782.63,-166 788.63,-160 794.63,-160 794.63,-160 903.37,-160 903.37,-160 909.37,-160 915.37,-166 915.37,-172 915.37,-172 915.37,-184 915.37,-184 915.37,-190 909.37,-196 903.37,-196"/>
 <text xml:space="preserve" text-anchor="middle" x="849" y="-175" font-family="Helvetica,sans-Serif" font-size="10.00">steklov_tendsto_pointwise</text>
 </a>
@@ -219,7 +219,7 @@
 <!-- n15 -->
 <g id="node16" class="node">
 <title>n15</title>
-<g id="a_node16"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/tmp/statlib-main-refresh.tmBBiR/Statlib/StatFoundation/RandomVariable/Gaussian/Stein.lean:201" xlink:title="lemma · Statlib/StatFoundation/RandomVariable/Gaussian/Stein.lean:201" target="_blank">
+<g id="a_node16"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/StatFoundation/RandomVariable/Gaussian/Stein.lean#L205" xlink:title="lemma · Statlib/StatFoundation/RandomVariable/Gaussian/Stein.lean:205" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M779.94,-268C779.94,-268 630.06,-268 630.06,-268 624.06,-268 618.06,-262 618.06,-256 618.06,-256 618.06,-244 618.06,-244 618.06,-238 624.06,-232 630.06,-232 630.06,-232 779.94,-232 779.94,-232 785.94,-232 791.94,-238 791.94,-244 791.94,-244 791.94,-256 791.94,-256 791.94,-262 785.94,-268 779.94,-268"/>
 <text xml:space="preserve" text-anchor="middle" x="705" y="-247" font-family="Helvetica,sans-Serif" font-size="10.00">standard_stein_identity_of_lipschitz</text>
 </a>
@@ -270,7 +270,7 @@
 <!-- n16 -->
 <g id="node17" class="node">
 <title>n16</title>
-<g id="a_node17"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/tmp/statlib-main-refresh.tmBBiR/Statlib/StatFoundation/RandomVariable/Gaussian/Stein.lean:369" xlink:title="private lemma · Statlib/StatFoundation/RandomVariable/Gaussian/Stein.lean:369" target="_blank">
+<g id="a_node17"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/StatFoundation/RandomVariable/Gaussian/Stein.lean#L373" xlink:title="private lemma · Statlib/StatFoundation/RandomVariable/Gaussian/Stein.lean:373" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M906.42,-268C906.42,-268 821.58,-268 821.58,-268 815.58,-268 809.58,-262 809.58,-256 809.58,-256 809.58,-244 809.58,-244 809.58,-238 815.58,-232 821.58,-232 821.58,-232 906.42,-232 906.42,-232 912.42,-232 918.42,-238 918.42,-244 918.42,-244 918.42,-256 918.42,-256 918.42,-262 912.42,-268 906.42,-268"/>
 <text xml:space="preserve" text-anchor="middle" x="864" y="-247" font-family="Helvetica,sans-Serif" font-size="10.00">update_insertNth_eq</text>
 </a>
@@ -279,7 +279,7 @@
 <!-- n17 -->
 <g id="node18" class="node">
 <title>n17</title>
-<g id="a_node18"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/tmp/statlib-main-refresh.tmBBiR/Statlib/StatFoundation/RandomVariable/Gaussian/Standard.lean:197" xlink:title="lemma · Statlib/StatFoundation/RandomVariable/Gaussian/Standard.lean:197" target="_blank">
+<g id="a_node18"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/StatFoundation/RandomVariable/Gaussian/Standard.lean#L197" xlink:title="lemma · Statlib/StatFoundation/RandomVariable/Gaussian/Standard.lean:197" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M130.32,-196C130.32,-196 27.68,-196 27.68,-196 21.68,-196 15.68,-190 15.68,-184 15.68,-184 15.68,-172 15.68,-172 15.68,-166 21.68,-160 27.68,-160 27.68,-160 130.32,-160 130.32,-160 136.32,-160 142.32,-166 142.32,-172 142.32,-172 142.32,-184 142.32,-184 142.32,-190 136.32,-196 130.32,-196"/>
 <text xml:space="preserve" text-anchor="middle" x="79" y="-175" font-family="Helvetica,sans-Serif" font-size="10.00">integrable_id_standardPi</text>
 </a>
@@ -300,7 +300,7 @@
 <!-- n18 -->
 <g id="node19" class="node">
 <title>n18</title>
-<g id="a_node19"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/tmp/statlib-main-refresh.tmBBiR/Statlib/StatFoundation/RandomVariable/Gaussian/Stein.lean:392" xlink:title="private lemma · Statlib/StatFoundation/RandomVariable/Gaussian/Stein.lean:392" target="_blank">
+<g id="a_node19"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/StatFoundation/RandomVariable/Gaussian/Stein.lean#L396" xlink:title="private lemma · Statlib/StatFoundation/RandomVariable/Gaussian/Stein.lean:396" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M294.31,-196C294.31,-196 211.69,-196 211.69,-196 205.69,-196 199.69,-190 199.69,-184 199.69,-184 199.69,-172 199.69,-172 199.69,-166 205.69,-160 211.69,-160 211.69,-160 294.31,-160 294.31,-160 300.31,-160 306.31,-166 306.31,-172 306.31,-172 306.31,-184 306.31,-184 306.31,-190 300.31,-196 294.31,-196"/>
 <text xml:space="preserve" text-anchor="middle" x="253" y="-175" font-family="Helvetica,sans-Serif" font-size="10.00">integrable_sq_coord</text>
 </a>
@@ -321,7 +321,7 @@
 <!-- n19 -->
 <g id="node20" class="node">
 <title>n19</title>
-<g id="a_node20"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/tmp/statlib-main-refresh.tmBBiR/Statlib/StatFoundation/RandomVariable/Gaussian/Stein.lean:402" xlink:title="private lemma · Statlib/StatFoundation/RandomVariable/Gaussian/Stein.lean:402" target="_blank">
+<g id="a_node20"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/StatFoundation/RandomVariable/Gaussian/Stein.lean#L406" xlink:title="private lemma · Statlib/StatFoundation/RandomVariable/Gaussian/Stein.lean:406" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M434.09,-196C434.09,-196 335.91,-196 335.91,-196 329.91,-196 323.91,-190 323.91,-184 323.91,-184 323.91,-172 323.91,-172 323.91,-166 329.91,-160 335.91,-160 335.91,-160 434.09,-160 434.09,-160 440.09,-160 446.09,-166 446.09,-172 446.09,-172 446.09,-184 446.09,-184 446.09,-190 440.09,-196 434.09,-196"/>
 <text xml:space="preserve" text-anchor="middle" x="385" y="-175" font-family="Helvetica,sans-Serif" font-size="10.00">pi_norm_sq_le_sum_sq</text>
 </a>
@@ -330,7 +330,7 @@
 <!-- n20 -->
 <g id="node21" class="node">
 <title>n20</title>
-<g id="a_node21"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/tmp/statlib-main-refresh.tmBBiR/Statlib/StatFoundation/RandomVariable/Gaussian/Stein.lean:414" xlink:title="private lemma · Statlib/StatFoundation/RandomVariable/Gaussian/Stein.lean:414" target="_blank">
+<g id="a_node21"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/StatFoundation/RandomVariable/Gaussian/Stein.lean#L418" xlink:title="private lemma · Statlib/StatFoundation/RandomVariable/Gaussian/Stein.lean:418" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M587.88,-268C587.88,-268 454.12,-268 454.12,-268 448.12,-268 442.12,-262 442.12,-256 442.12,-256 442.12,-244 442.12,-244 442.12,-238 448.12,-232 454.12,-232 454.12,-232 587.88,-232 587.88,-232 593.88,-232 599.88,-238 599.88,-244 599.88,-244 599.88,-256 599.88,-256 599.88,-262 593.88,-268 587.88,-268"/>
 <text xml:space="preserve" text-anchor="middle" x="521" y="-247" font-family="Helvetica,sans-Serif" font-size="10.00">integrable_norm_sq_standardPi</text>
 </a>
@@ -357,7 +357,7 @@
 <!-- n21 -->
 <g id="node22" class="node">
 <title>n21</title>
-<g id="a_node22"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/tmp/statlib-main-refresh.tmBBiR/Statlib/StatFoundation/RandomVariable/Gaussian/Stein.lean:428" xlink:title="lemma · Statlib/StatFoundation/RandomVariable/Gaussian/Stein.lean:428" target="_blank">
+<g id="a_node22"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/StatFoundation/RandomVariable/Gaussian/Stein.lean#L432" xlink:title="lemma · Statlib/StatFoundation/RandomVariable/Gaussian/Stein.lean:432" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" stroke-width="3" d="M604.28,-340C604.28,-340 437.72,-340 437.72,-340 431.72,-340 425.72,-334 425.72,-328 425.72,-328 425.72,-316 425.72,-316 425.72,-310 431.72,-304 437.72,-304 437.72,-304 604.28,-304 604.28,-304 610.28,-304 616.28,-310 616.28,-316 616.28,-316 616.28,-328 616.28,-328 616.28,-334 610.28,-340 604.28,-340"/>
 <text xml:space="preserve" text-anchor="middle" x="521" y="-319" font-family="Helvetica,sans-Serif" font-size="10.00">standardPi_integration_by_parts_coord</text>
 </a>

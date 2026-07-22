@@ -18,7 +18,7 @@
 <!-- n0 -->
 <g id="node1" class="node">
 <title>n0</title>
-<g id="a_node1"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/tmp/statlib-main-refresh.tmBBiR/Statlib/StatFoundation/Vocabulary/RandomVariable.lean:74" xlink:title="structure · Statlib/StatFoundation/Vocabulary/RandomVariable.lean:74" target="_blank">
+<g id="a_node1"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/StatFoundation/Vocabulary/RandomVariable.lean#L74" xlink:title="structure · Statlib/StatFoundation/Vocabulary/RandomVariable.lean:74" target="_blank">
 <path fill="#e8dcff" stroke="#8b5cf6" d="M128.47,-196C128.47,-196 27.53,-196 27.53,-196 21.53,-196 15.53,-190 15.53,-184 15.53,-184 15.53,-172 15.53,-172 15.53,-166 21.53,-160 27.53,-160 27.53,-160 128.47,-160 128.47,-160 134.47,-160 140.47,-166 140.47,-172 140.47,-172 140.47,-184 140.47,-184 140.47,-190 134.47,-196 128.47,-196"/>
 <text xml:space="preserve" text-anchor="middle" x="78" y="-175" font-family="Helvetica,sans-Serif" font-size="10.00">HasSubexponentialMGF</text>
 </a>
@@ -27,7 +27,7 @@
 <!-- n1 -->
 <g id="node2" class="node">
 <title>n1</title>
-<g id="a_node2"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/tmp/statlib-main-refresh.tmBBiR/Statlib/StatFoundation/RandomVariable/SubGaussian/subgaussian_meas_abs_ge_le_two_exp.lean:9" xlink:title="theorem · Statlib/StatFoundation/RandomVariable/SubGaussian/subgaussian_meas_abs_ge_le_two_exp.lean:9" target="_blank">
+<g id="a_node2"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/StatFoundation/RandomVariable/SubGaussian/subgaussian_meas_abs_ge_le_two_exp.lean#L9" xlink:title="theorem · Statlib/StatFoundation/RandomVariable/SubGaussian/subgaussian_meas_abs_ge_le_two_exp.lean:9" target="_blank">
 <path fill="#ffe6a3" stroke="#d4a017" d="M441.34,-52C441.34,-52 268.66,-52 268.66,-52 262.66,-52 256.66,-46 256.66,-40 256.66,-40 256.66,-28 256.66,-28 256.66,-22 262.66,-16 268.66,-16 268.66,-16 441.34,-16 441.34,-16 447.34,-16 453.34,-22 453.34,-28 453.34,-28 453.34,-40 453.34,-40 453.34,-46 447.34,-52 441.34,-52"/>
 <text xml:space="preserve" text-anchor="middle" x="355" y="-31" font-family="Helvetica,sans-Serif" font-size="10.00">subgaussian_meas_abs_ge_le_two_exp</text>
 </a>
@@ -36,7 +36,7 @@
 <!-- n2 -->
 <g id="node3" class="node">
 <title>n2</title>
-<g id="a_node3"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/tmp/statlib-main-refresh.tmBBiR/Statlib/StatFoundation/RandomVariable/SubGaussian/subgaussian_exp_sq_le_at_one_third.lean:165" xlink:title="theorem · Statlib/StatFoundation/RandomVariable/SubGaussian/subgaussian_exp_sq_le_at_one_third.lean:165" target="_blank">
+<g id="a_node3"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/StatFoundation/RandomVariable/SubGaussian/subgaussian_exp_sq_le_at_one_third.lean#L165" xlink:title="theorem · Statlib/StatFoundation/RandomVariable/SubGaussian/subgaussian_exp_sq_le_at_one_third.lean:165" target="_blank">
 <path fill="#ffe6a3" stroke="#d4a017" d="M224.3,-124C224.3,-124 27.7,-124 27.7,-124 21.7,-124 15.7,-118 15.7,-112 15.7,-112 15.7,-100 15.7,-100 15.7,-94 21.7,-88 27.7,-88 27.7,-88 224.3,-88 224.3,-88 230.3,-88 236.3,-94 236.3,-100 236.3,-100 236.3,-112 236.3,-112 236.3,-118 230.3,-124 224.3,-124"/>
 <text xml:space="preserve" text-anchor="middle" x="126" y="-103" font-family="Helvetica,sans-Serif" font-size="10.00">subgaussian_integrable_exp_sq_at_one_third</text>
 </a>
@@ -51,7 +51,7 @@
 <!-- n3 -->
 <g id="node4" class="node">
 <title>n3</title>
-<g id="a_node4"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/tmp/statlib-main-refresh.tmBBiR/Statlib/StatFoundation/RandomVariable/SubExponential/scalar_sq_centered_exp_integrable.lean:12" xlink:title="lemma · Statlib/StatFoundation/RandomVariable/SubExponential/scalar_sq_centered_exp_integrable.lean:12" target="_blank">
+<g id="a_node4"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/StatFoundation/RandomVariable/SubExponential/scalar_sq_centered_exp_integrable.lean#L12" xlink:title="lemma · Statlib/StatFoundation/RandomVariable/SubExponential/scalar_sq_centered_exp_integrable.lean:12" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M321.22,-196C321.22,-196 170.78,-196 170.78,-196 164.78,-196 158.78,-190 158.78,-184 158.78,-184 158.78,-172 158.78,-172 158.78,-166 164.78,-160 170.78,-160 170.78,-160 321.22,-160 321.22,-160 327.22,-160 333.22,-166 333.22,-172 333.22,-172 333.22,-184 333.22,-184 333.22,-190 327.22,-196 321.22,-196"/>
 <text xml:space="preserve" text-anchor="middle" x="246" y="-175" font-family="Helvetica,sans-Serif" font-size="10.00">scalar_sq_centered_exp_integrable</text>
 </a>
@@ -66,7 +66,7 @@
 <!-- n4 -->
 <g id="node5" class="node">
 <title>n4</title>
-<g id="a_node5"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/tmp/statlib-main-refresh.tmBBiR/Statlib/StatFoundation/RandomVariable/SubExponential/subexp_mgf_le_of_sq_subgaussian.lean:13" xlink:title="lemma · Statlib/StatFoundation/RandomVariable/SubExponential/subexp_mgf_le_of_sq_subgaussian.lean:13" target="_blank">
+<g id="a_node5"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/StatFoundation/RandomVariable/SubExponential/subexp_mgf_le_of_sq_subgaussian.lean#L13" xlink:title="lemma · Statlib/StatFoundation/RandomVariable/SubExponential/subexp_mgf_le_of_sq_subgaussian.lean:13" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M347.2,-124C347.2,-124 266.8,-124 266.8,-124 260.8,-124 254.8,-118 254.8,-112 254.8,-112 254.8,-100 254.8,-100 254.8,-94 260.8,-88 266.8,-88 266.8,-88 347.2,-88 347.2,-88 353.2,-88 359.2,-94 359.2,-100 359.2,-100 359.2,-112 359.2,-112 359.2,-118 353.2,-124 347.2,-124"/>
 <text xml:space="preserve" text-anchor="middle" x="307" y="-103" font-family="Helvetica,sans-Serif" font-size="10.00">sub_gauss_tail_abs</text>
 </a>
@@ -75,7 +75,7 @@
 <!-- n5 -->
 <g id="node6" class="node">
 <title>n5</title>
-<g id="a_node6"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/tmp/statlib-main-refresh.tmBBiR/Statlib/StatFoundation/RandomVariable/SubGaussian/sq_le_two_mul_exp.lean:10" xlink:title="lemma · Statlib/StatFoundation/RandomVariable/SubGaussian/sq_le_two_mul_exp.lean:10" target="_blank">
+<g id="a_node6"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/StatFoundation/RandomVariable/SubGaussian/sq_le_two_mul_exp.lean#L10" xlink:title="lemma · Statlib/StatFoundation/RandomVariable/SubGaussian/sq_le_two_mul_exp.lean:10" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M469.19,-124C469.19,-124 388.81,-124 388.81,-124 382.81,-124 376.81,-118 376.81,-112 376.81,-112 376.81,-100 376.81,-100 376.81,-94 382.81,-88 388.81,-88 388.81,-88 469.19,-88 469.19,-88 475.19,-88 481.19,-94 481.19,-100 481.19,-100 481.19,-112 481.19,-112 481.19,-118 475.19,-124 469.19,-124"/>
 <text xml:space="preserve" text-anchor="middle" x="429" y="-103" font-family="Helvetica,sans-Serif" font-size="10.00">sq_le_two_mul_exp</text>
 </a>
@@ -84,7 +84,7 @@
 <!-- n6 -->
 <g id="node7" class="node">
 <title>n6</title>
-<g id="a_node7"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/tmp/statlib-main-refresh.tmBBiR/Statlib/StatFoundation/RandomVariable/SubGaussian/subgaussian_exp_sq_le_at_one_third.lean:14" xlink:title="theorem · Statlib/StatFoundation/RandomVariable/SubGaussian/subgaussian_exp_sq_le_at_one_third.lean:14" target="_blank">
+<g id="a_node7"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/StatFoundation/RandomVariable/SubGaussian/subgaussian_exp_sq_le_at_one_third.lean#L14" xlink:title="theorem · Statlib/StatFoundation/RandomVariable/SubGaussian/subgaussian_exp_sq_le_at_one_third.lean:14" target="_blank">
 <path fill="#ffe6a3" stroke="#d4a017" d="M671.23,-124C671.23,-124 510.77,-124 510.77,-124 504.77,-124 498.77,-118 498.77,-112 498.77,-112 498.77,-100 498.77,-100 498.77,-94 504.77,-88 510.77,-88 510.77,-88 671.23,-88 671.23,-88 677.23,-88 683.23,-94 683.23,-100 683.23,-100 683.23,-112 683.23,-112 683.23,-118 677.23,-124 671.23,-124"/>
 <text xml:space="preserve" text-anchor="middle" x="591" y="-103" font-family="Helvetica,sans-Serif" font-size="10.00">subgaussian_exp_sq_le_at_one_third</text>
 </a>
@@ -99,7 +99,7 @@
 <!-- n7 -->
 <g id="node8" class="node">
 <title>n7</title>
-<g id="a_node8"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/tmp/statlib-main-refresh.tmBBiR/Statlib/StatFoundation/RandomVariable/SubExponential/subexp_mgf_le_of_sq_subgaussian.lean:72" xlink:title="theorem · Statlib/StatFoundation/RandomVariable/SubExponential/subexp_mgf_le_of_sq_subgaussian.lean:72" target="_blank">
+<g id="a_node8"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/StatFoundation/RandomVariable/SubExponential/subexp_mgf_le_of_sq_subgaussian.lean#L73" xlink:title="theorem · Statlib/StatFoundation/RandomVariable/SubExponential/subexp_mgf_le_of_sq_subgaussian.lean:73" target="_blank">
 <path fill="#ffe6a3" stroke="#d4a017" d="M550.84,-196C550.84,-196 363.16,-196 363.16,-196 357.16,-196 351.16,-190 351.16,-184 351.16,-184 351.16,-172 351.16,-172 351.16,-166 357.16,-160 363.16,-160 363.16,-160 550.84,-160 550.84,-160 556.84,-160 562.84,-166 562.84,-172 562.84,-172 562.84,-184 562.84,-184 562.84,-190 556.84,-196 550.84,-196"/>
 <text xml:space="preserve" text-anchor="middle" x="457" y="-175" font-family="Helvetica,sans-Serif" font-size="10.00">subexp_mgf_le_of_sq_subgaussian_explicit</text>
 </a>
@@ -132,7 +132,7 @@
 <!-- n8 -->
 <g id="node9" class="node">
 <title>n8</title>
-<g id="a_node9"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/tmp/statlib-main-refresh.tmBBiR/Statlib/StatFoundation/RandomVariable/SubExponential/scalar_sq_centered_subexponential_explicit.lean:16" xlink:title="lemma · Statlib/StatFoundation/RandomVariable/SubExponential/scalar_sq_centered_subexponential_explicit.lean:16" target="_blank">
+<g id="a_node9"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/StatFoundation/RandomVariable/SubExponential/scalar_sq_centered_subexponential_explicit.lean#L16" xlink:title="lemma · Statlib/StatFoundation/RandomVariable/SubExponential/scalar_sq_centered_subexponential_explicit.lean:16" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M329.12,-268C329.12,-268 140.88,-268 140.88,-268 134.88,-268 128.88,-262 128.88,-256 128.88,-256 128.88,-244 128.88,-244 128.88,-238 134.88,-232 140.88,-232 140.88,-232 329.12,-232 329.12,-232 335.12,-232 341.12,-238 341.12,-244 341.12,-244 341.12,-256 341.12,-256 341.12,-262 335.12,-268 329.12,-268"/>
 <text xml:space="preserve" text-anchor="middle" x="235" y="-247" font-family="Helvetica,sans-Serif" font-size="10.00">scalar_sq_centered_subexponential_explicit</text>
 </a>
@@ -159,7 +159,7 @@
 <!-- n9 -->
 <g id="node10" class="node">
 <title>n9</title>
-<g id="a_node10"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/tmp/statlib-main-refresh.tmBBiR/Statlib/StatFoundation/RandomVariable/SubGaussian/subgaussian_integral_eq_zero.lean:12" xlink:title="lemma · Statlib/StatFoundation/RandomVariable/SubGaussian/subgaussian_integral_eq_zero.lean:12" target="_blank">
+<g id="a_node10"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/StatFoundation/RandomVariable/SubGaussian/subgaussian_integral_eq_zero.lean#L12" xlink:title="lemma · Statlib/StatFoundation/RandomVariable/SubGaussian/subgaussian_integral_eq_zero.lean:12" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M499.11,-268C499.11,-268 370.89,-268 370.89,-268 364.89,-268 358.89,-262 358.89,-256 358.89,-256 358.89,-244 358.89,-244 358.89,-238 364.89,-232 370.89,-232 370.89,-232 499.11,-232 499.11,-232 505.11,-232 511.11,-238 511.11,-244 511.11,-244 511.11,-256 511.11,-256 511.11,-262 505.11,-268 499.11,-268"/>
 <text xml:space="preserve" text-anchor="middle" x="435" y="-247" font-family="Helvetica,sans-Serif" font-size="10.00">subgaussian_integral_eq_zero</text>
 </a>
@@ -168,7 +168,7 @@
 <!-- n10 -->
 <g id="node11" class="node">
 <title>n10</title>
-<g id="a_node11"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/tmp/statlib-main-refresh.tmBBiR/Statlib/StatFoundation/RandomVariable/SubExponential/subgaussian_prod_subexponential.lean:25" xlink:title="theorem · Statlib/StatFoundation/RandomVariable/SubExponential/subgaussian_prod_subexponential.lean:25" target="_blank">
+<g id="a_node11"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/StatFoundation/RandomVariable/SubExponential/subgaussian_prod_subexponential.lean#L27" xlink:title="theorem · Statlib/StatFoundation/RandomVariable/SubExponential/subgaussian_prod_subexponential.lean:27" target="_blank">
 <path fill="#ffe6a3" stroke="#d4a017" stroke-width="3" d="M308.28,-340C308.28,-340 161.72,-340 161.72,-340 155.72,-340 149.72,-334 149.72,-328 149.72,-328 149.72,-316 149.72,-316 149.72,-310 155.72,-304 161.72,-304 161.72,-304 308.28,-304 308.28,-304 314.28,-304 320.28,-310 320.28,-316 320.28,-316 320.28,-328 320.28,-328 320.28,-334 314.28,-340 308.28,-340"/>
 <text xml:space="preserve" text-anchor="middle" x="235" y="-319" font-family="Helvetica,sans-Serif" font-size="10.00">subgaussian_prod_subexponential</text>
 </a>

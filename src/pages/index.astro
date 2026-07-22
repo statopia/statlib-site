@@ -5,16 +5,16 @@ import { site, stats } from "../data/site";
 import { topics } from "../data/theorems";
 import { modules } from "../data/modules";
 
-// Curated flagship results to feature on the landing page — chosen to span both
-// modules and show range. Referenced by Lean id and resolved from the catalog so
+// Curated flagship results to feature on the landing page — chosen to span the
+// main modules and show range. Referenced by Lean id and resolved from the catalog so
 // statements stay single-sourced in theorems.ts.
 const flagship = [
-  "lindeberg_feller_central_limit_theorem", // StatFoundation limit theorem
-  "bernstein_sum_meas_ge_le_exp", // StatFoundation concentration
-  "mcdiarmid_meas_ge_le_exp", // StatFoundation bounded differences
-  "covering_number_euclidean_ball", // HighDim geometry
-  "sampleCovariance_concentration", // HighDim covariance
-  "lasso_oracle_prediction", // HighDim regression
+  "matrix_bernstein_rect",
+  "subgaussian_rip_tail_anisotropic",
+  "hanson_wright_isotropic",
+  "rademacher_contraction",
+  "finiteLinearSpan_classApproximationError_self_series_le_zero",
+  "glivenko_cantelli_quantitative",
 ];
 const byLean = new Map(
   topics.flatMap((t) => t.theorems.map((th) => [th.lean, { ...th, topic: t.title }])),
@@ -63,10 +63,10 @@ function formatDeclarationCounts(topic: (typeof topics)[number]) {
 
   <!-- Stats strip -->
   <section class="border-y border-line bg-surface">
-    <div class="mx-auto grid max-w-5xl grid-cols-1 divide-y divide-line sm:grid-cols-2 sm:divide-x sm:divide-y-0">
+    <div class="mx-auto grid max-w-5xl grid-cols-1 gap-px bg-line sm:grid-cols-2 lg:grid-cols-4">
       {
         stats.map((s) => (
-          <div class="px-6 py-7 text-center">
+          <div class="bg-surface px-6 py-7 text-center">
             <div class="font-serif text-3xl font-semibold text-ink">{s.value}</div>
             <div class="mt-1 text-sm text-ink-soft">{s.label}</div>
           </div>
@@ -82,8 +82,8 @@ function formatDeclarationCounts(topic: (typeof topics)[number]) {
       <h2 class="font-serif text-2xl font-semibold tracking-tight text-ink">What's inside</h2>
     </div>
     <p class="mt-3 max-w-2xl text-ink-soft">
-      statlib is built in two modules, each a tree of topic areas formalized
-      against Mathlib. Today the work centers on these two boards:
+      statlib is built in three modules, each a tree of topic areas formalized
+      against Mathlib. Today the work centers on these boards:
     </p>
 
     <div class="mt-10 space-y-10">

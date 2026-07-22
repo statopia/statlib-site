@@ -18,7 +18,7 @@
 <!-- n0 -->
 <g id="node1" class="node">
 <title>n0</title>
-<g id="a_node1"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/tmp/statlib-main-refresh.tmBBiR/Statlib/StatFoundation/Convergence/LawOfLargeNumbers/UniformStrongLaw.lean:20" xlink:title="noncomputable def · Statlib/StatFoundation/Convergence/LawOfLargeNumbers/UniformStrongLaw.lean:20" target="_blank">
+<g id="a_node1"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/StatFoundation/Convergence/LawOfLargeNumbers/UniformStrongLaw.lean#L20" xlink:title="noncomputable def · Statlib/StatFoundation/Convergence/LawOfLargeNumbers/UniformStrongLaw.lean:20" target="_blank">
 <path fill="#d6e9ff" stroke="#3b82f6" d="M865.74,-52C865.74,-52 804.26,-52 804.26,-52 798.26,-52 792.26,-46 792.26,-40 792.26,-40 792.26,-28 792.26,-28 792.26,-22 798.26,-16 804.26,-16 804.26,-16 865.74,-16 865.74,-16 871.74,-16 877.74,-22 877.74,-28 877.74,-28 877.74,-40 877.74,-40 877.74,-46 871.74,-52 865.74,-52"/>
 <text xml:space="preserve" text-anchor="middle" x="835" y="-31" font-family="Helvetica,sans-Serif" font-size="10.00">sampleAverage</text>
 </a>
@@ -27,7 +27,7 @@
 <!-- n1 -->
 <g id="node2" class="node">
 <title>n1</title>
-<g id="a_node2"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/tmp/statlib-main-refresh.tmBBiR/Statlib/StatFoundation/Convergence/LawOfLargeNumbers/UniformStrongLaw.lean:24" xlink:title="noncomputable def · Statlib/StatFoundation/Convergence/LawOfLargeNumbers/UniformStrongLaw.lean:24" target="_blank">
+<g id="a_node2"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/StatFoundation/Convergence/LawOfLargeNumbers/UniformStrongLaw.lean#L24" xlink:title="noncomputable def · Statlib/StatFoundation/Convergence/LawOfLargeNumbers/UniformStrongLaw.lean:24" target="_blank">
 <path fill="#d6e9ff" stroke="#3b82f6" d="M629.58,-52C629.58,-52 566.42,-52 566.42,-52 560.42,-52 554.42,-46 554.42,-40 554.42,-40 554.42,-28 554.42,-28 554.42,-22 560.42,-16 566.42,-16 566.42,-16 629.58,-16 629.58,-16 635.58,-16 641.58,-22 641.58,-28 641.58,-28 641.58,-40 641.58,-40 641.58,-46 635.58,-52 629.58,-52"/>
 <text xml:space="preserve" text-anchor="middle" x="598" y="-31" font-family="Helvetica,sans-Serif" font-size="10.00">populationMean</text>
 </a>
@@ -36,7 +36,7 @@
 <!-- n2 -->
 <g id="node3" class="node">
 <title>n2</title>
-<g id="a_node3"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/tmp/statlib-main-refresh.tmBBiR/Statlib/StatFoundation/Convergence/LawOfLargeNumbers/UniformStrongLaw.lean:110" xlink:title="lemma · Statlib/StatFoundation/Convergence/LawOfLargeNumbers/UniformStrongLaw.lean:110" target="_blank">
+<g id="a_node3"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/StatFoundation/Convergence/LawOfLargeNumbers/UniformStrongLaw.lean#L111" xlink:title="lemma · Statlib/StatFoundation/Convergence/LawOfLargeNumbers/UniformStrongLaw.lean:111" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M581.55,-196C581.55,-196 464.45,-196 464.45,-196 458.45,-196 452.45,-190 452.45,-184 452.45,-184 452.45,-172 452.45,-172 452.45,-166 458.45,-160 464.45,-160 464.45,-160 581.55,-160 581.55,-160 587.55,-160 593.55,-166 593.55,-172 593.55,-172 593.55,-184 593.55,-184 593.55,-190 587.55,-196 581.55,-196"/>
 <text xml:space="preserve" text-anchor="middle" x="523" y="-175" font-family="Helvetica,sans-Serif" font-size="10.00">continuous_populationMean</text>
 </a>
@@ -51,7 +51,7 @@
 <!-- n3 -->
 <g id="node4" class="node">
 <title>n3</title>
-<g id="a_node4"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/tmp/statlib-main-refresh.tmBBiR/Statlib/StatFoundation/Convergence/LawOfLargeNumbers/UniformStrongLaw.lean:153" xlink:title="noncomputable def · Statlib/StatFoundation/Convergence/LawOfLargeNumbers/UniformStrongLaw.lean:153" target="_blank">
+<g id="a_node4"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/StatFoundation/Convergence/LawOfLargeNumbers/UniformStrongLaw.lean#L154" xlink:title="noncomputable def · Statlib/StatFoundation/Convergence/LawOfLargeNumbers/UniformStrongLaw.lean:154" target="_blank">
 <path fill="#d6e9ff" stroke="#3b82f6" d="M345.63,-52C345.63,-52 296.37,-52 296.37,-52 290.37,-52 284.37,-46 284.37,-40 284.37,-40 284.37,-28 284.37,-28 284.37,-22 290.37,-16 296.37,-16 296.37,-16 345.63,-16 345.63,-16 351.63,-16 357.63,-22 357.63,-28 357.63,-28 357.63,-40 357.63,-40 357.63,-46 351.63,-52 345.63,-52"/>
 <text xml:space="preserve" text-anchor="middle" x="321" y="-31" font-family="Helvetica,sans-Serif" font-size="10.00">oscEnvelope</text>
 </a>
@@ -60,7 +60,7 @@
 <!-- n4 -->
 <g id="node5" class="node">
 <title>n4</title>
-<g id="a_node5"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/tmp/statlib-main-refresh.tmBBiR/Statlib/StatFoundation/Convergence/LawOfLargeNumbers/UniformStrongLaw.lean:290" xlink:title="lemma · Statlib/StatFoundation/Convergence/LawOfLargeNumbers/UniformStrongLaw.lean:290" target="_blank">
+<g id="a_node5"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/StatFoundation/Convergence/LawOfLargeNumbers/UniformStrongLaw.lean#L294" xlink:title="lemma · Statlib/StatFoundation/Convergence/LawOfLargeNumbers/UniformStrongLaw.lean:294" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M135.54,-124C135.54,-124 28.46,-124 28.46,-124 22.46,-124 16.46,-118 16.46,-112 16.46,-112 16.46,-100 16.46,-100 16.46,-94 22.46,-88 28.46,-88 28.46,-88 135.54,-88 135.54,-88 141.54,-88 147.54,-94 147.54,-100 147.54,-100 147.54,-112 147.54,-112 147.54,-118 141.54,-124 135.54,-124"/>
 <text xml:space="preserve" text-anchor="middle" x="82" y="-103" font-family="Helvetica,sans-Serif" font-size="10.00">oscEnvelope_measurable</text>
 </a>
@@ -75,7 +75,7 @@
 <!-- n5 -->
 <g id="node6" class="node">
 <title>n5</title>
-<g id="a_node6"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/tmp/statlib-main-refresh.tmBBiR/Statlib/StatFoundation/Convergence/LawOfLargeNumbers/UniformStrongLaw.lean:142" xlink:title="lemma · Statlib/StatFoundation/Convergence/LawOfLargeNumbers/UniformStrongLaw.lean:142" target="_blank">
+<g id="a_node6"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/StatFoundation/Convergence/LawOfLargeNumbers/UniformStrongLaw.lean#L143" xlink:title="lemma · Statlib/StatFoundation/Convergence/LawOfLargeNumbers/UniformStrongLaw.lean:143" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M481.47,-52C481.47,-52 430.53,-52 430.53,-52 424.53,-52 418.53,-46 418.53,-40 418.53,-40 418.53,-28 418.53,-28 418.53,-22 424.53,-16 430.53,-16 430.53,-16 481.47,-16 481.47,-16 487.47,-16 493.47,-22 493.47,-28 493.47,-28 493.47,-40 493.47,-40 493.47,-46 487.47,-52 481.47,-52"/>
 <text xml:space="preserve" text-anchor="middle" x="456" y="-31" font-family="Helvetica,sans-Serif" font-size="10.00">iSup_prop_le</text>
 </a>
@@ -84,7 +84,7 @@
 <!-- n6 -->
 <g id="node7" class="node">
 <title>n6</title>
-<g id="a_node7"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/tmp/statlib-main-refresh.tmBBiR/Statlib/StatFoundation/Convergence/LawOfLargeNumbers/UniformStrongLaw.lean:218" xlink:title="lemma · Statlib/StatFoundation/Convergence/LawOfLargeNumbers/UniformStrongLaw.lean:218" target="_blank">
+<g id="a_node7"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/StatFoundation/Convergence/LawOfLargeNumbers/UniformStrongLaw.lean#L222" xlink:title="lemma · Statlib/StatFoundation/Convergence/LawOfLargeNumbers/UniformStrongLaw.lean:222" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M561.7,-124C561.7,-124 456.3,-124 456.3,-124 450.3,-124 444.3,-118 444.3,-112 444.3,-112 444.3,-100 444.3,-100 444.3,-94 450.3,-88 456.3,-88 456.3,-88 561.7,-88 561.7,-88 567.7,-88 573.7,-94 573.7,-100 573.7,-100 573.7,-112 573.7,-112 573.7,-118 567.7,-124 561.7,-124"/>
 <text xml:space="preserve" text-anchor="middle" x="509" y="-103" font-family="Helvetica,sans-Serif" font-size="10.00">oscEnvelope_le_two_mul</text>
 </a>
@@ -105,7 +105,7 @@
 <!-- n7 -->
 <g id="node8" class="node">
 <title>n7</title>
-<g id="a_node8"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/tmp/statlib-main-refresh.tmBBiR/Statlib/StatFoundation/Convergence/LawOfLargeNumbers/UniformStrongLaw.lean:159" xlink:title="lemma · Statlib/StatFoundation/Convergence/LawOfLargeNumbers/UniformStrongLaw.lean:159" target="_blank">
+<g id="a_node8"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/StatFoundation/Convergence/LawOfLargeNumbers/UniformStrongLaw.lean#L161" xlink:title="lemma · Statlib/StatFoundation/Convergence/LawOfLargeNumbers/UniformStrongLaw.lean:161" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M414.3,-124C414.3,-124 351.7,-124 351.7,-124 345.7,-124 339.7,-118 339.7,-112 339.7,-112 339.7,-100 339.7,-100 339.7,-94 345.7,-88 351.7,-88 351.7,-88 414.3,-88 414.3,-88 420.3,-88 426.3,-94 426.3,-100 426.3,-100 426.3,-112 426.3,-112 426.3,-118 420.3,-124 414.3,-124"/>
 <text xml:space="preserve" text-anchor="middle" x="383" y="-103" font-family="Helvetica,sans-Serif" font-size="10.00">le_oscEnvelope</text>
 </a>
@@ -126,7 +126,7 @@
 <!-- n8 -->
 <g id="node9" class="node">
 <title>n8</title>
-<g id="a_node9"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/tmp/statlib-main-refresh.tmBBiR/Statlib/StatFoundation/Convergence/LawOfLargeNumbers/UniformStrongLaw.lean:237" xlink:title="lemma · Statlib/StatFoundation/Convergence/LawOfLargeNumbers/UniformStrongLaw.lean:237" target="_blank">
+<g id="a_node9"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/StatFoundation/Convergence/LawOfLargeNumbers/UniformStrongLaw.lean#L241" xlink:title="lemma · Statlib/StatFoundation/Convergence/LawOfLargeNumbers/UniformStrongLaw.lean:241" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M290.32,-124C290.32,-124 177.68,-124 177.68,-124 171.68,-124 165.68,-118 165.68,-112 165.68,-112 165.68,-100 165.68,-100 165.68,-94 171.68,-88 177.68,-88 177.68,-88 290.32,-88 290.32,-88 296.32,-88 302.32,-94 302.32,-100 302.32,-100 302.32,-112 302.32,-112 302.32,-118 296.32,-124 290.32,-124"/>
 <text xml:space="preserve" text-anchor="middle" x="234" y="-103" font-family="Helvetica,sans-Serif" font-size="10.00">oscEnvelope_tendsto_zero</text>
 </a>
@@ -141,7 +141,7 @@
 <!-- n9 -->
 <g id="node10" class="node">
 <title>n9</title>
-<g id="a_node10"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/tmp/statlib-main-refresh.tmBBiR/Statlib/StatFoundation/Convergence/LawOfLargeNumbers/UniformStrongLaw.lean:303" xlink:title="lemma · Statlib/StatFoundation/Convergence/LawOfLargeNumbers/UniformStrongLaw.lean:303" target="_blank">
+<g id="a_node10"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/StatFoundation/Convergence/LawOfLargeNumbers/UniformStrongLaw.lean#L307" xlink:title="lemma · Statlib/StatFoundation/Convergence/LawOfLargeNumbers/UniformStrongLaw.lean:307" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M402.6,-196C402.6,-196 279.4,-196 279.4,-196 273.4,-196 267.4,-190 267.4,-184 267.4,-184 267.4,-172 267.4,-172 267.4,-166 273.4,-160 279.4,-160 279.4,-160 402.6,-160 402.6,-160 408.6,-160 414.6,-166 414.6,-172 414.6,-172 414.6,-184 414.6,-184 414.6,-190 408.6,-196 402.6,-196"/>
 <text xml:space="preserve" text-anchor="middle" x="341" y="-175" font-family="Helvetica,sans-Serif" font-size="10.00">strong_law_oscillation_bound</text>
 </a>
@@ -180,7 +180,7 @@
 <!-- n10 -->
 <g id="node11" class="node">
 <title>n10</title>
-<g id="a_node11"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/tmp/statlib-main-refresh.tmBBiR/Statlib/StatFoundation/Convergence/LawOfLargeNumbers/UniformStrongLaw.lean:29" xlink:title="lemma · Statlib/StatFoundation/Convergence/LawOfLargeNumbers/UniformStrongLaw.lean:29" target="_blank">
+<g id="a_node11"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/StatFoundation/Convergence/LawOfLargeNumbers/UniformStrongLaw.lean#L29" xlink:title="lemma · Statlib/StatFoundation/Convergence/LawOfLargeNumbers/UniformStrongLaw.lean:29" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M762.48,-52C762.48,-52 671.52,-52 671.52,-52 665.52,-52 659.52,-46 659.52,-40 659.52,-40 659.52,-28 659.52,-28 659.52,-22 665.52,-16 671.52,-16 671.52,-16 762.48,-16 762.48,-16 768.48,-16 774.48,-22 774.48,-28 774.48,-28 774.48,-40 774.48,-40 774.48,-46 768.48,-52 762.48,-52"/>
 <text xml:space="preserve" text-anchor="middle" x="717" y="-31" font-family="Helvetica,sans-Serif" font-size="10.00">integrable_U_comp_X</text>
 </a>
@@ -189,7 +189,7 @@
 <!-- n11 -->
 <g id="node12" class="node">
 <title>n11</title>
-<g id="a_node12"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/tmp/statlib-main-refresh.tmBBiR/Statlib/StatFoundation/Convergence/LawOfLargeNumbers/UniformStrongLaw.lean:58" xlink:title="lemma · Statlib/StatFoundation/Convergence/LawOfLargeNumbers/UniformStrongLaw.lean:58" target="_blank">
+<g id="a_node12"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/StatFoundation/Convergence/LawOfLargeNumbers/UniformStrongLaw.lean#L58" xlink:title="lemma · Statlib/StatFoundation/Convergence/LawOfLargeNumbers/UniformStrongLaw.lean:58" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M826.33,-124C826.33,-124 663.67,-124 663.67,-124 657.67,-124 651.67,-118 651.67,-112 651.67,-112 651.67,-100 651.67,-100 651.67,-94 657.67,-88 663.67,-88 663.67,-88 826.33,-88 826.33,-88 832.33,-88 838.33,-94 838.33,-100 838.33,-100 838.33,-112 838.33,-112 838.33,-118 832.33,-124 826.33,-124"/>
 <text xml:space="preserve" text-anchor="middle" x="745" y="-103" font-family="Helvetica,sans-Serif" font-size="10.00">strong_law_sampleAverage_pointwise</text>
 </a>
@@ -216,7 +216,7 @@
 <!-- n12 -->
 <g id="node13" class="node">
 <title>n12</title>
-<g id="a_node13"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/tmp/statlib-main-refresh.tmBBiR/Statlib/StatFoundation/Convergence/LawOfLargeNumbers/UniformStrongLaw.lean:91" xlink:title="lemma · Statlib/StatFoundation/Convergence/LawOfLargeNumbers/UniformStrongLaw.lean:91" target="_blank">
+<g id="a_node13"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/StatFoundation/Convergence/LawOfLargeNumbers/UniformStrongLaw.lean#L91" xlink:title="lemma · Statlib/StatFoundation/Convergence/LawOfLargeNumbers/UniformStrongLaw.lean:91" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M815.78,-196C815.78,-196 654.22,-196 654.22,-196 648.22,-196 642.22,-190 642.22,-184 642.22,-184 642.22,-172 642.22,-172 642.22,-166 648.22,-160 654.22,-160 654.22,-160 815.78,-160 815.78,-160 821.78,-160 827.78,-166 827.78,-172 827.78,-172 827.78,-184 827.78,-184 827.78,-190 821.78,-196 815.78,-196"/>
 <text xml:space="preserve" text-anchor="middle" x="735" y="-175" font-family="Helvetica,sans-Serif" font-size="10.00">strong_law_sampleAverage_finset_ae</text>
 </a>
@@ -243,7 +243,7 @@
 <!-- n13 -->
 <g id="node14" class="node">
 <title>n13</title>
-<g id="a_node14"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/tmp/statlib-main-refresh.tmBBiR/Statlib/StatFoundation/Convergence/LawOfLargeNumbers/UniformStrongLaw.lean:404" xlink:title="theorem · Statlib/StatFoundation/Convergence/LawOfLargeNumbers/UniformStrongLaw.lean:404" target="_blank">
+<g id="a_node14"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/StatFoundation/Convergence/LawOfLargeNumbers/UniformStrongLaw.lean#L408" xlink:title="theorem · Statlib/StatFoundation/Convergence/LawOfLargeNumbers/UniformStrongLaw.lean:408" target="_blank">
 <path fill="#ffe6a3" stroke="#d4a017" stroke-width="3" d="M652.63,-268C652.63,-268 573.37,-268 573.37,-268 567.37,-268 561.37,-262 561.37,-256 561.37,-256 561.37,-244 561.37,-244 561.37,-238 567.37,-232 573.37,-232 573.37,-232 652.63,-232 652.63,-232 658.63,-232 664.63,-238 664.63,-244 664.63,-244 664.63,-256 664.63,-256 664.63,-262 658.63,-268 652.63,-268"/>
 <text xml:space="preserve" text-anchor="middle" x="613" y="-247" font-family="Helvetica,sans-Serif" font-size="10.00">uniform_strong_law</text>
 </a>

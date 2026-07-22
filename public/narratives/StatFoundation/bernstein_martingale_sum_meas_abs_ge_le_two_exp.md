@@ -6,7 +6,7 @@ Closure: 3 declarations across 2 files. Generated from `proof_graph.json` — no
 Reading order (foundations first, headline last):
 
     ★ `pullout_bound` — theorem · `Statlib/StatFoundation/Concentration/ExponentialType/bernstein_martingale_sum_meas_ge_le_exp.lean:14`
-  ★ `bernstein_martingale_sum_meas_ge_le_exp` — theorem · `Statlib/StatFoundation/Concentration/ExponentialType/bernstein_martingale_sum_meas_ge_le_exp.lean:115`
+  ★ `bernstein_martingale_sum_meas_ge_le_exp` — theorem · `Statlib/StatFoundation/Concentration/ExponentialType/bernstein_martingale_sum_meas_ge_le_exp.lean:116`
 ★ `bernstein_martingale_sum_meas_abs_ge_le_two_exp` — theorem · `Statlib/StatFoundation/Concentration/ExponentialType/bernstein_martingale_sum_meas_abs_ge_le_two_exp.lean:15` **← headline**
 
 ## Dependency diagram

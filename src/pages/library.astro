@@ -20,22 +20,37 @@ const selectedLeanByTopic: Record<string, string[]> = {
     "uniform_strong_law",
     "lindeberg_feller_central_limit_theorem",
   ],
+  "empirical-processes": [
+    "rademacher_contraction",
+    "glivenko_cantelli_quantitative",
+    "dudley_entropy_integral",
+  ],
   "random-variables": [
     "subexp_mgf_finite",
     "subexp_mgf_finite_of_exp_tail",
     "subexp_of_mgf_finite",
   ],
+  "matrix-analysis": [
+    "op_convex_mul_log",
+    "hp_jensen_mul_log",
+    "trace_exp_add_log_simpleFunc_jensen_posDef",
+  ],
   "hd-concentration": [
-    "matrix_bernstein",
-    "hanson_wright",
+    "matrix_bernstein_rect",
+    "hanson_wright_isotropic",
   ],
   covariance: [
     "sampleCovariance_concentration",
     "isotropic_norm_concentration",
   ],
   "hd-geometry": [
-    "covering_number_euclidean_ball",
-    "jl_distortion_probabilistic",
+    "subgaussian_rip_tail_anisotropic",
+    "subgaussian_rip_sample_complexity",
+  ],
+  "nonparametric-approximation": [
+    "finiteLinearSpan_classApproximationError_self_series_le_zero",
+    "finiteLinearSpan_classApproximationError_le_of_pointwise_series_bound",
+    "exists_sieveApproximationError_uniform_bound_of_exists_pointwise_series",
   ],
 };
 
@@ -61,9 +76,10 @@ const grouped = modules.map((m) => ({
   <section class="mx-auto max-w-5xl px-6 py-16">
     <h1 class="font-serif text-3xl font-semibold tracking-tight text-ink">Library</h1>
     <p class="mt-3 max-w-2xl text-ink-soft">
-      155 Lean files and 191 theorems, organized into two modules
-      (<code class="font-mono text-sm">Statlib.StatFoundation</code> and
-      <code class="font-mono text-sm">Statlib.HighDim</code>). Browse the full
+      217 Lean files, 367 theorems, and 375 supporting lemmas, organized into
+      three modules (<code class="font-mono text-sm">Statlib.StatFoundation</code>,
+      <code class="font-mono text-sm">Statlib.HighDim</code>, and
+      <code class="font-mono text-sm">Statlib.Nonparametric</code>). Browse the full
       structure below, then a few selected results from each area.
     </p>
 

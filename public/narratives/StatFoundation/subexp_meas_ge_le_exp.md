@@ -5,7 +5,7 @@ Closure: 2 declarations across 2 files. Generated from `proof_graph.json` — no
 
 Reading order (foundations first, headline last):
 
-  ▣ `HasSubexponentialMGF` — structure · `Statlib/StatFoundation/Vocabulary/RandomVariable.lean:74`  _(also used by 30: coord_mul_subexponential_exists_of_indep, subexponential_mgf_const_mul_relaxed, coord_mul_scaled_subexponential_exists_of_indep, …)_
+  ▣ `HasSubexponentialMGF` — structure · `Statlib/StatFoundation/Vocabulary/RandomVariable.lean:74`  _(also used by 32: coord_mul_subexponential_exists_of_indep, subexponential_mgf_const_mul_relaxed, coord_mul_scaled_subexponential_exists_of_indep, …)_
 ★ `subexp_meas_ge_le_exp` — theorem · `Statlib/StatFoundation/RandomVariable/SubExponential/subexp_meas_ge_le_exp.lean:12` **← headline**
 
 ## Dependency diagram

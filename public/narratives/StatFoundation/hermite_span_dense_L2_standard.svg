@@ -18,7 +18,7 @@
 <!-- n0 -->
 <g id="node1" class="node">
 <title>n0</title>
-<g id="a_node1"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/tmp/statlib-main-refresh.tmBBiR/Statlib/StatFoundation/RandomVariable/Gaussian/Standard.lean:31" xlink:title="abbrev · Statlib/StatFoundation/RandomVariable/Gaussian/Standard.lean:31" target="_blank">
+<g id="a_node1"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/StatFoundation/RandomVariable/Gaussian/Standard.lean#L31" xlink:title="abbrev · Statlib/StatFoundation/RandomVariable/Gaussian/Standard.lean:31" target="_blank">
 <path fill="#d6e9ff" stroke="#3b82f6" d="M396.74,-124C396.74,-124 345.26,-124 345.26,-124 339.26,-124 333.26,-118 333.26,-112 333.26,-112 333.26,-100 333.26,-100 333.26,-94 339.26,-88 345.26,-88 345.26,-88 396.74,-88 396.74,-88 402.74,-88 408.74,-94 408.74,-100 408.74,-100 408.74,-112 408.74,-112 408.74,-118 402.74,-124 396.74,-124"/>
 <text xml:space="preserve" text-anchor="middle" x="371" y="-103" font-family="Helvetica,sans-Serif" font-size="10.00">standardReal</text>
 </a>
@@ -27,7 +27,7 @@
 <!-- n1 -->
 <g id="node2" class="node">
 <title>n1</title>
-<g id="a_node2"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/tmp/statlib-main-refresh.tmBBiR/Statlib/StatFoundation/RandomVariable/Gaussian/Hermite.lean:58" xlink:title="abbrev · Statlib/StatFoundation/RandomVariable/Gaussian/Hermite.lean:58" target="_blank">
+<g id="a_node2"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/StatFoundation/RandomVariable/Gaussian/Hermite.lean#L58" xlink:title="abbrev · Statlib/StatFoundation/RandomVariable/Gaussian/Hermite.lean:58" target="_blank">
 <path fill="#d6e9ff" stroke="#3b82f6" d="M77.63,-412C77.63,-412 28.37,-412 28.37,-412 22.37,-412 16.37,-406 16.37,-400 16.37,-400 16.37,-388 16.37,-388 16.37,-382 22.37,-376 28.37,-376 28.37,-376 77.63,-376 77.63,-376 83.63,-376 89.63,-382 89.63,-388 89.63,-388 89.63,-400 89.63,-400 89.63,-406 83.63,-412 77.63,-412"/>
 <text xml:space="preserve" text-anchor="middle" x="53" y="-391" font-family="Helvetica,sans-Serif" font-size="10.00">hermite_eval</text>
 </a>
@@ -36,7 +36,7 @@
 <!-- n2 -->
 <g id="node3" class="node">
 <title>n2</title>
-<g id="a_node3"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/tmp/statlib-main-refresh.tmBBiR/Statlib/StatFoundation/RandomVariable/Gaussian/Standard.lean:114" xlink:title="private lemma · Statlib/StatFoundation/RandomVariable/Gaussian/Standard.lean:114" target="_blank">
+<g id="a_node3"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/StatFoundation/RandomVariable/Gaussian/Standard.lean#L114" xlink:title="private lemma · Statlib/StatFoundation/RandomVariable/Gaussian/Standard.lean:114" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M313.22,-52C313.22,-52 162.78,-52 162.78,-52 156.78,-52 150.78,-46 150.78,-40 150.78,-40 150.78,-28 150.78,-28 150.78,-22 156.78,-16 162.78,-16 162.78,-16 313.22,-16 313.22,-16 319.22,-16 325.22,-22 325.22,-28 325.22,-28 325.22,-40 325.22,-40 325.22,-46 319.22,-52 313.22,-52"/>
 <text xml:space="preserve" text-anchor="middle" x="238" y="-31" font-family="Helvetica,sans-Serif" font-size="10.00">memLp_pow_id_gaussianReal_aux</text>
 </a>
@@ -45,7 +45,7 @@
 <!-- n3 -->
 <g id="node4" class="node">
 <title>n3</title>
-<g id="a_node4"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/tmp/statlib-main-refresh.tmBBiR/Statlib/StatFoundation/RandomVariable/Gaussian/Standard.lean:139" xlink:title="lemma · Statlib/StatFoundation/RandomVariable/Gaussian/Standard.lean:139" target="_blank">
+<g id="a_node4"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/StatFoundation/RandomVariable/Gaussian/Standard.lean#L139" xlink:title="lemma · Statlib/StatFoundation/RandomVariable/Gaussian/Standard.lean:139" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M302.38,-124C302.38,-124 173.62,-124 173.62,-124 167.62,-124 161.62,-118 161.62,-112 161.62,-112 161.62,-100 161.62,-100 161.62,-94 167.62,-88 173.62,-88 173.62,-88 302.38,-88 302.38,-88 308.38,-88 314.38,-94 314.38,-100 314.38,-100 314.38,-112 314.38,-112 314.38,-118 308.38,-124 302.38,-124"/>
 <text xml:space="preserve" text-anchor="middle" x="238" y="-103" font-family="Helvetica,sans-Serif" font-size="10.00">memLp_pow_id_gaussianReal</text>
 </a>
@@ -60,7 +60,7 @@
 <!-- n4 -->
 <g id="node5" class="node">
 <title>n4</title>
-<g id="a_node5"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/tmp/statlib-main-refresh.tmBBiR/Statlib/StatFoundation/RandomVariable/Gaussian/Standard.lean:144" xlink:title="lemma · Statlib/StatFoundation/RandomVariable/Gaussian/Standard.lean:144" target="_blank">
+<g id="a_node5"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/StatFoundation/RandomVariable/Gaussian/Standard.lean#L144" xlink:title="lemma · Statlib/StatFoundation/RandomVariable/Gaussian/Standard.lean:144" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M299.59,-196C299.59,-196 176.41,-196 176.41,-196 170.41,-196 164.41,-190 164.41,-184 164.41,-184 164.41,-172 164.41,-172 164.41,-166 170.41,-160 176.41,-160 176.41,-160 299.59,-160 299.59,-160 305.59,-160 311.59,-166 311.59,-172 311.59,-172 311.59,-184 311.59,-184 311.59,-190 305.59,-196 299.59,-196"/>
 <text xml:space="preserve" text-anchor="middle" x="238" y="-175" font-family="Helvetica,sans-Serif" font-size="10.00">memLp_polynomial_standard</text>
 </a>
@@ -81,7 +81,7 @@
 <!-- n5 -->
 <g id="node6" class="node">
 <title>n5</title>
-<g id="a_node6"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/tmp/statlib-main-refresh.tmBBiR/Statlib/StatFoundation/RandomVariable/Gaussian/Hermite.lean:43" xlink:title="lemma · Statlib/StatFoundation/RandomVariable/Gaussian/Hermite.lean:43" target="_blank">
+<g id="a_node6"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/StatFoundation/RandomVariable/Gaussian/Hermite.lean#L43" xlink:title="lemma · Statlib/StatFoundation/RandomVariable/Gaussian/Hermite.lean:43" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M320.16,-268C320.16,-268 155.84,-268 155.84,-268 149.84,-268 143.84,-262 143.84,-256 143.84,-256 143.84,-244 143.84,-244 143.84,-238 149.84,-232 155.84,-232 155.84,-232 320.16,-232 320.16,-232 326.16,-232 332.16,-238 332.16,-244 332.16,-244 332.16,-256 332.16,-256 332.16,-262 326.16,-268 320.16,-268"/>
 <text xml:space="preserve" text-anchor="middle" x="238" y="-247" font-family="Helvetica,sans-Serif" font-size="10.00">memLp_aeval_intPolynomial_standard</text>
 </a>
@@ -102,7 +102,7 @@
 <!-- n6 -->
 <g id="node7" class="node">
 <title>n6</title>
-<g id="a_node7"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/tmp/statlib-main-refresh.tmBBiR/Statlib/StatFoundation/RandomVariable/Gaussian/Hermite.lean:291" xlink:title="lemma · Statlib/StatFoundation/RandomVariable/Gaussian/Hermite.lean:291" target="_blank">
+<g id="a_node7"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/StatFoundation/RandomVariable/Gaussian/Hermite.lean#L292" xlink:title="lemma · Statlib/StatFoundation/RandomVariable/Gaussian/Hermite.lean:292" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M339.96,-340C339.96,-340 120.04,-340 120.04,-340 114.04,-340 108.04,-334 108.04,-328 108.04,-328 108.04,-316 108.04,-316 108.04,-310 114.04,-304 120.04,-304 120.04,-304 339.96,-304 339.96,-304 345.96,-304 351.96,-310 351.96,-316 351.96,-316 351.96,-328 351.96,-328 351.96,-334 345.96,-340 339.96,-340"/>
 <text xml:space="preserve" text-anchor="middle" x="230" y="-319" font-family="Helvetica,sans-Serif" font-size="10.00">integrable_mul_intPolynomial_of_memLp_standard</text>
 </a>
@@ -123,7 +123,7 @@
 <!-- n7 -->
 <g id="node8" class="node">
 <title>n7</title>
-<g id="a_node8"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/tmp/statlib-main-refresh.tmBBiR/Statlib/StatFoundation/RandomVariable/Gaussian/Hermite.lean:310" xlink:title="lemma · Statlib/StatFoundation/RandomVariable/Gaussian/Hermite.lean:310" target="_blank">
+<g id="a_node8"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/StatFoundation/RandomVariable/Gaussian/Hermite.lean#L311" xlink:title="lemma · Statlib/StatFoundation/RandomVariable/Gaussian/Hermite.lean:311" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M265.85,-484C265.85,-484 48.15,-484 48.15,-484 42.15,-484 36.15,-478 36.15,-472 36.15,-472 36.15,-460 36.15,-460 36.15,-454 42.15,-448 48.15,-448 48.15,-448 265.85,-448 265.85,-448 271.85,-448 277.85,-454 277.85,-460 277.85,-460 277.85,-472 277.85,-472 277.85,-478 271.85,-484 265.85,-484"/>
 <text xml:space="preserve" text-anchor="middle" x="157" y="-463" font-family="Helvetica,sans-Serif" font-size="10.00">integrable_mul_hermite_eval_of_memLp_standard</text>
 </a>
@@ -150,7 +150,7 @@
 <!-- n8 -->
 <g id="node9" class="node">
 <title>n8</title>
-<g id="a_node9"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/tmp/statlib-main-refresh.tmBBiR/Statlib/StatFoundation/RandomVariable/Gaussian/Hermite.lean:660" xlink:title="private lemma · Statlib/StatFoundation/RandomVariable/Gaussian/Hermite.lean:660" target="_blank">
+<g id="a_node9"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/StatFoundation/RandomVariable/Gaussian/Hermite.lean#L662" xlink:title="private lemma · Statlib/StatFoundation/RandomVariable/Gaussian/Hermite.lean:662" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M353.89,-412C353.89,-412 180.11,-412 180.11,-412 174.11,-412 168.11,-406 168.11,-400 168.11,-400 168.11,-388 168.11,-388 168.11,-382 174.11,-376 180.11,-376 180.11,-376 353.89,-376 353.89,-376 359.89,-376 365.89,-382 365.89,-388 365.89,-388 365.89,-400 365.89,-400 365.89,-406 359.89,-412 353.89,-412"/>
 <text xml:space="preserve" text-anchor="middle" x="267" y="-391" font-family="Helvetica,sans-Serif" font-size="10.00">integral_poly_mul_g_of_moments_below</text>
 </a>
@@ -171,7 +171,7 @@
 <!-- n9 -->
 <g id="node10" class="node">
 <title>n9</title>
-<g id="a_node10"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/tmp/statlib-main-refresh.tmBBiR/Statlib/StatFoundation/RandomVariable/Gaussian/Standard.lean:239" xlink:title="lemma · Statlib/StatFoundation/RandomVariable/Gaussian/Standard.lean:239" target="_blank">
+<g id="a_node10"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/StatFoundation/RandomVariable/Gaussian/Standard.lean#L239" xlink:title="lemma · Statlib/StatFoundation/RandomVariable/Gaussian/Standard.lean:239" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M545.88,-268C545.88,-268 422.12,-268 422.12,-268 416.12,-268 410.12,-262 410.12,-256 410.12,-256 410.12,-244 410.12,-244 410.12,-238 416.12,-232 422.12,-232 422.12,-232 545.88,-232 545.88,-232 551.88,-232 557.88,-238 557.88,-244 557.88,-244 557.88,-256 557.88,-256 557.88,-262 551.88,-268 545.88,-268"/>
 <text xml:space="preserve" text-anchor="middle" x="484" y="-247" font-family="Helvetica,sans-Serif" font-size="10.00">integrable_exp_abs_standard</text>
 </a>
@@ -186,7 +186,7 @@
 <!-- n10 -->
 <g id="node11" class="node">
 <title>n10</title>
-<g id="a_node11"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/tmp/statlib-main-refresh.tmBBiR/Statlib/StatFoundation/RandomVariable/Gaussian/Hermite.lean:460" xlink:title="lemma · Statlib/StatFoundation/RandomVariable/Gaussian/Hermite.lean:460" target="_blank">
+<g id="a_node11"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/StatFoundation/RandomVariable/Gaussian/Hermite.lean#L462" xlink:title="lemma · Statlib/StatFoundation/RandomVariable/Gaussian/Hermite.lean:462" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M591.72,-412C591.72,-412 416.28,-412 416.28,-412 410.28,-412 404.28,-406 404.28,-400 404.28,-400 404.28,-388 404.28,-388 404.28,-382 410.28,-376 416.28,-376 416.28,-376 591.72,-376 591.72,-376 597.72,-376 603.72,-382 603.72,-388 603.72,-388 603.72,-400 603.72,-400 603.72,-406 597.72,-412 591.72,-412"/>
 <text xml:space="preserve" text-anchor="middle" x="504" y="-391" font-family="Helvetica,sans-Serif" font-size="10.00">integral_cexp_mul_eq_zero_of_moments</text>
 </a>
@@ -213,7 +213,7 @@
 <!-- n11 -->
 <g id="node12" class="node">
 <title>n11</title>
-<g id="a_node12"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/tmp/statlib-main-refresh.tmBBiR/Statlib/StatFoundation/RandomVariable/Gaussian/Hermite.lean:551" xlink:title="theorem · Statlib/StatFoundation/RandomVariable/Gaussian/Hermite.lean:551" target="_blank">
+<g id="a_node12"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/StatFoundation/RandomVariable/Gaussian/Hermite.lean#L553" xlink:title="theorem · Statlib/StatFoundation/RandomVariable/Gaussian/Hermite.lean:553" target="_blank">
 <path fill="#ffe6a3" stroke="#d4a017" d="M481.89,-484C481.89,-484 348.11,-484 348.11,-484 342.11,-484 336.11,-478 336.11,-472 336.11,-472 336.11,-460 336.11,-460 336.11,-454 342.11,-448 348.11,-448 348.11,-448 481.89,-448 481.89,-448 487.89,-448 493.89,-454 493.89,-460 493.89,-460 493.89,-472 493.89,-472 493.89,-478 487.89,-484 481.89,-484"/>
 <text xml:space="preserve" text-anchor="middle" x="415" y="-463" font-family="Helvetica,sans-Serif" font-size="10.00">polynomial_dense_L2_standard</text>
 </a>
@@ -234,7 +234,7 @@
 <!-- n12 -->
 <g id="node13" class="node">
 <title>n12</title>
-<g id="a_node13"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/tmp/statlib-main-refresh.tmBBiR/Statlib/StatFoundation/RandomVariable/Gaussian/Hermite.lean:682" xlink:title="theorem · Statlib/StatFoundation/RandomVariable/Gaussian/Hermite.lean:682" target="_blank">
+<g id="a_node13"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/StatFoundation/RandomVariable/Gaussian/Hermite.lean#L684" xlink:title="theorem · Statlib/StatFoundation/RandomVariable/Gaussian/Hermite.lean:684" target="_blank">
 <path fill="#ffe6a3" stroke="#d4a017" stroke-width="3" d="M380.28,-556C380.28,-556 233.72,-556 233.72,-556 227.72,-556 221.72,-550 221.72,-544 221.72,-544 221.72,-532 221.72,-532 221.72,-526 227.72,-520 233.72,-520 233.72,-520 380.28,-520 380.28,-520 386.28,-520 392.28,-526 392.28,-532 392.28,-532 392.28,-544 392.28,-544 392.28,-550 386.28,-556 380.28,-556"/>
 <text xml:space="preserve" text-anchor="middle" x="307" y="-535" font-family="Helvetica,sans-Serif" font-size="10.00">hermite_span_dense_L2_standard</text>
 </a>

@@ -18,7 +18,7 @@
 <!-- n0 -->
 <g id="node1" class="node">
 <title>n0</title>
-<g id="a_node1"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/tmp/statlib-main-refresh.tmBBiR/Statlib/HighDim/Vocabulary/Sparse.lean:36" xlink:title="def · Statlib/HighDim/Vocabulary/Sparse.lean:36" target="_blank">
+<g id="a_node1"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/HighDim/Vocabulary/Sparse.lean#L36" xlink:title="def · Statlib/HighDim/Vocabulary/Sparse.lean:36" target="_blank">
 <path fill="#d6e9ff" stroke="#3b82f6" d="M233.73,-52C233.73,-52 202.27,-52 202.27,-52 196.27,-52 190.27,-46 190.27,-40 190.27,-40 190.27,-28 190.27,-28 190.27,-22 196.27,-16 202.27,-16 202.27,-16 233.73,-16 233.73,-16 239.73,-16 245.73,-22 245.73,-28 245.73,-28 245.73,-40 245.73,-40 245.73,-46 239.73,-52 233.73,-52"/>
 <text xml:space="preserve" text-anchor="middle" x="218" y="-31" font-family="Helvetica,sans-Serif" font-size="10.00">IsSparse</text>
 </a>
@@ -27,7 +27,7 @@
 <!-- n1 -->
 <g id="node2" class="node">
 <title>n1</title>
-<g id="a_node2"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/tmp/statlib-main-refresh.tmBBiR/Statlib/HighDim/Vocabulary/Norms.lean:13" xlink:title="noncomputable def · Statlib/HighDim/Vocabulary/Norms.lean:13" target="_blank">
+<g id="a_node2"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/HighDim/Vocabulary/Norms.lean#L13" xlink:title="noncomputable def · Statlib/HighDim/Vocabulary/Norms.lean:13" target="_blank">
 <path fill="#d6e9ff" stroke="#3b82f6" d="M573.23,-124C573.23,-124 536.77,-124 536.77,-124 530.77,-124 524.77,-118 524.77,-112 524.77,-112 524.77,-100 524.77,-100 524.77,-94 530.77,-88 536.77,-88 536.77,-88 573.23,-88 573.23,-88 579.23,-88 585.23,-94 585.23,-100 585.23,-100 585.23,-112 585.23,-112 585.23,-118 579.23,-124 573.23,-124"/>
 <text xml:space="preserve" text-anchor="middle" x="555" y="-103" font-family="Helvetica,sans-Serif" font-size="10.00">l2NormSq</text>
 </a>
@@ -36,7 +36,7 @@
 <!-- n2 -->
 <g id="node3" class="node">
 <title>n2</title>
-<g id="a_node3"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/tmp/statlib-main-refresh.tmBBiR/Statlib/HighDim/Vocabulary/DesignMatrix.lean:62" xlink:title="def · Statlib/HighDim/Vocabulary/DesignMatrix.lean:62" target="_blank">
+<g id="a_node3"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/HighDim/Vocabulary/DesignMatrix.lean#L241" xlink:title="def · Statlib/HighDim/Vocabulary/DesignMatrix.lean:241" target="_blank">
 <path fill="#d6e9ff" stroke="#3b82f6" d="M228.23,-196C228.23,-196 181.77,-196 181.77,-196 175.77,-196 169.77,-190 169.77,-184 169.77,-184 169.77,-172 169.77,-172 169.77,-166 175.77,-160 181.77,-160 181.77,-160 228.23,-160 228.23,-160 234.23,-160 240.23,-166 240.23,-172 240.23,-172 240.23,-184 240.23,-184 240.23,-190 234.23,-196 228.23,-196"/>
 <text xml:space="preserve" text-anchor="middle" x="205" y="-175" font-family="Helvetica,sans-Serif" font-size="10.00">SatisfiesRIP</text>
 </a>
@@ -57,7 +57,7 @@
 <!-- n3 -->
 <g id="node4" class="node">
 <title>n3</title>
-<g id="a_node4"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/tmp/statlib-main-refresh.tmBBiR/Statlib/HighDim/Geometry/RIPConstruction.lean:63" xlink:title="lemma · Statlib/HighDim/Geometry/RIPConstruction.lean:63" target="_blank">
+<g id="a_node4"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/HighDim/Geometry/RIPConstruction.lean#L66" xlink:title="lemma · Statlib/HighDim/Geometry/RIPConstruction.lean:66" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M320.74,-124C320.74,-124 259.26,-124 259.26,-124 253.26,-124 247.26,-118 247.26,-112 247.26,-112 247.26,-100 247.26,-100 247.26,-94 253.26,-88 259.26,-88 259.26,-88 320.74,-88 320.74,-88 326.74,-88 332.74,-94 332.74,-100 332.74,-100 332.74,-112 332.74,-112 332.74,-118 326.74,-124 320.74,-124"/>
 <text xml:space="preserve" text-anchor="middle" x="290" y="-103" font-family="Helvetica,sans-Serif" font-size="10.00">isSparse_mono</text>
 </a>
@@ -72,7 +72,7 @@
 <!-- n4 -->
 <g id="node5" class="node">
 <title>n4</title>
-<g id="a_node5"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/tmp/statlib-main-refresh.tmBBiR/Statlib/HighDim/Geometry/RIPConstruction.lean:75" xlink:title="lemma · Statlib/HighDim/Geometry/RIPConstruction.lean:75" target="_blank">
+<g id="a_node5"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/HighDim/Geometry/RIPConstruction.lean#L78" xlink:title="lemma · Statlib/HighDim/Geometry/RIPConstruction.lean:78" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M81.58,-124C81.58,-124 28.42,-124 28.42,-124 22.42,-124 16.42,-118 16.42,-112 16.42,-112 16.42,-100 16.42,-100 16.42,-94 22.42,-88 28.42,-88 28.42,-88 81.58,-88 81.58,-88 87.58,-88 93.58,-94 93.58,-100 93.58,-100 93.58,-112 93.58,-112 93.58,-118 87.58,-124 81.58,-124"/>
 <text xml:space="preserve" text-anchor="middle" x="55" y="-103" font-family="Helvetica,sans-Serif" font-size="10.00">isSparse_add</text>
 </a>
@@ -87,7 +87,7 @@
 <!-- n5 -->
 <g id="node6" class="node">
 <title>n5</title>
-<g id="a_node6"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/tmp/statlib-main-refresh.tmBBiR/Statlib/HighDim/Geometry/RIPConstruction.lean:68" xlink:title="lemma · Statlib/HighDim/Geometry/RIPConstruction.lean:68" target="_blank">
+<g id="a_node6"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/HighDim/Geometry/RIPConstruction.lean#L71" xlink:title="lemma · Statlib/HighDim/Geometry/RIPConstruction.lean:71" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M176.58,-124C176.58,-124 123.42,-124 123.42,-124 117.42,-124 111.42,-118 111.42,-112 111.42,-112 111.42,-100 111.42,-100 111.42,-94 117.42,-88 123.42,-88 123.42,-88 176.58,-88 176.58,-88 182.58,-88 188.58,-94 188.58,-100 188.58,-100 188.58,-112 188.58,-112 188.58,-118 182.58,-124 176.58,-124"/>
 <text xml:space="preserve" text-anchor="middle" x="150" y="-103" font-family="Helvetica,sans-Serif" font-size="10.00">isSparse_neg</text>
 </a>
@@ -102,7 +102,7 @@
 <!-- n6 -->
 <g id="node7" class="node">
 <title>n6</title>
-<g id="a_node7"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/tmp/statlib-main-refresh.tmBBiR/Statlib/HighDim/Geometry/RIPConstruction.lean:93" xlink:title="lemma · Statlib/HighDim/Geometry/RIPConstruction.lean:93" target="_blank">
+<g id="a_node7"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/HighDim/Geometry/RIPConstruction.lean#L96" xlink:title="lemma · Statlib/HighDim/Geometry/RIPConstruction.lean:96" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M100.3,-196C100.3,-196 47.7,-196 47.7,-196 41.7,-196 35.7,-190 35.7,-184 35.7,-184 35.7,-172 35.7,-172 35.7,-166 41.7,-160 47.7,-160 47.7,-160 100.3,-160 100.3,-160 106.3,-160 112.3,-166 112.3,-172 112.3,-172 112.3,-184 112.3,-184 112.3,-190 106.3,-196 100.3,-196"/>
 <text xml:space="preserve" text-anchor="middle" x="74" y="-175" font-family="Helvetica,sans-Serif" font-size="10.00">isSparse_sub</text>
 </a>
@@ -129,7 +129,7 @@
 <!-- n7 -->
 <g id="node8" class="node">
 <title>n7</title>
-<g id="a_node8"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/tmp/statlib-main-refresh.tmBBiR/Statlib/HighDim/Geometry/RIPConstruction.lean:167" xlink:title="lemma · Statlib/HighDim/Geometry/RIPConstruction.lean:167" target="_blank">
+<g id="a_node8"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/HighDim/Geometry/RIPConstruction.lean#L170" xlink:title="lemma · Statlib/HighDim/Geometry/RIPConstruction.lean:170" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M860.62,-196C860.62,-196 677.38,-196 677.38,-196 671.38,-196 665.38,-190 665.38,-184 665.38,-184 665.38,-172 665.38,-172 665.38,-166 671.38,-160 677.38,-160 677.38,-160 860.62,-160 860.62,-160 866.62,-160 872.62,-166 872.62,-172 872.62,-172 872.62,-184 872.62,-184 872.62,-190 866.62,-196 860.62,-196"/>
 <text xml:space="preserve" text-anchor="middle" x="769" y="-175" font-family="Helvetica,sans-Serif" font-size="10.00">l2NormSq_add_of_pointwise_mul_eq_zero</text>
 </a>
@@ -144,7 +144,7 @@
 <!-- n8 -->
 <g id="node9" class="node">
 <title>n8</title>
-<g id="a_node9"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/tmp/statlib-main-refresh.tmBBiR/Statlib/HighDim/Geometry/RIPConstruction.lean:177" xlink:title="lemma · Statlib/HighDim/Geometry/RIPConstruction.lean:177" target="_blank">
+<g id="a_node9"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/HighDim/Geometry/RIPConstruction.lean#L180" xlink:title="lemma · Statlib/HighDim/Geometry/RIPConstruction.lean:180" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M453.33,-196C453.33,-196 270.67,-196 270.67,-196 264.67,-196 258.67,-190 258.67,-184 258.67,-184 258.67,-172 258.67,-172 258.67,-166 264.67,-160 270.67,-160 270.67,-160 453.33,-160 453.33,-160 459.33,-160 465.33,-166 465.33,-172 465.33,-172 465.33,-184 465.33,-184 465.33,-190 459.33,-196 453.33,-196"/>
 <text xml:space="preserve" text-anchor="middle" x="362" y="-175" font-family="Helvetica,sans-Serif" font-size="10.00">l2NormSq_sub_of_pointwise_mul_eq_zero</text>
 </a>
@@ -159,7 +159,7 @@
 <!-- n9 -->
 <g id="node10" class="node">
 <title>n9</title>
-<g id="a_node10"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/tmp/statlib-main-refresh.tmBBiR/Statlib/HighDim/Geometry/RIPConstruction.lean:201" xlink:title="lemma · Statlib/HighDim/Geometry/RIPConstruction.lean:201" target="_blank">
+<g id="a_node10"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/HighDim/Geometry/RIPConstruction.lean#L204" xlink:title="lemma · Statlib/HighDim/Geometry/RIPConstruction.lean:204" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M614.65,-196C614.65,-196 495.35,-196 495.35,-196 489.35,-196 483.35,-190 483.35,-184 483.35,-184 483.35,-172 483.35,-172 483.35,-166 489.35,-160 495.35,-160 495.35,-160 614.65,-160 614.65,-160 620.65,-160 626.65,-166 626.65,-172 626.65,-172 626.65,-184 626.65,-184 626.65,-190 620.65,-196 614.65,-196"/>
 <text xml:space="preserve" text-anchor="middle" x="555" y="-175" font-family="Helvetica,sans-Serif" font-size="10.00">mulVec_l2NormSq_add_sub</text>
 </a>
@@ -174,7 +174,7 @@
 <!-- n10 -->
 <g id="node11" class="node">
 <title>n10</title>
-<g id="a_node11"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/tmp/statlib-main-refresh.tmBBiR/Statlib/HighDim/Geometry/RIPConstruction.lean:220" xlink:title="lemma · Statlib/HighDim/Geometry/RIPConstruction.lean:220" target="_blank">
+<g id="a_node11"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/HighDim/Geometry/RIPConstruction.lean#L223" xlink:title="lemma · Statlib/HighDim/Geometry/RIPConstruction.lean:223" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" stroke-width="3" d="M288.27,-268C288.27,-268 121.73,-268 121.73,-268 115.73,-268 109.73,-262 109.73,-256 109.73,-256 109.73,-244 109.73,-244 109.73,-238 115.73,-232 121.73,-232 121.73,-232 288.27,-232 288.27,-232 294.27,-232 300.27,-238 300.27,-244 300.27,-244 300.27,-256 300.27,-256 300.27,-262 294.27,-268 288.27,-268"/>
 <text xml:space="preserve" text-anchor="middle" x="205" y="-247" font-family="Helvetica,sans-Serif" font-size="10.00">rip_cross_term_abs_le_half_delta_sum</text>
 </a>

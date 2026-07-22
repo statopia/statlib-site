@@ -4,7 +4,7 @@
 //
 // The actual artifact lives, decoupled, under `public/narratives/` and is served
 // statically at `/narratives/`. To refresh it later:
-//   1. Regenerate the narratives export (core/kb/theme/narratives in the prover repo).
+//   1. Regenerate the narratives export from the current statlib checkout.
 //   2. Replace the whole `public/narratives/` folder with the new output.
 //   3. Update the numbers in `stats` below and, if desired, the `featured` list.
 // The /featured page and nav entry stay unchanged — that's the point of the slot.
@@ -18,10 +18,10 @@ export const graphIndexUrl = `${graphBase}/index.html`;
 
 // Headline numbers — sourced from the artifact's INDEX.md. EDIT when refreshed.
 export const graphStats: { label: string; value: string }[] = [
-  { label: "Declarations (nodes)", value: "749" },
-  { label: "Dependencies (edges)", value: "1,556" },
-  { label: "Proof narratives", value: "131" },
-  { label: "Substantial developments", value: "41" },
+  { label: "Declarations (nodes)", value: "1,118" },
+  { label: "Dependencies (edges)", value: "2,499" },
+  { label: "Proof narratives", value: "241" },
+  { label: "Substantial developments", value: "78" },
 ];
 
 // A few large proof developments to feature as clickable previews.
@@ -35,37 +35,43 @@ export const featured: {
   {
     name: "matrix_bernstein_rect",
     topic: "High-dimensional",
-    decls: 133,
+    decls: 176,
     svg: "HighDim/matrix_bernstein_rect.svg",
+  },
+  {
+    name: "matrix_bernstein",
+    topic: "High-dimensional",
+    decls: 146,
+    svg: "HighDim/matrix_bernstein.svg",
   },
   {
     name: "hanson_wright_isotropic",
     topic: "High-dimensional",
-    decls: 106,
+    decls: 62,
     svg: "HighDim/hanson_wright_isotropic.svg",
   },
   {
-    name: "pca_eigvec_perturbation",
+    name: "subgaussian_rip_tail_anisotropic",
     topic: "High-dimensional",
-    decls: 77,
-    svg: "HighDim/pca_eigvec_perturbation.svg",
+    decls: 26,
+    svg: "HighDim/subgaussian_rip_tail_anisotropic.svg",
   },
   {
-    name: "multivariate_central_limit_theorem",
-    topic: "Limit theorems",
-    decls: 28,
-    svg: "StatFoundation/multivariate_central_limit_theorem.svg",
+    name: "trace_exp_add_log_simpleFunc_jensen_posDef",
+    topic: "Matrix analysis",
+    decls: 43,
+    svg: "HighDim/trace_exp_add_log_simpleFunc_jensen_posDef.svg",
   },
   {
-    name: "central_limit_theorem",
-    topic: "Limit theorems",
-    decls: 25,
-    svg: "StatFoundation/central_limit_theorem.svg",
+    name: "finiteLinearSpan_classApproximationError_le_of_pointwise_series_bound",
+    topic: "Nonparametric",
+    decls: 11,
+    svg: "Nonparametric/finiteLinearSpan_classApproximationError_le_of_pointwise_series_bound.svg",
   },
   {
-    name: "lindeberg_feller_central_limit_theorem",
-    topic: "Limit theorems",
-    decls: 21,
-    svg: "StatFoundation/lindeberg_feller_central_limit_theorem.svg",
+    name: "standardReal_ou_mehler_generator_pos",
+    topic: "Gaussian analysis",
+    decls: 26,
+    svg: "StatFoundation/standardReal_ou_mehler_generator_pos.svg",
   },
 ];

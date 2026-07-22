@@ -1,6 +1,6 @@
 # Proof narrative — central_limit_theorem
 
-Root: **central_limit_theorem** (theorem) `Statlib/StatFoundation/Convergence/CentralLimitTheorem/IID.lean:96` · topic `StatFoundation`
+Root: **central_limit_theorem** (theorem) `Statlib/StatFoundation/Convergence/CentralLimitTheorem/IID.lean:97` · topic `StatFoundation`
 Closure: 25 declarations across 4 files. Generated from `proof_graph.json` — no files were moved.
 
 Reading order (foundations first, headline last):
@@ -28,8 +28,8 @@ Reading order (foundations first, headline last):
       · `charFun_eq_of_subseq` — lemma · `Statlib/StatFoundation/Convergence/AnalysisTools/LevyContinuity.lean:168`
       · `probMeasure_eq_of_charFun_eq` — lemma · `Statlib/StatFoundation/Convergence/AnalysisTools/LevyContinuity.lean:180`
     ★ `levy_continuity` — theorem · `Statlib/StatFoundation/Convergence/AnalysisTools/LevyContinuity.lean:193`  _(also used by 1: lindeberg_feller_central_limit_theorem)_
-  ★ `iid_central_limit_theorem` — theorem · `Statlib/StatFoundation/Convergence/CentralLimitTheorem/IID.lean:42`  _(also used by 1: multivariate_central_limit_theorem)_
-★ `central_limit_theorem` — theorem · `Statlib/StatFoundation/Convergence/CentralLimitTheorem/IID.lean:96` **← headline**
+  ★ `iid_central_limit_theorem` — theorem · `Statlib/StatFoundation/Convergence/CentralLimitTheorem/IID.lean:43`  _(also used by 1: multivariate_central_limit_theorem)_
+★ `central_limit_theorem` — theorem · `Statlib/StatFoundation/Convergence/CentralLimitTheorem/IID.lean:97` **← headline**
 
 ## Dependency diagram
 

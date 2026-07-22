@@ -21,36 +21,73 @@ export interface FeaturedThm {
 
 export const featuredThms: FeaturedThm[] = [
   {
-    name: "Central Limit Theorem (i.i.d.)",
-    module: "Statistical foundations",
-    leanFile: "Statlib/StatFoundation/Convergence/CentralLimitTheorem/IID.lean",
-    math: "\\frac{S_n}{\\sigma\\sqrt{n}} \\xrightarrow{d} \\mathcal{N}(0,1)",
+    name: "Rectangular matrix Bernstein inequality",
+    module: "High-dimensional concentration",
+    leanFile: "Statlib/HighDim/Concentration/MatrixBernstein.lean",
+    math:
+      "\\mathbb{P}\\!\\left(\\Big\\|\\sum_k X_k\\Big\\| \\ge t\\right) \\le " +
+      "(p+q)\\exp\\!\\left(\\frac{-t^2/2}{\\sigma^2+Rt/3}\\right)",
     blurb:
-      "For i.i.d. centered variables with finite variance and third moment, the " +
-      "standardized partial sums converge in distribution to the standard normal.",
-    statement: `theorem central_limit_theorem
-    {Y : ℕ → Ω → ℝ} {σ ρ : ℝ} (hσ : 0 < σ)
-    (hm : ∀ i, Measurable (Y i))
-    (hindep : iIndepFun (m := fun _ => inferInstance) Y μ)
-    (hiid : ∀ i j, IdentDistrib (Y i) (Y j) μ μ)
-    (hmean : ∀ i, ∫ ω, Y i ω ∂μ = 0)
-    (hvar : ∀ i, ∫ ω, (Y i ω) ^ 2 ∂μ = σ ^ 2)
-    (h3 : ∀ i, ∫ ω, |Y i ω| ^ 3 ∂μ = ρ)
-    (hLp : ∀ i, MemLp (Y i) 3 μ) :
-    let μs : ℕ → ProbabilityMeasure ℝ := fun n =>
-      ⟨μ.map (standardizedSum Y σ (n + 1)),
-        Measure.isProbabilityMeasure_map
-          (measurable_standardizedSum hm).aemeasurable⟩
-    ∃ μ₀ : ProbabilityMeasure ℝ,
-      (∀ t, charFun (↑μ₀ : Measure ℝ) t =
-        charFun (gaussianReal (0 : ℝ) (1 : NNReal)) t) ∧
-      Tendsto μs atTop (𝓝 μ₀) := by`,
-    svg: "StatFoundation/central_limit_theorem.svg",
-    decls: 25,
+      "The high-dimensional matrix Bernstein theorem now closes through the " +
+      "operator-convexity/Lieb trace chain, with no remaining matrix Lieb axiom.",
+    statement: `theorem matrix_bernstein_rect {p q : ℕ} {m : ℕ} (hpq : 0 < p + q) (μ : Measure Ω)
+    [IsProbabilityMeasure μ]
+    (X : Fin m → Ω → Matrix (Fin p) (Fin q) ℝ)
+    (hX_meas : ∀ k, Measurable (X k))
+    (hX_ind : iIndepFun X μ)
+    (hX_zero : ∀ k, HasZeroMean (X k) μ)
+    (R : ℝ) (hR : ∀ k, HasBoundedSpectralNorm (X k) R μ)
+    (σsq : ℝ)
+    (hσ : max ‖∑ k : Fin m, ∫ ω, (X k ω) * Matrix.transpose (X k ω) ∂μ‖
+              ‖∑ k : Fin m, ∫ ω, Matrix.transpose (X k ω) * (X k ω) ∂μ‖ ≤ σsq)
+    {t : ℝ} (ht : 0 ≤ t) :
+    μ {ω | ‖∑ k : Fin m, X k ω‖ ≥ t} ≤
+    ENNReal.ofReal ((p + q : ℝ) * Real.exp (-(t ^ 2 / 2) / (σsq + R * t / 3))) := by`,
+    svg: "HighDim/matrix_bernstein_rect.svg",
+    decls: 176,
+  },
+  {
+    name: "Anisotropic sub-Gaussian RIP tail",
+    module: "High-dimensional geometry",
+    leanFile: "Statlib/HighDim/Geometry/SubGaussianRIPTailAnisotropic.lean",
+    math:
+      "m\\gtrsim \\frac{\\sigma^4}{\\kappa^2}\\frac{s\\log(en/s)}{\\delta^2} " +
+      "\\Rightarrow \\Pr[\\text{anisotropic RIP failure}]\\le " +
+      "2\\exp(-c\\delta^2m\\kappa^2/\\sigma^4)",
+    blurb:
+      "A heterogeneous-covariance concentration theorem: sparse quadratic " +
+      "forms concentrate around the covariance geometry, not just the identity.",
+    statement: `theorem subgaussian_rip_tail_anisotropic :
+    ∃ C c : ℝ, 0 < C ∧ 0 < c ∧
+      ∀ {Ω : Type*} [MeasurableSpace Ω]
+        {n m : ℕ} (_hm : 0 < m) (μ : Measure Ω) [IsProbabilityMeasure μ]
+        (rows : Fin m → Ω → EuclideanSpace ℝ (Fin n)) (σ : ℝ≥0)
+        (_hrows_meas : ∀ i, Measurable (rows i))
+        (_hrows_iid  : iIndepFun rows μ)
+        (cov : Matrix (Fin n) (Fin n) ℝ)
+        (_hrows_cov  : ∀ i, HasCovarianceMatrix (rows i) cov μ)
+        (_hrows_sg   : ∀ i, IsSubGaussianVector (rows i) σ μ) (_hσ : 0 < σ)
+        (κ : ℝ) (_hκ : 0 < κ)
+        (_hcov_min : ∀ u : EuclideanSpace ℝ (Fin n),
+          κ * (∑ a : Fin n, (u a) ^ 2)
+            ≤ ∑ a : Fin n, ∑ b : Fin n, u a * cov a b * u b)
+        (s : ℕ) (_hs : 0 < s) (_hsn : s ≤ n)
+        (δ : ℝ) (_hδ₀ : 0 < δ) (_hδ₁ : δ < 1)
+        (_hsc : C * (σ : ℝ) ^ 4 / κ ^ 2 * s * Real.log (Real.exp 1 * n / s) / δ ^ 2
+          ≤ (m : ℝ)),
+        (let X : Ω → Matrix (Fin m) (Fin n) ℝ := fun ω => Matrix.of (fun i j => rows i ω j)
+        μ {ω | ¬ ∀ β : Fin n → ℝ, IsSparse β s →
+            (1 - δ) * (∑ a : Fin n, ∑ b : Fin n, β a * cov a b * β b)
+                ≤ l2NormSq ((X ω).mulVec β) / (m : ℝ) ∧
+            l2NormSq ((X ω).mulVec β) / (m : ℝ)
+                ≤ (1 + δ) * (∑ a : Fin n, ∑ b : Fin n, β a * cov a b * β b)}
+          ≤ ENNReal.ofReal (2 * Real.exp (-c * δ ^ 2 * (m : ℝ) * κ ^ 2 / (σ : ℝ) ^ 4))) := by`,
+    svg: "HighDim/subgaussian_rip_tail_anisotropic.svg",
+    decls: 26,
   },
   {
     name: "Hanson–Wright inequality (isotropic)",
-    module: "High-dimensional statistics",
+    module: "High-dimensional concentration",
     leanFile: "Statlib/HighDim/Concentration/HansonWright.lean",
     math:
       "\\mathbb{P}\\big(|X^\\top A X - \\operatorname{tr}A| \\ge t\\big) \\le " +
@@ -69,44 +106,45 @@ export const featuredThms: FeaturedThm[] = [
         (_hX_sg : IsSubGaussianVector X σ μ)
         (_hX_indep : iIndepFun (fun i => fun ω => X ω i) μ)
         (A : Matrix (Fin n) (Fin n) ℝ)
-        {t : ℝ} (_ht : 0 ≤ t),
+        {t R K : ℝ} (_ht : 0 ≤ t) (_hσ : 0 < (σ : ℝ))
+        (_hscale : HansonWrightScaleConditions A σ t R K)
+        (_hdecouple :
+          μ {ω |
+              |quadForm (zeroDiagMatrix A) X ω -
+                ∫ ω', quadForm (zeroDiagMatrix A) X ω' ∂μ| ≥ t / 2} ≤
+            ENNReal.ofReal K *
+              (μ.prod μ) {p : Ω × Ω |
+                t / 8 ≤
+                  |decoupledOffDiagQuadForm (Ω := Ω × Ω) A
+                    (fun p => X p.1) (fun p => X p.2) p|}),
         μ {ω | |quadForm A X ω - A.trace| ≥ t} ≤
         ENNReal.ofReal (2 * Real.exp (-c * min
             (t ^ 2 / ((σ : ℝ) ^ 4 * frobeniusNormSq A))
             (t   / ((σ : ℝ) ^ 2 * ‖A‖)))) := by`,
     svg: "HighDim/hanson_wright_isotropic.svg",
-    decls: 106,
+    decls: 62,
   },
   {
-    name: "Johnson–Lindenstrauss embedding",
-    module: "High-dimensional statistics",
-    leanFile: "Statlib/HighDim/Geometry/JohnsonLindenstrauss.lean",
+    name: "Finite linear span approximation",
+    module: "Nonparametric approximation",
+    leanFile: "Statlib/Nonparametric/Approximation/Sieve.lean",
     math:
-      "2N^2 e^{-k\\varepsilon^2/4000} < 1 \\;\\Rightarrow\\; " +
-      "\\exists\\,\\omega:\\;\\forall i,j,\\; (1-\\varepsilon)\\|v_{ij}\\|^2 \\le " +
-      "\\tfrac1k\\|\\Phi(\\omega)v_{ij}\\|^2 \\le (1+\\varepsilon)\\|v_{ij}\\|^2",
+      "\\sup_x |s_\\theta(x)-f_0(x)|\\le\\varepsilon \\Rightarrow " +
+      "\\mathcal{E}(\\operatorname{span}\\phi,f_0)\\le \\nu(X)\\varepsilon^2",
     blurb:
-      "Under the JL dimension condition, the probabilistic method extracts a " +
-      "concrete k×n projection preserving all pairwise distances up to (1±ε) distortion.",
-    statement: `theorem johnson_lindenstrauss {n k N : ℕ} (hk : 0 < k)
-    (μ : Measure Ω) [IsProbabilityMeasure μ]
-    (Φ : Ω → Matrix (Fin k) (Fin n) ℝ)
-    (hΦ_meas : ∀ i : Fin k, ∀ j : Fin n, Measurable (fun ω => Φ ω i j))
-    (hΦ_iid : iIndepFun (fun p : Fin k × Fin n => fun ω => Φ ω p.1 p.2) μ)
-    (hΦ_gaussian : ∀ i j, HasSubgaussianMGF (fun ω => Φ ω i j) 1 μ ∧
-                          ∫ ω, Φ ω i j ∂μ = 0 ∧ ∫ ω, (Φ ω i j) ^ 2 ∂μ = 1)
-    (hΦ_mulVec_iIndep : ∀ x : EuclideanSpace ℝ (Fin n),
-      iIndepFun (fun i : Fin k => fun ω => ((Φ ω).mulVec x) i) μ)
-    (points : Fin N → EuclideanSpace ℝ (Fin n))
-    (ε : ℝ) (hε₀ : 0 < ε) (hε₁ : ε < 1)
-    (hdim : 2 * (N : ℝ) ^ 2 * Real.exp (-(k : ℝ) * ε ^ 2 / 4000) < 1) :
-    ∃ ω : Ω, ∀ i j : Fin N,
-        let v := points i - points j
-        (1 - ε) * ‖v‖ ^ 2 ≤
-          l2NormSq ((1 / Real.sqrt k : ℝ) • (Matrix.mulVec (Φ ω) v)) ∧
-        l2NormSq ((1 / Real.sqrt k : ℝ) • (Matrix.mulVec (Φ ω) v)) ≤
-          (1 + ε) * ‖v‖ ^ 2 := by`,
-    svg: "HighDim/johnson_lindenstrauss.svg",
-    decls: 16,
+      "The nonparametric sieve interface turns a pointwise finite-series witness " +
+      "into an integrated squared-error approximation bound.",
+    statement: `theorem finiteLinearSpan_classApproximationError_le_of_pointwise_series_bound
+  {X : Type u_1} [MeasurableSpace X] (m : ℕ) (phi : Fin m → X → ℝ) (theta : Fin m → ℝ) (f0 : X → ℝ)
+  (nu : Measure X) [IsFiniteMeasure nu] (eps : ℝ)
+  (h_eps_nonneg : 0 ≤ eps)
+  (h_series_meas : Measurable (seriesFunction m phi theta))
+  (hphi_meas : ∀ i, Measurable (phi i))
+  (h_f0_meas : Measurable f0)
+  (h_pointwise : ∀ x : X, |seriesFunction m phi theta x - f0 x| ≤ eps)
+  (h_bdd : BddBelow ((fun f => integratedSquaredError nu f f0) '' (finiteLinearSpan m phi)))
+  : classApproximationError nu (finiteLinearSpan m phi) f0 ≤ (nu Set.univ).toReal * (eps ^ 2) := by`,
+    svg: "Nonparametric/finiteLinearSpan_classApproximationError_le_of_pointwise_series_bound.svg",
+    decls: 11,
   },
 ];

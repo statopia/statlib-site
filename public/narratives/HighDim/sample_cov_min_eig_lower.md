@@ -1,42 +1,34 @@
 # Proof narrative — sample_cov_min_eig_lower
 
 Root: **sample_cov_min_eig_lower** (theorem) `Statlib/HighDim/CovarianceMatrix/SampleCovEigenvalueLower.lean:21` · topic `HighDim`
-Closure: 33 declarations across 12 files. Generated from `proof_graph.json` — no files were moved.
+Closure: 25 declarations across 6 files. Generated from `proof_graph.json` — no files were moved.
 
 Reading order (foundations first, headline last):
 
   ▣ `HasMean` — structure · `Statlib/HighDim/Vocabulary/RandomVector.lean:83`  _(also used by 36: coord_mul_integral_eq_zero_of_indep, offDiagQuadForm_integral_eq_zero_of_indep, offDiagQuadForm_centered_eq_self_of_indep, …)_
-  ▣ `HasCovarianceMatrix` — structure · `Statlib/HighDim/Vocabulary/RandomVector.lean:101`  _(also used by 14: cov_diagonal_concentration, cov_quadratic_deviation, cov_trace_concentration, …)_
-  ▣ `IsSubGaussianVector` — structure · `Statlib/HighDim/Vocabulary/RandomVector.lean:52`  _(also used by 77: decoupledOffDiagQuadForm_const_right_subgaussian, decoupledOffDiagQuadForm_const_right_abs_tail_real, decoupledOffDiagQuadForm_prod_first_section_abs_tail_real, …)_
-  ◆ `sampleSecondMoment` — noncomputable def · `Statlib/HighDim/CovarianceMatrix/SampleCovariance.lean:193`  _(also used by 5: sample_cov_max_eig_upper, sampleSecondMoment_unbiased, restricted_sample_deviation_quadratic, …)_
-      · `covariance_isSymm_of_hasCovariance` — lemma · `Statlib/HighDim/CovarianceMatrix/SampleCovariance.lean:213`
-      · `sampleSecondMoment_isSymm` — lemma · `Statlib/HighDim/CovarianceMatrix/SampleCovariance.lean:199`  _(also used by 2: subgaussian_rip_tail, pca_eigvec_perturbation)_
-      · `real_isHermitian_of_isSymm` — lemma · `Statlib/HighDim/CovarianceMatrix/SampleCovariance.lean:181`  _(also used by 2: subgaussian_rip_tail, pca_eigvec_perturbation)_
-      ◆ `toEuclidean` — noncomputable def · `Statlib/HighDim/Vocabulary/Norms.lean:41`  _(also used by 3: restricted_sample_deviation_quadratic, abs_quadratic_le_opNorm_mul_norm_sq, subgaussian_rip_tail)_
-          · `hermitian_norm_eq_diagonal_eigenvalues` — lemma · `Statlib/HighDim/CovarianceMatrix/SampleCovariance.lean:41`
-          · `pi_real_norm_eq_sup_abs` — lemma · `Statlib/HighDim/CovarianceMatrix/SampleCovariance.lean:61`
-        · `hermitian_norm_eq_sup_abs_eigenvalues` — lemma · `Statlib/HighDim/CovarianceMatrix/SampleCovariance.lean:71`
-      · `hermitian_norm_le_two_net_sup` — lemma · `Statlib/HighDim/CovarianceMatrix/SampleCovariance.lean:80`  _(also used by 1: subgaussian_rip_tail)_
-        · `inner_eq_sum` — lemma · `Statlib/HighDim/Vocabulary/Norms.lean:32`  _(also used by 10: decoupledOffDiagQuadForm_eq_inner_coeff, offDiagCoeffVec_apply_eq_inner_row_zeroDiag, subgaussian_vector_coord, …)_
-        · `matrix_quadratic_eq_sum` — lemma · `Statlib/HighDim/CovarianceMatrix/SampleCovariance.lean:318`  _(also used by 1: restricted_sample_deviation_quadratic)_
-        · `projection_sq_integral_eq_cov_quadratic` — lemma · `Statlib/HighDim/CovarianceMatrix/SampleCovariance.lean:250`
-          · `fin_sum_comm_three` — lemma · `Statlib/HighDim/CovarianceMatrix/SampleCovariance.lean:330`
-        · `sampleSecondMoment_quadratic_eq_projection_sum` — lemma · `Statlib/HighDim/CovarianceMatrix/SampleCovariance.lean:340`  _(also used by 1: restricted_sample_deviation_quadratic)_
-      · `sample_covariance_quadratic_eq_centered_projection_sum` — lemma · `Statlib/HighDim/CovarianceMatrix/SampleCovariance.lean:365`
-      · `projection_measurable` — lemma · `Statlib/HighDim/CovarianceMatrix/SampleCovariance.lean:225`
-      · `projection_sq_integrable` — lemma · `Statlib/HighDim/CovarianceMatrix/SampleCovariance.lean:299`
-        ▣ `HasSubexponentialMGF` — structure · `Statlib/StatFoundation/Vocabulary/RandomVariable.lean:74`  _(also used by 29: coord_mul_subexponential_exists_of_indep, subexponential_mgf_const_mul_relaxed, coord_mul_scaled_subexponential_exists_of_indep, …)_
-            ★ `subgaussian_meas_abs_ge_le_two_exp` — theorem · `Statlib/StatFoundation/RandomVariable/SubGaussian/subgaussian_meas_abs_ge_le_two_exp.lean:9`  _(also used by 3: subgaussian_linf_tail, lasso_noise_condition, subgaussian_even_moment_le)_
-          ★ `subgaussian_integrable_exp_sq_at_one_third` — theorem · `Statlib/StatFoundation/RandomVariable/SubGaussian/subgaussian_exp_sq_le_at_one_third.lean:165`  _(also used by 4: coord_mul_subexponential_exists_of_indep, coord_sq_centered_scaled_exp_integrable, coord_sq_centered_subexponential_exists, …)_
-        · `scalar_sq_centered_exp_integrable` — lemma · `Statlib/StatFoundation/RandomVariable/SubExponential/scalar_sq_centered_exp_integrable.lean:12`
-          · `sub_gauss_tail_abs` — lemma · `Statlib/StatFoundation/RandomVariable/SubExponential/subexp_mgf_le_of_sq_subgaussian.lean:13`  _(also used by 1: sub_gauss_tail_sq)_
-          · `sq_le_two_mul_exp` — lemma · `Statlib/StatFoundation/RandomVariable/SubGaussian/sq_le_two_mul_exp.lean:10`
-          ★ `subgaussian_exp_sq_le_at_one_third` — theorem · `Statlib/StatFoundation/RandomVariable/SubGaussian/subgaussian_exp_sq_le_at_one_third.lean:14`
-        ★ `subexp_mgf_le_of_sq_subgaussian_explicit` — theorem · `Statlib/StatFoundation/RandomVariable/SubExponential/subexp_mgf_le_of_sq_subgaussian.lean:72`  _(also used by 2: coord_sq_centered_mgf_bound_explicit, subexp_mgf_le_of_sq_subgaussian)_
-      · `scalar_sq_centered_subexponential_explicit` — lemma · `Statlib/StatFoundation/RandomVariable/SubExponential/scalar_sq_centered_subexponential_explicit.lean:16`  _(also used by 3: jl_single_pair, subgaussian_rip_tail, subgaussian_prod_subexponential)_
+  ▣ `HasCovarianceMatrix` — structure · `Statlib/HighDim/Vocabulary/RandomVector.lean:101`  _(also used by 15: cov_diagonal_concentration, cov_quadratic_deviation, cov_trace_concentration, …)_
+  ▣ `IsSubGaussianVector` — structure · `Statlib/HighDim/Vocabulary/RandomVector.lean:52`  _(also used by 76: decoupledOffDiagQuadForm_const_right_subgaussian, decoupledOffDiagQuadForm_const_right_abs_tail_real, decoupledOffDiagQuadForm_prod_first_section_abs_tail_real, …)_
+  ◆ `sampleSecondMoment` — noncomputable def · `Statlib/HighDim/CovarianceMatrix/SampleCovariance.lean:199`  _(also used by 11: sample_cov_max_eig_upper, sampleSecondMoment_unbiased, restricted_sample_deviation_quadratic, …)_
+      · `covariance_isSymm_of_hasCovariance` — lemma · `Statlib/HighDim/CovarianceMatrix/SampleCovariance.lean:219`
+      · `sampleSecondMoment_isSymm` — lemma · `Statlib/HighDim/CovarianceMatrix/SampleCovariance.lean:205`  _(also used by 2: subgaussian_rip_tail, pca_eigvec_perturbation)_
+      · `real_isHermitian_of_isSymm` — lemma · `Statlib/HighDim/CovarianceMatrix/SampleCovariance.lean:187`  _(also used by 2: subgaussian_rip_tail, pca_eigvec_perturbation)_
+      ◆ `toEuclidean` — noncomputable def · `Statlib/HighDim/Vocabulary/Norms.lean:41`  _(also used by 5: restricted_sample_deviation_quadratic, abs_quadratic_le_opNorm_mul_norm_sq, subgaussian_rip_tail, …)_
+          · `hermitian_norm_eq_diagonal_eigenvalues` — lemma · `Statlib/HighDim/CovarianceMatrix/SampleCovariance.lean:42`
+          · `pi_real_norm_eq_sup_abs` — lemma · `Statlib/HighDim/CovarianceMatrix/SampleCovariance.lean:62`
+        · `hermitian_norm_eq_sup_abs_eigenvalues` — lemma · `Statlib/HighDim/CovarianceMatrix/SampleCovariance.lean:72`
+      · `hermitian_norm_le_two_net_sup` — lemma · `Statlib/HighDim/CovarianceMatrix/SampleCovariance.lean:81`  _(also used by 1: subgaussian_rip_tail)_
+        · `inner_eq_sum` — lemma · `Statlib/HighDim/Vocabulary/Norms.lean:32`  _(also used by 12: decoupledOffDiagQuadForm_eq_inner_coeff, offDiagCoeffVec_apply_eq_inner_row_zeroDiag, subgaussian_vector_coord, …)_
+        · `matrix_quadratic_eq_sum` — lemma · `Statlib/HighDim/CovarianceMatrix/SampleCovariance.lean:324`  _(also used by 2: restricted_sample_deviation_quadratic, design_l2NormSq_div_eq_sampleSecondMoment_quadratic)_
+        · `projection_sq_integral_eq_cov_quadratic` — lemma · `Statlib/HighDim/CovarianceMatrix/SampleCovariance.lean:256`  _(also used by 1: subgaussian_rip_tail_anisotropic)_
+          · `fin_sum_comm_three` — lemma · `Statlib/HighDim/CovarianceMatrix/SampleCovariance.lean:336`
+        · `sampleSecondMoment_quadratic_eq_projection_sum` — lemma · `Statlib/HighDim/CovarianceMatrix/SampleCovariance.lean:346`  _(also used by 2: restricted_sample_deviation_quadratic, design_l2NormSq_div_eq_sampleSecondMoment_quadratic)_
+      · `sample_covariance_quadratic_eq_centered_projection_sum` — lemma · `Statlib/HighDim/CovarianceMatrix/SampleCovariance.lean:371`
+      · `projection_measurable` — lemma · `Statlib/HighDim/CovarianceMatrix/SampleCovariance.lean:231`
+      · `projection_sq_integrable` — lemma · `Statlib/HighDim/CovarianceMatrix/SampleCovariance.lean:305`
+        ▣ `HasSubexponentialMGF` — structure · `Statlib/StatFoundation/Vocabulary/RandomVariable.lean:74`  _(also used by 32: coord_mul_subexponential_exists_of_indep, subexponential_mgf_const_mul_relaxed, coord_mul_scaled_subexponential_exists_of_indep, …)_
       ★ `bernstein_sum_meas_abs_ge_le_two_exp` — theorem · `Statlib/StatFoundation/Concentration/ExponentialType/bernstein_sum_meas_abs_ge_le_two_exp.lean:13`  _(also used by 5: weighted_coord_sq_centered_sum_tail_explicit, diag_hanson_wright_tail_high, cov_trace_concentration, …)_
-    ★ `sampleCovariance_concentration` — theorem · `Statlib/HighDim/CovarianceMatrix/SampleCovariance.lean:445`
-  ★ `sampleCovariance_confidence` — theorem · `Statlib/HighDim/CovarianceMatrix/SampleCovariance.lean:1230`  _(also used by 2: sample_cov_max_eig_upper, pca_eigvec_perturbation)_
+    ★ `sampleCovariance_concentration` — theorem · `Statlib/HighDim/CovarianceMatrix/SampleCovariance.lean:455`
+  ★ `sampleCovariance_confidence` — theorem · `Statlib/HighDim/CovarianceMatrix/SampleCovariance.lean:1259`  _(also used by 2: sample_cov_max_eig_upper, pca_eigvec_perturbation)_
 ★ `sample_cov_min_eig_lower` — theorem · `Statlib/HighDim/CovarianceMatrix/SampleCovEigenvalueLower.lean:21` **← headline**
 
 ## Dependency diagram
@@ -64,18 +56,10 @@ flowchart TD
   n18["· projection_measurable"]
   n19["· projection_sq_integrable"]
   n20["▣ HasSubexponentialMGF"]
-  n21["★ subgaussian_meas_abs_ge_le_two_exp"]
-  n22["★ subgaussian_integrable_exp_sq_at_one_third"]
-  n23["· scalar_sq_centered_exp_integrable"]
-  n24["· sub_gauss_tail_abs"]
-  n25["· sq_le_two_mul_exp"]
-  n26["★ subgaussian_exp_sq_le_at_one_third"]
-  n27["★ subexp_mgf_le_of_sq_subgaussian_explicit"]
-  n28["· scalar_sq_centered_subexponential_explicit"]
-  n29["★ bernstein_sum_meas_abs_ge_le_two_exp"]
-  n30["★ sampleCovariance_concentration"]
-  n31["★ sampleCovariance_confidence"]
-  n32["★ sample_cov_min_eig_lower"]
+  n21["★ bernstein_sum_meas_abs_ge_le_two_exp"]
+  n22["★ sampleCovariance_concentration"]
+  n23["★ sampleCovariance_confidence"]
+  n24["★ sample_cov_min_eig_lower"]
   n4 --> n1
   n5 --> n3
   n10 --> n8
@@ -99,42 +83,31 @@ flowchart TD
   n17 --> n16
   n19 --> n1
   n19 --> n12
+  n21 --> n20
+  n22 --> n0
+  n22 --> n1
+  n22 --> n2
+  n22 --> n3
+  n22 --> n4
+  n22 --> n5
+  n22 --> n6
+  n22 --> n11
+  n22 --> n7
+  n22 --> n17
+  n22 --> n18
+  n22 --> n19
   n22 --> n21
+  n23 --> n0
+  n23 --> n1
+  n23 --> n2
+  n23 --> n3
   n23 --> n22
-  n26 --> n21
-  n27 --> n24
-  n27 --> n25
-  n27 --> n26
-  n27 --> n22
-  n28 --> n20
-  n28 --> n23
-  n28 --> n27
-  n29 --> n20
-  n30 --> n0
-  n30 --> n1
-  n30 --> n2
-  n30 --> n3
-  n30 --> n4
-  n30 --> n5
-  n30 --> n6
-  n30 --> n11
-  n30 --> n7
-  n30 --> n17
-  n30 --> n18
-  n30 --> n19
-  n30 --> n28
-  n30 --> n29
-  n31 --> n0
-  n31 --> n1
-  n31 --> n2
-  n31 --> n3
-  n31 --> n30
-  n32 --> n0
-  n32 --> n1
-  n32 --> n2
-  n32 --> n3
-  n32 --> n31
-  class n32 headline;
+  n24 --> n0
+  n24 --> n1
+  n24 --> n2
+  n24 --> n3
+  n24 --> n23
+  class n24 headline;
   classDef headline fill:#ffe08a,stroke:#d4a017,stroke-width:2px;
   classDef axiomNode fill:#ffd0d0,stroke:#c0392b,stroke-dasharray:4 2;
 ```

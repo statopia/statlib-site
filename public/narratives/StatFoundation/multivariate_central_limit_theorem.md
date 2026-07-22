@@ -31,7 +31,7 @@ Reading order (foundations first, headline last):
       · `charFun_eq_of_subseq` — lemma · `Statlib/StatFoundation/Convergence/AnalysisTools/LevyContinuity.lean:168`
       · `probMeasure_eq_of_charFun_eq` — lemma · `Statlib/StatFoundation/Convergence/AnalysisTools/LevyContinuity.lean:180`
     ★ `levy_continuity` — theorem · `Statlib/StatFoundation/Convergence/AnalysisTools/LevyContinuity.lean:193`  _(also used by 1: lindeberg_feller_central_limit_theorem)_
-  ★ `iid_central_limit_theorem` — theorem · `Statlib/StatFoundation/Convergence/CentralLimitTheorem/IID.lean:42`  _(also used by 1: central_limit_theorem)_
+  ★ `iid_central_limit_theorem` — theorem · `Statlib/StatFoundation/Convergence/CentralLimitTheorem/IID.lean:43`  _(also used by 1: central_limit_theorem)_
 ★ `multivariate_central_limit_theorem` — theorem · `Statlib/StatFoundation/Convergence/CentralLimitTheorem/Multivariate.lean:86` **← headline**
 
 ## Dependency diagram
