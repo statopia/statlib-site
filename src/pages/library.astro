@@ -54,14 +54,12 @@ const selectedLeanByTopic: Record<string, string[]> = {
   ],
 };
 
-const topicsWithoutExamples = new Set([
+const topicsHiddenFromSelectedResults = new Set([
   "nonparametric-vocabulary",
   "nonparametric-oracle",
 ]);
 
 function selectedTheorems(topic: (typeof topics)[number]) {
-  if (topicsWithoutExamples.has(topic.id)) return [];
-
   const selected = selectedLeanByTopic[topic.id];
   if (!selected) return topic.theorems.slice(0, DEFAULT_PER_TOPIC);
 
@@ -75,7 +73,9 @@ const grouped = modules.map((m) => ({
   module: m,
   topics: m.topicIds
     .map((id) => topics.find((t) => t.id === id))
-    .filter((t): t is (typeof topics)[number] => t !== undefined),
+    .filter((t): t is (typeof topics)[number] =>
+      t !== undefined && !topicsHiddenFromSelectedResults.has(t.id)
+    ),
 }));
 ---
 
