@@ -1,7 +1,8 @@
 // GENERATED from statlib `main` Statlib/ tree. Regenerate when the library changes.
 export interface TreeNode { name: string; dir?: boolean; children?: TreeNode[]; }
 
-export const libraryTree: TreeNode = {
+export const libraryTree: TreeNode = 
+{
   "name": "Statlib",
   "dir": true,
   "children": [
@@ -45,6 +46,10 @@ export const libraryTree: TreeNode = {
             },
             {
               "name": "CovTraceConcentration.lean",
+              "dir": false
+            },
+            {
+              "name": "L1QuadraticProcess.lean",
               "dir": false
             },
             {
@@ -147,6 +152,10 @@ export const libraryTree: TreeNode = {
             },
             {
               "name": "Incoherence.lean",
+              "dir": false
+            },
+            {
+              "name": "L1RSEFromCovariance.lean",
               "dir": false
             },
             {
@@ -336,6 +345,10 @@ export const libraryTree: TreeNode = {
           "dir": true,
           "children": [
             {
+              "name": "ConformalQuantileRegression.lean",
+              "dir": false
+            },
+            {
               "name": "Estimator.lean",
               "dir": false
             },
@@ -391,6 +404,10 @@ export const libraryTree: TreeNode = {
         },
         {
           "name": "Basic.lean",
+          "dir": false
+        },
+        {
+          "name": "ConformalQuantileRegression.lean",
           "dir": false
         },
         {
@@ -608,6 +625,96 @@ export const libraryTree: TreeNode = {
               "dir": true,
               "children": [
                 {
+                  "name": "StochasticOrder",
+                  "dir": true,
+                  "children": [
+                    {
+                      "name": "Algebra.lean",
+                      "dir": false
+                    },
+                    {
+                      "name": "AlgebraAdd.lean",
+                      "dir": false
+                    },
+                    {
+                      "name": "AlgebraAddLittle.lean",
+                      "dir": false
+                    },
+                    {
+                      "name": "AlgebraDeterministicScale.lean",
+                      "dir": false
+                    },
+                    {
+                      "name": "AlgebraFiniteSum.lean",
+                      "dir": false
+                    },
+                    {
+                      "name": "AlgebraMap.lean",
+                      "dir": false
+                    },
+                    {
+                      "name": "AlgebraProduct.lean",
+                      "dir": false
+                    },
+                    {
+                      "name": "AlgebraProductBig.lean",
+                      "dir": false
+                    },
+                    {
+                      "name": "AlgebraProductMixedLittleBig.lean",
+                      "dir": false
+                    },
+                    {
+                      "name": "AlgebraProductMixedOBigLittle.lean",
+                      "dir": false
+                    },
+                    {
+                      "name": "AlgebraSubBig.lean",
+                      "dir": false
+                    },
+                    {
+                      "name": "AlgebraSubLittle.lean",
+                      "dir": false
+                    },
+                    {
+                      "name": "Basic.lean",
+                      "dir": false
+                    },
+                    {
+                      "name": "ConvergenceBridges.lean",
+                      "dir": false
+                    },
+                    {
+                      "name": "Rate.lean",
+                      "dir": false
+                    },
+                    {
+                      "name": "RateBig.lean",
+                      "dir": false
+                    },
+                    {
+                      "name": "RateBounds.lean",
+                      "dir": false
+                    },
+                    {
+                      "name": "RateLittle.lean",
+                      "dir": false
+                    },
+                    {
+                      "name": "RateRefinement.lean",
+                      "dir": false
+                    },
+                    {
+                      "name": "SlutskyProduct.lean",
+                      "dir": false
+                    },
+                    {
+                      "name": "TailGates.lean",
+                      "dir": false
+                    }
+                  ]
+                },
+                {
                   "name": "CharacteristicFunction.lean",
                   "dir": false
                 },
@@ -617,6 +724,10 @@ export const libraryTree: TreeNode = {
                 },
                 {
                   "name": "CramerWold.lean",
+                  "dir": false
+                },
+                {
+                  "name": "IntegralConvergence.lean",
                   "dir": false
                 },
                 {
@@ -633,6 +744,10 @@ export const libraryTree: TreeNode = {
                 },
                 {
                   "name": "Tightness.lean",
+                  "dir": false
+                },
+                {
+                  "name": "UniformIntegrability.lean",
                   "dir": false
                 }
               ]
@@ -980,6 +1095,10 @@ export const libraryTree: TreeNode = {
               ]
             },
             {
+              "name": "Conformal.lean",
+              "dir": false
+            },
+            {
               "name": "Sufficiency.lean",
               "dir": false
             }
@@ -989,6 +1108,10 @@ export const libraryTree: TreeNode = {
           "name": "Vocabulary",
           "dir": true,
           "children": [
+            {
+              "name": "Conformal.lean",
+              "dir": false
+            },
             {
               "name": "EmpiricalProcess.lean",
               "dir": false
@@ -1003,6 +1126,14 @@ export const libraryTree: TreeNode = {
             },
             {
               "name": "RandomVariable.lean",
+              "dir": false
+            },
+            {
+              "name": "StochasticOrder.lean",
+              "dir": false
+            },
+            {
+              "name": "UniformIntegrability.lean",
               "dir": false
             }
           ]

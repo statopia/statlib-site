@@ -740,4 +740,70 @@ export const topics: TopicArea[] = [
       },
     ],
   },
+  {
+    id: "stochastic-order",
+    title: "Stochastic-order asymptotics",
+    summary: "Big-O and little-o in probability, rate bounds, Slutsky-type product theorems, and convergence bridges connecting stochastic orders to classical limit theorems.",
+    declarationCounts: { theorems: 82, lemmas: 4 },
+    theorems: [
+      {
+        name: "Slutsky product theorem (big-O × little-o)",
+        lean: "bigO_prob_mul_littleO_prob",
+        latex: "X_n = O_{\\mathbb{P}}(1),\\ Y_n = o_{\\mathbb{P}}(1) \\Rightarrow X_n Y_n = o_{\\mathbb{P}}(1)",
+        blurb: "The product of a probabilistically bounded sequence and a sequence converging in probability to zero also converges to zero in probability.",
+        status: "proved",
+      },
+      {
+        name: "Little-o rate refinement under deterministic scaling",
+        lean: "littleO_prob_rate_scale",
+        latex: "Y_n = o_{\\mathbb{P}}(r_n) \\Rightarrow a_n Y_n = o_{\\mathbb{P}}(a_n r_n)",
+        blurb: "Little-o probability rates scale linearly with deterministic sequences, enabling rate transfer across normalizations.",
+        status: "proved",
+      },
+    ],
+  },
+  {
+    id: "uniform-integrability",
+    title: "Uniform integrability",
+    summary: "Uniformly integrable families, Vitali convergence, integral-convergence bridges, and conditions ensuring L¹ convergence from convergence in probability.",
+    declarationCounts: { theorems: 25, lemmas: 0 },
+    theorems: [
+      {
+        name: "Vitali convergence theorem",
+        lean: "tendsto_Lp_of_tendstoInMeasure_and_uniformIntegrable",
+        latex: "X_n\\xrightarrow{\\mathbb{P}}X,\\ \\{X_n\\}\\ \\text{UI} \\Rightarrow X_n\\xrightarrow{L^1}X",
+        blurb: "Convergence in probability plus uniform integrability implies L¹ convergence.",
+        status: "proved",
+      },
+      {
+        name: "Integral convergence under UI domination",
+        lean: "tendsto_integral_of_uniformIntegrable_dominated",
+        latex: "\\{X_n\\}\\ \\text{UI},\\ X_n\\xrightarrow{\\mathbb{P}}X \\Rightarrow \\mathbb{E}[X_n]\\to\\mathbb{E}[X]",
+        blurb: "For uniformly integrable sequences converging in probability, expectations converge.",
+        status: "proved",
+      },
+    ],
+  },
+  {
+    id: "conformal",
+    title: "Conformal prediction",
+    summary: "Conformal inference foundations: exchangeability, nonconformity scores, conformal quantile regression, and finite-sample coverage guarantees.",
+    declarationCounts: { theorems: 13, lemmas: 0 },
+    theorems: [
+      {
+        name: "Conformal quantile regression coverage",
+        lean: "conformal_quantile_regression_coverage",
+        latex: "\\mathbb{P}(Y_{n+1}\\in\\hat{C}_{\\alpha}(X_{n+1}))\\ge 1-\\alpha",
+        blurb: "Split conformal quantile regression achieves finite-sample marginal coverage at the nominal level.",
+        status: "proved",
+      },
+      {
+        name: "Exchangeable score validity",
+        lean: "exchangeable_nonconformity_score_bound",
+        latex: "\\Pr(\\text{score}_{n+1}\\le\\text{quantile}_{1-\\alpha})\\ge 1-\\alpha",
+        blurb: "Under exchangeability, the nonconformity score of a test point is bounded by the empirical quantile of calibration scores with high probability.",
+        status: "proved",
+      },
+    ],
+  },
 ];

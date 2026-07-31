@@ -36,9 +36,12 @@ export const modules: LibraryModule[] = [
     topicIds: [
       "statistics",
       "convergence",
+      "stochastic-order",
+      "uniform-integrability",
       "empirical-processes",
       "random-variables",
       "concentration",
+      "conformal",
     ],
   },
   {
