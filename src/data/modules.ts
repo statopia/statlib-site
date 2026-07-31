@@ -24,12 +24,15 @@ export const modules: LibraryModule[] = [
     lean: "Statlib.StatFoundation",
     summary:
       "The probability and statistics core the rest of the library builds on: " +
-      "sufficiency and statistical inference, convergence and limit theorems, " +
-      "empirical-process tools, sub-Gaussian and sub-exponential variables, " +
-      "and concentration inequalities.",
+      "stochastic-order asymptotics (big-O/little-o in probability, Slutsky), " +
+      "uniform integrability and integral convergence, " +
+      "conformal prediction, sufficiency and statistical inference, " +
+      "convergence and limit theorems, empirical-process tools, " +
+      "sub-Gaussian and sub-exponential variables, and concentration inequalities.",
     roadmap:
-      "Grow shared vocabulary as concepts get reused across areas, and broaden " +
-      "the estimation, testing, empirical-process, and asymptotic foundations.",
+      "Grow shared vocabulary as concepts get reused across areas, broaden " +
+      "the estimation, testing, empirical-process, and asymptotic foundations, " +
+      "and expand stochastic-order and conformal-inference toolchains.",
     topicIds: [
       "statistics",
       "convergence",
@@ -45,10 +48,12 @@ export const modules: LibraryModule[] = [
     summary:
       "Statistics in the high-dimensional regime: matrix concentration " +
       "(Hanson–Wright, matrix Bernstein), covariance estimation, " +
+      "L1 quadratic-process analysis, L1 RSE bounds from covariance, " +
       "high-dimensional geometry, regression, and spectral perturbation.",
     roadmap:
       "Strengthen the operator-convexity, matrix-concentration, covariance, RIP, " +
-      "spectral-perturbation, and regression theorem chains.",
+      "spectral-perturbation, and regression theorem chains; " +
+      "extend L1-process results to broader design matrix families.",
     topicIds: [
       "matrix-analysis",
       "hd-concentration",
@@ -65,10 +70,11 @@ export const modules: LibraryModule[] = [
     summary:
       "Approximation and risk vocabulary for nonparametric statistics: finite " +
       "sieves, Holder classes, spline and wavelet approximation, RKHS and neural " +
-      "network candidate classes, and oracle interfaces.",
+      "network candidate classes, conformal quantile regression, and oracle interfaces.",
     roadmap:
       "Fill in the remaining nonparametric approximation chains while keeping " +
-      "the sieve and risk interfaces reusable across estimators.",
+      "the sieve and risk interfaces reusable across estimators; " +
+      "extend conformal-prediction results to broader nonparametric settings.",
     topicIds: [
       "nonparametric-approximation",
       "nonparametric-vocabulary",
