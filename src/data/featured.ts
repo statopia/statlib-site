@@ -1,11 +1,10 @@
 // ---------------------------------------------------------------------------
-// Featured formalizations for the /featured page: a few representative,
-// substantial theorems shown as their REAL Lean statement (verbatim from the
-// statlib `main` source, proof body omitted), with the math statement and the
-// theorem's dependency diagram.
+// Featured formalizations for the /featured page: representative theorems shown
+// as their REAL Lean statement (verbatim from the statlib `main` source, proof
+// body omitted), with the math statement and a dependency diagram.
 //
 // `statement` is copied faithfully from the source — do not paraphrase or weaken
-// it. `decls` and `svg` come from the proof-narrative artifact (public/narratives).
+// it. `svg` is relative to public/narratives.
 // ---------------------------------------------------------------------------
 
 export interface FeaturedThm {
@@ -16,172 +15,134 @@ export interface FeaturedThm {
   blurb: string; // one-line plain-language summary
   statement: string; // real Lean statement, verbatim (proof omitted)
   svg: string; // dependency diagram, relative to /narratives
-  decls: number; // declarations in the proof closure
+  decls: number; // declarations shown in the graph
+  graphLabel?: string; // defaults to "proof dependency graph"
 }
 
 export const featuredThms: FeaturedThm[] = [
   {
-    name: "Rectangular matrix Bernstein inequality",
-    module: "High-dimensional concentration",
-    leanFile: "Statlib/HighDim/Concentration/MatrixBernstein.lean",
-    math:
-      "\\mathbb{P}\\!\\left(\\Big\\|\\sum_k X_k\\Big\\| \\ge t\\right) \\le " +
-      "(p+q)\\exp\\!\\left(\\frac{-t^2/2}{\\sigma^2+Rt/3}\\right)",
-    blurb:
-      "The high-dimensional matrix Bernstein theorem now closes through the " +
-      "operator-convexity/Lieb trace chain, with no remaining matrix Lieb axiom.",
-    statement: `theorem matrix_bernstein_rect {p q : ℕ} {m : ℕ} (hpq : 0 < p + q) (μ : Measure Ω)
-    [IsProbabilityMeasure μ]
-    (X : Fin m → Ω → Matrix (Fin p) (Fin q) ℝ)
-    (hX_meas : ∀ k, Measurable (X k))
-    (hX_ind : iIndepFun X μ)
-    (hX_zero : ∀ k, HasZeroMean (X k) μ)
-    (R : ℝ) (hR : ∀ k, HasBoundedSpectralNorm (X k) R μ)
-    (σsq : ℝ)
-    (hσ : max ‖∑ k : Fin m, ∫ ω, (X k ω) * Matrix.transpose (X k ω) ∂μ‖
-              ‖∑ k : Fin m, ∫ ω, Matrix.transpose (X k ω) * (X k ω) ∂μ‖ ≤ σsq)
-    {t : ℝ} (ht : 0 ≤ t) :
-    μ {ω | ‖∑ k : Fin m, X k ω‖ ≥ t} ≤
-    ENNReal.ofReal ((p + q : ℝ) * Real.exp (-(t ^ 2 / 2) / (σsq + R * t / 3))) := by`,
-    svg: "HighDim/matrix_bernstein_rect.svg",
-    decls: 176,
-  },
-  {
-    name: "Anisotropic sub-Gaussian RIP tail",
-    module: "High-dimensional geometry",
-    leanFile: "Statlib/HighDim/Geometry/SubGaussianRIPTailAnisotropic.lean",
-    math:
-      "m\\gtrsim \\frac{\\sigma^4}{\\kappa^2}\\frac{s\\log(en/s)}{\\delta^2} " +
-      "\\Rightarrow \\Pr[\\text{anisotropic RIP failure}]\\le " +
-      "2\\exp(-c\\delta^2m\\kappa^2/\\sigma^4)",
-    blurb:
-      "A heterogeneous-covariance concentration theorem: sparse quadratic " +
-      "forms concentrate around the covariance geometry, not just the identity.",
-    statement: `theorem subgaussian_rip_tail_anisotropic :
-    ∃ C c : ℝ, 0 < C ∧ 0 < c ∧
-      ∀ {Ω : Type*} [MeasurableSpace Ω]
-        {n m : ℕ} (_hm : 0 < m) (μ : Measure Ω) [IsProbabilityMeasure μ]
-        (rows : Fin m → Ω → EuclideanSpace ℝ (Fin n)) (σ : ℝ≥0)
-        (_hrows_meas : ∀ i, Measurable (rows i))
-        (_hrows_iid  : iIndepFun rows μ)
-        (cov : Matrix (Fin n) (Fin n) ℝ)
-        (_hrows_cov  : ∀ i, HasCovarianceMatrix (rows i) cov μ)
-        (_hrows_sg   : ∀ i, IsSubGaussianVector (rows i) σ μ) (_hσ : 0 < σ)
-        (κ : ℝ) (_hκ : 0 < κ)
-        (_hcov_min : ∀ u : EuclideanSpace ℝ (Fin n),
-          κ * (∑ a : Fin n, (u a) ^ 2)
-            ≤ ∑ a : Fin n, ∑ b : Fin n, u a * cov a b * u b)
-        (s : ℕ) (_hs : 0 < s) (_hsn : s ≤ n)
-        (δ : ℝ) (_hδ₀ : 0 < δ) (_hδ₁ : δ < 1)
-        (_hsc : C * (σ : ℝ) ^ 4 / κ ^ 2 * s * Real.log (Real.exp 1 * n / s) / δ ^ 2
-          ≤ (m : ℝ)),
-        (let X : Ω → Matrix (Fin m) (Fin n) ℝ := fun ω => Matrix.of (fun i j => rows i ω j)
-        μ {ω | ¬ ∀ β : Fin n → ℝ, IsSparse β s →
-            (1 - δ) * (∑ a : Fin n, ∑ b : Fin n, β a * cov a b * β b)
-                ≤ l2NormSq ((X ω).mulVec β) / (m : ℝ) ∧
-            l2NormSq ((X ω).mulVec β) / (m : ℝ)
-                ≤ (1 + δ) * (∑ a : Fin n, ∑ b : Fin n, β a * cov a b * β b)}
-          ≤ ENNReal.ofReal (2 * Real.exp (-c * δ ^ 2 * (m : ℝ) * κ ^ 2 / (σ : ℝ) ^ 4))) := by`,
-    svg: "HighDim/subgaussian_rip_tail_anisotropic.svg",
-    decls: 26,
-  },
-  {
-    name: "Hanson–Wright inequality (isotropic)",
-    module: "High-dimensional concentration",
-    leanFile: "Statlib/HighDim/Concentration/HansonWright.lean",
-    math:
-      "\\mathbb{P}\\big(|X^\\top A X - \\operatorname{tr}A| \\ge t\\big) \\le " +
-      "2\\exp\\!\\left(-c\\min\\!\\Big(\\tfrac{t^2}{\\sigma^4\\|A\\|_F^2}, " +
-      "\\tfrac{t}{\\sigma^2\\|A\\|}\\Big)\\right)",
-    blurb:
-      "A sub-Gaussian quadratic form concentrates around its trace with a tail " +
-      "interpolating between Gaussian and exponential decay.",
-    statement: `theorem hanson_wright_isotropic :
-    ∃ c : ℝ, 0 < c ∧
-      ∀ {n : ℕ} (μ : Measure Ω) [IsProbabilityMeasure μ]
-        (X : Ω → EuclideanSpace ℝ (Fin n)) (σ : ℝ≥0)
-        (_hX_meas : Measurable X)
-        (_hX_mean : HasMean X 0 μ)
-        (_hX_iso : IsIsotropic X μ)
-        (_hX_sg : IsSubGaussianVector X σ μ)
-        (_hX_indep : iIndepFun (fun i => fun ω => X ω i) μ)
-        (A : Matrix (Fin n) (Fin n) ℝ)
-        {t R K : ℝ} (_ht : 0 ≤ t) (_hσ : 0 < (σ : ℝ))
-        (_hscale : HansonWrightScaleConditions A σ t R K)
-        (_hdecouple :
-          μ {ω |
-              |quadForm (zeroDiagMatrix A) X ω -
-                ∫ ω', quadForm (zeroDiagMatrix A) X ω' ∂μ| ≥ t / 2} ≤
-            ENNReal.ofReal K *
-              (μ.prod μ) {p : Ω × Ω |
-                t / 8 ≤
-                  |decoupledOffDiagQuadForm (Ω := Ω × Ω) A
-                    (fun p => X p.1) (fun p => X p.2) p|}),
-        μ {ω | |quadForm A X ω - A.trace| ≥ t} ≤
-        ENNReal.ofReal (2 * Real.exp (-c * min
-            (t ^ 2 / ((σ : ℝ) ^ 4 * frobeniusNormSq A))
-            (t   / ((σ : ℝ) ^ 2 * ‖A‖)))) := by`,
-    svg: "HighDim/hanson_wright_isotropic.svg",
-    decls: 62,
-  },
-  {
-    name: "Rademacher generalization bound",
-    module: "Empirical processes",
-    leanFile: "Statlib/StatFoundation/EmpiricalProcess/RademacherGeneralizationBound.lean",
-    math:
-      "\\Pr\\!\\left[\\sup_{f\\in\\mathcal{F}}(Pf-P_n f) \\le " +
-      "2\\mathfrak{R}_n(\\mathcal{F}) + \\sqrt{\\log(1/\\delta)/(2n)}\\right] " +
-      "\\ge 1-\\delta",
-    blurb:
-      "A finite-class empirical-process generalization bound combining " +
-      "symmetrization, Rademacher complexity, and McDiarmid concentration.",
-    statement: `theorem rademacher_generalization_bound (Ω 𝒳 : Type*) [MeasurableSpace Ω] [MeasurableSpace 𝒳]
-  (μ : Measure Ω) [IsProbabilityMeasure μ]
-  (n N : ℕ) (hn : 0 < n) (hNpos : 0 < N)
-  (X : Fin n → Ω → 𝒳) (hXmeas : ∀ i, Measurable (X i))
-  (hXindep : iIndepFun X μ)
-  (hXident : ∀ i j, IdentDistrib (X i) (X j) μ μ)
-  (f : Fin N → 𝒳 → ℝ) (hfmeas : ∀ j, Measurable (f j))
-  (hf_nonneg : ∀ j x, 0 ≤ f j x) (hf_le_one : ∀ j x, f j x ≤ 1)
-  (δ : ℝ) (hδpos : 0 < δ) (hδlt1 : δ < 1) :
-  μ {ω | (⨆ j : Fin N, (∫ ω', f j (X ⟨0, hn⟩ ω') ∂μ
-                         - (empiricalAverage n (f j) (fun k => X k ω) : ℝ)))
-         ≤ 2 * rademacherComplexity n f μ X + Real.sqrt (Real.log (1/δ) / (2 * (n : ℝ)))} ≥ (1 : ENNReal) - ENNReal.ofReal δ :=
-by`,
-    svg: "StatFoundation/rademacher_generalization_bound.svg",
-    decls: 8,
-  },
-  {
-    name: "Zero-order Holder sieve approximation",
+    name: "ReLU network approximation from a pointwise witness",
     module: "Nonparametric approximation",
-    leanFile: "Statlib/Nonparametric/Approximation/Holder.lean",
+    leanFile: "Statlib/Nonparametric/Approximation/NeuralNetwork.lean",
     math:
-      "\\exists\\phi:\\ \\forall f_0\\in\\mathcal{H}^{\\alpha}(C,B),\\ " +
-      "\\mathcal{E}_m(f_0)\\le \\nu(X)(C A^{\\alpha})^2 m^{-2\\alpha/d}",
+      "\\exists N\\in\\mathcal{N}_{d,D,W,P}:\\ \\sup_x |N(x)-f_0(x)|\\le\\varepsilon" +
+      "\\Rightarrow \\mathcal{E}(\\mathcal{N}_{d,D,W,P},f_0)\\le \\nu(X)\\varepsilon^2",
     blurb:
-      "A measurable m-cell selector cover gives a piecewise-constant " +
-      "selector-indicator sieve whose integrated squared-error rate over a " +
-      "Holder ball is m^{-2 alpha / d}.",
-    statement: `theorem holderBall_selectorIndicator_sieveApproximationError_rate_of_cover
-    {X : Type*} [PseudoMetricSpace X] [MeasurableSpace X]
-    (nu : Measure X) [IsFiniteMeasure nu]
-    (m d : ℕ) (alpha C B A : ℝ)
-    (hm : 0 < m) (hd : 0 < d)
-    (hC : 0 ≤ C) (hA : 0 ≤ A) (hAlpha : 0 ≤ alpha)
-    (hf0_meas :
-      ∀ f0 : X → ℝ, f0 ∈ holderBall alpha C B → Measurable f0)
-    (hcover :
-      ∃ z : Fin m → X, ∃ pi : X → Fin m,
-        Measurable pi ∧
-          ∀ x : X,
-            dist x (z (pi x)) ≤
-              A * (m : ℝ) ^ (-(1 : ℝ) / (d : ℝ))) :
-    ∃ phi : Fin m → X → ℝ,
-      ∀ f0 : X → ℝ, f0 ∈ holderBall alpha C B →
-        sieveApproximationError nu m phi f0
-          ≤ (nu Set.univ).toReal * (C * A.rpow alpha) ^ 2 *
-              (m : ℝ) ^ (-(2 * alpha) / (d : ℝ)) := by`,
-    svg: "Nonparametric/holderBall_selectorIndicator_sieveApproximationError_rate_of_cover.svg",
-    decls: 24,
+      "A fully connected ReLU witness with uniform approximation error gives a " +
+      "class approximation-error bound after integrating squared loss.",
+    statement: `theorem reluNetworkClass_classApproximationError_le_of_exists_pointwise
+  (d depth width parameterCount : ℕ)
+  (f0 : (Fin d → ℝ) → ℝ)
+  (nu : Measure (Fin d → ℝ))
+  (eps : ℝ)
+  (h_f0_meas : Measurable f0)
+  (h_nu_fin : IsFiniteMeasure nu)
+  (h_eps_nonneg : 0 ≤ eps)
+
+  (h_exists_net : ∃ N : FullyConnectedReLUNet d, 0 < N.depth ∧
+    N.depth ≤ depth ∧ N.width ≤ width ∧ N.parameterCount ≤ parameterCount ∧
+      Measurable (N.realize) ∧ ∀ x : Fin d → ℝ, |N.realize x - f0 x| ≤ eps)
+  (h_bdd_below : BddBelow (Set.image (fun (f : (Fin d → ℝ) → ℝ) => integratedSquaredError nu f f0) (reluNetworkClass d depth width parameterCount)))
+  : classApproximationError nu (reluNetworkClass d depth width parameterCount) f0 ≤ (nu Set.univ).toReal * eps ^ 2 := by`,
+    svg: "Nonparametric/reluNetworkClass_classApproximationError_le_of_exists_pointwise.svg",
+    decls: 13,
+  },
+  {
+    name: "Wedin sin-theta theorem for singular subspaces",
+    module: "Matrix analysis",
+    leanFile: "Statlib/HighDim/MatrixAnalysis/WedinSinTheta.lean",
+    math:
+      "\\max\\{\\|UU^\\top-\\hat U\\hat U^\\top\\|_F,\\|VV^\\top-\\hat V\\hat V^\\top\\|_F\\}" +
+      "\\le \\sqrt{2r}\\,\\|E\\|_{\\mathrm{op}}/\\delta",
+    blurb:
+      "A rectangular singular-subspace perturbation theorem: if Ahat = A + E " +
+      "and the top-r singular values are separated, both projector distances " +
+      "are controlled by the operator norm of E over the gap.",
+    statement: `theorem wedin_sin_theta {m n r : ℕ} (hr0 : 0 < r) (hrm : r < m) (hrn : r < n)
+    (A E : Matrix (Fin m) (Fin n) ℝ) (Ahat : Matrix (Fin m) (Fin n) ℝ) (h_Ahat : Ahat = A + E)
+    (U1 Uhat1 : Matrix (Fin m) (Fin r) ℝ) (V1 Vhat1 : Matrix (Fin n) (Fin r) ℝ)
+    (hU1_orth : U1.transpose * U1 = 1) (hUhat1_orth : Uhat1.transpose * Uhat1 = 1)
+    (hV1_orth : V1.transpose * V1 = 1) (hVhat1_orth : Vhat1.transpose * Vhat1 = 1)
+    (hU1_sub : IsTopRLeftSingularSubspace A r (Nat.le_of_lt hrm) U1)
+    (hUhat1_sub : IsTopRLeftSingularSubspace Ahat r (Nat.le_of_lt hrm) Uhat1)
+    (hV1_sub : IsTopRRightSingularSubspace A r (Nat.le_of_lt hrn) V1)
+    (hVhat1_sub : IsTopRRightSingularSubspace Ahat r (Nat.le_of_lt hrn) Vhat1)
+    (δ : ℝ) (hδ : 0 < δ) (hrmin : r < min m n := lt_min_iff.mpr ⟨hrm, hrn⟩)
+    (hgap : 2 * δ ≤
+      singularValues A ⟨Nat.pred r, lt_trans (Nat.pred_lt (Nat.pos_iff_ne_zero.mp hr0)) hrmin⟩ -
+        singularValues A ⟨r, hrmin⟩)
+    (hE : opNorm E < δ / 2) :
+    max (frobeniusNorm (U1 * U1.transpose - Uhat1 * Uhat1.transpose))
+        (frobeniusNorm (V1 * V1.transpose - Vhat1 * Vhat1.transpose)) ≤
+      Real.sqrt (2 * (r : ℝ)) * opNorm E / δ := by`,
+    svg: "HighDim/wedin_sin_theta.svg",
+    decls: 14,
+    graphLabel: "selected dependency map",
+  },
+  {
+    name: "Debiased LASSO standard Wald coverage",
+    module: "High-dimensional regression",
+    leanFile: "Statlib/HighDim/Regression/DebiasingLasso.lean",
+    math:
+      "\\mathbb{P}\\!\\left(\\beta_j\\in\\left(\\hat b_j-c\\hat s_j/a_n,\\hat b_j+c\\hat s_j/a_n\\right)\\right)" +
+      "\\to 1-\\alpha",
+    blurb:
+      "An iid-score debiasing result: L1 control, row-approximation error, " +
+      "studentization, and Gaussian critical-value calibration produce standard " +
+      "Wald confidence-interval coverage.",
+    statement: `theorem tendsto_measure_debiasedLasso_standardWaldCI_coverage_iidScoreSum_real
+    {Ω : Type*} [MeasurableSpace Ω] {μ : Measure Ω} [IsProbabilityMeasure μ]
+    {p : ℕ}
+    (a l1Rate : ℕ → ℝ)
+    (M Gram : ℕ → Matrix (Fin p) (Fin p) ℝ)
+    (β : Fin p → ℝ)
+    (βhat linearScore : ℕ → Ω → Fin p → ℝ)
+    (rowErr : ℕ → Fin p → ℝ)
+    (Yscore : ℕ → Ω → ℝ) (σ ρ : ℝ)
+    (Zstd : Ω → ℝ)
+    (se : ℕ → Ω → Fin p → ℝ) (j : Fin p)
+    (c α : ℝ)
+    (hσ_pos : 0 < σ)
+    (hY_meas : ∀ i, Measurable (Yscore i))
+    (hY_indep : iIndepFun (m := fun _ => inferInstance) Yscore μ)
+    (hY_iid : ∀ i q, IdentDistrib (Yscore i) (Yscore q) μ μ)
+    (hY_mean : ∀ i, ∫ ω, Yscore i ω ∂μ = 0)
+    (hY_var : ∀ i, ∫ ω, (Yscore i ω) ^ 2 ∂μ = σ ^ 2)
+    (hY_third : ∀ i, ∫ ω, |Yscore i ω| ^ 3 ∂μ = ρ)
+    (hY_Lp : ∀ i, MemLp (Yscore i) 3 μ)
+    (hscore_repr : ∀ n,
+      Statlib.StatFoundation.Convergence.CLT.standardizedSum Yscore σ (n + 1)
+        =ᵐ[μ] (fun ω => a n * linearScore n ω j))
+    (hZstd : AEMeasurable Zstd μ)
+    (hZstd_law : μ.map Zstd = gaussianReal (0 : ℝ) (1 : NNReal))
+    (hT : HasCoordinatewiseAEMeasurable μ
+      (scaledCenteredFiniteCoordinate a
+        (fun n ω =>
+          debiasedLassoEstimator (M n) (Gram n) β (βhat n ω) (linearScore n ω))
+        β))
+    (hrow : ∀ᶠ n in atTop,
+      HasDebiasedLassoRowApproxError (M n) (Gram n) (rowErr n))
+    (hl1 : IsBigOInProbability μ
+      (fun n ω => l1Norm (fun k => β k - βhat n ω k)) l1Rate atTop)
+    (hrate : ∀ q : Fin p,
+      Tendsto (fun n => (a n * rowErr n q) * l1Rate n) atTop (nhds 0))
+    (hse : TendstoInMeasure μ (fun n ω => se n ω j) atTop (fun _ => (1 : ℝ)))
+    (hse_meas : ∀ n, AEMeasurable (fun ω => se n ω j) μ)
+    (ha_pos : ∀ n, 0 < a n)
+    (hse_pos : ∀ n ω, 0 < se n ω j)
+    (hcrit : IsStandardGaussianTwoSidedCriticalValue α c) :
+    Tendsto
+      (fun n =>
+        μ {ω |
+          β j ∈ Set.Ioo
+            (debiasedLassoEstimator (M n) (Gram n) β (βhat n ω) (linearScore n ω) j
+              - c * se n ω j / a n)
+            (debiasedLassoEstimator (M n) (Gram n) β (βhat n ω) (linearScore n ω) j
+              + c * se n ω j / a n)})
+      atTop
+      (nhds (ENNReal.ofReal (1 - α))) := by`,
+    svg: "HighDim/tendsto_measure_debiasedLasso_standardWaldCI_coverage_iidScoreSum_real.svg",
+    decls: 13,
+    graphLabel: "selected dependency map",
   },
 ];

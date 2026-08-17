@@ -24,8 +24,8 @@ export const graphStats: { label: string; value: string }[] = [
   { label: "Substantial developments", value: "78" },
 ];
 
-// A few large proof developments to feature as clickable previews.
-// `svg` is relative to graphBase. Pick from public/narratives/index.html.
+// Selected proof/dependency maps to feature as clickable previews.
+// `svg` is relative to graphBase.
 export const featured: {
   name: string;
   topic: string;
@@ -33,51 +33,21 @@ export const featured: {
   svg: string;
 }[] = [
   {
-    name: "matrix_bernstein_rect",
-    topic: "High-dimensional",
-    decls: 176,
-    svg: "HighDim/matrix_bernstein_rect.svg",
-  },
-  {
-    name: "matrix_bernstein",
-    topic: "High-dimensional",
-    decls: 146,
-    svg: "HighDim/matrix_bernstein.svg",
-  },
-  {
-    name: "hanson_wright_isotropic",
-    topic: "High-dimensional",
-    decls: 62,
-    svg: "HighDim/hanson_wright_isotropic.svg",
-  },
-  {
-    name: "subgaussian_rip_tail_anisotropic",
-    topic: "High-dimensional",
-    decls: 26,
-    svg: "HighDim/subgaussian_rip_tail_anisotropic.svg",
-  },
-  {
-    name: "rademacher_generalization_bound",
-    topic: "Empirical processes",
-    decls: 8,
-    svg: "StatFoundation/rademacher_generalization_bound.svg",
-  },
-  {
-    name: "trace_exp_add_log_simpleFunc_jensen_posDef",
+    name: "wedin_sin_theta",
     topic: "Matrix analysis",
-    decls: 43,
-    svg: "HighDim/trace_exp_add_log_simpleFunc_jensen_posDef.svg",
+    decls: 14,
+    svg: "HighDim/wedin_sin_theta.svg",
   },
   {
-    name: "holderBall_selectorIndicator_sieveApproximationError_rate_of_cover",
+    name: "tendsto_measure_debiasedLasso_standardWaldCI_coverage_iidScoreSum_real",
+    topic: "High-dimensional regression",
+    decls: 13,
+    svg: "HighDim/tendsto_measure_debiasedLasso_standardWaldCI_coverage_iidScoreSum_real.svg",
+  },
+  {
+    name: "reluNetworkClass_classApproximationError_le_of_exists_pointwise",
     topic: "Nonparametric",
-    decls: 24,
-    svg: "Nonparametric/holderBall_selectorIndicator_sieveApproximationError_rate_of_cover.svg",
-  },
-  {
-    name: "standardReal_ou_mehler_generator_pos",
-    topic: "Gaussian analysis",
-    decls: 26,
-    svg: "StatFoundation/standardReal_ou_mehler_generator_pos.svg",
+    decls: 13,
+    svg: "Nonparametric/reluNetworkClass_classApproximationError_le_of_exists_pointwise.svg",
   },
 ];

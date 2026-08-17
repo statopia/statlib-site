@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="760" height="440" viewBox="0 0 760 440" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Selected dependency map for wedin_sin_theta</title>
+  <desc id="desc">A selected dependency map showing the Wedin sin-theta theorem, projector Frobenius bounds, singular-value gap lemmas, and operator norm controls.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="9" markerHeight="7" refX="8" refY="3.5" orient="auto">
+      <path d="M0,0 L9,3.5 L0,7 Z" fill="#64748b"/>
+    </marker>
+    <style>
+      text { font-family: Helvetica, Arial, sans-serif; fill: #0f172a; }
+      .title { font-size: 15px; font-weight: 700; }
+      .cluster { fill: none; stroke: #cbd5e1; stroke-dasharray: 6 3; }
+      .node { stroke-width: 1.5; }
+      .theorem { fill: #fde68a; stroke: #f59e0b; }
+      .lemma { fill: #e5e7eb; stroke: #94a3b8; }
+      .def { fill: #dbeafe; stroke: #3b82f6; }
+      .node-label { font-size: 12px; }
+      .edge { fill: none; stroke: #64748b; stroke-width: 1.4; marker-end: url(#arrow); }
+      .small { fill: #64748b; font-size: 11px; }
+    </style>
+  </defs>
+  <rect width="760" height="440" fill="#ffffff"/>
+  <text x="380" y="28" text-anchor="middle" class="title">Selected dependency map - wedin_sin_theta (14 declarations)</text>
+  <rect x="28" y="52" width="704" height="356" rx="10" class="cluster"/>
+  <text x="380" y="73" text-anchor="middle" class="small">Statlib.HighDim.MatrixAnalysis</text>
+
+  <g transform="translate(278 328)">
+    <rect width="204" height="44" rx="6" class="node theorem"/>
+    <text x="102" y="19" text-anchor="middle" class="node-label">wedin_sin_theta</text>
+    <text x="102" y="34" text-anchor="middle" class="small">projector sin-theta bound</text>
+  </g>
+
+  <g transform="translate(66 238)">
+    <rect width="180" height="42" rx="6" class="node lemma"/>
+    <text x="90" y="18" text-anchor="middle" class="node-label">column_alpha_j</text>
+    <text x="90" y="33" text-anchor="middle" class="small">left residual columns</text>
+  </g>
+  <g transform="translate(290 238)">
+    <rect width="180" height="42" rx="6" class="node lemma"/>
+    <text x="90" y="18" text-anchor="middle" class="node-label">column_beta_j</text>
+    <text x="90" y="33" text-anchor="middle" class="small">right residual columns</text>
+  </g>
+  <g transform="translate(514 238)">
+    <rect width="180" height="42" rx="6" class="node lemma"/>
+    <text x="90" y="18" text-anchor="middle" class="node-label">proj_diff_frob_le</text>
+    <text x="90" y="33" text-anchor="middle" class="small">column to projector</text>
+  </g>
+
+  <g transform="translate(66 148)">
+    <rect width="180" height="42" rx="6" class="node lemma"/>
+    <text x="90" y="18" text-anchor="middle" class="node-label">residual_vec_bound</text>
+    <text x="90" y="33" text-anchor="middle" class="small">SVD block residual</text>
+  </g>
+  <g transform="translate(290 148)">
+    <rect width="180" height="42" rx="6" class="node lemma"/>
+    <text x="90" y="17" text-anchor="middle" class="node-label">singularValues_strict</text>
+    <text x="90" y="32" text-anchor="middle" class="small">gt_tail gap separation</text>
+  </g>
+  <g transform="translate(514 148)">
+    <rect width="180" height="42" rx="6" class="node lemma"/>
+    <text x="90" y="18" text-anchor="middle" class="node-label">opNorm_transpose</text>
+    <text x="90" y="33" text-anchor="middle" class="small">transpose perturbation</text>
+  </g>
+
+  <g transform="translate(84 90)">
+    <rect width="144" height="38" rx="6" class="node def"/>
+    <text x="72" y="17" text-anchor="middle" class="node-label">topCols</text>
+    <text x="72" y="31" text-anchor="middle" class="small">SVD subspace</text>
+  </g>
+  <g transform="translate(308 90)">
+    <rect width="144" height="38" rx="6" class="node def"/>
+    <text x="72" y="17" text-anchor="middle" class="node-label">tailCols</text>
+    <text x="72" y="31" text-anchor="middle" class="small">orthogonal tail</text>
+  </g>
+  <g transform="translate(532 90)">
+    <rect width="144" height="38" rx="6" class="node def"/>
+    <text x="72" y="17" text-anchor="middle" class="node-label">opNorm</text>
+    <text x="72" y="31" text-anchor="middle" class="small">operator norm</text>
+  </g>
+
+  <path class="edge" d="M156 238 C156 222 156 207 156 191"/>
+  <path class="edge" d="M380 238 C380 222 380 207 380 191"/>
+  <path class="edge" d="M604 238 C604 222 604 207 604 191"/>
+  <path class="edge" d="M156 148 C156 138 156 133 156 129"/>
+  <path class="edge" d="M380 148 C380 138 380 133 380 129"/>
+  <path class="edge" d="M604 148 C604 138 604 133 604 129"/>
+  <path class="edge" d="M246 260 C269 277 302 300 328 325"/>
+  <path class="edge" d="M380 280 C380 296 380 310 380 327"/>
+  <path class="edge" d="M560 280 C526 300 482 320 450 328"/>
+</svg>

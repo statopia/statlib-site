@@ -9,11 +9,11 @@ import { modules } from "../data/modules";
 // main modules and show range. Referenced by Lean id and resolved from the catalog so
 // statements stay single-sourced in theorems.ts.
 const flagship = [
+  "wedin_sin_theta",
+  "tendsto_measure_debiasedLasso_standardWaldCI_coverage_iidScoreSum_real",
+  "reluNetworkClass_classApproximationError_le_of_exists_pointwise",
   "matrix_bernstein_rect",
-  "subgaussian_rip_tail_anisotropic",
-  "hanson_wright_isotropic",
   "uniform_deviation_finite_class",
-  "holderBall_selectorIndicator_sieveApproximationError_rate_of_cover",
   "bernstein_sum_meas_ge_le_exp",
 ];
 const byLean = new Map(
@@ -82,8 +82,9 @@ function formatDeclarationCounts(topic: (typeof topics)[number]) {
       <h2 class="font-serif text-2xl font-semibold tracking-tight text-ink">What's inside</h2>
     </div>
     <p class="mt-3 max-w-2xl text-ink-soft">
-      statlib is built in three modules, each a tree of topic areas formalized
-      against Mathlib. Today the work centers on these boards:
+      statlib is built around three main boards, each a tree of topic areas
+      formalized against Mathlib, with supporting packages in the full library
+      tree. Today the work centers on these boards:
     </p>
 
     <div class="mt-10 space-y-10">

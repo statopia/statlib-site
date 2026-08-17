@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="820" height="450" viewBox="0 0 820 450" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Selected dependency map for debiased LASSO Wald CI coverage</title>
+  <desc id="desc">A selected dependency map showing the iid score CLT, debiased LASSO decomposition, studentization, Gaussian calibration, and the final Wald confidence interval coverage theorem.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="9" markerHeight="7" refX="8" refY="3.5" orient="auto">
+      <path d="M0,0 L9,3.5 L0,7 Z" fill="#64748b"/>
+    </marker>
+    <style>
+      text { font-family: Helvetica, Arial, sans-serif; fill: #0f172a; }
+      .title { font-size: 15px; font-weight: 700; }
+      .cluster { fill: none; stroke: #cbd5e1; stroke-dasharray: 6 3; }
+      .node { stroke-width: 1.5; }
+      .theorem { fill: #fde68a; stroke: #f59e0b; }
+      .lemma { fill: #e5e7eb; stroke: #94a3b8; }
+      .def { fill: #dbeafe; stroke: #3b82f6; }
+      .node-label { font-size: 12px; }
+      .edge { fill: none; stroke: #64748b; stroke-width: 1.4; marker-end: url(#arrow); }
+      .small { fill: #64748b; font-size: 11px; }
+    </style>
+  </defs>
+  <rect width="820" height="450" fill="#ffffff"/>
+  <text x="410" y="28" text-anchor="middle" class="title">Selected dependency map - debiased LASSO Wald CI coverage (13 declarations)</text>
+  <rect x="28" y="52" width="764" height="366" rx="10" class="cluster"/>
+  <text x="410" y="73" text-anchor="middle" class="small">Statlib.HighDim.Regression / Statlib.StatFoundation.Convergence</text>
+
+  <g transform="translate(230 330)">
+    <rect width="360" height="62" rx="6" class="node theorem"/>
+    <text x="180" y="17" text-anchor="middle" class="node-label">tendsto_measure_debiasedLasso</text>
+    <text x="180" y="32" text-anchor="middle" class="node-label">standardWaldCI_coverage</text>
+    <text x="180" y="47" text-anchor="middle" class="node-label">iidScoreSum_real</text>
+    <text x="180" y="59" text-anchor="middle" class="small">standard Wald interval coverage</text>
+  </g>
+
+  <g transform="translate(58 250)">
+    <rect width="214" height="44" rx="6" class="node theorem"/>
+    <text x="107" y="18" text-anchor="middle" class="node-label">studentized iid score limit</text>
+    <text x="107" y="34" text-anchor="middle" class="small">coordinate CLT plus se</text>
+  </g>
+  <g transform="translate(303 250)">
+    <rect width="214" height="44" rx="6" class="node theorem"/>
+    <text x="107" y="18" text-anchor="middle" class="node-label">wald half-width containment</text>
+    <text x="107" y="34" text-anchor="middle" class="small">coverage event convergence</text>
+  </g>
+  <g transform="translate(548 250)">
+    <rect width="214" height="44" rx="6" class="node lemma"/>
+    <text x="107" y="18" text-anchor="middle" class="node-label">Gaussian critical calibration</text>
+    <text x="107" y="34" text-anchor="middle" class="small">cdf(c)-cdf(-c)=1-alpha</text>
+  </g>
+
+  <g transform="translate(58 158)">
+    <rect width="214" height="44" rx="6" class="node theorem"/>
+    <text x="107" y="18" text-anchor="middle" class="node-label">iid score-sum CLT</text>
+    <text x="107" y="34" text-anchor="middle" class="small">standardizedSum</text>
+  </g>
+  <g transform="translate(303 158)">
+    <rect width="214" height="44" rx="6" class="node lemma"/>
+    <text x="107" y="18" text-anchor="middle" class="node-label">row approximation error</text>
+    <text x="107" y="34" text-anchor="middle" class="small">M Gram approximate inverse</text>
+  </g>
+  <g transform="translate(548 158)">
+    <rect width="214" height="44" rx="6" class="node lemma"/>
+    <text x="107" y="18" text-anchor="middle" class="node-label">L1 estimation control</text>
+    <text x="107" y="34" text-anchor="middle" class="small">bias remainder is small</text>
+  </g>
+
+  <g transform="translate(92 94)">
+    <rect width="146" height="38" rx="6" class="node def"/>
+    <text x="73" y="17" text-anchor="middle" class="node-label">debiasedLassoEstimator</text>
+    <text x="73" y="31" text-anchor="middle" class="small">one-step estimator</text>
+  </g>
+  <g transform="translate(337 94)">
+    <rect width="146" height="38" rx="6" class="node def"/>
+    <text x="73" y="17" text-anchor="middle" class="node-label">scaledCenteredCoordinate</text>
+    <text x="73" y="31" text-anchor="middle" class="small">normalized target</text>
+  </g>
+  <g transform="translate(582 94)">
+    <rect width="146" height="38" rx="6" class="node def"/>
+    <text x="73" y="17" text-anchor="middle" class="node-label">StandardGaussian</text>
+    <text x="73" y="31" text-anchor="middle" class="small">two-sided critical value</text>
+  </g>
+
+  <path class="edge" d="M165 250 C165 232 165 220 165 203"/>
+  <path class="edge" d="M410 250 C410 232 410 220 410 203"/>
+  <path class="edge" d="M655 250 C655 232 655 220 655 203"/>
+  <path class="edge" d="M165 158 C165 147 165 140 165 133"/>
+  <path class="edge" d="M410 158 C410 147 410 140 410 133"/>
+  <path class="edge" d="M655 158 C655 147 655 140 655 133"/>
+  <path class="edge" d="M228 294 C269 311 316 326 353 337"/>
+  <path class="edge" d="M410 294 C410 309 410 322 410 337"/>
+  <path class="edge" d="M607 294 C565 314 519 328 475 337"/>
+</svg>

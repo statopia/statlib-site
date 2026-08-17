@@ -50,12 +50,12 @@ export const modules: LibraryModule[] = [
     lean: "Statlib.HighDim",
     summary:
       "Statistics in the high-dimensional regime: matrix concentration " +
-      "(Hanson–Wright, matrix Bernstein), covariance estimation, " +
+      "(Hanson–Wright, matrix Bernstein), Wedin sin-theta perturbation, covariance estimation, " +
       "L1 quadratic-process analysis, L1 RSE bounds from covariance, " +
-      "high-dimensional geometry, regression, and spectral perturbation.",
+      "high-dimensional geometry, regression, and debiased LASSO inference.",
     roadmap:
       "Strengthen the operator-convexity, matrix-concentration, covariance, RIP, " +
-      "spectral-perturbation, and regression theorem chains; " +
+      "spectral-perturbation, debiasing, and regression theorem chains; " +
       "extend L1-process results to broader design matrix families.",
     topicIds: [
       "matrix-analysis",

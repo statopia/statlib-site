@@ -335,8 +335,8 @@ export const topics: TopicArea[] = [
   {
     id: "matrix-analysis",
     title: "Matrix analysis",
-    summary: "Operator-convexity, trace exponential, Lieb concavity, variational, and quantum-relative-entropy infrastructure supporting matrix concentration.",
-    declarationCounts: { theorems: 42, lemmas: 13 },
+    summary: "Operator-convexity, trace exponential, Lieb concavity, variational, quantum-relative-entropy, and Wedin sin-theta infrastructure supporting matrix concentration and spectral perturbation.",
+    declarationCounts: { theorems: 70, lemmas: 101 },
     theorems: [
       {
         name: "Operator convexity of A log A",
@@ -380,13 +380,20 @@ export const topics: TopicArea[] = [
         blurb: "A real-matrix quantum relative entropy joint-convexity theorem built from the matrix perspective chain.",
         status: "proved",
       },
+      {
+        name: "Wedin sin-theta theorem for singular subspaces",
+        lean: "wedin_sin_theta",
+        latex: "\\max\\{\\|UU^\\top-\\hat U\\hat U^\\top\\|_F,\\|VV^\\top-\\hat V\\hat V^\\top\\|_F\\}\\le \\sqrt{2r}\\,\\|E\\|_{\\mathrm{op}}/\\delta",
+        blurb: "For Ahat = A + E with a separated top-r singular spectrum and small operator-norm perturbation, the left and right singular subspace projectors move by at most a Wedin sin-theta bound.",
+        status: "proved",
+      },
     ],
   },
   {
     id: "hd-concentration",
     title: "High-dimensional concentration",
     summary: "Concentration inequalities for high-dimensional random objects — sub-Gaussian maxima, the matrix Bernstein inequality for sums of independent random matrices, and the Hanson-Wright bound for quadratic forms.",
-    declarationCounts: { theorems: 37, lemmas: 110 },
+    declarationCounts: { theorems: 38, lemmas: 110 },
     theorems: [
       {
         name: "Matrix Bernstein inequality",
@@ -479,7 +486,7 @@ export const topics: TopicArea[] = [
     id: "hd-geometry",
     title: "High-dimensional geometry",
     summary: "Geometric foundations of high-dimensional statistics: covering numbers, Johnson-Lindenstrauss dimension reduction, isotropic and anisotropic RIP, and restricted eigenvalue transfers.",
-    declarationCounts: { theorems: 11, lemmas: 30 },
+    declarationCounts: { theorems: 11, lemmas: 53 },
     theorems: [
       {
         name: "Covering number bounds for the Euclidean unit ball",
@@ -528,8 +535,8 @@ export const topics: TopicArea[] = [
   {
     id: "hd-regression",
     title: "High-dimensional regression",
-    summary: "Oracle inequalities for the LASSO estimator in sparse high-dimensional linear models, bounding prediction and estimation error under the Restricted Eigenvalue condition.",
-    declarationCounts: { theorems: 18, lemmas: 9 },
+    summary: "Oracle inequalities and debiased-inference guarantees for sparse high-dimensional linear models, from restricted-eigenvalue LASSO bounds to asymptotic Wald coverage.",
+    declarationCounts: { theorems: 59, lemmas: 9 },
     theorems: [
       {
         name: "LASSO solution (minimizer of the LASSO objective)",
@@ -571,6 +578,13 @@ export const topics: TopicArea[] = [
         lean: "fixed_design_lasso_oracle_of_l1RSE",
         latex: "\\frac1m\\|X(\\hat\\beta-\\beta^\\star)\\|_2^2+\\lambda\\|\\hat\\beta-\\beta^\\star\\|_1 \\lesssim \\frac{s\\lambda^2}{\\kappa^2}",
         blurb: "A fixed-design LASSO oracle inequality stated through an L1 restricted-strong-eigenvalue condition.",
+        status: "proved",
+      },
+      {
+        name: "Debiased LASSO standard Wald interval coverage",
+        lean: "tendsto_measure_debiasedLasso_standardWaldCI_coverage_iidScoreSum_real",
+        latex: "\\mathbb{P}\\!\\left(\\beta_j\\in \\hat b_j \\pm c\\,\\hat s_j/a_n\\right)\\to 1-\\alpha",
+        blurb: "An iid-score debiased LASSO theorem: row-approximation error, L1 consistency, studentization, and Gaussian critical-value calibration imply asymptotic standard Wald confidence-interval coverage.",
         status: "proved",
       },
     ],
@@ -615,7 +629,7 @@ export const topics: TopicArea[] = [
     id: "nonparametric-approximation",
     title: "Nonparametric approximation",
     summary: "Approximation-error bounds for finite sieves, Holder balls, splines, wavelets, RKHS balls, and neural-network candidate classes.",
-    declarationCounts: { theorems: 74, lemmas: 2 },
+    declarationCounts: { theorems: 232, lemmas: 2 },
     theorems: [
       {
         name: "Sieve zero-order self-approximation",

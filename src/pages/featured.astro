@@ -14,8 +14,8 @@ import { graphStats, graphIndexUrl, graphBase } from "../data/graph";
     <p class="mt-4 max-w-2xl text-lg leading-relaxed text-ink-soft">
       What does a real result look like inside statlib? Here are a few
       representative theorems — the mathematical statement, the actual Lean
-      formalization (verbatim, proof omitted), and the dependency graph the proof
-      rests on.
+      formalization (verbatim, proof omitted), and a dependency graph or selected
+      dependency map for the result.
     </p>
 
     <div class="mt-12 space-y-16">
@@ -55,7 +55,7 @@ import { graphStats, graphIndexUrl, graphBase } from "../data/graph";
                 />
               </div>
               <div class="border-t border-line px-4 py-2 font-mono text-xs text-ink-soft">
-                proof dependency graph · {f.decls} declarations · open full diagram →
+                {f.graphLabel ?? "proof dependency graph"} · {f.decls} declarations · open full diagram →
               </div>
             </a>
           </section>
