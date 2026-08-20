@@ -2,7 +2,8 @@
 
 Public showcase site for **statlib** — a machine-formalized library of statistics
 theorems in Lean 4. Built with [Astro](https://astro.build) + Tailwind CSS,
-deployed on Vercel.
+self-hosted at [statlib.statopia.ai](https://statlib.statopia.ai) on the same
+Finnish VPS as [prover.statopia.ai](https://prover.statopia.ai).
 
 ## Develop
 
@@ -47,5 +48,21 @@ Adding a page = adding a file under `src/pages/`. Docs/blog can be added later a
 
 ## Deploy
 
-Connect this repo to Vercel — it auto-detects Astro, no config needed. Every push
-to the default branch redeploys; PRs get preview URLs.
+Self-hosted at `https://statlib.statopia.ai` on the Finnish VPS
+(`web@204.168.225.240`), same box as `prover.statopia.ai`:
+
+```bash
+./scripts/deploy.sh   # build + rsync + internal and public HTTPS smoke tests
+```
+
+Serving chain on the VPS: `statlib-site` nginx container
+(`/home/web/statlib-site/docker-compose.yml`, bind-mounts `dist/`) ←
+Nginx Proxy Manager (`proxy-app-1`) terminates TLS and forwards the public
+hostname to `http://statlib-site:80` over the `proxy_default` network.
+Namecheap DNS has an A record for `statlib` pointing to `204.168.225.240`.
+Nginx Proxy Manager maps `statlib.statopia.ai` to `statlib-site:80`, requests
+the Let’s Encrypt certificate, and forces HTTPS. Rsync alone is a full content
+deploy — no container restart is needed.
+
+The old Vercel project (`.vercel/`) is still connected and can serve as
+preview hosting until the domain cutover is complete.
