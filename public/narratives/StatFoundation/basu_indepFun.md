@@ -5,10 +5,10 @@ Closure: 11 declarations across 2 files. Generated from `proof_graph.json` — n
 
 Reading order (foundations first, headline last):
 
-    ◆ `IsSufficientFor` — def · `Statlib/StatFoundation/Statistics/Sufficiency/Basic.lean:27`
-  ◆ `IsSufficientForFamily` — def · `Statlib/StatFoundation/Statistics/Sufficiency/Basic.lean:34`
-  ◆ `IsBoundedlyComplete` — def · `Statlib/StatFoundation/Statistics/Sufficiency/Basic.lean:43`
-  ◆ `IsAncillary` — def · `Statlib/StatFoundation/Statistics/Sufficiency/Basic.lean:39`
+    ◆ `IsSufficientFor` — def · `Statlib/StatFoundation/Statistics/Sufficiency/Basic.lean:28`
+  ◆ `IsSufficientForFamily` — def · `Statlib/StatFoundation/Statistics/Sufficiency/Basic.lean:35`
+  ◆ `IsBoundedlyComplete` — def · `Statlib/StatFoundation/Statistics/Sufficiency/Basic.lean:44`
+  ◆ `IsAncillary` — def · `Statlib/StatFoundation/Statistics/Sufficiency/Basic.lean:40`
   · `indicator_one_nonneg` — lemma · `Statlib/StatFoundation/Statistics/Sufficiency/Basu.lean:36`
   · `indicator_one_le_one` — lemma · `Statlib/StatFoundation/Statistics/Sufficiency/Basu.lean:42`
   ◆ `clip` — def · `Statlib/StatFoundation/Statistics/Sufficiency/Basu.lean:18`

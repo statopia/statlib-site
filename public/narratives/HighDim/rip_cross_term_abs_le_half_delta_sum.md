@@ -5,9 +5,9 @@ Closure: 11 declarations across 4 files. Generated from `proof_graph.json` — n
 
 Reading order (foundations first, headline last):
 
-  ◆ `IsSparse` — def · `Statlib/HighDim/Vocabulary/Sparse.lean:36`  _(also used by 9: covering_number_sparse_ball, log_covering_number_sparse, exists_support_card_eq_of_isSparse, …)_
-  ◆ `l2NormSq` — noncomputable def · `Statlib/HighDim/Vocabulary/Norms.lean:13`  _(also used by 52: matrixRowVec_norm_sq, offDiagCoeffVec_norm_sq_le_frobenius, offDiagCoeffVec_norm_sq_integral_le_frobenius, …)_
-  ◆ `SatisfiesRIP` — def · `Statlib/HighDim/Vocabulary/DesignMatrix.lean:241`  _(also used by 5: rip_lower_restrictTo, rip_upper_restrictTo, subgaussian_rip_tail, …)_
+  ◆ `IsSparse` — def · `Statlib/HighDim/Vocabulary/Sparse.lean:36`  _(also used by 44: threshold_head_quadratic_remainder_abs_from_bilinear_l2_tail, subgaussian_l1_shell_localized_centered_tail_from_sparse_approximation_cover, subgaussian_l1_shell_localized_centered_tail_from_sparse_ball_approximation_cover, …)_
+  ◆ `l2NormSq` — noncomputable def · `Statlib/HighDim/Vocabulary/Norms.lean:13`  _(also used by 217: matrixRowVec_norm_sq, offDiagCoeffVec_norm_sq_le_frobenius, offDiagCoeffVec_norm_sq_integral_le_frobenius, …)_
+  ◆ `SatisfiesRIP` — def · `Statlib/HighDim/Vocabulary/DesignMatrix.lean:260`  _(also used by 5: rip_lower_restrictTo, rip_upper_restrictTo, subgaussian_rip_tail, …)_
   · `isSparse_mono` — lemma · `Statlib/HighDim/Geometry/RIPConstruction.lean:66`
   · `isSparse_add` — lemma · `Statlib/HighDim/Geometry/RIPConstruction.lean:78`
     · `isSparse_neg` — lemma · `Statlib/HighDim/Geometry/RIPConstruction.lean:71`

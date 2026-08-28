@@ -1,92 +1,1482 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="820" height="450" viewBox="0 0 820 450" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
-  <title id="title">Selected dependency map for debiased LASSO Wald CI coverage</title>
-  <desc id="desc">A selected dependency map showing the iid score CLT, debiased LASSO decomposition, studentization, Gaussian calibration, and the final Wald confidence interval coverage theorem.</desc>
-  <defs>
-    <marker id="arrow" markerWidth="9" markerHeight="7" refX="8" refY="3.5" orient="auto">
-      <path d="M0,0 L9,3.5 L0,7 Z" fill="#64748b"/>
-    </marker>
-    <style>
-      text { font-family: Helvetica, Arial, sans-serif; fill: #0f172a; }
-      .title { font-size: 15px; font-weight: 700; }
-      .cluster { fill: none; stroke: #cbd5e1; stroke-dasharray: 6 3; }
-      .node { stroke-width: 1.5; }
-      .theorem { fill: #fde68a; stroke: #f59e0b; }
-      .lemma { fill: #e5e7eb; stroke: #94a3b8; }
-      .def { fill: #dbeafe; stroke: #3b82f6; }
-      .node-label { font-size: 12px; }
-      .edge { fill: none; stroke: #64748b; stroke-width: 1.4; marker-end: url(#arrow); }
-      .small { fill: #64748b; font-size: 11px; }
-    </style>
-  </defs>
-  <rect width="820" height="450" fill="#ffffff"/>
-  <text x="410" y="28" text-anchor="middle" class="title">Selected dependency map - debiased LASSO Wald CI coverage (13 declarations)</text>
-  <rect x="28" y="52" width="764" height="366" rx="10" class="cluster"/>
-  <text x="410" y="73" text-anchor="middle" class="small">Statlib.HighDim.Regression / Statlib.StatFoundation.Convergence</text>
-
-  <g transform="translate(230 330)">
-    <rect width="360" height="62" rx="6" class="node theorem"/>
-    <text x="180" y="17" text-anchor="middle" class="node-label">tendsto_measure_debiasedLasso</text>
-    <text x="180" y="32" text-anchor="middle" class="node-label">standardWaldCI_coverage</text>
-    <text x="180" y="47" text-anchor="middle" class="node-label">iidScoreSum_real</text>
-    <text x="180" y="59" text-anchor="middle" class="small">standard Wald interval coverage</text>
-  </g>
-
-  <g transform="translate(58 250)">
-    <rect width="214" height="44" rx="6" class="node theorem"/>
-    <text x="107" y="18" text-anchor="middle" class="node-label">studentized iid score limit</text>
-    <text x="107" y="34" text-anchor="middle" class="small">coordinate CLT plus se</text>
-  </g>
-  <g transform="translate(303 250)">
-    <rect width="214" height="44" rx="6" class="node theorem"/>
-    <text x="107" y="18" text-anchor="middle" class="node-label">wald half-width containment</text>
-    <text x="107" y="34" text-anchor="middle" class="small">coverage event convergence</text>
-  </g>
-  <g transform="translate(548 250)">
-    <rect width="214" height="44" rx="6" class="node lemma"/>
-    <text x="107" y="18" text-anchor="middle" class="node-label">Gaussian critical calibration</text>
-    <text x="107" y="34" text-anchor="middle" class="small">cdf(c)-cdf(-c)=1-alpha</text>
-  </g>
-
-  <g transform="translate(58 158)">
-    <rect width="214" height="44" rx="6" class="node theorem"/>
-    <text x="107" y="18" text-anchor="middle" class="node-label">iid score-sum CLT</text>
-    <text x="107" y="34" text-anchor="middle" class="small">standardizedSum</text>
-  </g>
-  <g transform="translate(303 158)">
-    <rect width="214" height="44" rx="6" class="node lemma"/>
-    <text x="107" y="18" text-anchor="middle" class="node-label">row approximation error</text>
-    <text x="107" y="34" text-anchor="middle" class="small">M Gram approximate inverse</text>
-  </g>
-  <g transform="translate(548 158)">
-    <rect width="214" height="44" rx="6" class="node lemma"/>
-    <text x="107" y="18" text-anchor="middle" class="node-label">L1 estimation control</text>
-    <text x="107" y="34" text-anchor="middle" class="small">bias remainder is small</text>
-  </g>
-
-  <g transform="translate(92 94)">
-    <rect width="146" height="38" rx="6" class="node def"/>
-    <text x="73" y="17" text-anchor="middle" class="node-label">debiasedLassoEstimator</text>
-    <text x="73" y="31" text-anchor="middle" class="small">one-step estimator</text>
-  </g>
-  <g transform="translate(337 94)">
-    <rect width="146" height="38" rx="6" class="node def"/>
-    <text x="73" y="17" text-anchor="middle" class="node-label">scaledCenteredCoordinate</text>
-    <text x="73" y="31" text-anchor="middle" class="small">normalized target</text>
-  </g>
-  <g transform="translate(582 94)">
-    <rect width="146" height="38" rx="6" class="node def"/>
-    <text x="73" y="17" text-anchor="middle" class="node-label">StandardGaussian</text>
-    <text x="73" y="31" text-anchor="middle" class="small">two-sided critical value</text>
-  </g>
-
-  <path class="edge" d="M165 250 C165 232 165 220 165 203"/>
-  <path class="edge" d="M410 250 C410 232 410 220 410 203"/>
-  <path class="edge" d="M655 250 C655 232 655 220 655 203"/>
-  <path class="edge" d="M165 158 C165 147 165 140 165 133"/>
-  <path class="edge" d="M410 158 C410 147 410 140 410 133"/>
-  <path class="edge" d="M655 158 C655 147 655 140 655 133"/>
-  <path class="edge" d="M228 294 C269 311 316 326 353 337"/>
-  <path class="edge" d="M410 294 C410 309 410 322 410 337"/>
-  <path class="edge" d="M607 294 C565 314 519 328 475 337"/>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+ "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Generated by graphviz version 15.0.0 (20260523.1842)
+ -->
+<!-- Title: tendsto_measure_debiasedLasso_standardWaldCI_coverage_iidScoreSum_real Pages: 1 -->
+<svg width="4203pt" height="1131pt"
+ viewBox="0.00 0.00 4203.00 1131.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 1127.2)">
+<title>tendsto_measure_debiasedLasso_standardWaldCI_coverage_iidScoreSum_real</title>
+<polygon fill="white" stroke="none" points="-4,4 -4,-1127.2 4199,-1127.2 4199,4 -4,4"/>
+<text xml:space="preserve" text-anchor="middle" x="2097.5" y="-1106.6" font-family="Helvetica,sans-Serif" font-size="14.00">Proof narrative — tendsto_measure_debiasedLasso_standardWaldCI_coverage_iidScoreSum_real &#160;(68 decls)</text>
+<g id="clust1" class="cluster">
+<title>cluster_0</title>
+<path fill="none" stroke="#cbd5e1" stroke-dasharray="5,2" d="M20,-152C20,-152 1380,-152 1380,-152 1386,-152 1392,-158 1392,-164 1392,-164 1392,-1078.4 1392,-1078.4 1392,-1084.4 1386,-1090.4 1380,-1090.4 1380,-1090.4 20,-1090.4 20,-1090.4 14,-1090.4 8,-1084.4 8,-1078.4 8,-1078.4 8,-164 8,-164 8,-158 14,-152 20,-152"/>
+<text xml:space="preserve" text-anchor="middle" x="700" y="-1076.5" font-family="Helvetica,sans-Serif" font-size="11.00">HighDim</text>
+</g>
+<g id="clust2" class="cluster">
+<title>cluster_1</title>
+<path fill="none" stroke="#cbd5e1" stroke-dasharray="5,2" d="M1412,-8C1412,-8 3973,-8 3973,-8 3979,-8 3985,-14 3985,-20 3985,-20 3985,-429.2 3985,-429.2 3985,-435.2 3979,-441.2 3973,-441.2 3973,-441.2 1412,-441.2 1412,-441.2 1406,-441.2 1400,-435.2 1400,-429.2 1400,-429.2 1400,-20 1400,-20 1400,-14 1406,-8 1412,-8"/>
+<text xml:space="preserve" text-anchor="middle" x="2692.5" y="-427.3" font-family="Helvetica,sans-Serif" font-size="11.00">StatFoundation</text>
+</g>
+<!-- n3 -->
+<g id="node1" class="node">
+<title>n3</title>
+<g id="a_node1"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Vocabulary/DebiasingLasso.lean:39" xlink:title="noncomputable abbrev · Statlib/HighDim/Vocabulary/DebiasingLasso.lean:39" target="_blank">
+<path fill="#d6e9ff" stroke="#3b82f6" d="M345.75,-340C345.75,-340 244.25,-340 244.25,-340 238.25,-340 232.25,-334 232.25,-328 232.25,-328 232.25,-316 232.25,-316 232.25,-310 238.25,-304 244.25,-304 244.25,-304 345.75,-304 345.75,-304 351.75,-304 357.75,-310 357.75,-316 357.75,-316 357.75,-328 357.75,-328 357.75,-334 351.75,-340 345.75,-340"/>
+<text xml:space="preserve" text-anchor="middle" x="295" y="-319" font-family="Helvetica,sans-Serif" font-size="10.00">debiasedLassoEstimator</text>
+</a>
+</g>
+</g>
+<!-- n4 -->
+<g id="node2" class="node">
+<title>n4</title>
+<g id="a_node2"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Vocabulary/DebiasingLasso.lean:22" xlink:title="noncomputable abbrev · Statlib/HighDim/Vocabulary/DebiasingLasso.lean:22" target="_blank">
+<path fill="#d6e9ff" stroke="#3b82f6" d="M905.98,-196C905.98,-196 800.02,-196 800.02,-196 794.02,-196 788.02,-190 788.02,-184 788.02,-184 788.02,-172 788.02,-172 788.02,-166 794.02,-160 800.02,-160 800.02,-160 905.98,-160 905.98,-160 911.98,-160 917.98,-166 917.98,-172 917.98,-172 917.98,-184 917.98,-184 917.98,-190 911.98,-196 905.98,-196"/>
+<text xml:space="preserve" text-anchor="middle" x="853" y="-175" font-family="Helvetica,sans-Serif" font-size="10.00">debiasedLassoBiasMatrix</text>
+</a>
+</g>
+</g>
+<!-- n5 -->
+<g id="node3" class="node">
+<title>n5</title>
+<g id="a_node3"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Vocabulary/DebiasingLasso.lean:47" xlink:title="def · Statlib/HighDim/Vocabulary/DebiasingLasso.lean:47" target="_blank">
+<path fill="#d6e9ff" stroke="#3b82f6" d="M446.31,-268C446.31,-268 293.69,-268 293.69,-268 287.69,-268 281.69,-262 281.69,-256 281.69,-256 281.69,-244 281.69,-244 281.69,-238 287.69,-232 293.69,-232 293.69,-232 446.31,-232 446.31,-232 452.31,-232 458.31,-238 458.31,-244 458.31,-244 458.31,-256 458.31,-256 458.31,-262 452.31,-268 446.31,-268"/>
+<text xml:space="preserve" text-anchor="middle" x="370" y="-247" font-family="Helvetica,sans-Serif" font-size="10.00">HasDebiasedLassoRowApproxError</text>
+</a>
+</g>
+</g>
+<!-- n5&#45;&gt;n4 -->
+<g id="edge1" class="edge">
+<title>n5&#45;&gt;n4</title>
+<path fill="none" stroke="#64748b" d="M458.59,-236.16C550.71,-222.81 693.24,-202.15 779.38,-189.67"/>
+<polygon fill="#64748b" stroke="#64748b" points="779.72,-192.1 786.3,-188.67 779.02,-187.25 779.72,-192.1"/>
+</g>
+<!-- n6 -->
+<g id="node4" class="node">
+<title>n6</title>
+<g id="a_node4"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Vocabulary/Norms.lean:17" xlink:title="noncomputable def · Statlib/HighDim/Vocabulary/Norms.lean:17" target="_blank">
+<path fill="#d6e9ff" stroke="#3b82f6" d="M385,-196C385,-196 355,-196 355,-196 349,-196 343,-190 343,-184 343,-184 343,-172 343,-172 343,-166 349,-160 355,-160 355,-160 385,-160 385,-160 391,-160 397,-166 397,-172 397,-172 397,-184 397,-184 397,-190 391,-196 385,-196"/>
+<text xml:space="preserve" text-anchor="middle" x="370" y="-175" font-family="Helvetica,sans-Serif" font-size="10.00">l1Norm</text>
+</a>
+</g>
+</g>
+<!-- n43 -->
+<g id="node5" class="node">
+<title>n43</title>
+<g id="a_node5"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Vocabulary/DebiasingLasso.lean:28" xlink:title="noncomputable abbrev · Statlib/HighDim/Vocabulary/DebiasingLasso.lean:28" target="_blank">
+<path fill="#d6e9ff" stroke="#3b82f6" d="M1011.82,-268C1011.82,-268 884.18,-268 884.18,-268 878.18,-268 872.18,-262 872.18,-256 872.18,-256 872.18,-244 872.18,-244 872.18,-238 878.18,-232 884.18,-232 884.18,-232 1011.82,-232 1011.82,-232 1017.82,-232 1023.82,-238 1023.82,-244 1023.82,-244 1023.82,-256 1023.82,-256 1023.82,-262 1017.82,-268 1011.82,-268"/>
+<text xml:space="preserve" text-anchor="middle" x="948" y="-247" font-family="Helvetica,sans-Serif" font-size="10.00">debiasedLassoBiasRemainder</text>
+</a>
+</g>
+</g>
+<!-- n43&#45;&gt;n4 -->
+<g id="edge39" class="edge">
+<title>n43&#45;&gt;n4</title>
+<path fill="none" stroke="#64748b" d="M924.52,-231.7C912.07,-222.53 896.64,-211.16 883.3,-201.33"/>
+<polygon fill="#64748b" stroke="#64748b" points="884.85,-199.42 877.76,-197.24 881.94,-203.37 884.85,-199.42"/>
+</g>
+<!-- n44 -->
+<g id="node6" class="node">
+<title>n44</title>
+<g id="a_node6"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Vocabulary/Norms.lean:38" xlink:title="lemma · Statlib/HighDim/Vocabulary/Norms.lean:38" target="_blank">
+<path fill="#eef2f6" stroke="#94a3b8" d="M785.5,-268C785.5,-268 594.5,-268 594.5,-268 588.5,-268 582.5,-262 582.5,-256 582.5,-256 582.5,-244 582.5,-244 582.5,-238 588.5,-232 594.5,-232 594.5,-232 785.5,-232 785.5,-232 791.5,-232 797.5,-238 797.5,-244 797.5,-244 797.5,-256 797.5,-256 797.5,-262 791.5,-268 785.5,-268"/>
+<text xml:space="preserve" text-anchor="middle" x="690" y="-247" font-family="Helvetica,sans-Serif" font-size="10.00">abs_sum_mul_le_l1Norm_mul_coord_bound</text>
+</a>
+</g>
+</g>
+<!-- n44&#45;&gt;n6 -->
+<g id="edge40" class="edge">
+<title>n44&#45;&gt;n6</title>
+<path fill="none" stroke="#64748b" d="M610.08,-231.52C544.45,-217.16 454.61,-197.51 405.55,-186.78"/>
+<polygon fill="#64748b" stroke="#64748b" points="406.3,-184.43 398.94,-185.33 405.25,-189.22 406.3,-184.43"/>
+</g>
+<!-- n45 -->
+<g id="node7" class="node">
+<title>n45</title>
+<g id="a_node7"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Regression/DebiasingLasso.lean:47" xlink:title="theorem · Statlib/HighDim/Regression/DebiasingLasso.lean:47" target="_blank">
+<path fill="#ffe6a3" stroke="#d4a017" d="M822.48,-340C822.48,-340 567.52,-340 567.52,-340 561.52,-340 555.52,-334 555.52,-328 555.52,-328 555.52,-316 555.52,-316 555.52,-310 561.52,-304 567.52,-304 567.52,-304 822.48,-304 822.48,-304 828.48,-304 834.48,-310 834.48,-316 834.48,-316 834.48,-328 834.48,-328 834.48,-334 828.48,-340 822.48,-340"/>
+<text xml:space="preserve" text-anchor="middle" x="695" y="-319" font-family="Helvetica,sans-Serif" font-size="10.00">debiasedLasso_biasRemainder_coordinate_abs_le_l1_real</text>
+</a>
+</g>
+</g>
+<!-- n45&#45;&gt;n4 -->
+<g id="edge44" class="edge">
+<title>n45&#45;&gt;n4</title>
+<path fill="none" stroke="#64748b" d="M749.54,-303.57C769.4,-295.2 790.91,-283.54 807,-268 825.28,-250.35 837.68,-223.85 844.96,-204.36"/>
+<polygon fill="#64748b" stroke="#64748b" points="847.21,-205.32 847.26,-197.9 842.6,-203.67 847.21,-205.32"/>
+</g>
+<!-- n45&#45;&gt;n5 -->
+<g id="edge41" class="edge">
+<title>n45&#45;&gt;n5</title>
+<path fill="none" stroke="#64748b" d="M613.83,-303.52C566.82,-293.39 507.57,-280.63 459.25,-270.22"/>
+<polygon fill="#64748b" stroke="#64748b" points="459.82,-267.84 452.46,-268.76 458.79,-272.63 459.82,-267.84"/>
+</g>
+<!-- n45&#45;&gt;n6 -->
+<g id="edge43" class="edge">
+<title>n45&#45;&gt;n6</title>
+<path fill="none" stroke="#64748b" d="M640.87,-303.53C618.62,-294.86 593.36,-283 573,-268 556,-255.48 559.67,-243.56 542,-232 499.76,-204.36 442.34,-190.5 405.71,-184.03"/>
+<polygon fill="#64748b" stroke="#64748b" points="406.13,-181.62 398.82,-182.87 405.31,-186.45 406.13,-181.62"/>
+</g>
+<!-- n45&#45;&gt;n43 -->
+<g id="edge42" class="edge">
+<title>n45&#45;&gt;n43</title>
+<path fill="none" stroke="#64748b" d="M758.19,-303.52C794.4,-293.5 839.93,-280.9 877.33,-270.55"/>
+<polygon fill="#64748b" stroke="#64748b" points="877.63,-273.01 883.72,-268.79 876.32,-268.29 877.63,-273.01"/>
+</g>
+<!-- n45&#45;&gt;n44 -->
+<g id="edge45" class="edge">
+<title>n45&#45;&gt;n44</title>
+<path fill="none" stroke="#64748b" d="M693.76,-303.7C693.18,-295.47 692.46,-285.48 691.82,-276.42"/>
+<polygon fill="#64748b" stroke="#64748b" points="694.27,-276.42 691.33,-269.61 689.38,-276.77 694.27,-276.42"/>
+</g>
+<!-- n53 -->
+<g id="node8" class="node">
+<title>n53</title>
+<g id="a_node8"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Regression/DebiasingLasso.lean:80" xlink:title="theorem · Statlib/HighDim/Regression/DebiasingLasso.lean:80" target="_blank">
+<path fill="#ffe6a3" stroke="#d4a017" d="M1371.98,-412C1371.98,-412 858.02,-412 858.02,-412 852.02,-412 846.02,-406 846.02,-400 846.02,-400 846.02,-388 846.02,-388 846.02,-382 852.02,-376 858.02,-376 858.02,-376 1371.98,-376 1371.98,-376 1377.98,-376 1383.98,-382 1383.98,-388 1383.98,-388 1383.98,-400 1383.98,-400 1383.98,-406 1377.98,-412 1371.98,-412"/>
+<text xml:space="preserve" text-anchor="middle" x="1115" y="-391" font-family="Helvetica,sans-Serif" font-size="10.00">hasCoordinatewiseIsLittleOInProbability_debiasedLasso_scaledBiasRemainder_of_l1Error_and_rowApproxError_real</text>
+</a>
+</g>
+</g>
+<!-- n53&#45;&gt;n4 -->
+<g id="edge62" class="edge">
+<title>n53&#45;&gt;n4</title>
+<path fill="none" stroke="#64748b" d="M1114.37,-375.58C1112.22,-342.56 1102.7,-270.72 1061,-232 1024.95,-198.53 970.78,-185.49 926.76,-180.7"/>
+<polygon fill="#64748b" stroke="#64748b" points="927.1,-178.27 919.89,-180.02 926.62,-183.15 927.1,-178.27"/>
+</g>
+<!-- n53&#45;&gt;n5 -->
+<g id="edge56" class="edge">
+<title>n53&#45;&gt;n5</title>
+<path fill="none" stroke="#64748b" d="M845.62,-377.37C727.44,-368.56 602.99,-356.07 547,-340 519.19,-332.02 451.47,-296.08 408.32,-272.38"/>
+<polygon fill="#64748b" stroke="#64748b" points="409.73,-270.36 402.41,-269.13 407.36,-274.65 409.73,-270.36"/>
+</g>
+<!-- n53&#45;&gt;n6 -->
+<g id="edge57" class="edge">
+<title>n53&#45;&gt;n6</title>
+<path fill="none" stroke="#64748b" d="M1108.69,-375.76C1094.45,-337.9 1059.07,-249.45 1033,-232 1006.71,-214.4 539.41,-188.09 405.55,-180.88"/>
+<polygon fill="#64748b" stroke="#64748b" points="405.86,-178.44 398.74,-180.52 405.6,-183.34 405.86,-178.44"/>
+</g>
+<!-- n53&#45;&gt;n43 -->
+<g id="edge59" class="edge">
+<title>n53&#45;&gt;n43</title>
+<path fill="none" stroke="#64748b" d="M1093.87,-375.68C1081.35,-365.38 1065.21,-352.02 1051,-340 1024.63,-317.69 994.79,-291.84 974.04,-273.77"/>
+<polygon fill="#64748b" stroke="#64748b" points="975.67,-271.93 968.78,-269.18 972.45,-275.63 975.67,-271.93"/>
+</g>
+<!-- n53&#45;&gt;n45 -->
+<g id="edge60" class="edge">
+<title>n53&#45;&gt;n45</title>
+<path fill="none" stroke="#64748b" d="M1010.1,-375.52C948.6,-365.27 870.89,-352.31 808.03,-341.84"/>
+<polygon fill="#64748b" stroke="#64748b" points="808.45,-339.43 801.15,-340.69 807.65,-344.26 808.45,-339.43"/>
+</g>
+<!-- n42 -->
+<g id="node57" class="node">
+<title>n42</title>
+<g id="a_node57"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/StatFoundation/Vocabulary/FiniteCoordinate.lean:88" xlink:title="abbrev · Statlib/StatFoundation/Vocabulary/FiniteCoordinate.lean:88" target="_blank">
+<path fill="#d6e9ff" stroke="#3b82f6" d="M1820.21,-340C1820.21,-340 1649.79,-340 1649.79,-340 1643.79,-340 1637.79,-334 1637.79,-328 1637.79,-328 1637.79,-316 1637.79,-316 1637.79,-310 1643.79,-304 1649.79,-304 1649.79,-304 1820.21,-304 1820.21,-304 1826.21,-304 1832.21,-310 1832.21,-316 1832.21,-316 1832.21,-328 1832.21,-328 1832.21,-334 1826.21,-340 1820.21,-340"/>
+<text xml:space="preserve" text-anchor="middle" x="1735" y="-319" font-family="Helvetica,sans-Serif" font-size="10.00">HasCoordinatewiseIsLittleOInProbability</text>
+</a>
+</g>
+</g>
+<!-- n53&#45;&gt;n42 -->
+<g id="edge58" class="edge">
+<title>n53&#45;&gt;n42</title>
+<path fill="none" stroke="#64748b" d="M1309.95,-375.5C1403.8,-366.43 1518.09,-354.45 1629.09,-339.95"/>
+<polygon fill="#64748b" stroke="#64748b" points="1629.3,-342.4 1635.92,-339.06 1628.66,-337.54 1629.3,-342.4"/>
+</g>
+<!-- n49 -->
+<g id="node61" class="node">
+<title>n49</title>
+<g id="a_node61"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/StatFoundation/Convergence/AnalysisTools/StochasticOrder/AlgebraDeterministicScale.lean:62" xlink:title="theorem · Statlib/StatFoundation/Convergence/AnalysisTools/StochasticOrder/AlgebraDeterministicScale.lean:62" target="_blank">
+<path fill="#ffe6a3" stroke="#d4a017" d="M2306.48,-412C2306.48,-412 2185.52,-412 2185.52,-412 2179.52,-412 2173.52,-406 2173.52,-400 2173.52,-400 2173.52,-388 2173.52,-388 2173.52,-382 2179.52,-376 2185.52,-376 2185.52,-376 2306.48,-376 2306.48,-376 2312.48,-376 2318.48,-382 2318.48,-388 2318.48,-388 2318.48,-400 2318.48,-400 2318.48,-406 2312.48,-412 2306.48,-412"/>
+<text xml:space="preserve" text-anchor="middle" x="2246" y="-391" font-family="Helvetica,sans-Serif" font-size="10.00">isBigOInProbability_mul_rate</text>
+</a>
+</g>
+</g>
+<!-- n53&#45;&gt;n49 -->
+<g id="edge61" class="edge">
+<title>n53&#45;&gt;n49</title>
+<path fill="none" stroke="#64748b" d="M1197.3,-412.49C1255.08,-424.49 1334.33,-439.01 1405,-445.2 1425.75,-447.02 2134.62,-449.52 2155,-445.2 2177.03,-440.52 2199.11,-428.33 2216.01,-417.01"/>
+<polygon fill="#64748b" stroke="#64748b" points="2217.3,-419.09 2221.67,-413.1 2214.52,-415.06 2217.3,-419.09"/>
+</g>
+<!-- n51 -->
+<g id="node63" class="node">
+<title>n51</title>
+<g id="a_node63"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/StatFoundation/Convergence/AnalysisTools/StochasticOrder/RateRefinement.lean:62" xlink:title="theorem · Statlib/StatFoundation/Convergence/AnalysisTools/StochasticOrder/RateRefinement.lean:62" target="_blank">
+<path fill="#ffe6a3" stroke="#d4a017" d="M2143.36,-412C2143.36,-412 1870.64,-412 1870.64,-412 1864.64,-412 1858.64,-406 1858.64,-400 1858.64,-400 1858.64,-388 1858.64,-388 1858.64,-382 1864.64,-376 1870.64,-376 1870.64,-376 2143.36,-376 2143.36,-376 2149.36,-376 2155.36,-382 2155.36,-388 2155.36,-388 2155.36,-400 2155.36,-400 2155.36,-406 2149.36,-412 2143.36,-412"/>
+<text xml:space="preserve" text-anchor="middle" x="2007" y="-391" font-family="Helvetica,sans-Serif" font-size="10.00">isLittleOInProbability_one_of_isBigOInProbability_tendsto_zero</text>
+</a>
+</g>
+</g>
+<!-- n53&#45;&gt;n51 -->
+<g id="edge63" class="edge">
+<title>n53&#45;&gt;n51</title>
+<path fill="none" stroke="#64748b" d="M1197.3,-412.49C1255.08,-424.49 1334.33,-439.01 1405,-445.2 1442.52,-448.49 1706.51,-448.82 1744,-445.2 1804.98,-439.32 1872.83,-425.94 1924.33,-414.33"/>
+<polygon fill="#64748b" stroke="#64748b" points="1924.7,-416.76 1930.98,-412.82 1923.61,-411.98 1924.7,-416.76"/>
+</g>
+<!-- n52 -->
+<g id="node64" class="node">
+<title>n52</title>
+<g id="a_node64"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/StatFoundation/Convergence/AnalysisTools/StochasticOrder/Basic.lean:94" xlink:title="lemma · Statlib/StatFoundation/Convergence/AnalysisTools/StochasticOrder/Basic.lean:94" target="_blank">
+<path fill="#eef2f6" stroke="#94a3b8" d="M1608.11,-340C1608.11,-340 1419.89,-340 1419.89,-340 1413.89,-340 1407.89,-334 1407.89,-328 1407.89,-328 1407.89,-316 1407.89,-316 1407.89,-310 1413.89,-304 1419.89,-304 1419.89,-304 1608.11,-304 1608.11,-304 1614.11,-304 1620.11,-310 1620.11,-316 1620.11,-316 1620.11,-328 1620.11,-328 1620.11,-334 1614.11,-340 1608.11,-340"/>
+<text xml:space="preserve" text-anchor="middle" x="1514" y="-319" font-family="Helvetica,sans-Serif" font-size="10.00">isLittleOInProbability_of_norm_eventuallyLE</text>
+</a>
+</g>
+</g>
+<!-- n53&#45;&gt;n52 -->
+<g id="edge64" class="edge">
+<title>n53&#45;&gt;n52</title>
+<path fill="none" stroke="#64748b" d="M1214.66,-375.52C1272.97,-365.29 1346.61,-352.37 1406.26,-341.9"/>
+<polygon fill="#64748b" stroke="#64748b" points="1406.62,-344.33 1413.09,-340.7 1405.77,-339.5 1406.62,-344.33"/>
+</g>
+<!-- n54 -->
+<g id="node9" class="node">
+<title>n54</title>
+<g id="a_node9"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Regression/DebiasingLasso.lean:35" xlink:title="theorem · Statlib/HighDim/Regression/DebiasingLasso.lean:35" target="_blank">
+<path fill="#ffe6a3" stroke="#d4a017" d="M795.58,-412C795.58,-412 568.42,-412 568.42,-412 562.42,-412 556.42,-406 556.42,-400 556.42,-400 556.42,-388 556.42,-388 556.42,-382 562.42,-376 568.42,-376 568.42,-376 795.58,-376 795.58,-376 801.58,-376 807.58,-382 807.58,-388 807.58,-388 807.58,-400 807.58,-400 807.58,-406 801.58,-412 795.58,-412"/>
+<text xml:space="preserve" text-anchor="middle" x="682" y="-391" font-family="Helvetica,sans-Serif" font-size="10.00">debiasedLasso_scaledCentered_decomposition_real</text>
+</a>
+</g>
+</g>
+<!-- n54&#45;&gt;n3 -->
+<g id="edge65" class="edge">
+<title>n54&#45;&gt;n3</title>
+<path fill="none" stroke="#64748b" d="M585.34,-375.52C517.31,-363.21 427.77,-347.02 366.21,-335.88"/>
+<polygon fill="#64748b" stroke="#64748b" points="366.9,-333.52 359.58,-334.68 366.03,-338.34 366.9,-333.52"/>
+</g>
+<!-- n54&#45;&gt;n4 -->
+<g id="edge67" class="edge">
+<title>n54&#45;&gt;n4</title>
+<path fill="none" stroke="#64748b" d="M793.54,-375.54C812.67,-367.66 830.41,-356.31 843,-340 858.79,-319.54 857.01,-244.92 854.79,-204.85"/>
+<polygon fill="#64748b" stroke="#64748b" points="857.24,-204.74 854.37,-197.9 852.35,-205.03 857.24,-204.74"/>
+</g>
+<!-- n54&#45;&gt;n43 -->
+<g id="edge66" class="edge">
+<title>n54&#45;&gt;n43</title>
+<path fill="none" stroke="#64748b" d="M776,-375.55C803.89,-367.59 833.51,-356.19 858,-340 875.37,-328.51 873.49,-318.94 888,-304 898.11,-293.6 909.94,-282.87 920.42,-273.81"/>
+<polygon fill="#64748b" stroke="#64748b" points="921.86,-275.8 925.59,-269.39 918.68,-272.08 921.86,-275.8"/>
+</g>
+<!-- n59 -->
+<g id="node10" class="node">
+<title>n59</title>
+<g id="a_node10"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Regression/DebiasingLasso.lean:423" xlink:title="theorem · Statlib/HighDim/Regression/DebiasingLasso.lean:423" target="_blank">
+<path fill="#ffe6a3" stroke="#d4a017" d="M1357.27,-485.2C1357.27,-485.2 872.73,-485.2 872.73,-485.2 866.73,-485.2 860.73,-479.2 860.73,-473.2 860.73,-473.2 860.73,-461.2 860.73,-461.2 860.73,-455.2 866.73,-449.2 872.73,-449.2 872.73,-449.2 1357.27,-449.2 1357.27,-449.2 1363.27,-449.2 1369.27,-455.2 1369.27,-461.2 1369.27,-461.2 1369.27,-473.2 1369.27,-473.2 1369.27,-479.2 1363.27,-485.2 1357.27,-485.2"/>
+<text xml:space="preserve" text-anchor="middle" x="1115" y="-464.2" font-family="Helvetica,sans-Serif" font-size="10.00">tendstoInDistribution_debiasedLasso_scaledCenteredCoordinate_of_scoreCoordinate_and_l1_rowApprox_real</text>
+</a>
+</g>
+</g>
+<!-- n59&#45;&gt;n3 -->
+<g id="edge73" class="edge">
+<title>n59&#45;&gt;n3</title>
+<path fill="none" stroke="#64748b" d="M860.63,-461.04C711.6,-457.06 546.05,-450.63 512,-441.2 474.56,-430.84 381.5,-375.99 330.25,-344.78"/>
+<polygon fill="#64748b" stroke="#64748b" points="331.54,-342.7 324.29,-341.14 328.99,-346.88 331.54,-342.7"/>
+</g>
+<!-- n59&#45;&gt;n5 -->
+<g id="edge74" class="edge">
+<title>n59&#45;&gt;n5</title>
+<path fill="none" stroke="#64748b" d="M860.45,-465.95C717.21,-463.92 561.26,-457.82 532,-441.2 468.59,-405.18 492.16,-356.94 442,-304 431.1,-292.5 417.44,-281.74 404.96,-272.96"/>
+<polygon fill="#64748b" stroke="#64748b" points="406.58,-271.1 399.42,-269.15 403.8,-275.14 406.58,-271.1"/>
+</g>
+<!-- n59&#45;&gt;n6 -->
+<g id="edge75" class="edge">
+<title>n59&#45;&gt;n6</title>
+<path fill="none" stroke="#64748b" d="M860.37,-461.87C715.24,-458.24 559.65,-451.89 547,-441.2 474.35,-379.83 563.3,-304.71 502,-232 477.78,-203.26 435.7,-189.96 405.56,-183.9"/>
+<polygon fill="#64748b" stroke="#64748b" points="406.22,-181.53 398.89,-182.66 405.32,-186.35 406.22,-181.53"/>
+</g>
+<!-- n59&#45;&gt;n43 -->
+<g id="edge77" class="edge">
+<title>n59&#45;&gt;n43</title>
+<path fill="none" stroke="#64748b" d="M860.31,-450.08C848.42,-447.54 840.11,-444.6 837,-441.2 817.45,-419.81 825.05,-402.4 837,-376 847,-353.91 861.32,-357.6 878,-340 897.63,-319.28 917.5,-293.44 931.04,-274.95"/>
+<polygon fill="#64748b" stroke="#64748b" points="932.7,-276.82 934.83,-269.72 928.74,-273.94 932.7,-276.82"/>
+</g>
+<!-- n59&#45;&gt;n53 -->
+<g id="edge78" class="edge">
+<title>n59&#45;&gt;n53</title>
+<path fill="none" stroke="#64748b" d="M1115,-448.96C1115,-440.39 1115,-429.87 1115,-420.39"/>
+<polygon fill="#64748b" stroke="#64748b" points="1117.45,-420.59 1115,-413.59 1112.55,-420.59 1117.45,-420.59"/>
+</g>
+<!-- n59&#45;&gt;n54 -->
+<g id="edge79" class="edge">
+<title>n59&#45;&gt;n54</title>
+<path fill="none" stroke="#64748b" d="M864.29,-448.73C849.93,-446.52 835.75,-444.02 822,-441.2 792.23,-435.11 759.96,-424.73 733.92,-415.35"/>
+<polygon fill="#64748b" stroke="#64748b" points="734.88,-413.09 727.47,-413 733.2,-417.7 734.88,-413.09"/>
+</g>
+<!-- n1 -->
+<g id="node20" class="node">
+<title>n1</title>
+<g id="a_node20"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/StatFoundation/Vocabulary/FiniteCoordinate.lean:33" xlink:title="abbrev · Statlib/StatFoundation/Vocabulary/FiniteCoordinate.lean:33" target="_blank">
+<path fill="#d6e9ff" stroke="#3b82f6" d="M2638.15,-412C2638.15,-412 2493.85,-412 2493.85,-412 2487.85,-412 2481.85,-406 2481.85,-400 2481.85,-400 2481.85,-388 2481.85,-388 2481.85,-382 2487.85,-376 2493.85,-376 2493.85,-376 2638.15,-376 2638.15,-376 2644.15,-376 2650.15,-382 2650.15,-388 2650.15,-388 2650.15,-400 2650.15,-400 2650.15,-406 2644.15,-412 2638.15,-412"/>
+<text xml:space="preserve" text-anchor="middle" x="2566" y="-391" font-family="Helvetica,sans-Serif" font-size="10.00">HasCoordinatewiseAEMeasurable</text>
+</a>
+</g>
+</g>
+<!-- n59&#45;&gt;n1 -->
+<g id="edge71" class="edge">
+<title>n59&#45;&gt;n1</title>
+<path fill="none" stroke="#64748b" d="M1369.7,-459.83C1514.84,-456.34 1700.11,-452.15 1865,-449.2 1898.78,-448.6 2440.16,-449.13 2473,-441.2 2493.7,-436.2 2515.1,-425.98 2532.14,-416.41"/>
+<polygon fill="#64748b" stroke="#64748b" points="2533.01,-418.74 2537.85,-413.13 2530.56,-414.5 2533.01,-418.74"/>
+</g>
+<!-- n2 -->
+<g id="node21" class="node">
+<title>n2</title>
+<g id="a_node21"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/StatFoundation/Vocabulary/FiniteCoordinate.lean:76" xlink:title="abbrev · Statlib/StatFoundation/Vocabulary/FiniteCoordinate.lean:76" target="_blank">
+<path fill="#d6e9ff" stroke="#3b82f6" d="M3147.71,-412C3147.71,-412 3012.29,-412 3012.29,-412 3006.29,-412 3000.29,-406 3000.29,-400 3000.29,-400 3000.29,-388 3000.29,-388 3000.29,-382 3006.29,-376 3012.29,-376 3012.29,-376 3147.71,-376 3147.71,-376 3153.71,-376 3159.71,-382 3159.71,-388 3159.71,-388 3159.71,-400 3159.71,-400 3159.71,-406 3153.71,-412 3147.71,-412"/>
+<text xml:space="preserve" text-anchor="middle" x="3080" y="-391" font-family="Helvetica,sans-Serif" font-size="10.00">scaledCenteredFiniteCoordinate</text>
+</a>
+</g>
+</g>
+<!-- n59&#45;&gt;n2 -->
+<g id="edge72" class="edge">
+<title>n59&#45;&gt;n2</title>
+<path fill="none" stroke="#64748b" d="M1369.72,-465.91C1864.47,-464.93 2913.95,-460.55 2991,-441.2 3010.77,-436.24 3031.07,-426.15 3047.28,-416.66"/>
+<polygon fill="#64748b" stroke="#64748b" points="3048.39,-418.86 3053.13,-413.15 3045.86,-414.66 3048.39,-418.86"/>
+</g>
+<!-- n59&#45;&gt;n42 -->
+<g id="edge76" class="edge">
+<title>n59&#45;&gt;n42</title>
+<path fill="none" stroke="#64748b" d="M1369.64,-450.38C1379.16,-447.75 1387.12,-444.71 1393,-441.2 1422.8,-423.39 1406.99,-395.07 1436,-376 1440.18,-373.25 1544.73,-355.09 1629.03,-340.79"/>
+<polygon fill="#64748b" stroke="#64748b" points="1629.39,-343.21 1635.88,-339.63 1628.57,-338.38 1629.39,-343.21"/>
+</g>
+<!-- n55 -->
+<g id="node65" class="node">
+<title>n55</title>
+<g id="a_node65"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/StatFoundation/Convergence/AnalysisTools/StochasticOrder/Basic.lean:139" xlink:title="theorem · Statlib/StatFoundation/Convergence/AnalysisTools/StochasticOrder/Basic.lean:139" target="_blank">
+<path fill="#ffe6a3" stroke="#d4a017" d="M1975.86,-340C1975.86,-340 1862.14,-340 1862.14,-340 1856.14,-340 1850.14,-334 1850.14,-328 1850.14,-328 1850.14,-316 1850.14,-316 1850.14,-310 1856.14,-304 1862.14,-304 1862.14,-304 1975.86,-304 1975.86,-304 1981.86,-304 1987.86,-310 1987.86,-316 1987.86,-316 1987.86,-328 1987.86,-328 1987.86,-334 1981.86,-340 1975.86,-340"/>
+<text xml:space="preserve" text-anchor="middle" x="1919" y="-319" font-family="Helvetica,sans-Serif" font-size="10.00">isLittleOInProbability_congr</text>
+</a>
+</g>
+</g>
+<!-- n59&#45;&gt;n55 -->
+<g id="edge80" class="edge">
+<title>n59&#45;&gt;n55</title>
+<path fill="none" stroke="#64748b" d="M1369.66,-452.22C1399.27,-449.11 1421.63,-445.45 1429,-441.2 1459.5,-423.61 1443.66,-393.87 1474,-376 1544.61,-334.42 1760.05,-352.75 1841,-340 1841.18,-339.97 1841.36,-339.94 1841.54,-339.91"/>
+<polygon fill="#64748b" stroke="#64748b" points="1841.77,-342.36 1848.26,-338.78 1840.95,-337.53 1841.77,-342.36"/>
+</g>
+<!-- n57 -->
+<g id="node67" class="node">
+<title>n57</title>
+<g id="a_node67"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/StatFoundation/Convergence/AnalysisTools/StochasticOrder/Basic.lean:201" xlink:title="theorem · Statlib/StatFoundation/Convergence/AnalysisTools/StochasticOrder/Basic.lean:201" target="_blank">
+<path fill="#ffe6a3" stroke="#d4a017" d="M2267.68,-340C2267.68,-340 2038.32,-340 2038.32,-340 2032.32,-340 2026.32,-334 2026.32,-328 2026.32,-328 2026.32,-316 2026.32,-316 2026.32,-310 2032.32,-304 2038.32,-304 2038.32,-304 2267.68,-304 2267.68,-304 2273.68,-304 2279.68,-310 2279.68,-316 2279.68,-316 2279.68,-328 2279.68,-328 2279.68,-334 2273.68,-340 2267.68,-340"/>
+<text xml:space="preserve" text-anchor="middle" x="2153" y="-319" font-family="Helvetica,sans-Serif" font-size="10.00">isLittleOInProbability_one_iff_tendstoInMeasure_zero</text>
+</a>
+</g>
+</g>
+<!-- n59&#45;&gt;n57 -->
+<g id="edge81" class="edge">
+<title>n59&#45;&gt;n57</title>
+<path fill="none" stroke="#64748b" d="M1369.73,-455.91C1417.32,-452.28 1455.52,-447.48 1466,-441.2 1495.36,-423.59 1477.66,-393.64 1507,-376 1600.57,-319.74 1888.27,-349.92 1997,-340 2003.83,-339.38 2010.82,-338.71 2017.87,-338.02"/>
+<polygon fill="#64748b" stroke="#64748b" points="2017.95,-340.48 2024.67,-337.35 2017.47,-335.6 2017.95,-340.48"/>
+</g>
+<!-- n58 -->
+<g id="node68" class="node">
+<title>n58</title>
+<g id="a_node68"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/StatFoundation/Convergence/AnalysisTools/ConvergenceModes.lean:354" xlink:title="theorem · Statlib/StatFoundation/Convergence/AnalysisTools/ConvergenceModes.lean:354" target="_blank">
+<path fill="#ffe6a3" stroke="#d4a017" d="M1732.18,-412C1732.18,-412 1527.82,-412 1527.82,-412 1521.82,-412 1515.82,-406 1515.82,-400 1515.82,-400 1515.82,-388 1515.82,-388 1515.82,-382 1521.82,-376 1527.82,-376 1527.82,-376 1732.18,-376 1732.18,-376 1738.18,-376 1744.18,-382 1744.18,-388 1744.18,-388 1744.18,-400 1744.18,-400 1744.18,-406 1738.18,-412 1732.18,-412"/>
+<text xml:space="preserve" text-anchor="middle" x="1630" y="-391" font-family="Helvetica,sans-Serif" font-size="10.00">tendstoInDistribution_of_tendstoInMeasure_sub</text>
+</a>
+</g>
+</g>
+<!-- n59&#45;&gt;n58 -->
+<g id="edge82" class="edge">
+<title>n59&#45;&gt;n58</title>
+<path fill="none" stroke="#64748b" d="M1369.61,-455.14C1424.8,-451.49 1474.77,-446.87 1502,-441.2 1529.53,-435.46 1559.14,-425.07 1582.93,-415.59"/>
+<polygon fill="#64748b" stroke="#64748b" points="1583.8,-417.89 1589.37,-412.99 1581.96,-413.35 1583.8,-417.89"/>
+</g>
+<!-- n60 -->
+<g id="node11" class="node">
+<title>n60</title>
+<g id="a_node11"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Regression/DebiasingLasso.lean:496" xlink:title="theorem · Statlib/HighDim/Regression/DebiasingLasso.lean:496" target="_blank">
+<path fill="#ffe6a3" stroke="#d4a017" d="M1341.61,-557.2C1341.61,-557.2 860.39,-557.2 860.39,-557.2 854.39,-557.2 848.39,-551.2 848.39,-545.2 848.39,-545.2 848.39,-533.2 848.39,-533.2 848.39,-527.2 854.39,-521.2 860.39,-521.2 860.39,-521.2 1341.61,-521.2 1341.61,-521.2 1347.61,-521.2 1353.61,-527.2 1353.61,-533.2 1353.61,-533.2 1353.61,-545.2 1353.61,-545.2 1353.61,-551.2 1347.61,-557.2 1341.61,-557.2"/>
+<text xml:space="preserve" text-anchor="middle" x="1101" y="-536.2" font-family="Helvetica,sans-Serif" font-size="10.00">tendstoInDistribution_studentizedDebiasedLasso_coordinate_of_scoreCoordinate_l1_rowApprox_and_se_real</text>
+</a>
+</g>
+</g>
+<!-- n60&#45;&gt;n3 -->
+<g id="edge85" class="edge">
+<title>n60&#45;&gt;n3</title>
+<path fill="none" stroke="#64748b" d="M848.27,-534.33C703.46,-528.74 537.78,-515.6 472,-485.2 409.47,-456.3 413.54,-421.71 362,-376 350.22,-365.55 336.69,-354.66 324.88,-345.48"/>
+<polygon fill="#64748b" stroke="#64748b" points="326.39,-343.55 319.36,-341.21 323.4,-347.43 326.39,-343.55"/>
+</g>
+<!-- n60&#45;&gt;n5 -->
+<g id="edge86" class="edge">
+<title>n60&#45;&gt;n5</title>
+<path fill="none" stroke="#64748b" d="M848.22,-528.12C694.32,-519.91 521.71,-506.21 492,-485.2 421.51,-435.35 468.05,-377.02 422,-304 415.18,-293.19 405.85,-282.81 396.97,-274.14"/>
+<polygon fill="#64748b" stroke="#64748b" points="398.8,-272.5 392.03,-269.47 395.43,-276.06 398.8,-272.5"/>
+</g>
+<!-- n60&#45;&gt;n6 -->
+<g id="edge87" class="edge">
+<title>n60&#45;&gt;n6</title>
+<path fill="none" stroke="#64748b" d="M848.17,-525.68C711.06,-513.41 560.16,-489.14 513,-441.2 447.08,-374.19 537.98,-307.51 482,-232 463.62,-207.21 430.66,-193.56 405.24,-186.35"/>
+<polygon fill="#64748b" stroke="#64748b" points="406.14,-184.05 398.74,-184.62 404.88,-188.79 406.14,-184.05"/>
+</g>
+<!-- n60&#45;&gt;n59 -->
+<g id="edge88" class="edge">
+<title>n60&#45;&gt;n59</title>
+<path fill="none" stroke="#64748b" d="M1104.46,-520.9C1106.11,-512.67 1108.1,-502.68 1109.92,-493.62"/>
+<polygon fill="#64748b" stroke="#64748b" points="1112.31,-494.13 1111.28,-486.79 1107.51,-493.17 1112.31,-494.13"/>
+</g>
+<!-- n60&#45;&gt;n1 -->
+<g id="edge83" class="edge">
+<title>n60&#45;&gt;n1</title>
+<path fill="none" stroke="#64748b" d="M1295.16,-520.72C1523.66,-500.72 1914.62,-468.27 2251,-449.2 2300.29,-446.41 2425.15,-453.34 2473,-441.2 2493.49,-436 2514.72,-425.87 2531.71,-416.42"/>
+<polygon fill="#64748b" stroke="#64748b" points="2532.54,-418.77 2537.41,-413.18 2530.11,-414.51 2532.54,-418.77"/>
+</g>
+<!-- n60&#45;&gt;n2 -->
+<g id="edge84" class="edge">
+<title>n60&#45;&gt;n2</title>
+<path fill="none" stroke="#64748b" d="M1353.9,-538.48C1795.76,-536.77 2689.97,-522.91 2991,-441.2 3010.52,-435.9 3030.66,-425.89 3046.83,-416.54"/>
+<polygon fill="#64748b" stroke="#64748b" points="3047.89,-418.76 3052.66,-413.09 3045.39,-414.55 3047.89,-418.76"/>
+</g>
+<!-- n61 -->
+<g id="node12" class="node">
+<title>n61</title>
+<g id="a_node12"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Regression/DebiasingLasso.lean:597" xlink:title="theorem · Statlib/HighDim/Regression/DebiasingLasso.lean:597" target="_blank">
+<path fill="#ffe6a3" stroke="#d4a017" d="M1372.18,-629.2C1372.18,-629.2 829.82,-629.2 829.82,-629.2 823.82,-629.2 817.82,-623.2 817.82,-617.2 817.82,-617.2 817.82,-605.2 817.82,-605.2 817.82,-599.2 823.82,-593.2 829.82,-593.2 829.82,-593.2 1372.18,-593.2 1372.18,-593.2 1378.18,-593.2 1384.18,-599.2 1384.18,-605.2 1384.18,-605.2 1384.18,-617.2 1384.18,-617.2 1384.18,-623.2 1378.18,-629.2 1372.18,-629.2"/>
+<text xml:space="preserve" text-anchor="middle" x="1101" y="-608.2" font-family="Helvetica,sans-Serif" font-size="10.00">tendstoInDistribution_studentizedDebiasedLasso_coordinate_of_scoreCoordinate_gaussian_clt_l1_rowApprox_and_se_real</text>
+</a>
+</g>
+</g>
+<!-- n61&#45;&gt;n3 -->
+<g id="edge91" class="edge">
+<title>n61&#45;&gt;n3</title>
+<path fill="none" stroke="#64748b" d="M817.71,-601.51C643.14,-593.88 446.25,-580.3 412,-557.2 337.45,-506.93 362.41,-456.33 322,-376 317.33,-366.72 312.17,-356.56 307.61,-347.63"/>
+<polygon fill="#64748b" stroke="#64748b" points="309.85,-346.63 304.49,-341.51 305.49,-348.86 309.85,-346.63"/>
+</g>
+<!-- n61&#45;&gt;n5 -->
+<g id="edge92" class="edge">
+<title>n61&#45;&gt;n5</title>
+<path fill="none" stroke="#64748b" d="M892.06,-592.72C728.97,-574.98 519.7,-541.87 456,-485.2 393.22,-429.34 435.76,-380.95 402,-304 397.68,-294.16 391.85,-283.92 386.36,-275.09"/>
+<polygon fill="#64748b" stroke="#64748b" points="388.5,-273.9 382.67,-269.33 384.38,-276.54 388.5,-273.9"/>
+</g>
+<!-- n61&#45;&gt;n6 -->
+<g id="edge93" class="edge">
+<title>n61&#45;&gt;n6</title>
+<path fill="none" stroke="#64748b" d="M817.34,-597.73C683.86,-589.4 548.46,-576.39 524,-557.2 481.09,-523.54 495.19,-494.58 484,-441.2 474.43,-395.55 492.4,-271.12 467,-232 452.91,-210.31 426.77,-196.77 405.17,-188.8"/>
+<polygon fill="#64748b" stroke="#64748b" points="406,-186.5 398.58,-186.52 404.39,-191.13 406,-186.5"/>
+</g>
+<!-- n61&#45;&gt;n60 -->
+<g id="edge95" class="edge">
+<title>n61&#45;&gt;n60</title>
+<path fill="none" stroke="#64748b" d="M1101,-592.9C1101,-584.67 1101,-574.68 1101,-565.62"/>
+<polygon fill="#64748b" stroke="#64748b" points="1103.45,-565.82 1101,-558.82 1098.55,-565.82 1103.45,-565.82"/>
+</g>
+<!-- n61&#45;&gt;n1 -->
+<g id="edge89" class="edge">
+<title>n61&#45;&gt;n1</title>
+<path fill="none" stroke="#64748b" d="M1223.93,-592.7C1489.22,-555.16 2108.49,-468.67 2320,-449.2 2353.9,-446.08 2440.07,-449.84 2473,-441.2 2493.45,-435.83 2514.67,-425.69 2531.67,-416.27"/>
+<polygon fill="#64748b" stroke="#64748b" points="2532.49,-418.63 2537.37,-413.05 2530.07,-414.37 2532.49,-418.63"/>
+</g>
+<!-- n61&#45;&gt;n2 -->
+<g id="edge90" class="edge">
+<title>n61&#45;&gt;n2</title>
+<path fill="none" stroke="#64748b" d="M1384.33,-609.05C1731.41,-603.27 2336,-578.94 2845,-485.2 2911.65,-472.92 2928.21,-466.7 2991,-441.2 3008.33,-434.16 3026.78,-424.9 3042.37,-416.51"/>
+<polygon fill="#64748b" stroke="#64748b" points="3043.47,-418.7 3048.45,-413.2 3041.13,-414.4 3043.47,-418.7"/>
+</g>
+<!-- n40 -->
+<g id="node55" class="node">
+<title>n40</title>
+<g id="a_node55"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/StatFoundation/Convergence/AnalysisTools/LevyContinuity.lean:189" xlink:title="theorem · Statlib/StatFoundation/Convergence/AnalysisTools/LevyContinuity.lean:189" target="_blank">
+<path fill="#ffe6a3" stroke="#d4a017" d="M3775.06,-340C3775.06,-340 3418.94,-340 3418.94,-340 3412.94,-340 3406.94,-334 3406.94,-328 3406.94,-328 3406.94,-316 3406.94,-316 3406.94,-310 3412.94,-304 3418.94,-304 3418.94,-304 3775.06,-304 3775.06,-304 3781.06,-304 3787.06,-310 3787.06,-316 3787.06,-316 3787.06,-328 3787.06,-328 3787.06,-334 3781.06,-340 3775.06,-340"/>
+<text xml:space="preserve" text-anchor="middle" x="3597" y="-319" font-family="Helvetica,sans-Serif" font-size="10.00">tendstoInDistribution_of_probabilityMeasure_tendsto_and_gaussianReal_charFun</text>
+</a>
+</g>
+</g>
+<!-- n61&#45;&gt;n40 -->
+<g id="edge94" class="edge">
+<title>n61&#45;&gt;n40</title>
+<path fill="none" stroke="#64748b" d="M1384.43,-609.77C1665.07,-606.9 2106.68,-595.79 2487,-557.2 2681.96,-537.42 2729.05,-519.44 2922,-485.2 3006.62,-470.18 3026.55,-458.45 3112,-449.2 3127.58,-447.51 3380.31,-448.82 3394,-441.2 3424.33,-424.31 3409.45,-397.11 3437,-376 3455.91,-361.51 3478.97,-350.88 3501.63,-343.11"/>
+<polygon fill="#64748b" stroke="#64748b" points="3502.3,-345.47 3508.18,-340.96 3500.77,-340.82 3502.3,-345.47"/>
+</g>
+<!-- n62 -->
+<g id="node13" class="node">
+<title>n62</title>
+<g id="a_node13"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Regression/DebiasingLasso.lean:869" xlink:title="theorem · Statlib/HighDim/Regression/DebiasingLasso.lean:869" target="_blank">
+<path fill="#ffe6a3" stroke="#d4a017" d="M1358.21,-701.2C1358.21,-701.2 889.79,-701.2 889.79,-701.2 883.79,-701.2 877.79,-695.2 877.79,-689.2 877.79,-689.2 877.79,-677.2 877.79,-677.2 877.79,-671.2 883.79,-665.2 889.79,-665.2 889.79,-665.2 1358.21,-665.2 1358.21,-665.2 1364.21,-665.2 1370.21,-671.2 1370.21,-677.2 1370.21,-677.2 1370.21,-689.2 1370.21,-689.2 1370.21,-695.2 1364.21,-701.2 1358.21,-701.2"/>
+<text xml:space="preserve" text-anchor="middle" x="1124" y="-680.2" font-family="Helvetica,sans-Serif" font-size="10.00">tendstoInDistribution_studentizedDebiasedLasso_coordinate_of_iid_scoreSum_l1_rowApprox_and_se_real</text>
+</a>
+</g>
+</g>
+<!-- n62&#45;&gt;n3 -->
+<g id="edge99" class="edge">
+<title>n62&#45;&gt;n3</title>
+<path fill="none" stroke="#64748b" d="M877.49,-680.82C660.22,-677.17 372.07,-665.44 332,-629.2 302.25,-602.29 317,-580.31 317,-540.2 317,-540.2 317,-540.2 317,-466.2 317,-424.49 307.77,-376.72 301.26,-348.25"/>
+<polygon fill="#64748b" stroke="#64748b" points="303.67,-347.79 299.69,-341.54 298.9,-348.91 303.67,-347.79"/>
+</g>
+<!-- n62&#45;&gt;n5 -->
+<g id="edge100" class="edge">
+<title>n62&#45;&gt;n5</title>
+<path fill="none" stroke="#64748b" d="M932.35,-664.7C771.42,-646.41 557.57,-612.5 492,-557.2 446.7,-518.99 394.83,-342.14 376.68,-276.03"/>
+<polygon fill="#64748b" stroke="#64748b" points="379.15,-275.74 374.94,-269.63 374.42,-277.03 379.15,-275.74"/>
+</g>
+<!-- n62&#45;&gt;n6 -->
+<g id="edge101" class="edge">
+<title>n62&#45;&gt;n6</title>
+<path fill="none" stroke="#64748b" d="M877.54,-674.34C777.88,-667.22 662.42,-653.91 560,-629.2 456.26,-604.17 337,-646.91 337,-540.2 337,-540.2 337,-540.2 337,-466.2 337,-392.89 408.55,-364.4 367,-304 341.65,-267.14 298.35,-304.86 273,-268 263.93,-254.82 264.84,-245.76 273,-232 286.34,-209.51 312.96,-195.95 334.95,-188.18"/>
+<polygon fill="#64748b" stroke="#64748b" points="335.49,-190.58 341.37,-186.05 333.95,-185.93 335.49,-190.58"/>
+</g>
+<!-- n62&#45;&gt;n61 -->
+<g id="edge104" class="edge">
+<title>n62&#45;&gt;n61</title>
+<path fill="none" stroke="#64748b" d="M1118.31,-664.9C1115.59,-656.59 1112.26,-646.48 1109.26,-637.34"/>
+<polygon fill="#64748b" stroke="#64748b" points="1111.61,-636.63 1107.09,-630.74 1106.95,-638.16 1111.61,-636.63"/>
+</g>
+<!-- n0 -->
+<g id="node19" class="node">
+<title>n0</title>
+<g id="a_node19"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/StatFoundation/Convergence/CentralLimitTheorem/IID.lean:21" xlink:title="abbrev · Statlib/StatFoundation/Convergence/CentralLimitTheorem/IID.lean:21" target="_blank">
+<path fill="#d6e9ff" stroke="#3b82f6" d="M3964.91,-268C3964.91,-268 3895.09,-268 3895.09,-268 3889.09,-268 3883.09,-262 3883.09,-256 3883.09,-256 3883.09,-244 3883.09,-244 3883.09,-238 3889.09,-232 3895.09,-232 3895.09,-232 3964.91,-232 3964.91,-232 3970.91,-232 3976.91,-238 3976.91,-244 3976.91,-244 3976.91,-256 3976.91,-256 3976.91,-262 3970.91,-268 3964.91,-268"/>
+<text xml:space="preserve" text-anchor="middle" x="3930" y="-247" font-family="Helvetica,sans-Serif" font-size="10.00">standardizedSum</text>
+</a>
+</g>
+</g>
+<!-- n62&#45;&gt;n0 -->
+<g id="edge96" class="edge">
+<title>n62&#45;&gt;n0</title>
+<path fill="none" stroke="#64748b" d="M1370.46,-674.58C1593.97,-666.66 1932.4,-652.16 2226,-629.2 2832.14,-581.8 2985.81,-565.32 3581,-441.2 3626.41,-431.73 3957.45,-376.56 3986,-340 4002.6,-318.75 3981.39,-292.39 3960.49,-273.89"/>
+<polygon fill="#64748b" stroke="#64748b" points="3962.13,-272.07 3955.21,-269.4 3958.95,-275.8 3962.13,-272.07"/>
+</g>
+<!-- n62&#45;&gt;n1 -->
+<g id="edge97" class="edge">
+<title>n62&#45;&gt;n1</title>
+<path fill="none" stroke="#64748b" d="M1265.82,-664.74C1339.17,-655.22 1430.05,-642.64 1511,-629.2 1940.76,-557.84 2060.45,-581.14 2473,-441.2 2492.1,-434.72 2512.26,-425.08 2528.92,-416.28"/>
+<polygon fill="#64748b" stroke="#64748b" points="2529.97,-418.5 2534.97,-413.03 2527.65,-414.19 2529.97,-418.5"/>
+</g>
+<!-- n62&#45;&gt;n2 -->
+<g id="edge98" class="edge">
+<title>n62&#45;&gt;n2</title>
+<path fill="none" stroke="#64748b" d="M1370.51,-665C1643.96,-644.67 2097.97,-607.17 2487,-557.2 2681.37,-532.24 2737.34,-550.81 2922,-485.2 2969.18,-468.44 3018.51,-437.85 3049.24,-416.99"/>
+<polygon fill="#64748b" stroke="#64748b" points="3050.25,-419.27 3054.63,-413.29 3047.47,-415.23 3050.25,-419.27"/>
+</g>
+<!-- n13 -->
+<g id="node28" class="node">
+<title>n13</title>
+<g id="a_node28"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/StatFoundation/Convergence/CentralLimitTheorem/IID.lean:24" xlink:title="lemma · Statlib/StatFoundation/Convergence/CentralLimitTheorem/IID.lean:24" target="_blank">
+<path fill="#eef2f6" stroke="#94a3b8" d="M3964.82,-340C3964.82,-340 3837.18,-340 3837.18,-340 3831.18,-340 3825.18,-334 3825.18,-328 3825.18,-328 3825.18,-316 3825.18,-316 3825.18,-310 3831.18,-304 3837.18,-304 3837.18,-304 3964.82,-304 3964.82,-304 3970.82,-304 3976.82,-310 3976.82,-316 3976.82,-316 3976.82,-328 3976.82,-328 3976.82,-334 3970.82,-340 3964.82,-340"/>
+<text xml:space="preserve" text-anchor="middle" x="3901" y="-319" font-family="Helvetica,sans-Serif" font-size="10.00">measurable_standardizedSum</text>
+</a>
+</g>
+</g>
+<!-- n62&#45;&gt;n13 -->
+<g id="edge103" class="edge">
+<title>n62&#45;&gt;n13</title>
+<path fill="none" stroke="#64748b" d="M1370.58,-671.4C1549.61,-662.61 1797.55,-648.5 2015,-629.2 2646.93,-573.1 2807.54,-563.76 3430,-441.2 3574.33,-412.78 3740.72,-368.19 3832.05,-342.68"/>
+<polygon fill="#64748b" stroke="#64748b" points="3832.57,-345.08 3838.65,-340.83 3831.25,-340.36 3832.57,-345.08"/>
+</g>
+<!-- n36 -->
+<g id="node51" class="node">
+<title>n36</title>
+<g id="a_node51"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/StatFoundation/Convergence/CentralLimitTheorem/IID.lean:43" xlink:title="theorem · Statlib/StatFoundation/Convergence/CentralLimitTheorem/IID.lean:43" target="_blank">
+<path fill="#ffe6a3" stroke="#d4a017" d="M2451.58,-412C2451.58,-412 2348.42,-412 2348.42,-412 2342.42,-412 2336.42,-406 2336.42,-400 2336.42,-400 2336.42,-388 2336.42,-388 2336.42,-382 2342.42,-376 2348.42,-376 2348.42,-376 2451.58,-376 2451.58,-376 2457.58,-376 2463.58,-382 2463.58,-388 2463.58,-388 2463.58,-400 2463.58,-400 2463.58,-406 2457.58,-412 2451.58,-412"/>
+<text xml:space="preserve" text-anchor="middle" x="2400" y="-391" font-family="Helvetica,sans-Serif" font-size="10.00">iid_central_limit_theorem</text>
+</a>
+</g>
+</g>
+<!-- n62&#45;&gt;n36 -->
+<g id="edge102" class="edge">
+<title>n62&#45;&gt;n36</title>
+<path fill="none" stroke="#64748b" d="M1213.07,-664.75C1265.47,-654.45 1333.01,-641.15 1393,-629.2 1808.28,-546.49 1934,-598.83 2327,-441.2 2342.27,-435.08 2357.86,-425.72 2370.68,-417.02"/>
+<polygon fill="#64748b" stroke="#64748b" points="2371.91,-419.15 2376.26,-413.15 2369.12,-415.13 2371.91,-419.15"/>
+</g>
+<!-- n63 -->
+<g id="node14" class="node">
+<title>n63</title>
+<g id="a_node14"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Regression/DebiasingLasso.lean:1504" xlink:title="theorem · Statlib/HighDim/Regression/DebiasingLasso.lean:1504" target="_blank">
+<path fill="#ffe6a3" stroke="#d4a017" d="M1372.4,-773.2C1372.4,-773.2 845.6,-773.2 845.6,-773.2 839.6,-773.2 833.6,-767.2 833.6,-761.2 833.6,-761.2 833.6,-749.2 833.6,-749.2 833.6,-743.2 839.6,-737.2 845.6,-737.2 845.6,-737.2 1372.4,-737.2 1372.4,-737.2 1378.4,-737.2 1384.4,-743.2 1384.4,-749.2 1384.4,-749.2 1384.4,-761.2 1384.4,-761.2 1384.4,-767.2 1378.4,-773.2 1372.4,-773.2"/>
+<text xml:space="preserve" text-anchor="middle" x="1109" y="-752.2" font-family="Helvetica,sans-Serif" font-size="10.00">tendsto_measure_studentizedDebiasedLasso_coordinate_coverageEvent_of_iid_scoreSum_l1_rowApprox_and_se_real</text>
+</a>
+</g>
+</g>
+<!-- n63&#45;&gt;n3 -->
+<g id="edge108" class="edge">
+<title>n63&#45;&gt;n3</title>
+<path fill="none" stroke="#64748b" d="M887.12,-736.71C646.7,-714.68 297,-672.31 297,-612.2 297,-612.2 297,-612.2 297,-466.2 297,-424.97 296.16,-377.06 295.57,-348.43"/>
+<polygon fill="#64748b" stroke="#64748b" points="298.02,-348.65 295.43,-341.71 293.13,-348.76 298.02,-348.65"/>
+</g>
+<!-- n63&#45;&gt;n5 -->
+<g id="edge109" class="edge">
+<title>n63&#45;&gt;n5</title>
+<path fill="none" stroke="#64748b" d="M833.3,-748.99C667.17,-742.9 472.95,-729.72 394,-701.2 342.15,-682.47 323.88,-674.87 293,-629.2 251.6,-567.96 180.51,-364.49 223,-304 235.18,-286.66 253.62,-274.96 273.36,-267.08"/>
+<polygon fill="#64748b" stroke="#64748b" points="274.15,-269.4 279.86,-264.67 272.45,-264.81 274.15,-269.4"/>
+</g>
+<!-- n63&#45;&gt;n6 -->
+<g id="edge110" class="edge">
+<title>n63&#45;&gt;n6</title>
+<path fill="none" stroke="#64748b" d="M833.16,-747.37C623.43,-740.23 363.52,-726.42 319,-701.2 236.84,-654.66 125.98,-388.57 168,-304 200.79,-238.01 286.2,-203.25 334.81,-188.26"/>
+<polygon fill="#64748b" stroke="#64748b" points="335.4,-190.64 341.41,-186.29 334,-185.95 335.4,-190.64"/>
+</g>
+<!-- n63&#45;&gt;n62 -->
+<g id="edge112" class="edge">
+<title>n63&#45;&gt;n62</title>
+<path fill="none" stroke="#64748b" d="M1112.71,-736.9C1114.47,-728.67 1116.61,-718.68 1118.55,-709.62"/>
+<polygon fill="#64748b" stroke="#64748b" points="1120.95,-710.14 1120.02,-702.78 1116.16,-709.12 1120.95,-710.14"/>
+</g>
+<!-- n63&#45;&gt;n0 -->
+<g id="edge105" class="edge">
+<title>n63&#45;&gt;n0</title>
+<path fill="none" stroke="#64748b" d="M1384.66,-750.14C1743.13,-743.83 2349.59,-729.35 2571,-701.2 2896.57,-659.81 3819.38,-612.01 4003,-340 4011.95,-326.74 4010.27,-318.25 4003,-304 3996.52,-291.29 3985.4,-280.91 3973.77,-272.81"/>
+<polygon fill="#64748b" stroke="#64748b" points="3975.36,-270.93 3968.16,-269.14 3972.68,-275.03 3975.36,-270.93"/>
+</g>
+<!-- n63&#45;&gt;n1 -->
+<g id="edge106" class="edge">
+<title>n63&#45;&gt;n1</title>
+<path fill="none" stroke="#64748b" d="M1384.68,-753.14C1789.18,-747.85 2496,-722.79 2496,-612.2 2496,-612.2 2496,-612.2 2496,-538.2 2496,-492.28 2525.41,-445.72 2546.1,-418.65"/>
+<polygon fill="#64748b" stroke="#64748b" points="2547.84,-420.41 2550.22,-413.39 2543.98,-417.39 2547.84,-420.41"/>
+</g>
+<!-- n63&#45;&gt;n2 -->
+<g id="edge107" class="edge">
+<title>n63&#45;&gt;n2</title>
+<path fill="none" stroke="#64748b" d="M1384.82,-751.46C1722.71,-746.7 2275.2,-734.06 2478,-701.2 2591.3,-682.84 2620.52,-674.44 2726,-629.2 2842.78,-579.11 2869.15,-558.42 2973,-485.2 3002.69,-464.27 3034.2,-437.01 3055.28,-417.96"/>
+<polygon fill="#64748b" stroke="#64748b" points="3056.82,-419.87 3060.35,-413.35 3053.52,-416.25 3056.82,-419.87"/>
+</g>
+<!-- n12 -->
+<g id="node27" class="node">
+<title>n12</title>
+<g id="a_node27"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/StatFoundation/Convergence/AnalysisTools/ConvergenceModes.lean:1347" xlink:title="theorem · Statlib/StatFoundation/Convergence/AnalysisTools/ConvergenceModes.lean:1347" target="_blank">
+<path fill="#ffe6a3" stroke="#d4a017" d="M2970.26,-412C2970.26,-412 2679.74,-412 2679.74,-412 2673.74,-412 2667.74,-406 2667.74,-400 2667.74,-400 2667.74,-388 2667.74,-388 2667.74,-382 2673.74,-376 2679.74,-376 2679.74,-376 2970.26,-376 2970.26,-376 2976.26,-376 2982.26,-382 2982.26,-388 2982.26,-388 2982.26,-400 2982.26,-400 2982.26,-406 2976.26,-412 2970.26,-412"/>
+<text xml:space="preserve" text-anchor="middle" x="2825" y="-391" font-family="Helvetica,sans-Serif" font-size="10.00">tendsto_measure_norm_lt_of_null_frontier_of_tendstoInDistribution</text>
+</a>
+</g>
+</g>
+<!-- n63&#45;&gt;n12 -->
+<g id="edge111" class="edge">
+<title>n63&#45;&gt;n12</title>
+<path fill="none" stroke="#64748b" d="M1384.71,-748.36C1727.52,-740.2 2279.11,-723.81 2372,-701.2 2593.02,-647.39 2713.72,-677.01 2836,-485.2 2848.32,-465.88 2843.12,-439.44 2836.31,-420.19"/>
+<polygon fill="#64748b" stroke="#64748b" points="2838.67,-419.5 2833.88,-413.83 2834.09,-421.25 2838.67,-419.5"/>
+</g>
+<!-- n64 -->
+<g id="node15" class="node">
+<title>n64</title>
+<g id="a_node15"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Regression/DebiasingLasso.lean:1751" xlink:title="theorem · Statlib/HighDim/Regression/DebiasingLasso.lean:1751" target="_blank">
+<path fill="#ffe6a3" stroke="#d4a017" d="M1364.96,-845.2C1364.96,-845.2 747.04,-845.2 747.04,-845.2 741.04,-845.2 735.04,-839.2 735.04,-833.2 735.04,-833.2 735.04,-821.2 735.04,-821.2 735.04,-815.2 741.04,-809.2 747.04,-809.2 747.04,-809.2 1364.96,-809.2 1364.96,-809.2 1370.96,-809.2 1376.96,-815.2 1376.96,-821.2 1376.96,-821.2 1376.96,-833.2 1376.96,-833.2 1376.96,-839.2 1370.96,-845.2 1364.96,-845.2"/>
+<text xml:space="preserve" text-anchor="middle" x="1056" y="-824.2" font-family="Helvetica,sans-Serif" font-size="10.00">tendsto_measure_debiasedLasso_waldCIHalfWidth_contains_coordinate_of_iid_scoreSum_l1_rowApprox_and_limitMeasureCalibration_real</text>
+</a>
+</g>
+</g>
+<!-- n64&#45;&gt;n3 -->
+<g id="edge116" class="edge">
+<title>n64&#45;&gt;n3</title>
+<path fill="none" stroke="#64748b" d="M836.31,-808.73C704.02,-792.43 534.54,-761.11 394,-701.2 343.29,-679.58 318.59,-678.03 293,-629.2 244.05,-535.79 272.17,-403.27 287.3,-348.35"/>
+<polygon fill="#64748b" stroke="#64748b" points="289.64,-349.08 289.19,-341.68 284.93,-347.74 289.64,-349.08"/>
+</g>
+<!-- n64&#45;&gt;n5 -->
+<g id="edge117" class="edge">
+<title>n64&#45;&gt;n5</title>
+<path fill="none" stroke="#64748b" d="M734.71,-812.27C654.97,-804.36 570.24,-792.11 493,-773.2 410.51,-753 389.94,-742.97 316,-701.2 258.5,-668.71 197,-678.24 197,-612.2 197,-612.2 197,-612.2 197,-466.2 197,-393.97 162.77,-361.1 207,-304 223.27,-283 248.01,-270.2 273.33,-262.44"/>
+<polygon fill="#64748b" stroke="#64748b" points="273.69,-264.88 279.75,-260.6 272.35,-260.17 273.69,-264.88"/>
+</g>
+<!-- n64&#45;&gt;n6 -->
+<g id="edge118" class="edge">
+<title>n64&#45;&gt;n6</title>
+<path fill="none" stroke="#64748b" d="M734.75,-820.64C528.83,-809.4 288.29,-779.27 223,-701.2 108.1,-563.81 114.83,-478.54 155,-304 162.98,-269.33 162.84,-254.99 190,-232 231.44,-196.93 295.2,-185.06 334.67,-181.05"/>
+<polygon fill="#64748b" stroke="#64748b" points="334.45,-183.53 341.2,-180.44 334,-178.65 334.45,-183.53"/>
+</g>
+<!-- n64&#45;&gt;n63 -->
+<g id="edge119" class="edge">
+<title>n64&#45;&gt;n63</title>
+<path fill="none" stroke="#64748b" d="M1069.1,-808.9C1075.71,-800.17 1083.83,-789.44 1091.02,-779.95"/>
+<polygon fill="#64748b" stroke="#64748b" points="1092.86,-781.57 1095.14,-774.51 1088.96,-778.61 1092.86,-781.57"/>
+</g>
+<!-- n64&#45;&gt;n0 -->
+<g id="edge113" class="edge">
+<title>n64&#45;&gt;n0</title>
+<path fill="none" stroke="#64748b" d="M1377.19,-819.23C1831.83,-808.89 2622.73,-789.02 2755,-773.2 3301.05,-707.89 3523.5,-792.04 3947,-441.2 4000.19,-397.14 4054.28,-363.97 4020,-304 4011.95,-289.92 3998.55,-279.22 3984.51,-271.24"/>
+<polygon fill="#64748b" stroke="#64748b" points="3985.8,-269.15 3978.47,-268.02 3983.5,-273.48 3985.8,-269.15"/>
+</g>
+<!-- n64&#45;&gt;n1 -->
+<g id="edge114" class="edge">
+<title>n64&#45;&gt;n1</title>
+<path fill="none" stroke="#64748b" d="M1377.42,-811.35C1816.51,-788.89 2550,-742.62 2550,-684.2 2550,-684.2 2550,-684.2 2550,-538.2 2550,-496.71 2556.71,-448.88 2561.44,-420.34"/>
+<polygon fill="#64748b" stroke="#64748b" points="2563.83,-420.93 2562.59,-413.62 2559,-420.11 2563.83,-420.93"/>
+</g>
+<!-- n64&#45;&gt;n2 -->
+<g id="edge115" class="edge">
+<title>n64&#45;&gt;n2</title>
+<path fill="none" stroke="#64748b" d="M1377.31,-825.94C1967.42,-821.15 3164,-789.57 3164,-612.2 3164,-612.2 3164,-612.2 3164,-538.2 3164,-490.7 3129.19,-445.02 3104.39,-418.49"/>
+<polygon fill="#64748b" stroke="#64748b" points="3106.3,-416.95 3099.69,-413.59 3102.76,-420.33 3106.3,-416.95"/>
+</g>
+<!-- n65 -->
+<g id="node16" class="node">
+<title>n65</title>
+<g id="a_node16"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Regression/DebiasingLasso.lean:2069" xlink:title="theorem · Statlib/HighDim/Regression/DebiasingLasso.lean:2069" target="_blank">
+<path fill="#ffe6a3" stroke="#d4a017" d="M1372.13,-917.2C1372.13,-917.2 725.87,-917.2 725.87,-917.2 719.87,-917.2 713.87,-911.2 713.87,-905.2 713.87,-905.2 713.87,-893.2 713.87,-893.2 713.87,-887.2 719.87,-881.2 725.87,-881.2 725.87,-881.2 1372.13,-881.2 1372.13,-881.2 1378.13,-881.2 1384.13,-887.2 1384.13,-893.2 1384.13,-893.2 1384.13,-905.2 1384.13,-905.2 1384.13,-911.2 1378.13,-917.2 1372.13,-917.2"/>
+<text xml:space="preserve" text-anchor="middle" x="1049" y="-896.2" font-family="Helvetica,sans-Serif" font-size="10.00">tendsto_measure_debiasedLasso_waldCIHalfWidth_contains_coordinate_of_iid_scoreSum_l1_rowApprox_and_limitCDFCalibration_withAtom_real</text>
+</a>
+</g>
+</g>
+<!-- n65&#45;&gt;n3 -->
+<g id="edge123" class="edge">
+<title>n65&#45;&gt;n3</title>
+<path fill="none" stroke="#64748b" d="M761.53,-880.72C613.27,-858.1 438.38,-808.48 316,-701.2 229.87,-625.69 259.65,-563.72 262,-449.2 262.67,-416.65 256.06,-407.31 265,-376 267.83,-366.09 272.85,-356.05 277.99,-347.4"/>
+<polygon fill="#64748b" stroke="#64748b" points="280.05,-348.73 281.68,-341.49 275.89,-346.14 280.05,-348.73"/>
+</g>
+<!-- n65&#45;&gt;n5 -->
+<g id="edge124" class="edge">
+<title>n65&#45;&gt;n5</title>
+<path fill="none" stroke="#64748b" d="M754.46,-880.71C647.72,-872.15 541.12,-860.37 491,-845.2 361.58,-806.03 313.8,-801.39 223,-701.2 125.17,-593.26 179.98,-521.66 182,-376 182.44,-343.99 164.36,-329.28 184,-304 195.78,-288.84 234.16,-276.65 273.01,-267.79"/>
+<polygon fill="#64748b" stroke="#64748b" points="273.52,-270.19 279.83,-266.28 272.46,-265.41 273.52,-270.19"/>
+</g>
+<!-- n65&#45;&gt;n6 -->
+<g id="edge125" class="edge">
+<title>n65&#45;&gt;n6</title>
+<path fill="none" stroke="#64748b" d="M713.67,-886.61C576.44,-878.83 434.99,-866.04 371,-845.2 143.77,-771.2 77,-633.98 77,-395 77,-395 77,-395 77,-321 77,-207.69 256.63,-184.77 334.59,-180.15"/>
+<polygon fill="#64748b" stroke="#64748b" points="334.33,-182.62 341.19,-179.8 334.07,-177.73 334.33,-182.62"/>
+</g>
+<!-- n65&#45;&gt;n64 -->
+<g id="edge126" class="edge">
+<title>n65&#45;&gt;n64</title>
+<path fill="none" stroke="#64748b" d="M1050.73,-880.9C1051.55,-872.67 1052.55,-862.68 1053.46,-853.62"/>
+<polygon fill="#64748b" stroke="#64748b" points="1055.88,-854.02 1054.14,-846.81 1051,-853.53 1055.88,-854.02"/>
+</g>
+<!-- n65&#45;&gt;n0 -->
+<g id="edge120" class="edge">
+<title>n65&#45;&gt;n0</title>
+<path fill="none" stroke="#64748b" d="M1384.61,-889.52C1640.6,-881.61 2001.82,-867.66 2318,-845.2 2944.25,-800.72 3131.94,-864.51 3714,-629.2 3853.65,-572.74 3900.96,-558.07 3996,-441.2 4036.32,-391.62 4072.9,-358.17 4039,-304 4026.93,-284.7 4005.59,-272.25 3984.98,-264.3"/>
+<polygon fill="#64748b" stroke="#64748b" points="3985.98,-262.06 3978.56,-261.99 3984.31,-266.67 3985.98,-262.06"/>
+</g>
+<!-- n65&#45;&gt;n1 -->
+<g id="edge121" class="edge">
+<title>n65&#45;&gt;n1</title>
+<path fill="none" stroke="#64748b" d="M1330.63,-880.71C1743.87,-852.19 2474.6,-789.84 2556,-701.2 2628.35,-622.41 2593.2,-478.44 2574.8,-420.33"/>
+<polygon fill="#64748b" stroke="#64748b" points="2577.18,-419.73 2572.69,-413.83 2572.52,-421.25 2577.18,-419.73"/>
+</g>
+<!-- n65&#45;&gt;n2 -->
+<g id="edge122" class="edge">
+<title>n65&#45;&gt;n2</title>
+<path fill="none" stroke="#64748b" d="M1384.51,-882.89C2006.99,-852.23 3278,-778.14 3278,-684.2 3278,-684.2 3278,-684.2 3278,-538.2 3278,-518.42 3172.89,-451.44 3115.84,-416.55"/>
+<polygon fill="#64748b" stroke="#64748b" points="3117.34,-414.59 3110.08,-413.04 3114.78,-418.77 3117.34,-414.59"/>
+</g>
+<!-- n66 -->
+<g id="node17" class="node">
+<title>n66</title>
+<g id="a_node17"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Regression/DebiasingLasso.lean:2354" xlink:title="theorem · Statlib/HighDim/Regression/DebiasingLasso.lean:2354" target="_blank">
+<path fill="#ffe6a3" stroke="#d4a017" d="M1371.47,-989.2C1371.47,-989.2 728.53,-989.2 728.53,-989.2 722.53,-989.2 716.53,-983.2 716.53,-977.2 716.53,-977.2 716.53,-965.2 716.53,-965.2 716.53,-959.2 722.53,-953.2 728.53,-953.2 728.53,-953.2 1371.47,-953.2 1371.47,-953.2 1377.47,-953.2 1383.47,-959.2 1383.47,-965.2 1383.47,-965.2 1383.47,-977.2 1383.47,-977.2 1383.47,-983.2 1377.47,-989.2 1371.47,-989.2"/>
+<text xml:space="preserve" text-anchor="middle" x="1050" y="-968.2" font-family="Helvetica,sans-Serif" font-size="10.00">tendsto_measure_debiasedLasso_waldCIHalfWidth_contains_coordinate_of_iid_scoreSum_l1_rowApprox_and_gaussianLimitCDFCalibration_real</text>
+</a>
+</g>
+</g>
+<!-- n66&#45;&gt;n3 -->
+<g id="edge130" class="edge">
+<title>n66&#45;&gt;n3</title>
+<path fill="none" stroke="#64748b" d="M858.98,-952.71C686.52,-933.8 448.33,-898.94 371,-845.2 246.3,-758.54 217,-692.06 217,-540.2 217,-540.2 217,-540.2 217,-466.2 217,-419.48 249.41,-373.49 272.45,-346.7"/>
+<polygon fill="#64748b" stroke="#64748b" points="274.28,-348.33 277.07,-341.45 270.61,-345.08 274.28,-348.33"/>
+</g>
+<!-- n66&#45;&gt;n5 -->
+<g id="edge131" class="edge">
+<title>n66&#45;&gt;n5</title>
+<path fill="none" stroke="#64748b" d="M737.29,-952.71C459.44,-932.82 97,-894.22 97,-828.2 97,-828.2 97,-828.2 97,-682.2 97,-510.92 54.02,-429.1 171,-304 185.6,-288.39 229.96,-275.8 273.1,-266.82"/>
+<polygon fill="#64748b" stroke="#64748b" points="273.56,-269.22 279.93,-265.43 272.58,-264.42 273.56,-269.22"/>
+</g>
+<!-- n66&#45;&gt;n6 -->
+<g id="edge132" class="edge">
+<title>n66&#45;&gt;n6</title>
+<path fill="none" stroke="#64748b" d="M716.1,-958.5C496.76,-949.27 241.5,-935 192,-917.2 21.53,-855.89 37,-721.36 37,-540.2 37,-540.2 37,-540.2 37,-321 37,-192.79 248.45,-178.74 334.36,-178.33"/>
+<polygon fill="#64748b" stroke="#64748b" points="334.24,-180.78 341.24,-178.33 334.24,-175.88 334.24,-180.78"/>
+</g>
+<!-- n66&#45;&gt;n65 -->
+<g id="edge133" class="edge">
+<title>n66&#45;&gt;n65</title>
+<path fill="none" stroke="#64748b" d="M1049.75,-952.9C1049.64,-944.67 1049.49,-934.68 1049.36,-925.62"/>
+<polygon fill="#64748b" stroke="#64748b" points="1051.82,-925.78 1049.27,-918.82 1046.92,-925.85 1051.82,-925.78"/>
+</g>
+<!-- n66&#45;&gt;n0 -->
+<g id="edge127" class="edge">
+<title>n66&#45;&gt;n0</title>
+<path fill="none" stroke="#64748b" d="M1383.71,-966.26C1770.06,-960.49 2425.43,-947.01 2988,-917.2 3113.88,-910.53 4119,-954.26 4119,-828.2 4119,-828.2 4119,-828.2 4119,-538.2 4119,-430.86 4130.39,-385.04 4060,-304 4040.88,-281.99 4011.24,-268.98 3985.09,-261.36"/>
+<polygon fill="#64748b" stroke="#64748b" points="3985.96,-259.06 3978.56,-259.56 3984.66,-263.78 3985.96,-259.06"/>
+</g>
+<!-- n66&#45;&gt;n1 -->
+<g id="edge128" class="edge">
+<title>n66&#45;&gt;n1</title>
+<path fill="none" stroke="#64748b" d="M1354.88,-952.72C1637.49,-930.42 2067.16,-880.9 2426,-773.2 2499.14,-751.25 2529.69,-756.83 2582,-701.2 2605.52,-676.19 2603.2,-662.85 2610,-629.2 2625.86,-550.69 2629.4,-524.09 2601,-449.2 2596.99,-438.62 2590.69,-427.95 2584.54,-418.91"/>
+<polygon fill="#64748b" stroke="#64748b" points="2586.6,-417.58 2580.56,-413.28 2582.6,-420.41 2586.6,-417.58"/>
+</g>
+<!-- n66&#45;&gt;n2 -->
+<g id="edge129" class="edge">
+<title>n66&#45;&gt;n2</title>
+<path fill="none" stroke="#64748b" d="M1383.75,-966.08C2013.84,-956.07 3316,-923.82 3316,-828.2 3316,-828.2 3316,-828.2 3316,-538.2 3316,-476.68 3265.57,-475.59 3210,-449.2 3192.83,-441.05 3185.94,-447.46 3168,-441.2 3149.78,-434.84 3130.67,-425.21 3114.94,-416.39"/>
+<polygon fill="#64748b" stroke="#64748b" points="3116.58,-414.51 3109.28,-413.16 3114.15,-418.76 3116.58,-414.51"/>
+</g>
+<!-- n67 -->
+<g id="node18" class="node">
+<title>n67</title>
+<g id="a_node18"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Regression/DebiasingLasso.lean:2599" xlink:title="theorem · Statlib/HighDim/Regression/DebiasingLasso.lean:2599" target="_blank">
+<path fill="#ffe6a3" stroke="#d4a017" stroke-width="3" d="M1298.28,-1061.2C1298.28,-1061.2 947.72,-1061.2 947.72,-1061.2 941.72,-1061.2 935.72,-1055.2 935.72,-1049.2 935.72,-1049.2 935.72,-1037.2 935.72,-1037.2 935.72,-1031.2 941.72,-1025.2 947.72,-1025.2 947.72,-1025.2 1298.28,-1025.2 1298.28,-1025.2 1304.28,-1025.2 1310.28,-1031.2 1310.28,-1037.2 1310.28,-1037.2 1310.28,-1049.2 1310.28,-1049.2 1310.28,-1055.2 1304.28,-1061.2 1298.28,-1061.2"/>
+<text xml:space="preserve" text-anchor="middle" x="1123" y="-1040.2" font-family="Helvetica,sans-Serif" font-size="10.00">tendsto_measure_debiasedLasso_standardWaldCI_coverage_iidScoreSum_real</text>
+</a>
+</g>
+</g>
+<!-- n67&#45;&gt;n3 -->
+<g id="edge137" class="edge">
+<title>n67&#45;&gt;n3</title>
+<path fill="none" stroke="#64748b" d="M934.37,-1027.98C702.26,-1008.56 322.85,-970.03 192,-917.2 141.55,-896.83 120.06,-892.4 93,-845.2 57.24,-782.82 77,-756.11 77,-684.2 77,-684.2 77,-684.2 77,-610.2 77,-489.16 132.81,-463.92 216,-376 227.31,-364.05 241.78,-353.37 255.24,-344.79"/>
+<polygon fill="#64748b" stroke="#64748b" points="256.22,-347.06 260.88,-341.29 253.64,-342.9 256.22,-347.06"/>
+</g>
+<!-- n67&#45;&gt;n5 -->
+<g id="edge138" class="edge">
+<title>n67&#45;&gt;n5</title>
+<path fill="none" stroke="#64748b" d="M934.45,-1036.41C623.47,-1024.3 37,-989.63 37,-900.2 37,-900.2 37,-900.2 37,-754.2 37,-658.67 57,-635.73 57,-540.2 57,-540.2 57,-540.2 57,-393 57,-296.7 181.38,-265.39 273.33,-255.39"/>
+<polygon fill="#64748b" stroke="#64748b" points="273.34,-257.85 280.06,-254.7 272.84,-252.98 273.34,-257.85"/>
+</g>
+<!-- n67&#45;&gt;n6 -->
+<g id="edge139" class="edge">
+<title>n67&#45;&gt;n6</title>
+<path fill="none" stroke="#64748b" d="M934.24,-1038.23C666.18,-1031.67 199.42,-1016.5 126,-989.2 67.38,-967.4 17,-962.74 17,-900.2 17,-900.2 17,-900.2 17,-321 17,-278.66 18.22,-258.8 51,-232 93.95,-196.89 260.71,-184.4 334.51,-180.53"/>
+<polygon fill="#64748b" stroke="#64748b" points="334.24,-183 341.11,-180.2 333.99,-178.11 334.24,-183"/>
+</g>
+<!-- n67&#45;&gt;n66 -->
+<g id="edge141" class="edge">
+<title>n67&#45;&gt;n66</title>
+<path fill="none" stroke="#64748b" d="M1103.82,-1023.81C1094.67,-1015.04 1083.63,-1004.45 1073.94,-995.16"/>
+<polygon fill="#64748b" stroke="#64748b" points="1075.64,-993.39 1068.89,-990.32 1072.25,-996.93 1075.64,-993.39"/>
+</g>
+<!-- n67&#45;&gt;n0 -->
+<g id="edge134" class="edge">
+<title>n67&#45;&gt;n0</title>
+<path fill="none" stroke="#64748b" d="M1311.49,-1041.42C1822.45,-1038.81 3226.56,-1028.2 3688,-989.2 3915.97,-969.93 4195,-1128.98 4195,-900.2 4195,-900.2 4195,-900.2 4195,-393 4195,-298.83 4063.37,-266.86 3985.65,-256.2"/>
+<polygon fill="#64748b" stroke="#64748b" points="3986.14,-253.79 3978.88,-255.31 3985.5,-258.65 3986.14,-253.79"/>
+</g>
+<!-- n67&#45;&gt;n1 -->
+<g id="edge135" class="edge">
+<title>n67&#45;&gt;n1</title>
+<path fill="none" stroke="#64748b" d="M1311.77,-1039.98C1850.05,-1032.42 3354,-1002.17 3354,-900.2 3354,-900.2 3354,-900.2 3354,-538.2 3354,-382.26 2807.98,-487.26 2659,-441.2 2639.43,-435.15 2618.92,-425.37 2602.15,-416.37"/>
+<polygon fill="#64748b" stroke="#64748b" points="2603.37,-414.24 2596.05,-413.03 2601.02,-418.54 2603.37,-414.24"/>
+</g>
+<!-- n67&#45;&gt;n2 -->
+<g id="edge136" class="edge">
+<title>n67&#45;&gt;n2</title>
+<path fill="none" stroke="#64748b" d="M1311.77,-1041.43C1725.91,-1039.02 2703.39,-1029.15 3032,-989.2 3195.61,-969.31 3392,-1065.02 3392,-900.2 3392,-900.2 3392,-900.2 3392,-538.2 3392,-525.13 3379.48,-527.45 3368,-521.2 3283.91,-475.44 3254.94,-481.28 3168,-441.2 3151.57,-433.63 3133.84,-424.51 3118.63,-416.38"/>
+<polygon fill="#64748b" stroke="#64748b" points="3120.04,-414.35 3112.71,-413.2 3117.71,-418.67 3120.04,-414.35"/>
+</g>
+<!-- n7 -->
+<g id="node22" class="node">
+<title>n7</title>
+<g id="a_node22"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/StatFoundation/Vocabulary/GaussianCriticalValue.lean:17" xlink:title="def · Statlib/StatFoundation/Vocabulary/GaussianCriticalValue.lean:17" target="_blank">
+<path fill="#d6e9ff" stroke="#3b82f6" d="M3372.61,-412C3372.61,-412 3189.39,-412 3189.39,-412 3183.39,-412 3177.39,-406 3177.39,-400 3177.39,-400 3177.39,-388 3177.39,-388 3177.39,-382 3183.39,-376 3189.39,-376 3189.39,-376 3372.61,-376 3372.61,-376 3378.61,-376 3384.61,-382 3384.61,-388 3384.61,-388 3384.61,-400 3384.61,-400 3384.61,-406 3378.61,-412 3372.61,-412"/>
+<text xml:space="preserve" text-anchor="middle" x="3281" y="-391" font-family="Helvetica,sans-Serif" font-size="10.00">IsStandardGaussianTwoSidedCriticalValue</text>
+</a>
+</g>
+</g>
+<!-- n67&#45;&gt;n7 -->
+<g id="edge140" class="edge">
+<title>n67&#45;&gt;n7</title>
+<path fill="none" stroke="#64748b" d="M1311.55,-1040.82C1679.12,-1037.37 2517.16,-1025.85 3221,-989.2 3429.66,-978.34 4157,-1109.14 4157,-900.2 4157,-900.2 4157,-900.2 4157,-538.2 4157,-461.67 3629.55,-417.69 3393.21,-401.82"/>
+<polygon fill="#64748b" stroke="#64748b" points="3393.59,-399.39 3386.44,-401.37 3393.26,-404.28 3393.59,-399.39"/>
+</g>
+<!-- n8 -->
+<g id="node23" class="node">
+<title>n8</title>
+<g id="a_node23"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/StatFoundation/Convergence/AnalysisTools/ConvergenceModes.lean:1201" xlink:title="structure · Statlib/StatFoundation/Convergence/AnalysisTools/ConvergenceModes.lean:1201" target="_blank">
+<path fill="#e8dcff" stroke="#8b5cf6" d="M3414.14,-124C3414.14,-124 3339.86,-124 3339.86,-124 3333.86,-124 3327.86,-118 3327.86,-112 3327.86,-112 3327.86,-100 3327.86,-100 3327.86,-94 3333.86,-88 3339.86,-88 3339.86,-88 3414.14,-88 3414.14,-88 3420.14,-88 3426.14,-94 3426.14,-100 3426.14,-100 3426.14,-112 3426.14,-112 3426.14,-118 3420.14,-124 3414.14,-124"/>
+<text xml:space="preserve" text-anchor="middle" x="3377" y="-103" font-family="Helvetica,sans-Serif" font-size="10.00">PortmanteauEquiv</text>
+</a>
+</g>
+</g>
+<!-- n9 -->
+<g id="node24" class="node">
+<title>n9</title>
+<g id="a_node24"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/StatFoundation/Convergence/AnalysisTools/ConvergenceModes.lean:1231" xlink:title="theorem · Statlib/StatFoundation/Convergence/AnalysisTools/ConvergenceModes.lean:1231" target="_blank">
+<path fill="#ffe6a3" stroke="#d4a017" d="M3453.82,-196C3453.82,-196 3336.18,-196 3336.18,-196 3330.18,-196 3324.18,-190 3324.18,-184 3324.18,-184 3324.18,-172 3324.18,-172 3324.18,-166 3330.18,-160 3336.18,-160 3336.18,-160 3453.82,-160 3453.82,-160 3459.82,-160 3465.82,-166 3465.82,-172 3465.82,-172 3465.82,-184 3465.82,-184 3465.82,-190 3459.82,-196 3453.82,-196"/>
+<text xml:space="preserve" text-anchor="middle" x="3395" y="-175" font-family="Helvetica,sans-Serif" font-size="10.00">portmanteau_of_weak_conv</text>
+</a>
+</g>
+</g>
+<!-- n9&#45;&gt;n8 -->
+<g id="edge2" class="edge">
+<title>n9&#45;&gt;n8</title>
+<path fill="none" stroke="#64748b" d="M3390.55,-159.7C3388.41,-151.39 3385.81,-141.28 3383.46,-132.14"/>
+<polygon fill="#64748b" stroke="#64748b" points="3385.89,-131.74 3381.78,-125.57 3381.15,-132.96 3385.89,-131.74"/>
+</g>
+<!-- n10 -->
+<g id="node25" class="node">
+<title>n10</title>
+<g id="a_node25"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/StatFoundation/Convergence/AnalysisTools/ConvergenceModes.lean:1246" xlink:title="theorem · Statlib/StatFoundation/Convergence/AnalysisTools/ConvergenceModes.lean:1246" target="_blank">
+<path fill="#ffe6a3" stroke="#d4a017" d="M3402.67,-268C3402.67,-268 3223.33,-268 3223.33,-268 3217.33,-268 3211.33,-262 3211.33,-256 3211.33,-256 3211.33,-244 3211.33,-244 3211.33,-238 3217.33,-232 3223.33,-232 3223.33,-232 3402.67,-232 3402.67,-232 3408.67,-232 3414.67,-238 3414.67,-244 3414.67,-244 3414.67,-256 3414.67,-256 3414.67,-262 3408.67,-268 3402.67,-268"/>
+<text xml:space="preserve" text-anchor="middle" x="3313" y="-247" font-family="Helvetica,sans-Serif" font-size="10.00">portmanteau_law_of_tendstoInDistribution</text>
+</a>
+</g>
+</g>
+<!-- n10&#45;&gt;n8 -->
+<g id="edge3" class="edge">
+<title>n10&#45;&gt;n8</title>
+<path fill="none" stroke="#64748b" d="M3308.97,-231.75C3305.16,-211.42 3301.81,-177.23 3315,-152 3319.67,-143.07 3327.01,-135.48 3335.03,-129.23"/>
+<polygon fill="#64748b" stroke="#64748b" points="3336.41,-131.25 3340.65,-125.17 3333.54,-127.28 3336.41,-131.25"/>
+</g>
+<!-- n10&#45;&gt;n9 -->
+<g id="edge4" class="edge">
+<title>n10&#45;&gt;n9</title>
+<path fill="none" stroke="#64748b" d="M3333.27,-231.7C3343.82,-222.69 3356.84,-211.57 3368.21,-201.87"/>
+<polygon fill="#64748b" stroke="#64748b" points="3369.79,-203.74 3373.53,-197.33 3366.61,-200.01 3369.79,-203.74"/>
+</g>
+<!-- n11 -->
+<g id="node26" class="node">
+<title>n11</title>
+<g id="a_node26"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/StatFoundation/Convergence/AnalysisTools/ConvergenceModes.lean:1289" xlink:title="theorem · Statlib/StatFoundation/Convergence/AnalysisTools/ConvergenceModes.lean:1289" target="_blank">
+<path fill="#ffe6a3" stroke="#d4a017" d="M3377.09,-340C3377.09,-340 3104.91,-340 3104.91,-340 3098.91,-340 3092.91,-334 3092.91,-328 3092.91,-328 3092.91,-316 3092.91,-316 3092.91,-310 3098.91,-304 3104.91,-304 3104.91,-304 3377.09,-304 3377.09,-304 3383.09,-304 3389.09,-310 3389.09,-316 3389.09,-316 3389.09,-328 3389.09,-328 3389.09,-334 3383.09,-340 3377.09,-340"/>
+<text xml:space="preserve" text-anchor="middle" x="3241" y="-319" font-family="Helvetica,sans-Serif" font-size="10.00">tendsto_law_measure_of_null_frontier_of_tendstoInDistribution</text>
+</a>
+</g>
+</g>
+<!-- n11&#45;&gt;n10 -->
+<g id="edge5" class="edge">
+<title>n11&#45;&gt;n10</title>
+<path fill="none" stroke="#64748b" d="M3258.8,-303.7C3267.97,-294.78 3279.28,-283.78 3289.2,-274.14"/>
+<polygon fill="#64748b" stroke="#64748b" points="3290.76,-276.04 3294.07,-269.4 3287.35,-272.52 3290.76,-276.04"/>
+</g>
+<!-- n12&#45;&gt;n11 -->
+<g id="edge6" class="edge">
+<title>n12&#45;&gt;n11</title>
+<path fill="none" stroke="#64748b" d="M2928.9,-375.52C2989.82,-365.27 3066.79,-352.31 3129.05,-341.84"/>
+<polygon fill="#64748b" stroke="#64748b" points="3129.35,-344.27 3135.85,-340.69 3128.54,-339.44 3129.35,-344.27"/>
+</g>
+<!-- n13&#45;&gt;n0 -->
+<g id="edge7" class="edge">
+<title>n13&#45;&gt;n0</title>
+<path fill="none" stroke="#64748b" d="M3908.17,-303.7C3911.65,-295.3 3915.89,-285.07 3919.7,-275.86"/>
+<polygon fill="#64748b" stroke="#64748b" points="3921.92,-276.91 3922.33,-269.5 3917.39,-275.03 3921.92,-276.91"/>
+</g>
+<!-- n14 -->
+<g id="node29" class="node">
+<title>n14</title>
+<g id="a_node29"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/StatFoundation/Convergence/AnalysisTools/CharacteristicFunction.lean:563" xlink:title="lemma · Statlib/StatFoundation/Convergence/AnalysisTools/CharacteristicFunction.lean:563" target="_blank">
+<path fill="#eef2f6" stroke="#94a3b8" d="M2234.36,-268C2234.36,-268 2135.64,-268 2135.64,-268 2129.64,-268 2123.64,-262 2123.64,-256 2123.64,-256 2123.64,-244 2123.64,-244 2123.64,-238 2129.64,-232 2135.64,-232 2135.64,-232 2234.36,-232 2234.36,-232 2240.36,-232 2246.36,-238 2246.36,-244 2246.36,-244 2246.36,-256 2246.36,-256 2246.36,-262 2240.36,-268 2234.36,-268"/>
+<text xml:space="preserve" text-anchor="middle" x="2185" y="-247" font-family="Helvetica,sans-Serif" font-size="10.00">lyapunov_third_moment</text>
+</a>
+</g>
+</g>
+<!-- n15 -->
+<g id="node30" class="node">
+<title>n15</title>
+<g id="a_node30"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/StatFoundation/Convergence/AnalysisTools/CharacteristicFunction.lean:282" xlink:title="lemma · Statlib/StatFoundation/Convergence/AnalysisTools/CharacteristicFunction.lean:282" target="_blank">
+<path fill="#eef2f6" stroke="#94a3b8" d="M2369.92,-196C2369.92,-196 2290.08,-196 2290.08,-196 2284.08,-196 2278.08,-190 2278.08,-184 2278.08,-184 2278.08,-172 2278.08,-172 2278.08,-166 2284.08,-160 2290.08,-160 2290.08,-160 2369.92,-160 2369.92,-160 2375.92,-160 2381.92,-166 2381.92,-172 2381.92,-172 2381.92,-184 2381.92,-184 2381.92,-190 2375.92,-196 2369.92,-196"/>
+<text xml:space="preserve" text-anchor="middle" x="2330" y="-175" font-family="Helvetica,sans-Serif" font-size="10.00">charfun_sum_indep</text>
+</a>
+</g>
+</g>
+<!-- n16 -->
+<g id="node31" class="node">
+<title>n16</title>
+<g id="a_node31"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/StatFoundation/Convergence/AnalysisTools/CharacteristicFunction.lean:323" xlink:title="lemma · Statlib/StatFoundation/Convergence/AnalysisTools/CharacteristicFunction.lean:323" target="_blank">
+<path fill="#eef2f6" stroke="#94a3b8" d="M2383.82,-268C2383.82,-268 2276.18,-268 2276.18,-268 2270.18,-268 2264.18,-262 2264.18,-256 2264.18,-256 2264.18,-244 2264.18,-244 2264.18,-238 2270.18,-232 2276.18,-232 2276.18,-232 2383.82,-232 2383.82,-232 2389.82,-232 2395.82,-238 2395.82,-244 2395.82,-244 2395.82,-256 2395.82,-256 2395.82,-262 2389.82,-268 2383.82,-268"/>
+<text xml:space="preserve" text-anchor="middle" x="2330" y="-247" font-family="Helvetica,sans-Serif" font-size="10.00">charfun_iid_sum_eq_prod</text>
+</a>
+</g>
+</g>
+<!-- n16&#45;&gt;n15 -->
+<g id="edge8" class="edge">
+<title>n16&#45;&gt;n15</title>
+<path fill="none" stroke="#64748b" d="M2330,-231.7C2330,-223.47 2330,-213.48 2330,-204.42"/>
+<polygon fill="#64748b" stroke="#64748b" points="2332.45,-204.62 2330,-197.62 2327.55,-204.62 2332.45,-204.62"/>
+</g>
+<!-- n17 -->
+<g id="node32" class="node">
+<title>n17</title>
+<g id="a_node32"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/StatFoundation/Convergence/AnalysisTools/CharacteristicFunction.lean:272" xlink:title="lemma · Statlib/StatFoundation/Convergence/AnalysisTools/CharacteristicFunction.lean:272" target="_blank">
+<path fill="#eef2f6" stroke="#94a3b8" d="M2564.66,-268C2564.66,-268 2425.34,-268 2425.34,-268 2419.34,-268 2413.34,-262 2413.34,-256 2413.34,-256 2413.34,-244 2413.34,-244 2413.34,-238 2419.34,-232 2425.34,-232 2425.34,-232 2564.66,-232 2564.66,-232 2570.66,-232 2576.66,-238 2576.66,-244 2576.66,-244 2576.66,-256 2576.66,-256 2576.66,-262 2570.66,-268 2564.66,-268"/>
+<text xml:space="preserve" text-anchor="middle" x="2495" y="-247" font-family="Helvetica,sans-Serif" font-size="10.00">charFun_gaussianReal_standard</text>
+</a>
+</g>
+</g>
+<!-- n18 -->
+<g id="node33" class="node">
+<title>n18</title>
+<g id="a_node33"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/StatFoundation/Convergence/AnalysisTools/CharacteristicFunction.lean:16" xlink:title="lemma · Statlib/StatFoundation/Convergence/AnalysisTools/CharacteristicFunction.lean:16" target="_blank">
+<path fill="#eef2f6" stroke="#94a3b8" d="M2537.63,-52C2537.63,-52 2458.37,-52 2458.37,-52 2452.37,-52 2446.37,-46 2446.37,-40 2446.37,-40 2446.37,-28 2446.37,-28 2446.37,-22 2452.37,-16 2458.37,-16 2458.37,-16 2537.63,-16 2537.63,-16 2543.63,-16 2549.63,-22 2549.63,-28 2549.63,-28 2549.63,-40 2549.63,-40 2549.63,-46 2543.63,-52 2537.63,-52"/>
+<text xml:space="preserve" text-anchor="middle" x="2498" y="-31" font-family="Helvetica,sans-Serif" font-size="10.00">norm_ofReal_mul_I</text>
+</a>
+</g>
+</g>
+<!-- n19 -->
+<g id="node34" class="node">
+<title>n19</title>
+<g id="a_node34"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/StatFoundation/Convergence/AnalysisTools/CharacteristicFunction.lean:22" xlink:title="lemma · Statlib/StatFoundation/Convergence/AnalysisTools/CharacteristicFunction.lean:22" target="_blank">
+<path fill="#eef2f6" stroke="#94a3b8" d="M2559.6,-124C2559.6,-124 2436.4,-124 2436.4,-124 2430.4,-124 2424.4,-118 2424.4,-112 2424.4,-112 2424.4,-100 2424.4,-100 2424.4,-94 2430.4,-88 2436.4,-88 2436.4,-88 2559.6,-88 2559.6,-88 2565.6,-88 2571.6,-94 2571.6,-100 2571.6,-100 2571.6,-112 2571.6,-112 2571.6,-118 2565.6,-124 2559.6,-124"/>
+<text xml:space="preserve" text-anchor="middle" x="2498" y="-103" font-family="Helvetica,sans-Serif" font-size="10.00">norm_cexp_sub_quadratic_le</text>
+</a>
+</g>
+</g>
+<!-- n19&#45;&gt;n18 -->
+<g id="edge9" class="edge">
+<title>n19&#45;&gt;n18</title>
+<path fill="none" stroke="#64748b" d="M2498,-87.7C2498,-79.47 2498,-69.48 2498,-60.42"/>
+<polygon fill="#64748b" stroke="#64748b" points="2500.45,-60.62 2498,-53.62 2495.55,-60.62 2500.45,-60.62"/>
+</g>
+<!-- n20 -->
+<g id="node35" class="node">
+<title>n20</title>
+<g id="a_node35"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/StatFoundation/Convergence/AnalysisTools/CharacteristicFunction.lean:86" xlink:title="lemma · Statlib/StatFoundation/Convergence/AnalysisTools/CharacteristicFunction.lean:86" target="_blank">
+<path fill="#eef2f6" stroke="#94a3b8" d="M2559.03,-196C2559.03,-196 2436.97,-196 2436.97,-196 2430.97,-196 2424.97,-190 2424.97,-184 2424.97,-184 2424.97,-172 2424.97,-172 2424.97,-166 2430.97,-160 2436.97,-160 2436.97,-160 2559.03,-160 2559.03,-160 2565.03,-160 2571.03,-166 2571.03,-172 2571.03,-172 2571.03,-184 2571.03,-184 2571.03,-190 2565.03,-196 2559.03,-196"/>
+<text xml:space="preserve" text-anchor="middle" x="2498" y="-175" font-family="Helvetica,sans-Serif" font-size="10.00">charfun_taylor_third_moment</text>
+</a>
+</g>
+</g>
+<!-- n20&#45;&gt;n19 -->
+<g id="edge10" class="edge">
+<title>n20&#45;&gt;n19</title>
+<path fill="none" stroke="#64748b" d="M2498,-159.7C2498,-151.47 2498,-141.48 2498,-132.42"/>
+<polygon fill="#64748b" stroke="#64748b" points="2500.45,-132.62 2498,-125.62 2495.55,-132.62 2500.45,-132.62"/>
+</g>
+<!-- n21 -->
+<g id="node36" class="node">
+<title>n21</title>
+<g id="a_node36"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/StatFoundation/Convergence/AnalysisTools/CharacteristicFunction.lean:187" xlink:title="lemma · Statlib/StatFoundation/Convergence/AnalysisTools/CharacteristicFunction.lean:187" target="_blank">
+<path fill="#eef2f6" stroke="#94a3b8" d="M2726.71,-196C2726.71,-196 2601.29,-196 2601.29,-196 2595.29,-196 2589.29,-190 2589.29,-184 2589.29,-184 2589.29,-172 2589.29,-172 2589.29,-166 2595.29,-160 2601.29,-160 2601.29,-160 2726.71,-160 2726.71,-160 2732.71,-160 2738.71,-166 2738.71,-172 2738.71,-172 2738.71,-184 2738.71,-184 2738.71,-190 2732.71,-196 2726.71,-196"/>
+<text xml:space="preserve" text-anchor="middle" x="2664" y="-175" font-family="Helvetica,sans-Serif" font-size="10.00">norm_prod_sub_prod_le_sum</text>
+</a>
+</g>
+</g>
+<!-- n22 -->
+<g id="node37" class="node">
+<title>n22</title>
+<g id="a_node37"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/StatFoundation/Convergence/AnalysisTools/CharacteristicFunction.lean:419" xlink:title="lemma · Statlib/StatFoundation/Convergence/AnalysisTools/CharacteristicFunction.lean:419" target="_blank">
+<path fill="#eef2f6" stroke="#94a3b8" d="M2730.88,-268C2730.88,-268 2607.12,-268 2607.12,-268 2601.12,-268 2595.12,-262 2595.12,-256 2595.12,-256 2595.12,-244 2595.12,-244 2595.12,-238 2601.12,-232 2607.12,-232 2607.12,-232 2730.88,-232 2730.88,-232 2736.88,-232 2742.88,-238 2742.88,-244 2742.88,-244 2742.88,-256 2742.88,-256 2742.88,-262 2736.88,-268 2730.88,-268"/>
+<text xml:space="preserve" text-anchor="middle" x="2669" y="-247" font-family="Helvetica,sans-Serif" font-size="10.00">charfun_prod_vs_pow_bound</text>
+</a>
+</g>
+</g>
+<!-- n22&#45;&gt;n20 -->
+<g id="edge11" class="edge">
+<title>n22&#45;&gt;n20</title>
+<path fill="none" stroke="#64748b" d="M2626.29,-231.52C2602.64,-221.83 2573.09,-209.74 2548.32,-199.6"/>
+<polygon fill="#64748b" stroke="#64748b" points="2549.27,-197.34 2541.86,-196.96 2547.41,-201.87 2549.27,-197.34"/>
+</g>
+<!-- n22&#45;&gt;n21 -->
+<g id="edge12" class="edge">
+<title>n22&#45;&gt;n21</title>
+<path fill="none" stroke="#64748b" d="M2667.76,-231.7C2667.18,-223.47 2666.46,-213.48 2665.82,-204.42"/>
+<polygon fill="#64748b" stroke="#64748b" points="2668.27,-204.42 2665.33,-197.61 2663.38,-204.77 2668.27,-204.42"/>
+</g>
+<!-- n23 -->
+<g id="node38" class="node">
+<title>n23</title>
+<g id="a_node38"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/StatFoundation/Convergence/AnalysisTools/CharacteristicFunction.lean:350" xlink:title="lemma · Statlib/StatFoundation/Convergence/AnalysisTools/CharacteristicFunction.lean:350" target="_blank">
+<path fill="#eef2f6" stroke="#94a3b8" d="M2911.61,-196C2911.61,-196 2768.39,-196 2768.39,-196 2762.39,-196 2756.39,-190 2756.39,-184 2756.39,-184 2756.39,-172 2756.39,-172 2756.39,-166 2762.39,-160 2768.39,-160 2768.39,-160 2911.61,-160 2911.61,-160 2917.61,-160 2923.61,-166 2923.61,-172 2923.61,-172 2923.61,-184 2923.61,-184 2923.61,-190 2917.61,-196 2911.61,-196"/>
+<text xml:space="preserve" text-anchor="middle" x="2840" y="-175" font-family="Helvetica,sans-Serif" font-size="10.00">complex_pow_approx_exp_decay</text>
+</a>
+</g>
+</g>
+<!-- n24 -->
+<g id="node39" class="node">
+<title>n24</title>
+<g id="a_node39"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/StatFoundation/Convergence/AnalysisTools/CharacteristicFunction.lean:401" xlink:title="lemma · Statlib/StatFoundation/Convergence/AnalysisTools/CharacteristicFunction.lean:401" target="_blank">
+<path fill="#eef2f6" stroke="#94a3b8" d="M2883.48,-268C2883.48,-268 2772.52,-268 2772.52,-268 2766.52,-268 2760.52,-262 2760.52,-256 2760.52,-256 2760.52,-244 2760.52,-244 2760.52,-238 2766.52,-232 2772.52,-232 2772.52,-232 2883.48,-232 2883.48,-232 2889.48,-232 2895.48,-238 2895.48,-244 2895.48,-244 2895.48,-256 2895.48,-256 2895.48,-262 2889.48,-268 2883.48,-268"/>
+<text xml:space="preserve" text-anchor="middle" x="2828" y="-247" font-family="Helvetica,sans-Serif" font-size="10.00">complex_pow_approx_exp</text>
+</a>
+</g>
+</g>
+<!-- n24&#45;&gt;n23 -->
+<g id="edge13" class="edge">
+<title>n24&#45;&gt;n23</title>
+<path fill="none" stroke="#64748b" d="M2830.97,-231.7C2832.38,-223.47 2834.09,-213.48 2835.64,-204.42"/>
+<polygon fill="#64748b" stroke="#64748b" points="2838.04,-204.91 2836.81,-197.6 2833.21,-204.08 2838.04,-204.91"/>
+</g>
+<!-- n25 -->
+<g id="node40" class="node">
+<title>n25</title>
+<g id="a_node40"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/StatFoundation/Convergence/AnalysisTools/CharacteristicFunction.lean:486" xlink:title="lemma · Statlib/StatFoundation/Convergence/AnalysisTools/CharacteristicFunction.lean:486" target="_blank">
+<path fill="#eef2f6" stroke="#94a3b8" d="M2081.03,-196C2081.03,-196 2008.97,-196 2008.97,-196 2002.97,-196 1996.97,-190 1996.97,-184 1996.97,-184 1996.97,-172 1996.97,-172 1996.97,-166 2002.97,-160 2008.97,-160 2008.97,-160 2081.03,-160 2081.03,-160 2087.03,-160 2093.03,-166 2093.03,-172 2093.03,-172 2093.03,-184 2093.03,-184 2093.03,-190 2087.03,-196 2081.03,-196"/>
+<text xml:space="preserve" text-anchor="middle" x="2045" y="-175" font-family="Helvetica,sans-Serif" font-size="10.00">charfun_arith_aux</text>
+</a>
+</g>
+</g>
+<!-- n26 -->
+<g id="node41" class="node">
+<title>n26</title>
+<g id="a_node41"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/StatFoundation/Convergence/AnalysisTools/CharacteristicFunction.lean:510" xlink:title="lemma · Statlib/StatFoundation/Convergence/AnalysisTools/CharacteristicFunction.lean:510" target="_blank">
+<path fill="#eef2f6" stroke="#94a3b8" d="M2094.08,-268C2094.08,-268 1995.92,-268 1995.92,-268 1989.92,-268 1983.92,-262 1983.92,-256 1983.92,-256 1983.92,-244 1983.92,-244 1983.92,-238 1989.92,-232 1995.92,-232 1995.92,-232 2094.08,-232 2094.08,-232 2100.08,-232 2106.08,-238 2106.08,-244 2106.08,-244 2106.08,-256 2106.08,-256 2106.08,-262 2100.08,-268 2094.08,-268"/>
+<text xml:space="preserve" text-anchor="middle" x="2045" y="-247" font-family="Helvetica,sans-Serif" font-size="10.00">charfun_final_arithmetic</text>
+</a>
+</g>
+</g>
+<!-- n26&#45;&gt;n25 -->
+<g id="edge14" class="edge">
+<title>n26&#45;&gt;n25</title>
+<path fill="none" stroke="#64748b" d="M2045,-231.7C2045,-223.47 2045,-213.48 2045,-204.42"/>
+<polygon fill="#64748b" stroke="#64748b" points="2047.45,-204.62 2045,-197.62 2042.55,-204.62 2047.45,-204.62"/>
+</g>
+<!-- n27 -->
+<g id="node42" class="node">
+<title>n27</title>
+<g id="a_node42"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/StatFoundation/Convergence/AnalysisTools/CharacteristicFunction.lean:612" xlink:title="lemma · Statlib/StatFoundation/Convergence/AnalysisTools/CharacteristicFunction.lean:612" target="_blank">
+<path fill="#eef2f6" stroke="#94a3b8" d="M2962.82,-340C2962.82,-340 2825.18,-340 2825.18,-340 2819.18,-340 2813.18,-334 2813.18,-328 2813.18,-328 2813.18,-316 2813.18,-316 2813.18,-310 2819.18,-304 2825.18,-304 2825.18,-304 2962.82,-304 2962.82,-304 2968.82,-304 2974.82,-310 2974.82,-316 2974.82,-316 2974.82,-328 2974.82,-328 2974.82,-334 2968.82,-340 2962.82,-340"/>
+<text xml:space="preserve" text-anchor="middle" x="2894" y="-319" font-family="Helvetica,sans-Serif" font-size="10.00">charfun_normalized_sum_bound</text>
+</a>
+</g>
+</g>
+<!-- n27&#45;&gt;n14 -->
+<g id="edge15" class="edge">
+<title>n27&#45;&gt;n14</title>
+<path fill="none" stroke="#64748b" d="M2813.12,-305.24C2810.05,-304.8 2807,-304.38 2804,-304 2564.14,-273.6 2498.19,-304.29 2255.07,-267.87"/>
+<polygon fill="#64748b" stroke="#64748b" points="2255.51,-265.46 2248.22,-266.83 2254.77,-270.3 2255.51,-265.46"/>
+</g>
+<!-- n27&#45;&gt;n16 -->
+<g id="edge16" class="edge">
+<title>n27&#45;&gt;n16</title>
+<path fill="none" stroke="#64748b" d="M2813.11,-305.34C2810.04,-304.86 2806.99,-304.42 2804,-304 2629.88,-279.78 2581.73,-295.55 2404.35,-267.95"/>
+<polygon fill="#64748b" stroke="#64748b" points="2404.87,-265.55 2397.57,-266.88 2404.11,-270.39 2404.87,-265.55"/>
+</g>
+<!-- n27&#45;&gt;n17 -->
+<g id="edge17" class="edge">
+<title>n27&#45;&gt;n17</title>
+<path fill="none" stroke="#64748b" d="M2813.06,-305.62C2810,-305.07 2806.98,-304.53 2804,-304 2707.3,-286.89 2682.72,-285.02 2586,-268 2585.72,-267.95 2585.44,-267.9 2585.15,-267.85"/>
+<polygon fill="#64748b" stroke="#64748b" points="2585.65,-265.45 2578.33,-266.64 2584.79,-270.27 2585.65,-265.45"/>
+</g>
+<!-- n27&#45;&gt;n22 -->
+<g id="edge18" class="edge">
+<title>n27&#45;&gt;n22</title>
+<path fill="none" stroke="#64748b" d="M2837.8,-303.52C2805.87,-293.58 2765.78,-281.11 2732.69,-270.81"/>
+<polygon fill="#64748b" stroke="#64748b" points="2733.73,-268.57 2726.31,-268.83 2732.27,-273.25 2733.73,-268.57"/>
+</g>
+<!-- n27&#45;&gt;n24 -->
+<g id="edge19" class="edge">
+<title>n27&#45;&gt;n24</title>
+<path fill="none" stroke="#64748b" d="M2877.69,-303.7C2869.29,-294.8 2858.95,-283.82 2849.87,-274.2"/>
+<polygon fill="#64748b" stroke="#64748b" points="2851.75,-272.62 2845.17,-269.21 2848.18,-275.98 2851.75,-272.62"/>
+</g>
+<!-- n27&#45;&gt;n26 -->
+<g id="edge20" class="edge">
+<title>n27&#45;&gt;n26</title>
+<path fill="none" stroke="#64748b" d="M2813.13,-305.19C2810.05,-304.76 2807,-304.36 2804,-304 2499.54,-267.46 2418.41,-312.37 2115,-268 2114.91,-267.99 2114.82,-267.97 2114.73,-267.96"/>
+<polygon fill="#64748b" stroke="#64748b" points="2115.13,-265.54 2107.83,-266.82 2114.34,-270.38 2115.13,-265.54"/>
+</g>
+<!-- n28 -->
+<g id="node43" class="node">
+<title>n28</title>
+<g id="a_node43"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/StatFoundation/Convergence/AnalysisTools/LevyContinuity.lean:15" xlink:title="lemma · Statlib/StatFoundation/Convergence/AnalysisTools/LevyContinuity.lean:15" target="_blank">
+<path fill="#eef2f6" stroke="#94a3b8" d="M3149.64,-196C3149.64,-196 3060.36,-196 3060.36,-196 3054.36,-196 3048.36,-190 3048.36,-184 3048.36,-184 3048.36,-172 3048.36,-172 3048.36,-166 3054.36,-160 3060.36,-160 3060.36,-160 3149.64,-160 3149.64,-160 3155.64,-160 3161.64,-166 3161.64,-172 3161.64,-172 3161.64,-184 3161.64,-184 3161.64,-190 3155.64,-196 3149.64,-196"/>
+<text xml:space="preserve" text-anchor="middle" x="3105" y="-175" font-family="Helvetica,sans-Serif" font-size="10.00">compl_Icc_eq_abs_gt</text>
+</a>
+</g>
+</g>
+<!-- n29 -->
+<g id="node44" class="node">
+<title>n29</title>
+<g id="a_node44"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/StatFoundation/Convergence/AnalysisTools/Tightness.lean:113" xlink:title="theorem · Statlib/StatFoundation/Convergence/AnalysisTools/Tightness.lean:113" target="_blank">
+<path fill="#ffe6a3" stroke="#d4a017" d="M3290.48,-124C3290.48,-124 3169.52,-124 3169.52,-124 3163.52,-124 3157.52,-118 3157.52,-112 3157.52,-112 3157.52,-100 3157.52,-100 3157.52,-94 3163.52,-88 3169.52,-88 3169.52,-88 3290.48,-88 3290.48,-88 3296.48,-88 3302.48,-94 3302.48,-100 3302.48,-100 3302.48,-112 3302.48,-112 3302.48,-118 3296.48,-124 3290.48,-124"/>
+<text xml:space="preserve" text-anchor="middle" x="3230" y="-103" font-family="Helvetica,sans-Serif" font-size="10.00">isTightMeasureSet_singleton</text>
+</a>
+</g>
+</g>
+<!-- n30 -->
+<g id="node45" class="node">
+<title>n30</title>
+<g id="a_node45"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/StatFoundation/Convergence/AnalysisTools/Tightness.lean:18" xlink:title="theorem · Statlib/StatFoundation/Convergence/AnalysisTools/Tightness.lean:18" target="_blank">
+<path fill="#ffe6a3" stroke="#d4a017" d="M3268.8,-196C3268.8,-196 3191.2,-196 3191.2,-196 3185.2,-196 3179.2,-190 3179.2,-184 3179.2,-184 3179.2,-172 3179.2,-172 3179.2,-166 3185.2,-160 3191.2,-160 3191.2,-160 3268.8,-160 3268.8,-160 3274.8,-160 3280.8,-166 3280.8,-172 3280.8,-172 3280.8,-184 3280.8,-184 3280.8,-190 3274.8,-196 3268.8,-196"/>
+<text xml:space="preserve" text-anchor="middle" x="3230" y="-175" font-family="Helvetica,sans-Serif" font-size="10.00">isTight_finiteRange</text>
+</a>
+</g>
+</g>
+<!-- n30&#45;&gt;n29 -->
+<g id="edge21" class="edge">
+<title>n30&#45;&gt;n29</title>
+<path fill="none" stroke="#64748b" d="M3230,-159.7C3230,-151.47 3230,-141.48 3230,-132.42"/>
+<polygon fill="#64748b" stroke="#64748b" points="3232.45,-132.62 3230,-125.62 3227.55,-132.62 3232.45,-132.62"/>
+</g>
+<!-- n31 -->
+<g id="node46" class="node">
+<title>n31</title>
+<g id="a_node46"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/StatFoundation/Convergence/AnalysisTools/LevyContinuity.lean:44" xlink:title="theorem · Statlib/StatFoundation/Convergence/AnalysisTools/LevyContinuity.lean:44" target="_blank">
+<path fill="#ffe6a3" stroke="#d4a017" d="M3180.98,-268C3180.98,-268 3065.02,-268 3065.02,-268 3059.02,-268 3053.02,-262 3053.02,-256 3053.02,-256 3053.02,-244 3053.02,-244 3053.02,-238 3059.02,-232 3065.02,-232 3065.02,-232 3180.98,-232 3180.98,-232 3186.98,-232 3192.98,-238 3192.98,-244 3192.98,-244 3192.98,-256 3192.98,-256 3192.98,-262 3186.98,-268 3180.98,-268"/>
+<text xml:space="preserve" text-anchor="middle" x="3123" y="-247" font-family="Helvetica,sans-Serif" font-size="10.00">isTight_of_charFun_tendsto</text>
+</a>
+</g>
+</g>
+<!-- n31&#45;&gt;n28 -->
+<g id="edge22" class="edge">
+<title>n31&#45;&gt;n28</title>
+<path fill="none" stroke="#64748b" d="M3118.55,-231.7C3116.41,-223.39 3113.81,-213.28 3111.46,-204.14"/>
+<polygon fill="#64748b" stroke="#64748b" points="3113.89,-203.74 3109.78,-197.57 3109.15,-204.96 3113.89,-203.74"/>
+</g>
+<!-- n31&#45;&gt;n30 -->
+<g id="edge23" class="edge">
+<title>n31&#45;&gt;n30</title>
+<path fill="none" stroke="#64748b" d="M3149.72,-231.52C3164,-222.18 3181.71,-210.59 3196.86,-200.68"/>
+<polygon fill="#64748b" stroke="#64748b" points="3197.83,-202.97 3202.35,-197.09 3195.15,-198.87 3197.83,-202.97"/>
+</g>
+<!-- n32 -->
+<g id="node47" class="node">
+<title>n32</title>
+<g id="a_node47"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/StatFoundation/Convergence/AnalysisTools/LevyContinuity.lean:31" xlink:title="theorem · Statlib/StatFoundation/Convergence/AnalysisTools/LevyContinuity.lean:31" target="_blank">
+<path fill="#ffe6a3" stroke="#d4a017" d="M3002.34,-196C3002.34,-196 2953.66,-196 2953.66,-196 2947.66,-196 2941.66,-190 2941.66,-184 2941.66,-184 2941.66,-172 2941.66,-172 2941.66,-166 2947.66,-160 2953.66,-160 2953.66,-160 3002.34,-160 3002.34,-160 3008.34,-160 3014.34,-166 3014.34,-172 3014.34,-172 3014.34,-184 3014.34,-184 3014.34,-190 3008.34,-196 3002.34,-196"/>
+<text xml:space="preserve" text-anchor="middle" x="2978" y="-175" font-family="Helvetica,sans-Serif" font-size="10.00">levy_forward</text>
+</a>
+</g>
+</g>
+<!-- n33 -->
+<g id="node48" class="node">
+<title>n33</title>
+<g id="a_node48"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/StatFoundation/Convergence/AnalysisTools/LevyContinuity.lean:168" xlink:title="lemma · Statlib/StatFoundation/Convergence/AnalysisTools/LevyContinuity.lean:168" target="_blank">
+<path fill="#eef2f6" stroke="#94a3b8" d="M3022.54,-268C3022.54,-268 2925.46,-268 2925.46,-268 2919.46,-268 2913.46,-262 2913.46,-256 2913.46,-256 2913.46,-244 2913.46,-244 2913.46,-238 2919.46,-232 2925.46,-232 2925.46,-232 3022.54,-232 3022.54,-232 3028.54,-232 3034.54,-238 3034.54,-244 3034.54,-244 3034.54,-256 3034.54,-256 3034.54,-262 3028.54,-268 3022.54,-268"/>
+<text xml:space="preserve" text-anchor="middle" x="2974" y="-247" font-family="Helvetica,sans-Serif" font-size="10.00">charFun_eq_of_subseq</text>
+</a>
+</g>
+</g>
+<!-- n33&#45;&gt;n32 -->
+<g id="edge24" class="edge">
+<title>n33&#45;&gt;n32</title>
+<path fill="none" stroke="#64748b" d="M2974.99,-231.7C2975.46,-223.47 2976.03,-213.48 2976.55,-204.42"/>
+<polygon fill="#64748b" stroke="#64748b" points="2978.98,-204.74 2976.94,-197.62 2974.09,-204.46 2978.98,-204.74"/>
+</g>
+<!-- n34 -->
+<g id="node49" class="node">
+<title>n34</title>
+<g id="a_node49"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/StatFoundation/Convergence/AnalysisTools/LevyContinuity.lean:180" xlink:title="lemma · Statlib/StatFoundation/Convergence/AnalysisTools/LevyContinuity.lean:180" target="_blank">
+<path fill="#eef2f6" stroke="#94a3b8" d="M3585.22,-268C3585.22,-268 3444.78,-268 3444.78,-268 3438.78,-268 3432.78,-262 3432.78,-256 3432.78,-256 3432.78,-244 3432.78,-244 3432.78,-238 3438.78,-232 3444.78,-232 3444.78,-232 3585.22,-232 3585.22,-232 3591.22,-232 3597.22,-238 3597.22,-244 3597.22,-244 3597.22,-256 3597.22,-256 3597.22,-262 3591.22,-268 3585.22,-268"/>
+<text xml:space="preserve" text-anchor="middle" x="3515" y="-247" font-family="Helvetica,sans-Serif" font-size="10.00">probMeasure_eq_of_charFun_eq</text>
+</a>
+</g>
+</g>
+<!-- n35 -->
+<g id="node50" class="node">
+<title>n35</title>
+<g id="a_node50"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/StatFoundation/Convergence/AnalysisTools/LevyContinuity.lean:223" xlink:title="theorem · Statlib/StatFoundation/Convergence/AnalysisTools/LevyContinuity.lean:223" target="_blank">
+<path fill="#ffe6a3" stroke="#d4a017" d="M3062.8,-340C3062.8,-340 3005.2,-340 3005.2,-340 2999.2,-340 2993.2,-334 2993.2,-328 2993.2,-328 2993.2,-316 2993.2,-316 2993.2,-310 2999.2,-304 3005.2,-304 3005.2,-304 3062.8,-304 3062.8,-304 3068.8,-304 3074.8,-310 3074.8,-316 3074.8,-316 3074.8,-328 3074.8,-328 3074.8,-334 3068.8,-340 3062.8,-340"/>
+<text xml:space="preserve" text-anchor="middle" x="3034" y="-319" font-family="Helvetica,sans-Serif" font-size="10.00">levy_continuity</text>
+</a>
+</g>
+</g>
+<!-- n35&#45;&gt;n31 -->
+<g id="edge25" class="edge">
+<title>n35&#45;&gt;n31</title>
+<path fill="none" stroke="#64748b" d="M3056,-303.7C3067.55,-294.61 3081.85,-283.36 3094.27,-273.6"/>
+<polygon fill="#64748b" stroke="#64748b" points="3095.77,-275.54 3099.75,-269.28 3092.74,-271.68 3095.77,-275.54"/>
+</g>
+<!-- n35&#45;&gt;n33 -->
+<g id="edge26" class="edge">
+<title>n35&#45;&gt;n33</title>
+<path fill="none" stroke="#64748b" d="M3019.17,-303.7C3011.61,-294.88 3002.31,-284.03 2994.12,-274.47"/>
+<polygon fill="#64748b" stroke="#64748b" points="2996.06,-272.97 2989.65,-269.25 2992.34,-276.16 2996.06,-272.97"/>
+</g>
+<!-- n35&#45;&gt;n34 -->
+<g id="edge27" class="edge">
+<title>n35&#45;&gt;n34</title>
+<path fill="none" stroke="#64748b" d="M3075.27,-306.18C3078.2,-305.37 3081.13,-304.63 3084,-304 3232.4,-271.34 3273.64,-289.97 3424,-268 3424.18,-267.97 3424.36,-267.95 3424.54,-267.92"/>
+<polygon fill="#64748b" stroke="#64748b" points="3424.66,-270.38 3431.21,-266.9 3423.92,-265.54 3424.66,-270.38"/>
+</g>
+<!-- n36&#45;&gt;n0 -->
+<g id="edge28" class="edge">
+<title>n36&#45;&gt;n0</title>
+<path fill="none" stroke="#64748b" d="M2463.96,-377.34C2467.01,-376.83 2470.03,-376.38 2473,-376 2545.93,-366.61 3733.14,-378.15 3796,-340 3811.65,-330.5 3802.6,-316.47 3816,-304 3832.72,-288.44 3854.81,-276.75 3875.1,-268.36"/>
+<polygon fill="#64748b" stroke="#64748b" points="3875.77,-270.73 3881.36,-265.86 3873.95,-266.18 3875.77,-270.73"/>
+</g>
+<!-- n36&#45;&gt;n13 -->
+<g id="edge29" class="edge">
+<title>n36&#45;&gt;n13</title>
+<path fill="none" stroke="#64748b" d="M2463.96,-377.34C2467.01,-376.83 2470.03,-376.38 2473,-376 3063.03,-300.15 3219.51,-403.41 3811,-340 3812.86,-339.8 3814.74,-339.58 3816.64,-339.35"/>
+<polygon fill="#64748b" stroke="#64748b" points="3816.9,-341.79 3823.52,-338.44 3816.26,-336.93 3816.9,-341.79"/>
+</g>
+<!-- n36&#45;&gt;n27 -->
+<g id="edge30" class="edge">
+<title>n36&#45;&gt;n27</title>
+<path fill="none" stroke="#64748b" d="M2464.01,-377.63C2467.04,-377.05 2470.05,-376.5 2473,-376 2618.88,-351.17 2657.63,-361.75 2804,-340 2804.28,-339.96 2804.56,-339.92 2804.84,-339.87"/>
+<polygon fill="#64748b" stroke="#64748b" points="2805.06,-342.32 2811.6,-338.82 2804.31,-337.48 2805.06,-342.32"/>
+</g>
+<!-- n36&#45;&gt;n35 -->
+<g id="edge31" class="edge">
+<title>n36&#45;&gt;n35</title>
+<path fill="none" stroke="#64748b" d="M2463.98,-377.5C2467.02,-376.95 2470.04,-376.45 2473,-376 2698.13,-342.07 2760.82,-385.02 2984,-340 2984.18,-339.96 2984.36,-339.93 2984.54,-339.89"/>
+<polygon fill="#64748b" stroke="#64748b" points="2985.04,-342.29 2991.28,-338.29 2983.9,-337.52 2985.04,-342.29"/>
+</g>
+<!-- n37 -->
+<g id="node52" class="node">
+<title>n37</title>
+<g id="a_node52"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/StatFoundation/Convergence/AnalysisTools/ConvergenceModes.lean:163" xlink:title="def · Statlib/StatFoundation/Convergence/AnalysisTools/ConvergenceModes.lean:163" target="_blank">
+<path fill="#d6e9ff" stroke="#3b82f6" d="M3882.52,-124C3882.52,-124 3805.48,-124 3805.48,-124 3799.48,-124 3793.48,-118 3793.48,-112 3793.48,-112 3793.48,-100 3793.48,-100 3793.48,-94 3799.48,-88 3805.48,-88 3805.48,-88 3882.52,-88 3882.52,-88 3888.52,-88 3894.52,-94 3894.52,-100 3894.52,-100 3894.52,-112 3894.52,-112 3894.52,-118 3888.52,-124 3882.52,-124"/>
+<text xml:space="preserve" text-anchor="middle" x="3844" y="-103" font-family="Helvetica,sans-Serif" font-size="10.00">WeakConvergence</text>
+</a>
+</g>
+</g>
+<!-- n38 -->
+<g id="node53" class="node">
+<title>n38</title>
+<g id="a_node53"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/StatFoundation/Convergence/AnalysisTools/ConvergenceModes.lean:175" xlink:title="theorem · Statlib/StatFoundation/Convergence/AnalysisTools/ConvergenceModes.lean:175" target="_blank">
+<path fill="#ffe6a3" stroke="#d4a017" d="M3812.73,-196C3812.73,-196 3607.27,-196 3607.27,-196 3601.27,-196 3595.27,-190 3595.27,-184 3595.27,-184 3595.27,-172 3595.27,-172 3595.27,-166 3601.27,-160 3607.27,-160 3607.27,-160 3812.73,-160 3812.73,-160 3818.73,-160 3824.73,-166 3824.73,-172 3824.73,-172 3824.73,-184 3824.73,-184 3824.73,-190 3818.73,-196 3812.73,-196"/>
+<text xml:space="preserve" text-anchor="middle" x="3710" y="-175" font-family="Helvetica,sans-Serif" font-size="10.00">tendstoInDistribution_iff_weakConvergence_law</text>
+</a>
+</g>
+</g>
+<!-- n38&#45;&gt;n37 -->
+<g id="edge32" class="edge">
+<title>n38&#45;&gt;n37</title>
+<path fill="none" stroke="#64748b" d="M3743.47,-159.52C3761.67,-150.01 3784.33,-138.17 3803.52,-128.15"/>
+<polygon fill="#64748b" stroke="#64748b" points="3804.55,-130.37 3809.62,-124.96 3802.28,-126.03 3804.55,-130.37"/>
+</g>
+<!-- n39 -->
+<g id="node54" class="node">
+<title>n39</title>
+<g id="a_node54"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/StatFoundation/Convergence/AnalysisTools/ConvergenceModes.lean:204" xlink:title="theorem · Statlib/StatFoundation/Convergence/AnalysisTools/ConvergenceModes.lean:204" target="_blank">
+<path fill="#ffe6a3" stroke="#d4a017" d="M3833.01,-268C3833.01,-268 3626.99,-268 3626.99,-268 3620.99,-268 3614.99,-262 3614.99,-256 3614.99,-256 3614.99,-244 3614.99,-244 3614.99,-238 3620.99,-232 3626.99,-232 3626.99,-232 3833.01,-232 3833.01,-232 3839.01,-232 3845.01,-238 3845.01,-244 3845.01,-244 3845.01,-256 3845.01,-256 3845.01,-262 3839.01,-268 3833.01,-268"/>
+<text xml:space="preserve" text-anchor="middle" x="3730" y="-247" font-family="Helvetica,sans-Serif" font-size="10.00">tendstoInDistribution_of_weakConvergence_law</text>
+</a>
+</g>
+</g>
+<!-- n39&#45;&gt;n37 -->
+<g id="edge33" class="edge">
+<title>n39&#45;&gt;n37</title>
+<path fill="none" stroke="#64748b" d="M3788.11,-231.51C3805.53,-223.45 3822.92,-211.99 3834,-196 3846.74,-177.6 3848.32,-151.75 3847.25,-132.65"/>
+<polygon fill="#64748b" stroke="#64748b" points="3849.71,-132.7 3846.73,-125.91 3844.83,-133.08 3849.71,-132.7"/>
+</g>
+<!-- n39&#45;&gt;n38 -->
+<g id="edge34" class="edge">
+<title>n39&#45;&gt;n38</title>
+<path fill="none" stroke="#64748b" d="M3725.06,-231.7C3722.68,-223.39 3719.79,-213.28 3717.18,-204.14"/>
+<polygon fill="#64748b" stroke="#64748b" points="3719.58,-203.62 3715.3,-197.56 3714.87,-204.96 3719.58,-203.62"/>
+</g>
+<!-- n40&#45;&gt;n34 -->
+<g id="edge35" class="edge">
+<title>n40&#45;&gt;n34</title>
+<path fill="none" stroke="#64748b" d="M3576.73,-303.7C3566.18,-294.69 3553.16,-283.57 3541.79,-273.87"/>
+<polygon fill="#64748b" stroke="#64748b" points="3543.39,-272.01 3536.47,-269.33 3540.21,-275.74 3543.39,-272.01"/>
+</g>
+<!-- n40&#45;&gt;n37 -->
+<g id="edge37" class="edge">
+<title>n40&#45;&gt;n37</title>
+<path fill="none" stroke="#64748b" d="M3762.32,-303.55C3804.05,-295.6 3840.8,-284.2 3854,-268 3885.44,-229.41 3868.4,-166.79 3855.05,-132.11"/>
+<polygon fill="#64748b" stroke="#64748b" points="3857.37,-131.33 3852.49,-125.75 3852.82,-133.15 3857.37,-131.33"/>
+</g>
+<!-- n40&#45;&gt;n39 -->
+<g id="edge36" class="edge">
+<title>n40&#45;&gt;n39</title>
+<path fill="none" stroke="#64748b" d="M3630.22,-303.52C3648.29,-294.01 3670.77,-282.17 3689.82,-272.15"/>
+<polygon fill="#64748b" stroke="#64748b" points="3690.81,-274.39 3695.87,-268.97 3688.53,-270.06 3690.81,-274.39"/>
+</g>
+<!-- n41 -->
+<g id="node56" class="node">
+<title>n41</title>
+<g id="a_node56"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/StatFoundation/Vocabulary/StochasticOrder.lean:58" xlink:title="def · Statlib/StatFoundation/Vocabulary/StochasticOrder.lean:58" target="_blank">
+<path fill="#d6e9ff" stroke="#3b82f6" d="M1547.85,-268C1547.85,-268 1464.15,-268 1464.15,-268 1458.15,-268 1452.15,-262 1452.15,-256 1452.15,-256 1452.15,-244 1452.15,-244 1452.15,-238 1458.15,-232 1464.15,-232 1464.15,-232 1547.85,-232 1547.85,-232 1553.85,-232 1559.85,-238 1559.85,-244 1559.85,-244 1559.85,-256 1559.85,-256 1559.85,-262 1553.85,-268 1547.85,-268"/>
+<text xml:space="preserve" text-anchor="middle" x="1506" y="-247" font-family="Helvetica,sans-Serif" font-size="10.00">IsLittleOInProbability</text>
+</a>
+</g>
+</g>
+<!-- n42&#45;&gt;n41 -->
+<g id="edge38" class="edge">
+<title>n42&#45;&gt;n41</title>
+<path fill="none" stroke="#64748b" d="M1677.8,-303.52C1644.44,-293.32 1602.34,-280.45 1568.16,-270"/>
+<polygon fill="#64748b" stroke="#64748b" points="1568.96,-267.68 1561.55,-267.98 1567.53,-272.37 1568.96,-267.68"/>
+</g>
+<!-- n46 -->
+<g id="node58" class="node">
+<title>n46</title>
+<g id="a_node58"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/StatFoundation/Vocabulary/StochasticOrder.lean:48" xlink:title="def · Statlib/StatFoundation/Vocabulary/StochasticOrder.lean:48" target="_blank">
+<path fill="#d6e9ff" stroke="#3b82f6" d="M1822.52,-268C1822.52,-268 1745.48,-268 1745.48,-268 1739.48,-268 1733.48,-262 1733.48,-256 1733.48,-256 1733.48,-244 1733.48,-244 1733.48,-238 1739.48,-232 1745.48,-232 1745.48,-232 1822.52,-232 1822.52,-232 1828.52,-232 1834.52,-238 1834.52,-244 1834.52,-244 1834.52,-256 1834.52,-256 1834.52,-262 1828.52,-268 1822.52,-268"/>
+<text xml:space="preserve" text-anchor="middle" x="1784" y="-247" font-family="Helvetica,sans-Serif" font-size="10.00">IsBigOInProbability</text>
+</a>
+</g>
+</g>
+<!-- n47 -->
+<g id="node59" class="node">
+<title>n47</title>
+<g id="a_node59"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/StatFoundation/Convergence/AnalysisTools/StochasticOrder/AlgebraDeterministicScale.lean:18" xlink:title="private lemma · Statlib/StatFoundation/Convergence/AnalysisTools/StochasticOrder/AlgebraDeterministicScale.lean:18" target="_blank">
+<path fill="#eef2f6" stroke="#94a3b8" d="M1953.64,-268C1953.64,-268 1864.36,-268 1864.36,-268 1858.36,-268 1852.36,-262 1852.36,-256 1852.36,-256 1852.36,-244 1852.36,-244 1852.36,-238 1858.36,-232 1864.36,-232 1864.36,-232 1953.64,-232 1953.64,-232 1959.64,-232 1965.64,-238 1965.64,-244 1965.64,-244 1965.64,-256 1965.64,-256 1965.64,-262 1959.64,-268 1953.64,-268"/>
+<text xml:space="preserve" text-anchor="middle" x="1909" y="-247" font-family="Helvetica,sans-Serif" font-size="10.00">smul_rate_tail_subset</text>
+</a>
+</g>
+</g>
+<!-- n48 -->
+<g id="node60" class="node">
+<title>n48</title>
+<g id="a_node60"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/StatFoundation/Convergence/AnalysisTools/StochasticOrder/AlgebraDeterministicScale.lean:35" xlink:title="theorem · Statlib/StatFoundation/Convergence/AnalysisTools/StochasticOrder/AlgebraDeterministicScale.lean:35" target="_blank">
+<path fill="#ffe6a3" stroke="#d4a017" d="M2782.98,-340C2782.98,-340 2657.02,-340 2657.02,-340 2651.02,-340 2645.02,-334 2645.02,-328 2645.02,-328 2645.02,-316 2645.02,-316 2645.02,-310 2651.02,-304 2657.02,-304 2657.02,-304 2782.98,-304 2782.98,-304 2788.98,-304 2794.98,-310 2794.98,-316 2794.98,-316 2794.98,-328 2794.98,-328 2794.98,-334 2788.98,-340 2782.98,-340"/>
+<text xml:space="preserve" text-anchor="middle" x="2720" y="-319" font-family="Helvetica,sans-Serif" font-size="10.00">isBigOInProbability_smul_rate</text>
+</a>
+</g>
+</g>
+<!-- n48&#45;&gt;n46 -->
+<g id="edge46" class="edge">
+<title>n48&#45;&gt;n46</title>
+<path fill="none" stroke="#64748b" d="M2644.85,-305.86C2640.18,-305.16 2635.53,-304.53 2631,-304 2285.54,-263.33 2190.42,-323.96 1843.25,-267.84"/>
+<polygon fill="#64748b" stroke="#64748b" points="1843.8,-265.44 1836.49,-266.73 1843.01,-270.28 1843.8,-265.44"/>
+</g>
+<!-- n48&#45;&gt;n47 -->
+<g id="edge47" class="edge">
+<title>n48&#45;&gt;n47</title>
+<path fill="none" stroke="#64748b" d="M2644.85,-305.91C2640.17,-305.2 2635.53,-304.55 2631,-304 2341.17,-268.53 2263.56,-312.63 1975,-268 1974.82,-267.97 1974.63,-267.94 1974.45,-267.91"/>
+<polygon fill="#64748b" stroke="#64748b" points="1974.9,-265.51 1967.58,-266.7 1974.05,-270.33 1974.9,-265.51"/>
+</g>
+<!-- n49&#45;&gt;n46 -->
+<g id="edge48" class="edge">
+<title>n49&#45;&gt;n46</title>
+<path fill="none" stroke="#64748b" d="M2318.81,-377.44C2321.57,-376.94 2324.31,-376.46 2327,-376 2452.84,-354.68 2693.09,-396.35 2605,-304 2548.04,-244.28 1958.92,-279.83 1843.33,-267.59"/>
+<polygon fill="#64748b" stroke="#64748b" points="1843.76,-265.17 1836.5,-266.68 1843.12,-270.03 1843.76,-265.17"/>
+</g>
+<!-- n49&#45;&gt;n48 -->
+<g id="edge49" class="edge">
+<title>n49&#45;&gt;n48</title>
+<path fill="none" stroke="#64748b" d="M2318.8,-377.4C2321.57,-376.91 2324.31,-376.44 2327,-376 2461.27,-354.01 2496.54,-360.78 2631,-340 2632.83,-339.72 2634.68,-339.42 2636.55,-339.12"/>
+<polygon fill="#64748b" stroke="#64748b" points="2636.81,-341.56 2643.31,-338 2636,-336.73 2636.81,-341.56"/>
+</g>
+<!-- n50 -->
+<g id="node62" class="node">
+<title>n50</title>
+<g id="a_node62"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/StatFoundation/Convergence/AnalysisTools/StochasticOrder/RateRefinement.lean:15" xlink:title="theorem · Statlib/StatFoundation/Convergence/AnalysisTools/StochasticOrder/RateRefinement.lean:15" target="_blank">
+<path fill="#ffe6a3" stroke="#d4a017" d="M2574.74,-340C2574.74,-340 2309.26,-340 2309.26,-340 2303.26,-340 2297.26,-334 2297.26,-328 2297.26,-328 2297.26,-316 2297.26,-316 2297.26,-310 2303.26,-304 2309.26,-304 2309.26,-304 2574.74,-304 2574.74,-304 2580.74,-304 2586.74,-310 2586.74,-316 2586.74,-316 2586.74,-328 2586.74,-328 2586.74,-334 2580.74,-340 2574.74,-340"/>
+<text xml:space="preserve" text-anchor="middle" x="2442" y="-319" font-family="Helvetica,sans-Serif" font-size="10.00">isLittleOInProbability_of_isBigOInProbability_of_rate_isLittleO</text>
+</a>
+</g>
+</g>
+<!-- n50&#45;&gt;n41 -->
+<g id="edge51" class="edge">
+<title>n50&#45;&gt;n41</title>
+<path fill="none" stroke="#64748b" d="M2297.06,-304.67C2294.35,-304.44 2291.66,-304.21 2289,-304 1969.63,-278.3 1885.47,-318.02 1569,-268 1568.82,-267.97 1568.64,-267.94 1568.45,-267.91"/>
+<polygon fill="#64748b" stroke="#64748b" points="1568.95,-265.51 1561.63,-266.67 1568.07,-270.33 1568.95,-265.51"/>
+</g>
+<!-- n50&#45;&gt;n46 -->
+<g id="edge50" class="edge">
+<title>n50&#45;&gt;n46</title>
+<path fill="none" stroke="#64748b" d="M2297.05,-304.78C2294.35,-304.52 2291.66,-304.26 2289,-304 2093.75,-285.28 2040.09,-303.2 1843.29,-267.88"/>
+<polygon fill="#64748b" stroke="#64748b" points="1843.83,-265.49 1836.51,-266.65 1842.96,-270.31 1843.83,-265.49"/>
+</g>
+<!-- n51&#45;&gt;n41 -->
+<g id="edge53" class="edge">
+<title>n51&#45;&gt;n41</title>
+<path fill="none" stroke="#64748b" d="M2010.79,-375.86C2014.14,-355.63 2015.95,-322.43 1997,-304 1962.79,-270.73 1616.01,-276.25 1569,-268 1568.82,-267.97 1568.64,-267.94 1568.46,-267.9"/>
+<polygon fill="#64748b" stroke="#64748b" points="1568.98,-265.51 1561.64,-266.57 1568.04,-270.32 1568.98,-265.51"/>
+</g>
+<!-- n51&#45;&gt;n46 -->
+<g id="edge52" class="edge">
+<title>n51&#45;&gt;n46</title>
+<path fill="none" stroke="#64748b" d="M2155.85,-376.88C2158.93,-376.58 2161.98,-376.29 2165,-376 2212.84,-371.43 2563.46,-375.37 2596,-340 2606.83,-328.22 2607.04,-315.58 2596,-304 2539.73,-244.97 1957.55,-279.74 1843.24,-267.58"/>
+<polygon fill="#64748b" stroke="#64748b" points="1843.76,-265.17 1836.5,-266.68 1843.12,-270.03 1843.76,-265.17"/>
+</g>
+<!-- n51&#45;&gt;n50 -->
+<g id="edge54" class="edge">
+<title>n51&#45;&gt;n50</title>
+<path fill="none" stroke="#64748b" d="M2115.65,-375.52C2179.48,-365.24 2260.16,-352.26 2325.33,-341.77"/>
+<polygon fill="#64748b" stroke="#64748b" points="2325.59,-344.21 2332.11,-340.68 2324.81,-339.38 2325.59,-344.21"/>
+</g>
+<!-- n52&#45;&gt;n41 -->
+<g id="edge55" class="edge">
+<title>n52&#45;&gt;n41</title>
+<path fill="none" stroke="#64748b" d="M1512.02,-303.7C1511.08,-295.47 1509.94,-285.48 1508.91,-276.42"/>
+<polygon fill="#64748b" stroke="#64748b" points="1511.36,-276.28 1508.13,-269.61 1506.49,-276.84 1511.36,-276.28"/>
+</g>
+<!-- n55&#45;&gt;n41 -->
+<g id="edge68" class="edge">
+<title>n55&#45;&gt;n41</title>
+<path fill="none" stroke="#64748b" d="M1849.74,-305.59C1846.79,-305.03 1843.87,-304.5 1841,-304 1720.88,-283 1688.57,-291.94 1569,-268 1568.82,-267.96 1568.64,-267.93 1568.46,-267.89"/>
+<polygon fill="#64748b" stroke="#64748b" points="1569.03,-265.51 1561.67,-266.43 1568,-270.3 1569.03,-265.51"/>
+</g>
+<!-- n56 -->
+<g id="node66" class="node">
+<title>n56</title>
+<g id="a_node66"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/StatFoundation/Convergence/AnalysisTools/ConvergenceModes.lean:584" xlink:title="theorem · Statlib/StatFoundation/Convergence/AnalysisTools/ConvergenceModes.lean:584" target="_blank">
+<path fill="#ffe6a3" stroke="#d4a017" d="M1703.87,-268C1703.87,-268 1590.13,-268 1590.13,-268 1584.13,-268 1578.13,-262 1578.13,-256 1578.13,-256 1578.13,-244 1578.13,-244 1578.13,-238 1584.13,-232 1590.13,-232 1590.13,-232 1703.87,-232 1703.87,-232 1709.87,-232 1715.87,-238 1715.87,-244 1715.87,-244 1715.87,-256 1715.87,-256 1715.87,-262 1709.87,-268 1703.87,-268"/>
+<text xml:space="preserve" text-anchor="middle" x="1647" y="-247" font-family="Helvetica,sans-Serif" font-size="10.00">tendstoInMeasure_iff_norm</text>
+</a>
+</g>
+</g>
+<!-- n57&#45;&gt;n41 -->
+<g id="edge69" class="edge">
+<title>n57&#45;&gt;n41</title>
+<path fill="none" stroke="#64748b" d="M2025.82,-305.44C2021.16,-304.94 2016.54,-304.46 2012,-304 1815.46,-284.17 1763.61,-301.87 1569,-268 1568.82,-267.97 1568.64,-267.94 1568.46,-267.9"/>
+<polygon fill="#64748b" stroke="#64748b" points="1568.98,-265.51 1561.64,-266.58 1568.04,-270.32 1568.98,-265.51"/>
+</g>
+<!-- n57&#45;&gt;n56 -->
+<g id="edge70" class="edge">
+<title>n57&#45;&gt;n56</title>
+<path fill="none" stroke="#64748b" d="M2026.04,-305.61C1914.92,-292.1 1765.84,-273.86 1724.58,-267.89"/>
+<polygon fill="#64748b" stroke="#64748b" points="1724.99,-265.48 1717.69,-266.83 1724.24,-270.32 1724.99,-265.48"/>
+</g>
+</g>
 </svg>

@@ -1,16 +1,16 @@
 # Proof narrative — rkhsBall_lipschitz
 
-Root: **rkhsBall_lipschitz** (theorem) `Statlib/Nonparametric/Approximation/RKHS.lean:41` · topic `Nonparametric`
+Root: **rkhsBall_lipschitz** (theorem) `Statlib/Nonparametric/Approximation/RKHS.lean:48` · topic `Nonparametric`
 Closure: 6 declarations across 3 files. Generated from `proof_graph.json` — no files were moved.
 
 Reading order (foundations first, headline last):
 
-  ▣ `RKHSModel` — structure · `Statlib/Nonparametric/Vocabulary/RKHS.lean:15`  _(also used by 6: rkhs_eval_bound, rkhsBall_uniform_bound, rkhsBall_classApproximationError_le_of_exists, …)_
-    ◆ `FunctionClass` — abbrev · `Statlib/Nonparametric/Vocabulary/FunctionClasses.lean:16`  _(also used by 20: holder_classApproximationError_le_of_net_member, kernel_smoother_classApproximationError_le_of_holder_bias_member, kernel_smoother_classApproximationError_le_of_holder_bias_rate, …)_
+  ▣ `RKHSModel` — structure · `Statlib/Nonparametric/Vocabulary/RKHS.lean:16`  _(also used by 28: rkhs_eval_bound, rkhsBall_uniform_bound, kernelMetricSq_eq_norm_sub_sq, …)_
+    ◆ `FunctionClass` — abbrev · `Statlib/Nonparametric/Vocabulary/FunctionClasses.lean:16`  _(also used by 23: holder_class_approximation_error_le_of_net_member, kernel_smoother_classApproximationError_le_of_holder_bias_member, kernel_smoother_classApproximationError_le_of_holder_bias_rate, …)_
     ◆ `IsLipschitzFunction` — def · `Statlib/Nonparametric/Vocabulary/FunctionClasses.lean:36`
   ◆ `IsLipschitzClass` — def · `Statlib/Nonparametric/Vocabulary/FunctionClasses.lean:40`
-  ◆ `rkhsBall` — def · `Statlib/Nonparametric/Vocabulary/RKHS.lean:23`  _(also used by 4: rkhsBall_uniform_bound, rkhsBall_classApproximationError_le_of_exists, rkhsBall_classApproximationError_le_of_pointwise_candidate, …)_
-★ `rkhsBall_lipschitz` — theorem · `Statlib/Nonparametric/Approximation/RKHS.lean:41` **← headline**
+  ◆ `rkhsBall` — def · `Statlib/Nonparametric/Vocabulary/RKHS.lean:24`  _(also used by 15: rkhsBall_uniform_bound, rkhsBall_kernelMetric_lipschitz, rkhsBall_classApproximationError_le_of_exists, …)_
+★ `rkhsBall_lipschitz` — theorem · `Statlib/Nonparametric/Approximation/RKHS.lean:48` **← headline**
 
 ## Dependency diagram
 

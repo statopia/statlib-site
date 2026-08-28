@@ -18,7 +18,7 @@
 <!-- n0 -->
 <g id="node1" class="node">
 <title>n0</title>
-<g id="a_node1"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/HighDim/MatrixAnalysis/LiebTraceConcavity.lean#L43" xlink:title="theorem · Statlib/HighDim/MatrixAnalysis/LiebTraceConcavity.lean:43" target="_blank">
+<g id="a_node1"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/MatrixAnalysis/LiebTraceConcavity.lean:43" xlink:title="theorem · Statlib/HighDim/MatrixAnalysis/LiebTraceConcavity.lean:43" target="_blank">
 <path fill="#ffe6a3" stroke="#d4a017" d="M1449.15,-628C1449.15,-628 1324.85,-628 1324.85,-628 1318.85,-628 1312.85,-622 1312.85,-616 1312.85,-616 1312.85,-604 1312.85,-604 1312.85,-598 1318.85,-592 1324.85,-592 1324.85,-592 1449.15,-592 1449.15,-592 1455.15,-592 1461.15,-598 1461.15,-604 1461.15,-604 1461.15,-616 1461.15,-616 1461.15,-622 1455.15,-628 1449.15,-628"/>
 <text xml:space="preserve" text-anchor="middle" x="1387" y="-607" font-family="Helvetica,sans-Serif" font-size="10.00">matrix_posDef_weighted_add</text>
 </a>
@@ -27,7 +27,7 @@
 <!-- n1 -->
 <g id="node2" class="node">
 <title>n1</title>
-<g id="a_node2"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/HighDim/MatrixAnalysis/LiebTraceConcavity.lean#L59" xlink:title="theorem · Statlib/HighDim/MatrixAnalysis/LiebTraceConcavity.lean:59" target="_blank">
+<g id="a_node2"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/MatrixAnalysis/LiebTraceConcavity.lean:59" xlink:title="theorem · Statlib/HighDim/MatrixAnalysis/LiebTraceConcavity.lean:59" target="_blank">
 <path fill="#ffe6a3" stroke="#d4a017" d="M1483.48,-700C1483.48,-700 1362.52,-700 1362.52,-700 1356.52,-700 1350.52,-694 1350.52,-688 1350.52,-688 1350.52,-676 1350.52,-676 1350.52,-670 1356.52,-664 1362.52,-664 1362.52,-664 1483.48,-664 1483.48,-664 1489.48,-664 1495.48,-670 1495.48,-676 1495.48,-676 1495.48,-688 1495.48,-688 1495.48,-694 1489.48,-700 1483.48,-700"/>
 <text xml:space="preserve" text-anchor="middle" x="1423" y="-679" font-family="Helvetica,sans-Serif" font-size="10.00">matrix_posDef_cone_convex</text>
 </a>
@@ -42,7 +42,7 @@
 <!-- n2 -->
 <g id="node3" class="node">
 <title>n2</title>
-<g id="a_node3"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/HighDim/MatrixAnalysis/LiebTraceConcavity.lean#L27" xlink:title="private theorem · Statlib/HighDim/MatrixAnalysis/LiebTraceConcavity.lean:27" target="_blank">
+<g id="a_node3"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/MatrixAnalysis/LiebTraceConcavity.lean:27" xlink:title="private theorem · Statlib/HighDim/MatrixAnalysis/LiebTraceConcavity.lean:27" target="_blank">
 <path fill="#ffe6a3" stroke="#d4a017" d="M1773.25,-628C1773.25,-628 1676.75,-628 1676.75,-628 1670.75,-628 1664.75,-622 1664.75,-616 1664.75,-616 1664.75,-604 1664.75,-604 1664.75,-598 1670.75,-592 1676.75,-592 1676.75,-592 1773.25,-592 1773.25,-592 1779.25,-592 1785.25,-598 1785.25,-604 1785.25,-604 1785.25,-616 1785.25,-616 1785.25,-622 1779.25,-628 1773.25,-628"/>
 <text xml:space="preserve" text-anchor="middle" x="1725" y="-607" font-family="Helvetica,sans-Serif" font-size="10.00">posDef_convex_combo</text>
 </a>
@@ -51,7 +51,7 @@
 <!-- n3 -->
 <g id="node4" class="node">
 <title>n3</title>
-<g id="a_node4"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/HighDim/Vocabulary/Quantum.lean#L17" xlink:title="noncomputable def · Statlib/HighDim/Vocabulary/Quantum.lean:17" target="_blank">
+<g id="a_node4"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Vocabulary/Quantum.lean:17" xlink:title="noncomputable def · Statlib/HighDim/Vocabulary/Quantum.lean:17" target="_blank">
 <path fill="#d6e9ff" stroke="#3b82f6" d="M1701.75,-412C1701.75,-412 1600.25,-412 1600.25,-412 1594.25,-412 1588.25,-406 1588.25,-400 1588.25,-400 1588.25,-388 1588.25,-388 1588.25,-382 1594.25,-376 1600.25,-376 1600.25,-376 1701.75,-376 1701.75,-376 1707.75,-376 1713.75,-382 1713.75,-388 1713.75,-388 1713.75,-400 1713.75,-400 1713.75,-406 1707.75,-412 1701.75,-412"/>
 <text xml:space="preserve" text-anchor="middle" x="1651" y="-391" font-family="Helvetica,sans-Serif" font-size="10.00">quantumRelativeEntropy</text>
 </a>
@@ -60,7 +60,7 @@
 <!-- n4 -->
 <g id="node5" class="node">
 <title>n4</title>
-<g id="a_node5"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/HighDim/MatrixAnalysis/TraceExp.lean#L89" xlink:title="theorem · Statlib/HighDim/MatrixAnalysis/TraceExp.lean:89" target="_blank">
+<g id="a_node5"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/MatrixAnalysis/TraceExp.lean:71" xlink:title="theorem · Statlib/HighDim/MatrixAnalysis/TraceExp.lean:71" target="_blank">
 <path fill="#ffe6a3" stroke="#d4a017" d="M1356.54,-340C1356.54,-340 1189.46,-340 1189.46,-340 1183.46,-340 1177.46,-334 1177.46,-328 1177.46,-328 1177.46,-316 1177.46,-316 1177.46,-310 1183.46,-304 1189.46,-304 1189.46,-304 1356.54,-304 1356.54,-304 1362.54,-304 1368.54,-310 1368.54,-316 1368.54,-316 1368.54,-328 1368.54,-328 1368.54,-334 1362.54,-340 1356.54,-340"/>
 <text xml:space="preserve" text-anchor="middle" x="1273" y="-319" font-family="Helvetica,sans-Serif" font-size="10.00">real_log_matrix_isHermitian_of_posDef</text>
 </a>
@@ -69,7 +69,7 @@
 <!-- n5 -->
 <g id="node6" class="node">
 <title>n5</title>
-<g id="a_node6"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/HighDim/MatrixAnalysis/TraceExp.lean#L74" xlink:title="theorem · Statlib/HighDim/MatrixAnalysis/TraceExp.lean:74" target="_blank">
+<g id="a_node6"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/MatrixAnalysis/TraceExp.lean:56" xlink:title="theorem · Statlib/HighDim/MatrixAnalysis/TraceExp.lean:56" target="_blank">
 <path fill="#ffe6a3" stroke="#d4a017" d="M2007.59,-268C2007.59,-268 1894.41,-268 1894.41,-268 1888.41,-268 1882.41,-262 1882.41,-256 1882.41,-256 1882.41,-244 1882.41,-244 1882.41,-238 1888.41,-232 1894.41,-232 1894.41,-232 2007.59,-232 2007.59,-232 2013.59,-232 2019.59,-238 2019.59,-244 2019.59,-244 2019.59,-256 2019.59,-256 2019.59,-262 2013.59,-268 2007.59,-268"/>
 <text xml:space="preserve" text-anchor="middle" x="1951" y="-247" font-family="Helvetica,sans-Serif" font-size="10.00">hermitian_exp_posSemidef</text>
 </a>
@@ -78,7 +78,7 @@
 <!-- n6 -->
 <g id="node7" class="node">
 <title>n6</title>
-<g id="a_node7"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/HighDim/MatrixAnalysis/TraceExp.lean#L83" xlink:title="theorem · Statlib/HighDim/MatrixAnalysis/TraceExp.lean:83" target="_blank">
+<g id="a_node7"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/MatrixAnalysis/TraceExp.lean:65" xlink:title="theorem · Statlib/HighDim/MatrixAnalysis/TraceExp.lean:65" target="_blank">
 <path fill="#ffe6a3" stroke="#d4a017" d="M2008.03,-340C2008.03,-340 1915.97,-340 1915.97,-340 1909.97,-340 1903.97,-334 1903.97,-328 1903.97,-328 1903.97,-316 1903.97,-316 1903.97,-310 1909.97,-304 1915.97,-304 1915.97,-304 2008.03,-304 2008.03,-304 2014.03,-304 2020.03,-310 2020.03,-316 2020.03,-316 2020.03,-328 2020.03,-328 2020.03,-334 2014.03,-340 2008.03,-340"/>
 <text xml:space="preserve" text-anchor="middle" x="1962" y="-319" font-family="Helvetica,sans-Serif" font-size="10.00">hermitian_exp_posDef</text>
 </a>
@@ -93,7 +93,7 @@
 <!-- n7 -->
 <g id="node8" class="node">
 <title>n7</title>
-<g id="a_node8"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean#L582" xlink:title="lemma · Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:582" target="_blank">
+<g id="a_node8"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:582" xlink:title="lemma · Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:582" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M1819.69,-412C1819.69,-412 1764.31,-412 1764.31,-412 1758.31,-412 1752.31,-406 1752.31,-400 1752.31,-400 1752.31,-388 1752.31,-388 1752.31,-382 1758.31,-376 1764.31,-376 1764.31,-376 1819.69,-376 1819.69,-376 1825.69,-376 1831.69,-382 1831.69,-388 1831.69,-388 1831.69,-400 1831.69,-400 1831.69,-406 1825.69,-412 1819.69,-412"/>
 <text xml:space="preserve" text-anchor="middle" x="1792" y="-391" font-family="Helvetica,sans-Serif" font-size="10.00">add_hermitian</text>
 </a>
@@ -102,7 +102,7 @@
 <!-- n8 -->
 <g id="node9" class="node">
 <title>n8</title>
-<g id="a_node9"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/HighDim/MatrixAnalysis/KleinTraceExpVariationalLb.lean#L9" xlink:title="theorem · Statlib/HighDim/MatrixAnalysis/KleinTraceExpVariationalLb.lean:9" target="_blank">
+<g id="a_node9"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/MatrixAnalysis/KleinTraceExpVariationalLb.lean:9" xlink:title="theorem · Statlib/HighDim/MatrixAnalysis/KleinTraceExpVariationalLb.lean:9" target="_blank">
 <path fill="#ffe6a3" stroke="#d4a017" d="M2008.27,-412C2008.27,-412 1881.73,-412 1881.73,-412 1875.73,-412 1869.73,-406 1869.73,-400 1869.73,-400 1869.73,-388 1869.73,-388 1869.73,-382 1875.73,-376 1881.73,-376 1881.73,-376 2008.27,-376 2008.27,-376 2014.27,-376 2020.27,-382 2020.27,-388 2020.27,-388 2020.27,-400 2020.27,-400 2020.27,-406 2014.27,-412 2008.27,-412"/>
 <text xml:space="preserve" text-anchor="middle" x="1945" y="-391" font-family="Helvetica,sans-Serif" font-size="10.00">klein_trace_exp_variational_lb</text>
 </a>
@@ -117,7 +117,7 @@
 <!-- n9 -->
 <g id="node10" class="node">
 <title>n9</title>
-<g id="a_node10"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/HighDim/MatrixAnalysis/TraceExpVariationalFormula.lean#L13" xlink:title="theorem · Statlib/HighDim/MatrixAnalysis/TraceExpVariationalFormula.lean:13" target="_blank">
+<g id="a_node10"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/MatrixAnalysis/TraceExpVariationalFormula.lean:13" xlink:title="theorem · Statlib/HighDim/MatrixAnalysis/TraceExpVariationalFormula.lean:13" target="_blank">
 <path fill="#ffe6a3" stroke="#d4a017" d="M1862.98,-484C1862.98,-484 1737.02,-484 1737.02,-484 1731.02,-484 1725.02,-478 1725.02,-472 1725.02,-472 1725.02,-460 1725.02,-460 1725.02,-454 1731.02,-448 1737.02,-448 1737.02,-448 1862.98,-448 1862.98,-448 1868.98,-448 1874.98,-454 1874.98,-460 1874.98,-460 1874.98,-472 1874.98,-472 1874.98,-478 1868.98,-484 1862.98,-484"/>
 <text xml:space="preserve" text-anchor="middle" x="1800" y="-463" font-family="Helvetica,sans-Serif" font-size="10.00">trace_exp_variational_formula</text>
 </a>
@@ -156,7 +156,7 @@
 <!-- n10 -->
 <g id="node11" class="node">
 <title>n10</title>
-<g id="a_node11"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/HighDim/MatrixAnalysis/RelativeEntropyJointConvex.lean#L101" xlink:title="noncomputable def · Statlib/HighDim/MatrixAnalysis/RelativeEntropyJointConvex.lean:101" target="_blank">
+<g id="a_node11"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/MatrixAnalysis/RelativeEntropyJointConvex.lean:101" xlink:title="noncomputable def · Statlib/HighDim/MatrixAnalysis/RelativeEntropyJointConvex.lean:101" target="_blank">
 <path fill="#d6e9ff" stroke="#3b82f6" d="M1165.97,-412C1165.97,-412 1100.03,-412 1100.03,-412 1094.03,-412 1088.03,-406 1088.03,-400 1088.03,-400 1088.03,-388 1088.03,-388 1088.03,-382 1094.03,-376 1100.03,-376 1100.03,-376 1165.97,-376 1165.97,-376 1171.97,-376 1177.97,-382 1177.97,-388 1177.97,-388 1177.97,-400 1177.97,-400 1177.97,-406 1171.97,-412 1165.97,-412"/>
 <text xml:space="preserve" text-anchor="middle" x="1133" y="-391" font-family="Helvetica,sans-Serif" font-size="10.00">perspectiveInner</text>
 </a>
@@ -165,7 +165,7 @@
 <!-- n11 -->
 <g id="node12" class="node">
 <title>n11</title>
-<g id="a_node12"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/HighDim/MatrixAnalysis/RelativeEntropyJointConvex.lean#L16" xlink:title="def · Statlib/HighDim/MatrixAnalysis/RelativeEntropyJointConvex.lean:16" target="_blank">
+<g id="a_node12"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/MatrixAnalysis/RelativeEntropyJointConvex.lean:16" xlink:title="def · Statlib/HighDim/MatrixAnalysis/RelativeEntropyJointConvex.lean:16" target="_blank">
 <path fill="#d6e9ff" stroke="#3b82f6" d="M1632.51,-268C1632.51,-268 1565.49,-268 1565.49,-268 1559.49,-268 1553.49,-262 1553.49,-256 1553.49,-256 1553.49,-244 1553.49,-244 1553.49,-238 1559.49,-232 1565.49,-232 1565.49,-232 1632.51,-232 1632.51,-232 1638.51,-232 1644.51,-238 1644.51,-244 1644.51,-244 1644.51,-256 1644.51,-256 1644.51,-262 1638.51,-268 1632.51,-268"/>
 <text xml:space="preserve" text-anchor="middle" x="1599" y="-247" font-family="Helvetica,sans-Serif" font-size="10.00">leftMulKronecker</text>
 </a>
@@ -174,7 +174,7 @@
 <!-- n12 -->
 <g id="node13" class="node">
 <title>n12</title>
-<g id="a_node13"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/HighDim/MatrixAnalysis/RelativeEntropyJointConvex.lean#L22" xlink:title="def · Statlib/HighDim/MatrixAnalysis/RelativeEntropyJointConvex.lean:22" target="_blank">
+<g id="a_node13"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/MatrixAnalysis/RelativeEntropyJointConvex.lean:22" xlink:title="def · Statlib/HighDim/MatrixAnalysis/RelativeEntropyJointConvex.lean:22" target="_blank">
 <path fill="#d6e9ff" stroke="#3b82f6" d="M373.57,-268C373.57,-268 300.43,-268 300.43,-268 294.43,-268 288.43,-262 288.43,-256 288.43,-256 288.43,-244 288.43,-244 288.43,-238 294.43,-232 300.43,-232 300.43,-232 373.57,-232 373.57,-232 379.57,-232 385.57,-238 385.57,-244 385.57,-244 385.57,-256 385.57,-256 385.57,-262 379.57,-268 373.57,-268"/>
 <text xml:space="preserve" text-anchor="middle" x="337" y="-247" font-family="Helvetica,sans-Serif" font-size="10.00">rightMulKronecker</text>
 </a>
@@ -183,7 +183,7 @@
 <!-- n13 -->
 <g id="node14" class="node">
 <title>n13</title>
-<g id="a_node14"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/HighDim/MatrixAnalysis/RelativeEntropyJointConvex.lean#L27" xlink:title="def · Statlib/HighDim/MatrixAnalysis/RelativeEntropyJointConvex.lean:27" target="_blank">
+<g id="a_node14"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/MatrixAnalysis/RelativeEntropyJointConvex.lean:27" xlink:title="def · Statlib/HighDim/MatrixAnalysis/RelativeEntropyJointConvex.lean:27" target="_blank">
 <path fill="#d6e9ff" stroke="#3b82f6" d="M1057.75,-412C1057.75,-412 966.25,-412 966.25,-412 960.25,-412 954.25,-406 954.25,-400 954.25,-400 954.25,-388 954.25,-388 954.25,-382 960.25,-376 966.25,-376 966.25,-376 1057.75,-376 1057.75,-376 1063.75,-376 1069.75,-382 1069.75,-388 1069.75,-388 1069.75,-400 1069.75,-400 1069.75,-406 1063.75,-412 1057.75,-412"/>
 <text xml:space="preserve" text-anchor="middle" x="1012" y="-391" font-family="Helvetica,sans-Serif" font-size="10.00">hilbertSchmidtVecOne</text>
 </a>
@@ -192,7 +192,7 @@
 <!-- n14 -->
 <g id="node15" class="node">
 <title>n14</title>
-<g id="a_node15"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/HighDim/MatrixAnalysis/RelativeEntropyJointConvex.lean#L66" xlink:title="lemma · Statlib/HighDim/MatrixAnalysis/RelativeEntropyJointConvex.lean:66" target="_blank">
+<g id="a_node15"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/MatrixAnalysis/RelativeEntropyJointConvex.lean:66" xlink:title="lemma · Statlib/HighDim/MatrixAnalysis/RelativeEntropyJointConvex.lean:66" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M1498.14,-412C1498.14,-412 1393.86,-412 1393.86,-412 1387.86,-412 1381.86,-406 1381.86,-400 1381.86,-400 1381.86,-388 1381.86,-388 1381.86,-382 1387.86,-376 1393.86,-376 1393.86,-376 1498.14,-376 1498.14,-376 1504.14,-376 1510.14,-382 1510.14,-388 1510.14,-388 1510.14,-400 1510.14,-400 1510.14,-406 1504.14,-412 1498.14,-412"/>
 <text xml:space="preserve" text-anchor="middle" x="1446" y="-391" font-family="Helvetica,sans-Serif" font-size="10.00">leftMulKronecker_posDef</text>
 </a>
@@ -207,7 +207,7 @@
 <!-- n15 -->
 <g id="node16" class="node">
 <title>n15</title>
-<g id="a_node16"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/HighDim/MatrixAnalysis/RelativeEntropyJointConvex.lean#L70" xlink:title="lemma · Statlib/HighDim/MatrixAnalysis/RelativeEntropyJointConvex.lean:70" target="_blank">
+<g id="a_node16"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/MatrixAnalysis/RelativeEntropyJointConvex.lean:70" xlink:title="lemma · Statlib/HighDim/MatrixAnalysis/RelativeEntropyJointConvex.lean:70" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M478.19,-412C478.19,-412 367.81,-412 367.81,-412 361.81,-412 355.81,-406 355.81,-400 355.81,-400 355.81,-388 355.81,-388 355.81,-382 361.81,-376 367.81,-376 367.81,-376 478.19,-376 478.19,-376 484.19,-376 490.19,-382 490.19,-388 490.19,-388 490.19,-400 490.19,-400 490.19,-406 484.19,-412 478.19,-412"/>
 <text xml:space="preserve" text-anchor="middle" x="423" y="-391" font-family="Helvetica,sans-Serif" font-size="10.00">rightMulKronecker_posDef</text>
 </a>
@@ -222,7 +222,7 @@
 <!-- n16 -->
 <g id="node17" class="node">
 <title>n16</title>
-<g id="a_node17"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/HighDim/MatrixAnalysis/RelativeEntropyJointConvex.lean#L77" xlink:title="lemma · Statlib/HighDim/MatrixAnalysis/RelativeEntropyJointConvex.lean:77" target="_blank">
+<g id="a_node17"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/MatrixAnalysis/RelativeEntropyJointConvex.lean:77" xlink:title="lemma · Statlib/HighDim/MatrixAnalysis/RelativeEntropyJointConvex.lean:77" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M770.26,-340C770.26,-340 583.74,-340 583.74,-340 577.74,-340 571.74,-334 571.74,-328 571.74,-328 571.74,-316 571.74,-316 571.74,-310 577.74,-304 583.74,-304 583.74,-304 770.26,-304 770.26,-304 776.26,-304 782.26,-310 782.26,-316 782.26,-316 782.26,-328 782.26,-328 782.26,-334 776.26,-340 770.26,-340"/>
 <text xml:space="preserve" text-anchor="middle" x="677" y="-319" font-family="Helvetica,sans-Serif" font-size="10.00">leftMulKronecker_comm_rightMulKronecker</text>
 </a>
@@ -243,7 +243,7 @@
 <!-- n17 -->
 <g id="node18" class="node">
 <title>n17</title>
-<g id="a_node18"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/HighDim/MatrixAnalysis/TraceExp.lean#L94" xlink:title="theorem · Statlib/HighDim/MatrixAnalysis/TraceExp.lean:94" target="_blank">
+<g id="a_node18"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/MatrixAnalysis/TraceExp.lean:76" xlink:title="theorem · Statlib/HighDim/MatrixAnalysis/TraceExp.lean:76" target="_blank">
 <path fill="#ffe6a3" stroke="#d4a017" d="M1147.6,-340C1147.6,-340 1014.4,-340 1014.4,-340 1008.4,-340 1002.4,-334 1002.4,-328 1002.4,-328 1002.4,-316 1002.4,-316 1002.4,-310 1008.4,-304 1014.4,-304 1014.4,-304 1147.6,-304 1147.6,-304 1153.6,-304 1159.6,-310 1159.6,-316 1159.6,-316 1159.6,-328 1159.6,-328 1159.6,-334 1153.6,-340 1147.6,-340"/>
 <text xml:space="preserve" text-anchor="middle" x="1081" y="-319" font-family="Helvetica,sans-Serif" font-size="10.00">real_matrix_exp_log_of_posDef</text>
 </a>
@@ -252,7 +252,7 @@
 <!-- n18 -->
 <g id="node19" class="node">
 <title>n18</title>
-<g id="a_node19"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/HighDim/MatrixAnalysis/RelativeEntropyJointConvex.lean#L30" xlink:title="lemma · Statlib/HighDim/MatrixAnalysis/RelativeEntropyJointConvex.lean:30" target="_blank">
+<g id="a_node19"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/MatrixAnalysis/RelativeEntropyJointConvex.lean:30" xlink:title="lemma · Statlib/HighDim/MatrixAnalysis/RelativeEntropyJointConvex.lean:30" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M1833.53,-340C1833.53,-340 1706.47,-340 1706.47,-340 1700.47,-340 1694.47,-334 1694.47,-328 1694.47,-328 1694.47,-316 1694.47,-316 1694.47,-310 1700.47,-304 1706.47,-304 1706.47,-304 1833.53,-304 1833.53,-304 1839.53,-304 1845.53,-310 1845.53,-316 1845.53,-316 1845.53,-328 1845.53,-328 1845.53,-334 1839.53,-340 1833.53,-340"/>
 <text xml:space="preserve" text-anchor="middle" x="1770" y="-319" font-family="Helvetica,sans-Serif" font-size="10.00">leftMulKronecker_mulVec_vec</text>
 </a>
@@ -267,7 +267,7 @@
 <!-- n19 -->
 <g id="node20" class="node">
 <title>n19</title>
-<g id="a_node20"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/HighDim/MatrixAnalysis/RelativeEntropyJointConvex.lean#L35" xlink:title="lemma · Statlib/HighDim/MatrixAnalysis/RelativeEntropyJointConvex.lean:35" target="_blank">
+<g id="a_node20"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/MatrixAnalysis/RelativeEntropyJointConvex.lean:35" xlink:title="lemma · Statlib/HighDim/MatrixAnalysis/RelativeEntropyJointConvex.lean:35" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M541.59,-340C541.59,-340 408.41,-340 408.41,-340 402.41,-340 396.41,-334 396.41,-328 396.41,-328 396.41,-316 396.41,-316 396.41,-310 402.41,-304 408.41,-304 408.41,-304 541.59,-304 541.59,-304 547.59,-304 553.59,-310 553.59,-316 553.59,-316 553.59,-328 553.59,-328 553.59,-334 547.59,-340 541.59,-340"/>
 <text xml:space="preserve" text-anchor="middle" x="475" y="-319" font-family="Helvetica,sans-Serif" font-size="10.00">rightMulKronecker_mulVec_vec</text>
 </a>
@@ -282,7 +282,7 @@
 <!-- n20 -->
 <g id="node21" class="node">
 <title>n20</title>
-<g id="a_node21"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/HighDim/MatrixAnalysis/RelativeEntropyJointConvex.lean#L115" xlink:title="lemma · Statlib/HighDim/MatrixAnalysis/RelativeEntropyJointConvex.lean:115" target="_blank">
+<g id="a_node21"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/MatrixAnalysis/RelativeEntropyJointConvex.lean:115" xlink:title="lemma · Statlib/HighDim/MatrixAnalysis/RelativeEntropyJointConvex.lean:115" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M1295.84,-484C1295.84,-484 1098.16,-484 1098.16,-484 1092.16,-484 1086.16,-478 1086.16,-472 1086.16,-472 1086.16,-460 1086.16,-460 1086.16,-454 1092.16,-448 1098.16,-448 1098.16,-448 1295.84,-448 1295.84,-448 1301.84,-448 1307.84,-454 1307.84,-460 1307.84,-460 1307.84,-472 1307.84,-472 1307.84,-478 1301.84,-484 1295.84,-484"/>
 <text xml:space="preserve" text-anchor="middle" x="1197" y="-463" font-family="Helvetica,sans-Serif" font-size="10.00">quantumRelativeEntropy_eq_perspectiveInner</text>
 </a>
@@ -363,7 +363,7 @@
 <!-- n21 -->
 <g id="node22" class="node">
 <title>n21</title>
-<g id="a_node22"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/HighDim/MatrixAnalysis/RelativeEntropyJointConvex.lean#L40" xlink:title="lemma · Statlib/HighDim/MatrixAnalysis/RelativeEntropyJointConvex.lean:40" target="_blank">
+<g id="a_node22"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/MatrixAnalysis/RelativeEntropyJointConvex.lean:40" xlink:title="lemma · Statlib/HighDim/MatrixAnalysis/RelativeEntropyJointConvex.lean:40" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M1643.64,-340C1643.64,-340 1554.36,-340 1554.36,-340 1548.36,-340 1542.36,-334 1542.36,-328 1542.36,-328 1542.36,-316 1542.36,-316 1542.36,-310 1548.36,-304 1554.36,-304 1554.36,-304 1643.64,-304 1643.64,-304 1649.64,-304 1655.64,-310 1655.64,-316 1655.64,-316 1655.64,-328 1655.64,-328 1655.64,-334 1649.64,-340 1643.64,-340"/>
 <text xml:space="preserve" text-anchor="middle" x="1599" y="-319" font-family="Helvetica,sans-Serif" font-size="10.00">leftMulKronecker_add</text>
 </a>
@@ -378,7 +378,7 @@
 <!-- n22 -->
 <g id="node23" class="node">
 <title>n22</title>
-<g id="a_node23"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/HighDim/MatrixAnalysis/RelativeEntropyJointConvex.lean#L44" xlink:title="lemma · Statlib/HighDim/MatrixAnalysis/RelativeEntropyJointConvex.lean:44" target="_blank">
+<g id="a_node23"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/MatrixAnalysis/RelativeEntropyJointConvex.lean:44" xlink:title="lemma · Statlib/HighDim/MatrixAnalysis/RelativeEntropyJointConvex.lean:44" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M1491.85,-340C1491.85,-340 1398.15,-340 1398.15,-340 1392.15,-340 1386.15,-334 1386.15,-328 1386.15,-328 1386.15,-316 1386.15,-316 1386.15,-310 1392.15,-304 1398.15,-304 1398.15,-304 1491.85,-304 1491.85,-304 1497.85,-304 1503.85,-310 1503.85,-316 1503.85,-316 1503.85,-328 1503.85,-328 1503.85,-334 1497.85,-340 1491.85,-340"/>
 <text xml:space="preserve" text-anchor="middle" x="1445" y="-319" font-family="Helvetica,sans-Serif" font-size="10.00">leftMulKronecker_smul</text>
 </a>
@@ -393,7 +393,7 @@
 <!-- n23 -->
 <g id="node24" class="node">
 <title>n23</title>
-<g id="a_node24"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/HighDim/MatrixAnalysis/RelativeEntropyJointConvex.lean#L56" xlink:title="lemma · Statlib/HighDim/MatrixAnalysis/RelativeEntropyJointConvex.lean:56" target="_blank">
+<g id="a_node24"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/MatrixAnalysis/RelativeEntropyJointConvex.lean:56" xlink:title="lemma · Statlib/HighDim/MatrixAnalysis/RelativeEntropyJointConvex.lean:56" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M1352.14,-412C1352.14,-412 1247.86,-412 1247.86,-412 1241.86,-412 1235.86,-406 1235.86,-400 1235.86,-400 1235.86,-388 1235.86,-388 1235.86,-382 1241.86,-376 1247.86,-376 1247.86,-376 1352.14,-376 1352.14,-376 1358.14,-376 1364.14,-382 1364.14,-388 1364.14,-388 1364.14,-400 1364.14,-400 1364.14,-406 1358.14,-412 1352.14,-412"/>
 <text xml:space="preserve" text-anchor="middle" x="1300" y="-391" font-family="Helvetica,sans-Serif" font-size="10.00">leftMulKronecker_convex</text>
 </a>
@@ -420,7 +420,7 @@
 <!-- n24 -->
 <g id="node25" class="node">
 <title>n24</title>
-<g id="a_node25"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/HighDim/MatrixAnalysis/RelativeEntropyJointConvex.lean#L48" xlink:title="lemma · Statlib/HighDim/MatrixAnalysis/RelativeEntropyJointConvex.lean:48" target="_blank">
+<g id="a_node25"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/MatrixAnalysis/RelativeEntropyJointConvex.lean:48" xlink:title="lemma · Statlib/HighDim/MatrixAnalysis/RelativeEntropyJointConvex.lean:48" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M163.69,-340C163.69,-340 68.31,-340 68.31,-340 62.31,-340 56.31,-334 56.31,-328 56.31,-328 56.31,-316 56.31,-316 56.31,-310 62.31,-304 68.31,-304 68.31,-304 163.69,-304 163.69,-304 169.69,-304 175.69,-310 175.69,-316 175.69,-316 175.69,-328 175.69,-328 175.69,-334 169.69,-340 163.69,-340"/>
 <text xml:space="preserve" text-anchor="middle" x="116" y="-319" font-family="Helvetica,sans-Serif" font-size="10.00">rightMulKronecker_add</text>
 </a>
@@ -435,7 +435,7 @@
 <!-- n25 -->
 <g id="node26" class="node">
 <title>n25</title>
-<g id="a_node26"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/HighDim/MatrixAnalysis/RelativeEntropyJointConvex.lean#L52" xlink:title="lemma · Statlib/HighDim/MatrixAnalysis/RelativeEntropyJointConvex.lean:52" target="_blank">
+<g id="a_node26"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/MatrixAnalysis/RelativeEntropyJointConvex.lean:52" xlink:title="lemma · Statlib/HighDim/MatrixAnalysis/RelativeEntropyJointConvex.lean:52" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M305.91,-340C305.91,-340 206.09,-340 206.09,-340 200.09,-340 194.09,-334 194.09,-328 194.09,-328 194.09,-316 194.09,-316 194.09,-310 200.09,-304 206.09,-304 206.09,-304 305.91,-304 305.91,-304 311.91,-304 317.91,-310 317.91,-316 317.91,-316 317.91,-328 317.91,-328 317.91,-334 311.91,-340 305.91,-340"/>
 <text xml:space="preserve" text-anchor="middle" x="256" y="-319" font-family="Helvetica,sans-Serif" font-size="10.00">rightMulKronecker_smul</text>
 </a>
@@ -450,7 +450,7 @@
 <!-- n26 -->
 <g id="node27" class="node">
 <title>n26</title>
-<g id="a_node27"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/HighDim/MatrixAnalysis/RelativeEntropyJointConvex.lean#L61" xlink:title="lemma · Statlib/HighDim/MatrixAnalysis/RelativeEntropyJointConvex.lean:61" target="_blank">
+<g id="a_node27"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/MatrixAnalysis/RelativeEntropyJointConvex.lean:61" xlink:title="lemma · Statlib/HighDim/MatrixAnalysis/RelativeEntropyJointConvex.lean:61" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M239.19,-412C239.19,-412 128.81,-412 128.81,-412 122.81,-412 116.81,-406 116.81,-400 116.81,-400 116.81,-388 116.81,-388 116.81,-382 122.81,-376 128.81,-376 128.81,-376 239.19,-376 239.19,-376 245.19,-376 251.19,-382 251.19,-388 251.19,-388 251.19,-400 251.19,-400 251.19,-406 245.19,-412 239.19,-412"/>
 <text xml:space="preserve" text-anchor="middle" x="184" y="-391" font-family="Helvetica,sans-Serif" font-size="10.00">rightMulKronecker_convex</text>
 </a>
@@ -477,7 +477,7 @@
 <!-- n27 -->
 <g id="node28" class="node">
 <title>n27</title>
-<g id="a_node28"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/HighDim/MatrixAnalysis/TraceExp.lean#L316" xlink:title="theorem · Statlib/HighDim/MatrixAnalysis/TraceExp.lean:316" target="_blank">
+<g id="a_node28"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/MatrixAnalysis/TraceExp.lean:298" xlink:title="theorem · Statlib/HighDim/MatrixAnalysis/TraceExp.lean:298" target="_blank">
 <path fill="#ffe6a3" stroke="#d4a017" d="M1326.94,-196C1326.94,-196 1167.06,-196 1167.06,-196 1161.06,-196 1155.06,-190 1155.06,-184 1155.06,-184 1155.06,-172 1155.06,-172 1155.06,-166 1161.06,-160 1167.06,-160 1167.06,-160 1326.94,-160 1326.94,-160 1332.94,-160 1338.94,-166 1338.94,-172 1338.94,-172 1338.94,-184 1338.94,-184 1338.94,-190 1332.94,-196 1326.94,-196"/>
 <text xml:space="preserve" text-anchor="middle" x="1247" y="-175" font-family="Helvetica,sans-Serif" font-size="10.00">matrix_integrable_of_entry_integrable</text>
 </a>
@@ -486,7 +486,7 @@
 <!-- n28 -->
 <g id="node29" class="node">
 <title>n28</title>
-<g id="a_node29"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/HighDim/MatrixAnalysis/TraceExp.lean#L274" xlink:title="private theorem · Statlib/HighDim/MatrixAnalysis/TraceExp.lean:274" target="_blank">
+<g id="a_node29"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/MatrixAnalysis/TraceExp.lean:256" xlink:title="private theorem · Statlib/HighDim/MatrixAnalysis/TraceExp.lean:256" target="_blank">
 <path fill="#ffe6a3" stroke="#d4a017" d="M971.37,-52C971.37,-52 812.63,-52 812.63,-52 806.63,-52 800.63,-46 800.63,-40 800.63,-40 800.63,-28 800.63,-28 800.63,-22 806.63,-16 812.63,-16 812.63,-16 971.37,-16 971.37,-16 977.37,-16 983.37,-22 983.37,-28 983.37,-28 983.37,-40 983.37,-40 983.37,-46 977.37,-52 971.37,-52"/>
 <text xml:space="preserve" text-anchor="middle" x="892" y="-31" font-family="Helvetica,sans-Serif" font-size="10.00">matrix_entry_abs_le_l2_opNorm_rect</text>
 </a>
@@ -495,7 +495,7 @@
 <!-- n29 -->
 <g id="node30" class="node">
 <title>n29</title>
-<g id="a_node30"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/HighDim/MatrixAnalysis/TraceExp.lean#L299" xlink:title="private def · Statlib/HighDim/MatrixAnalysis/TraceExp.lean:299" target="_blank">
+<g id="a_node30"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/MatrixAnalysis/TraceExp.lean:281" xlink:title="private def · Statlib/HighDim/MatrixAnalysis/TraceExp.lean:281" target="_blank">
 <path fill="#d6e9ff" stroke="#3b82f6" d="M923.84,-124C923.84,-124 860.16,-124 860.16,-124 854.16,-124 848.16,-118 848.16,-112 848.16,-112 848.16,-100 848.16,-100 848.16,-94 854.16,-88 860.16,-88 860.16,-88 923.84,-88 923.84,-88 929.84,-88 935.84,-94 935.84,-100 935.84,-100 935.84,-112 935.84,-112 935.84,-118 929.84,-124 923.84,-124"/>
 <text xml:space="preserve" text-anchor="middle" x="892" y="-103" font-family="Helvetica,sans-Serif" font-size="10.00">matrixEntryCLM</text>
 </a>
@@ -510,7 +510,7 @@
 <!-- n30 -->
 <g id="node31" class="node">
 <title>n30</title>
-<g id="a_node31"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/HighDim/MatrixAnalysis/TraceExp.lean#L309" xlink:title="theorem · Statlib/HighDim/MatrixAnalysis/TraceExp.lean:309" target="_blank">
+<g id="a_node31"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/MatrixAnalysis/TraceExp.lean:291" xlink:title="theorem · Statlib/HighDim/MatrixAnalysis/TraceExp.lean:291" target="_blank">
 <path fill="#ffe6a3" stroke="#d4a017" d="M1020.22,-196C1020.22,-196 869.78,-196 869.78,-196 863.78,-196 857.78,-190 857.78,-184 857.78,-184 857.78,-172 857.78,-172 857.78,-166 863.78,-160 869.78,-160 869.78,-160 1020.22,-160 1020.22,-160 1026.22,-160 1032.22,-166 1032.22,-172 1032.22,-172 1032.22,-184 1032.22,-184 1032.22,-190 1026.22,-196 1020.22,-196"/>
 <text xml:space="preserve" text-anchor="middle" x="945" y="-175" font-family="Helvetica,sans-Serif" font-size="10.00">matrix_integral_apply_of_integrable</text>
 </a>
@@ -525,7 +525,7 @@
 <!-- n31 -->
 <g id="node32" class="node">
 <title>n31</title>
-<g id="a_node32"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/HighDim/MatrixAnalysis/MatrixLogIntegralRep.lean#L8" xlink:title="theorem · Statlib/HighDim/MatrixAnalysis/MatrixLogIntegralRep.lean:8" target="_blank">
+<g id="a_node32"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/MatrixAnalysis/MatrixLogIntegralRep.lean:8" xlink:title="theorem · Statlib/HighDim/MatrixAnalysis/MatrixLogIntegralRep.lean:8" target="_blank">
 <path fill="#ffe6a3" stroke="#d4a017" d="M1295.25,-268C1295.25,-268 1198.75,-268 1198.75,-268 1192.75,-268 1186.75,-262 1186.75,-256 1186.75,-256 1186.75,-244 1186.75,-244 1186.75,-238 1192.75,-232 1198.75,-232 1198.75,-232 1295.25,-232 1295.25,-232 1301.25,-232 1307.25,-238 1307.25,-244 1307.25,-244 1307.25,-256 1307.25,-256 1307.25,-262 1301.25,-268 1295.25,-268"/>
 <text xml:space="preserve" text-anchor="middle" x="1247" y="-247" font-family="Helvetica,sans-Serif" font-size="10.00">matrix_log_integral_rep</text>
 </a>
@@ -546,7 +546,7 @@
 <!-- n32 -->
 <g id="node33" class="node">
 <title>n32</title>
-<g id="a_node33"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/HighDim/MatrixAnalysis/LiebRuskaiConjInvJointlyConvex.lean#L7" xlink:title="theorem · Statlib/HighDim/MatrixAnalysis/LiebRuskaiConjInvJointlyConvex.lean:7" target="_blank">
+<g id="a_node33"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/MatrixAnalysis/LiebRuskaiConjInvJointlyConvex.lean:7" xlink:title="theorem · Statlib/HighDim/MatrixAnalysis/LiebRuskaiConjInvJointlyConvex.lean:7" target="_blank">
 <path fill="#ffe6a3" stroke="#d4a017" d="M1157.21,-268C1157.21,-268 1006.79,-268 1006.79,-268 1000.79,-268 994.79,-262 994.79,-256 994.79,-256 994.79,-244 994.79,-244 994.79,-238 1000.79,-232 1006.79,-232 1006.79,-232 1157.21,-232 1157.21,-232 1163.21,-232 1169.21,-238 1169.21,-244 1169.21,-244 1169.21,-256 1169.21,-256 1169.21,-262 1163.21,-268 1157.21,-268"/>
 <text xml:space="preserve" text-anchor="middle" x="1082" y="-247" font-family="Helvetica,sans-Serif" font-size="10.00">lieb_ruskai_conj_inv_jointly_convex</text>
 </a>
@@ -555,7 +555,7 @@
 <!-- n33 -->
 <g id="node34" class="node">
 <title>n33</title>
-<g id="a_node34"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/HighDim/MatrixAnalysis/TraceExp.lean#L334" xlink:title="theorem · Statlib/HighDim/MatrixAnalysis/TraceExp.lean:334" target="_blank">
+<g id="a_node34"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/MatrixAnalysis/TraceExp.lean:316" xlink:title="theorem · Statlib/HighDim/MatrixAnalysis/TraceExp.lean:316" target="_blank">
 <path fill="#ffe6a3" stroke="#d4a017" d="M965.27,-268C965.27,-268 818.73,-268 818.73,-268 812.73,-268 806.73,-262 806.73,-256 806.73,-256 806.73,-244 806.73,-244 806.73,-238 812.73,-232 818.73,-232 818.73,-232 965.27,-232 965.27,-232 971.27,-232 977.27,-238 977.27,-244 977.27,-244 977.27,-256 977.27,-256 977.27,-262 971.27,-268 965.27,-268"/>
 <text xml:space="preserve" text-anchor="middle" x="892" y="-247" font-family="Helvetica,sans-Serif" font-size="10.00">matrix_integral_posSemidef_of_ae</text>
 </a>
@@ -576,7 +576,7 @@
 <!-- n34 -->
 <g id="node35" class="node">
 <title>n34</title>
-<g id="a_node35"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/HighDim/MatrixAnalysis/OperatorConvexMulLog.lean#L14" xlink:title="theorem · Statlib/HighDim/MatrixAnalysis/OperatorConvexMulLog.lean:14" target="_blank">
+<g id="a_node35"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/MatrixAnalysis/OperatorConvexMulLog.lean:14" xlink:title="theorem · Statlib/HighDim/MatrixAnalysis/OperatorConvexMulLog.lean:14" target="_blank">
 <path fill="#ffe6a3" stroke="#d4a017" d="M932.48,-340C932.48,-340 851.52,-340 851.52,-340 845.52,-340 839.52,-334 839.52,-328 839.52,-328 839.52,-316 839.52,-316 839.52,-310 845.52,-304 851.52,-304 851.52,-304 932.48,-304 932.48,-304 938.48,-304 944.48,-310 944.48,-316 944.48,-316 944.48,-328 944.48,-328 944.48,-334 938.48,-340 932.48,-340"/>
 <text xml:space="preserve" text-anchor="middle" x="892" y="-319" font-family="Helvetica,sans-Serif" font-size="10.00">op_convex_mul_log</text>
 </a>
@@ -603,7 +603,7 @@
 <!-- n35 -->
 <g id="node36" class="node">
 <title>n35</title>
-<g id="a_node36"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/HighDim/MatrixAnalysis/HansenPedersenJensenMulLog.lean#L28" xlink:title="theorem · Statlib/HighDim/MatrixAnalysis/HansenPedersenJensenMulLog.lean:28" target="_blank">
+<g id="a_node36"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/MatrixAnalysis/HansenPedersenJensenMulLog.lean:28" xlink:title="theorem · Statlib/HighDim/MatrixAnalysis/HansenPedersenJensenMulLog.lean:28" target="_blank">
 <path fill="#ffe6a3" stroke="#d4a017" d="M883.84,-412C883.84,-412 736.16,-412 736.16,-412 730.16,-412 724.16,-406 724.16,-400 724.16,-400 724.16,-388 724.16,-388 724.16,-382 730.16,-376 736.16,-376 736.16,-376 883.84,-376 883.84,-376 889.84,-376 895.84,-382 895.84,-388 895.84,-388 895.84,-400 895.84,-400 895.84,-406 889.84,-412 883.84,-412"/>
 <text xml:space="preserve" text-anchor="middle" x="810" y="-391" font-family="Helvetica,sans-Serif" font-size="10.00">hansen_pedersen_jensen_mul_log</text>
 </a>
@@ -648,7 +648,7 @@
 <!-- n36 -->
 <g id="node37" class="node">
 <title>n36</title>
-<g id="a_node37"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/HighDim/MatrixAnalysis/RelativeEntropyJointConvex.lean#L388" xlink:title="lemma · Statlib/HighDim/MatrixAnalysis/RelativeEntropyJointConvex.lean:388" target="_blank">
+<g id="a_node37"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/MatrixAnalysis/RelativeEntropyJointConvex.lean:388" xlink:title="lemma · Statlib/HighDim/MatrixAnalysis/RelativeEntropyJointConvex.lean:388" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M986.87,-484C986.87,-484 863.13,-484 863.13,-484 857.13,-484 851.13,-478 851.13,-472 851.13,-472 851.13,-460 851.13,-460 851.13,-454 857.13,-448 863.13,-448 863.13,-448 986.87,-448 986.87,-448 992.87,-448 998.87,-454 998.87,-460 998.87,-460 998.87,-472 998.87,-472 998.87,-478 992.87,-484 986.87,-484"/>
 <text xml:space="preserve" text-anchor="middle" x="925" y="-463" font-family="Helvetica,sans-Serif" font-size="10.00">perspectiveInner_jointConvex</text>
 </a>
@@ -723,7 +723,7 @@
 <!-- n37 -->
 <g id="node38" class="node">
 <title>n37</title>
-<g id="a_node38"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/HighDim/MatrixAnalysis/RelativeEntropyJointConvex.lean#L990" xlink:title="theorem · Statlib/HighDim/MatrixAnalysis/RelativeEntropyJointConvex.lean:990" target="_blank">
+<g id="a_node38"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/MatrixAnalysis/RelativeEntropyJointConvex.lean:990" xlink:title="theorem · Statlib/HighDim/MatrixAnalysis/RelativeEntropyJointConvex.lean:990" target="_blank">
 <path fill="#ffe6a3" stroke="#d4a017" d="M1211.66,-556C1211.66,-556 1052.34,-556 1052.34,-556 1046.34,-556 1040.34,-550 1040.34,-544 1040.34,-544 1040.34,-532 1040.34,-532 1040.34,-526 1046.34,-520 1052.34,-520 1052.34,-520 1211.66,-520 1211.66,-520 1217.66,-520 1223.66,-526 1223.66,-532 1223.66,-532 1223.66,-544 1223.66,-544 1223.66,-550 1217.66,-556 1211.66,-556"/>
 <text xml:space="preserve" text-anchor="middle" x="1132" y="-535" font-family="Helvetica,sans-Serif" font-size="10.00">quantumRelativeEntropy_jointConvex</text>
 </a>
@@ -774,7 +774,7 @@
 <!-- n38 -->
 <g id="node39" class="node">
 <title>n38</title>
-<g id="a_node39"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/HighDim/MatrixAnalysis/RelativeEntropyJointConvex.lean#L1053" xlink:title="theorem · Statlib/HighDim/MatrixAnalysis/RelativeEntropyJointConvex.lean:1053" target="_blank">
+<g id="a_node39"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/MatrixAnalysis/RelativeEntropyJointConvex.lean:1053" xlink:title="theorem · Statlib/HighDim/MatrixAnalysis/RelativeEntropyJointConvex.lean:1053" target="_blank">
 <path fill="#ffe6a3" stroke="#d4a017" d="M1615.15,-628C1615.15,-628 1490.85,-628 1490.85,-628 1484.85,-628 1478.85,-622 1478.85,-616 1478.85,-616 1478.85,-604 1478.85,-604 1478.85,-598 1484.85,-592 1490.85,-592 1490.85,-592 1615.15,-592 1615.15,-592 1621.15,-592 1627.15,-598 1627.15,-604 1627.15,-604 1627.15,-616 1627.15,-616 1627.15,-622 1621.15,-628 1615.15,-628"/>
 <text xml:space="preserve" text-anchor="middle" x="1553" y="-607" font-family="Helvetica,sans-Serif" font-size="10.00">relative_entropy_joint_convex</text>
 </a>
@@ -795,7 +795,7 @@
 <!-- n39 -->
 <g id="node40" class="node">
 <title>n39</title>
-<g id="a_node40"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/HighDim/MatrixAnalysis/LiebTraceConcavity.lean#L75" xlink:title="theorem · Statlib/HighDim/MatrixAnalysis/LiebTraceConcavity.lean:75" target="_blank">
+<g id="a_node40"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/MatrixAnalysis/LiebTraceConcavity.lean:75" xlink:title="theorem · Statlib/HighDim/MatrixAnalysis/LiebTraceConcavity.lean:75" target="_blank">
 <path fill="#ffe6a3" stroke="#d4a017" d="M1730.12,-700C1730.12,-700 1561.88,-700 1561.88,-700 1555.88,-700 1549.88,-694 1549.88,-688 1549.88,-688 1549.88,-676 1549.88,-676 1549.88,-670 1555.88,-664 1561.88,-664 1561.88,-664 1730.12,-664 1730.12,-664 1736.12,-664 1742.12,-670 1742.12,-676 1742.12,-676 1742.12,-688 1742.12,-688 1742.12,-694 1736.12,-700 1730.12,-700"/>
 <text xml:space="preserve" text-anchor="middle" x="1646" y="-679" font-family="Helvetica,sans-Serif" font-size="10.00">trace_exp_add_log_concave_two_point</text>
 </a>
@@ -828,7 +828,7 @@
 <!-- n40 -->
 <g id="node41" class="node">
 <title>n40</title>
-<g id="a_node41"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/HighDim/MatrixAnalysis/LiebTraceConcavity.lean#L143" xlink:title="theorem · Statlib/HighDim/MatrixAnalysis/LiebTraceConcavity.lean:143" target="_blank">
+<g id="a_node41"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/MatrixAnalysis/LiebTraceConcavity.lean:143" xlink:title="theorem · Statlib/HighDim/MatrixAnalysis/LiebTraceConcavity.lean:143" target="_blank">
 <path fill="#ffe6a3" stroke="#d4a017" d="M1593.94,-772C1593.94,-772 1474.06,-772 1474.06,-772 1468.06,-772 1462.06,-766 1462.06,-760 1462.06,-760 1462.06,-748 1462.06,-748 1462.06,-742 1468.06,-736 1474.06,-736 1474.06,-736 1593.94,-736 1593.94,-736 1599.94,-736 1605.94,-742 1605.94,-748 1605.94,-748 1605.94,-760 1605.94,-760 1605.94,-766 1599.94,-772 1593.94,-772"/>
 <text xml:space="preserve" text-anchor="middle" x="1534" y="-751" font-family="Helvetica,sans-Serif" font-size="10.00">trace_exp_add_log_concave</text>
 </a>
@@ -849,7 +849,7 @@
 <!-- n41 -->
 <g id="node42" class="node">
 <title>n41</title>
-<g id="a_node42"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/HighDim/MatrixAnalysis/LiebTraceConcavity.lean#L165" xlink:title="theorem · Statlib/HighDim/MatrixAnalysis/LiebTraceConcavity.lean:165" target="_blank">
+<g id="a_node42"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/MatrixAnalysis/LiebTraceConcavity.lean:165" xlink:title="theorem · Statlib/HighDim/MatrixAnalysis/LiebTraceConcavity.lean:165" target="_blank">
 <path fill="#ffe6a3" stroke="#d4a017" d="M1623.4,-844C1623.4,-844 1444.6,-844 1444.6,-844 1438.6,-844 1432.6,-838 1432.6,-832 1432.6,-832 1432.6,-820 1432.6,-820 1432.6,-814 1438.6,-808 1444.6,-808 1444.6,-808 1623.4,-808 1623.4,-808 1629.4,-808 1635.4,-814 1635.4,-820 1635.4,-820 1635.4,-832 1635.4,-832 1635.4,-838 1629.4,-844 1623.4,-844"/>
 <text xml:space="preserve" text-anchor="middle" x="1534" y="-823" font-family="Helvetica,sans-Serif" font-size="10.00">trace_exp_add_log_finset_jensen_posDef</text>
 </a>
@@ -864,7 +864,7 @@
 <!-- n42 -->
 <g id="node43" class="node">
 <title>n42</title>
-<g id="a_node43"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/HighDim/MatrixAnalysis/LiebTraceConcavity.lean#L198" xlink:title="theorem · Statlib/HighDim/MatrixAnalysis/LiebTraceConcavity.lean:198" target="_blank">
+<g id="a_node43"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/MatrixAnalysis/LiebTraceConcavity.lean:198" xlink:title="theorem · Statlib/HighDim/MatrixAnalysis/LiebTraceConcavity.lean:198" target="_blank">
 <path fill="#ffe6a3" stroke="#d4a017" stroke-width="3" d="M1637.02,-916C1637.02,-916 1430.98,-916 1430.98,-916 1424.98,-916 1418.98,-910 1418.98,-904 1418.98,-904 1418.98,-892 1418.98,-892 1418.98,-886 1424.98,-880 1430.98,-880 1430.98,-880 1637.02,-880 1637.02,-880 1643.02,-880 1649.02,-886 1649.02,-892 1649.02,-892 1649.02,-904 1649.02,-904 1649.02,-910 1643.02,-916 1637.02,-916"/>
 <text xml:space="preserve" text-anchor="middle" x="1534" y="-895" font-family="Helvetica,sans-Serif" font-size="10.00">trace_exp_add_log_simpleFunc_jensen_posDef</text>
 </a>

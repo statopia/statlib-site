@@ -5,7 +5,7 @@ Closure: 2 declarations across 2 files. Generated from `proof_graph.json` — no
 
 Reading order (foundations first, headline last):
 
-  ★ `subgaussian_meas_abs_ge_le_two_exp` — theorem · `Statlib/StatFoundation/RandomVariable/SubGaussian/subgaussian_meas_abs_ge_le_two_exp.lean:9`  _(also used by 4: subgaussian_linf_tail, lasso_noise_condition, subgaussian_exp_sq_le_at_one_third, …)_
+  ★ `subgaussian_meas_abs_ge_le_two_exp` — theorem · `Statlib/StatFoundation/RandomVariable/SubGaussian/subgaussian_meas_abs_ge_le_two_exp.lean:9`  _(also used by 6: subgaussian_linf_tail, lasso_noise_condition, coordinate_sample_envelope_good_profile_tail, …)_
 ★ `subgaussian_even_moment_le` — theorem · `Statlib/StatFoundation/RandomVariable/SubGaussian/subgaussian_even_moment_le.lean:20` **← headline**
 
 ## Dependency diagram

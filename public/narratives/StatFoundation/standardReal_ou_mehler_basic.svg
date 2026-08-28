@@ -18,7 +18,7 @@
 <!-- n0 -->
 <g id="node1" class="node">
 <title>n0</title>
-<g id="a_node1"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/StatFoundation/RandomVariable/Gaussian/Standard.lean#L31" xlink:title="abbrev · Statlib/StatFoundation/RandomVariable/Gaussian/Standard.lean:31" target="_blank">
+<g id="a_node1"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/StatFoundation/RandomVariable/Gaussian/Standard.lean:31" xlink:title="abbrev · Statlib/StatFoundation/RandomVariable/Gaussian/Standard.lean:31" target="_blank">
 <path fill="#d6e9ff" stroke="#3b82f6" d="M547.74,-412C547.74,-412 496.26,-412 496.26,-412 490.26,-412 484.26,-406 484.26,-400 484.26,-400 484.26,-388 484.26,-388 484.26,-382 490.26,-376 496.26,-376 496.26,-376 547.74,-376 547.74,-376 553.74,-376 559.74,-382 559.74,-388 559.74,-388 559.74,-400 559.74,-400 559.74,-406 553.74,-412 547.74,-412"/>
 <text xml:space="preserve" text-anchor="middle" x="522" y="-391" font-family="Helvetica,sans-Serif" font-size="10.00">standardReal</text>
 </a>
@@ -27,7 +27,7 @@
 <!-- n1 -->
 <g id="node2" class="node">
 <title>n1</title>
-<g id="a_node2"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/StatFoundation/RandomVariable/Gaussian/LogSobolev.lean#L22" xlink:title="lemma · Statlib/StatFoundation/RandomVariable/Gaussian/LogSobolev.lean:22" target="_blank">
+<g id="a_node2"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/StatFoundation/RandomVariable/Gaussian/LogSobolev.lean:28" xlink:title="lemma · Statlib/StatFoundation/RandomVariable/Gaussian/LogSobolev.lean:28" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M421.99,-412C421.99,-412 326.01,-412 326.01,-412 320.01,-412 314.01,-406 314.01,-400 314.01,-400 314.01,-388 314.01,-388 314.01,-382 320.01,-376 326.01,-376 326.01,-376 421.99,-376 421.99,-376 427.99,-376 433.99,-382 433.99,-388 433.99,-388 433.99,-400 433.99,-400 433.99,-406 427.99,-412 421.99,-412"/>
 <text xml:space="preserve" text-anchor="middle" x="374" y="-391" font-family="Helvetica,sans-Serif" font-size="10.00">abs_le_of_deriv_bound</text>
 </a>
@@ -36,7 +36,7 @@
 <!-- n2 -->
 <g id="node3" class="node">
 <title>n2</title>
-<g id="a_node3"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/StatFoundation/RandomVariable/Gaussian/LogSobolev.lean#L652" xlink:title="lemma · Statlib/StatFoundation/RandomVariable/Gaussian/LogSobolev.lean:652" target="_blank">
+<g id="a_node3"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/StatFoundation/RandomVariable/Gaussian/LogSobolev.lean:659" xlink:title="lemma · Statlib/StatFoundation/RandomVariable/Gaussian/LogSobolev.lean:659" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M580.72,-52C580.72,-52 435.28,-52 435.28,-52 429.28,-52 423.28,-46 423.28,-40 423.28,-40 423.28,-28 423.28,-28 423.28,-22 429.28,-16 435.28,-16 435.28,-16 580.72,-16 580.72,-16 586.72,-16 592.72,-22 592.72,-28 592.72,-28 592.72,-40 592.72,-40 592.72,-46 586.72,-52 580.72,-52"/>
 <text xml:space="preserve" text-anchor="middle" x="508" y="-31" font-family="Helvetica,sans-Serif" font-size="10.00">integrable_exp_abs_gaussianReal</text>
 </a>
@@ -45,7 +45,7 @@
 <!-- n3 -->
 <g id="node4" class="node">
 <title>n3</title>
-<g id="a_node4"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/StatFoundation/RandomVariable/Gaussian/LogSobolev.lean#L681" xlink:title="lemma · Statlib/StatFoundation/RandomVariable/Gaussian/LogSobolev.lean:681" target="_blank">
+<g id="a_node4"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/StatFoundation/RandomVariable/Gaussian/LogSobolev.lean:688" xlink:title="lemma · Statlib/StatFoundation/RandomVariable/Gaussian/LogSobolev.lean:688" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M606.57,-124C606.57,-124 409.43,-124 409.43,-124 403.43,-124 397.43,-118 397.43,-112 397.43,-112 397.43,-100 397.43,-100 397.43,-94 403.43,-88 409.43,-88 409.43,-88 606.57,-88 606.57,-88 612.57,-88 618.57,-94 618.57,-100 618.57,-100 618.57,-112 618.57,-112 618.57,-118 612.57,-124 606.57,-124"/>
 <text xml:space="preserve" text-anchor="middle" x="508" y="-103" font-family="Helvetica,sans-Serif" font-size="10.00">integrable_linear_mul_exp_abs_gaussianReal</text>
 </a>
@@ -60,7 +60,7 @@
 <!-- n4 -->
 <g id="node5" class="node">
 <title>n4</title>
-<g id="a_node5"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/StatFoundation/RandomVariable/Gaussian/LogSobolev.lean#L761" xlink:title="lemma · Statlib/StatFoundation/RandomVariable/Gaussian/LogSobolev.lean:761" target="_blank">
+<g id="a_node5"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/StatFoundation/RandomVariable/Gaussian/LogSobolev.lean:768" xlink:title="lemma · Statlib/StatFoundation/RandomVariable/Gaussian/LogSobolev.lean:768" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M627.41,-196C627.41,-196 388.59,-196 388.59,-196 382.59,-196 376.59,-190 376.59,-184 376.59,-184 376.59,-172 376.59,-172 376.59,-166 382.59,-160 388.59,-160 388.59,-160 627.41,-160 627.41,-160 633.41,-160 639.41,-166 639.41,-172 639.41,-172 639.41,-184 639.41,-184 639.41,-190 633.41,-196 627.41,-196"/>
 <text xml:space="preserve" text-anchor="middle" x="508" y="-175" font-family="Helvetica,sans-Serif" font-size="10.00">integrable_linear_mul_exp_abs_mul_gaussianPDFReal</text>
 </a>
@@ -75,7 +75,7 @@
 <!-- n5 -->
 <g id="node6" class="node">
 <title>n5</title>
-<g id="a_node6"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/StatFoundation/RandomVariable/Gaussian/LogSobolev.lean#L933" xlink:title="lemma · Statlib/StatFoundation/RandomVariable/Gaussian/LogSobolev.lean:933" target="_blank">
+<g id="a_node6"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/StatFoundation/RandomVariable/Gaussian/LogSobolev.lean:940" xlink:title="lemma · Statlib/StatFoundation/RandomVariable/Gaussian/LogSobolev.lean:940" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M677.64,-268C677.64,-268 464.36,-268 464.36,-268 458.36,-268 452.36,-262 452.36,-256 452.36,-256 452.36,-244 452.36,-244 452.36,-238 458.36,-232 464.36,-232 464.36,-232 677.64,-232 677.64,-232 683.64,-232 689.64,-238 689.64,-244 689.64,-244 689.64,-256 689.64,-256 689.64,-262 683.64,-268 677.64,-268"/>
 <text xml:space="preserve" text-anchor="middle" x="571" y="-247" font-family="Helvetica,sans-Serif" font-size="10.00">weighted_gaussian_integrableExpSet_id_eq_univ</text>
 </a>
@@ -90,7 +90,7 @@
 <!-- n6 -->
 <g id="node7" class="node">
 <title>n6</title>
-<g id="a_node7"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/StatFoundation/RandomVariable/Gaussian/LogSobolev.lean#L887" xlink:title="lemma · Statlib/StatFoundation/RandomVariable/Gaussian/LogSobolev.lean:887" target="_blank">
+<g id="a_node7"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/StatFoundation/RandomVariable/Gaussian/LogSobolev.lean:894" xlink:title="lemma · Statlib/StatFoundation/RandomVariable/Gaussian/LogSobolev.lean:894" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M296.83,-196C296.83,-196 129.17,-196 129.17,-196 123.17,-196 117.17,-190 117.17,-184 117.17,-184 117.17,-172 117.17,-172 117.17,-166 123.17,-160 129.17,-160 129.17,-160 296.83,-160 296.83,-160 302.83,-160 308.83,-166 308.83,-172 308.83,-172 308.83,-184 308.83,-184 308.83,-190 302.83,-196 296.83,-196"/>
 <text xml:space="preserve" text-anchor="middle" x="213" y="-175" font-family="Helvetica,sans-Serif" font-size="10.00">gaussian_kernel_eq_gaussianPDFReal</text>
 </a>
@@ -99,7 +99,7 @@
 <!-- n7 -->
 <g id="node8" class="node">
 <title>n7</title>
-<g id="a_node8"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/StatFoundation/RandomVariable/Gaussian/LogSobolev.lean#L912" xlink:title="lemma · Statlib/StatFoundation/RandomVariable/Gaussian/LogSobolev.lean:912" target="_blank">
+<g id="a_node8"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/StatFoundation/RandomVariable/Gaussian/LogSobolev.lean:919" xlink:title="lemma · Statlib/StatFoundation/RandomVariable/Gaussian/LogSobolev.lean:919" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M180.33,-268C180.33,-268 27.67,-268 27.67,-268 21.67,-268 15.67,-262 15.67,-256 15.67,-256 15.67,-244 15.67,-244 15.67,-238 21.67,-232 27.67,-232 27.67,-232 180.33,-232 180.33,-232 186.33,-232 192.33,-238 192.33,-244 192.33,-244 192.33,-256 192.33,-256 192.33,-262 186.33,-268 180.33,-268"/>
 <text xml:space="preserve" text-anchor="middle" x="104" y="-247" font-family="Helvetica,sans-Serif" font-size="10.00">gaussian_kernel_exp_mul_zero_pdf</text>
 </a>
@@ -114,7 +114,7 @@
 <!-- n8 -->
 <g id="node9" class="node">
 <title>n8</title>
-<g id="a_node9"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/StatFoundation/RandomVariable/Gaussian/LogSobolev.lean#L1070" xlink:title="lemma · Statlib/StatFoundation/RandomVariable/Gaussian/LogSobolev.lean:1070" target="_blank">
+<g id="a_node9"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/StatFoundation/RandomVariable/Gaussian/LogSobolev.lean:1077" xlink:title="lemma · Statlib/StatFoundation/RandomVariable/Gaussian/LogSobolev.lean:1077" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M435.14,-340C435.14,-340 186.86,-340 186.86,-340 180.86,-340 174.86,-334 174.86,-328 174.86,-328 174.86,-316 174.86,-316 174.86,-310 180.86,-304 186.86,-304 186.86,-304 435.14,-304 435.14,-304 441.14,-304 447.14,-310 447.14,-316 447.14,-316 447.14,-328 447.14,-328 447.14,-334 441.14,-340 435.14,-340"/>
 <text xml:space="preserve" text-anchor="middle" x="311" y="-319" font-family="Helvetica,sans-Serif" font-size="10.00">gaussian_convolution_nonneg_linearGrowth_contDiff_top</text>
 </a>
@@ -135,7 +135,7 @@
 <!-- n9 -->
 <g id="node10" class="node">
 <title>n9</title>
-<g id="a_node10"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/StatFoundation/RandomVariable/Gaussian/LogSobolev.lean#L997" xlink:title="lemma · Statlib/StatFoundation/RandomVariable/Gaussian/LogSobolev.lean:997" target="_blank">
+<g id="a_node10"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/StatFoundation/RandomVariable/Gaussian/LogSobolev.lean:1004" xlink:title="lemma · Statlib/StatFoundation/RandomVariable/Gaussian/LogSobolev.lean:1004" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M421.96,-268C421.96,-268 222.04,-268 222.04,-268 216.04,-268 210.04,-262 210.04,-256 210.04,-256 210.04,-244 210.04,-244 210.04,-238 216.04,-232 222.04,-232 222.04,-232 421.96,-232 421.96,-232 427.96,-232 433.96,-238 433.96,-244 433.96,-244 433.96,-256 433.96,-256 433.96,-262 427.96,-268 421.96,-268"/>
 <text xml:space="preserve" text-anchor="middle" x="322" y="-247" font-family="Helvetica,sans-Serif" font-size="10.00">gaussian_convolution_linearGrowth_integrable</text>
 </a>
@@ -156,7 +156,7 @@
 <!-- n10 -->
 <g id="node11" class="node">
 <title>n10</title>
-<g id="a_node11"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/StatFoundation/RandomVariable/Gaussian/LogSobolev.lean#L1148" xlink:title="lemma · Statlib/StatFoundation/RandomVariable/Gaussian/LogSobolev.lean:1148" target="_blank">
+<g id="a_node11"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/StatFoundation/RandomVariable/Gaussian/LogSobolev.lean:1155" xlink:title="lemma · Statlib/StatFoundation/RandomVariable/Gaussian/LogSobolev.lean:1155" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M284.31,-412C284.31,-412 27.69,-412 27.69,-412 21.69,-412 15.69,-406 15.69,-400 15.69,-400 15.69,-388 15.69,-388 15.69,-382 21.69,-376 27.69,-376 27.69,-376 284.31,-376 284.31,-376 290.31,-376 296.31,-382 296.31,-388 296.31,-388 296.31,-400 296.31,-400 296.31,-406 290.31,-412 284.31,-412"/>
 <text xml:space="preserve" text-anchor="middle" x="156" y="-391" font-family="Helvetica,sans-Serif" font-size="10.00">gaussian_convolution_linearGrowth_contDiff_top_of_bound</text>
 </a>
@@ -177,7 +177,7 @@
 <!-- n11 -->
 <g id="node12" class="node">
 <title>n11</title>
-<g id="a_node12"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/StatFoundation/RandomVariable/Gaussian/LogSobolev.lean#L1564" xlink:title="theorem · Statlib/StatFoundation/RandomVariable/Gaussian/LogSobolev.lean:1564" target="_blank">
+<g id="a_node12"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/StatFoundation/RandomVariable/Gaussian/LogSobolev.lean:1831" xlink:title="theorem · Statlib/StatFoundation/RandomVariable/Gaussian/LogSobolev.lean:1831" target="_blank">
 <path fill="#ffe6a3" stroke="#d4a017" d="M213.27,-484C213.27,-484 56.73,-484 56.73,-484 50.73,-484 44.73,-478 44.73,-472 44.73,-472 44.73,-460 44.73,-460 44.73,-454 50.73,-448 56.73,-448 56.73,-448 213.27,-448 213.27,-448 219.27,-448 225.27,-454 225.27,-460 225.27,-460 225.27,-472 225.27,-472 225.27,-478 219.27,-484 213.27,-484"/>
 <text xml:space="preserve" text-anchor="middle" x="135" y="-463" font-family="Helvetica,sans-Serif" font-size="10.00">standardReal_mehler_apply_contDiff</text>
 </a>
@@ -204,7 +204,7 @@
 <!-- n12 -->
 <g id="node13" class="node">
 <title>n12</title>
-<g id="a_node13"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/StatFoundation/RandomVariable/Gaussian/LogSobolev.lean#L44" xlink:title="lemma · Statlib/StatFoundation/RandomVariable/Gaussian/LogSobolev.lean:44" target="_blank">
+<g id="a_node13"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/StatFoundation/RandomVariable/Gaussian/LogSobolev.lean:50" xlink:title="lemma · Statlib/StatFoundation/RandomVariable/Gaussian/LogSobolev.lean:50" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M481.03,-484C481.03,-484 254.97,-484 254.97,-484 248.97,-484 242.97,-478 242.97,-472 242.97,-472 242.97,-460 242.97,-460 242.97,-454 248.97,-448 254.97,-448 254.97,-448 481.03,-448 481.03,-448 487.03,-448 493.03,-454 493.03,-460 493.03,-460 493.03,-472 493.03,-472 493.03,-478 487.03,-484 481.03,-484"/>
 <text xml:space="preserve" text-anchor="middle" x="368" y="-463" font-family="Helvetica,sans-Serif" font-size="10.00">integrable_of_contDiff_deriv_bounded_standardReal</text>
 </a>
@@ -225,7 +225,7 @@
 <!-- n13 -->
 <g id="node14" class="node">
 <title>n13</title>
-<g id="a_node14"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/StatFoundation/RandomVariable/Gaussian/LogSobolev.lean#L1311" xlink:title="lemma · Statlib/StatFoundation/RandomVariable/Gaussian/LogSobolev.lean:1311" target="_blank">
+<g id="a_node14"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/StatFoundation/RandomVariable/Gaussian/LogSobolev.lean:1578" xlink:title="lemma · Statlib/StatFoundation/RandomVariable/Gaussian/LogSobolev.lean:1578" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M454.18,-556C454.18,-556 269.82,-556 269.82,-556 263.82,-556 257.82,-550 257.82,-544 257.82,-544 257.82,-532 257.82,-532 257.82,-526 263.82,-520 269.82,-520 269.82,-520 454.18,-520 454.18,-520 460.18,-520 466.18,-526 466.18,-532 466.18,-532 466.18,-544 466.18,-544 466.18,-550 460.18,-556 454.18,-556"/>
 <text xml:space="preserve" text-anchor="middle" x="362" y="-535" font-family="Helvetica,sans-Serif" font-size="10.00">standardReal_mehler_integrand_integrable</text>
 </a>
@@ -246,7 +246,7 @@
 <!-- n14 -->
 <g id="node15" class="node">
 <title>n14</title>
-<g id="a_node15"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/StatFoundation/RandomVariable/Gaussian/LogSobolev.lean#L1394" xlink:title="lemma · Statlib/StatFoundation/RandomVariable/Gaussian/LogSobolev.lean:1394" target="_blank">
+<g id="a_node15"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/StatFoundation/RandomVariable/Gaussian/LogSobolev.lean:1661" xlink:title="lemma · Statlib/StatFoundation/RandomVariable/Gaussian/LogSobolev.lean:1661" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M554.38,-628C554.38,-628 415.62,-628 415.62,-628 409.62,-628 403.62,-622 403.62,-616 403.62,-616 403.62,-604 403.62,-604 403.62,-598 409.62,-592 415.62,-592 415.62,-592 554.38,-592 554.38,-592 560.38,-592 566.38,-598 566.38,-604 566.38,-604 566.38,-616 566.38,-616 566.38,-622 560.38,-628 554.38,-628"/>
 <text xml:space="preserve" text-anchor="middle" x="485" y="-607" font-family="Helvetica,sans-Serif" font-size="10.00">standardReal_mehler_apply_pos</text>
 </a>
@@ -267,7 +267,7 @@
 <!-- n15 -->
 <g id="node16" class="node">
 <title>n15</title>
-<g id="a_node16"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/StatFoundation/RandomVariable/Gaussian/LogSobolev.lean#L1385" xlink:title="lemma · Statlib/StatFoundation/RandomVariable/Gaussian/LogSobolev.lean:1385" target="_blank">
+<g id="a_node16"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/StatFoundation/RandomVariable/Gaussian/LogSobolev.lean:1652" xlink:title="lemma · Statlib/StatFoundation/RandomVariable/Gaussian/LogSobolev.lean:1652" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M658.05,-556C658.05,-556 515.95,-556 515.95,-556 509.95,-556 503.95,-550 503.95,-544 503.95,-544 503.95,-532 503.95,-532 503.95,-526 509.95,-520 515.95,-520 515.95,-520 658.05,-520 658.05,-520 664.05,-520 670.05,-526 670.05,-532 670.05,-532 670.05,-544 670.05,-544 670.05,-550 664.05,-556 658.05,-556"/>
 <text xml:space="preserve" text-anchor="middle" x="587" y="-535" font-family="Helvetica,sans-Serif" font-size="10.00">standardReal_mehler_apply_zero</text>
 </a>
@@ -282,7 +282,7 @@
 <!-- n16 -->
 <g id="node17" class="node">
 <title>n16</title>
-<g id="a_node17"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/StatFoundation/RandomVariable/Gaussian/LogSobolev.lean#L1822" xlink:title="theorem · Statlib/StatFoundation/RandomVariable/Gaussian/LogSobolev.lean:1822" target="_blank">
+<g id="a_node17"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/StatFoundation/RandomVariable/Gaussian/LogSobolev.lean:2089" xlink:title="theorem · Statlib/StatFoundation/RandomVariable/Gaussian/LogSobolev.lean:2089" target="_blank">
 <path fill="#ffe6a3" stroke="#d4a017" stroke-width="3" d="M601.6,-700C601.6,-700 468.4,-700 468.4,-700 462.4,-700 456.4,-694 456.4,-688 456.4,-688 456.4,-676 456.4,-676 456.4,-670 462.4,-664 468.4,-664 468.4,-664 601.6,-664 601.6,-664 607.6,-664 613.6,-670 613.6,-676 613.6,-676 613.6,-688 613.6,-688 613.6,-694 607.6,-700 601.6,-700"/>
 <text xml:space="preserve" text-anchor="middle" x="535" y="-679" font-family="Helvetica,sans-Serif" font-size="10.00">standardReal_ou_mehler_basic</text>
 </a>

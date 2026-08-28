@@ -1,0 +1,56 @@
+# HypothesisTesting — proof narratives
+
+52 headline result(s).
+
+- [benjamini_hochberg_fdr](benjamini_hochberg_fdr.md) — theorem, 5 decl(s) · `Statlib/HypothesisTesting/MultipleTesting/BenjaminiHochberg.lean:38`
+- [betweenSS](betweenSS.md) — def, 4 decl(s) · `Statlib/HypothesisTesting/NormalTheory/ANOVA.lean:18`
+- [gaussianMLE](gaussianMLE.md) — noncomputable abbrev, 2 decl(s) · `Statlib/HypothesisTesting/Asymptotic/Vocabulary.lean:46`
+- [integrable_test_density](integrable_test_density.md) — lemma, 2 decl(s) · `Statlib/HypothesisTesting/Bridge.lean:37`
+- [IsNonRandomized](IsNonRandomized.md) — def, 2 decl(s) · `Statlib/HypothesisTesting/Vocabulary.lean:48`
+- [karlin_rubin](karlin_rubin.md) — theorem, 10 decl(s) · `Statlib/HypothesisTesting/MLR/KarlinRubin.lean:75`
+- [karlin_rubin_power_monotone](karlin_rubin_power_monotone.md) — theorem, 7 decl(s) · `Statlib/HypothesisTesting/MLR/KarlinRubin.lean:1096`
+- [lrt_statistic_asymptotic_chisq1](lrt_statistic_asymptotic_chisq1.md) — theorem, 38 decl(s) · `Statlib/HypothesisTesting/Asymptotic/ChiSquareAsymptotics.lean:1052`
+- [mle_asymptotic_normal](mle_asymptotic_normal.md) — theorem, 28 decl(s) · `Statlib/HypothesisTesting/Asymptotic/ChiSquareAsymptotics.lean:392`
+- [mlr_anchor_nonstrict](mlr_anchor_nonstrict.md) — lemma, 2 decl(s) · `Statlib/HypothesisTesting/MLR/NPConditions.lean:34`
+- [mlr_stochastic_order](mlr_stochastic_order.md) — theorem, 3 decl(s) · `Statlib/HypothesisTesting/MLR/KarlinRubin.lean:961`
+- [neyman_pearson_complete](neyman_pearson_complete.md) — theorem, 8 decl(s) · `Statlib/HypothesisTesting/NeymanPearson/Complete.lean:22`
+- [np_](np___L32.md) — lemma, 3 decl(s) · `Statlib/HypothesisTesting/NeymanPearson/ToTestFunction.lean:32`
+- [np_](np___L41.md) — lemma, 3 decl(s) · `Statlib/HypothesisTesting/NeymanPearson/ToTestFunction.lean:41`
+- [np_](np___L52.md) — lemma, 3 decl(s) · `Statlib/HypothesisTesting/NeymanPearson/ToTestFunction.lean:52`
+- [np_toTestFunction](np_toTestFunction.md) — noncomputable def, 4 decl(s) · `Statlib/HypothesisTesting/NeymanPearson/ToTestFunction.lean:64`
+- [one_sample_t_confidence_interval](one_sample_t_confidence_interval.md) — theorem, 16 decl(s) · `Statlib/HypothesisTesting/Inference/NormalTheoryConfidence.lean:121`
+- [paired_t_test](paired_t_test.md) — theorem, 14 decl(s) · `Statlib/HypothesisTesting/Inference/NormalTheoryConfidence.lean:440`
+- [power_add_typeII_eq_one](power_add_typeII_eq_one.md) — lemma, 5 decl(s) · `Statlib/HypothesisTesting/Bridge.lean:29`
+- [pvalue_antitone](pvalue_antitone.md) — lemma, 3 decl(s) · `Statlib/HypothesisTesting/PValue/DecisionRule.lean:133`
+- [pvalue_bonferroni_fwer](pvalue_bonferroni_fwer.md) — theorem, 5 decl(s) · `Statlib/HypothesisTesting/MultipleTesting/Bonferroni.lean:67`
+- [pvalue_expectation_ge_half](pvalue_expectation_ge_half.md) — theorem, 3 decl(s) · `Statlib/HypothesisTesting/PValue/Validity.lean:407`
+- [pvalue_is_valid](pvalue_is_valid.md) — theorem, 4 decl(s) · `Statlib/HypothesisTesting/PValue/Validity.lean:31`
+- [pvalue_log_tail_subexponential](pvalue_log_tail_subexponential.md) — lemma, 3 decl(s) · `Statlib/HypothesisTesting/PValue/Validity.lean:367`
+- [pvalue_pair_indep_joint_tail](pvalue_pair_indep_joint_tail.md) — lemma, 3 decl(s) · `Statlib/HypothesisTesting/PValue/Validity.lean:561`
+- [pvalue_stochastically_geq_uniform](pvalue_stochastically_geq_uniform.md) — lemma, 3 decl(s) · `Statlib/HypothesisTesting/PValue/Validity.lean:336`
+- [pvalue_threshold_power](pvalue_threshold_power.md) — theorem, 5 decl(s) · `Statlib/HypothesisTesting/PValue/DecisionRule.lean:84`
+- [pvalue_threshold_test_has_level](pvalue_threshold_test_has_level.md) — theorem, 8 decl(s) · `Statlib/HypothesisTesting/PValue/DecisionRule.lean:39`
+- [rejectionRegion](rejectionRegion.md) — def, 2 decl(s) · `Statlib/HypothesisTesting/Vocabulary.lean:53`
+- [sign_test_statistic_hoeffding](sign_test_statistic_hoeffding.md) — theorem, 2 decl(s) · `Statlib/HypothesisTesting/Nonparametric/SignTest.lean:16`
+- [signedRankStatistic](signedRankStatistic.md) — def, 2 decl(s) · `Statlib/HypothesisTesting/Nonparametric/SignedRank.lean:17`
+- [similar_has_level](similar_has_level.md) — lemma, 7 decl(s) · `Statlib/HypothesisTesting/UMPU/Basic.lean:93`
+- [size_singleton_eq_power](size_singleton_eq_power.md) — lemma, 5 decl(s) · `Statlib/HypothesisTesting/UMPU/Boundary.lean:84`
+- [t_statistic_asymptotic_normal](t_statistic_asymptotic_normal.md) — theorem, 36 decl(s) · `Statlib/HypothesisTesting/Asymptotic/TTestAsymptotic.lean:45`
+- [t_test_consistent](t_test_consistent.md) — theorem, 11 decl(s) · `Statlib/HypothesisTesting/Asymptotic/TTestAsymptotic.lean:542`
+- [threshold_test_power_mono](threshold_test_power_mono.md) — lemma, 5 decl(s) · `Statlib/HypothesisTesting/PValue/DecisionRule.lean:96`
+- [totalSS](totalSS.md) — def, 2 decl(s) · `Statlib/HypothesisTesting/NormalTheory/ANOVA.lean:26`
+- [two_sample_mean_diff_normal](two_sample_mean_diff_normal.md) — theorem, 3 decl(s) · `Statlib/HypothesisTesting/NormalTheory/SampleMean.lean:109`
+- [two_sample_t_confidence_interval](two_sample_t_confidence_interval.md) — theorem, 17 decl(s) · `Statlib/HypothesisTesting/Inference/NormalTheoryConfidence.lean:262`
+- [typeIError](typeIError.md) — noncomputable def, 4 decl(s) · `Statlib/HypothesisTesting/Vocabulary.lean:90`
+- [ump_implies_umpu](ump_implies_umpu.md) — theorem, 9 decl(s) · `Statlib/HypothesisTesting/UMPU/Basic.lean:22`
+- [umpu_implies_similar_on_overlap](umpu_implies_similar_on_overlap.md) — lemma, 8 decl(s) · `Statlib/HypothesisTesting/UMPU/Boundary.lean:24`
+- [umpu_implies_unbiased](umpu_implies_unbiased.md) — lemma, 8 decl(s) · `Statlib/HypothesisTesting/UMPU/Basic.lean:135`
+- [unbiased_has_level](unbiased_has_level.md) — lemma, 7 decl(s) · `Statlib/HypothesisTesting/UMPU/Basic.lean:83`
+- [variance_confidence_interval](variance_confidence_interval.md) — theorem, 9 decl(s) · `Statlib/HypothesisTesting/Inference/NormalTheoryConfidence.lean:455`
+- [variance_ratio_confidence_interval](variance_ratio_confidence_interval.md) — theorem, 13 decl(s) · `Statlib/HypothesisTesting/NormalTheory/VarianceTest.lean:2617`
+- [variance_ratio_test_size](variance_ratio_test_size.md) — theorem, 12 decl(s) · `Statlib/HypothesisTesting/NormalTheory/VarianceTest.lean:2874`
+- [variance_test_size](variance_test_size.md) — theorem, 7 decl(s) · `Statlib/HypothesisTesting/NormalTheory/VarianceTest.lean:2826`
+- [wald_statistic_asymptotic_chisq1](wald_statistic_asymptotic_chisq1.md) — theorem, 34 decl(s) · `Statlib/HypothesisTesting/Asymptotic/ChiSquareAsymptotics.lean:548`
+- [withinSS](withinSS.md) — def, 3 decl(s) · `Statlib/HypothesisTesting/NormalTheory/ANOVA.lean:22`
+- [z_confidence_interval](z_confidence_interval.md) — theorem, 6 decl(s) · `Statlib/HypothesisTesting/Inference/NormalTheoryConfidence.lean:39`
+- [z_test_power](z_test_power.md) — theorem, 2 decl(s) · `Statlib/HypothesisTesting/NormalTheory/ZTest.lean:123`

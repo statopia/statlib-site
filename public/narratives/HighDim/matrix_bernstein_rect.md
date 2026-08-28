@@ -5,7 +5,7 @@ Closure: 176 declarations across 17 files. Generated from `proof_graph.json` —
 
 Reading order (foundations first, headline last):
 
-  ▣ `HasZeroMean` — structure · `Statlib/HighDim/Vocabulary/RandomMatrix.lean:62`  _(also used by 1: matrix_bernstein)_
+  ▣ `HasZeroMean` — structure · `Statlib/HighDim/Vocabulary/RandomMatrix.lean:62`  _(also used by 3: matrix_bernstein, WignerSymmetric, SampleCovarianceIID)_
   ◆ `HasBoundedSpectralNorm` — def · `Statlib/HighDim/Vocabulary/RandomMatrix.lean:38`  _(also used by 1: matrix_bernstein)_
     ◆ `hermitianDilation` — private def · `Statlib/HighDim/Concentration/MatrixBernstein.lean:2208`  _(also used by 1: hermitianDilation_sum)_
   ◆ `hermitianDilationFin` — private def · `Statlib/HighDim/Concentration/MatrixBernstein.lean:2413`
@@ -24,9 +24,9 @@ Reading order (foundations first, headline last):
     ★ `measurable_transpose_mul` — private theorem · `Statlib/HighDim/Concentration/MatrixBernstein.lean:2606`
   ★ `integrable_transpose_mul_of_bounded_meas` — private theorem · `Statlib/HighDim/Concentration/MatrixBernstein.lean:2661`
   ★ `hermitianDilationFin_transpose` — private theorem · `Statlib/HighDim/Concentration/MatrixBernstein.lean:2465`
-          ★ `matrix_entry_abs_le_l2_opNorm_rect` — private theorem · `Statlib/HighDim/MatrixAnalysis/TraceExp.lean:274`
-        ◆ `matrixEntryCLM` — private def · `Statlib/HighDim/MatrixAnalysis/TraceExp.lean:299`
-    ★ `matrix_integral_apply_of_integrable` — theorem · `Statlib/HighDim/MatrixAnalysis/TraceExp.lean:309`
+          ★ `matrix_entry_abs_le_l2_opNorm_rect` — private theorem · `Statlib/HighDim/MatrixAnalysis/TraceExp.lean:256`
+        ◆ `matrixEntryCLM` — private def · `Statlib/HighDim/MatrixAnalysis/TraceExp.lean:281`
+    ★ `matrix_integral_apply_of_integrable` — theorem · `Statlib/HighDim/MatrixAnalysis/TraceExp.lean:291`
         ★ `hermitianDilation_mul_self` — private theorem · `Statlib/HighDim/Concentration/MatrixBernstein.lean:2406`
       ★ `hermitianDilationFin_mul_self` — private theorem · `Statlib/HighDim/Concentration/MatrixBernstein.lean:2550`
     ★ `hermitianDilationFin_integral_mul_self_of_integrable` — private theorem · `Statlib/HighDim/Concentration/MatrixBernstein.lean:2562`
@@ -54,14 +54,14 @@ Reading order (foundations first, headline last):
     ★ `bernstein_bounded_sum_meas_ge_le_exp` — theorem · `Statlib/StatFoundation/Concentration/ExponentialType/bernstein_bounded_sum_meas_ge_le_exp.lean:9`
       ★ `posDef_fin_one_iff` — private theorem · `Statlib/HighDim/Concentration/MatrixBernstein.lean:2812`
     ★ `not_posDef_fin_one_sub_iff` — private theorem · `Statlib/HighDim/Concentration/MatrixBernstein.lean:2828`
-      ★ `hermitian_trace_exp_eq_sum_exp_eigenvalues` — theorem · `Statlib/HighDim/MatrixAnalysis/TraceExp.lean:38`
+      ★ `hermitian_trace_exp_eq_sum_exp_eigenvalues` — theorem · `Statlib/HighDim/MatrixAnalysis/TraceExp.lean:20`
       ★ `hermitian_exp_trace_ge_exp_of_exists_eigenvalue_ge` — private theorem · `Statlib/HighDim/Concentration/MatrixBernstein.lean:281`
         ★ `hermitian_posDef_sub_of_forall_eigenvalues_lt` — private theorem · `Statlib/HighDim/Concentration/MatrixBernstein.lean:511`
       ★ `hermitian_exists_eigenvalue_ge_of_not_posDef_sub` — private theorem · `Statlib/HighDim/Concentration/MatrixBernstein.lean:574`
     ★ `hermitian_exp_trace_ge_exp_of_not_posDef_sub` — private theorem · `Statlib/HighDim/Concentration/MatrixBernstein.lean:583`
     ★ `hermitian_trace_exp_le_card_mul_exp_norm` — private theorem · `Statlib/HighDim/Concentration/MatrixBernstein.lean:486`
-    ★ `hermitian_trace_exp_nonneg` — theorem · `Statlib/HighDim/MatrixAnalysis/TraceExp.lean:68`
-    ★ `matrix_integrable_of_entry_integrable` — theorem · `Statlib/HighDim/MatrixAnalysis/TraceExp.lean:316`
+    ★ `hermitian_trace_exp_nonneg` — theorem · `Statlib/HighDim/MatrixAnalysis/TraceExp.lean:50`
+    ★ `matrix_integrable_of_entry_integrable` — theorem · `Statlib/HighDim/MatrixAnalysis/TraceExp.lean:298`
     ★ `matrix_integral_eq_zero_of_hasZeroMean` — private theorem · `Statlib/HighDim/Concentration/MatrixBernstein.lean:901`
     ★ `matrix_trace_integral_of_integrable` — private theorem · `Statlib/HighDim/Concentration/MatrixBernstein.lean:997`
       ★ `trace_le_of_sub_posSemidef` — private theorem · `Statlib/HighDim/Concentration/MatrixBernstein.lean:359`  _(also used by 1: hermitian_trace_exp_le_quadratic_norm)_
@@ -70,12 +70,12 @@ Reading order (foundations first, headline last):
       ★ `hermitian_exp_smul_le_quadratic` — private theorem · `Statlib/HighDim/Concentration/MatrixBernstein.lean:442`
     ★ `hermitian_trace_exp_smul_le_quadratic` — private theorem · `Statlib/HighDim/Concentration/MatrixBernstein.lean:476`
     ★ `single_trace_exp_integral_le_quadratic` — private theorem · `Statlib/HighDim/Concentration/MatrixBernstein.lean:1966`
-          ★ `hermitian_exp_posSemidef` — theorem · `Statlib/HighDim/MatrixAnalysis/TraceExp.lean:74`
+          ★ `hermitian_exp_posSemidef` — theorem · `Statlib/HighDim/MatrixAnalysis/TraceExp.lean:56`  _(also used by 1: golden_thompson)_
             ★ `posSemidef_l2_opNorm_le_trace` — private theorem · `Statlib/HighDim/Concentration/MatrixBernstein.lean:775`
           ★ `matrix_integrable_of_posSemidef_trace_integrable` — private theorem · `Statlib/HighDim/Concentration/MatrixBernstein.lean:819`
         ★ `matrix_exp_integrable_of_trace_integrable` — private theorem · `Statlib/HighDim/Concentration/MatrixBernstein.lean:828`
     ★ `matrix_exp_integrable_of_bounded_hermitian` — private theorem · `Statlib/HighDim/Concentration/MatrixBernstein.lean:847`
-    ★ `matrix_integral_posSemidef_of_ae` — theorem · `Statlib/HighDim/MatrixAnalysis/TraceExp.lean:334`
+    ★ `matrix_integral_posSemidef_of_ae` — theorem · `Statlib/HighDim/MatrixAnalysis/TraceExp.lean:316`
         ★ `matrix_integral_sub_posSemidef_of_ae` — private theorem · `Statlib/HighDim/Concentration/MatrixBernstein.lean:987`
       ★ `single_exp_integral_le_quadratic_matrix_raw` — private theorem · `Statlib/HighDim/Concentration/MatrixBernstein.lean:1876`
     ★ `single_exp_integral_le_quadratic_matrix` — private theorem · `Statlib/HighDim/Concentration/MatrixBernstein.lean:1906`
@@ -91,49 +91,49 @@ Reading order (foundations first, headline last):
           ★ `matrix_laplace_one_step_of_trace_exp_add_le` — private theorem · `Statlib/HighDim/Concentration/MatrixBernstein.lean:1079`
         ★ `matrix_laplace_one_step_of_commute` — private theorem · `Statlib/HighDim/Concentration/MatrixBernstein.lean:1141`
           ★ `matrix_integral_posDef_of_ae` — private theorem · `Statlib/HighDim/Concentration/MatrixBernstein.lean:911`
-        ★ `hermitian_exp_posDef` — theorem · `Statlib/HighDim/MatrixAnalysis/TraceExp.lean:83`
+        ★ `hermitian_exp_posDef` — theorem · `Statlib/HighDim/MatrixAnalysis/TraceExp.lean:65`  _(also used by 1: golden_thompson)_
         ★ `matrix_exp_integral_posDef` — private theorem · `Statlib/HighDim/Concentration/MatrixBernstein.lean:978`
-        ★ `real_log_matrix_isHermitian_of_posDef` — theorem · `Statlib/HighDim/MatrixAnalysis/TraceExp.lean:89`
-        ★ `real_matrix_exp_log_of_posDef` — theorem · `Statlib/HighDim/MatrixAnalysis/TraceExp.lean:94`
+        ★ `real_log_matrix_isHermitian_of_posDef` — theorem · `Statlib/HighDim/MatrixAnalysis/TraceExp.lean:71`
+        ★ `real_matrix_exp_log_of_posDef` — theorem · `Statlib/HighDim/MatrixAnalysis/TraceExp.lean:76`
           ◆ `realToCStarMatrix` — noncomputable abbrev · `Statlib/HighDim/Vocabulary/CStarBridge.lean:14`
             ★ `realToCStarMatrix_nonneg_of_posSemidef` — theorem · `Statlib/HighDim/MatrixAnalysis/CStarBridge.lean:32`
             ★ `realToCStarMatrix_continuous` — theorem · `Statlib/HighDim/MatrixAnalysis/CStarBridge.lean:18`
             ★ `realToCStarMatrix_exp` — theorem · `Statlib/HighDim/MatrixAnalysis/CStarBridge.lean:24`
             ★ `realToCStarMatrix_strictPositive_of_posDef` — theorem · `Statlib/HighDim/MatrixAnalysis/CStarBridge.lean:103`
             ★ `realToCStarMatrix_isSelfAdjoint_of_isHermitian` — theorem · `Statlib/HighDim/MatrixAnalysis/CStarBridge.lean:112`
-          ★ `cstar_log_real_matrix_le_of_exp_sub_posSemidef` — theorem · `Statlib/HighDim/MatrixAnalysis/TraceExp.lean:131`
+          ★ `cstar_log_real_matrix_le_of_exp_sub_posSemidef` — theorem · `Statlib/HighDim/MatrixAnalysis/TraceExp.lean:113`
             ◆ `realToCStarMatrixStarAlgHom` — noncomputable def · `Statlib/HighDim/Vocabulary/CStarBridge.lean:20`
             ★ `realToCStarMatrix_cfc` — theorem · `Statlib/HighDim/MatrixAnalysis/CStarBridge.lean:123`
           ★ `realToCStarMatrix_log_of_posDef` — theorem · `Statlib/HighDim/MatrixAnalysis/CStarBridge.lean:132`
             ★ `real_posSemidef_of_complexification_posSemidef` — theorem · `Statlib/HighDim/MatrixAnalysis/CStarBridge.lean:44`
             ★ `realToCStarMatrix_posSemidef_of_nonneg` — theorem · `Statlib/HighDim/MatrixAnalysis/CStarBridge.lean:74`
           ★ `realToCStarMatrix_le_reflects_posSemidef` — theorem · `Statlib/HighDim/MatrixAnalysis/CStarBridge.lean:86`
-        ★ `real_log_matrix_le_of_exp_sub_posSemidef` — theorem · `Statlib/HighDim/MatrixAnalysis/TraceExp.lean:157`
-          ◆ `sortedEigenvalues` — noncomputable def · `Statlib/HighDim/Vocabulary/Spectral.lean:11`  _(also used by 10: davis_kahan_subspace, sortedEigenvalues_zero_le_eigenvalue, eigenvalue_le_sortedEigenvalues_last, …)_
-            ◆ `eigenSubspaceLe` — noncomputable def · `Statlib/HighDim/Vocabulary/Spectral.lean:16`  _(also used by 1: weyl_sorted_upper)_
-            ◆ `eigenSubspaceGt` — noncomputable def · `Statlib/HighDim/Vocabulary/Spectral.lean:23`  _(also used by 1: weyl_sorted_upper)_
-            · `finrank_eigenSubspaceLe` — lemma · `Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:435`  _(also used by 1: weyl_sorted_upper)_
-            · `sortedEigenvalues_mono` — lemma · `Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:41`  _(also used by 2: sortedEigenvalues_zero_le_eigenvalue, eigenvalue_le_sortedEigenvalues_last)_
+        ★ `real_log_matrix_le_of_exp_sub_posSemidef` — theorem · `Statlib/HighDim/MatrixAnalysis/TraceExp.lean:139`
+          ◆ `sortedEigenvalues` — noncomputable def · `Statlib/HighDim/Vocabulary/Spectral.lean:11`  _(also used by 14: fischer_inequality, finrank_eigenSubspaceLe_eq_r, span_cols_eq_eigenSubspaceLe, …)_
+            ◆ `eigenSubspaceLe` — noncomputable def · `Statlib/HighDim/Vocabulary/Spectral.lean:16`  _(also used by 12: von_neumann_trace_inequality, eigenvector_mem_eigenSubspaceLe, orthogonal_eigen_family_card_le, …)_
+            ◆ `eigenSubspaceGt` — noncomputable def · `Statlib/HighDim/Vocabulary/Spectral.lean:23`  _(also used by 2: von_neumann_trace_inequality, weyl_sorted_upper)_
+            · `finrank_eigenSubspaceLe` — lemma · `Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:435`  _(also used by 5: von_neumann_trace_inequality, orthogonal_eigen_family_card_le, finrank_eigenSubspaceLe_eq_r, …)_
+            · `sortedEigenvalues_mono` — lemma · `Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:41`  _(also used by 3: wedin_sin_theta, sortedEigenvalues_zero_le_eigenvalue, eigenvalue_le_sortedEigenvalues_last)_
             · `sortedEigenvalues_lt_card_le_sorted` — lemma · `Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:70`
-            · `sortedEigenvalues_lt_card_eigen_le_sorted` — lemma · `Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:79`  _(also used by 1: weyl_sorted_upper)_
-            · `finrank_eigenSubspaceGt` — lemma · `Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:479`  _(also used by 1: weyl_sorted_upper)_
+            · `sortedEigenvalues_lt_card_eigen_le_sorted` — lemma · `Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:79`  _(also used by 2: wedin_sin_theta, weyl_sorted_upper)_
+            · `finrank_eigenSubspaceGt` — lemma · `Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:479`  _(also used by 2: von_neumann_trace_inequality, weyl_sorted_upper)_
             · `card_sorted_le_eq_card_eigen_le` — lemma · `Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:106`
-            · `card_eigen_le_of_sorted_gt` — lemma · `Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:128`
+            · `card_eigen_le_of_sorted_gt` — lemma · `Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:128`  _(also used by 1: wedin_sin_theta)_
             · `card_eigen_gt_ge_of_sorted_gt` — lemma · `Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:148`  _(also used by 1: weyl_sorted_upper)_
             · `exists_ne_zero_mem_inf_of_finrank_lt_add` — lemma · `Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:830`  _(also used by 1: weyl_sorted_upper)_
-            · `toEuclideanLin_eigenvectorBasis` — lemma · `Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:201`
-            · `toEuclideanLin_sum_repr` — lemma · `Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:208`  _(also used by 1: toEuclideanLin_sub_smul_eq_sum_eigen_sub)_
+            · `toEuclideanLin_eigenvectorBasis` — lemma · `Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:201`  _(also used by 2: eigenvalues_lt_neg_singularValue_card_le, wedin_sin_theta)_
+            · `toEuclideanLin_sum_repr` — lemma · `Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:208`  _(also used by 2: eigenvector_mem_eigenSubspaceLe, toEuclideanLin_sub_smul_eq_sum_eigen_sub)_
             · `hermitian_rayleigh_eq_sum_eigen` — lemma · `Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:226`
-            · `orthonormalBasis_norm_sq_eq_sum_repr_sq` — lemma · `Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:259`  _(also used by 1: off_target_energy_eq_one_sub_single_coeff_sq)_
+            · `orthonormalBasis_norm_sq_eq_sum_repr_sq` — lemma · `Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:259`  _(also used by 2: col_energy_eq_off_energy, off_target_energy_eq_one_sub_single_coeff_sq)_
             · `hermitian_rayleigh_le_of_support_eigen_le` — lemma · `Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:415`
-            · `eigenSubspaceLe_coeff_zero_of_lt` — lemma · `Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:448`
-            · `eigenSubspaceLe_rayleigh_le` — lemma · `Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:470`  _(also used by 1: weyl_sorted_upper)_
+            · `eigenSubspaceLe_coeff_zero_of_lt` — lemma · `Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:448`  _(also used by 1: proj_coeff_zero_of_mem)_
+            · `eigenSubspaceLe_rayleigh_le` — lemma · `Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:470`  _(also used by 2: von_neumann_trace_inequality, weyl_sorted_upper)_
             · `hermitian_rayleigh_gt_of_support_eigen_gt` — lemma · `Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:514`
             · `eigenSubspaceGt_coeff_zero_of_le` — lemma · `Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:492`
-            · `eigenSubspaceGt_rayleigh_gt` — lemma · `Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:563`  _(also used by 1: weyl_sorted_upper)_
-          ★ `sortedEigenvalues_le_of_add_posSemidef` — theorem · `Statlib/HighDim/MatrixAnalysis/TraceExp.lean:168`
-          · `sortedEigenvalues_perm` — lemma · `Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:47`
-        ★ `hermitian_trace_exp_mono_of_sub_posSemidef` — theorem · `Statlib/HighDim/MatrixAnalysis/TraceExp.lean:231`
+            · `eigenSubspaceGt_rayleigh_gt` — lemma · `Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:563`  _(also used by 2: von_neumann_trace_inequality, weyl_sorted_upper)_
+          ★ `sortedEigenvalues_le_of_add_posSemidef` — theorem · `Statlib/HighDim/MatrixAnalysis/TraceExp.lean:150`  _(also used by 1: fischer_inequality)_
+          · `sortedEigenvalues_perm` — lemma · `Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:47`  _(also used by 2: finrank_eigenSubspaceLe_eq_r, wedin_sin_theta)_
+        ★ `hermitian_trace_exp_mono_of_sub_posSemidef` — theorem · `Statlib/HighDim/MatrixAnalysis/TraceExp.lean:213`
           ★ `measurable_trace_exp_add_const` — private theorem · `Statlib/HighDim/Concentration/MatrixBernstein.lean:1265`
         ★ `trace_exp_add_const_integrable_of_le` — private theorem · `Statlib/HighDim/Concentration/MatrixBernstein.lean:1278`
         ★ `integrable_prod_trace_exp_add_of_indepFun` — private theorem · `Statlib/HighDim/Concentration/MatrixBernstein.lean:1203`
@@ -161,14 +161,14 @@ Reading order (foundations first, headline last):
             · `rightMulKronecker_add` — lemma · `Statlib/HighDim/MatrixAnalysis/RelativeEntropyJointConvex.lean:48`
             · `rightMulKronecker_smul` — lemma · `Statlib/HighDim/MatrixAnalysis/RelativeEntropyJointConvex.lean:52`
             · `rightMulKronecker_convex` — lemma · `Statlib/HighDim/MatrixAnalysis/RelativeEntropyJointConvex.lean:61`
-            ★ `matrix_log_integral_rep` — theorem · `Statlib/HighDim/MatrixAnalysis/MatrixLogIntegralRep.lean:8`
-            ★ `lieb_ruskai_conj_inv_jointly_convex` — theorem · `Statlib/HighDim/MatrixAnalysis/LiebRuskaiConjInvJointlyConvex.lean:7`
+            ★ `matrix_log_integral_rep` — theorem · `Statlib/HighDim/MatrixAnalysis/MatrixLogIntegralRep.lean:8`  _(also used by 1: golden_thompson)_
+            ★ `lieb_ruskai_conj_inv_jointly_convex` — theorem · `Statlib/HighDim/MatrixAnalysis/LiebRuskaiConjInvJointlyConvex.lean:7`  _(also used by 2: resolvent_loewner_convex, resolvent_trace_convex)_
             ★ `op_convex_mul_log` — theorem · `Statlib/HighDim/MatrixAnalysis/OperatorConvexMulLog.lean:14`
             ★ `hansen_pedersen_jensen_mul_log` — theorem · `Statlib/HighDim/MatrixAnalysis/HansenPedersenJensenMulLog.lean:28`  _(also used by 1: hp_jensen_mul_log)_
             · `perspectiveInner_jointConvex` — lemma · `Statlib/HighDim/MatrixAnalysis/RelativeEntropyJointConvex.lean:388`
             ★ `quantumRelativeEntropy_jointConvex` — theorem · `Statlib/HighDim/MatrixAnalysis/RelativeEntropyJointConvex.lean:990`
             ★ `relative_entropy_joint_convex` — theorem · `Statlib/HighDim/MatrixAnalysis/RelativeEntropyJointConvex.lean:1053`
-            ★ `trace_exp_add_log_concave_two_point` — theorem · `Statlib/HighDim/MatrixAnalysis/LiebTraceConcavity.lean:75`
+            ★ `trace_exp_add_log_concave_two_point` — theorem · `Statlib/HighDim/MatrixAnalysis/LiebTraceConcavity.lean:75`  _(also used by 1: golden_thompson)_
             ★ `trace_exp_add_log_concave` — theorem · `Statlib/HighDim/MatrixAnalysis/LiebTraceConcavity.lean:143`  _(also used by 1: trace_exp_add_log_finset_jensen_posDef)_
             ★ `trace_exp_add_log_continuousOn_posDef` — theorem · `Statlib/HighDim/MatrixAnalysis/LiebTraceConcavity.lean:291`
             ★ `closure_hypograph_le` — private theorem · `Statlib/HighDim/MatrixAnalysis/LiebTraceConcavity.lean:390`

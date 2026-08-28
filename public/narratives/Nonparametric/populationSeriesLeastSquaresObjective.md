@@ -5,10 +5,10 @@ Closure: 5 declarations across 3 files. Generated from `proof_graph.json` — no
 
 Reading order (foundations first, headline last):
 
-    ◆ `predictionRisk` — noncomputable def · `Statlib/Nonparametric/Vocabulary/Risk.lean:24`  _(also used by 4: oracleRisk_le_of_member, linkedPredictionRisk, logisticRisk, …)_
+    ◆ `predictionRisk` — noncomputable def · `Statlib/Nonparametric/Vocabulary/Risk.lean:24`  _(also used by 5: oracleRisk_le_of_member, approximationError_le_of_exists_risk_le, linkedPredictionRisk, …)_
     ◆ `squaredLoss` — def · `Statlib/Nonparametric/Vocabulary/Loss.lean:13`  _(also used by 2: oneHiddenReLUEmpiricalRisk, seriesLeastSquaresObjective)_
   ◆ `squaredPredictionRisk` — noncomputable def · `Statlib/Nonparametric/Vocabulary/Risk.lean:80`
-  ◆ `seriesFunction` — noncomputable def · `Statlib/Nonparametric/Vocabulary/Sieve.lean:27`  _(also used by 39: holder_selectorIndicator_series_pointwise_bound, holder_selectorIndicator_series_integratedSquaredError_bound, finiteLinearSpan_classApproximationError_le_of_holder_selector_net, …)_
+  ◆ `seriesFunction` — noncomputable def · `Statlib/Nonparametric/Vocabulary/Sieve.lean:27`  _(also used by 68: selector_indicator_holder_series_pointwise_approximation_bound, selector_indicator_holder_series_integrated_squared_error_bound, selector_indicator_holder_class_approximation_error_le_of_net, …)_
 ◆ `populationSeriesLeastSquaresObjective` — noncomputable def · `Statlib/Nonparametric/Vocabulary/Sieve.lean:37` **← headline**
 
 ## Dependency diagram

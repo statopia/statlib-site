@@ -1,13 +1,13 @@
 # Proof narrative — IsNestedSieve
 
-Root: **IsNestedSieve** (def) `Statlib/Nonparametric/Vocabulary/FunctionClasses.lean:106` · topic `Nonparametric`
+Root: **IsNestedSieve** (def) `Statlib/Nonparametric/Vocabulary/FunctionClasses.lean:110` · topic `Nonparametric`
 Closure: 3 declarations across 1 files. Generated from `proof_graph.json` — no files were moved.
 
 Reading order (foundations first, headline last):
 
-    ◆ `FunctionClass` — abbrev · `Statlib/Nonparametric/Vocabulary/FunctionClasses.lean:16`  _(also used by 21: holder_classApproximationError_le_of_net_member, kernel_smoother_classApproximationError_le_of_holder_bias_member, kernel_smoother_classApproximationError_le_of_holder_bias_rate, …)_
-  ◆ `SieveClass` — abbrev · `Statlib/Nonparametric/Vocabulary/FunctionClasses.lean:102`
-◆ `IsNestedSieve` — def · `Statlib/Nonparametric/Vocabulary/FunctionClasses.lean:106` **← headline**
+    ◆ `FunctionClass` — abbrev · `Statlib/Nonparametric/Vocabulary/FunctionClasses.lean:16`  _(also used by 24: holder_class_approximation_error_le_of_net_member, kernel_smoother_classApproximationError_le_of_holder_bias_member, kernel_smoother_classApproximationError_le_of_holder_bias_rate, …)_
+  ◆ `SieveClass` — abbrev · `Statlib/Nonparametric/Vocabulary/FunctionClasses.lean:106`
+◆ `IsNestedSieve` — def · `Statlib/Nonparametric/Vocabulary/FunctionClasses.lean:110` **← headline**
 
 ## Dependency diagram
 

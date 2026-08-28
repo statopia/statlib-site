@@ -5,8 +5,8 @@ Closure: 4 declarations across 3 files. Generated from `proof_graph.json` — no
 
 Reading order (foundations first, headline last):
 
-  ▣ `HasCovarianceMatrix` — structure · `Statlib/HighDim/Vocabulary/RandomVector.lean:101`  _(also used by 20: cov_diagonal_concentration, cov_quadratic_deviation, cov_trace_concentration, …)_
-  ◆ `IsIsotropic` — def · `Statlib/HighDim/Vocabulary/RandomVector.lean:109`  _(also used by 7: quadratic_form_mean_isotropic, hanson_wright_isotropic, subgaussian_norm_sq_subexponential, …)_
+  ▣ `HasCovarianceMatrix` — structure · `Statlib/HighDim/Vocabulary/RandomVector.lean:101`  _(also used by 116: cov_diagonal_concentration, cov_quadratic_deviation, cov_quadratic_deviation_uniform_const, …)_
+  ◆ `IsIsotropic` — def · `Statlib/HighDim/Vocabulary/RandomVector.lean:109`  _(also used by 8: gaussian_quadratic_form_concentration, quadratic_form_mean_isotropic, hanson_wright_isotropic, …)_
   ◆ `restrictByEquiv` — def · `Statlib/HighDim/Vocabulary/Restrictions.lean:15`  _(also used by 10: measurable_restrictByEquiv, restrictByEquiv_hasMean_zero, extendByEquiv_restrictByEquiv_of_support, …)_
 · `restrictByEquiv_cov_identity` — lemma · `Statlib/HighDim/Geometry/RIPConstruction.lean:330` **← headline**
 

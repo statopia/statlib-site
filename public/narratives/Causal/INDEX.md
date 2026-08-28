@@ -1,0 +1,53 @@
+# Causal — proof narratives
+
+49 headline result(s).
+
+- [acyclic_no_self_ancestor](acyclic_no_self_ancestor.md) — theorem, 4 decl(s) · `Statlib/Causal/SCM/Theorems.lean:400`
+- [acyclic_of_topological_order](acyclic_of_topological_order.md) — theorem, 5 decl(s) · `Statlib/Causal/SCM/Theorems.lean:46`
+- [ancestor_moralize_reachable](ancestor_moralize_reachable.md) — theorem, 6 decl(s) · `Statlib/Causal/SCM/Theorems.lean:1390`
+- [ancestor_trans](ancestor_trans.md) — theorem, 3 decl(s) · `Statlib/Causal/SCM/Theorems.lean:669`
+- [ancestors_strictly_below](ancestors_strictly_below.md) — theorem, 3 decl(s) · `Statlib/Causal/SCM/Theorems.lean:430`
+- [ate_diff_eq](ate_diff_eq.md) — theorem, 7 decl(s) · `Statlib/Causal/Identification.lean:1076`
+- [ate_y1_eq_by_propensity](ate_y1_eq_by_propensity.md) — theorem, 8 decl(s) · `Statlib/Causal/Identification.lean:1718`
+- [backdoor_adjustment](backdoor_adjustment.md) — theorem, 3 decl(s) · `Statlib/Causal/SCM/Theorems.lean:1602`
+- [backdoor_blocks_into_x_of_parents_subset](backdoor_blocks_into_x_of_parents_subset.md) — theorem, 8 decl(s) · `Statlib/Causal/SCM/Theorems.lean:1528`
+- [backdoor_criterion_of_parents_subset](backdoor_criterion_of_parents_subset.md) — theorem, 9 decl(s) · `Statlib/Causal/SCM/Theorems.lean:1557`
+- [backdoor_no_active_backdoor_path](backdoor_no_active_backdoor_path.md) — theorem, 8 decl(s) · `Statlib/Causal/SCM/Theorems.lean:1586`
+- [condExp_mul_indicator_eq_mul_condExp_of_condIndep](condExp_mul_indicator_eq_mul_condExp_of_condIndep.md) — theorem, 3 decl(s) · `Statlib/Causal/Identification.lean:1816`
+- [coparents_moralized](coparents_moralized.md) — theorem, 3 decl(s) · `Statlib/Causal/SCM/Theorems.lean:1371`
+- [descendant_rev_ancestor](descendant_rev_ancestor.md) — theorem, 4 decl(s) · `Statlib/Causal/SCM/Theorems.lean:1383`
+- [doAt_preserves_pa](doAt_preserves_pa.md) — theorem, 7 decl(s) · `Statlib/Causal/SCM/Theorems.lean:96`
+- [doM_outcome_mass_expand](doM_outcome_mass_expand.md) — theorem, 2 decl(s) · `Statlib/Causal/SCM/Theorems.lean:1704`
+- [doX_outcome_confounder_marginal_invariant](doX_outcome_confounder_marginal_invariant.md) — theorem, 2 decl(s) · `Statlib/Causal/SCM/Theorems.lean:1848`
+- [doX_outcome_law_frontdoor_adjustment](doX_outcome_law_frontdoor_adjustment.md) — theorem, 4 decl(s) · `Statlib/Causal/SCM/Theorems.lean:1820`
+- [doX_outcome_law_mass_eq_confounded](doX_outcome_law_mass_eq_confounded.md) — theorem, 4 decl(s) · `Statlib/Causal/SCM/Theorems.lean:1795`
+- [dseparated_mono_left](dseparated_mono_left.md) — theorem, 8 decl(s) · `Statlib/Causal/SCM/Theorems.lean:1517`
+- [dseparated_symm](dseparated_symm.md) — theorem, 15 decl(s) · `Statlib/Causal/SCM/Theorems.lean:1505`
+- [front_door_adjustment](front_door_adjustment.md) — theorem, 3 decl(s) · `Statlib/Causal/SCM/Theorems.lean:1685`
+- [front_door_adjustment_confounded](front_door_adjustment_confounded.md) — theorem, 3 decl(s) · `Statlib/Causal/SCM/Theorems.lean:1758`
+- [front_door_backdoor_over_X](front_door_backdoor_over_X.md) — theorem, 2 decl(s) · `Statlib/Causal/SCM/Theorems.lean:1733`
+- [front_door_doX_mediator_invariant](front_door_doX_mediator_invariant.md) — theorem, 2 decl(s) · `Statlib/Causal/SCM/Theorems.lean:1786`
+- [FrontDoorCriterion](FrontDoorCriterion.md) — structure, 2 decl(s) · `Statlib/Causal/SCM/FrontdoorCriterion.lean:103`
+- [gformula_intervene_untouched](gformula_intervene_untouched.md) — theorem, 4 decl(s) · `Statlib/Causal/SCM/Theorems.lean:225`
+- [gformula_joint_markov](gformula_joint_markov.md) — theorem, 5 decl(s) · `Statlib/Causal/SCM/Theorems.lean:103`
+- [gformula_marginal_intervene_before](gformula_marginal_intervene_before.md) — theorem, 6 decl(s) · `Statlib/Causal/SCM/Theorems.lean:562`
+- [gformula_marginal_non_ancestor](gformula_marginal_non_ancestor.md) — theorem, 14 decl(s) · `Statlib/Causal/SCM/Theorems.lean:696`
+- [gformula_marginal_prefix](gformula_marginal_prefix.md) — theorem, 5 decl(s) · `Statlib/Causal/SCM/Theorems.lean:530`
+- [gformula_pins_intervened](gformula_pins_intervened.md) — theorem, 6 decl(s) · `Statlib/Causal/SCM/Theorems.lean:114`
+- [gformula_truncation](gformula_truncation.md) — theorem, 6 decl(s) · `Statlib/Causal/SCM/Theorems.lean:233`
+- [HasTopologicalOrder](HasTopologicalOrder.md) — def, 3 decl(s) · `Statlib/Causal/SCM/Vocabulary.lean:51`
+- [induced_family_do_bridge](induced_family_do_bridge.md) — theorem, 13 decl(s) · `Statlib/Causal/SCM/Theorems.lean:465`
+- [intervene_commutes_disjoint](intervene_commutes_disjoint.md) — theorem, 3 decl(s) · `Statlib/Causal/SCM/Theorems.lean:385`
+- [intervene_ne](intervene_ne.md) — theorem, 3 decl(s) · `Statlib/Causal/SCM/Theorems.lean:80`
+- [intervene_self](intervene_self.md) — theorem, 3 decl(s) · `Statlib/Causal/SCM/Theorems.lean:90`
+- [intervened_joint_marginal_expand](intervened_joint_marginal_expand.md) — theorem, 3 decl(s) · `Statlib/Causal/SCM/Theorems.lean:1639`
+- [measurable_parentProj](measurable_parentProj.md) — lemma, 3 decl(s) · `Statlib/Causal/SCM/GFormulaGraph.lean:68`
+- [mem_parentsOf_iff](mem_parentsOf_iff.md) — theorem, 3 decl(s) · `Statlib/Causal/SCM/Theorems.lean:73`
+- [moralize_adj_iff](moralize_adj_iff.md) — theorem, 3 decl(s) · `Statlib/Causal/SCM/Theorems.lean:1351`
+- [non_ancestor_not_parent](non_ancestor_not_parent.md) — theorem, 3 decl(s) · `Statlib/Causal/SCM/Theorems.lean:679`
+- [obs_eq_potential_outcome_of_T](obs_eq_potential_outcome_of_T.md) — theorem, 2 decl(s) · `Statlib/Causal/Identification.lean:41`
+- [parent_edge_moralized](parent_edge_moralized.md) — theorem, 3 decl(s) · `Statlib/Causal/SCM/Theorems.lean:1356`
+- [parent_mem_ancestors](parent_mem_ancestors.md) — theorem, 3 decl(s) · `Statlib/Causal/SCM/Theorems.lean:658`
+- [parents_precede_in_topological_order](parents_precede_in_topological_order.md) — theorem, 4 decl(s) · `Statlib/Causal/SCM/Theorems.lean:375`
+- [skeleton_adj_iff](skeleton_adj_iff.md) — theorem, 3 decl(s) · `Statlib/Causal/SCM/Theorems.lean:1344`
+- [skeleton_edge_moralized](skeleton_edge_moralized.md) — theorem, 4 decl(s) · `Statlib/Causal/SCM/Theorems.lean:1361`

@@ -5,10 +5,10 @@ Closure: 8 declarations across 5 files. Generated from `proof_graph.json` — no
 
 Reading order (foundations first, headline last):
 
-  ▣ `ParametricFamily` — structure · `Statlib/StatFoundation/Statistics/Sufficiency/Basic.lean:49`
-  ◆ `IsSufficient` — def · `Statlib/StatFoundation/Statistics/Sufficiency/Basic.lean:63`
-  ◆ `IsComplete` — def · `Statlib/StatFoundation/Statistics/Sufficiency/Basic.lean:56`
-  ◆ `IsUnbiased` — def · `Statlib/StatFoundation/Statistics/Sufficiency/Basic.lean:73`
+  ◆ `ParametricFamily` — abbrev · `Statlib/StatFoundation/Statistics/Sufficiency/Basic.lean:52`
+  ◆ `IsSufficient` — def · `Statlib/StatFoundation/Statistics/Sufficiency/Basic.lean:64`
+  ◆ `IsComplete` — def · `Statlib/StatFoundation/Statistics/Sufficiency/Basic.lean:57`
+  ◆ `IsUnbiased` — def · `Statlib/StatFoundation/Statistics/Sufficiency/Basic.lean:74`
   ★ `condExp_eq_of_sufficient` — theorem · `Statlib/StatFoundation/Statistics/Sufficiency/LehmannScheffe/CondExp.lean:17`
   ★ `condExp_reduces_mse` — theorem · `Statlib/StatFoundation/Statistics/Sufficiency/LehmannScheffe/MSE.lean:19`
   ★ `ae_eq_of_complete_unbiased` — theorem · `Statlib/StatFoundation/Statistics/Sufficiency/LehmannScheffe/CompleteUnique.lean:15`
@@ -18,7 +18,7 @@ Reading order (foundations first, headline last):
 
 ```mermaid
 flowchart TD
-  n0["▣ ParametricFamily"]
+  n0["◆ ParametricFamily"]
   n1["◆ IsSufficient"]
   n2["◆ IsComplete"]
   n3["◆ IsUnbiased"]

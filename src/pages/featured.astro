@@ -7,15 +7,15 @@ import { graphStats, graphIndexUrl, graphBase } from "../data/graph";
 
 <Layout
   title="Featured formalizations"
-  description="Representative statlib theorems shown as their real Lean statement, with the mathematics and available dependency maps."
+  description="Representative statlib theorems shown as their real Lean statement, with the mathematics and proof dependency graphs."
 >
   <article class="mx-auto max-w-4xl px-6 py-16">
     <h1 class="font-serif text-3xl font-semibold tracking-tight text-ink">Featured formalizations</h1>
     <p class="mt-4 max-w-2xl text-lg leading-relaxed text-ink-soft">
       What does a real result look like inside statlib? Here are a few
       representative theorems — the mathematical statement, the actual Lean
-      formalization (verbatim, proof omitted), and an available dependency map
-      for selected results.
+      formalization (verbatim, proof omitted), and the proof dependency graph
+      for each result.
     </p>
 
     <div class="mt-12 space-y-16">
@@ -39,29 +39,25 @@ import { graphStats, graphIndexUrl, graphBase } from "../data/graph";
             <pre class="mt-2 overflow-x-auto rounded-lg bg-ink p-4 text-[13px] leading-relaxed text-paper"><code>{f.statement}</code></pre>
             <p class="mt-2 font-mono text-xs text-faint">{f.leanFile}</p>
 
-            {/* Dependency diagram, when the current narrative artifact has one. */}
-            {f.svg && (
-              <a
-                href={`${graphBase}/${f.svg}`}
-                target="_blank"
-                rel="noopener noreferrer"
-                class="group mt-5 block overflow-hidden rounded-lg border border-line bg-paper transition hover:border-accent/50"
-              >
-                <div class="flex max-h-72 items-center justify-center overflow-hidden p-4">
-                  <img
-                    src={`${graphBase}/${f.svg}`}
-                    alt={`Dependency graph for ${f.name}`}
-                    loading="lazy"
-                    class="max-h-64 max-w-full object-contain opacity-90 transition group-hover:opacity-100"
-                  />
-                </div>
-                <div class="border-t border-line px-4 py-2 font-mono text-xs text-ink-soft">
-                  {f.graphLabel ?? "proof dependency graph"}
-                  {f.decls !== undefined && ` · ${f.decls} declarations`}
-                  {" · open full diagram →"}
-                </div>
-              </a>
-            )}
+            {/* Dependency diagram */}
+            <a
+              href={`${graphBase}/${f.svg}`}
+              target="_blank"
+              rel="noopener noreferrer"
+              class="group mt-5 block overflow-hidden rounded-lg border border-line bg-paper transition hover:border-accent/50"
+            >
+              <div class="flex max-h-72 items-center justify-center overflow-hidden p-4">
+                <img
+                  src={`${graphBase}/${f.svg}`}
+                  alt={`Dependency graph for ${f.name}`}
+                  loading="lazy"
+                  class="max-h-64 max-w-full object-contain opacity-90 transition group-hover:opacity-100"
+                />
+              </div>
+              <div class="border-t border-line px-4 py-2 font-mono text-xs text-ink-soft">
+                {f.graphLabel ?? "proof dependency graph"} · {f.decls} declarations · open full diagram →
+              </div>
+            </a>
           </section>
         ))
       }

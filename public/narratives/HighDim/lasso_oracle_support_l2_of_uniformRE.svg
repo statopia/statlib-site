@@ -18,7 +18,7 @@
 <!-- n0 -->
 <g id="node1" class="node">
 <title>n0</title>
-<g id="a_node1"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/HighDim/Vocabulary/Sparse.lean#L49" xlink:title="def · Statlib/HighDim/Vocabulary/Sparse.lean:49" target="_blank">
+<g id="a_node1"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Vocabulary/Sparse.lean:49" xlink:title="def · Statlib/HighDim/Vocabulary/Sparse.lean:49" target="_blank">
 <path fill="#d6e9ff" stroke="#3b82f6" d="M402.01,-268C402.01,-268 369.99,-268 369.99,-268 363.99,-268 357.99,-262 357.99,-256 357.99,-256 357.99,-244 357.99,-244 357.99,-238 363.99,-232 369.99,-232 369.99,-232 402.01,-232 402.01,-232 408.01,-232 414.01,-238 414.01,-244 414.01,-244 414.01,-256 414.01,-256 414.01,-262 408.01,-268 402.01,-268"/>
 <text xml:space="preserve" text-anchor="middle" x="386" y="-247" font-family="Helvetica,sans-Serif" font-size="10.00">IsInCone</text>
 </a>
@@ -27,7 +27,7 @@
 <!-- n1 -->
 <g id="node2" class="node">
 <title>n1</title>
-<g id="a_node2"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/HighDim/Vocabulary/Norms.lean#L13" xlink:title="noncomputable def · Statlib/HighDim/Vocabulary/Norms.lean:13" target="_blank">
+<g id="a_node2"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Vocabulary/Norms.lean:13" xlink:title="noncomputable def · Statlib/HighDim/Vocabulary/Norms.lean:13" target="_blank">
 <path fill="#d6e9ff" stroke="#3b82f6" d="M357.23,-52C357.23,-52 320.77,-52 320.77,-52 314.77,-52 308.77,-46 308.77,-40 308.77,-40 308.77,-28 308.77,-28 308.77,-22 314.77,-16 320.77,-16 320.77,-16 357.23,-16 357.23,-16 363.23,-16 369.23,-22 369.23,-28 369.23,-28 369.23,-40 369.23,-40 369.23,-46 363.23,-52 357.23,-52"/>
 <text xml:space="preserve" text-anchor="middle" x="339" y="-31" font-family="Helvetica,sans-Serif" font-size="10.00">l2NormSq</text>
 </a>
@@ -36,7 +36,7 @@
 <!-- n2 -->
 <g id="node3" class="node">
 <title>n2</title>
-<g id="a_node3"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/HighDim/Vocabulary/DesignMatrix.lean#L65" xlink:title="structure · Statlib/HighDim/Vocabulary/DesignMatrix.lean:65" target="_blank">
+<g id="a_node3"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Vocabulary/DesignMatrix.lean:84" xlink:title="structure · Statlib/HighDim/Vocabulary/DesignMatrix.lean:84" target="_blank">
 <path fill="#e8dcff" stroke="#8b5cf6" d="M111.84,-340C111.84,-340 68.16,-340 68.16,-340 62.16,-340 56.16,-334 56.16,-328 56.16,-328 56.16,-316 56.16,-316 56.16,-310 62.16,-304 68.16,-304 68.16,-304 111.84,-304 111.84,-304 117.84,-304 123.84,-310 123.84,-316 123.84,-316 123.84,-328 123.84,-328 123.84,-334 117.84,-340 111.84,-340"/>
 <text xml:space="preserve" text-anchor="middle" x="90" y="-319" font-family="Helvetica,sans-Serif" font-size="10.00">SatisfiesRE</text>
 </a>
@@ -57,7 +57,7 @@
 <!-- n3 -->
 <g id="node4" class="node">
 <title>n3</title>
-<g id="a_node4"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/HighDim/Vocabulary/DesignMatrix.lean#L99" xlink:title="structure · Statlib/HighDim/Vocabulary/DesignMatrix.lean:99" target="_blank">
+<g id="a_node4"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Vocabulary/DesignMatrix.lean:118" xlink:title="structure · Statlib/HighDim/Vocabulary/DesignMatrix.lean:118" target="_blank">
 <path fill="#e8dcff" stroke="#8b5cf6" d="M106.34,-412C106.34,-412 27.66,-412 27.66,-412 21.66,-412 15.66,-406 15.66,-400 15.66,-400 15.66,-388 15.66,-388 15.66,-382 21.66,-376 27.66,-376 27.66,-376 106.34,-376 106.34,-376 112.34,-376 118.34,-382 118.34,-388 118.34,-388 118.34,-400 118.34,-400 118.34,-406 112.34,-412 106.34,-412"/>
 <text xml:space="preserve" text-anchor="middle" x="67" y="-391" font-family="Helvetica,sans-Serif" font-size="10.00">SatisfiesUniformRE</text>
 </a>
@@ -84,7 +84,7 @@
 <!-- n4 -->
 <g id="node5" class="node">
 <title>n4</title>
-<g id="a_node5"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/HighDim/Regression/LassoOracle.lean#L48" xlink:title="noncomputable def · Statlib/HighDim/Regression/LassoOracle.lean:48" target="_blank">
+<g id="a_node5"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Regression/LassoOracle.lean:48" xlink:title="noncomputable def · Statlib/HighDim/Regression/LassoOracle.lean:48" target="_blank">
 <path fill="#d6e9ff" stroke="#3b82f6" d="M607.45,-124C607.45,-124 576.55,-124 576.55,-124 570.55,-124 564.55,-118 564.55,-112 564.55,-112 564.55,-100 564.55,-100 564.55,-94 570.55,-88 576.55,-88 576.55,-88 607.45,-88 607.45,-88 613.45,-88 619.45,-94 619.45,-100 619.45,-100 619.45,-112 619.45,-112 619.45,-118 613.45,-124 607.45,-124"/>
 <text xml:space="preserve" text-anchor="middle" x="592" y="-103" font-family="Helvetica,sans-Serif" font-size="10.00">lassoObj</text>
 </a>
@@ -99,7 +99,7 @@
 <!-- n5 -->
 <g id="node6" class="node">
 <title>n5</title>
-<g id="a_node6"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/HighDim/Regression/LassoOracle.lean#L53" xlink:title="def · Statlib/HighDim/Regression/LassoOracle.lean:53" target="_blank">
+<g id="a_node6"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Regression/LassoOracle.lean:53" xlink:title="def · Statlib/HighDim/Regression/LassoOracle.lean:53" target="_blank">
 <path fill="#d6e9ff" stroke="#3b82f6" d="M720.3,-196C720.3,-196 657.7,-196 657.7,-196 651.7,-196 645.7,-190 645.7,-184 645.7,-184 645.7,-172 645.7,-172 645.7,-166 651.7,-160 657.7,-160 657.7,-160 720.3,-160 720.3,-160 726.3,-160 732.3,-166 732.3,-172 732.3,-172 732.3,-184 732.3,-184 732.3,-190 726.3,-196 720.3,-196"/>
 <text xml:space="preserve" text-anchor="middle" x="689" y="-175" font-family="Helvetica,sans-Serif" font-size="10.00">IsLassoSolution</text>
 </a>
@@ -114,7 +114,7 @@
 <!-- n6 -->
 <g id="node7" class="node">
 <title>n6</title>
-<g id="a_node7"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/HighDim/Vocabulary/DesignMatrix.lean#L50" xlink:title="structure · Statlib/HighDim/Vocabulary/DesignMatrix.lean:50" target="_blank">
+<g id="a_node7"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Vocabulary/DesignMatrix.lean:69" xlink:title="structure · Statlib/HighDim/Vocabulary/DesignMatrix.lean:69" target="_blank">
 <path fill="#e8dcff" stroke="#8b5cf6" d="M468.35,-340C468.35,-340 389.65,-340 389.65,-340 383.65,-340 377.65,-334 377.65,-328 377.65,-328 377.65,-316 377.65,-316 377.65,-310 383.65,-304 389.65,-304 389.65,-304 468.35,-304 468.35,-304 474.35,-304 480.35,-310 480.35,-316 480.35,-316 480.35,-328 480.35,-328 480.35,-334 474.35,-340 468.35,-340"/>
 <text xml:space="preserve" text-anchor="middle" x="429" y="-319" font-family="Helvetica,sans-Serif" font-size="10.00">SatisfiesSupportRE</text>
 </a>
@@ -135,7 +135,7 @@
 <!-- n7 -->
 <g id="node8" class="node">
 <title>n7</title>
-<g id="a_node8"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/HighDim/Regression/LassoOracle.lean#L65" xlink:title="lemma · Statlib/HighDim/Regression/LassoOracle.lean:65" target="_blank">
+<g id="a_node8"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Regression/LassoOracle.lean:65" xlink:title="lemma · Statlib/HighDim/Regression/LassoOracle.lean:65" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M638.03,-268C638.03,-268 545.97,-268 545.97,-268 539.97,-268 533.97,-262 533.97,-256 533.97,-256 533.97,-244 533.97,-244 533.97,-238 539.97,-232 545.97,-232 545.97,-232 638.03,-232 638.03,-232 644.03,-232 650.03,-238 650.03,-244 650.03,-244 650.03,-256 650.03,-256 650.03,-262 644.03,-268 638.03,-268"/>
 <text xml:space="preserve" text-anchor="middle" x="592" y="-247" font-family="Helvetica,sans-Serif" font-size="10.00">lasso_basic_inequality</text>
 </a>
@@ -162,7 +162,7 @@
 <!-- n8 -->
 <g id="node9" class="node">
 <title>n8</title>
-<g id="a_node9"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/HighDim/Regression/LassoOracle.lean#L257" xlink:title="lemma · Statlib/HighDim/Regression/LassoOracle.lean:257" target="_blank">
+<g id="a_node9"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Regression/LassoOracle.lean:257" xlink:title="lemma · Statlib/HighDim/Regression/LassoOracle.lean:257" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M618.09,-340C618.09,-340 529.91,-340 529.91,-340 523.91,-340 517.91,-334 517.91,-328 517.91,-328 517.91,-316 517.91,-316 517.91,-310 523.91,-304 529.91,-304 529.91,-304 618.09,-304 618.09,-304 624.09,-304 630.09,-310 630.09,-316 630.09,-316 630.09,-328 630.09,-328 630.09,-334 624.09,-340 618.09,-340"/>
 <text xml:space="preserve" text-anchor="middle" x="574" y="-319" font-family="Helvetica,sans-Serif" font-size="10.00">lasso_cone_condition</text>
 </a>
@@ -195,7 +195,7 @@
 <!-- n9 -->
 <g id="node10" class="node">
 <title>n9</title>
-<g id="a_node10"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/HighDim/Regression/LassoOracle.lean#L416" xlink:title="theorem · Statlib/HighDim/Regression/LassoOracle.lean:416" target="_blank">
+<g id="a_node10"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Regression/LassoOracle.lean:416" xlink:title="theorem · Statlib/HighDim/Regression/LassoOracle.lean:416" target="_blank">
 <path fill="#ffe6a3" stroke="#d4a017" d="M655.89,-412C655.89,-412 492.11,-412 492.11,-412 486.11,-412 480.11,-406 480.11,-400 480.11,-400 480.11,-388 480.11,-388 480.11,-382 486.11,-376 492.11,-376 492.11,-376 655.89,-376 655.89,-376 661.89,-376 667.89,-382 667.89,-388 667.89,-388 667.89,-400 667.89,-400 667.89,-406 661.89,-412 655.89,-412"/>
 <text xml:space="preserve" text-anchor="middle" x="574" y="-391" font-family="Helvetica,sans-Serif" font-size="10.00">lasso_oracle_prediction_of_supportRE</text>
 </a>
@@ -240,7 +240,7 @@
 <!-- n10 -->
 <g id="node11" class="node">
 <title>n10</title>
-<g id="a_node11"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/HighDim/Regression/LassoOracle.lean#L910" xlink:title="theorem · Statlib/HighDim/Regression/LassoOracle.lean:910" target="_blank">
+<g id="a_node11"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Regression/LassoOracle.lean:910" xlink:title="theorem · Statlib/HighDim/Regression/LassoOracle.lean:910" target="_blank">
 <path fill="#ffe6a3" stroke="#d4a017" d="M512.56,-484C512.56,-484 345.44,-484 345.44,-484 339.44,-484 333.44,-478 333.44,-472 333.44,-472 333.44,-460 333.44,-460 333.44,-454 339.44,-448 345.44,-448 345.44,-448 512.56,-448 512.56,-448 518.56,-448 524.56,-454 524.56,-460 524.56,-460 524.56,-472 524.56,-472 524.56,-478 518.56,-484 512.56,-484"/>
 <text xml:space="preserve" text-anchor="middle" x="429" y="-463" font-family="Helvetica,sans-Serif" font-size="10.00">lasso_oracle_support_l2_of_supportRE</text>
 </a>
@@ -285,7 +285,7 @@
 <!-- n11 -->
 <g id="node12" class="node">
 <title>n11</title>
-<g id="a_node12"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/HighDim/Vocabulary/Sparse.lean#L54" xlink:title="lemma · Statlib/HighDim/Vocabulary/Sparse.lean:54" target="_blank">
+<g id="a_node12"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Vocabulary/Sparse.lean:54" xlink:title="lemma · Statlib/HighDim/Vocabulary/Sparse.lean:54" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M194.03,-196C194.03,-196 91.97,-196 91.97,-196 85.97,-196 79.97,-190 79.97,-184 79.97,-184 79.97,-172 79.97,-172 79.97,-166 85.97,-160 91.97,-160 91.97,-160 194.03,-160 194.03,-160 200.03,-160 206.03,-166 206.03,-172 206.03,-172 206.03,-184 206.03,-184 206.03,-190 200.03,-196 194.03,-196"/>
 <text xml:space="preserve" text-anchor="middle" x="143" y="-175" font-family="Helvetica,sans-Serif" font-size="10.00">support_l2_le_l2NormSq</text>
 </a>
@@ -300,7 +300,7 @@
 <!-- n12 -->
 <g id="node13" class="node">
 <title>n12</title>
-<g id="a_node13"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/HighDim/Vocabulary/DesignMatrix.lean#L82" xlink:title="structure · Statlib/HighDim/Vocabulary/DesignMatrix.lean:82" target="_blank">
+<g id="a_node13"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Vocabulary/DesignMatrix.lean:101" xlink:title="structure · Statlib/HighDim/Vocabulary/DesignMatrix.lean:101" target="_blank">
 <path fill="#e8dcff" stroke="#8b5cf6" d="M307.86,-340C307.86,-340 194.14,-340 194.14,-340 188.14,-340 182.14,-334 182.14,-328 182.14,-328 182.14,-316 182.14,-316 182.14,-310 188.14,-304 194.14,-304 194.14,-304 307.86,-304 307.86,-304 313.86,-304 319.86,-310 319.86,-316 319.86,-316 319.86,-328 319.86,-328 319.86,-334 313.86,-340 307.86,-340"/>
 <text xml:space="preserve" text-anchor="middle" x="251" y="-319" font-family="Helvetica,sans-Serif" font-size="10.00">SatisfiesUniformSupportRE</text>
 </a>
@@ -321,7 +321,7 @@
 <!-- n13 -->
 <g id="node14" class="node">
 <title>n13</title>
-<g id="a_node14"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/HighDim/Vocabulary/DesignMatrix.lean#L110" xlink:title="lemma · Statlib/HighDim/Vocabulary/DesignMatrix.lean:110" target="_blank">
+<g id="a_node14"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Vocabulary/DesignMatrix.lean:129" xlink:title="lemma · Statlib/HighDim/Vocabulary/DesignMatrix.lean:129" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M257.63,-412C257.63,-412 208.37,-412 208.37,-412 202.37,-412 196.37,-406 196.37,-400 196.37,-400 196.37,-388 196.37,-388 196.37,-382 202.37,-376 208.37,-376 208.37,-376 257.63,-376 257.63,-376 263.63,-376 269.63,-382 269.63,-388 269.63,-388 269.63,-400 269.63,-400 269.63,-406 263.63,-412 257.63,-412"/>
 <text xml:space="preserve" text-anchor="middle" x="233" y="-391" font-family="Helvetica,sans-Serif" font-size="10.00">toSupportRE</text>
 </a>
@@ -360,7 +360,7 @@
 <!-- n14 -->
 <g id="node15" class="node">
 <title>n14</title>
-<g id="a_node15"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/HighDim/Regression/LassoOracle.lean#L965" xlink:title="theorem · Statlib/HighDim/Regression/LassoOracle.lean:965" target="_blank">
+<g id="a_node15"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Regression/LassoOracle.lean:965" xlink:title="theorem · Statlib/HighDim/Regression/LassoOracle.lean:965" target="_blank">
 <path fill="#ffe6a3" stroke="#d4a017" d="M283.2,-556C283.2,-556 182.8,-556 182.8,-556 176.8,-556 170.8,-550 170.8,-544 170.8,-544 170.8,-532 170.8,-532 170.8,-526 176.8,-520 182.8,-520 182.8,-520 283.2,-520 283.2,-520 289.2,-520 295.2,-526 295.2,-532 295.2,-532 295.2,-544 295.2,-544 295.2,-550 289.2,-556 283.2,-556"/>
 <text xml:space="preserve" text-anchor="middle" x="233" y="-535" font-family="Helvetica,sans-Serif" font-size="10.00">lasso_oracle_support_l2</text>
 </a>
@@ -393,7 +393,7 @@
 <!-- n15 -->
 <g id="node16" class="node">
 <title>n15</title>
-<g id="a_node16"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/HighDim/Vocabulary/DesignMatrix.lean#L151" xlink:title="lemma · Statlib/HighDim/Vocabulary/DesignMatrix.lean:151" target="_blank">
+<g id="a_node16"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Vocabulary/DesignMatrix.lean:170" xlink:title="lemma · Statlib/HighDim/Vocabulary/DesignMatrix.lean:170" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M146,-484C146,-484 116,-484 116,-484 110,-484 104,-478 104,-472 104,-472 104,-460 104,-460 104,-454 110,-448 116,-448 116,-448 146,-448 146,-448 152,-448 158,-454 158,-460 158,-460 158,-472 158,-472 158,-478 152,-484 146,-484"/>
 <text xml:space="preserve" text-anchor="middle" x="131" y="-463" font-family="Helvetica,sans-Serif" font-size="10.00">toRE</text>
 </a>
@@ -414,7 +414,7 @@
 <!-- n16 -->
 <g id="node17" class="node">
 <title>n16</title>
-<g id="a_node17"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/HighDim/Regression/LassoOracle.lean#L1013" xlink:title="theorem · Statlib/HighDim/Regression/LassoOracle.lean:1013" target="_blank">
+<g id="a_node17"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Regression/LassoOracle.lean:1013" xlink:title="theorem · Statlib/HighDim/Regression/LassoOracle.lean:1013" target="_blank">
 <path fill="#ffe6a3" stroke="#d4a017" stroke-width="3" d="M275.55,-628C275.55,-628 108.45,-628 108.45,-628 102.45,-628 96.45,-622 96.45,-616 96.45,-616 96.45,-604 96.45,-604 96.45,-598 102.45,-592 108.45,-592 108.45,-592 275.55,-592 275.55,-592 281.55,-592 287.55,-598 287.55,-604 287.55,-604 287.55,-616 287.55,-616 287.55,-622 281.55,-628 275.55,-628"/>
 <text xml:space="preserve" text-anchor="middle" x="192" y="-607" font-family="Helvetica,sans-Serif" font-size="10.00">lasso_oracle_support_l2_of_uniformRE</text>
 </a>

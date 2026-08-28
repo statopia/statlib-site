@@ -18,7 +18,7 @@
 <!-- n0 -->
 <g id="node1" class="node">
 <title>n0</title>
-<g id="a_node1"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/HighDim/CovarianceMatrix/SampleCovariance.lean#L199" xlink:title="noncomputable def · Statlib/HighDim/CovarianceMatrix/SampleCovariance.lean:199" target="_blank">
+<g id="a_node1"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/CovarianceMatrix/SampleCovariance.lean:199" xlink:title="noncomputable def · Statlib/HighDim/CovarianceMatrix/SampleCovariance.lean:199" target="_blank">
 <path fill="#d6e9ff" stroke="#3b82f6" d="M154.14,-124C154.14,-124 59.86,-124 59.86,-124 53.86,-124 47.86,-118 47.86,-112 47.86,-112 47.86,-100 47.86,-100 47.86,-94 53.86,-88 59.86,-88 59.86,-88 154.14,-88 154.14,-88 160.14,-88 166.14,-94 166.14,-100 166.14,-100 166.14,-112 166.14,-112 166.14,-118 160.14,-124 154.14,-124"/>
 <text xml:space="preserve" text-anchor="middle" x="107" y="-103" font-family="Helvetica,sans-Serif" font-size="10.00">sampleSecondMoment</text>
 </a>
@@ -27,7 +27,7 @@
 <!-- n1 -->
 <g id="node2" class="node">
 <title>n1</title>
-<g id="a_node2"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/HighDim/Vocabulary/Sparse.lean#L49" xlink:title="def · Statlib/HighDim/Vocabulary/Sparse.lean:49" target="_blank">
+<g id="a_node2"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Vocabulary/Sparse.lean:49" xlink:title="def · Statlib/HighDim/Vocabulary/Sparse.lean:49" target="_blank">
 <path fill="#d6e9ff" stroke="#3b82f6" d="M620.01,-124C620.01,-124 587.99,-124 587.99,-124 581.99,-124 575.99,-118 575.99,-112 575.99,-112 575.99,-100 575.99,-100 575.99,-94 581.99,-88 587.99,-88 587.99,-88 620.01,-88 620.01,-88 626.01,-88 632.01,-94 632.01,-100 632.01,-100 632.01,-112 632.01,-112 632.01,-118 626.01,-124 620.01,-124"/>
 <text xml:space="preserve" text-anchor="middle" x="604" y="-103" font-family="Helvetica,sans-Serif" font-size="10.00">IsInCone</text>
 </a>
@@ -36,7 +36,7 @@
 <!-- n2 -->
 <g id="node3" class="node">
 <title>n2</title>
-<g id="a_node3"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/HighDim/Vocabulary/Norms.lean#L13" xlink:title="noncomputable def · Statlib/HighDim/Vocabulary/Norms.lean:13" target="_blank">
+<g id="a_node3"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Vocabulary/Norms.lean:13" xlink:title="noncomputable def · Statlib/HighDim/Vocabulary/Norms.lean:13" target="_blank">
 <path fill="#d6e9ff" stroke="#3b82f6" d="M735.23,-124C735.23,-124 698.77,-124 698.77,-124 692.77,-124 686.77,-118 686.77,-112 686.77,-112 686.77,-100 686.77,-100 686.77,-94 692.77,-88 698.77,-88 698.77,-88 735.23,-88 735.23,-88 741.23,-88 747.23,-94 747.23,-100 747.23,-100 747.23,-112 747.23,-112 747.23,-118 741.23,-124 735.23,-124"/>
 <text xml:space="preserve" text-anchor="middle" x="717" y="-103" font-family="Helvetica,sans-Serif" font-size="10.00">l2NormSq</text>
 </a>
@@ -45,7 +45,7 @@
 <!-- n3 -->
 <g id="node4" class="node">
 <title>n3</title>
-<g id="a_node4"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/HighDim/Vocabulary/DesignMatrix.lean#L82" xlink:title="structure · Statlib/HighDim/Vocabulary/DesignMatrix.lean:82" target="_blank">
+<g id="a_node4"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Vocabulary/DesignMatrix.lean:101" xlink:title="structure · Statlib/HighDim/Vocabulary/DesignMatrix.lean:101" target="_blank">
 <path fill="#e8dcff" stroke="#8b5cf6" d="M793.86,-268C793.86,-268 680.14,-268 680.14,-268 674.14,-268 668.14,-262 668.14,-256 668.14,-256 668.14,-244 668.14,-244 668.14,-238 674.14,-232 680.14,-232 680.14,-232 793.86,-232 793.86,-232 799.86,-232 805.86,-238 805.86,-244 805.86,-244 805.86,-256 805.86,-256 805.86,-262 799.86,-268 793.86,-268"/>
 <text xml:space="preserve" text-anchor="middle" x="737" y="-247" font-family="Helvetica,sans-Serif" font-size="10.00">SatisfiesUniformSupportRE</text>
 </a>
@@ -66,7 +66,7 @@
 <!-- n4 -->
 <g id="node5" class="node">
 <title>n4</title>
-<g id="a_node5"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/HighDim/Regression/SampleCovarianceDesignBridge.lean#L24" xlink:title="noncomputable def · Statlib/HighDim/Regression/SampleCovarianceDesignBridge.lean:24" target="_blank">
+<g id="a_node5"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Regression/SampleCovarianceDesignBridge.lean:25" xlink:title="noncomputable def · Statlib/HighDim/Regression/SampleCovarianceDesignBridge.lean:25" target="_blank">
 <path fill="#d6e9ff" stroke="#3b82f6" d="M165.51,-196C165.51,-196 68.49,-196 68.49,-196 62.49,-196 56.49,-190 56.49,-184 56.49,-184 56.49,-172 56.49,-172 56.49,-166 62.49,-160 68.49,-160 68.49,-160 165.51,-160 165.51,-160 171.51,-160 177.51,-166 177.51,-172 177.51,-172 177.51,-184 177.51,-184 177.51,-190 171.51,-196 165.51,-196"/>
 <text xml:space="preserve" text-anchor="middle" x="117" y="-175" font-family="Helvetica,sans-Serif" font-size="10.00">designMatrixFromRows</text>
 </a>
@@ -75,7 +75,7 @@
 <!-- n5 -->
 <g id="node6" class="node">
 <title>n5</title>
-<g id="a_node6"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/HighDim/Vocabulary/DesignMatrix.lean#L65" xlink:title="structure · Statlib/HighDim/Vocabulary/DesignMatrix.lean:65" target="_blank">
+<g id="a_node6"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Vocabulary/DesignMatrix.lean:84" xlink:title="structure · Statlib/HighDim/Vocabulary/DesignMatrix.lean:84" target="_blank">
 <path fill="#e8dcff" stroke="#8b5cf6" d="M665.84,-196C665.84,-196 622.16,-196 622.16,-196 616.16,-196 610.16,-190 610.16,-184 610.16,-184 610.16,-172 610.16,-172 610.16,-166 616.16,-160 622.16,-160 622.16,-160 665.84,-160 665.84,-160 671.84,-160 677.84,-166 677.84,-172 677.84,-172 677.84,-184 677.84,-184 677.84,-190 671.84,-196 665.84,-196"/>
 <text xml:space="preserve" text-anchor="middle" x="644" y="-175" font-family="Helvetica,sans-Serif" font-size="10.00">SatisfiesRE</text>
 </a>
@@ -96,7 +96,7 @@
 <!-- n6 -->
 <g id="node7" class="node">
 <title>n6</title>
-<g id="a_node7"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/HighDim/Vocabulary/DesignMatrix.lean#L99" xlink:title="structure · Statlib/HighDim/Vocabulary/DesignMatrix.lean:99" target="_blank">
+<g id="a_node7"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Vocabulary/DesignMatrix.lean:118" xlink:title="structure · Statlib/HighDim/Vocabulary/DesignMatrix.lean:118" target="_blank">
 <path fill="#e8dcff" stroke="#8b5cf6" d="M618.34,-268C618.34,-268 539.66,-268 539.66,-268 533.66,-268 527.66,-262 527.66,-256 527.66,-256 527.66,-244 527.66,-244 527.66,-238 533.66,-232 539.66,-232 539.66,-232 618.34,-232 618.34,-232 624.34,-232 630.34,-238 630.34,-244 630.34,-244 630.34,-256 630.34,-256 630.34,-262 624.34,-268 618.34,-268"/>
 <text xml:space="preserve" text-anchor="middle" x="579" y="-247" font-family="Helvetica,sans-Serif" font-size="10.00">SatisfiesUniformRE</text>
 </a>
@@ -123,7 +123,7 @@
 <!-- n7 -->
 <g id="node8" class="node">
 <title>n7</title>
-<g id="a_node8"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/HighDim/Vocabulary/Norms.lean#L41" xlink:title="noncomputable def · Statlib/HighDim/Vocabulary/Norms.lean:41" target="_blank">
+<g id="a_node8"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Vocabulary/Norms.lean:109" xlink:title="noncomputable def · Statlib/HighDim/Vocabulary/Norms.lean:109" target="_blank">
 <path fill="#d6e9ff" stroke="#3b82f6" d="M259.13,-52C259.13,-52 214.87,-52 214.87,-52 208.87,-52 202.87,-46 202.87,-40 202.87,-40 202.87,-28 202.87,-28 202.87,-22 208.87,-16 214.87,-16 214.87,-16 259.13,-16 259.13,-16 265.13,-16 271.13,-22 271.13,-28 271.13,-28 271.13,-40 271.13,-40 271.13,-46 265.13,-52 259.13,-52"/>
 <text xml:space="preserve" text-anchor="middle" x="237" y="-31" font-family="Helvetica,sans-Serif" font-size="10.00">toEuclidean</text>
 </a>
@@ -132,7 +132,7 @@
 <!-- n8 -->
 <g id="node9" class="node">
 <title>n8</title>
-<g id="a_node9"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/HighDim/Vocabulary/Norms.lean#L32" xlink:title="lemma · Statlib/HighDim/Vocabulary/Norms.lean:32" target="_blank">
+<g id="a_node9"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Vocabulary/Norms.lean:100" xlink:title="lemma · Statlib/HighDim/Vocabulary/Norms.lean:100" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M499.69,-52C499.69,-52 444.31,-52 444.31,-52 438.31,-52 432.31,-46 432.31,-40 432.31,-40 432.31,-28 432.31,-28 432.31,-22 438.31,-16 444.31,-16 444.31,-16 499.69,-16 499.69,-16 505.69,-16 511.69,-22 511.69,-28 511.69,-28 511.69,-40 511.69,-40 511.69,-46 505.69,-52 499.69,-52"/>
 <text xml:space="preserve" text-anchor="middle" x="472" y="-31" font-family="Helvetica,sans-Serif" font-size="10.00">inner_eq_sum</text>
 </a>
@@ -141,7 +141,7 @@
 <!-- n9 -->
 <g id="node10" class="node">
 <title>n9</title>
-<g id="a_node10"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/HighDim/CovarianceMatrix/SampleCovariance.lean#L324" xlink:title="lemma · Statlib/HighDim/CovarianceMatrix/SampleCovariance.lean:324" target="_blank">
+<g id="a_node10"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/CovarianceMatrix/SampleCovariance.lean:342" xlink:title="lemma · Statlib/HighDim/CovarianceMatrix/SampleCovariance.lean:342" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M525.53,-124C525.53,-124 418.47,-124 418.47,-124 412.47,-124 406.47,-118 406.47,-112 406.47,-112 406.47,-100 406.47,-100 406.47,-94 412.47,-88 418.47,-88 418.47,-88 525.53,-88 525.53,-88 531.53,-88 537.53,-94 537.53,-100 537.53,-100 537.53,-112 537.53,-112 537.53,-118 531.53,-124 525.53,-124"/>
 <text xml:space="preserve" text-anchor="middle" x="472" y="-103" font-family="Helvetica,sans-Serif" font-size="10.00">matrix_quadratic_eq_sum</text>
 </a>
@@ -162,7 +162,7 @@
 <!-- n10 -->
 <g id="node11" class="node">
 <title>n10</title>
-<g id="a_node11"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/HighDim/CovarianceMatrix/SampleCovariance.lean#L336" xlink:title="lemma · Statlib/HighDim/CovarianceMatrix/SampleCovariance.lean:336" target="_blank">
+<g id="a_node11"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/CovarianceMatrix/SampleCovariance.lean:354" xlink:title="lemma · Statlib/HighDim/CovarianceMatrix/SampleCovariance.lean:354" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M376.08,-124C376.08,-124 287.92,-124 287.92,-124 281.92,-124 275.92,-118 275.92,-112 275.92,-112 275.92,-100 275.92,-100 275.92,-94 281.92,-88 287.92,-88 287.92,-88 376.08,-88 376.08,-88 382.08,-88 388.08,-94 388.08,-100 388.08,-100 388.08,-112 388.08,-112 388.08,-118 382.08,-124 376.08,-124"/>
 <text xml:space="preserve" text-anchor="middle" x="332" y="-103" font-family="Helvetica,sans-Serif" font-size="10.00">fin_sum_comm_three</text>
 </a>
@@ -171,7 +171,7 @@
 <!-- n11 -->
 <g id="node12" class="node">
 <title>n11</title>
-<g id="a_node12"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/HighDim/CovarianceMatrix/SampleCovariance.lean#L346" xlink:title="lemma · Statlib/HighDim/CovarianceMatrix/SampleCovariance.lean:346" target="_blank">
+<g id="a_node12"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/CovarianceMatrix/SampleCovariance.lean:364" xlink:title="lemma · Statlib/HighDim/CovarianceMatrix/SampleCovariance.lean:364" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M479.52,-196C479.52,-196 248.48,-196 248.48,-196 242.48,-196 236.48,-190 236.48,-184 236.48,-184 236.48,-172 236.48,-172 236.48,-166 242.48,-160 248.48,-160 248.48,-160 479.52,-160 479.52,-160 485.52,-160 491.52,-166 491.52,-172 491.52,-172 491.52,-184 491.52,-184 491.52,-190 485.52,-196 479.52,-196"/>
 <text xml:space="preserve" text-anchor="middle" x="364" y="-175" font-family="Helvetica,sans-Serif" font-size="10.00">sampleSecondMoment_quadratic_eq_projection_sum</text>
 </a>
@@ -210,7 +210,7 @@
 <!-- n12 -->
 <g id="node13" class="node">
 <title>n12</title>
-<g id="a_node13"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/HighDim/Regression/SampleCovarianceDesignBridge.lean#L30" xlink:title="lemma · Statlib/HighDim/Regression/SampleCovarianceDesignBridge.lean:30" target="_blank">
+<g id="a_node13"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Regression/SampleCovarianceDesignBridge.lean:171" xlink:title="lemma · Statlib/HighDim/Regression/SampleCovarianceDesignBridge.lean:171" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M494.53,-268C494.53,-268 233.47,-268 233.47,-268 227.47,-268 221.47,-262 221.47,-256 221.47,-256 221.47,-244 221.47,-244 221.47,-238 227.47,-232 233.47,-232 233.47,-232 494.53,-232 494.53,-232 500.53,-232 506.53,-238 506.53,-244 506.53,-244 506.53,-256 506.53,-256 506.53,-262 500.53,-268 494.53,-268"/>
 <text xml:space="preserve" text-anchor="middle" x="364" y="-247" font-family="Helvetica,sans-Serif" font-size="10.00">design_l2NormSq_div_eq_sampleSecondMoment_quadratic</text>
 </a>
@@ -261,7 +261,7 @@
 <!-- n13 -->
 <g id="node14" class="node">
 <title>n13</title>
-<g id="a_node14"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/HighDim/Regression/SampleCovarianceDesignBridge.lean#L62" xlink:title="lemma · Statlib/HighDim/Regression/SampleCovarianceDesignBridge.lean:62" target="_blank">
+<g id="a_node14"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Regression/SampleCovarianceDesignBridge.lean:203" xlink:title="lemma · Statlib/HighDim/Regression/SampleCovarianceDesignBridge.lean:203" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M478.94,-340C478.94,-340 249.06,-340 249.06,-340 243.06,-340 237.06,-334 237.06,-328 237.06,-328 237.06,-316 237.06,-316 237.06,-310 243.06,-304 249.06,-304 249.06,-304 478.94,-304 478.94,-304 484.94,-304 490.94,-310 490.94,-316 490.94,-316 490.94,-328 490.94,-328 490.94,-334 484.94,-340 478.94,-340"/>
 <text xml:space="preserve" text-anchor="middle" x="364" y="-319" font-family="Helvetica,sans-Serif" font-size="10.00">sampleSecondMoment_lower_to_SatisfiesUniformRE</text>
 </a>
@@ -300,7 +300,7 @@
 <!-- n14 -->
 <g id="node15" class="node">
 <title>n14</title>
-<g id="a_node15"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/HighDim/Vocabulary/Sparse.lean#L54" xlink:title="lemma · Statlib/HighDim/Vocabulary/Sparse.lean:54" target="_blank">
+<g id="a_node15"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Vocabulary/Sparse.lean:54" xlink:title="lemma · Statlib/HighDim/Vocabulary/Sparse.lean:54" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M870.03,-196C870.03,-196 767.97,-196 767.97,-196 761.97,-196 755.97,-190 755.97,-184 755.97,-184 755.97,-172 755.97,-172 755.97,-166 761.97,-160 767.97,-160 767.97,-160 870.03,-160 870.03,-160 876.03,-160 882.03,-166 882.03,-172 882.03,-172 882.03,-184 882.03,-184 882.03,-190 876.03,-196 870.03,-196"/>
 <text xml:space="preserve" text-anchor="middle" x="819" y="-175" font-family="Helvetica,sans-Serif" font-size="10.00">support_l2_le_l2NormSq</text>
 </a>
@@ -315,7 +315,7 @@
 <!-- n15 -->
 <g id="node16" class="node">
 <title>n15</title>
-<g id="a_node16"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/HighDim/Vocabulary/DesignMatrix.lean#L161" xlink:title="lemma · Statlib/HighDim/Vocabulary/DesignMatrix.lean:161" target="_blank">
+<g id="a_node16"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Vocabulary/DesignMatrix.lean:180" xlink:title="lemma · Statlib/HighDim/Vocabulary/DesignMatrix.lean:180" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M779.13,-340C779.13,-340 694.87,-340 694.87,-340 688.87,-340 682.87,-334 682.87,-328 682.87,-328 682.87,-316 682.87,-316 682.87,-310 688.87,-304 694.87,-304 694.87,-304 779.13,-304 779.13,-304 785.13,-304 791.13,-310 791.13,-316 791.13,-316 791.13,-328 791.13,-328 791.13,-334 785.13,-340 779.13,-340"/>
 <text xml:space="preserve" text-anchor="middle" x="737" y="-319" font-family="Helvetica,sans-Serif" font-size="10.00">toUniformSupportRE</text>
 </a>
@@ -348,7 +348,7 @@
 <!-- n16 -->
 <g id="node17" class="node">
 <title>n16</title>
-<g id="a_node17"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/HighDim/Regression/SampleCovarianceDesignBridge.lean#L81" xlink:title="lemma · Statlib/HighDim/Regression/SampleCovarianceDesignBridge.lean:81" target="_blank">
+<g id="a_node17"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Regression/SampleCovarianceDesignBridge.lean:222" xlink:title="lemma · Statlib/HighDim/Regression/SampleCovarianceDesignBridge.lean:222" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" stroke-width="3" d="M496.46,-412C496.46,-412 231.54,-412 231.54,-412 225.54,-412 219.54,-406 219.54,-400 219.54,-400 219.54,-388 219.54,-388 219.54,-382 225.54,-376 231.54,-376 231.54,-376 496.46,-376 496.46,-376 502.46,-376 508.46,-382 508.46,-388 508.46,-388 508.46,-400 508.46,-400 508.46,-406 502.46,-412 496.46,-412"/>
 <text xml:space="preserve" text-anchor="middle" x="364" y="-391" font-family="Helvetica,sans-Serif" font-size="10.00">sampleSecondMoment_lower_to_SatisfiesUniformSupportRE</text>
 </a>

@@ -23,7 +23,7 @@
 <!-- n0 -->
 <g id="node1" class="node">
 <title>n0</title>
-<g id="a_node1"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/HighDim/Vocabulary/RandomVector.lean#L83" xlink:title="structure · Statlib/HighDim/Vocabulary/RandomVector.lean:83" target="_blank">
+<g id="a_node1"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Vocabulary/RandomVector.lean:83" xlink:title="structure · Statlib/HighDim/Vocabulary/RandomVector.lean:83" target="_blank">
 <path fill="#e8dcff" stroke="#8b5cf6" d="M1146.4,-484C1146.4,-484 1111.6,-484 1111.6,-484 1105.6,-484 1099.6,-478 1099.6,-472 1099.6,-472 1099.6,-460 1099.6,-460 1099.6,-454 1105.6,-448 1111.6,-448 1111.6,-448 1146.4,-448 1146.4,-448 1152.4,-448 1158.4,-454 1158.4,-460 1158.4,-460 1158.4,-472 1158.4,-472 1158.4,-478 1152.4,-484 1146.4,-484"/>
 <text xml:space="preserve" text-anchor="middle" x="1129" y="-463" font-family="Helvetica,sans-Serif" font-size="10.00">HasMean</text>
 </a>
@@ -32,7 +32,7 @@
 <!-- n1 -->
 <g id="node2" class="node">
 <title>n1</title>
-<g id="a_node2"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/HighDim/Vocabulary/RandomVector.lean#L101" xlink:title="structure · Statlib/HighDim/Vocabulary/RandomVector.lean:101" target="_blank">
+<g id="a_node2"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Vocabulary/RandomVector.lean:101" xlink:title="structure · Statlib/HighDim/Vocabulary/RandomVector.lean:101" target="_blank">
 <path fill="#e8dcff" stroke="#8b5cf6" d="M1025.79,-340C1025.79,-340 938.21,-340 938.21,-340 932.21,-340 926.21,-334 926.21,-328 926.21,-328 926.21,-316 926.21,-316 926.21,-310 932.21,-304 938.21,-304 938.21,-304 1025.79,-304 1025.79,-304 1031.79,-304 1037.79,-310 1037.79,-316 1037.79,-316 1037.79,-328 1037.79,-328 1037.79,-334 1031.79,-340 1025.79,-340"/>
 <text xml:space="preserve" text-anchor="middle" x="982" y="-319" font-family="Helvetica,sans-Serif" font-size="10.00">HasCovarianceMatrix</text>
 </a>
@@ -41,7 +41,7 @@
 <!-- n2 -->
 <g id="node3" class="node">
 <title>n2</title>
-<g id="a_node3"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/HighDim/Vocabulary/RandomVector.lean#L52" xlink:title="structure · Statlib/HighDim/Vocabulary/RandomVector.lean:52" target="_blank">
+<g id="a_node3"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Vocabulary/RandomVector.lean:52" xlink:title="structure · Statlib/HighDim/Vocabulary/RandomVector.lean:52" target="_blank">
 <path fill="#e8dcff" stroke="#8b5cf6" d="M136.36,-484C136.36,-484 47.64,-484 47.64,-484 41.64,-484 35.64,-478 35.64,-472 35.64,-472 35.64,-460 35.64,-460 35.64,-454 41.64,-448 47.64,-448 47.64,-448 136.36,-448 136.36,-448 142.36,-448 148.36,-454 148.36,-460 148.36,-460 148.36,-472 148.36,-472 148.36,-478 142.36,-484 136.36,-484"/>
 <text xml:space="preserve" text-anchor="middle" x="92" y="-463" font-family="Helvetica,sans-Serif" font-size="10.00">IsSubGaussianVector</text>
 </a>
@@ -50,7 +50,7 @@
 <!-- n3 -->
 <g id="node4" class="node">
 <title>n3</title>
-<g id="a_node4"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/HighDim/CovarianceMatrix/SampleCovariance.lean#L199" xlink:title="noncomputable def · Statlib/HighDim/CovarianceMatrix/SampleCovariance.lean:199" target="_blank">
+<g id="a_node4"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/CovarianceMatrix/SampleCovariance.lean:199" xlink:title="noncomputable def · Statlib/HighDim/CovarianceMatrix/SampleCovariance.lean:199" target="_blank">
 <path fill="#d6e9ff" stroke="#3b82f6" d="M122.14,-340C122.14,-340 27.86,-340 27.86,-340 21.86,-340 15.86,-334 15.86,-328 15.86,-328 15.86,-316 15.86,-316 15.86,-310 21.86,-304 27.86,-304 27.86,-304 122.14,-304 122.14,-304 128.14,-304 134.14,-310 134.14,-316 134.14,-316 134.14,-328 134.14,-328 134.14,-334 128.14,-340 122.14,-340"/>
 <text xml:space="preserve" text-anchor="middle" x="75" y="-319" font-family="Helvetica,sans-Serif" font-size="10.00">sampleSecondMoment</text>
 </a>
@@ -59,7 +59,7 @@
 <!-- n4 -->
 <g id="node5" class="node">
 <title>n4</title>
-<g id="a_node5"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/HighDim/CovarianceMatrix/SampleCovariance.lean#L219" xlink:title="lemma · Statlib/HighDim/CovarianceMatrix/SampleCovariance.lean:219" target="_blank">
+<g id="a_node5"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/CovarianceMatrix/SampleCovariance.lean:237" xlink:title="lemma · Statlib/HighDim/CovarianceMatrix/SampleCovariance.lean:237" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M1267.82,-412C1267.82,-412 1100.18,-412 1100.18,-412 1094.18,-412 1088.18,-406 1088.18,-400 1088.18,-400 1088.18,-388 1088.18,-388 1088.18,-382 1094.18,-376 1100.18,-376 1100.18,-376 1267.82,-376 1267.82,-376 1273.82,-376 1279.82,-382 1279.82,-388 1279.82,-388 1279.82,-400 1279.82,-400 1279.82,-406 1273.82,-412 1267.82,-412"/>
 <text xml:space="preserve" text-anchor="middle" x="1184" y="-391" font-family="Helvetica,sans-Serif" font-size="10.00">covariance_isSymm_of_hasCovariance</text>
 </a>
@@ -74,7 +74,7 @@
 <!-- n5 -->
 <g id="node6" class="node">
 <title>n5</title>
-<g id="a_node6"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/HighDim/CovarianceMatrix/SampleCovariance.lean#L205" xlink:title="lemma · Statlib/HighDim/CovarianceMatrix/SampleCovariance.lean:205" target="_blank">
+<g id="a_node6"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/CovarianceMatrix/SampleCovariance.lean:223" xlink:title="lemma · Statlib/HighDim/CovarianceMatrix/SampleCovariance.lean:223" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M313.69,-484C313.69,-484 178.31,-484 178.31,-484 172.31,-484 166.31,-478 166.31,-472 166.31,-472 166.31,-460 166.31,-460 166.31,-454 172.31,-448 178.31,-448 178.31,-448 313.69,-448 313.69,-448 319.69,-448 325.69,-454 325.69,-460 325.69,-460 325.69,-472 325.69,-472 325.69,-478 319.69,-484 313.69,-484"/>
 <text xml:space="preserve" text-anchor="middle" x="246" y="-463" font-family="Helvetica,sans-Serif" font-size="10.00">sampleSecondMoment_isSymm</text>
 </a>
@@ -89,7 +89,7 @@
 <!-- n6 -->
 <g id="node7" class="node">
 <title>n6</title>
-<g id="a_node7"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/HighDim/CovarianceMatrix/SampleCovariance.lean#L187" xlink:title="lemma · Statlib/HighDim/CovarianceMatrix/SampleCovariance.lean:187" target="_blank">
+<g id="a_node7"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/CovarianceMatrix/SampleCovariance.lean:187" xlink:title="lemma · Statlib/HighDim/CovarianceMatrix/SampleCovariance.lean:187" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M1307.63,-484C1307.63,-484 1188.37,-484 1188.37,-484 1182.37,-484 1176.37,-478 1176.37,-472 1176.37,-472 1176.37,-460 1176.37,-460 1176.37,-454 1182.37,-448 1188.37,-448 1188.37,-448 1307.63,-448 1307.63,-448 1313.63,-448 1319.63,-454 1319.63,-460 1319.63,-460 1319.63,-472 1319.63,-472 1319.63,-478 1313.63,-484 1307.63,-484"/>
 <text xml:space="preserve" text-anchor="middle" x="1248" y="-463" font-family="Helvetica,sans-Serif" font-size="10.00">real_isHermitian_of_isSymm</text>
 </a>
@@ -98,7 +98,7 @@
 <!-- n7 -->
 <g id="node8" class="node">
 <title>n7</title>
-<g id="a_node8"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/HighDim/Vocabulary/Norms.lean#L41" xlink:title="noncomputable def · Statlib/HighDim/Vocabulary/Norms.lean:41" target="_blank">
+<g id="a_node8"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Vocabulary/Norms.lean:109" xlink:title="noncomputable def · Statlib/HighDim/Vocabulary/Norms.lean:109" target="_blank">
 <path fill="#d6e9ff" stroke="#3b82f6" d="M589.13,-268C589.13,-268 544.87,-268 544.87,-268 538.87,-268 532.87,-262 532.87,-256 532.87,-256 532.87,-244 532.87,-244 532.87,-238 538.87,-232 544.87,-232 544.87,-232 589.13,-232 589.13,-232 595.13,-232 601.13,-238 601.13,-244 601.13,-244 601.13,-256 601.13,-256 601.13,-262 595.13,-268 589.13,-268"/>
 <text xml:space="preserve" text-anchor="middle" x="567" y="-247" font-family="Helvetica,sans-Serif" font-size="10.00">toEuclidean</text>
 </a>
@@ -107,7 +107,7 @@
 <!-- n8 -->
 <g id="node9" class="node">
 <title>n8</title>
-<g id="a_node9"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/HighDim/CovarianceMatrix/SampleCovariance.lean#L42" xlink:title="lemma · Statlib/HighDim/CovarianceMatrix/SampleCovariance.lean:42" target="_blank">
+<g id="a_node9"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/CovarianceMatrix/SampleCovariance.lean:42" xlink:title="lemma · Statlib/HighDim/CovarianceMatrix/SampleCovariance.lean:42" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M516.23,-340C516.23,-340 335.77,-340 335.77,-340 329.77,-340 323.77,-334 323.77,-328 323.77,-328 323.77,-316 323.77,-316 323.77,-310 329.77,-304 335.77,-304 335.77,-304 516.23,-304 516.23,-304 522.23,-304 528.23,-310 528.23,-316 528.23,-316 528.23,-328 528.23,-328 528.23,-334 522.23,-340 516.23,-340"/>
 <text xml:space="preserve" text-anchor="middle" x="426" y="-319" font-family="Helvetica,sans-Serif" font-size="10.00">hermitian_norm_eq_diagonal_eigenvalues</text>
 </a>
@@ -116,7 +116,7 @@
 <!-- n9 -->
 <g id="node10" class="node">
 <title>n9</title>
-<g id="a_node10"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/HighDim/CovarianceMatrix/SampleCovariance.lean#L62" xlink:title="lemma · Statlib/HighDim/CovarianceMatrix/SampleCovariance.lean:62" target="_blank">
+<g id="a_node10"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/CovarianceMatrix/SampleCovariance.lean:62" xlink:title="lemma · Statlib/HighDim/CovarianceMatrix/SampleCovariance.lean:62" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M294.21,-340C294.21,-340 183.79,-340 183.79,-340 177.79,-340 171.79,-334 171.79,-328 171.79,-328 171.79,-316 171.79,-316 171.79,-310 177.79,-304 183.79,-304 183.79,-304 294.21,-304 294.21,-304 300.21,-304 306.21,-310 306.21,-316 306.21,-316 306.21,-328 306.21,-328 306.21,-334 300.21,-340 294.21,-340"/>
 <text xml:space="preserve" text-anchor="middle" x="239" y="-319" font-family="Helvetica,sans-Serif" font-size="10.00">pi_real_norm_eq_sup_abs</text>
 </a>
@@ -125,7 +125,7 @@
 <!-- n10 -->
 <g id="node11" class="node">
 <title>n10</title>
-<g id="a_node11"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/HighDim/CovarianceMatrix/SampleCovariance.lean#L72" xlink:title="lemma · Statlib/HighDim/CovarianceMatrix/SampleCovariance.lean:72" target="_blank">
+<g id="a_node11"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/CovarianceMatrix/SampleCovariance.lean:72" xlink:title="lemma · Statlib/HighDim/CovarianceMatrix/SampleCovariance.lean:72" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M488.23,-412C488.23,-412 307.77,-412 307.77,-412 301.77,-412 295.77,-406 295.77,-400 295.77,-400 295.77,-388 295.77,-388 295.77,-382 301.77,-376 307.77,-376 307.77,-376 488.23,-376 488.23,-376 494.23,-376 500.23,-382 500.23,-388 500.23,-388 500.23,-400 500.23,-400 500.23,-406 494.23,-412 488.23,-412"/>
 <text xml:space="preserve" text-anchor="middle" x="398" y="-391" font-family="Helvetica,sans-Serif" font-size="10.00">hermitian_norm_eq_sup_abs_eigenvalues</text>
 </a>
@@ -146,7 +146,7 @@
 <!-- n11 -->
 <g id="node12" class="node">
 <title>n11</title>
-<g id="a_node12"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/HighDim/CovarianceMatrix/SampleCovariance.lean#L81" xlink:title="lemma · Statlib/HighDim/CovarianceMatrix/SampleCovariance.lean:81" target="_blank">
+<g id="a_node12"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/CovarianceMatrix/SampleCovariance.lean:81" xlink:title="lemma · Statlib/HighDim/CovarianceMatrix/SampleCovariance.lean:81" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M688.54,-484C688.54,-484 551.46,-484 551.46,-484 545.46,-484 539.46,-478 539.46,-472 539.46,-472 539.46,-460 539.46,-460 539.46,-454 545.46,-448 551.46,-448 551.46,-448 688.54,-448 688.54,-448 694.54,-448 700.54,-454 700.54,-460 700.54,-460 700.54,-472 700.54,-472 700.54,-478 694.54,-484 688.54,-484"/>
 <text xml:space="preserve" text-anchor="middle" x="620" y="-463" font-family="Helvetica,sans-Serif" font-size="10.00">hermitian_norm_le_two_net_sup</text>
 </a>
@@ -167,7 +167,7 @@
 <!-- n12 -->
 <g id="node13" class="node">
 <title>n12</title>
-<g id="a_node13"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/HighDim/Vocabulary/Norms.lean#L32" xlink:title="lemma · Statlib/HighDim/Vocabulary/Norms.lean:32" target="_blank">
+<g id="a_node13"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Vocabulary/Norms.lean:100" xlink:title="lemma · Statlib/HighDim/Vocabulary/Norms.lean:100" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M858.69,-268C858.69,-268 803.31,-268 803.31,-268 797.31,-268 791.31,-262 791.31,-256 791.31,-256 791.31,-244 791.31,-244 791.31,-238 797.31,-232 803.31,-232 803.31,-232 858.69,-232 858.69,-232 864.69,-232 870.69,-238 870.69,-244 870.69,-244 870.69,-256 870.69,-256 870.69,-262 864.69,-268 858.69,-268"/>
 <text xml:space="preserve" text-anchor="middle" x="831" y="-247" font-family="Helvetica,sans-Serif" font-size="10.00">inner_eq_sum</text>
 </a>
@@ -176,7 +176,7 @@
 <!-- n13 -->
 <g id="node14" class="node">
 <title>n13</title>
-<g id="a_node14"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/HighDim/CovarianceMatrix/SampleCovariance.lean#L324" xlink:title="lemma · Statlib/HighDim/CovarianceMatrix/SampleCovariance.lean:324" target="_blank">
+<g id="a_node14"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/CovarianceMatrix/SampleCovariance.lean:342" xlink:title="lemma · Statlib/HighDim/CovarianceMatrix/SampleCovariance.lean:342" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M875.53,-340C875.53,-340 768.47,-340 768.47,-340 762.47,-340 756.47,-334 756.47,-328 756.47,-328 756.47,-316 756.47,-316 756.47,-310 762.47,-304 768.47,-304 768.47,-304 875.53,-304 875.53,-304 881.53,-304 887.53,-310 887.53,-316 887.53,-316 887.53,-328 887.53,-328 887.53,-334 881.53,-340 875.53,-340"/>
 <text xml:space="preserve" text-anchor="middle" x="822" y="-319" font-family="Helvetica,sans-Serif" font-size="10.00">matrix_quadratic_eq_sum</text>
 </a>
@@ -197,7 +197,7 @@
 <!-- n14 -->
 <g id="node15" class="node">
 <title>n14</title>
-<g id="a_node15"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/HighDim/CovarianceMatrix/SampleCovariance.lean#L256" xlink:title="lemma · Statlib/HighDim/CovarianceMatrix/SampleCovariance.lean:256" target="_blank">
+<g id="a_node15"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/CovarianceMatrix/SampleCovariance.lean:274" xlink:title="lemma · Statlib/HighDim/CovarianceMatrix/SampleCovariance.lean:274" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M1038.17,-412C1038.17,-412 863.83,-412 863.83,-412 857.83,-412 851.83,-406 851.83,-400 851.83,-400 851.83,-388 851.83,-388 851.83,-382 857.83,-376 863.83,-376 863.83,-376 1038.17,-376 1038.17,-376 1044.17,-376 1050.17,-382 1050.17,-388 1050.17,-388 1050.17,-400 1050.17,-400 1050.17,-406 1044.17,-412 1038.17,-412"/>
 <text xml:space="preserve" text-anchor="middle" x="951" y="-391" font-family="Helvetica,sans-Serif" font-size="10.00">projection_sq_integral_eq_cov_quadratic</text>
 </a>
@@ -218,7 +218,7 @@
 <!-- n15 -->
 <g id="node16" class="node">
 <title>n15</title>
-<g id="a_node16"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/HighDim/CovarianceMatrix/SampleCovariance.lean#L336" xlink:title="lemma · Statlib/HighDim/CovarianceMatrix/SampleCovariance.lean:336" target="_blank">
+<g id="a_node16"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/CovarianceMatrix/SampleCovariance.lean:354" xlink:title="lemma · Statlib/HighDim/CovarianceMatrix/SampleCovariance.lean:354" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M706.08,-340C706.08,-340 617.92,-340 617.92,-340 611.92,-340 605.92,-334 605.92,-328 605.92,-328 605.92,-316 605.92,-316 605.92,-310 611.92,-304 617.92,-304 617.92,-304 706.08,-304 706.08,-304 712.08,-304 718.08,-310 718.08,-316 718.08,-316 718.08,-328 718.08,-328 718.08,-334 712.08,-340 706.08,-340"/>
 <text xml:space="preserve" text-anchor="middle" x="662" y="-319" font-family="Helvetica,sans-Serif" font-size="10.00">fin_sum_comm_three</text>
 </a>
@@ -227,7 +227,7 @@
 <!-- n16 -->
 <g id="node17" class="node">
 <title>n16</title>
-<g id="a_node17"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/HighDim/CovarianceMatrix/SampleCovariance.lean#L346" xlink:title="lemma · Statlib/HighDim/CovarianceMatrix/SampleCovariance.lean:346" target="_blank">
+<g id="a_node17"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/CovarianceMatrix/SampleCovariance.lean:364" xlink:title="lemma · Statlib/HighDim/CovarianceMatrix/SampleCovariance.lean:364" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M801.52,-412C801.52,-412 570.48,-412 570.48,-412 564.48,-412 558.48,-406 558.48,-400 558.48,-400 558.48,-388 558.48,-388 558.48,-382 564.48,-376 570.48,-376 570.48,-376 801.52,-376 801.52,-376 807.52,-376 813.52,-382 813.52,-388 813.52,-388 813.52,-400 813.52,-400 813.52,-406 807.52,-412 801.52,-412"/>
 <text xml:space="preserve" text-anchor="middle" x="686" y="-391" font-family="Helvetica,sans-Serif" font-size="10.00">sampleSecondMoment_quadratic_eq_projection_sum</text>
 </a>
@@ -266,7 +266,7 @@
 <!-- n17 -->
 <g id="node18" class="node">
 <title>n17</title>
-<g id="a_node18"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/HighDim/CovarianceMatrix/SampleCovariance.lean#L371" xlink:title="lemma · Statlib/HighDim/CovarianceMatrix/SampleCovariance.lean:371" target="_blank">
+<g id="a_node18"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/CovarianceMatrix/SampleCovariance.lean:389" xlink:title="lemma · Statlib/HighDim/CovarianceMatrix/SampleCovariance.lean:389" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M989.7,-484C989.7,-484 730.3,-484 730.3,-484 724.3,-484 718.3,-478 718.3,-472 718.3,-472 718.3,-460 718.3,-460 718.3,-454 724.3,-448 730.3,-448 730.3,-448 989.7,-448 989.7,-448 995.7,-448 1001.7,-454 1001.7,-460 1001.7,-460 1001.7,-472 1001.7,-472 1001.7,-478 995.7,-484 989.7,-484"/>
 <text xml:space="preserve" text-anchor="middle" x="860" y="-463" font-family="Helvetica,sans-Serif" font-size="10.00">sample_covariance_quadratic_eq_centered_projection_sum</text>
 </a>
@@ -311,7 +311,7 @@
 <!-- n18 -->
 <g id="node19" class="node">
 <title>n18</title>
-<g id="a_node19"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/HighDim/CovarianceMatrix/SampleCovariance.lean#L231" xlink:title="lemma · Statlib/HighDim/CovarianceMatrix/SampleCovariance.lean:231" target="_blank">
+<g id="a_node19"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/CovarianceMatrix/SampleCovariance.lean:249" xlink:title="lemma · Statlib/HighDim/CovarianceMatrix/SampleCovariance.lean:249" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M509.59,-484C509.59,-484 416.41,-484 416.41,-484 410.41,-484 404.41,-478 404.41,-472 404.41,-472 404.41,-460 404.41,-460 404.41,-454 410.41,-448 416.41,-448 416.41,-448 509.59,-448 509.59,-448 515.59,-448 521.59,-454 521.59,-460 521.59,-460 521.59,-472 521.59,-472 521.59,-478 515.59,-484 509.59,-484"/>
 <text xml:space="preserve" text-anchor="middle" x="463" y="-463" font-family="Helvetica,sans-Serif" font-size="10.00">projection_measurable</text>
 </a>
@@ -320,7 +320,7 @@
 <!-- n19 -->
 <g id="node20" class="node">
 <title>n19</title>
-<g id="a_node20"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/HighDim/CovarianceMatrix/SampleCovariance.lean#L305" xlink:title="lemma · Statlib/HighDim/CovarianceMatrix/SampleCovariance.lean:305" target="_blank">
+<g id="a_node20"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/CovarianceMatrix/SampleCovariance.lean:323" xlink:title="lemma · Statlib/HighDim/CovarianceMatrix/SampleCovariance.lean:323" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M1470.48,-412C1470.48,-412 1369.52,-412 1369.52,-412 1363.52,-412 1357.52,-406 1357.52,-400 1357.52,-400 1357.52,-388 1357.52,-388 1357.52,-382 1363.52,-376 1369.52,-376 1369.52,-376 1470.48,-376 1470.48,-376 1476.48,-376 1482.48,-382 1482.48,-388 1482.48,-388 1482.48,-400 1482.48,-400 1482.48,-406 1476.48,-412 1470.48,-412"/>
 <text xml:space="preserve" text-anchor="middle" x="1420" y="-391" font-family="Helvetica,sans-Serif" font-size="10.00">projection_sq_integrable</text>
 </a>
@@ -341,7 +341,7 @@
 <!-- n22 -->
 <g id="node21" class="node">
 <title>n22</title>
-<g id="a_node21"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/HighDim/CovarianceMatrix/SampleCovariance.lean#L455" xlink:title="theorem · Statlib/HighDim/CovarianceMatrix/SampleCovariance.lean:455" target="_blank">
+<g id="a_node21"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/CovarianceMatrix/SampleCovariance.lean:473" xlink:title="theorem · Statlib/HighDim/CovarianceMatrix/SampleCovariance.lean:473" target="_blank">
 <path fill="#ffe6a3" stroke="#d4a017" d="M990.21,-557.2C990.21,-557.2 849.79,-557.2 849.79,-557.2 843.79,-557.2 837.79,-551.2 837.79,-545.2 837.79,-545.2 837.79,-533.2 837.79,-533.2 837.79,-527.2 843.79,-521.2 849.79,-521.2 849.79,-521.2 990.21,-521.2 990.21,-521.2 996.21,-521.2 1002.21,-527.2 1002.21,-533.2 1002.21,-533.2 1002.21,-545.2 1002.21,-545.2 1002.21,-551.2 996.21,-557.2 990.21,-557.2"/>
 <text xml:space="preserve" text-anchor="middle" x="920" y="-536.2" font-family="Helvetica,sans-Serif" font-size="10.00">sampleCovariance_concentration</text>
 </a>
@@ -422,7 +422,7 @@
 <!-- n21 -->
 <g id="node68" class="node">
 <title>n21</title>
-<g id="a_node68"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/StatFoundation/Concentration/ExponentialType/bernstein_sum_meas_abs_ge_le_two_exp.lean#L13" xlink:title="theorem · Statlib/StatFoundation/Concentration/ExponentialType/bernstein_sum_meas_abs_ge_le_two_exp.lean:13" target="_blank">
+<g id="a_node68"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/StatFoundation/Concentration/ExponentialType/bernstein_sum_meas_abs_ge_le_two_exp.lean:13" xlink:title="theorem · Statlib/StatFoundation/Concentration/ExponentialType/bernstein_sum_meas_abs_ge_le_two_exp.lean:13" target="_blank">
 <path fill="#ffe6a3" stroke="#d4a017" d="M3030.06,-484C3030.06,-484 2847.94,-484 2847.94,-484 2841.94,-484 2835.94,-478 2835.94,-472 2835.94,-472 2835.94,-460 2835.94,-460 2835.94,-454 2841.94,-448 2847.94,-448 2847.94,-448 3030.06,-448 3030.06,-448 3036.06,-448 3042.06,-454 3042.06,-460 3042.06,-460 3042.06,-472 3042.06,-472 3042.06,-478 3036.06,-484 3030.06,-484"/>
 <text xml:space="preserve" text-anchor="middle" x="2939" y="-463" font-family="Helvetica,sans-Serif" font-size="10.00">bernstein_sum_meas_abs_ge_le_two_exp</text>
 </a>
@@ -437,7 +437,7 @@
 <!-- n23 -->
 <g id="node22" class="node">
 <title>n23</title>
-<g id="a_node22"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/HighDim/CovarianceMatrix/SampleCovariance.lean#L1259" xlink:title="theorem · Statlib/HighDim/CovarianceMatrix/SampleCovariance.lean:1259" target="_blank">
+<g id="a_node22"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/CovarianceMatrix/SampleCovariance.lean:1277" xlink:title="theorem · Statlib/HighDim/CovarianceMatrix/SampleCovariance.lean:1277" target="_blank">
 <path fill="#ffe6a3" stroke="#d4a017" d="M1040.37,-629.2C1040.37,-629.2 911.63,-629.2 911.63,-629.2 905.63,-629.2 899.63,-623.2 899.63,-617.2 899.63,-617.2 899.63,-605.2 899.63,-605.2 899.63,-599.2 905.63,-593.2 911.63,-593.2 911.63,-593.2 1040.37,-593.2 1040.37,-593.2 1046.37,-593.2 1052.37,-599.2 1052.37,-605.2 1052.37,-605.2 1052.37,-617.2 1052.37,-617.2 1052.37,-623.2 1046.37,-629.2 1040.37,-629.2"/>
 <text xml:space="preserve" text-anchor="middle" x="976" y="-608.2" font-family="Helvetica,sans-Serif" font-size="10.00">sampleCovariance_confidence</text>
 </a>
@@ -476,7 +476,7 @@
 <!-- n24 -->
 <g id="node23" class="node">
 <title>n24</title>
-<g id="a_node23"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean#L582" xlink:title="lemma · Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:582" target="_blank">
+<g id="a_node23"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:582" xlink:title="lemma · Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:582" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M1916.69,-484C1916.69,-484 1861.31,-484 1861.31,-484 1855.31,-484 1849.31,-478 1849.31,-472 1849.31,-472 1849.31,-460 1849.31,-460 1849.31,-454 1855.31,-448 1861.31,-448 1861.31,-448 1916.69,-448 1916.69,-448 1922.69,-448 1928.69,-454 1928.69,-460 1928.69,-460 1928.69,-472 1928.69,-472 1928.69,-478 1922.69,-484 1916.69,-484"/>
 <text xml:space="preserve" text-anchor="middle" x="1889" y="-463" font-family="Helvetica,sans-Serif" font-size="10.00">add_hermitian</text>
 </a>
@@ -485,7 +485,7 @@
 <!-- n25 -->
 <g id="node24" class="node">
 <title>n25</title>
-<g id="a_node24"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean#L596" xlink:title="lemma · Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:596" target="_blank">
+<g id="a_node24"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:596" xlink:title="lemma · Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:596" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M1752.88,-412C1752.88,-412 1619.12,-412 1619.12,-412 1613.12,-412 1607.12,-406 1607.12,-400 1607.12,-400 1607.12,-388 1607.12,-388 1607.12,-382 1613.12,-376 1619.12,-376 1619.12,-376 1752.88,-376 1752.88,-376 1758.88,-376 1764.88,-382 1764.88,-388 1764.88,-388 1764.88,-400 1764.88,-400 1764.88,-406 1758.88,-412 1752.88,-412"/>
 <text xml:space="preserve" text-anchor="middle" x="1686" y="-391" font-family="Helvetica,sans-Serif" font-size="10.00">matrix_eigen_iff_toEuclideanLin</text>
 </a>
@@ -494,7 +494,7 @@
 <!-- n26 -->
 <g id="node25" class="node">
 <title>n26</title>
-<g id="a_node25"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean#L608" xlink:title="lemma · Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:608" target="_blank">
+<g id="a_node25"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:608" xlink:title="lemma · Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:608" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M1782.06,-484C1782.06,-484 1589.94,-484 1589.94,-484 1583.94,-484 1577.94,-478 1577.94,-472 1577.94,-472 1577.94,-460 1577.94,-460 1577.94,-454 1583.94,-448 1589.94,-448 1589.94,-448 1782.06,-448 1782.06,-448 1788.06,-448 1794.06,-454 1794.06,-460 1794.06,-460 1794.06,-472 1794.06,-472 1794.06,-478 1788.06,-484 1782.06,-484"/>
 <text xml:space="preserve" text-anchor="middle" x="1686" y="-463" font-family="Helvetica,sans-Serif" font-size="10.00">exists_eigenvalue_eq_of_matrix_eigenvector</text>
 </a>
@@ -509,7 +509,7 @@
 <!-- n27 -->
 <g id="node26" class="node">
 <title>n27</title>
-<g id="a_node26"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/HighDim/Vocabulary/Spectral.lean#L11" xlink:title="noncomputable def · Statlib/HighDim/Vocabulary/Spectral.lean:11" target="_blank">
+<g id="a_node26"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Vocabulary/Spectral.lean:11" xlink:title="noncomputable def · Statlib/HighDim/Vocabulary/Spectral.lean:11" target="_blank">
 <path fill="#d6e9ff" stroke="#3b82f6" d="M1625.14,-124C1625.14,-124 1550.86,-124 1550.86,-124 1544.86,-124 1538.86,-118 1538.86,-112 1538.86,-112 1538.86,-100 1538.86,-100 1538.86,-94 1544.86,-88 1550.86,-88 1550.86,-88 1625.14,-88 1625.14,-88 1631.14,-88 1637.14,-94 1637.14,-100 1637.14,-100 1637.14,-112 1637.14,-112 1637.14,-118 1631.14,-124 1625.14,-124"/>
 <text xml:space="preserve" text-anchor="middle" x="1588" y="-103" font-family="Helvetica,sans-Serif" font-size="10.00">sortedEigenvalues</text>
 </a>
@@ -518,7 +518,7 @@
 <!-- n28 -->
 <g id="node27" class="node">
 <title>n28</title>
-<g id="a_node27"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/HighDim/Vocabulary/Spectral.lean#L16" xlink:title="noncomputable def · Statlib/HighDim/Vocabulary/Spectral.lean:16" target="_blank">
+<g id="a_node27"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Vocabulary/Spectral.lean:16" xlink:title="noncomputable def · Statlib/HighDim/Vocabulary/Spectral.lean:16" target="_blank">
 <path fill="#d6e9ff" stroke="#3b82f6" d="M1289.03,-196C1289.03,-196 1216.97,-196 1216.97,-196 1210.97,-196 1204.97,-190 1204.97,-184 1204.97,-184 1204.97,-172 1204.97,-172 1204.97,-166 1210.97,-160 1216.97,-160 1216.97,-160 1289.03,-160 1289.03,-160 1295.03,-160 1301.03,-166 1301.03,-172 1301.03,-172 1301.03,-184 1301.03,-184 1301.03,-190 1295.03,-196 1289.03,-196"/>
 <text xml:space="preserve" text-anchor="middle" x="1253" y="-175" font-family="Helvetica,sans-Serif" font-size="10.00">eigenSubspaceLe</text>
 </a>
@@ -527,7 +527,7 @@
 <!-- n29 -->
 <g id="node28" class="node">
 <title>n29</title>
-<g id="a_node28"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/HighDim/Vocabulary/Spectral.lean#L23" xlink:title="noncomputable def · Statlib/HighDim/Vocabulary/Spectral.lean:23" target="_blank">
+<g id="a_node28"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Vocabulary/Spectral.lean:23" xlink:title="noncomputable def · Statlib/HighDim/Vocabulary/Spectral.lean:23" target="_blank">
 <path fill="#d6e9ff" stroke="#3b82f6" d="M2058.75,-196C2058.75,-196 1987.25,-196 1987.25,-196 1981.25,-196 1975.25,-190 1975.25,-184 1975.25,-184 1975.25,-172 1975.25,-172 1975.25,-166 1981.25,-160 1987.25,-160 1987.25,-160 2058.75,-160 2058.75,-160 2064.75,-160 2070.75,-166 2070.75,-172 2070.75,-172 2070.75,-184 2070.75,-184 2070.75,-190 2064.75,-196 2058.75,-196"/>
 <text xml:space="preserve" text-anchor="middle" x="2023" y="-175" font-family="Helvetica,sans-Serif" font-size="10.00">eigenSubspaceGt</text>
 </a>
@@ -536,7 +536,7 @@
 <!-- n30 -->
 <g id="node29" class="node">
 <title>n30</title>
-<g id="a_node29"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean#L435" xlink:title="lemma · Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:435" target="_blank">
+<g id="a_node29"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:435" xlink:title="lemma · Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:435" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M1216.82,-268C1216.82,-268 1109.18,-268 1109.18,-268 1103.18,-268 1097.18,-262 1097.18,-256 1097.18,-256 1097.18,-244 1097.18,-244 1097.18,-238 1103.18,-232 1109.18,-232 1109.18,-232 1216.82,-232 1216.82,-232 1222.82,-232 1228.82,-238 1228.82,-244 1228.82,-244 1228.82,-256 1228.82,-256 1228.82,-262 1222.82,-268 1216.82,-268"/>
 <text xml:space="preserve" text-anchor="middle" x="1163" y="-247" font-family="Helvetica,sans-Serif" font-size="10.00">finrank_eigenSubspaceLe</text>
 </a>
@@ -551,7 +551,7 @@
 <!-- n31 -->
 <g id="node30" class="node">
 <title>n31</title>
-<g id="a_node30"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean#L41" xlink:title="lemma · Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:41" target="_blank">
+<g id="a_node30"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:41" xlink:title="lemma · Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:41" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M1557.43,-196C1557.43,-196 1452.57,-196 1452.57,-196 1446.57,-196 1440.57,-190 1440.57,-184 1440.57,-184 1440.57,-172 1440.57,-172 1440.57,-166 1446.57,-160 1452.57,-160 1452.57,-160 1557.43,-160 1557.43,-160 1563.43,-160 1569.43,-166 1569.43,-172 1569.43,-172 1569.43,-184 1569.43,-184 1569.43,-190 1563.43,-196 1557.43,-196"/>
 <text xml:space="preserve" text-anchor="middle" x="1505" y="-175" font-family="Helvetica,sans-Serif" font-size="10.00">sortedEigenvalues_mono</text>
 </a>
@@ -566,7 +566,7 @@
 <!-- n32 -->
 <g id="node31" class="node">
 <title>n32</title>
-<g id="a_node31"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean#L70" xlink:title="lemma · Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:70" target="_blank">
+<g id="a_node31"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:70" xlink:title="lemma · Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:70" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M1625.28,-268C1625.28,-268 1468.72,-268 1468.72,-268 1462.72,-268 1456.72,-262 1456.72,-256 1456.72,-256 1456.72,-244 1456.72,-244 1456.72,-238 1462.72,-232 1468.72,-232 1468.72,-232 1625.28,-232 1625.28,-232 1631.28,-232 1637.28,-238 1637.28,-244 1637.28,-244 1637.28,-256 1637.28,-256 1637.28,-262 1631.28,-268 1625.28,-268"/>
 <text xml:space="preserve" text-anchor="middle" x="1547" y="-247" font-family="Helvetica,sans-Serif" font-size="10.00">sortedEigenvalues_lt_card_le_sorted</text>
 </a>
@@ -587,7 +587,7 @@
 <!-- n33 -->
 <g id="node32" class="node">
 <title>n33</title>
-<g id="a_node32"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean#L79" xlink:title="lemma · Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:79" target="_blank">
+<g id="a_node32"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:79" xlink:title="lemma · Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:79" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M1886.29,-340C1886.29,-340 1699.71,-340 1699.71,-340 1693.71,-340 1687.71,-334 1687.71,-328 1687.71,-328 1687.71,-316 1687.71,-316 1687.71,-310 1693.71,-304 1699.71,-304 1699.71,-304 1886.29,-304 1886.29,-304 1892.29,-304 1898.29,-310 1898.29,-316 1898.29,-316 1898.29,-328 1898.29,-328 1898.29,-334 1892.29,-340 1886.29,-340"/>
 <text xml:space="preserve" text-anchor="middle" x="1793" y="-319" font-family="Helvetica,sans-Serif" font-size="10.00">sortedEigenvalues_lt_card_eigen_le_sorted</text>
 </a>
@@ -608,7 +608,7 @@
 <!-- n34 -->
 <g id="node33" class="node">
 <title>n34</title>
-<g id="a_node33"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean#L479" xlink:title="lemma · Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:479" target="_blank">
+<g id="a_node33"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:479" xlink:title="lemma · Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:479" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M1972.54,-268C1972.54,-268 1865.46,-268 1865.46,-268 1859.46,-268 1853.46,-262 1853.46,-256 1853.46,-256 1853.46,-244 1853.46,-244 1853.46,-238 1859.46,-232 1865.46,-232 1865.46,-232 1972.54,-232 1972.54,-232 1978.54,-232 1984.54,-238 1984.54,-244 1984.54,-244 1984.54,-256 1984.54,-256 1984.54,-262 1978.54,-268 1972.54,-268"/>
 <text xml:space="preserve" text-anchor="middle" x="1919" y="-247" font-family="Helvetica,sans-Serif" font-size="10.00">finrank_eigenSubspaceGt</text>
 </a>
@@ -623,7 +623,7 @@
 <!-- n35 -->
 <g id="node34" class="node">
 <title>n35</title>
-<g id="a_node34"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean#L106" xlink:title="lemma · Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:106" target="_blank">
+<g id="a_node34"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:106" xlink:title="lemma · Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:106" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M1094.61,-196C1094.61,-196 951.39,-196 951.39,-196 945.39,-196 939.39,-190 939.39,-184 939.39,-184 939.39,-172 939.39,-172 939.39,-166 945.39,-160 951.39,-160 951.39,-160 1094.61,-160 1094.61,-160 1100.61,-160 1106.61,-166 1106.61,-172 1106.61,-172 1106.61,-184 1106.61,-184 1106.61,-190 1100.61,-196 1094.61,-196"/>
 <text xml:space="preserve" text-anchor="middle" x="1023" y="-175" font-family="Helvetica,sans-Serif" font-size="10.00">card_sorted_le_eq_card_eigen_le</text>
 </a>
@@ -638,7 +638,7 @@
 <!-- n36 -->
 <g id="node35" class="node">
 <title>n36</title>
-<g id="a_node35"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean#L128" xlink:title="lemma · Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:128" target="_blank">
+<g id="a_node35"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:128" xlink:title="lemma · Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:128" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M1046.99,-268C1046.99,-268 931.01,-268 931.01,-268 925.01,-268 919.01,-262 919.01,-256 919.01,-256 919.01,-244 919.01,-244 919.01,-238 925.01,-232 931.01,-232 931.01,-232 1046.99,-232 1046.99,-232 1052.99,-232 1058.99,-238 1058.99,-244 1058.99,-244 1058.99,-256 1058.99,-256 1058.99,-262 1052.99,-268 1046.99,-268"/>
 <text xml:space="preserve" text-anchor="middle" x="989" y="-247" font-family="Helvetica,sans-Serif" font-size="10.00">card_eigen_le_of_sorted_gt</text>
 </a>
@@ -665,7 +665,7 @@
 <!-- n37 -->
 <g id="node36" class="node">
 <title>n37</title>
-<g id="a_node36"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean#L148" xlink:title="lemma · Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:148" target="_blank">
+<g id="a_node36"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:148" xlink:title="lemma · Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:148" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M1221.61,-340C1221.61,-340 1088.39,-340 1088.39,-340 1082.39,-340 1076.39,-334 1076.39,-328 1076.39,-328 1076.39,-316 1076.39,-316 1076.39,-310 1082.39,-304 1088.39,-304 1088.39,-304 1221.61,-304 1221.61,-304 1227.61,-304 1233.61,-310 1233.61,-316 1233.61,-316 1233.61,-328 1233.61,-328 1233.61,-334 1227.61,-340 1221.61,-340"/>
 <text xml:space="preserve" text-anchor="middle" x="1155" y="-319" font-family="Helvetica,sans-Serif" font-size="10.00">card_eigen_gt_ge_of_sorted_gt</text>
 </a>
@@ -686,7 +686,7 @@
 <!-- n38 -->
 <g id="node37" class="node">
 <title>n38</title>
-<g id="a_node37"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean#L830" xlink:title="lemma · Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:830" target="_blank">
+<g id="a_node37"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:830" xlink:title="lemma · Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:830" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M1469.73,-340C1469.73,-340 1284.27,-340 1284.27,-340 1278.27,-340 1272.27,-334 1272.27,-328 1272.27,-328 1272.27,-316 1272.27,-316 1272.27,-310 1278.27,-304 1284.27,-304 1284.27,-304 1469.73,-304 1469.73,-304 1475.73,-304 1481.73,-310 1481.73,-316 1481.73,-316 1481.73,-328 1481.73,-328 1481.73,-334 1475.73,-340 1469.73,-340"/>
 <text xml:space="preserve" text-anchor="middle" x="1377" y="-319" font-family="Helvetica,sans-Serif" font-size="10.00">exists_ne_zero_mem_inf_of_finrank_lt_add</text>
 </a>
@@ -695,7 +695,7 @@
 <!-- n39 -->
 <g id="node38" class="node">
 <title>n39</title>
-<g id="a_node38"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean#L201" xlink:title="lemma · Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:201" target="_blank">
+<g id="a_node38"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:201" xlink:title="lemma · Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:201" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M2525.66,-52C2525.66,-52 2386.34,-52 2386.34,-52 2380.34,-52 2374.34,-46 2374.34,-40 2374.34,-40 2374.34,-28 2374.34,-28 2374.34,-22 2380.34,-16 2386.34,-16 2386.34,-16 2525.66,-16 2525.66,-16 2531.66,-16 2537.66,-22 2537.66,-28 2537.66,-28 2537.66,-40 2537.66,-40 2537.66,-46 2531.66,-52 2525.66,-52"/>
 <text xml:space="preserve" text-anchor="middle" x="2456" y="-31" font-family="Helvetica,sans-Serif" font-size="10.00">toEuclideanLin_eigenvectorBasis</text>
 </a>
@@ -704,7 +704,7 @@
 <!-- n40 -->
 <g id="node39" class="node">
 <title>n40</title>
-<g id="a_node39"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean#L208" xlink:title="lemma · Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:208" target="_blank">
+<g id="a_node39"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:208" xlink:title="lemma · Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:208" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M2508.7,-124C2508.7,-124 2403.3,-124 2403.3,-124 2397.3,-124 2391.3,-118 2391.3,-112 2391.3,-112 2391.3,-100 2391.3,-100 2391.3,-94 2397.3,-88 2403.3,-88 2403.3,-88 2508.7,-88 2508.7,-88 2514.7,-88 2520.7,-94 2520.7,-100 2520.7,-100 2520.7,-112 2520.7,-112 2520.7,-118 2514.7,-124 2508.7,-124"/>
 <text xml:space="preserve" text-anchor="middle" x="2456" y="-103" font-family="Helvetica,sans-Serif" font-size="10.00">toEuclideanLin_sum_repr</text>
 </a>
@@ -719,7 +719,7 @@
 <!-- n41 -->
 <g id="node40" class="node">
 <title>n41</title>
-<g id="a_node40"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean#L226" xlink:title="lemma · Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:226" target="_blank">
+<g id="a_node40"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:226" xlink:title="lemma · Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:226" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M2283.44,-196C2283.44,-196 2138.56,-196 2138.56,-196 2132.56,-196 2126.56,-190 2126.56,-184 2126.56,-184 2126.56,-172 2126.56,-172 2126.56,-166 2132.56,-160 2138.56,-160 2138.56,-160 2283.44,-160 2283.44,-160 2289.44,-160 2295.44,-166 2295.44,-172 2295.44,-172 2295.44,-184 2295.44,-184 2295.44,-190 2289.44,-196 2283.44,-196"/>
 <text xml:space="preserve" text-anchor="middle" x="2211" y="-175" font-family="Helvetica,sans-Serif" font-size="10.00">hermitian_rayleigh_eq_sum_eigen</text>
 </a>
@@ -734,7 +734,7 @@
 <!-- n42 -->
 <g id="node41" class="node">
 <title>n42</title>
-<g id="a_node41"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean#L259" xlink:title="lemma · Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:259" target="_blank">
+<g id="a_node41"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:259" xlink:title="lemma · Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:259" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M2520.44,-196C2520.44,-196 2325.56,-196 2325.56,-196 2319.56,-196 2313.56,-190 2313.56,-184 2313.56,-184 2313.56,-172 2313.56,-172 2313.56,-166 2319.56,-160 2325.56,-160 2325.56,-160 2520.44,-160 2520.44,-160 2526.44,-160 2532.44,-166 2532.44,-172 2532.44,-172 2532.44,-184 2532.44,-184 2532.44,-190 2526.44,-196 2520.44,-196"/>
 <text xml:space="preserve" text-anchor="middle" x="2423" y="-175" font-family="Helvetica,sans-Serif" font-size="10.00">orthonormalBasis_norm_sq_eq_sum_repr_sq</text>
 </a>
@@ -743,7 +743,7 @@
 <!-- n43 -->
 <g id="node42" class="node">
 <title>n43</title>
-<g id="a_node42"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean#L415" xlink:title="lemma · Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:415" target="_blank">
+<g id="a_node42"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:415" xlink:title="lemma · Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:415" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M2432.62,-268C2432.62,-268 2249.38,-268 2249.38,-268 2243.38,-268 2237.38,-262 2237.38,-256 2237.38,-256 2237.38,-244 2237.38,-244 2237.38,-238 2243.38,-232 2249.38,-232 2249.38,-232 2432.62,-232 2432.62,-232 2438.62,-232 2444.62,-238 2444.62,-244 2444.62,-244 2444.62,-256 2444.62,-256 2444.62,-262 2438.62,-268 2432.62,-268"/>
 <text xml:space="preserve" text-anchor="middle" x="2341" y="-247" font-family="Helvetica,sans-Serif" font-size="10.00">hermitian_rayleigh_le_of_support_eigen_le</text>
 </a>
@@ -764,7 +764,7 @@
 <!-- n44 -->
 <g id="node43" class="node">
 <title>n44</title>
-<g id="a_node43"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean#L448" xlink:title="lemma · Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:448" target="_blank">
+<g id="a_node43"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:448" xlink:title="lemma · Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:448" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M1407.39,-268C1407.39,-268 1258.61,-268 1258.61,-268 1252.61,-268 1246.61,-262 1246.61,-256 1246.61,-256 1246.61,-244 1246.61,-244 1246.61,-238 1252.61,-232 1258.61,-232 1258.61,-232 1407.39,-232 1407.39,-232 1413.39,-232 1419.39,-238 1419.39,-244 1419.39,-244 1419.39,-256 1419.39,-256 1419.39,-262 1413.39,-268 1407.39,-268"/>
 <text xml:space="preserve" text-anchor="middle" x="1333" y="-247" font-family="Helvetica,sans-Serif" font-size="10.00">eigenSubspaceLe_coeff_zero_of_lt</text>
 </a>
@@ -779,7 +779,7 @@
 <!-- n45 -->
 <g id="node44" class="node">
 <title>n45</title>
-<g id="a_node44"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean#L470" xlink:title="lemma · Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:470" target="_blank">
+<g id="a_node44"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:470" xlink:title="lemma · Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:470" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M1658,-340C1658,-340 1532,-340 1532,-340 1526,-340 1520,-334 1520,-328 1520,-328 1520,-316 1520,-316 1520,-310 1526,-304 1532,-304 1532,-304 1658,-304 1658,-304 1664,-304 1670,-310 1670,-316 1670,-316 1670,-328 1670,-328 1670,-334 1664,-340 1658,-340"/>
 <text xml:space="preserve" text-anchor="middle" x="1595" y="-319" font-family="Helvetica,sans-Serif" font-size="10.00">eigenSubspaceLe_rayleigh_le</text>
 </a>
@@ -806,7 +806,7 @@
 <!-- n46 -->
 <g id="node45" class="node">
 <title>n46</title>
-<g id="a_node45"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean#L162" xlink:title="lemma · Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:162" target="_blank">
+<g id="a_node45"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:162" xlink:title="lemma · Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:162" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M1803.26,-268C1803.26,-268 1686.74,-268 1686.74,-268 1680.74,-268 1674.74,-262 1674.74,-256 1674.74,-256 1674.74,-244 1674.74,-244 1674.74,-238 1680.74,-232 1686.74,-232 1686.74,-232 1803.26,-232 1803.26,-232 1809.26,-232 1815.26,-238 1815.26,-244 1815.26,-244 1815.26,-256 1815.26,-256 1815.26,-262 1809.26,-268 1803.26,-268"/>
 <text xml:space="preserve" text-anchor="middle" x="1745" y="-247" font-family="Helvetica,sans-Serif" font-size="10.00">abs_rayleigh_le_l2_opNorm</text>
 </a>
@@ -815,7 +815,7 @@
 <!-- n47 -->
 <g id="node46" class="node">
 <title>n47</title>
-<g id="a_node46"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean#L187" xlink:title="lemma · Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:187" target="_blank">
+<g id="a_node46"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:187" xlink:title="lemma · Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:187" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M2114,-340C2114,-340 1928,-340 1928,-340 1922,-340 1916,-334 1916,-328 1916,-328 1916,-316 1916,-316 1916,-310 1922,-304 1928,-304 1928,-304 2114,-304 2114,-304 2120,-304 2126,-310 2126,-316 2126,-316 2126,-328 2126,-328 2126,-334 2120,-340 2114,-340"/>
 <text xml:space="preserve" text-anchor="middle" x="2021" y="-319" font-family="Helvetica,sans-Serif" font-size="10.00">inner_self_op_le_l2_opNorm_mul_norm_sq</text>
 </a>
@@ -830,7 +830,7 @@
 <!-- n48 -->
 <g id="node47" class="node">
 <title>n48</title>
-<g id="a_node47"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean#L514" xlink:title="lemma · Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:514" target="_blank">
+<g id="a_node47"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:514" xlink:title="lemma · Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:514" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M2659.18,-268C2659.18,-268 2474.82,-268 2474.82,-268 2468.82,-268 2462.82,-262 2462.82,-256 2462.82,-256 2462.82,-244 2462.82,-244 2462.82,-238 2468.82,-232 2474.82,-232 2474.82,-232 2659.18,-232 2659.18,-232 2665.18,-232 2671.18,-238 2671.18,-244 2671.18,-244 2671.18,-256 2671.18,-256 2671.18,-262 2665.18,-268 2659.18,-268"/>
 <text xml:space="preserve" text-anchor="middle" x="2567" y="-247" font-family="Helvetica,sans-Serif" font-size="10.00">hermitian_rayleigh_gt_of_support_eigen_gt</text>
 </a>
@@ -851,7 +851,7 @@
 <!-- n49 -->
 <g id="node48" class="node">
 <title>n49</title>
-<g id="a_node48"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean#L492" xlink:title="lemma · Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:492" target="_blank">
+<g id="a_node48"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:492" xlink:title="lemma · Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:492" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M2186.5,-268C2186.5,-268 2035.5,-268 2035.5,-268 2029.5,-268 2023.5,-262 2023.5,-256 2023.5,-256 2023.5,-244 2023.5,-244 2023.5,-238 2029.5,-232 2035.5,-232 2035.5,-232 2186.5,-232 2186.5,-232 2192.5,-232 2198.5,-238 2198.5,-244 2198.5,-244 2198.5,-256 2198.5,-256 2198.5,-262 2192.5,-268 2186.5,-268"/>
 <text xml:space="preserve" text-anchor="middle" x="2111" y="-247" font-family="Helvetica,sans-Serif" font-size="10.00">eigenSubspaceGt_coeff_zero_of_le</text>
 </a>
@@ -866,7 +866,7 @@
 <!-- n50 -->
 <g id="node49" class="node">
 <title>n50</title>
-<g id="a_node49"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean#L563" xlink:title="lemma · Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:563" target="_blank">
+<g id="a_node49"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:563" xlink:title="lemma · Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:563" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M2341.99,-340C2341.99,-340 2216.01,-340 2216.01,-340 2210.01,-340 2204.01,-334 2204.01,-328 2204.01,-328 2204.01,-316 2204.01,-316 2204.01,-310 2210.01,-304 2216.01,-304 2216.01,-304 2341.99,-304 2341.99,-304 2347.99,-304 2353.99,-310 2353.99,-316 2353.99,-316 2353.99,-328 2353.99,-328 2353.99,-334 2347.99,-340 2341.99,-340"/>
 <text xml:space="preserve" text-anchor="middle" x="2279" y="-319" font-family="Helvetica,sans-Serif" font-size="10.00">eigenSubspaceGt_rayleigh_gt</text>
 </a>
@@ -893,7 +893,7 @@
 <!-- n51 -->
 <g id="node50" class="node">
 <title>n51</title>
-<g id="a_node50"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/HighDim/SpectralPerturbation/Weyl.lean#L112" xlink:title="lemma · Statlib/HighDim/SpectralPerturbation/Weyl.lean:112" target="_blank">
+<g id="a_node50"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/SpectralPerturbation/Weyl.lean:112" xlink:title="lemma · Statlib/HighDim/SpectralPerturbation/Weyl.lean:112" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M1904.25,-412C1904.25,-412 1827.75,-412 1827.75,-412 1821.75,-412 1815.75,-406 1815.75,-400 1815.75,-400 1815.75,-388 1815.75,-388 1815.75,-382 1821.75,-376 1827.75,-376 1827.75,-376 1904.25,-376 1904.25,-376 1910.25,-376 1916.25,-382 1916.25,-388 1916.25,-388 1916.25,-400 1916.25,-400 1916.25,-406 1910.25,-412 1904.25,-412"/>
 <text xml:space="preserve" text-anchor="middle" x="1866" y="-391" font-family="Helvetica,sans-Serif" font-size="10.00">weyl_sorted_upper</text>
 </a>
@@ -968,7 +968,7 @@
 <!-- n52 -->
 <g id="node51" class="node">
 <title>n52</title>
-<g id="a_node51"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/HighDim/SpectralPerturbation/Weyl.lean#L176" xlink:title="theorem · Statlib/HighDim/SpectralPerturbation/Weyl.lean:176" target="_blank">
+<g id="a_node51"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/SpectralPerturbation/Weyl.lean:176" xlink:title="theorem · Statlib/HighDim/SpectralPerturbation/Weyl.lean:176" target="_blank">
 <path fill="#ffe6a3" stroke="#d4a017" d="M2003.68,-484C2003.68,-484 1958.32,-484 1958.32,-484 1952.32,-484 1946.32,-478 1946.32,-472 1946.32,-472 1946.32,-460 1946.32,-460 1946.32,-454 1952.32,-448 1958.32,-448 1958.32,-448 2003.68,-448 2003.68,-448 2009.68,-448 2015.68,-454 2015.68,-460 2015.68,-460 2015.68,-472 2015.68,-472 2015.68,-478 2009.68,-484 2003.68,-484"/>
 <text xml:space="preserve" text-anchor="middle" x="1981" y="-463" font-family="Helvetica,sans-Serif" font-size="10.00">weyl_sorted</text>
 </a>
@@ -989,7 +989,7 @@
 <!-- n53 -->
 <g id="node52" class="node">
 <title>n53</title>
-<g id="a_node52"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/HighDim/SpectralPerturbation/Weyl.lean#L197" xlink:title="lemma · Statlib/HighDim/SpectralPerturbation/Weyl.lean:197" target="_blank">
+<g id="a_node52"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/SpectralPerturbation/Weyl.lean:197" xlink:title="lemma · Statlib/HighDim/SpectralPerturbation/Weyl.lean:197" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M2011.23,-557.2C2011.23,-557.2 1840.77,-557.2 1840.77,-557.2 1834.77,-557.2 1828.77,-551.2 1828.77,-545.2 1828.77,-545.2 1828.77,-533.2 1828.77,-533.2 1828.77,-527.2 1834.77,-521.2 1840.77,-521.2 1840.77,-521.2 2011.23,-521.2 2011.23,-521.2 2017.23,-521.2 2023.23,-527.2 2023.23,-533.2 2023.23,-533.2 2023.23,-545.2 2023.23,-545.2 2023.23,-551.2 2017.23,-557.2 2011.23,-557.2"/>
 <text xml:space="preserve" text-anchor="middle" x="1926" y="-536.2" font-family="Helvetica,sans-Serif" font-size="10.00">exists_perturbed_unit_eigenvector_near</text>
 </a>
@@ -1022,7 +1022,7 @@
 <!-- n54 -->
 <g id="node53" class="node">
 <title>n54</title>
-<g id="a_node53"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean#L631" xlink:title="lemma · Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:631" target="_blank">
+<g id="a_node53"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:631" xlink:title="lemma · Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:631" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M2779.76,-340C2779.76,-340 2628.24,-340 2628.24,-340 2622.24,-340 2616.24,-334 2616.24,-328 2616.24,-328 2616.24,-316 2616.24,-316 2616.24,-310 2622.24,-304 2628.24,-304 2628.24,-304 2779.76,-304 2779.76,-304 2785.76,-304 2791.76,-310 2791.76,-316 2791.76,-316 2791.76,-328 2791.76,-328 2791.76,-334 2785.76,-340 2779.76,-340"/>
 <text xml:space="preserve" text-anchor="middle" x="2704" y="-319" font-family="Helvetica,sans-Serif" font-size="10.00">eigenvectorBasis_mem_simple_line</text>
 </a>
@@ -1031,7 +1031,7 @@
 <!-- n55 -->
 <g id="node54" class="node">
 <title>n55</title>
-<g id="a_node54"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean#L643" xlink:title="lemma · Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:643" target="_blank">
+<g id="a_node54"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:643" xlink:title="lemma · Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:643" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M2585.78,-340C2585.78,-340 2444.22,-340 2444.22,-340 2438.22,-340 2432.22,-334 2432.22,-328 2432.22,-328 2432.22,-316 2432.22,-316 2432.22,-310 2438.22,-304 2444.22,-304 2444.22,-304 2585.78,-304 2585.78,-304 2591.78,-304 2597.78,-310 2597.78,-316 2597.78,-316 2597.78,-328 2597.78,-328 2597.78,-334 2591.78,-340 2585.78,-340"/>
 <text xml:space="preserve" text-anchor="middle" x="2515" y="-319" font-family="Helvetica,sans-Serif" font-size="10.00">abs_scalar_eq_one_of_smul_unit</text>
 </a>
@@ -1040,7 +1040,7 @@
 <!-- n56 -->
 <g id="node55" class="node">
 <title>n56</title>
-<g id="a_node55"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean#L302" xlink:title="lemma · Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:302" target="_blank">
+<g id="a_node55"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:302" xlink:title="lemma · Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:302" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M2800.41,-196C2800.41,-196 2601.59,-196 2601.59,-196 2595.59,-196 2589.59,-190 2589.59,-184 2589.59,-184 2589.59,-172 2589.59,-172 2589.59,-166 2595.59,-160 2601.59,-160 2601.59,-160 2800.41,-160 2800.41,-160 2806.41,-160 2812.41,-166 2812.41,-172 2812.41,-172 2812.41,-184 2812.41,-184 2812.41,-190 2806.41,-196 2800.41,-196"/>
 <text xml:space="preserve" text-anchor="middle" x="2701" y="-175" font-family="Helvetica,sans-Serif" font-size="10.00">toEuclideanLin_sub_smul_eq_sum_eigen_sub</text>
 </a>
@@ -1055,7 +1055,7 @@
 <!-- n57 -->
 <g id="node56" class="node">
 <title>n57</title>
-<g id="a_node56"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean#L282" xlink:title="lemma · Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:282" target="_blank">
+<g id="a_node56"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:282" xlink:title="lemma · Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:282" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M2779.7,-412C2779.7,-412 2614.3,-412 2614.3,-412 2608.3,-412 2602.3,-406 2602.3,-400 2602.3,-400 2602.3,-388 2602.3,-388 2602.3,-382 2608.3,-376 2614.3,-376 2614.3,-376 2779.7,-376 2779.7,-376 2785.7,-376 2791.7,-382 2791.7,-388 2791.7,-388 2791.7,-400 2791.7,-400 2791.7,-406 2785.7,-412 2779.7,-412"/>
 <text xml:space="preserve" text-anchor="middle" x="2697" y="-391" font-family="Helvetica,sans-Serif" font-size="10.00">orthonormalBasis_norm_sq_sum_smul</text>
 </a>
@@ -1064,7 +1064,7 @@
 <!-- n58 -->
 <g id="node57" class="node">
 <title>n58</title>
-<g id="a_node57"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean#L344" xlink:title="lemma · Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:344" target="_blank">
+<g id="a_node57"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:344" xlink:title="lemma · Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:344" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M2792.79,-484C2792.79,-484 2601.21,-484 2601.21,-484 2595.21,-484 2589.21,-478 2589.21,-472 2589.21,-472 2589.21,-460 2589.21,-460 2589.21,-454 2595.21,-448 2601.21,-448 2601.21,-448 2792.79,-448 2792.79,-448 2798.79,-448 2804.79,-454 2804.79,-460 2804.79,-460 2804.79,-472 2804.79,-472 2804.79,-478 2798.79,-484 2792.79,-484"/>
 <text xml:space="preserve" text-anchor="middle" x="2697" y="-463" font-family="Helvetica,sans-Serif" font-size="10.00">norm_sq_toEuclideanLin_sub_smul_eq_sum</text>
 </a>
@@ -1085,7 +1085,7 @@
 <!-- n60 -->
 <g id="node58" class="node">
 <title>n60</title>
-<g id="a_node58"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean#L374" xlink:title="lemma · Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:374" target="_blank">
+<g id="a_node58"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:374" xlink:title="lemma · Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:374" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M2541.24,-557.2C2541.24,-557.2 2340.76,-557.2 2340.76,-557.2 2334.76,-557.2 2328.76,-551.2 2328.76,-545.2 2328.76,-545.2 2328.76,-533.2 2328.76,-533.2 2328.76,-527.2 2334.76,-521.2 2340.76,-521.2 2340.76,-521.2 2541.24,-521.2 2541.24,-521.2 2547.24,-521.2 2553.24,-527.2 2553.24,-533.2 2553.24,-533.2 2553.24,-545.2 2553.24,-545.2 2553.24,-551.2 2547.24,-557.2 2541.24,-557.2"/>
 <text xml:space="preserve" text-anchor="middle" x="2441" y="-536.2" font-family="Helvetica,sans-Serif" font-size="10.00">off_target_energy_mul_gap_sq_le_residual_sq</text>
 </a>
@@ -1100,7 +1100,7 @@
 <!-- n59 -->
 <g id="node69" class="node">
 <title>n59</title>
-<g id="a_node69"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/StatFoundation/BasicAnalysis/sub_le_abs_sub_of_gap_near.lean#L8" xlink:title="lemma · Statlib/StatFoundation/BasicAnalysis/sub_le_abs_sub_of_gap_near.lean:8" target="_blank">
+<g id="a_node69"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/StatFoundation/BasicAnalysis/sub_le_abs_sub_of_gap_near.lean:8" xlink:title="lemma · Statlib/StatFoundation/BasicAnalysis/sub_le_abs_sub_of_gap_near.lean:8" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M3198.28,-484C3198.28,-484 3071.72,-484 3071.72,-484 3065.72,-484 3059.72,-478 3059.72,-472 3059.72,-472 3059.72,-460 3059.72,-460 3059.72,-454 3065.72,-448 3071.72,-448 3071.72,-448 3198.28,-448 3198.28,-448 3204.28,-448 3210.28,-454 3210.28,-460 3210.28,-460 3210.28,-472 3210.28,-472 3210.28,-478 3204.28,-484 3198.28,-484"/>
 <text xml:space="preserve" text-anchor="middle" x="3135" y="-463" font-family="Helvetica,sans-Serif" font-size="10.00">sub_le_abs_sub_of_gap_near</text>
 </a>
@@ -1115,7 +1115,7 @@
 <!-- n61 -->
 <g id="node59" class="node">
 <title>n61</title>
-<g id="a_node59"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean#L354" xlink:title="lemma · Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:354" target="_blank">
+<g id="a_node59"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:354" xlink:title="lemma · Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:354" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M2800.29,-557.2C2800.29,-557.2 2583.71,-557.2 2583.71,-557.2 2577.71,-557.2 2571.71,-551.2 2571.71,-545.2 2571.71,-545.2 2571.71,-533.2 2571.71,-533.2 2571.71,-527.2 2577.71,-521.2 2583.71,-521.2 2583.71,-521.2 2800.29,-521.2 2800.29,-521.2 2806.29,-521.2 2812.29,-527.2 2812.29,-533.2 2812.29,-533.2 2812.29,-545.2 2812.29,-545.2 2812.29,-551.2 2806.29,-557.2 2800.29,-557.2"/>
 <text xml:space="preserve" text-anchor="middle" x="2692" y="-536.2" font-family="Helvetica,sans-Serif" font-size="10.00">residual_norm_le_l2_opNorm_of_add_eigenvector</text>
 </a>
@@ -1124,7 +1124,7 @@
 <!-- n62 -->
 <g id="node60" class="node">
 <title>n62</title>
-<g id="a_node60"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean#L651" xlink:title="lemma · Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:651" target="_blank">
+<g id="a_node60"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:651" xlink:title="lemma · Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:651" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M2552.01,-412C2552.01,-412 2385.99,-412 2385.99,-412 2379.99,-412 2373.99,-406 2373.99,-400 2373.99,-400 2373.99,-388 2373.99,-388 2373.99,-382 2379.99,-376 2385.99,-376 2385.99,-376 2552.01,-376 2552.01,-376 2558.01,-376 2564.01,-382 2564.01,-388 2564.01,-388 2564.01,-400 2564.01,-400 2564.01,-406 2558.01,-412 2552.01,-412"/>
 <text xml:space="preserve" text-anchor="middle" x="2469" y="-391" font-family="Helvetica,sans-Serif" font-size="10.00">simple_eigenvalue_index_subsingleton</text>
 </a>
@@ -1145,7 +1145,7 @@
 <!-- n63 -->
 <g id="node61" class="node">
 <title>n63</title>
-<g id="a_node61"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean#L707" xlink:title="lemma · Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:707" target="_blank">
+<g id="a_node61"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:707" xlink:title="lemma · Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:707" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M2328.72,-484C2328.72,-484 2183.28,-484 2183.28,-484 2177.28,-484 2171.28,-478 2171.28,-472 2171.28,-472 2171.28,-460 2171.28,-460 2171.28,-454 2177.28,-448 2183.28,-448 2183.28,-448 2328.72,-448 2328.72,-448 2334.72,-448 2340.72,-454 2340.72,-460 2340.72,-460 2340.72,-472 2340.72,-472 2340.72,-478 2334.72,-484 2328.72,-484"/>
 <text xml:space="preserve" text-anchor="middle" x="2256" y="-463" font-family="Helvetica,sans-Serif" font-size="10.00">target_energy_eq_single_coeff_sq</text>
 </a>
@@ -1160,7 +1160,7 @@
 <!-- n64 -->
 <g id="node62" class="node">
 <title>n64</title>
-<g id="a_node62"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean#L738" xlink:title="lemma · Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:738" target="_blank">
+<g id="a_node62"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:738" xlink:title="lemma · Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:738" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M2259.03,-557.2C2259.03,-557.2 2052.97,-557.2 2052.97,-557.2 2046.97,-557.2 2040.97,-551.2 2040.97,-545.2 2040.97,-545.2 2040.97,-533.2 2040.97,-533.2 2040.97,-527.2 2046.97,-521.2 2052.97,-521.2 2052.97,-521.2 2259.03,-521.2 2259.03,-521.2 2265.03,-521.2 2271.03,-527.2 2271.03,-533.2 2271.03,-533.2 2271.03,-545.2 2271.03,-545.2 2271.03,-551.2 2265.03,-557.2 2259.03,-557.2"/>
 <text xml:space="preserve" text-anchor="middle" x="2156" y="-536.2" font-family="Helvetica,sans-Serif" font-size="10.00">off_target_energy_eq_one_sub_single_coeff_sq</text>
 </a>
@@ -1181,7 +1181,7 @@
 <!-- n65 -->
 <g id="node63" class="node">
 <title>n65</title>
-<g id="a_node63"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean#L770" xlink:title="lemma · Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:770" target="_blank">
+<g id="a_node63"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:770" xlink:title="lemma · Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:770" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M1566.96,-557.2C1566.96,-557.2 1367.04,-557.2 1367.04,-557.2 1361.04,-557.2 1355.04,-551.2 1355.04,-545.2 1355.04,-545.2 1355.04,-533.2 1355.04,-533.2 1355.04,-527.2 1361.04,-521.2 1367.04,-521.2 1367.04,-521.2 1566.96,-521.2 1566.96,-521.2 1572.96,-521.2 1578.96,-527.2 1578.96,-533.2 1578.96,-533.2 1578.96,-545.2 1578.96,-545.2 1578.96,-551.2 1572.96,-557.2 1566.96,-557.2"/>
 <text xml:space="preserve" text-anchor="middle" x="1467" y="-536.2" font-family="Helvetica,sans-Serif" font-size="10.00">abs_inner_eq_abs_basis_coeff_of_basis_smul</text>
 </a>
@@ -1190,7 +1190,7 @@
 <!-- n66 -->
 <g id="node64" class="node">
 <title>n66</title>
-<g id="a_node64"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean#L784" xlink:title="lemma · Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:784" target="_blank">
+<g id="a_node64"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:784" xlink:title="lemma · Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:784" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M1798.67,-557.2C1798.67,-557.2 1609.33,-557.2 1609.33,-557.2 1603.33,-557.2 1597.33,-551.2 1597.33,-545.2 1597.33,-545.2 1597.33,-533.2 1597.33,-533.2 1597.33,-527.2 1603.33,-521.2 1609.33,-521.2 1609.33,-521.2 1798.67,-521.2 1798.67,-521.2 1804.67,-521.2 1810.67,-527.2 1810.67,-533.2 1810.67,-533.2 1810.67,-545.2 1810.67,-545.2 1810.67,-551.2 1804.67,-557.2 1798.67,-557.2"/>
 <text xml:space="preserve" text-anchor="middle" x="1704" y="-536.2" font-family="Helvetica,sans-Serif" font-size="10.00">exists_sign_smul_sub_norm_le_of_inner_sq</text>
 </a>
@@ -1199,7 +1199,7 @@
 <!-- n67 -->
 <g id="node65" class="node">
 <title>n67</title>
-<g id="a_node65"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/HighDim/SpectralPerturbation/DavisKahan.lean#L29" xlink:title="theorem · Statlib/HighDim/SpectralPerturbation/DavisKahan.lean:29" target="_blank">
+<g id="a_node65"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/SpectralPerturbation/DavisKahan.lean:29" xlink:title="theorem · Statlib/HighDim/SpectralPerturbation/DavisKahan.lean:29" target="_blank">
 <path fill="#ffe6a3" stroke="#d4a017" d="M2082.31,-629.2C2082.31,-629.2 1999.69,-629.2 1999.69,-629.2 1993.69,-629.2 1987.69,-623.2 1987.69,-617.2 1987.69,-617.2 1987.69,-605.2 1987.69,-605.2 1987.69,-599.2 1993.69,-593.2 1999.69,-593.2 1999.69,-593.2 2082.31,-593.2 2082.31,-593.2 2088.31,-593.2 2094.31,-599.2 2094.31,-605.2 2094.31,-605.2 2094.31,-617.2 2094.31,-617.2 2094.31,-623.2 2088.31,-629.2 2082.31,-629.2"/>
 <text xml:space="preserve" text-anchor="middle" x="2041" y="-608.2" font-family="Helvetica,sans-Serif" font-size="10.00">davis_kahan_eigvec</text>
 </a>
@@ -1262,7 +1262,7 @@
 <!-- n68 -->
 <g id="node66" class="node">
 <title>n68</title>
-<g id="a_node66"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/HighDim/SpectralPerturbation/PCA.lean#L32" xlink:title="theorem · Statlib/HighDim/SpectralPerturbation/PCA.lean:32" target="_blank">
+<g id="a_node66"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/SpectralPerturbation/PCA.lean:32" xlink:title="theorem · Statlib/HighDim/SpectralPerturbation/PCA.lean:32" target="_blank">
 <path fill="#ffe6a3" stroke="#d4a017" stroke-width="3" d="M1101.76,-701.2C1101.76,-701.2 1000.24,-701.2 1000.24,-701.2 994.24,-701.2 988.24,-695.2 988.24,-689.2 988.24,-689.2 988.24,-677.2 988.24,-677.2 988.24,-671.2 994.24,-665.2 1000.24,-665.2 1000.24,-665.2 1101.76,-665.2 1101.76,-665.2 1107.76,-665.2 1113.76,-671.2 1113.76,-677.2 1113.76,-677.2 1113.76,-689.2 1113.76,-689.2 1113.76,-695.2 1107.76,-701.2 1101.76,-701.2"/>
 <text xml:space="preserve" text-anchor="middle" x="1051" y="-680.2" font-family="Helvetica,sans-Serif" font-size="10.00">pca_eigvec_perturbation</text>
 </a>
@@ -1319,7 +1319,7 @@
 <!-- n20 -->
 <g id="node67" class="node">
 <title>n20</title>
-<g id="a_node67"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/StatFoundation/Vocabulary/RandomVariable.lean#L74" xlink:title="structure · Statlib/StatFoundation/Vocabulary/RandomVariable.lean:74" target="_blank">
+<g id="a_node67"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/StatFoundation/Vocabulary/RandomVariable.lean:74" xlink:title="structure · Statlib/StatFoundation/Vocabulary/RandomVariable.lean:74" target="_blank">
 <path fill="#e8dcff" stroke="#8b5cf6" d="M2989.47,-412C2989.47,-412 2888.53,-412 2888.53,-412 2882.53,-412 2876.53,-406 2876.53,-400 2876.53,-400 2876.53,-388 2876.53,-388 2876.53,-382 2882.53,-376 2888.53,-376 2888.53,-376 2989.47,-376 2989.47,-376 2995.47,-376 3001.47,-382 3001.47,-388 3001.47,-388 3001.47,-400 3001.47,-400 3001.47,-406 2995.47,-412 2989.47,-412"/>
 <text xml:space="preserve" text-anchor="middle" x="2939" y="-391" font-family="Helvetica,sans-Serif" font-size="10.00">HasSubexponentialMGF</text>
 </a>

@@ -1,14 +1,14 @@
 # Proof narrative — complete_implies_as
 
-Root: **complete_implies_as** (theorem) `Statlib/StatFoundation/Convergence/AnalysisTools/ConvergenceModes.lean:225` · topic `StatFoundation`
+Root: **complete_implies_as** (theorem) `Statlib/StatFoundation/Convergence/AnalysisTools/ConvergenceModes.lean:1160` · topic `StatFoundation`
 Closure: 4 declarations across 1 files. Generated from `proof_graph.json` — no files were moved.
 
 Reading order (foundations first, headline last):
 
-    ◆ `InProbabilityTailEvent` — def · `Statlib/StatFoundation/Convergence/AnalysisTools/ConvergenceModes.lean:46`  _(also used by 2: InProbabilityConvergence, as_implies_inProbability)_
+    ◆ `InProbabilityTailEvent` — def · `Statlib/StatFoundation/Convergence/AnalysisTools/ConvergenceModes.lean:46`  _(also used by 10: t_test_consistent, InProbabilityConvergence, inProbabilityConvergence_of_tendstoInMeasure, …)_
   ◆ `CompleteConvergence` — def · `Statlib/StatFoundation/Convergence/AnalysisTools/ConvergenceModes.lean:97`
-  ◆ `AlmostSureConvergence` — def · `Statlib/StatFoundation/Convergence/AnalysisTools/ConvergenceModes.lean:35`  _(also used by 2: as_implies_inProbability, inProbability_implies_subseq_as)_
-★ `complete_implies_as` — theorem · `Statlib/StatFoundation/Convergence/AnalysisTools/ConvergenceModes.lean:225` **← headline**
+  ◆ `AlmostSureConvergence` — def · `Statlib/StatFoundation/Convergence/AnalysisTools/ConvergenceModes.lean:35`  _(also used by 3: tendstoInMeasure_implies_subseq_as, as_implies_inProbability, inProbability_implies_subseq_as)_
+★ `complete_implies_as` — theorem · `Statlib/StatFoundation/Convergence/AnalysisTools/ConvergenceModes.lean:1160` **← headline**
 
 ## Dependency diagram
 

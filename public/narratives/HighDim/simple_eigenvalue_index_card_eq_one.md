@@ -5,8 +5,8 @@ Closure: 6 declarations across 1 files. Generated from `proof_graph.json` — no
 
 Reading order (foundations first, headline last):
 
-    · `matrix_eigen_iff_toEuclideanLin` — lemma · `Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:596`
-  · `exists_eigenvalue_eq_of_matrix_eigenvector` — lemma · `Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:608`  _(also used by 2: davis_kahan_eigvec, exists_perturbed_unit_eigenvector_near)_
+    · `matrix_eigen_iff_toEuclideanLin` — lemma · `Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:596`  _(also used by 1: eigenvector_mem_eigenSubspaceLe)_
+  · `exists_eigenvalue_eq_of_matrix_eigenvector` — lemma · `Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:608`  _(also used by 3: wedin_sin_theta, davis_kahan_eigvec, exists_perturbed_unit_eigenvector_near)_
     · `eigenvectorBasis_mem_simple_line` — lemma · `Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:631`  _(also used by 1: davis_kahan_eigvec)_
     · `abs_scalar_eq_one_of_smul_unit` — lemma · `Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:643`  _(also used by 1: davis_kahan_eigvec)_
   · `simple_eigenvalue_index_subsingleton` — lemma · `Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:651`  _(also used by 1: target_energy_eq_single_coeff_sq)_

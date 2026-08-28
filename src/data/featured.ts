@@ -1,10 +1,10 @@
 // ---------------------------------------------------------------------------
 // Featured formalizations for the /featured page: representative theorems shown
 // as their REAL Lean statement (verbatim from the statlib `main` source, proof
-// body omitted), with the math statement and, when available, a dependency diagram.
+// body omitted), with the math statement and a dependency diagram.
 //
 // `statement` is copied faithfully from the source — do not paraphrase or weaken
-// it. Optional `svg` paths are relative to public/narratives.
+// it. `svg` paths are relative to public/narratives.
 // ---------------------------------------------------------------------------
 
 export interface FeaturedThm {
@@ -14,56 +14,12 @@ export interface FeaturedThm {
   math: string; // KaTeX statement
   blurb: string; // one-line plain-language summary
   statement: string; // real Lean statement, verbatim (proof omitted)
-  svg?: string; // dependency diagram, relative to /narratives
-  decls?: number; // declarations shown in the graph
+  svg: string; // dependency diagram, relative to /narratives
+  decls: number; // declarations shown in the graph
   graphLabel?: string; // defaults to "proof dependency graph"
 }
 
 export const featuredThms: FeaturedThm[] = [
-  {
-    name: "Holder-smooth ReLU approximation at the -2s/d rate",
-    module: "Nonparametric approximation",
-    leanFile: "Statlib/Nonparametric/Approximation/NeuralNetworkAlgebra.lean",
-    math:
-      "f\\in\\mathcal{H}^{r+\\beta}([0,1]^d)\\Rightarrow\\exists g\\in\\mathcal{N}_{L,W}:\\ " +
-      "\\sup_{x\\in[0,1]^d}|g(x)-f(x)|\\le c\\,(LW^2)^{-2(r+\\beta)/d}",
-    blurb:
-      "A fixed-width grid-scale construction is converted into an explicit " +
-      "depth-width approximation rate for high-dimensional Holder-smooth functions.",
-    statement: `theorem holderSmoothBall_unitCube_LW2_rate_from_fixed_width_M_rate
-    {d r W0 : ℕ} {beta C B cDepth cErr : ℝ}
-    (hd : 0 < d) (hW0 : 0 < W0)
-    (hbeta_nonneg : 0 ≤ beta)
-    (hsmooth_pos : 0 < (r : ℝ) + beta)
-    (hcDepth : 0 < cDepth) (hcErr : 0 < cErr)
-    (hMrate :
-      ∀ M : ℕ, 0 < M →
-        ∃ D P : ℕ,
-          0 < D ∧
-          (D : ℝ) ≤ cDepth * ((M : ℝ) ^ d) ∧
-          P = fullyConnectedReLUParameterCount d D W0 ∧
-          ∀ f : (Fin d → ℝ) → ℝ,
-            f ∈ holderSmoothBall r beta C B →
-            ∃ g : (Fin d → ℝ) → ℝ,
-              g ∈ reluNetworkClass d D W0 P ∧
-              ∀ x : Fin d → ℝ,
-                (∀ q : Fin d, x q ∈ Set.Icc (0 : ℝ) 1) →
-                  |g x - f x| ≤ cErr * (M : ℝ).rpow (-(2 * ((r : ℝ) + beta)))) :
-    ∃ cRate : ℝ, 0 < cRate ∧
-      ∀ M : ℕ, 0 < M →
-        ∃ L W P : ℕ,
-          0 < L ∧ 0 < W ∧
-          P = fullyConnectedReLUParameterCount d L W ∧
-          ∀ f : (Fin d → ℝ) → ℝ,
-            f ∈ holderSmoothBall r beta C B →
-            ∃ g : (Fin d → ℝ) → ℝ,
-              g ∈ reluNetworkClass d L W P ∧
-              ∀ x : Fin d → ℝ,
-                (∀ q : Fin d, x q ∈ Set.Icc (0 : ℝ) 1) →
-                  |g x - f x| ≤ cRate *
-                    (((L : ℝ) * (W : ℝ) ^ 2).rpow
-                      (-(2 * ((r : ℝ) + beta) / (d : ℝ)))) := by`,
-  },
   {
     name: "High-order multivariate B-spline Holder rate",
     module: "Nonparametric approximation",
@@ -97,6 +53,8 @@ export const featuredThms: FeaturedThm[] = [
             ≤ M * Real.rpow
               ((unitCubePositiveDegreeExtendedBSplineSystem q d K).basisCount : ℝ)
               (-(2 * ((r : ℝ) + beta)) / (d : ℝ)) := by`,
+    svg: "Nonparametric/unit_cube_bspline_high_order_holder_smooth_uniform_sieve_approximation_rate.svg",
+    decls: 83,
   },
   {
     name: "Gaussian Log-Sobolev inequality for Lipschitz functions",
@@ -121,6 +79,8 @@ export const featuredThms: FeaturedThm[] = [
           Real.log (∫ x, Real.exp (g x) ∂γ) ≤
       (1 / 2 : ℝ) *
         ∫ x, (‖fderiv ℝ g x‖ ^ 2) * Real.exp (g x) ∂γ := by`,
+    svg: "StatFoundation/standardGaussian_logSobolev_lipschitz_euclidean.svg",
+    decls: 107,
   },
   {
     name: "Wedin sin-theta theorem for singular subspaces",
@@ -151,8 +111,7 @@ export const featuredThms: FeaturedThm[] = [
         (frobeniusNorm (V1 * V1.transpose - Vhat1 * Vhat1.transpose)) ≤
       Real.sqrt (2 * (r : ℝ)) * opNorm E / δ := by`,
     svg: "HighDim/wedin_sin_theta.svg",
-    decls: 14,
-    graphLabel: "selected dependency map",
+    decls: 130,
   },
   {
     name: "Debiased LASSO standard Wald coverage",
@@ -217,7 +176,6 @@ export const featuredThms: FeaturedThm[] = [
       atTop
       (nhds (ENNReal.ofReal (1 - α))) := by`,
     svg: "HighDim/tendsto_measure_debiasedLasso_standardWaldCI_coverage_iidScoreSum_real.svg",
-    decls: 13,
-    graphLabel: "selected dependency map",
+    decls: 68,
   },
 ];

@@ -5,8 +5,8 @@ Closure: 4 declarations across 3 files. Generated from `proof_graph.json` — no
 
 Reading order (foundations first, headline last):
 
-  ◆ `empiricalAverage` — noncomputable def · `Statlib/StatFoundation/Vocabulary/EmpiricalProcess.lean:35`  _(also used by 3: rademacher_generalization_bound, empirical_symmetrization, uniform_deviation_finite_class)_
-  ◆ `uniformDeviation` — noncomputable def · `Statlib/StatFoundation/Vocabulary/EmpiricalProcess.lean:43`  _(also used by 3: rademacher_generalization_bound, empirical_symmetrization, uniform_deviation_finite_class)_
+  ◆ `empiricalAverage` — noncomputable def · `Statlib/StatFoundation/Vocabulary/EmpiricalProcess.lean:35`  _(also used by 5: rademacher_generalization_bound, finite_class_one_sided_deviation_tail_from_rademacher_complexity, empirical_symmetrization, …)_
+  ◆ `uniformDeviation` — noncomputable def · `Statlib/StatFoundation/Vocabulary/EmpiricalProcess.lean:43`  _(also used by 4: empirical_process_dudley_bound, rademacher_generalization_bound, empirical_symmetrization, …)_
   ★ `mcdiarmid_meas_ge_le_exp` — theorem · `Statlib/StatFoundation/Concentration/ExponentialType/mcdiarmid_meas_ge_le_exp.lean:9`  _(also used by 1: rademacher_generalization_bound)_
 ★ `empirical_process_bounded_difference` — theorem · `Statlib/StatFoundation/EmpiricalProcess/BoundedDifference.lean:8` **← headline**
 

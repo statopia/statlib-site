@@ -18,7 +18,7 @@
 <!-- n0 -->
 <g id="node1" class="node">
 <title>n0</title>
-<g id="a_node1"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/Nonparametric/Vocabulary/FunctionClasses.lean#L16" xlink:title="abbrev · Statlib/Nonparametric/Vocabulary/FunctionClasses.lean:16" target="_blank">
+<g id="a_node1"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/Nonparametric/Vocabulary/FunctionClasses.lean:16" xlink:title="abbrev · Statlib/Nonparametric/Vocabulary/FunctionClasses.lean:16" target="_blank">
 <path fill="#d6e9ff" stroke="#3b82f6" d="M83.68,-196C83.68,-196 28.32,-196 28.32,-196 22.32,-196 16.32,-190 16.32,-184 16.32,-184 16.32,-172 16.32,-172 16.32,-166 22.32,-160 28.32,-160 28.32,-160 83.68,-160 83.68,-160 89.68,-160 95.68,-166 95.68,-172 95.68,-172 95.68,-184 95.68,-184 95.68,-190 89.68,-196 83.68,-196"/>
 <text xml:space="preserve" text-anchor="middle" x="56" y="-175" font-family="Helvetica,sans-Serif" font-size="10.00">FunctionClass</text>
 </a>
@@ -27,7 +27,7 @@
 <!-- n1 -->
 <g id="node2" class="node">
 <title>n1</title>
-<g id="a_node2"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/Nonparametric/Vocabulary/Kernel.lean#L28" xlink:title="noncomputable def · Statlib/Nonparametric/Vocabulary/Kernel.lean:28" target="_blank">
+<g id="a_node2"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/Nonparametric/Vocabulary/Kernel.lean:28" xlink:title="noncomputable def · Statlib/Nonparametric/Vocabulary/Kernel.lean:28" target="_blank">
 <path fill="#d6e9ff" stroke="#3b82f6" d="M752.13,-52C752.13,-52 697.87,-52 697.87,-52 691.87,-52 685.87,-46 685.87,-40 685.87,-40 685.87,-28 685.87,-28 685.87,-22 691.87,-16 697.87,-16 697.87,-16 752.13,-16 752.13,-16 758.13,-16 764.13,-22 764.13,-28 764.13,-28 764.13,-40 764.13,-40 764.13,-46 758.13,-52 752.13,-52"/>
 <text xml:space="preserve" text-anchor="middle" x="725" y="-31" font-family="Helvetica,sans-Serif" font-size="10.00">productKernel</text>
 </a>
@@ -36,7 +36,7 @@
 <!-- n2 -->
 <g id="node3" class="node">
 <title>n2</title>
-<g id="a_node3"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/Nonparametric/Vocabulary/FunctionClasses.lean#L44" xlink:title="def · Statlib/Nonparametric/Vocabulary/FunctionClasses.lean:44" target="_blank">
+<g id="a_node3"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/Nonparametric/Vocabulary/FunctionClasses.lean:44" xlink:title="def · Statlib/Nonparametric/Vocabulary/FunctionClasses.lean:44" target="_blank">
 <path fill="#d6e9ff" stroke="#3b82f6" d="M693.8,-124C693.8,-124 626.2,-124 626.2,-124 620.2,-124 614.2,-118 614.2,-112 614.2,-112 614.2,-100 614.2,-100 614.2,-94 620.2,-88 626.2,-88 626.2,-88 693.8,-88 693.8,-88 699.8,-88 705.8,-94 705.8,-100 705.8,-100 705.8,-112 705.8,-112 705.8,-118 699.8,-124 693.8,-124"/>
 <text xml:space="preserve" text-anchor="middle" x="660" y="-103" font-family="Helvetica,sans-Serif" font-size="10.00">IsHolderFunction</text>
 </a>
@@ -45,7 +45,7 @@
 <!-- n3 -->
 <g id="node4" class="node">
 <title>n3</title>
-<g id="a_node4"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/Nonparametric/Vocabulary/Kernel.lean#L39" xlink:title="noncomputable def · Statlib/Nonparametric/Vocabulary/Kernel.lean:39" target="_blank">
+<g id="a_node4"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/Nonparametric/Vocabulary/Kernel.lean:39" xlink:title="noncomputable def · Statlib/Nonparametric/Vocabulary/Kernel.lean:39" target="_blank">
 <path fill="#d6e9ff" stroke="#3b82f6" d="M838.3,-196C838.3,-196 775.7,-196 775.7,-196 769.7,-196 763.7,-190 763.7,-184 763.7,-184 763.7,-172 763.7,-172 763.7,-166 769.7,-160 775.7,-160 775.7,-160 838.3,-160 838.3,-160 844.3,-160 850.3,-166 850.3,-172 850.3,-172 850.3,-184 850.3,-184 850.3,-190 844.3,-196 838.3,-196"/>
 <text xml:space="preserve" text-anchor="middle" x="807" y="-175" font-family="Helvetica,sans-Serif" font-size="10.00">kernelSmoother</text>
 </a>
@@ -60,7 +60,7 @@
 <!-- n4 -->
 <g id="node5" class="node">
 <title>n4</title>
-<g id="a_node5"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/Nonparametric/Vocabulary/Risk.lean#L60" xlink:title="noncomputable def · Statlib/Nonparametric/Vocabulary/Risk.lean:60" target="_blank">
+<g id="a_node5"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/Nonparametric/Vocabulary/Risk.lean:60" xlink:title="noncomputable def · Statlib/Nonparametric/Vocabulary/Risk.lean:60" target="_blank">
 <path fill="#d6e9ff" stroke="#3b82f6" d="M193.25,-124C193.25,-124 96.75,-124 96.75,-124 90.75,-124 84.75,-118 84.75,-112 84.75,-112 84.75,-100 84.75,-100 84.75,-94 90.75,-88 96.75,-88 96.75,-88 193.25,-88 193.25,-88 199.25,-88 205.25,-94 205.25,-100 205.25,-100 205.25,-112 205.25,-112 205.25,-118 199.25,-124 193.25,-124"/>
 <text xml:space="preserve" text-anchor="middle" x="145" y="-103" font-family="Helvetica,sans-Serif" font-size="10.00">integratedSquaredError</text>
 </a>
@@ -69,7 +69,7 @@
 <!-- n5 -->
 <g id="node6" class="node">
 <title>n5</title>
-<g id="a_node6"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/Nonparametric/Vocabulary/Risk.lean#L75" xlink:title="noncomputable def · Statlib/Nonparametric/Vocabulary/Risk.lean:75" target="_blank">
+<g id="a_node6"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/Nonparametric/Vocabulary/Risk.lean:75" xlink:title="noncomputable def · Statlib/Nonparametric/Vocabulary/Risk.lean:75" target="_blank">
 <path fill="#d6e9ff" stroke="#3b82f6" d="M157.46,-268C157.46,-268 56.54,-268 56.54,-268 50.54,-268 44.54,-262 44.54,-256 44.54,-256 44.54,-244 44.54,-244 44.54,-238 50.54,-232 56.54,-232 56.54,-232 157.46,-232 157.46,-232 163.46,-232 169.46,-238 169.46,-244 169.46,-244 169.46,-256 169.46,-256 169.46,-262 163.46,-268 157.46,-268"/>
 <text xml:space="preserve" text-anchor="middle" x="107" y="-247" font-family="Helvetica,sans-Serif" font-size="10.00">classApproximationError</text>
 </a>
@@ -90,7 +90,7 @@
 <!-- n6 -->
 <g id="node7" class="node">
 <title>n6</title>
-<g id="a_node7"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/Nonparametric/Vocabulary/Kernel.lean#L45" xlink:title="noncomputable def · Statlib/Nonparametric/Vocabulary/Kernel.lean:45" target="_blank">
+<g id="a_node7"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/Nonparametric/Vocabulary/Kernel.lean:45" xlink:title="noncomputable def · Statlib/Nonparametric/Vocabulary/Kernel.lean:45" target="_blank">
 <path fill="#d6e9ff" stroke="#3b82f6" d="M551.68,-124C551.68,-124 496.32,-124 496.32,-124 490.32,-124 484.32,-118 484.32,-112 484.32,-112 484.32,-100 484.32,-100 484.32,-94 490.32,-88 496.32,-88 496.32,-88 551.68,-88 551.68,-88 557.68,-88 563.68,-94 563.68,-100 563.68,-100 563.68,-112 563.68,-112 563.68,-118 557.68,-124 551.68,-124"/>
 <text xml:space="preserve" text-anchor="middle" x="524" y="-103" font-family="Helvetica,sans-Serif" font-size="10.00">kernelMoment</text>
 </a>
@@ -105,7 +105,7 @@
 <!-- n7 -->
 <g id="node8" class="node">
 <title>n7</title>
-<g id="a_node8"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/Nonparametric/Approximation/Kernel.lean#L17" xlink:title="theorem · Statlib/Nonparametric/Approximation/Kernel.lean:17" target="_blank">
+<g id="a_node8"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/Nonparametric/Approximation/Kernel.lean:17" xlink:title="theorem · Statlib/Nonparametric/Approximation/Kernel.lean:17" target="_blank">
 <path fill="#ffe6a3" stroke="#d4a017" d="M674.49,-196C674.49,-196 543.51,-196 543.51,-196 537.51,-196 531.51,-190 531.51,-184 531.51,-184 531.51,-172 531.51,-172 531.51,-166 537.51,-160 543.51,-160 543.51,-160 674.49,-160 674.49,-160 680.49,-160 686.49,-166 686.49,-172 686.49,-172 686.49,-184 686.49,-184 686.49,-190 680.49,-196 674.49,-196"/>
 <text xml:space="preserve" text-anchor="middle" x="609" y="-175" font-family="Helvetica,sans-Serif" font-size="10.00">kernel_holder_bias_normalized</text>
 </a>
@@ -132,7 +132,7 @@
 <!-- n8 -->
 <g id="node9" class="node">
 <title>n8</title>
-<g id="a_node9"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/Nonparametric/Vocabulary/Estimator.lean#L28" xlink:title="noncomputable def · Statlib/Nonparametric/Vocabulary/Estimator.lean:28" target="_blank">
+<g id="a_node9"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/Nonparametric/Vocabulary/Estimator.lean:28" xlink:title="noncomputable def · Statlib/Nonparametric/Vocabulary/Estimator.lean:28" target="_blank">
 <path fill="#d6e9ff" stroke="#3b82f6" d="M438,-52C438,-52 408,-52 408,-52 402,-52 396,-46 396,-40 396,-40 396,-28 396,-28 396,-22 402,-16 408,-16 408,-16 438,-16 438,-16 444,-16 450,-22 450,-28 450,-28 450,-40 450,-40 450,-46 444,-52 438,-52"/>
 <text xml:space="preserve" text-anchor="middle" x="423" y="-31" font-family="Helvetica,sans-Serif" font-size="10.00">bias</text>
 </a>
@@ -141,7 +141,7 @@
 <!-- n9 -->
 <g id="node10" class="node">
 <title>n9</title>
-<g id="a_node10"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/Nonparametric/Vocabulary/NeuralNetwork.lean#L23" xlink:title="structure · Statlib/Nonparametric/Vocabulary/NeuralNetwork.lean:23" target="_blank">
+<g id="a_node10"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/Nonparametric/Vocabulary/NeuralNetwork.lean:23" xlink:title="structure · Statlib/Nonparametric/Vocabulary/NeuralNetwork.lean:23" target="_blank">
 <path fill="#e8dcff" stroke="#8b5cf6" d="M418.96,-124C418.96,-124 373.04,-124 373.04,-124 367.04,-124 361.04,-118 361.04,-112 361.04,-112 361.04,-100 361.04,-100 361.04,-94 367.04,-88 373.04,-88 373.04,-88 418.96,-88 418.96,-88 424.96,-88 430.96,-94 430.96,-100 430.96,-100 430.96,-112 430.96,-112 430.96,-118 424.96,-124 418.96,-124"/>
 <text xml:space="preserve" text-anchor="middle" x="396" y="-103" font-family="Helvetica,sans-Serif" font-size="10.00">DenseLayer</text>
 </a>
@@ -156,7 +156,7 @@
 <!-- n10 -->
 <g id="node11" class="node">
 <title>n10</title>
-<g id="a_node11"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/Nonparametric/Vocabulary/NeuralNetwork.lean#L30" xlink:title="noncomputable def · Statlib/Nonparametric/Vocabulary/NeuralNetwork.lean:30" target="_blank">
+<g id="a_node11"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/Nonparametric/Vocabulary/NeuralNetwork.lean:30" xlink:title="noncomputable def · Statlib/Nonparametric/Vocabulary/NeuralNetwork.lean:30" target="_blank">
 <path fill="#d6e9ff" stroke="#3b82f6" d="M462,-196C462,-196 432,-196 432,-196 426,-196 420,-190 420,-184 420,-184 420,-172 420,-172 420,-166 426,-160 432,-160 432,-160 462,-160 462,-160 468,-160 474,-166 474,-172 474,-172 474,-184 474,-184 474,-190 468,-196 462,-196"/>
 <text xml:space="preserve" text-anchor="middle" x="447" y="-175" font-family="Helvetica,sans-Serif" font-size="10.00">apply</text>
 </a>
@@ -177,7 +177,7 @@
 <!-- n11 -->
 <g id="node12" class="node">
 <title>n11</title>
-<g id="a_node12"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/Nonparametric/Approximation/Metric.lean#L10" xlink:title="theorem · Statlib/Nonparametric/Approximation/Metric.lean:10" target="_blank">
+<g id="a_node12"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/Nonparametric/Approximation/Metric.lean:10" xlink:title="theorem · Statlib/Nonparametric/Approximation/Metric.lean:10" target="_blank">
 <path fill="#ffe6a3" stroke="#d4a017" d="M390.19,-196C390.19,-196 185.81,-196 185.81,-196 179.81,-196 173.81,-190 173.81,-184 173.81,-184 173.81,-172 173.81,-172 173.81,-166 179.81,-160 185.81,-160 185.81,-160 390.19,-160 390.19,-160 396.19,-160 402.19,-166 402.19,-172 402.19,-172 402.19,-184 402.19,-184 402.19,-190 396.19,-196 390.19,-196"/>
 <text xml:space="preserve" text-anchor="middle" x="288" y="-175" font-family="Helvetica,sans-Serif" font-size="10.00">integratedSquaredError_le_of_pointwise_bound</text>
 </a>
@@ -192,7 +192,7 @@
 <!-- n12 -->
 <g id="node13" class="node">
 <title>n12</title>
-<g id="a_node13"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/Nonparametric/Approximation/Kernel.lean#L176" xlink:title="theorem · Statlib/Nonparametric/Approximation/Kernel.lean:176" target="_blank">
+<g id="a_node13"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/Nonparametric/Approximation/Kernel.lean:176" xlink:title="theorem · Statlib/Nonparametric/Approximation/Kernel.lean:176" target="_blank">
 <path fill="#ffe6a3" stroke="#d4a017" d="M713.97,-268C713.97,-268 494.03,-268 494.03,-268 488.03,-268 482.03,-262 482.03,-256 482.03,-256 482.03,-244 482.03,-244 482.03,-238 488.03,-232 494.03,-232 494.03,-232 713.97,-232 713.97,-232 719.97,-232 725.97,-238 725.97,-244 725.97,-244 725.97,-256 725.97,-256 725.97,-262 719.97,-268 713.97,-268"/>
 <text xml:space="preserve" text-anchor="middle" x="604" y="-247" font-family="Helvetica,sans-Serif" font-size="10.00">kernel_holder_bias_integratedSquaredError_bound</text>
 </a>
@@ -249,7 +249,7 @@
 <!-- n13 -->
 <g id="node14" class="node">
 <title>n13</title>
-<g id="a_node14"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/Nonparametric/Approximation/Kernel.lean#L223" xlink:title="theorem · Statlib/Nonparametric/Approximation/Kernel.lean:223" target="_blank">
+<g id="a_node14"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/Nonparametric/Approximation/Kernel.lean:223" xlink:title="theorem · Statlib/Nonparametric/Approximation/Kernel.lean:223" target="_blank">
 <path fill="#ffe6a3" stroke="#d4a017" stroke-width="3" d="M686.86,-340C686.86,-340 379.14,-340 379.14,-340 373.14,-340 367.14,-334 367.14,-328 367.14,-328 367.14,-316 367.14,-316 367.14,-310 373.14,-304 379.14,-304 379.14,-304 686.86,-304 686.86,-304 692.86,-304 698.86,-310 698.86,-316 698.86,-316 698.86,-328 698.86,-328 698.86,-334 692.86,-340 686.86,-340"/>
 <text xml:space="preserve" text-anchor="middle" x="533" y="-319" font-family="Helvetica,sans-Serif" font-size="10.00">kernel_smoother_classApproximationError_le_of_holder_bias_member</text>
 </a>

@@ -5,7 +5,7 @@ Closure: 8 declarations across 3 files. Generated from `proof_graph.json` — no
 
 Reading order (foundations first, headline last):
 
-  ◆ `predictionRisk` — noncomputable def · `Statlib/Nonparametric/Vocabulary/Risk.lean:24`  _(also used by 4: oracleRisk_le_of_member, linkedPredictionRisk, oracleRisk, …)_
+  ◆ `predictionRisk` — noncomputable def · `Statlib/Nonparametric/Vocabulary/Risk.lean:24`  _(also used by 5: oracleRisk_le_of_member, approximationError_le_of_exists_risk_le, linkedPredictionRisk, …)_
   ◆ `bernoulliNegLogLikelihood` — noncomputable def · `Statlib/Nonparametric/Vocabulary/Loss.lean:32`
     ▣ `LinkFunction` — structure · `Statlib/Nonparametric/Vocabulary/Models.lean:27`  _(also used by 2: LinkedRegressionModel, linkedPredictionRisk)_
   ◆ `linkedMean` — def · `Statlib/Nonparametric/Vocabulary/Models.lean:53`  _(also used by 1: linkedPredictionRisk)_

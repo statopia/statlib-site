@@ -1,34 +1,74 @@
 # Nonparametric — proof narratives
 
-79 headline result(s).
+157 headline result(s).
 
-- [classApproximationError_finiteLinearSpan_eq_sieveApproximationError](classApproximationError_finiteLinearSpan_eq_sieveApproximationError.md) — theorem, 9 decl(s) · `Statlib/Nonparametric/Approximation/Sieve.lean:240`
+- [approximationError_le_of_exists_risk_le](approximationError_le_of_exists_risk_le.md) — theorem, 5 decl(s) · `Statlib/Nonparametric/OracleInterface/Risk.lean:21`
+- [axisAlignedBoxIndicatorRamp](axisAlignedBoxIndicatorRamp.md) — noncomputable def, 2 decl(s) · `Statlib/Nonparametric/Vocabulary/NeuralNetwork.lean:254`
 - [classApproximationError_le_of_exists_ise](classApproximationError_le_of_exists_ise.md) — theorem, 4 decl(s) · `Statlib/Nonparametric/Approximation/Metric.lean:120`
 - [classApproximationError_le_of_exists_pointwise_bound](classApproximationError_le_of_exists_pointwise_bound.md) — theorem, 8 decl(s) · `Statlib/Nonparametric/Approximation/Metric.lean:137`
 - [classApproximationError_le_of_member_ise](classApproximationError_le_of_member_ise.md) — theorem, 4 decl(s) · `Statlib/Nonparametric/Approximation/Metric.lean:49`
 - [classApproximationError_le_of_member_pointwise_bound](classApproximationError_le_of_member_pointwise_bound.md) — theorem, 4 decl(s) · `Statlib/Nonparametric/Approximation/Metric.lean:60`
-- [exists_selectorIndicator_sieve_for_holderBall_of_finite_net](exists_selectorIndicator_sieve_for_holderBall_of_finite_net.md) — theorem, 23 decl(s) · `Statlib/Nonparametric/Approximation/Holder.lean:352`
-- [exists_selectorIndicatorSieve_for_holderBall_rate_of_finite_measurable_cover](exists_selectorIndicatorSieve_for_holderBall_rate_of_finite_measurable_cover.md) — theorem, 25 decl(s) · `Statlib/Nonparametric/Approximation/Holder.lean:463`
-- [exists_sieveApproximationError_uniform_bound_of_exists_pointwise_series](exists_sieveApproximationError_uniform_bound_of_exists_pointwise_series.md) — theorem, 13 decl(s) · `Statlib/Nonparametric/Approximation/Sieve.lean:302`
-- [finiteLinearSpan_classApproximationError_le_of_coefficients](finiteLinearSpan_classApproximationError_le_of_coefficients.md) — theorem, 7 decl(s) · `Statlib/Nonparametric/Approximation/Sieve.lean:135`
-- [finiteLinearSpan_classApproximationError_le_of_exists_pointwise_series](finiteLinearSpan_classApproximationError_le_of_exists_pointwise_series.md) — theorem, 8 decl(s) · `Statlib/Nonparametric/Approximation/Sieve.lean:180`
-- [finiteLinearSpan_classApproximationError_le_of_pointwise_series_bound](finiteLinearSpan_classApproximationError_le_of_pointwise_series_bound.md) — theorem, 11 decl(s) · `Statlib/Nonparametric/Approximation/Sieve.lean:151`
-- [finiteLinearSpan_classApproximationError_self_series_le_zero](finiteLinearSpan_classApproximationError_self_series_le_zero.md) — theorem, 7 decl(s) · `Statlib/Nonparametric/Approximation/Sieve.lean:202`
+- [cqr_miscoverage_bound_of_score_miscoverage](cqr_miscoverage_bound_of_score_miscoverage.md) — theorem, 6 decl(s) · `Statlib/Nonparametric/ConformalQuantileRegression.lean:52`
+- [cqr_prediction_event_eq_score_event](cqr_prediction_event_eq_score_event.md) — theorem, 5 decl(s) · `Statlib/Nonparametric/ConformalQuantileRegression.lean:32`
+- [cqrCalibrationScores](cqrCalibrationScores.md) — def, 2 decl(s) · `Statlib/Nonparametric/Vocabulary/ConformalQuantileRegression.lean:22`
+- [dyadic_wavelet_high_order_holder_smooth_uniform_sieve_approximation_rate_of_projection_certificate](dyadic_wavelet_high_order_holder_smooth_uniform_sieve_approximation_rate_of_projection_certificate.md) — theorem, 38 decl(s) · `Statlib/Nonparametric/Approximation/Wavelet.lean:456`
+- [dyadic_wavelet_high_order_holder_smooth_uniform_sieve_approximation_rate_of_projection_error](dyadic_wavelet_high_order_holder_smooth_uniform_sieve_approximation_rate_of_projection_error.md) — theorem, 39 decl(s) · `Statlib/Nonparametric/Approximation/Wavelet.lean:494`
+- [evaluationFunctional_apply](evaluationFunctional_apply.md) — theorem, 3 decl(s) · `Statlib/Nonparametric/Approximation/RKHS.lean:116`
+- [evaluationFunctional_norm](evaluationFunctional_norm.md) — theorem, 3 decl(s) · `Statlib/Nonparametric/Approximation/RKHS.lean:124`
+- [exists_centeredMonomialFixedWidthApproxError_unit_radius_sigma_sum_le](exists_centeredMonomialFixedWidthApproxError_unit_radius_sigma_sum_le.md) — theorem, 2 decl(s) · `Statlib/Nonparametric/Approximation/NeuralNetworkAlgebra.lean:22945`
+- [exists_centeredMonomialFixedWidthApproxError_unit_radius_sigma_sum_quadratic_bound](exists_centeredMonomialFixedWidthApproxError_unit_radius_sigma_sum_quadratic_bound.md) — theorem, 2 decl(s) · `Statlib/Nonparametric/Approximation/NeuralNetworkAlgebra.lean:23541`
+- [exists_fullyConnectedReLUNet_finite_quadratic_polynomial_approx_on_box](exists_fullyConnectedReLUNet_finite_quadratic_polynomial_approx_on_box.md) — theorem, 29 decl(s) · `Statlib/Nonparametric/Approximation/NeuralNetworkAlgebra.lean:1047`
+- [exists_fullyConnectedReLUNet_holderSmooth_local_approx_on_centered_box](exists_fullyConnectedReLUNet_holderSmooth_local_approx_on_centered_box.md) — theorem, 35 decl(s) · `Statlib/Nonparametric/Approximation/NeuralNetworkAlgebra.lean:6096`
+- [exists_fullyConnectedReLUNet_holderSmooth_local_approx_on_centered_box_with_depth_bound](exists_fullyConnectedReLUNet_holderSmooth_local_approx_on_centered_box_with_depth_bound.md) — theorem, 38 decl(s) · `Statlib/Nonparametric/Approximation/NeuralNetworkAlgebra.lean:6168`
+- [exists_fullyConnectedReLUNet_product_of_depth_one_approximants_on_box](exists_fullyConnectedReLUNet_product_of_depth_one_approximants_on_box.md) — theorem, 25 decl(s) · `Statlib/Nonparametric/Approximation/NeuralNetworkAlgebra.lean:1144`
+- [exists_fullyConnectedReLUNet_quadratic_two_term_approx_on_box](exists_fullyConnectedReLUNet_quadratic_two_term_approx_on_box.md) — theorem, 27 decl(s) · `Statlib/Nonparametric/Approximation/NeuralNetworkAlgebra.lean:883`
+- [exists_fullyConnectedReLUNet_taylor_polynomial_approx_on_centered_box_with_depth_bound](exists_fullyConnectedReLUNet_taylor_polynomial_approx_on_centered_box_with_depth_bound.md) — theorem, 31 decl(s) · `Statlib/Nonparametric/Approximation/NeuralNetworkAlgebra.lean:6135`
+- [exists_fullyConnectedReLUNet_unitInterval_square_approx](exists_fullyConnectedReLUNet_unitInterval_square_approx.md) — theorem, 18 decl(s) · `Statlib/Nonparametric/Approximation/NeuralNetworkAlgebra.lean:231`
+- [exists_reluNetworkClass_finite_centered_monomial_polynomial_fixed_width_depth_rate_from_mul_gadget](exists_reluNetworkClass_finite_centered_monomial_polynomial_fixed_width_depth_rate_from_mul_gadget.md) — theorem, 25 decl(s) · `Statlib/Nonparametric/Approximation/NeuralNetworkAlgebra.lean:23086`
+- [exists_reluNetworkClass_holderSmooth_axisAligned_tent_partition_approximation_on_domain_bound](exists_reluNetworkClass_holderSmooth_axisAligned_tent_partition_approximation_on_domain_bound.md) — theorem, 56 decl(s) · `Statlib/Nonparametric/Approximation/NeuralNetworkAlgebra.lean:8657`
+- [exists_reluNetworkClass_holderSmooth_local_approx_on_centered_box_with_symbolic_budget](exists_reluNetworkClass_holderSmooth_local_approx_on_centered_box_with_symbolic_budget.md) — theorem, 43 decl(s) · `Statlib/Nonparametric/Approximation/NeuralNetworkAlgebra.lean:6250`
+- [exists_reluNetworkClass_holderSmooth_unitCube_approximation](exists_reluNetworkClass_holderSmooth_unitCube_approximation.md) — theorem, 66 decl(s) · `Statlib/Nonparametric/Approximation/NeuralNetworkAlgebra.lean:13339`
+- [exists_reluNetworkClass_holderSmooth_unitCube_approximation_from_exact_grid](exists_reluNetworkClass_holderSmooth_unitCube_approximation_from_exact_grid.md) — theorem, 60 decl(s) · `Statlib/Nonparametric/Approximation/NeuralNetworkAlgebra.lean:10932`
+- [exists_reluNetworkClass_holderSmooth_unitCube_fixed_width_exact_grid_and_error_budget](exists_reluNetworkClass_holderSmooth_unitCube_fixed_width_exact_grid_and_error_budget.md) — theorem, 26 decl(s) · `Statlib/Nonparametric/Approximation/NeuralNetworkAlgebra.lean:20070`
+- [exists_reluNetworkClass_holderSmooth_unitCube_fixed_width_exact_grid_explicit_depth_and_error_budget](exists_reluNetworkClass_holderSmooth_unitCube_fixed_width_exact_grid_explicit_depth_and_error_budget.md) — theorem, 26 decl(s) · `Statlib/Nonparametric/Approximation/NeuralNetworkAlgebra.lean:22472`
+- [exists_reluNetworkClass_holderSmoothBall_unitCube_uniform_parameter_count](exists_reluNetworkClass_holderSmoothBall_unitCube_uniform_parameter_count.md) — theorem, 70 decl(s) · `Statlib/Nonparametric/Approximation/NeuralNetworkAlgebra.lean:13468`
+- [exists_reluNetworkClass_mul_fixed_width_depth_rate_on_box](exists_reluNetworkClass_mul_fixed_width_depth_rate_on_box.md) — theorem, 25 decl(s) · `Statlib/Nonparametric/Approximation/NeuralNetworkAlgebra.lean:15477`
+- [exists_selector_indicator_sieve_holder_approximation_bound](exists_selector_indicator_sieve_holder_approximation_bound.md) — theorem, 23 decl(s) · `Statlib/Nonparametric/Approximation/Holder.lean:352`
+- [exists_uniform_sieve_approximation_error_bound_of_pointwise_series_approximation](exists_uniform_sieve_approximation_error_bound_of_pointwise_series_approximation.md) — theorem, 13 decl(s) · `Statlib/Nonparametric/Approximation/Sieve.lean:360`
+- [exists_unitCube_axisAlignedBoxTentWeight_partition_data](exists_unitCube_axisAlignedBoxTentWeight_partition_data.md) — theorem, 7 decl(s) · `Statlib/Nonparametric/Approximation/NeuralNetworkAlgebra.lean:9780`
+- [featureMap_gram_posDef](featureMap_gram_posDef.md) — theorem, 3 decl(s) · `Statlib/Nonparametric/Vocabulary/KernelMethods.lean:81`
+- [featureMap_gram_psd](featureMap_gram_psd.md) — theorem, 3 decl(s) · `Statlib/Nonparametric/Vocabulary/KernelMethods.lean:70`
+- [finite_axisAligned_tent_weighted_local_products_fixed_width_depth_sum_bound](finite_axisAligned_tent_weighted_local_products_fixed_width_depth_sum_bound.md) — theorem, 18 decl(s) · `Statlib/Nonparametric/Approximation/NeuralNetworkAlgebra.lean:19797`
+- [finite_axisAligned_tent_weighted_local_reluNetworkClass_global_error_bound](finite_axisAligned_tent_weighted_local_reluNetworkClass_global_error_bound.md) — theorem, 23 decl(s) · `Statlib/Nonparametric/Approximation/NeuralNetworkAlgebra.lean:8203`
+- [finite_axisAlignedBoxTentWeight_common_fixed_width_depth_rate_from_mul_gadget](finite_axisAlignedBoxTentWeight_common_fixed_width_depth_rate_from_mul_gadget.md) — theorem, 39 decl(s) · `Statlib/Nonparametric/Approximation/NeuralNetworkAlgebra.lean:19658`
+- [finite_grid_selector_indicator_local_reluNetworkClass_approximation_bound](finite_grid_selector_indicator_local_reluNetworkClass_approximation_bound.md) — theorem, 11 decl(s) · `Statlib/Nonparametric/Approximation/NeuralNetworkAlgebra.lean:6665`
+- [finite_holderSmooth_local_table_reluNetworkClass_active_cell_error_bound](finite_holderSmooth_local_table_reluNetworkClass_active_cell_error_bound.md) — theorem, 43 decl(s) · `Statlib/Nonparametric/Approximation/NeuralNetworkAlgebra.lean:8483`
+- [finite_holderSmooth_local_table_reluNetworkClass_fixed_width_active_cell_error_and_domain_output_bound_from_mul_gadget](finite_holderSmooth_local_table_reluNetworkClass_fixed_width_active_cell_error_and_domain_output_bound_from_mul_gadget.md) — theorem, 32 decl(s) · `Statlib/Nonparametric/Approximation/NeuralNetworkAlgebra.lean:23672`
+- [finite_linear_span_class_approximation_error_eq_sieve_approximation_error](finite_linear_span_class_approximation_error_eq_sieve_approximation_error.md) — theorem, 9 decl(s) · `Statlib/Nonparametric/Approximation/Sieve.lean:298`
+- [finite_linear_span_class_approximation_error_le_of_coefficients](finite_linear_span_class_approximation_error_le_of_coefficients.md) — theorem, 7 decl(s) · `Statlib/Nonparametric/Approximation/Sieve.lean:193`
+- [finite_linear_span_class_approximation_error_le_of_exists_pointwise_series_approximation](finite_linear_span_class_approximation_error_le_of_exists_pointwise_series_approximation.md) — theorem, 8 decl(s) · `Statlib/Nonparametric/Approximation/Sieve.lean:238`
+- [finite_linear_span_class_approximation_error_le_of_pointwise_series_approximation](finite_linear_span_class_approximation_error_le_of_pointwise_series_approximation.md) — theorem, 11 decl(s) · `Statlib/Nonparametric/Approximation/Sieve.lean:209`
+- [finite_linear_span_class_approximation_error_self_series_le_zero](finite_linear_span_class_approximation_error_self_series_le_zero.md) — theorem, 7 decl(s) · `Statlib/Nonparametric/Approximation/Sieve.lean:260`
+- [fixedDepthWidthReLUNetClass](fixedDepthWidthReLUNetClass.md) — def, 9 decl(s) · `Statlib/Nonparametric/Vocabulary/NeuralNetwork.lean:225`
+- [freq_normalEquations](freq_normalEquations.md) — theorem, 4 decl(s) · `Statlib/Nonparametric/FunctionalData/Regression.lean:19`
+- [haar_wavelet_zero_order_holder_projection_rate_of_cell_selector](haar_wavelet_zero_order_holder_projection_rate_of_cell_selector.md) — theorem, 19 decl(s) · `Statlib/Nonparametric/Approximation/Wavelet.lean:574`
+- [haar_wavelet_zero_order_uniform_sieve_holder_approximation_rate_of_projection_error](haar_wavelet_zero_order_uniform_sieve_holder_approximation_rate_of_projection_error.md) — theorem, 48 decl(s) · `Statlib/Nonparametric/Approximation/Wavelet.lean:655`
+- [haarScalingWaveletSystem_isMeasurable](haarScalingWaveletSystem_isMeasurable.md) — theorem, 12 decl(s) · `Statlib/Nonparametric/Approximation/WaveletFacts.lean:32`
 - [HasEnvelope](HasEnvelope.md) — def, 2 decl(s) · `Statlib/Nonparametric/Vocabulary/FunctionClasses.lean:28`
-- [hasTensorProductSplineHolderSmoothPointwiseRate_of_projectionRate](hasTensorProductSplineHolderSmoothPointwiseRate_of_projectionRate.md) — theorem, 11 decl(s) · `Statlib/Nonparametric/Approximation/Spline.lean:40`
-- [hasWaveletHolderSmoothPointwiseRate_of_projectionRate](hasWaveletHolderSmoothPointwiseRate_of_projectionRate.md) — theorem, 11 decl(s) · `Statlib/Nonparametric/Approximation/Wavelet.lean:42`
-- [holder_classApproximationError_le_of_net_member](holder_classApproximationError_le_of_net_member.md) — theorem, 6 decl(s) · `Statlib/Nonparametric/Approximation/Holder.lean:56`
-- [holder_net_approx_sup_bound](holder_net_approx_sup_bound.md) — theorem, 2 decl(s) · `Statlib/Nonparametric/Approximation/Holder.lean:14`
-- [holder_net_integratedSquaredError_bound](holder_net_integratedSquaredError_bound.md) — theorem, 4 decl(s) · `Statlib/Nonparametric/Approximation/Holder.lean:30`
-- [holder_selector_net_classApproximationError_le_rate](holder_selector_net_classApproximationError_le_rate.md) — theorem, 12 decl(s) · `Statlib/Nonparametric/Approximation/Holder.lean:522`
-- [holder_selectorIndicator_series_integratedSquaredError_bound](holder_selectorIndicator_series_integratedSquaredError_bound.md) — theorem, 8 decl(s) · `Statlib/Nonparametric/Approximation/Holder.lean:141`
-- [holderBall_classApproximationError_self_le_zero](holderBall_classApproximationError_self_le_zero.md) — theorem, 6 decl(s) · `Statlib/Nonparametric/Approximation/Holder.lean:97`
-- [holderBall_selectorIndicator_sieveApproximationError_rate_of_cover](holderBall_selectorIndicator_sieveApproximationError_rate_of_cover.md) — theorem, 24 decl(s) · `Statlib/Nonparametric/Approximation/Holder.lean:498`
+- [holder_ball_class_approximation_error_self_le_zero](holder_ball_class_approximation_error_self_le_zero.md) — theorem, 6 decl(s) · `Statlib/Nonparametric/Approximation/Holder.lean:97`
+- [holder_class_approximation_error_le_of_net_member](holder_class_approximation_error_le_of_net_member.md) — theorem, 6 decl(s) · `Statlib/Nonparametric/Approximation/Holder.lean:56`
+- [holder_net_integrated_squared_error_bound](holder_net_integrated_squared_error_bound.md) — theorem, 4 decl(s) · `Statlib/Nonparametric/Approximation/Holder.lean:30`
+- [holder_net_sup_approximation_bound](holder_net_sup_approximation_bound.md) — theorem, 2 decl(s) · `Statlib/Nonparametric/Approximation/Holder.lean:14`
+- [holderSmoothBall_unitCube_epsilon_rate_from_M_rate](holderSmoothBall_unitCube_epsilon_rate_from_M_rate.md) — theorem, 18 decl(s) · `Statlib/Nonparametric/Approximation/NeuralNetworkAlgebra.lean:13633`
+- [holderSmoothBall_unitCube_fixed_width_M_rate_from_exact_grid](holderSmoothBall_unitCube_fixed_width_M_rate_from_exact_grid.md) — theorem, 16 decl(s) · `Statlib/Nonparametric/Approximation/NeuralNetworkAlgebra.lean:20119`
+- [holderSmoothBall_unitCube_LM2_rate_from_M_rate](holderSmoothBall_unitCube_LM2_rate_from_M_rate.md) — theorem, 16 decl(s) · `Statlib/Nonparametric/Approximation/NeuralNetworkAlgebra.lean:19952`
+- [holderSmoothBall_unitCube_LW2_rate_from_fixed_width_M_rate](holderSmoothBall_unitCube_LW2_rate_from_fixed_width_M_rate.md) — theorem, 17 decl(s) · `Statlib/Nonparametric/Approximation/NeuralNetworkAlgebra.lean:22519`
 - [integratedPointwiseVariance](integratedPointwiseVariance.md) — noncomputable def, 3 decl(s) · `Statlib/Nonparametric/Vocabulary/Estimator.lean:64`
 - [integratedSquaredBias](integratedSquaredBias.md) — noncomputable def, 3 decl(s) · `Statlib/Nonparametric/Vocabulary/Estimator.lean:69`
 - [IsHolderClass](IsHolderClass.md) — def, 3 decl(s) · `Statlib/Nonparametric/Vocabulary/FunctionClasses.lean:48`
 - [IsMeasurableClass](IsMeasurableClass.md) — def, 2 decl(s) · `Statlib/Nonparametric/Vocabulary/FunctionClasses.lean:24`
-- [IsNestedSieve](IsNestedSieve.md) — def, 3 decl(s) · `Statlib/Nonparametric/Vocabulary/FunctionClasses.lean:106`
+- [IsNestedSieve](IsNestedSieve.md) — def, 3 decl(s) · `Statlib/Nonparametric/Vocabulary/FunctionClasses.lean:110`
+- [IsPDKernel](IsPDKernel.md) — def, 2 decl(s) · `Statlib/Nonparametric/Vocabulary/KernelMethods.lean:35`
 - [kernel_bandwidth_balance](kernel_bandwidth_balance.md) — theorem, 4 decl(s) · `Statlib/Nonparametric/KernelRegression/KernelRate.lean:1613`
 - [kernel_bias_square_integrable_of_uniform_bound](kernel_bias_square_integrable_of_uniform_bound.md) — theorem, 3 decl(s) · `Statlib/Nonparametric/KernelRegression/KernelRate.lean:1391`
 - [kernel_centered_error_bridge_from_centered_mse_bound](kernel_centered_error_bridge_from_centered_mse_bound.md) — theorem, 8 decl(s) · `Statlib/Nonparametric/KernelRegression/KernelRate.lean:1349`
@@ -47,37 +87,75 @@
 - [kernel_smoother_classApproximationError_le_of_holder_bias_rate](kernel_smoother_classApproximationError_le_of_holder_bias_rate.md) — theorem, 14 decl(s) · `Statlib/Nonparametric/Approximation/Kernel.lean:265`
 - [kernel_uniform_interior_l2_energy_bound](kernel_uniform_interior_l2_energy_bound.md) — theorem, 6 decl(s) · `Statlib/Nonparametric/KernelRegression/KernelRate.lean:95`
 - [kernel_uniform_interior_population_smoother_eq](kernel_uniform_interior_population_smoother_eq.md) — theorem, 6 decl(s) · `Statlib/Nonparametric/KernelRegression/KernelRate.lean:139`
+- [kernelMetricSq_eq_norm_sub_sq](kernelMetricSq_eq_norm_sub_sq.md) — theorem, 3 decl(s) · `Statlib/Nonparametric/Approximation/RKHS.lean:74`
 - [KernelRegressionBoundedAnalyticAssumptions](KernelRegressionBoundedAnalyticAssumptions.md) — structure, 7 decl(s) · `Statlib/Nonparametric/Vocabulary/KernelRegression.lean:108`
 - [KernelRegressionSubexponentialNoiseModel](KernelRegressionSubexponentialNoiseModel.md) — def, 2 decl(s) · `Statlib/Nonparametric/Vocabulary/KernelRegression.lean:119`
 - [KernelRegressionUniformInteriorWellposednessAssumptions](KernelRegressionUniformInteriorWellposednessAssumptions.md) — structure, 12 decl(s) · `Statlib/Nonparametric/Vocabulary/KernelRegression.lean:247`
-- [kernelRidgeObjective](kernelRidgeObjective.md) — noncomputable def, 2 decl(s) · `Statlib/Nonparametric/Vocabulary/RKHS.lean:28`
+- [krr_closed_form_pos_lam](krr_closed_form_pos_lam.md) — theorem, 9 decl(s) · `Statlib/Nonparametric/KernelRegression/KRRClosedForm.lean:21`
+- [krr_closed_form_zero_lam_of_posDef](krr_closed_form_zero_lam_of_posDef.md) — theorem, 8 decl(s) · `Statlib/Nonparametric/KernelRegression/KRRClosedForm.lean:272`
 - [linkedPredictionRisk](linkedPredictionRisk.md) — noncomputable def, 4 decl(s) · `Statlib/Nonparametric/Vocabulary/Models.lean:57`
 - [LinkedRegressionModel](LinkedRegressionModel.md) — structure, 2 decl(s) · `Statlib/Nonparametric/Vocabulary/Models.lean:45`
 - [logisticRisk](logisticRisk.md) — noncomputable def, 8 decl(s) · `Statlib/Nonparametric/Vocabulary/Models.lean:62`
-- [oneHiddenReLUEmpiricalRisk](oneHiddenReLUEmpiricalRisk.md) — noncomputable def, 9 decl(s) · `Statlib/Nonparametric/Vocabulary/NeuralNetwork.lean:71`
-- [oracleRisk_le_of_member](oracleRisk_le_of_member.md) — theorem, 3 decl(s) · `Statlib/Nonparametric/OracleInterface/Risk.lean:9`
+- [meanEstimator_l2_error](meanEstimator_l2_error.md) — theorem, 7 decl(s) · `Statlib/Nonparametric/FunctionalData/Mean.lean:47`
+- [meanEstimator_pointwise_holder](meanEstimator_pointwise_holder.md) — theorem, 7 decl(s) · `Statlib/Nonparametric/FunctionalData/Mean.lean:567`
+- [meanEstimator_unbiased](meanEstimator_unbiased.md) — theorem, 4 decl(s) · `Statlib/Nonparametric/FunctionalData/Mean.lean:19`
+- [mulPolarizationReLUHingeNet](mulPolarizationReLUHingeNet.md) — noncomputable def, 5 decl(s) · `Statlib/Nonparametric/Vocabulary/NeuralNetwork.lean:312`
+- [oneHiddenReLUEmpiricalRisk](oneHiddenReLUEmpiricalRisk.md) — noncomputable def, 9 decl(s) · `Statlib/Nonparametric/Vocabulary/NeuralNetwork.lean:389`
+- [orthonormalBasis_expansion](orthonormalBasis_expansion.md) — theorem, 4 decl(s) · `Statlib/Nonparametric/FunctionalData/Regression.lean:428`
+- [parameterCount](parameterCount__L60.md) — def, 5 decl(s) · `Statlib/Nonparametric/Vocabulary/NeuralNetwork.lean:60`
+- [parameterCount](parameterCount__L198.md) — def, 7 decl(s) · `Statlib/Nonparametric/Vocabulary/NeuralNetwork.lean:198`
 - [populationSeriesLeastSquaresObjective](populationSeriesLeastSquaresObjective.md) — noncomputable def, 5 decl(s) · `Statlib/Nonparametric/Vocabulary/Sieve.lean:37`
+- [positiveDegreeExtendedUniformBSpline_ne_zero_imp_scaled_mem_Ioo](positiveDegreeExtendedUniformBSpline_ne_zero_imp_scaled_mem_Ioo.md) — theorem, 9 decl(s) · `Statlib/Nonparametric/Approximation/SplineFacts.lean:357`
+- [positiveDegreeUniformBSplineIntShift_eq_zero_of_shift_add_degree_plus_two_le_scaled](positiveDegreeUniformBSplineIntShift_eq_zero_of_shift_add_degree_plus_two_le_scaled.md) — theorem, 4 decl(s) · `Statlib/Nonparametric/Approximation/SplineFacts.lean:328`
 - [ProductKernelSupportUnit](ProductKernelSupportUnit.md) — def, 2 decl(s) · `Statlib/Nonparametric/Vocabulary/KernelRegression.lean:31`
-- [reluApply](reluApply.md) — noncomputable def, 6 decl(s) · `Statlib/Nonparametric/Vocabulary/NeuralNetwork.lean:34`
-- [reluNetworkClass_classApproximationError_le_of_candidate_ise](reluNetworkClass_classApproximationError_le_of_candidate_ise.md) — theorem, 12 decl(s) · `Statlib/Nonparametric/Approximation/NeuralNetwork.lean:45`
-- [reluNetworkClass_classApproximationError_le_of_exists_pointwise](reluNetworkClass_classApproximationError_le_of_exists_pointwise.md) — theorem, 13 decl(s) · `Statlib/Nonparametric/Approximation/NeuralNetwork.lean:70`
-- [reluNetworkClass_classApproximationError_le_of_pointwise_candidate](reluNetworkClass_classApproximationError_le_of_pointwise_candidate.md) — theorem, 13 decl(s) · `Statlib/Nonparametric/Approximation/NeuralNetwork.lean:11`
-- [rkhs_eval_bound](rkhs_eval_bound.md) — theorem, 2 decl(s) · `Statlib/Nonparametric/Approximation/RKHS.lean:14`
-- [rkhsBall_classApproximationError_le_of_exists_pointwise](rkhsBall_classApproximationError_le_of_exists_pointwise.md) — theorem, 13 decl(s) · `Statlib/Nonparametric/Approximation/RKHS.lean:124`
-- [rkhsBall_lipschitz](rkhsBall_lipschitz.md) — theorem, 6 decl(s) · `Statlib/Nonparametric/Approximation/RKHS.lean:41`
-- [rkhsBall_uniform_bound](rkhsBall_uniform_bound.md) — theorem, 5 decl(s) · `Statlib/Nonparametric/Approximation/RKHS.lean:20`
-- [selectorIndicatorBasis_seriesFunction_eq](selectorIndicatorBasis_seriesFunction_eq.md) — theorem, 4 decl(s) · `Statlib/Nonparametric/Approximation/Sieve.lean:436`
-- [seriesFunction_abs_le_sum_abs_coeff_mul_abs_basis](seriesFunction_abs_le_sum_abs_coeff_mul_abs_basis.md) — lemma, 2 decl(s) · `Statlib/Nonparametric/Approximation/Sieve.lean:18`
-- [seriesFunction_lipschitz_of_basis_lipschitz](seriesFunction_lipschitz_of_basis_lipschitz.md) — theorem, 5 decl(s) · `Statlib/Nonparametric/Approximation/Sieve.lean:48`
-- [seriesFunction_uniform_bound_of_basis_bound](seriesFunction_uniform_bound_of_basis_bound.md) — theorem, 5 decl(s) · `Statlib/Nonparametric/Approximation/Sieve.lean:29`
+- [realize](realize.md) — noncomputable def, 11 decl(s) · `Statlib/Nonparametric/Vocabulary/NeuralNetwork.lean:192`
+- [reluNetworkClass_classApproximationError_le_of_candidate_ise](reluNetworkClass_classApproximationError_le_of_candidate_ise.md) — theorem, 13 decl(s) · `Statlib/Nonparametric/Approximation/NeuralNetwork.lean:46`
+- [reluNetworkClass_classApproximationError_le_of_exists_pointwise](reluNetworkClass_classApproximationError_le_of_exists_pointwise.md) — theorem, 14 decl(s) · `Statlib/Nonparametric/Approximation/NeuralNetwork.lean:72`
+- [reluNetworkClass_classApproximationError_le_of_pointwise_candidate](reluNetworkClass_classApproximationError_le_of_pointwise_candidate.md) — theorem, 14 decl(s) · `Statlib/Nonparametric/Approximation/NeuralNetwork.lean:11`
+- [reluNetworkClassOfParameterCount](reluNetworkClassOfParameterCount.md) — def, 10 decl(s) · `Statlib/Nonparametric/Vocabulary/NeuralNetwork.lean:230`
+- [representer_minimizer_mem_span_of_pos_lam](representer_minimizer_mem_span_of_pos_lam.md) — theorem, 6 decl(s) · `Statlib/Nonparametric/KernelRegression/Representer.lean:81`
+- [representer_projection_minimizer](representer_projection_minimizer.md) — theorem, 3 decl(s) · `Statlib/Nonparametric/KernelRegression/Representer.lean:22`
+- [rkhsBall_classApproximationError_le_of_exists_pointwise](rkhsBall_classApproximationError_le_of_exists_pointwise.md) — theorem, 13 decl(s) · `Statlib/Nonparametric/Approximation/RKHS.lean:187`
+- [rkhsBall_coveringNumber_le_of_domainCover](rkhsBall_coveringNumber_le_of_domainCover.md) — theorem, 12 decl(s) · `Statlib/Nonparametric/Approximation/RKHS.lean:419`
+- [rkhsBall_lipschitz](rkhsBall_lipschitz.md) — theorem, 6 decl(s) · `Statlib/Nonparametric/Approximation/RKHS.lean:48`
+- [rkhsBall_rademacher_complexity_dudley_le](rkhsBall_rademacher_complexity_dudley_le.md) — theorem, 42 decl(s) · `Statlib/Nonparametric/Approximation/RKHS.lean:3126`
+- [rkhsModel_kernel_pd_of_injective_linearIndependent](rkhsModel_kernel_pd_of_injective_linearIndependent.md) — theorem, 2 decl(s) · `Statlib/Nonparametric/Vocabulary/RKHS.lean:81`
+- [rkhsModel_kernel_psd](rkhsModel_kernel_psd.md) — theorem, 4 decl(s) · `Statlib/Nonparametric/Vocabulary/RKHS.lean:51`
+- [sampleNormalEquations](sampleNormalEquations.md) — theorem, 5 decl(s) · `Statlib/Nonparametric/FunctionalData/Regression.lean:492`
+- [selector_indicator_basis_series_function_eq](selector_indicator_basis_series_function_eq.md) — theorem, 4 decl(s) · `Statlib/Nonparametric/Approximation/Sieve.lean:494`
+- [selector_indicator_holder_class_approximation_error_le_rate](selector_indicator_holder_class_approximation_error_le_rate.md) — theorem, 12 decl(s) · `Statlib/Nonparametric/Approximation/Holder.lean:522`
+- [selector_indicator_holder_series_integrated_squared_error_bound](selector_indicator_holder_series_integrated_squared_error_bound.md) — theorem, 8 decl(s) · `Statlib/Nonparametric/Approximation/Holder.lean:141`
+- [selector_indicator_holder_sieve_approximation_error_le_of_net](selector_indicator_holder_sieve_approximation_error_le_of_net.md) — theorem, 10 decl(s) · `Statlib/Nonparametric/Approximation/Holder.lean:226`
+- [selector_indicator_uniform_sieve_holder_approximation_rate_of_cover](selector_indicator_uniform_sieve_holder_approximation_rate_of_cover.md) — theorem, 24 decl(s) · `Statlib/Nonparametric/Approximation/Holder.lean:498`
+- [series_function_abs_le_sum_abs_coeff_mul_abs_basis](series_function_abs_le_sum_abs_coeff_mul_abs_basis.md) — lemma, 2 decl(s) · `Statlib/Nonparametric/Approximation/Sieve.lean:18`
+- [series_function_lipschitz_of_basis_lipschitz](series_function_lipschitz_of_basis_lipschitz.md) — theorem, 5 decl(s) · `Statlib/Nonparametric/Approximation/Sieve.lean:106`
+- [series_function_uniform_bound_of_basis_bound](series_function_uniform_bound_of_basis_bound.md) — theorem, 5 decl(s) · `Statlib/Nonparametric/Approximation/Sieve.lean:87`
 - [seriesLeastSquaresObjective](seriesLeastSquaresObjective.md) — noncomputable def, 4 decl(s) · `Statlib/Nonparametric/Vocabulary/Sieve.lean:32`
-- [sieveApproximationError_le_of_holder_selector_net](sieveApproximationError_le_of_holder_selector_net.md) — theorem, 10 decl(s) · `Statlib/Nonparametric/Approximation/Holder.lean:226`
 - [SupervisedEstimator](SupervisedEstimator.md) — abbrev, 2 decl(s) · `Statlib/Nonparametric/Vocabulary/Estimator.lean:24`
 - [supNormBall_classApproximationError_self_le_zero](supNormBall_classApproximationError_self_le_zero.md) — theorem, 5 decl(s) · `Statlib/Nonparametric/Approximation/FunctionClasses.lean:10`
-- [tensorProductSplineClass](tensorProductSplineClass.md) — noncomputable def, 5 decl(s) · `Statlib/Nonparametric/Vocabulary/Spline.lean:36`
-- [tensorProductSplineSieve_holderSmoothBall_error_bound_of_has_pointwise_rate_and_exact_basisCount](tensorProductSplineSieve_holderSmoothBall_error_bound_of_has_pointwise_rate_and_exact_basisCount.md) — theorem, 30 decl(s) · `Statlib/Nonparametric/Approximation/Spline.lean:176`
-- [unitCube_selectorIndicatorSieve_holderBall_grid_rate](unitCube_selectorIndicatorSieve_holderBall_grid_rate.md) — theorem, 26 decl(s) · `Statlib/Nonparametric/Approximation/Holder.lean:744`
+- [tensor_product_extended_bspline_holder_smooth_approximation_rate_of_projection_error](tensor_product_extended_bspline_holder_smooth_approximation_rate_of_projection_error.md) — theorem, 41 decl(s) · `Statlib/Nonparametric/Approximation/Spline.lean:1582`
+- [tensor_product_extended_bspline_holder_smooth_projection_rate_of_projection_error](tensor_product_extended_bspline_holder_smooth_projection_rate_of_projection_error.md) — theorem, 18 decl(s) · `Statlib/Nonparametric/Approximation/Spline.lean:1474`
+- [tensor_product_linear_bspline_holder_projection_rate_of_local_partition](tensor_product_linear_bspline_holder_projection_rate_of_local_partition.md) — theorem, 17 decl(s) · `Statlib/Nonparametric/Approximation/Spline.lean:1286`
+- [tensor_product_linear_bspline_holder_smooth_approximation_bound_of_projection_error](tensor_product_linear_bspline_holder_smooth_approximation_bound_of_projection_error.md) — theorem, 47 decl(s) · `Statlib/Nonparametric/Approximation/Spline.lean:1330`
+- [tensor_product_positive_degree_bspline_holder_smooth_approximation_bound_of_projection_error](tensor_product_positive_degree_bspline_holder_smooth_approximation_bound_of_projection_error.md) — theorem, 49 decl(s) · `Statlib/Nonparametric/Approximation/Spline.lean:1395`
+- [tensor_product_positive_degree_bspline_holder_smooth_approximation_bound_of_projection_rate](tensor_product_positive_degree_bspline_holder_smooth_approximation_bound_of_projection_rate.md) — theorem, 46 decl(s) · `Statlib/Nonparametric/Approximation/Spline.lean:1366`
+- [tensor_product_spline_sieve_holder_smooth_approximation_exact_basis_count_of_projection_certificate](tensor_product_spline_sieve_holder_smooth_approximation_exact_basis_count_of_projection_certificate.md) — theorem, 34 decl(s) · `Statlib/Nonparametric/Approximation/Spline.lean:1130`
+- [tensorProductPositiveDegreeBSplineBasis_eq_zero_of_exists_scaled_le_index](tensorProductPositiveDegreeBSplineBasis_eq_zero_of_exists_scaled_le_index.md) — theorem, 8 decl(s) · `Statlib/Nonparametric/Approximation/SplineFacts.lean:298`
+- [tensorProductPositiveDegreeBSplineBasis_nonneg](tensorProductPositiveDegreeBSplineBasis_nonneg.md) — theorem, 13 decl(s) · `Statlib/Nonparametric/Approximation/SplineFacts.lean:1997`
+- [tensorProductPositiveDegreeExtendedBSplineBasis_ne_zero_imp_coord_scaled_mem_Ioo](tensorProductPositiveDegreeExtendedBSplineBasis_ne_zero_imp_coord_scaled_mem_Ioo.md) — theorem, 12 decl(s) · `Statlib/Nonparametric/Approximation/SplineFacts.lean:1198`
+- [tensorProductSplineClass](tensorProductSplineClass.md) — noncomputable def, 5 decl(s) · `Statlib/Nonparametric/Vocabulary/Spline.lean:165`
+- [truncatedFloorReLUFunction](truncatedFloorReLUFunction.md) — noncomputable def, 3 decl(s) · `Statlib/Nonparametric/Vocabulary/NeuralNetwork.lean:244`
+- [unit_cube_bspline_high_order_holder_smooth_uniform_sieve_approximation_rate](unit_cube_bspline_high_order_holder_smooth_uniform_sieve_approximation_rate.md) — theorem, 83 decl(s) · `Statlib/Nonparametric/Approximation/Spline.lean:2361`
+- [unit_cube_bspline_trace_zero_order_uniform_sieve_holder_approximation_rate](unit_cube_bspline_trace_zero_order_uniform_sieve_holder_approximation_rate.md) — theorem, 58 decl(s) · `Statlib/Nonparametric/Approximation/Spline.lean:804`
+- [unit_cube_bspline_trace_zero_order_uniform_sieve_holder_approximation_rate_explicit](unit_cube_bspline_trace_zero_order_uniform_sieve_holder_approximation_rate_explicit.md) — theorem, 58 decl(s) · `Statlib/Nonparametric/Approximation/Spline.lean:859`
+- [unit_cube_bspline_uniform_sieve_holder_approximation_rate](unit_cube_bspline_uniform_sieve_holder_approximation_rate.md) — theorem, 54 decl(s) · `Statlib/Nonparametric/Approximation/Spline.lean:226`
+- [unit_cube_haar_selector_positive_holder_uniform_sieve_approximation_rate](unit_cube_haar_selector_positive_holder_uniform_sieve_approximation_rate.md) — theorem, 31 decl(s) · `Statlib/Nonparametric/Approximation/Wavelet.lean:802`
+- [unit_cube_selector_indicator_uniform_sieve_holder_approximation_grid_rate](unit_cube_selector_indicator_uniform_sieve_holder_approximation_grid_rate.md) — theorem, 26 decl(s) · `Statlib/Nonparametric/Approximation/Holder.lean:744`
+- [unitCubeBSplineTensorDual_exists_sub_reproduction_degreeSucc_localStability](unitCubeBSplineTensorDual_exists_sub_reproduction_degreeSucc_localStability.md) — theorem, 32 decl(s) · `Statlib/Nonparametric/Approximation/SplineFacts.lean:6263`
+- [unitCubeBSplineTensorDual_polynomialReproduction](unitCubeBSplineTensorDual_polynomialReproduction.md) — theorem, 25 decl(s) · `Statlib/Nonparametric/Approximation/SplineFacts.lean:2551`
+- [unitCubePositiveDegreeExtendedBSplineBasis_continuous](unitCubePositiveDegreeExtendedBSplineBasis_continuous.md) — theorem, 15 decl(s) · `Statlib/Nonparametric/Approximation/SplineFacts.lean:2139`
+- [unitCubePositiveDegreeExtendedBSplineSystem_support_radius_degree_plus_two_div](unitCubePositiveDegreeExtendedBSplineSystem_support_radius_degree_plus_two_div.md) — theorem, 22 decl(s) · `Statlib/Nonparametric/Approximation/SplineFacts.lean:2164`
 - [UnsupervisedEstimator](UnsupervisedEstimator.md) — abbrev, 2 decl(s) · `Statlib/Nonparametric/Vocabulary/Estimator.lean:20`
-- [waveletSieve_continuous_of_system](waveletSieve_continuous_of_system.md) — theorem, 4 decl(s) · `Statlib/Nonparametric/Vocabulary/Wavelet.lean:45`
-- [waveletSieve_holderSmoothBall_error_bound_of_has_pointwise_rate_and_exact_basisCount](waveletSieve_holderSmoothBall_error_bound_of_has_pointwise_rate_and_exact_basisCount.md) — theorem, 30 decl(s) · `Statlib/Nonparametric/Approximation/Wavelet.lean:176`
-- [waveletSieveClass](waveletSieveClass.md) — noncomputable def, 5 decl(s) · `Statlib/Nonparametric/Vocabulary/Wavelet.lean:25`
+- [wavelet_sieve_holder_smooth_approximation_exact_basis_count_of_projection_certificate](wavelet_sieve_holder_smooth_approximation_exact_basis_count_of_projection_certificate.md) — theorem, 34 decl(s) · `Statlib/Nonparametric/Approximation/Wavelet.lean:277`
+- [waveletSieve_continuous_of_system](waveletSieve_continuous_of_system.md) — theorem, 4 decl(s) · `Statlib/Nonparametric/Approximation/WaveletFacts.lean:44`
+- [waveletSieveClass](waveletSieveClass.md) — noncomputable def, 5 decl(s) · `Statlib/Nonparametric/Vocabulary/Wavelet.lean:77`

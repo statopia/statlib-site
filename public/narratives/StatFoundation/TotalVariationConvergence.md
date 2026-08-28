@@ -6,7 +6,7 @@ Closure: 3 declarations across 1 files. Generated from `proof_graph.json` — no
 Reading order (foundations first, headline last):
 
   ◆ `totalVariationDist` — noncomputable def · `Statlib/StatFoundation/Convergence/AnalysisTools/ConvergenceModes.lean:129`
-  ◆ `WeakConvergence` — def · `Statlib/StatFoundation/Convergence/AnalysisTools/ConvergenceModes.lean:163`
+  ◆ `WeakConvergence` — def · `Statlib/StatFoundation/Convergence/AnalysisTools/ConvergenceModes.lean:163`  _(also used by 10: mle_asymptotic_normal, wald_statistic_asymptotic_chisq1, score_statistic_asymptotic_chisq1, …)_
 ◆ `TotalVariationConvergence` — def · `Statlib/StatFoundation/Convergence/AnalysisTools/ConvergenceModes.lean:145` **← headline**
 
 ## Dependency diagram

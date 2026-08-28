@@ -23,7 +23,7 @@
 <!-- n0 -->
 <g id="node1" class="node">
 <title>n0</title>
-<g id="a_node1"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/HighDim/Vocabulary/RandomVector.lean#L83" xlink:title="structure · Statlib/HighDim/Vocabulary/RandomVector.lean:83" target="_blank">
+<g id="a_node1"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Vocabulary/RandomVector.lean:83" xlink:title="structure · Statlib/HighDim/Vocabulary/RandomVector.lean:83" target="_blank">
 <path fill="#e8dcff" stroke="#8b5cf6" d="M150.4,-701.2C150.4,-701.2 115.6,-701.2 115.6,-701.2 109.6,-701.2 103.6,-695.2 103.6,-689.2 103.6,-689.2 103.6,-677.2 103.6,-677.2 103.6,-671.2 109.6,-665.2 115.6,-665.2 115.6,-665.2 150.4,-665.2 150.4,-665.2 156.4,-665.2 162.4,-671.2 162.4,-677.2 162.4,-677.2 162.4,-689.2 162.4,-689.2 162.4,-695.2 156.4,-701.2 150.4,-701.2"/>
 <text xml:space="preserve" text-anchor="middle" x="133" y="-680.2" font-family="Helvetica,sans-Serif" font-size="10.00">HasMean</text>
 </a>
@@ -32,7 +32,7 @@
 <!-- n1 -->
 <g id="node2" class="node">
 <title>n1</title>
-<g id="a_node2"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/HighDim/Vocabulary/RandomVector.lean#L52" xlink:title="structure · Statlib/HighDim/Vocabulary/RandomVector.lean:52" target="_blank">
+<g id="a_node2"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Vocabulary/RandomVector.lean:52" xlink:title="structure · Statlib/HighDim/Vocabulary/RandomVector.lean:52" target="_blank">
 <path fill="#e8dcff" stroke="#8b5cf6" d="M2550.36,-196C2550.36,-196 2461.64,-196 2461.64,-196 2455.64,-196 2449.64,-190 2449.64,-184 2449.64,-184 2449.64,-172 2449.64,-172 2449.64,-166 2455.64,-160 2461.64,-160 2461.64,-160 2550.36,-160 2550.36,-160 2556.36,-160 2562.36,-166 2562.36,-172 2562.36,-172 2562.36,-184 2562.36,-184 2562.36,-190 2556.36,-196 2550.36,-196"/>
 <text xml:space="preserve" text-anchor="middle" x="2506" y="-175" font-family="Helvetica,sans-Serif" font-size="10.00">IsSubGaussianVector</text>
 </a>
@@ -41,7 +41,7 @@
 <!-- n2 -->
 <g id="node3" class="node">
 <title>n2</title>
-<g id="a_node3"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/HighDim/Vocabulary/Norms.lean#L37" xlink:title="noncomputable def · Statlib/HighDim/Vocabulary/Norms.lean:37" target="_blank">
+<g id="a_node3"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Vocabulary/Norms.lean:105" xlink:title="noncomputable def · Statlib/HighDim/Vocabulary/Norms.lean:105" target="_blank">
 <path fill="#d6e9ff" stroke="#3b82f6" d="M2596.91,-701.2C2596.91,-701.2 2527.09,-701.2 2527.09,-701.2 2521.09,-701.2 2515.09,-695.2 2515.09,-689.2 2515.09,-689.2 2515.09,-677.2 2515.09,-677.2 2515.09,-671.2 2521.09,-665.2 2527.09,-665.2 2527.09,-665.2 2596.91,-665.2 2596.91,-665.2 2602.91,-665.2 2608.91,-671.2 2608.91,-677.2 2608.91,-677.2 2608.91,-689.2 2608.91,-689.2 2608.91,-695.2 2602.91,-701.2 2596.91,-701.2"/>
 <text xml:space="preserve" text-anchor="middle" x="2562" y="-680.2" font-family="Helvetica,sans-Serif" font-size="10.00">frobeniusNormSq</text>
 </a>
@@ -50,7 +50,7 @@
 <!-- n3 -->
 <g id="node4" class="node">
 <title>n3</title>
-<g id="a_node4"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/HighDim/Vocabulary/QuadraticForms.lean#L15" xlink:title="noncomputable def · Statlib/HighDim/Vocabulary/QuadraticForms.lean:15" target="_blank">
+<g id="a_node4"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Vocabulary/QuadraticForms.lean:15" xlink:title="noncomputable def · Statlib/HighDim/Vocabulary/QuadraticForms.lean:15" target="_blank">
 <path fill="#d6e9ff" stroke="#3b82f6" d="M1297.79,-701.2C1297.79,-701.2 1260.21,-701.2 1260.21,-701.2 1254.21,-701.2 1248.21,-695.2 1248.21,-689.2 1248.21,-689.2 1248.21,-677.2 1248.21,-677.2 1248.21,-671.2 1254.21,-665.2 1260.21,-665.2 1260.21,-665.2 1297.79,-665.2 1297.79,-665.2 1303.79,-665.2 1309.79,-671.2 1309.79,-677.2 1309.79,-677.2 1309.79,-689.2 1309.79,-689.2 1309.79,-695.2 1303.79,-701.2 1297.79,-701.2"/>
 <text xml:space="preserve" text-anchor="middle" x="1279" y="-680.2" font-family="Helvetica,sans-Serif" font-size="10.00">quadForm</text>
 </a>
@@ -59,7 +59,7 @@
 <!-- n4 -->
 <g id="node5" class="node">
 <title>n4</title>
-<g id="a_node5"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/HighDim/Vocabulary/QuadraticForms.lean#L52" xlink:title="def · Statlib/HighDim/Vocabulary/QuadraticForms.lean:52" target="_blank">
+<g id="a_node5"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Vocabulary/QuadraticForms.lean:52" xlink:title="def · Statlib/HighDim/Vocabulary/QuadraticForms.lean:52" target="_blank">
 <path fill="#d6e9ff" stroke="#3b82f6" d="M611.62,-124C611.62,-124 552.38,-124 552.38,-124 546.38,-124 540.38,-118 540.38,-112 540.38,-112 540.38,-100 540.38,-100 540.38,-94 546.38,-88 552.38,-88 552.38,-88 611.62,-88 611.62,-88 617.62,-88 623.62,-94 623.62,-100 623.62,-100 623.62,-112 623.62,-112 623.62,-118 617.62,-124 611.62,-124"/>
 <text xml:space="preserve" text-anchor="middle" x="582" y="-103" font-family="Helvetica,sans-Serif" font-size="10.00">zeroDiagMatrix</text>
 </a>
@@ -68,7 +68,7 @@
 <!-- n5 -->
 <g id="node6" class="node">
 <title>n5</title>
-<g id="a_node6"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/HighDim/Vocabulary/QuadraticForms.lean#L33" xlink:title="noncomputable def · Statlib/HighDim/Vocabulary/QuadraticForms.lean:33" target="_blank">
+<g id="a_node6"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Vocabulary/QuadraticForms.lean:33" xlink:title="noncomputable def · Statlib/HighDim/Vocabulary/QuadraticForms.lean:33" target="_blank">
 <path fill="#d6e9ff" stroke="#3b82f6" d="M1710.92,-52C1710.92,-52 1591.08,-52 1591.08,-52 1585.08,-52 1579.08,-46 1579.08,-40 1579.08,-40 1579.08,-28 1579.08,-28 1579.08,-22 1585.08,-16 1591.08,-16 1591.08,-16 1710.92,-16 1710.92,-16 1716.92,-16 1722.92,-22 1722.92,-28 1722.92,-28 1722.92,-40 1722.92,-40 1722.92,-46 1716.92,-52 1710.92,-52"/>
 <text xml:space="preserve" text-anchor="middle" x="1651" y="-31" font-family="Helvetica,sans-Serif" font-size="10.00">decoupledOffDiagQuadForm</text>
 </a>
@@ -77,7 +77,7 @@
 <!-- n6 -->
 <g id="node7" class="node">
 <title>n6</title>
-<g id="a_node7"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/HighDim/Vocabulary/QuadraticForms.lean#L27" xlink:title="noncomputable def · Statlib/HighDim/Vocabulary/QuadraticForms.lean:27" target="_blank">
+<g id="a_node7"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Vocabulary/QuadraticForms.lean:27" xlink:title="noncomputable def · Statlib/HighDim/Vocabulary/QuadraticForms.lean:27" target="_blank">
 <path fill="#d6e9ff" stroke="#3b82f6" d="M584.74,-701.2C584.74,-701.2 513.26,-701.2 513.26,-701.2 507.26,-701.2 501.26,-695.2 501.26,-689.2 501.26,-689.2 501.26,-677.2 501.26,-677.2 501.26,-671.2 507.26,-665.2 513.26,-665.2 513.26,-665.2 584.74,-665.2 584.74,-665.2 590.74,-665.2 596.74,-671.2 596.74,-677.2 596.74,-677.2 596.74,-689.2 596.74,-689.2 596.74,-695.2 590.74,-701.2 584.74,-701.2"/>
 <text xml:space="preserve" text-anchor="middle" x="549" y="-680.2" font-family="Helvetica,sans-Serif" font-size="10.00">offDiagQuadForm</text>
 </a>
@@ -86,7 +86,7 @@
 <!-- n7 -->
 <g id="node8" class="node">
 <title>n7</title>
-<g id="a_node8"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/HighDim/Vocabulary/Norms.lean#L32" xlink:title="lemma · Statlib/HighDim/Vocabulary/Norms.lean:32" target="_blank">
+<g id="a_node8"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Vocabulary/Norms.lean:100" xlink:title="lemma · Statlib/HighDim/Vocabulary/Norms.lean:100" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M2423.69,-124C2423.69,-124 2368.31,-124 2368.31,-124 2362.31,-124 2356.31,-118 2356.31,-112 2356.31,-112 2356.31,-100 2356.31,-100 2356.31,-94 2362.31,-88 2368.31,-88 2368.31,-88 2423.69,-88 2423.69,-88 2429.69,-88 2435.69,-94 2435.69,-100 2435.69,-100 2435.69,-112 2435.69,-112 2435.69,-118 2429.69,-124 2423.69,-124"/>
 <text xml:space="preserve" text-anchor="middle" x="2396" y="-103" font-family="Helvetica,sans-Serif" font-size="10.00">inner_eq_sum</text>
 </a>
@@ -95,7 +95,7 @@
 <!-- n8 -->
 <g id="node9" class="node">
 <title>n8</title>
-<g id="a_node9"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/HighDim/Concentration/HansonWright.lean#L1341" xlink:title="lemma · Statlib/HighDim/Concentration/HansonWright.lean:1341" target="_blank">
+<g id="a_node9"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Concentration/HansonWright.lean:1341" xlink:title="lemma · Statlib/HighDim/Concentration/HansonWright.lean:1341" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M2970.76,-269.2C2970.76,-269.2 2859.24,-269.2 2859.24,-269.2 2853.24,-269.2 2847.24,-263.2 2847.24,-257.2 2847.24,-257.2 2847.24,-245.2 2847.24,-245.2 2847.24,-239.2 2853.24,-233.2 2859.24,-233.2 2859.24,-233.2 2970.76,-233.2 2970.76,-233.2 2976.76,-233.2 2982.76,-239.2 2982.76,-245.2 2982.76,-245.2 2982.76,-257.2 2982.76,-257.2 2982.76,-263.2 2976.76,-269.2 2970.76,-269.2"/>
 <text xml:space="preserve" text-anchor="middle" x="2915" y="-248.2" font-family="Helvetica,sans-Serif" font-size="10.00">subgaussian_vector_coord</text>
 </a>
@@ -116,7 +116,7 @@
 <!-- n9 -->
 <g id="node10" class="node">
 <title>n9</title>
-<g id="a_node10"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/HighDim/Vocabulary/QuadraticForms.lean#L21" xlink:title="noncomputable def · Statlib/HighDim/Vocabulary/QuadraticForms.lean:21" target="_blank">
+<g id="a_node10"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Vocabulary/QuadraticForms.lean:21" xlink:title="noncomputable def · Statlib/HighDim/Vocabulary/QuadraticForms.lean:21" target="_blank">
 <path fill="#d6e9ff" stroke="#3b82f6" d="M725.35,-701.2C725.35,-701.2 666.65,-701.2 666.65,-701.2 660.65,-701.2 654.65,-695.2 654.65,-689.2 654.65,-689.2 654.65,-677.2 654.65,-677.2 654.65,-671.2 660.65,-665.2 666.65,-665.2 666.65,-665.2 725.35,-665.2 725.35,-665.2 731.35,-665.2 737.35,-671.2 737.35,-677.2 737.35,-677.2 737.35,-689.2 737.35,-689.2 737.35,-695.2 731.35,-701.2 725.35,-701.2"/>
 <text xml:space="preserve" text-anchor="middle" x="696" y="-680.2" font-family="Helvetica,sans-Serif" font-size="10.00">diagQuadForm</text>
 </a>
@@ -125,7 +125,7 @@
 <!-- n10 -->
 <g id="node11" class="node">
 <title>n10</title>
-<g id="a_node11"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/HighDim/Concentration/HansonWright.lean#L236" xlink:title="lemma · Statlib/HighDim/Concentration/HansonWright.lean:236" target="_blank">
+<g id="a_node11"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Concentration/HansonWright.lean:236" xlink:title="lemma · Statlib/HighDim/Concentration/HansonWright.lean:236" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M964.28,-773.2C964.28,-773.2 827.72,-773.2 827.72,-773.2 821.72,-773.2 815.72,-767.2 815.72,-761.2 815.72,-761.2 815.72,-749.2 815.72,-749.2 815.72,-743.2 821.72,-737.2 827.72,-737.2 827.72,-737.2 964.28,-737.2 964.28,-737.2 970.28,-737.2 976.28,-743.2 976.28,-749.2 976.28,-749.2 976.28,-761.2 976.28,-761.2 976.28,-767.2 970.28,-773.2 964.28,-773.2"/>
 <text xml:space="preserve" text-anchor="middle" x="896" y="-752.2" font-family="Helvetica,sans-Serif" font-size="10.00">quadForm_eq_diag_add_offdiag</text>
 </a>
@@ -152,7 +152,7 @@
 <!-- n11 -->
 <g id="node12" class="node">
 <title>n11</title>
-<g id="a_node12"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/HighDim/Concentration/HansonWright.lean#L254" xlink:title="lemma · Statlib/HighDim/Concentration/HansonWright.lean:254" target="_blank">
+<g id="a_node12"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Concentration/HansonWright.lean:254" xlink:title="lemma · Statlib/HighDim/Concentration/HansonWright.lean:254" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M1137.75,-773.2C1137.75,-773.2 1006.25,-773.2 1006.25,-773.2 1000.25,-773.2 994.25,-767.2 994.25,-761.2 994.25,-761.2 994.25,-749.2 994.25,-749.2 994.25,-743.2 1000.25,-737.2 1006.25,-737.2 1006.25,-737.2 1137.75,-737.2 1137.75,-737.2 1143.75,-737.2 1149.75,-743.2 1149.75,-749.2 1149.75,-749.2 1149.75,-761.2 1149.75,-761.2 1149.75,-767.2 1143.75,-773.2 1137.75,-773.2"/>
 <text xml:space="preserve" text-anchor="middle" x="1072" y="-752.2" font-family="Helvetica,sans-Serif" font-size="10.00">diagQuadForm_zeroDiagMatrix</text>
 </a>
@@ -173,7 +173,7 @@
 <!-- n12 -->
 <g id="node13" class="node">
 <title>n12</title>
-<g id="a_node13"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/HighDim/Concentration/HansonWright.lean#L260" xlink:title="lemma · Statlib/HighDim/Concentration/HansonWright.lean:260" target="_blank">
+<g id="a_node13"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Concentration/HansonWright.lean:260" xlink:title="lemma · Statlib/HighDim/Concentration/HansonWright.lean:260" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M766.14,-773.2C766.14,-773.2 621.86,-773.2 621.86,-773.2 615.86,-773.2 609.86,-767.2 609.86,-761.2 609.86,-761.2 609.86,-749.2 609.86,-749.2 609.86,-743.2 615.86,-737.2 621.86,-737.2 621.86,-737.2 766.14,-737.2 766.14,-737.2 772.14,-737.2 778.14,-743.2 778.14,-749.2 778.14,-749.2 778.14,-761.2 778.14,-761.2 778.14,-767.2 772.14,-773.2 766.14,-773.2"/>
 <text xml:space="preserve" text-anchor="middle" x="694" y="-752.2" font-family="Helvetica,sans-Serif" font-size="10.00">offDiagQuadForm_zeroDiagMatrix</text>
 </a>
@@ -194,7 +194,7 @@
 <!-- n13 -->
 <g id="node14" class="node">
 <title>n13</title>
-<g id="a_node14"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/HighDim/Concentration/HansonWright.lean#L271" xlink:title="lemma · Statlib/HighDim/Concentration/HansonWright.lean:271" target="_blank">
+<g id="a_node14"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Concentration/HansonWright.lean:271" xlink:title="lemma · Statlib/HighDim/Concentration/HansonWright.lean:271" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M903.05,-845.2C903.05,-845.2 690.95,-845.2 690.95,-845.2 684.95,-845.2 678.95,-839.2 678.95,-833.2 678.95,-833.2 678.95,-821.2 678.95,-821.2 678.95,-815.2 684.95,-809.2 690.95,-809.2 690.95,-809.2 903.05,-809.2 903.05,-809.2 909.05,-809.2 915.05,-815.2 915.05,-821.2 915.05,-821.2 915.05,-833.2 915.05,-833.2 915.05,-839.2 909.05,-845.2 903.05,-845.2"/>
 <text xml:space="preserve" text-anchor="middle" x="797" y="-824.2" font-family="Helvetica,sans-Serif" font-size="10.00">quadForm_zeroDiagMatrix_eq_offDiagQuadForm</text>
 </a>
@@ -239,7 +239,7 @@
 <!-- n14 -->
 <g id="node15" class="node">
 <title>n14</title>
-<g id="a_node15"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/HighDim/Concentration/HansonWright.lean#L1232" xlink:title="lemma · Statlib/HighDim/Concentration/HansonWright.lean:1232" target="_blank">
+<g id="a_node15"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Concentration/HansonWright.lean:1232" xlink:title="lemma · Statlib/HighDim/Concentration/HansonWright.lean:1232" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M479.84,-773.2C479.84,-773.2 312.16,-773.2 312.16,-773.2 306.16,-773.2 300.16,-767.2 300.16,-761.2 300.16,-761.2 300.16,-749.2 300.16,-749.2 300.16,-743.2 306.16,-737.2 312.16,-737.2 312.16,-737.2 479.84,-737.2 479.84,-737.2 485.84,-737.2 491.84,-743.2 491.84,-749.2 491.84,-749.2 491.84,-761.2 491.84,-761.2 491.84,-767.2 485.84,-773.2 479.84,-773.2"/>
 <text xml:space="preserve" text-anchor="middle" x="396" y="-752.2" font-family="Helvetica,sans-Serif" font-size="10.00">coord_mul_integrable_of_sq_integrable</text>
 </a>
@@ -248,7 +248,7 @@
 <!-- n15 -->
 <g id="node16" class="node">
 <title>n15</title>
-<g id="a_node16"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/HighDim/Concentration/HansonWright.lean#L1249" xlink:title="lemma · Statlib/HighDim/Concentration/HansonWright.lean:1249" target="_blank">
+<g id="a_node16"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Concentration/HansonWright.lean:1249" xlink:title="lemma · Statlib/HighDim/Concentration/HansonWright.lean:1249" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M270.34,-773.2C270.34,-773.2 107.66,-773.2 107.66,-773.2 101.66,-773.2 95.66,-767.2 95.66,-761.2 95.66,-761.2 95.66,-749.2 95.66,-749.2 95.66,-743.2 101.66,-737.2 107.66,-737.2 107.66,-737.2 270.34,-737.2 270.34,-737.2 276.34,-737.2 282.34,-743.2 282.34,-749.2 282.34,-749.2 282.34,-761.2 282.34,-761.2 282.34,-767.2 276.34,-773.2 270.34,-773.2"/>
 <text xml:space="preserve" text-anchor="middle" x="189" y="-752.2" font-family="Helvetica,sans-Serif" font-size="10.00">coord_mul_integral_eq_zero_of_indep</text>
 </a>
@@ -263,7 +263,7 @@
 <!-- n16 -->
 <g id="node17" class="node">
 <title>n16</title>
-<g id="a_node17"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/HighDim/Concentration/HansonWright.lean#L1283" xlink:title="lemma · Statlib/HighDim/Concentration/HansonWright.lean:1283" target="_blank">
+<g id="a_node17"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Concentration/HansonWright.lean:1283" xlink:title="lemma · Statlib/HighDim/Concentration/HansonWright.lean:1283" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M493.73,-845.2C493.73,-845.2 298.27,-845.2 298.27,-845.2 292.27,-845.2 286.27,-839.2 286.27,-833.2 286.27,-833.2 286.27,-821.2 286.27,-821.2 286.27,-815.2 292.27,-809.2 298.27,-809.2 298.27,-809.2 493.73,-809.2 493.73,-809.2 499.73,-809.2 505.73,-815.2 505.73,-821.2 505.73,-821.2 505.73,-833.2 505.73,-833.2 505.73,-839.2 499.73,-845.2 493.73,-845.2"/>
 <text xml:space="preserve" text-anchor="middle" x="396" y="-824.2" font-family="Helvetica,sans-Serif" font-size="10.00">offDiagQuadForm_integral_eq_zero_of_indep</text>
 </a>
@@ -296,7 +296,7 @@
 <!-- n17 -->
 <g id="node18" class="node">
 <title>n17</title>
-<g id="a_node18"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/HighDim/Concentration/HansonWright.lean#L2885" xlink:title="lemma · Statlib/HighDim/Concentration/HansonWright.lean:2885" target="_blank">
+<g id="a_node18"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Concentration/HansonWright.lean:2885" xlink:title="lemma · Statlib/HighDim/Concentration/HansonWright.lean:2885" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M666.24,-917.2C666.24,-917.2 475.76,-917.2 475.76,-917.2 469.76,-917.2 463.76,-911.2 463.76,-905.2 463.76,-905.2 463.76,-893.2 463.76,-893.2 463.76,-887.2 469.76,-881.2 475.76,-881.2 475.76,-881.2 666.24,-881.2 666.24,-881.2 672.24,-881.2 678.24,-887.2 678.24,-893.2 678.24,-893.2 678.24,-905.2 678.24,-905.2 678.24,-911.2 672.24,-917.2 666.24,-917.2"/>
 <text xml:space="preserve" text-anchor="middle" x="571" y="-896.2" font-family="Helvetica,sans-Serif" font-size="10.00">offdiag_tail_of_zeroDiag_centered_quad_tail</text>
 </a>
@@ -341,7 +341,7 @@
 <!-- n18 -->
 <g id="node19" class="node">
 <title>n18</title>
-<g id="a_node19"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/HighDim/Vocabulary/Norms.lean#L13" xlink:title="noncomputable def · Statlib/HighDim/Vocabulary/Norms.lean:13" target="_blank">
+<g id="a_node19"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Vocabulary/Norms.lean:13" xlink:title="noncomputable def · Statlib/HighDim/Vocabulary/Norms.lean:13" target="_blank">
 <path fill="#d6e9ff" stroke="#3b82f6" d="M2353.23,-196C2353.23,-196 2316.77,-196 2316.77,-196 2310.77,-196 2304.77,-190 2304.77,-184 2304.77,-184 2304.77,-172 2304.77,-172 2304.77,-166 2310.77,-160 2316.77,-160 2316.77,-160 2353.23,-160 2353.23,-160 2359.23,-160 2365.23,-166 2365.23,-172 2365.23,-172 2365.23,-184 2365.23,-184 2365.23,-190 2359.23,-196 2353.23,-196"/>
 <text xml:space="preserve" text-anchor="middle" x="2335" y="-175" font-family="Helvetica,sans-Serif" font-size="10.00">l2NormSq</text>
 </a>
@@ -350,7 +350,7 @@
 <!-- n19 -->
 <g id="node20" class="node">
 <title>n19</title>
-<g id="a_node20"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/HighDim/Vocabulary/Norms.lean#L21" xlink:title="lemma · Statlib/HighDim/Vocabulary/Norms.lean:21" target="_blank">
+<g id="a_node20"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Vocabulary/Norms.lean:89" xlink:title="lemma · Statlib/HighDim/Vocabulary/Norms.lean:89" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M2344.64,-269.2C2344.64,-269.2 2265.36,-269.2 2265.36,-269.2 2259.36,-269.2 2253.36,-263.2 2253.36,-257.2 2253.36,-257.2 2253.36,-245.2 2253.36,-245.2 2253.36,-239.2 2259.36,-233.2 2265.36,-233.2 2265.36,-233.2 2344.64,-233.2 2344.64,-233.2 2350.64,-233.2 2356.64,-239.2 2356.64,-245.2 2356.64,-245.2 2356.64,-257.2 2356.64,-257.2 2356.64,-263.2 2350.64,-269.2 2344.64,-269.2"/>
 <text xml:space="preserve" text-anchor="middle" x="2305" y="-248.2" font-family="Helvetica,sans-Serif" font-size="10.00">euclidean_norm_sq</text>
 </a>
@@ -365,7 +365,7 @@
 <!-- n21 -->
 <g id="node21" class="node">
 <title>n21</title>
-<g id="a_node21"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/HighDim/Concentration/HansonWright.lean#L471" xlink:title="lemma · Statlib/HighDim/Concentration/HansonWright.lean:471" target="_blank">
+<g id="a_node21"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Concentration/HansonWright.lean:471" xlink:title="lemma · Statlib/HighDim/Concentration/HansonWright.lean:471" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M2776.96,-269.2C2776.96,-269.2 2587.04,-269.2 2587.04,-269.2 2581.04,-269.2 2575.04,-263.2 2575.04,-257.2 2575.04,-257.2 2575.04,-245.2 2575.04,-245.2 2575.04,-239.2 2581.04,-233.2 2587.04,-233.2 2587.04,-233.2 2776.96,-233.2 2776.96,-233.2 2782.96,-233.2 2788.96,-239.2 2788.96,-245.2 2788.96,-245.2 2788.96,-257.2 2788.96,-257.2 2788.96,-263.2 2782.96,-269.2 2776.96,-269.2"/>
 <text xml:space="preserve" text-anchor="middle" x="2682" y="-248.2" font-family="Helvetica,sans-Serif" font-size="10.00">subgaussian_projection_second_moment_le</text>
 </a>
@@ -380,7 +380,7 @@
 <!-- n20 -->
 <g id="node65" class="node">
 <title>n20</title>
-<g id="a_node65"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/StatFoundation/RandomVariable/SubGaussian/subgaussian_variance_le.lean#L8" xlink:title="theorem · Statlib/StatFoundation/RandomVariable/SubGaussian/subgaussian_variance_le.lean:8" target="_blank">
+<g id="a_node65"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/StatFoundation/RandomVariable/SubGaussian/subgaussian_variance_le.lean:8" xlink:title="theorem · Statlib/StatFoundation/RandomVariable/SubGaussian/subgaussian_variance_le.lean:8" target="_blank">
 <path fill="#ffe6a3" stroke="#d4a017" d="M3404.43,-196C3404.43,-196 3299.57,-196 3299.57,-196 3293.57,-196 3287.57,-190 3287.57,-184 3287.57,-184 3287.57,-172 3287.57,-172 3287.57,-166 3293.57,-160 3299.57,-160 3299.57,-160 3404.43,-160 3404.43,-160 3410.43,-160 3416.43,-166 3416.43,-172 3416.43,-172 3416.43,-184 3416.43,-184 3416.43,-190 3410.43,-196 3404.43,-196"/>
 <text xml:space="preserve" text-anchor="middle" x="3352" y="-175" font-family="Helvetica,sans-Serif" font-size="10.00">subgaussian_variance_le</text>
 </a>
@@ -395,7 +395,7 @@
 <!-- n22 -->
 <g id="node22" class="node">
 <title>n22</title>
-<g id="a_node22"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/HighDim/Concentration/HansonWright.lean#L2311" xlink:title="lemma · Statlib/HighDim/Concentration/HansonWright.lean:2311" target="_blank">
+<g id="a_node22"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Concentration/HansonWright.lean:2311" xlink:title="lemma · Statlib/HighDim/Concentration/HansonWright.lean:2311" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M2405.11,-341.2C2405.11,-341.2 2246.89,-341.2 2246.89,-341.2 2240.89,-341.2 2234.89,-335.2 2234.89,-329.2 2234.89,-329.2 2234.89,-317.2 2234.89,-317.2 2234.89,-311.2 2240.89,-305.2 2246.89,-305.2 2246.89,-305.2 2405.11,-305.2 2405.11,-305.2 2411.11,-305.2 2417.11,-311.2 2417.11,-317.2 2417.11,-317.2 2417.11,-329.2 2417.11,-329.2 2417.11,-335.2 2411.11,-341.2 2405.11,-341.2"/>
 <text xml:space="preserve" text-anchor="middle" x="2326" y="-320.2" font-family="Helvetica,sans-Serif" font-size="10.00">subgaussian_norm_sq_mean_le_dim</text>
 </a>
@@ -440,7 +440,7 @@
 <!-- n26 -->
 <g id="node23" class="node">
 <title>n26</title>
-<g id="a_node23"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/HighDim/Concentration/HansonWright.lean#L2016" xlink:title="lemma · Statlib/HighDim/Concentration/HansonWright.lean:2016" target="_blank">
+<g id="a_node23"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Concentration/HansonWright.lean:2016" xlink:title="lemma · Statlib/HighDim/Concentration/HansonWright.lean:2016" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M2890.62,-341.2C2890.62,-341.2 2707.38,-341.2 2707.38,-341.2 2701.38,-341.2 2695.38,-335.2 2695.38,-329.2 2695.38,-329.2 2695.38,-317.2 2695.38,-317.2 2695.38,-311.2 2701.38,-305.2 2707.38,-305.2 2707.38,-305.2 2890.62,-305.2 2890.62,-305.2 2896.62,-305.2 2902.62,-311.2 2902.62,-317.2 2902.62,-317.2 2902.62,-329.2 2902.62,-329.2 2902.62,-335.2 2896.62,-341.2 2890.62,-341.2"/>
 <text xml:space="preserve" text-anchor="middle" x="2799" y="-320.2" font-family="Helvetica,sans-Serif" font-size="10.00">coord_sq_centered_scaled_exp_integrable</text>
 </a>
@@ -461,7 +461,7 @@
 <!-- n25 -->
 <g id="node68" class="node">
 <title>n25</title>
-<g id="a_node68"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/StatFoundation/RandomVariable/SubGaussian/subgaussian_exp_sq_le_at_one_third.lean#L165" xlink:title="theorem · Statlib/StatFoundation/RandomVariable/SubGaussian/subgaussian_exp_sq_le_at_one_third.lean:165" target="_blank">
+<g id="a_node68"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/StatFoundation/RandomVariable/SubGaussian/subgaussian_exp_sq_le_at_one_third.lean:165" xlink:title="theorem · Statlib/StatFoundation/RandomVariable/SubGaussian/subgaussian_exp_sq_le_at_one_third.lean:165" target="_blank">
 <path fill="#ffe6a3" stroke="#d4a017" d="M3496.3,-124C3496.3,-124 3299.7,-124 3299.7,-124 3293.7,-124 3287.7,-118 3287.7,-112 3287.7,-112 3287.7,-100 3287.7,-100 3287.7,-94 3293.7,-88 3299.7,-88 3299.7,-88 3496.3,-88 3496.3,-88 3502.3,-88 3508.3,-94 3508.3,-100 3508.3,-100 3508.3,-112 3508.3,-112 3508.3,-118 3502.3,-124 3496.3,-124"/>
 <text xml:space="preserve" text-anchor="middle" x="3398" y="-103" font-family="Helvetica,sans-Serif" font-size="10.00">subgaussian_integrable_exp_sq_at_one_third</text>
 </a>
@@ -476,7 +476,7 @@
 <!-- n31 -->
 <g id="node24" class="node">
 <title>n31</title>
-<g id="a_node24"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/HighDim/Concentration/HansonWright.lean#L1952" xlink:title="lemma · Statlib/HighDim/Concentration/HansonWright.lean:1952" target="_blank">
+<g id="a_node24"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Concentration/HansonWright.lean:1952" xlink:title="lemma · Statlib/HighDim/Concentration/HansonWright.lean:1952" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M3101.67,-341.2C3101.67,-341.2 2932.33,-341.2 2932.33,-341.2 2926.33,-341.2 2920.33,-335.2 2920.33,-329.2 2920.33,-329.2 2920.33,-317.2 2920.33,-317.2 2920.33,-311.2 2926.33,-305.2 2932.33,-305.2 2932.33,-305.2 3101.67,-305.2 3101.67,-305.2 3107.67,-305.2 3113.67,-311.2 3113.67,-317.2 3113.67,-317.2 3113.67,-329.2 3113.67,-329.2 3113.67,-335.2 3107.67,-341.2 3101.67,-341.2"/>
 <text xml:space="preserve" text-anchor="middle" x="3017" y="-320.2" font-family="Helvetica,sans-Serif" font-size="10.00">coord_sq_centered_mgf_bound_explicit</text>
 </a>
@@ -497,7 +497,7 @@
 <!-- n30 -->
 <g id="node72" class="node">
 <title>n30</title>
-<g id="a_node72"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/StatFoundation/RandomVariable/SubExponential/subexp_mgf_le_of_sq_subgaussian.lean#L73" xlink:title="theorem · Statlib/StatFoundation/RandomVariable/SubExponential/subexp_mgf_le_of_sq_subgaussian.lean:73" target="_blank">
+<g id="a_node72"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/StatFoundation/RandomVariable/SubExponential/subexp_mgf_le_of_sq_subgaussian.lean:73" xlink:title="theorem · Statlib/StatFoundation/RandomVariable/SubExponential/subexp_mgf_le_of_sq_subgaussian.lean:73" target="_blank">
 <path fill="#ffe6a3" stroke="#d4a017" d="M3633.84,-196C3633.84,-196 3446.16,-196 3446.16,-196 3440.16,-196 3434.16,-190 3434.16,-184 3434.16,-184 3434.16,-172 3434.16,-172 3434.16,-166 3440.16,-160 3446.16,-160 3446.16,-160 3633.84,-160 3633.84,-160 3639.84,-160 3645.84,-166 3645.84,-172 3645.84,-172 3645.84,-184 3645.84,-184 3645.84,-190 3639.84,-196 3633.84,-196"/>
 <text xml:space="preserve" text-anchor="middle" x="3540" y="-175" font-family="Helvetica,sans-Serif" font-size="10.00">subexp_mgf_le_of_sq_subgaussian_explicit</text>
 </a>
@@ -512,7 +512,7 @@
 <!-- n32 -->
 <g id="node25" class="node">
 <title>n32</title>
-<g id="a_node25"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/HighDim/Concentration/HansonWright.lean#L2097" xlink:title="lemma · Statlib/HighDim/Concentration/HansonWright.lean:2097" target="_blank">
+<g id="a_node25"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Concentration/HansonWright.lean:2097" xlink:title="lemma · Statlib/HighDim/Concentration/HansonWright.lean:2097" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M2953.04,-413.2C2953.04,-413.2 2686.96,-413.2 2686.96,-413.2 2680.96,-413.2 2674.96,-407.2 2674.96,-401.2 2674.96,-401.2 2674.96,-389.2 2674.96,-389.2 2674.96,-383.2 2680.96,-377.2 2686.96,-377.2 2686.96,-377.2 2953.04,-377.2 2953.04,-377.2 2959.04,-377.2 2965.04,-383.2 2965.04,-389.2 2965.04,-389.2 2965.04,-401.2 2965.04,-401.2 2965.04,-407.2 2959.04,-413.2 2953.04,-413.2"/>
 <text xml:space="preserve" text-anchor="middle" x="2820" y="-392.2" font-family="Helvetica,sans-Serif" font-size="10.00">coord_sq_centered_scaled_subexponential_explicit_of_range</text>
 </a>
@@ -539,7 +539,7 @@
 <!-- n23 -->
 <g id="node66" class="node">
 <title>n23</title>
-<g id="a_node66"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/StatFoundation/Vocabulary/RandomVariable.lean#L74" xlink:title="structure · Statlib/StatFoundation/Vocabulary/RandomVariable.lean:74" target="_blank">
+<g id="a_node66"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/StatFoundation/Vocabulary/RandomVariable.lean:74" xlink:title="structure · Statlib/StatFoundation/Vocabulary/RandomVariable.lean:74" target="_blank">
 <path fill="#e8dcff" stroke="#8b5cf6" d="M4360.47,-124C4360.47,-124 4259.53,-124 4259.53,-124 4253.53,-124 4247.53,-118 4247.53,-112 4247.53,-112 4247.53,-100 4247.53,-100 4247.53,-94 4253.53,-88 4259.53,-88 4259.53,-88 4360.47,-88 4360.47,-88 4366.47,-88 4372.47,-94 4372.47,-100 4372.47,-100 4372.47,-112 4372.47,-112 4372.47,-118 4366.47,-124 4360.47,-124"/>
 <text xml:space="preserve" text-anchor="middle" x="4310" y="-103" font-family="Helvetica,sans-Serif" font-size="10.00">HasSubexponentialMGF</text>
 </a>
@@ -554,7 +554,7 @@
 <!-- n34 -->
 <g id="node26" class="node">
 <title>n34</title>
-<g id="a_node26"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/HighDim/Concentration/HansonWright.lean#L2153" xlink:title="lemma · Statlib/HighDim/Concentration/HansonWright.lean:2153" target="_blank">
+<g id="a_node26"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Concentration/HansonWright.lean:2153" xlink:title="lemma · Statlib/HighDim/Concentration/HansonWright.lean:2153" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M2915.07,-485.2C2915.07,-485.2 2712.93,-485.2 2712.93,-485.2 2706.93,-485.2 2700.93,-479.2 2700.93,-473.2 2700.93,-473.2 2700.93,-461.2 2700.93,-461.2 2700.93,-455.2 2706.93,-449.2 2712.93,-449.2 2712.93,-449.2 2915.07,-449.2 2915.07,-449.2 2921.07,-449.2 2927.07,-455.2 2927.07,-461.2 2927.07,-461.2 2927.07,-473.2 2927.07,-473.2 2927.07,-479.2 2921.07,-485.2 2915.07,-485.2"/>
 <text xml:space="preserve" text-anchor="middle" x="2814" y="-464.2" font-family="Helvetica,sans-Serif" font-size="10.00">weighted_coord_sq_centered_sum_tail_explicit</text>
 </a>
@@ -587,7 +587,7 @@
 <!-- n33 -->
 <g id="node73" class="node">
 <title>n33</title>
-<g id="a_node73"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/StatFoundation/Concentration/ExponentialType/bernstein_sum_meas_abs_ge_le_two_exp.lean#L13" xlink:title="theorem · Statlib/StatFoundation/Concentration/ExponentialType/bernstein_sum_meas_abs_ge_le_two_exp.lean:13" target="_blank">
+<g id="a_node73"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/StatFoundation/Concentration/ExponentialType/bernstein_sum_meas_abs_ge_le_two_exp.lean:13" xlink:title="theorem · Statlib/StatFoundation/Concentration/ExponentialType/bernstein_sum_meas_abs_ge_le_two_exp.lean:13" target="_blank">
 <path fill="#ffe6a3" stroke="#d4a017" d="M4401.06,-196C4401.06,-196 4218.94,-196 4218.94,-196 4212.94,-196 4206.94,-190 4206.94,-184 4206.94,-184 4206.94,-172 4206.94,-172 4206.94,-166 4212.94,-160 4218.94,-160 4218.94,-160 4401.06,-160 4401.06,-160 4407.06,-160 4413.06,-166 4413.06,-172 4413.06,-172 4413.06,-184 4413.06,-184 4413.06,-190 4407.06,-196 4401.06,-196"/>
 <text xml:space="preserve" text-anchor="middle" x="4310" y="-175" font-family="Helvetica,sans-Serif" font-size="10.00">bernstein_sum_meas_abs_ge_le_two_exp</text>
 </a>
@@ -602,7 +602,7 @@
 <!-- n35 -->
 <g id="node27" class="node">
 <title>n35</title>
-<g id="a_node27"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/HighDim/Concentration/HansonWright.lean#L2351" xlink:title="lemma · Statlib/HighDim/Concentration/HansonWright.lean:2351" target="_blank">
+<g id="a_node27"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Concentration/HansonWright.lean:2351" xlink:title="lemma · Statlib/HighDim/Concentration/HansonWright.lean:2351" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M2404.9,-557.2C2404.9,-557.2 2211.1,-557.2 2211.1,-557.2 2205.1,-557.2 2199.1,-551.2 2199.1,-545.2 2199.1,-545.2 2199.1,-533.2 2199.1,-533.2 2199.1,-527.2 2205.1,-521.2 2211.1,-521.2 2211.1,-521.2 2404.9,-521.2 2404.9,-521.2 2410.9,-521.2 2416.9,-527.2 2416.9,-533.2 2416.9,-533.2 2416.9,-545.2 2416.9,-545.2 2416.9,-551.2 2410.9,-557.2 2404.9,-557.2"/>
 <text xml:space="preserve" text-anchor="middle" x="2308" y="-536.2" font-family="Helvetica,sans-Serif" font-size="10.00">subgaussian_norm_sq_tail_bernstein_explicit</text>
 </a>
@@ -647,7 +647,7 @@
 <!-- n36 -->
 <g id="node28" class="node">
 <title>n36</title>
-<g id="a_node28"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/HighDim/Vocabulary/QuadraticForms.lean#L46" xlink:title="noncomputable def · Statlib/HighDim/Vocabulary/QuadraticForms.lean:46" target="_blank">
+<g id="a_node28"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Vocabulary/QuadraticForms.lean:46" xlink:title="noncomputable def · Statlib/HighDim/Vocabulary/QuadraticForms.lean:46" target="_blank">
 <path fill="#d6e9ff" stroke="#3b82f6" d="M1649.41,-124C1649.41,-124 1584.59,-124 1584.59,-124 1578.59,-124 1572.59,-118 1572.59,-112 1572.59,-112 1572.59,-100 1572.59,-100 1572.59,-94 1578.59,-88 1584.59,-88 1584.59,-88 1649.41,-88 1649.41,-88 1655.41,-88 1661.41,-94 1661.41,-100 1661.41,-100 1661.41,-112 1661.41,-112 1661.41,-118 1655.41,-124 1649.41,-124"/>
 <text xml:space="preserve" text-anchor="middle" x="1617" y="-103" font-family="Helvetica,sans-Serif" font-size="10.00">offDiagCoeffVec</text>
 </a>
@@ -656,7 +656,7 @@
 <!-- n37 -->
 <g id="node29" class="node">
 <title>n37</title>
-<g id="a_node29"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/HighDim/Concentration/HansonWright.lean#L90" xlink:title="lemma · Statlib/HighDim/Concentration/HansonWright.lean:90" target="_blank">
+<g id="a_node29"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Concentration/HansonWright.lean:90" xlink:title="lemma · Statlib/HighDim/Concentration/HansonWright.lean:90" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M1427.83,-124C1427.83,-124 1250.17,-124 1250.17,-124 1244.17,-124 1238.17,-118 1238.17,-112 1238.17,-112 1238.17,-100 1238.17,-100 1238.17,-94 1244.17,-88 1250.17,-88 1250.17,-88 1427.83,-88 1427.83,-88 1433.83,-88 1439.83,-94 1439.83,-100 1439.83,-100 1439.83,-112 1439.83,-112 1439.83,-118 1433.83,-124 1427.83,-124"/>
 <text xml:space="preserve" text-anchor="middle" x="1339" y="-103" font-family="Helvetica,sans-Serif" font-size="10.00">decoupledOffDiagQuadForm_measurable</text>
 </a>
@@ -671,7 +671,7 @@
 <!-- n38 -->
 <g id="node30" class="node">
 <title>n38</title>
-<g id="a_node30"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/HighDim/Concentration/HansonWright.lean#L99" xlink:title="lemma · Statlib/HighDim/Concentration/HansonWright.lean:99" target="_blank">
+<g id="a_node30"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Concentration/HansonWright.lean:99" xlink:title="lemma · Statlib/HighDim/Concentration/HansonWright.lean:99" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M1432.62,-196C1432.62,-196 1229.38,-196 1229.38,-196 1223.38,-196 1217.38,-190 1217.38,-184 1217.38,-184 1217.38,-172 1217.38,-172 1217.38,-166 1223.38,-160 1229.38,-160 1229.38,-160 1432.62,-160 1432.62,-160 1438.62,-160 1444.62,-166 1444.62,-172 1444.62,-172 1444.62,-184 1444.62,-184 1444.62,-190 1438.62,-196 1432.62,-196"/>
 <text xml:space="preserve" text-anchor="middle" x="1331" y="-175" font-family="Helvetica,sans-Serif" font-size="10.00">decoupledOffDiagQuadForm_prod_measurable</text>
 </a>
@@ -692,7 +692,7 @@
 <!-- n39 -->
 <g id="node31" class="node">
 <title>n39</title>
-<g id="a_node31"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/HighDim/Concentration/HansonWright.lean#L109" xlink:title="lemma · Statlib/HighDim/Concentration/HansonWright.lean:109" target="_blank">
+<g id="a_node31"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Concentration/HansonWright.lean:109" xlink:title="lemma · Statlib/HighDim/Concentration/HansonWright.lean:109" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M1387.29,-269.2C1387.29,-269.2 1150.71,-269.2 1150.71,-269.2 1144.71,-269.2 1138.71,-263.2 1138.71,-257.2 1138.71,-257.2 1138.71,-245.2 1138.71,-245.2 1138.71,-239.2 1144.71,-233.2 1150.71,-233.2 1150.71,-233.2 1387.29,-233.2 1387.29,-233.2 1393.29,-233.2 1399.29,-239.2 1399.29,-245.2 1399.29,-245.2 1399.29,-257.2 1399.29,-257.2 1399.29,-263.2 1393.29,-269.2 1387.29,-269.2"/>
 <text xml:space="preserve" text-anchor="middle" x="1269" y="-248.2" font-family="Helvetica,sans-Serif" font-size="10.00">decoupledOffDiagQuadForm_prod_tail_measurableSet</text>
 </a>
@@ -713,7 +713,7 @@
 <!-- n40 -->
 <g id="node32" class="node">
 <title>n40</title>
-<g id="a_node32"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/HighDim/Concentration/HansonWright.lean#L622" xlink:title="lemma · Statlib/HighDim/Concentration/HansonWright.lean:622" target="_blank">
+<g id="a_node32"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Concentration/HansonWright.lean:622" xlink:title="lemma · Statlib/HighDim/Concentration/HansonWright.lean:622" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M1747.32,-196C1747.32,-196 1594.68,-196 1594.68,-196 1588.68,-196 1582.68,-190 1582.68,-184 1582.68,-184 1582.68,-172 1582.68,-172 1582.68,-166 1588.68,-160 1594.68,-160 1594.68,-160 1747.32,-160 1747.32,-160 1753.32,-160 1759.32,-166 1759.32,-172 1759.32,-172 1759.32,-184 1759.32,-184 1759.32,-190 1753.32,-196 1747.32,-196"/>
 <text xml:space="preserve" text-anchor="middle" x="1671" y="-175" font-family="Helvetica,sans-Serif" font-size="10.00">offDiagCoeffVec_comp_measurable</text>
 </a>
@@ -728,7 +728,7 @@
 <!-- n41 -->
 <g id="node33" class="node">
 <title>n41</title>
-<g id="a_node33"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/HighDim/Concentration/HansonWright.lean#L630" xlink:title="lemma · Statlib/HighDim/Concentration/HansonWright.lean:630" target="_blank">
+<g id="a_node33"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Concentration/HansonWright.lean:630" xlink:title="lemma · Statlib/HighDim/Concentration/HansonWright.lean:630" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M1676.55,-269.2C1676.55,-269.2 1509.45,-269.2 1509.45,-269.2 1503.45,-269.2 1497.45,-263.2 1497.45,-257.2 1497.45,-257.2 1497.45,-245.2 1497.45,-245.2 1497.45,-239.2 1503.45,-233.2 1509.45,-233.2 1509.45,-233.2 1676.55,-233.2 1676.55,-233.2 1682.55,-233.2 1688.55,-239.2 1688.55,-245.2 1688.55,-245.2 1688.55,-257.2 1688.55,-257.2 1688.55,-263.2 1682.55,-269.2 1676.55,-269.2"/>
 <text xml:space="preserve" text-anchor="middle" x="1593" y="-248.2" font-family="Helvetica,sans-Serif" font-size="10.00">offDiagCoeffVec_norm_sq_measurable</text>
 </a>
@@ -749,7 +749,7 @@
 <!-- n43 -->
 <g id="node34" class="node">
 <title>n43</title>
-<g id="a_node34"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/HighDim/Vocabulary/QuadraticForms.lean#L39" xlink:title="noncomputable def · Statlib/HighDim/Vocabulary/QuadraticForms.lean:39" target="_blank">
+<g id="a_node34"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Vocabulary/QuadraticForms.lean:39" xlink:title="noncomputable def · Statlib/HighDim/Vocabulary/QuadraticForms.lean:39" target="_blank">
 <path fill="#d6e9ff" stroke="#3b82f6" d="M2331.79,-52C2331.79,-52 2284.21,-52 2284.21,-52 2278.21,-52 2272.21,-46 2272.21,-40 2272.21,-40 2272.21,-28 2272.21,-28 2272.21,-22 2278.21,-16 2284.21,-16 2284.21,-16 2331.79,-16 2331.79,-16 2337.79,-16 2343.79,-22 2343.79,-28 2343.79,-28 2343.79,-40 2343.79,-40 2343.79,-46 2337.79,-52 2331.79,-52"/>
 <text xml:space="preserve" text-anchor="middle" x="2308" y="-31" font-family="Helvetica,sans-Serif" font-size="10.00">offDiagCoeff</text>
 </a>
@@ -758,7 +758,7 @@
 <!-- n44 -->
 <g id="node35" class="node">
 <title>n44</title>
-<g id="a_node35"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/HighDim/Concentration/HansonWright.lean#L46" xlink:title="lemma · Statlib/HighDim/Concentration/HansonWright.lean:46" target="_blank">
+<g id="a_node35"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Concentration/HansonWright.lean:46" xlink:title="lemma · Statlib/HighDim/Concentration/HansonWright.lean:46" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M2277.11,-124C2277.11,-124 2088.89,-124 2088.89,-124 2082.89,-124 2076.89,-118 2076.89,-112 2076.89,-112 2076.89,-100 2076.89,-100 2076.89,-94 2082.89,-88 2088.89,-88 2088.89,-88 2277.11,-88 2277.11,-88 2283.11,-88 2289.11,-94 2289.11,-100 2289.11,-100 2289.11,-112 2289.11,-112 2289.11,-118 2283.11,-124 2277.11,-124"/>
 <text xml:space="preserve" text-anchor="middle" x="2183" y="-103" font-family="Helvetica,sans-Serif" font-size="10.00">decoupledOffDiagQuadForm_eq_sum_coeff</text>
 </a>
@@ -779,7 +779,7 @@
 <!-- n45 -->
 <g id="node36" class="node">
 <title>n45</title>
-<g id="a_node36"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/HighDim/Concentration/HansonWright.lean#L65" xlink:title="lemma · Statlib/HighDim/Concentration/HansonWright.lean:65" target="_blank">
+<g id="a_node36"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Concentration/HansonWright.lean:65" xlink:title="lemma · Statlib/HighDim/Concentration/HansonWright.lean:65" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M2274.79,-196C2274.79,-196 2083.21,-196 2083.21,-196 2077.21,-196 2071.21,-190 2071.21,-184 2071.21,-184 2071.21,-172 2071.21,-172 2071.21,-166 2077.21,-160 2083.21,-160 2083.21,-160 2274.79,-160 2274.79,-160 2280.79,-160 2286.79,-166 2286.79,-172 2286.79,-172 2286.79,-184 2286.79,-184 2286.79,-190 2280.79,-196 2274.79,-196"/>
 <text xml:space="preserve" text-anchor="middle" x="2179" y="-175" font-family="Helvetica,sans-Serif" font-size="10.00">decoupledOffDiagQuadForm_eq_inner_coeff</text>
 </a>
@@ -812,7 +812,7 @@
 <!-- n46 -->
 <g id="node37" class="node">
 <title>n46</title>
-<g id="a_node37"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/HighDim/Concentration/HansonWright.lean#L39" xlink:title="lemma · Statlib/HighDim/Concentration/HansonWright.lean:39" target="_blank">
+<g id="a_node37"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Concentration/HansonWright.lean:39" xlink:title="lemma · Statlib/HighDim/Concentration/HansonWright.lean:39" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M1986.52,-196C1986.52,-196 1909.48,-196 1909.48,-196 1903.48,-196 1897.48,-190 1897.48,-184 1897.48,-184 1897.48,-172 1897.48,-172 1897.48,-166 1903.48,-160 1909.48,-160 1909.48,-160 1986.52,-160 1986.52,-160 1992.52,-160 1998.52,-166 1998.52,-172 1998.52,-172 1998.52,-184 1998.52,-184 1998.52,-190 1992.52,-196 1986.52,-196"/>
 <text xml:space="preserve" text-anchor="middle" x="1948" y="-175" font-family="Helvetica,sans-Serif" font-size="10.00">offDiagCoeff_const</text>
 </a>
@@ -833,7 +833,7 @@
 <!-- n47 -->
 <g id="node38" class="node">
 <title>n47</title>
-<g id="a_node38"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/HighDim/Concentration/HansonWright.lean#L73" xlink:title="lemma · Statlib/HighDim/Concentration/HansonWright.lean:73" target="_blank">
+<g id="a_node38"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Concentration/HansonWright.lean:73" xlink:title="lemma · Statlib/HighDim/Concentration/HansonWright.lean:73" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M2082.64,-269.2C2082.64,-269.2 1819.36,-269.2 1819.36,-269.2 1813.36,-269.2 1807.36,-263.2 1807.36,-257.2 1807.36,-257.2 1807.36,-245.2 1807.36,-245.2 1807.36,-239.2 1813.36,-233.2 1819.36,-233.2 1819.36,-233.2 2082.64,-233.2 2082.64,-233.2 2088.64,-233.2 2094.64,-239.2 2094.64,-245.2 2094.64,-245.2 2094.64,-257.2 2094.64,-257.2 2094.64,-263.2 2088.64,-269.2 2082.64,-269.2"/>
 <text xml:space="preserve" text-anchor="middle" x="1951" y="-248.2" font-family="Helvetica,sans-Serif" font-size="10.00">decoupledOffDiagQuadForm_const_right_eq_inner_coeffVec</text>
 </a>
@@ -866,7 +866,7 @@
 <!-- n48 -->
 <g id="node39" class="node">
 <title>n48</title>
-<g id="a_node39"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/HighDim/Concentration/HansonWright.lean#L80" xlink:title="lemma · Statlib/HighDim/Concentration/HansonWright.lean:80" target="_blank">
+<g id="a_node39"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Concentration/HansonWright.lean:80" xlink:title="lemma · Statlib/HighDim/Concentration/HansonWright.lean:80" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M2025.02,-341.2C2025.02,-341.2 1788.98,-341.2 1788.98,-341.2 1782.98,-341.2 1776.98,-335.2 1776.98,-329.2 1776.98,-329.2 1776.98,-317.2 1776.98,-317.2 1776.98,-311.2 1782.98,-305.2 1788.98,-305.2 1788.98,-305.2 2025.02,-305.2 2025.02,-305.2 2031.02,-305.2 2037.02,-311.2 2037.02,-317.2 2037.02,-317.2 2037.02,-329.2 2037.02,-329.2 2037.02,-335.2 2031.02,-341.2 2025.02,-341.2"/>
 <text xml:space="preserve" text-anchor="middle" x="1907" y="-320.2" font-family="Helvetica,sans-Serif" font-size="10.00">decoupledOffDiagQuadForm_const_right_subgaussian</text>
 </a>
@@ -899,7 +899,7 @@
 <!-- n50 -->
 <g id="node40" class="node">
 <title>n50</title>
-<g id="a_node40"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/HighDim/Concentration/HansonWright.lean#L798" xlink:title="lemma · Statlib/HighDim/Concentration/HansonWright.lean:798" target="_blank">
+<g id="a_node40"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Concentration/HansonWright.lean:798" xlink:title="lemma · Statlib/HighDim/Concentration/HansonWright.lean:798" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M2074.77,-413.2C2074.77,-413.2 1739.23,-413.2 1739.23,-413.2 1733.23,-413.2 1727.23,-407.2 1727.23,-401.2 1727.23,-401.2 1727.23,-389.2 1727.23,-389.2 1727.23,-383.2 1733.23,-377.2 1739.23,-377.2 1739.23,-377.2 2074.77,-377.2 2074.77,-377.2 2080.77,-377.2 2086.77,-383.2 2086.77,-389.2 2086.77,-389.2 2086.77,-401.2 2086.77,-401.2 2086.77,-407.2 2080.77,-413.2 2074.77,-413.2"/>
 <text xml:space="preserve" text-anchor="middle" x="1907" y="-392.2" font-family="Helvetica,sans-Serif" font-size="10.00">decoupledOffDiagQuadForm_const_right_abs_tail_real_of_coeff_norm_sq_le</text>
 </a>
@@ -932,7 +932,7 @@
 <!-- n42 -->
 <g id="node74" class="node">
 <title>n42</title>
-<g id="a_node74"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/StatFoundation/RandomVariable/SubGaussian/subgaussian_mgf_mono_param.lean#L10" xlink:title="lemma · Statlib/StatFoundation/RandomVariable/SubGaussian/subgaussian_mgf_mono_param.lean:10" target="_blank">
+<g id="a_node74"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/StatFoundation/RandomVariable/SubGaussian/subgaussian_mgf_mono_param.lean:10" xlink:title="lemma · Statlib/StatFoundation/RandomVariable/SubGaussian/subgaussian_mgf_mono_param.lean:10" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M3810.43,-196C3810.43,-196 3675.57,-196 3675.57,-196 3669.57,-196 3663.57,-190 3663.57,-184 3663.57,-184 3663.57,-172 3663.57,-172 3663.57,-166 3669.57,-160 3675.57,-160 3675.57,-160 3810.43,-160 3810.43,-160 3816.43,-160 3822.43,-166 3822.43,-172 3822.43,-172 3822.43,-184 3822.43,-184 3822.43,-190 3816.43,-196 3810.43,-196"/>
 <text xml:space="preserve" text-anchor="middle" x="3743" y="-175" font-family="Helvetica,sans-Serif" font-size="10.00">subgaussian_mgf_mono_param</text>
 </a>
@@ -947,7 +947,7 @@
 <!-- n49 -->
 <g id="node75" class="node">
 <title>n49</title>
-<g id="a_node75"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/StatFoundation/Concentration/ExponentialType/subgaussian_abs_tail_real.lean#L11" xlink:title="lemma · Statlib/StatFoundation/Concentration/ExponentialType/subgaussian_abs_tail_real.lean:11" target="_blank">
+<g id="a_node75"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/StatFoundation/Concentration/ExponentialType/subgaussian_abs_tail_real.lean:11" xlink:title="lemma · Statlib/StatFoundation/Concentration/ExponentialType/subgaussian_abs_tail_real.lean:11" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M3963.21,-196C3963.21,-196 3852.79,-196 3852.79,-196 3846.79,-196 3840.79,-190 3840.79,-184 3840.79,-184 3840.79,-172 3840.79,-172 3840.79,-166 3846.79,-160 3852.79,-160 3852.79,-160 3963.21,-160 3963.21,-160 3969.21,-160 3975.21,-166 3975.21,-172 3975.21,-172 3975.21,-184 3975.21,-184 3975.21,-190 3969.21,-196 3963.21,-196"/>
 <text xml:space="preserve" text-anchor="middle" x="3908" y="-175" font-family="Helvetica,sans-Serif" font-size="10.00">subgaussian_abs_tail_real</text>
 </a>
@@ -962,7 +962,7 @@
 <!-- n52 -->
 <g id="node41" class="node">
 <title>n52</title>
-<g id="a_node41"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/HighDim/Concentration/HansonWright.lean#L973" xlink:title="lemma · Statlib/HighDim/Concentration/HansonWright.lean:973" target="_blank">
+<g id="a_node41"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Concentration/HansonWright.lean:973" xlink:title="lemma · Statlib/HighDim/Concentration/HansonWright.lean:973" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M1848.54,-485.2C1848.54,-485.2 1597.46,-485.2 1597.46,-485.2 1591.46,-485.2 1585.46,-479.2 1585.46,-473.2 1585.46,-473.2 1585.46,-461.2 1585.46,-461.2 1585.46,-455.2 1591.46,-449.2 1597.46,-449.2 1597.46,-449.2 1848.54,-449.2 1848.54,-449.2 1854.54,-449.2 1860.54,-455.2 1860.54,-461.2 1860.54,-461.2 1860.54,-473.2 1860.54,-473.2 1860.54,-479.2 1854.54,-485.2 1848.54,-485.2"/>
 <text xml:space="preserve" text-anchor="middle" x="1723" y="-464.2" font-family="Helvetica,sans-Serif" font-size="10.00">decoupledOffDiagQuadForm_prod_tail_le_bad_plus_good</text>
 </a>
@@ -1007,7 +1007,7 @@
 <!-- n51 -->
 <g id="node76" class="node">
 <title>n51</title>
-<g id="a_node76"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/StatFoundation/BasicAnalysis/measure_le_ofReal_of_measureReal_le.lean#L10" xlink:title="lemma · Statlib/StatFoundation/BasicAnalysis/measure_le_ofReal_of_measureReal_le.lean:10" target="_blank">
+<g id="a_node76"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/StatFoundation/BasicAnalysis/measure_le_ofReal_of_measureReal_le.lean:10" xlink:title="lemma · Statlib/StatFoundation/BasicAnalysis/measure_le_ofReal_of_measureReal_le.lean:10" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M4176.5,-196C4176.5,-196 4005.5,-196 4005.5,-196 3999.5,-196 3993.5,-190 3993.5,-184 3993.5,-184 3993.5,-172 3993.5,-172 3993.5,-166 3999.5,-160 4005.5,-160 4005.5,-160 4176.5,-160 4176.5,-160 4182.5,-160 4188.5,-166 4188.5,-172 4188.5,-172 4188.5,-184 4188.5,-184 4188.5,-190 4182.5,-196 4176.5,-196"/>
 <text xml:space="preserve" text-anchor="middle" x="4091" y="-175" font-family="Helvetica,sans-Serif" font-size="10.00">measure_le_ofReal_of_measureReal_le</text>
 </a>
@@ -1022,7 +1022,7 @@
 <!-- n53 -->
 <g id="node42" class="node">
 <title>n53</title>
-<g id="a_node42"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/HighDim/Concentration/HansonWright.lean#L203" xlink:title="lemma · Statlib/HighDim/Concentration/HansonWright.lean:203" target="_blank">
+<g id="a_node42"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Concentration/HansonWright.lean:203" xlink:title="lemma · Statlib/HighDim/Concentration/HansonWright.lean:203" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M1006.61,-196C1006.61,-196 813.39,-196 813.39,-196 807.39,-196 801.39,-190 801.39,-184 801.39,-184 801.39,-172 801.39,-172 801.39,-166 807.39,-160 813.39,-160 813.39,-160 1006.61,-160 1006.61,-160 1012.61,-160 1018.61,-166 1018.61,-172 1018.61,-172 1018.61,-184 1018.61,-184 1018.61,-190 1012.61,-196 1006.61,-196"/>
 <text xml:space="preserve" text-anchor="middle" x="910" y="-175" font-family="Helvetica,sans-Serif" font-size="10.00">offDiagCoeffVec_eq_zeroDiagMatrix_mulVec</text>
 </a>
@@ -1043,7 +1043,7 @@
 <!-- n54 -->
 <g id="node43" class="node">
 <title>n54</title>
-<g id="a_node43"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/HighDim/Concentration/HansonWright.lean#L228" xlink:title="lemma · Statlib/HighDim/Concentration/HansonWright.lean:228" target="_blank">
+<g id="a_node43"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Concentration/HansonWright.lean:228" xlink:title="lemma · Statlib/HighDim/Concentration/HansonWright.lean:228" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M945.04,-269.2C945.04,-269.2 792.96,-269.2 792.96,-269.2 786.96,-269.2 780.96,-263.2 780.96,-257.2 780.96,-257.2 780.96,-245.2 780.96,-245.2 780.96,-239.2 786.96,-233.2 792.96,-233.2 792.96,-233.2 945.04,-233.2 945.04,-233.2 951.04,-233.2 957.04,-239.2 957.04,-245.2 957.04,-245.2 957.04,-257.2 957.04,-257.2 957.04,-263.2 951.04,-269.2 945.04,-269.2"/>
 <text xml:space="preserve" text-anchor="middle" x="869" y="-248.2" font-family="Helvetica,sans-Serif" font-size="10.00">offDiagCoeffVec_norm_le_zeroDiag</text>
 </a>
@@ -1070,7 +1070,7 @@
 <!-- n55 -->
 <g id="node44" class="node">
 <title>n55</title>
-<g id="a_node44"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/HighDim/Vocabulary/QuadraticForms.lean#L57" xlink:title="def · Statlib/HighDim/Vocabulary/QuadraticForms.lean:57" target="_blank">
+<g id="a_node44"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Vocabulary/QuadraticForms.lean:57" xlink:title="def · Statlib/HighDim/Vocabulary/QuadraticForms.lean:57" target="_blank">
 <path fill="#d6e9ff" stroke="#3b82f6" d="M999.23,-124C999.23,-124 942.77,-124 942.77,-124 936.77,-124 930.77,-118 930.77,-112 930.77,-112 930.77,-100 930.77,-100 930.77,-94 936.77,-88 942.77,-88 942.77,-88 999.23,-88 999.23,-88 1005.23,-88 1011.23,-94 1011.23,-100 1011.23,-100 1011.23,-112 1011.23,-112 1011.23,-118 1005.23,-124 999.23,-124"/>
 <text xml:space="preserve" text-anchor="middle" x="971" y="-103" font-family="Helvetica,sans-Serif" font-size="10.00">diagPartMatrix</text>
 </a>
@@ -1079,7 +1079,7 @@
 <!-- n56 -->
 <g id="node45" class="node">
 <title>n56</title>
-<g id="a_node45"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/HighDim/Concentration/HansonWright.lean#L350" xlink:title="lemma · Statlib/HighDim/Concentration/HansonWright.lean:350" target="_blank">
+<g id="a_node45"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Concentration/HansonWright.lean:350" xlink:title="lemma · Statlib/HighDim/Concentration/HansonWright.lean:350" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M1177.26,-124C1177.26,-124 1040.74,-124 1040.74,-124 1034.74,-124 1028.74,-118 1028.74,-112 1028.74,-112 1028.74,-100 1028.74,-100 1028.74,-94 1034.74,-88 1040.74,-88 1040.74,-88 1177.26,-88 1177.26,-88 1183.26,-88 1189.26,-94 1189.26,-100 1189.26,-100 1189.26,-112 1189.26,-112 1189.26,-118 1183.26,-124 1177.26,-124"/>
 <text xml:space="preserve" text-anchor="middle" x="1109" y="-103" font-family="Helvetica,sans-Serif" font-size="10.00">matrix_entry_abs_le_l2_opNorm</text>
 </a>
@@ -1088,7 +1088,7 @@
 <!-- n57 -->
 <g id="node46" class="node">
 <title>n57</title>
-<g id="a_node46"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/HighDim/Concentration/HansonWright.lean#L637" xlink:title="lemma · Statlib/HighDim/Concentration/HansonWright.lean:637" target="_blank">
+<g id="a_node46"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Concentration/HansonWright.lean:637" xlink:title="lemma · Statlib/HighDim/Concentration/HansonWright.lean:637" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M1167.08,-196C1167.08,-196 1068.92,-196 1068.92,-196 1062.92,-196 1056.92,-190 1056.92,-184 1056.92,-184 1056.92,-172 1056.92,-172 1056.92,-166 1062.92,-160 1068.92,-160 1068.92,-160 1167.08,-160 1167.08,-160 1173.08,-160 1179.08,-166 1179.08,-172 1179.08,-172 1179.08,-184 1179.08,-184 1179.08,-190 1173.08,-196 1167.08,-196"/>
 <text xml:space="preserve" text-anchor="middle" x="1118" y="-175" font-family="Helvetica,sans-Serif" font-size="10.00">diagPartMatrix_norm_le</text>
 </a>
@@ -1109,7 +1109,7 @@
 <!-- n58 -->
 <g id="node47" class="node">
 <title>n58</title>
-<g id="a_node47"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/HighDim/Concentration/HansonWright.lean#L656" xlink:title="lemma · Statlib/HighDim/Concentration/HansonWright.lean:656" target="_blank">
+<g id="a_node47"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Concentration/HansonWright.lean:656" xlink:title="lemma · Statlib/HighDim/Concentration/HansonWright.lean:656" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M1109.03,-269.2C1109.03,-269.2 986.97,-269.2 986.97,-269.2 980.97,-269.2 974.97,-263.2 974.97,-257.2 974.97,-257.2 974.97,-245.2 974.97,-245.2 974.97,-239.2 980.97,-233.2 986.97,-233.2 986.97,-233.2 1109.03,-233.2 1109.03,-233.2 1115.03,-233.2 1121.03,-239.2 1121.03,-245.2 1121.03,-245.2 1121.03,-257.2 1121.03,-257.2 1121.03,-263.2 1115.03,-269.2 1109.03,-269.2"/>
 <text xml:space="preserve" text-anchor="middle" x="1048" y="-248.2" font-family="Helvetica,sans-Serif" font-size="10.00">zeroDiagMatrix_norm_le_two</text>
 </a>
@@ -1136,7 +1136,7 @@
 <!-- n59 -->
 <g id="node48" class="node">
 <title>n59</title>
-<g id="a_node48"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/HighDim/Concentration/HansonWright.lean#L685" xlink:title="lemma · Statlib/HighDim/Concentration/HansonWright.lean:685" target="_blank">
+<g id="a_node48"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Concentration/HansonWright.lean:685" xlink:title="lemma · Statlib/HighDim/Concentration/HansonWright.lean:685" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M1101.25,-341.2C1101.25,-341.2 994.75,-341.2 994.75,-341.2 988.75,-341.2 982.75,-335.2 982.75,-329.2 982.75,-329.2 982.75,-317.2 982.75,-317.2 982.75,-311.2 988.75,-305.2 994.75,-305.2 994.75,-305.2 1101.25,-305.2 1101.25,-305.2 1107.25,-305.2 1113.25,-311.2 1113.25,-317.2 1113.25,-317.2 1113.25,-329.2 1113.25,-329.2 1113.25,-335.2 1107.25,-341.2 1101.25,-341.2"/>
 <text xml:space="preserve" text-anchor="middle" x="1048" y="-320.2" font-family="Helvetica,sans-Serif" font-size="10.00">offDiagCoeffVec_norm_le</text>
 </a>
@@ -1169,7 +1169,7 @@
 <!-- n60 -->
 <g id="node49" class="node">
 <title>n60</title>
-<g id="a_node49"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/HighDim/Concentration/HansonWright.lean#L704" xlink:title="lemma · Statlib/HighDim/Concentration/HansonWright.lean:704" target="_blank">
+<g id="a_node49"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Concentration/HansonWright.lean:704" xlink:title="lemma · Statlib/HighDim/Concentration/HansonWright.lean:704" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M1387.31,-413.2C1387.31,-413.2 1264.69,-413.2 1264.69,-413.2 1258.69,-413.2 1252.69,-407.2 1252.69,-401.2 1252.69,-401.2 1252.69,-389.2 1252.69,-389.2 1252.69,-383.2 1258.69,-377.2 1264.69,-377.2 1264.69,-377.2 1387.31,-377.2 1387.31,-377.2 1393.31,-377.2 1399.31,-383.2 1399.31,-389.2 1399.31,-389.2 1399.31,-401.2 1399.31,-401.2 1399.31,-407.2 1393.31,-413.2 1387.31,-413.2"/>
 <text xml:space="preserve" text-anchor="middle" x="1326" y="-392.2" font-family="Helvetica,sans-Serif" font-size="10.00">offDiagCoeffVec_norm_sq_le</text>
 </a>
@@ -1190,7 +1190,7 @@
 <!-- n61 -->
 <g id="node50" class="node">
 <title>n61</title>
-<g id="a_node50"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/HighDim/Concentration/HansonWright.lean#L1122" xlink:title="lemma · Statlib/HighDim/Concentration/HansonWright.lean:1122" target="_blank">
+<g id="a_node50"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Concentration/HansonWright.lean:1122" xlink:title="lemma · Statlib/HighDim/Concentration/HansonWright.lean:1122" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M1555.72,-485.2C1555.72,-485.2 1370.28,-485.2 1370.28,-485.2 1364.28,-485.2 1358.28,-479.2 1358.28,-473.2 1358.28,-473.2 1358.28,-461.2 1358.28,-461.2 1358.28,-455.2 1364.28,-449.2 1370.28,-449.2 1370.28,-449.2 1555.72,-449.2 1555.72,-449.2 1561.72,-449.2 1567.72,-455.2 1567.72,-461.2 1567.72,-461.2 1567.72,-473.2 1567.72,-473.2 1567.72,-479.2 1561.72,-485.2 1555.72,-485.2"/>
 <text xml:space="preserve" text-anchor="middle" x="1463" y="-464.2" font-family="Helvetica,sans-Serif" font-size="10.00">offDiagCoeffVec_norm_sq_tail_le_norm_sq</text>
 </a>
@@ -1211,7 +1211,7 @@
 <!-- n62 -->
 <g id="node51" class="node">
 <title>n62</title>
-<g id="a_node51"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/HighDim/Concentration/HansonWright.lean#L1154" xlink:title="lemma · Statlib/HighDim/Concentration/HansonWright.lean:1154" target="_blank">
+<g id="a_node51"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Concentration/HansonWright.lean:1154" xlink:title="lemma · Statlib/HighDim/Concentration/HansonWright.lean:1154" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M1862.71,-557.2C1862.71,-557.2 1583.29,-557.2 1583.29,-557.2 1577.29,-557.2 1571.29,-551.2 1571.29,-545.2 1571.29,-545.2 1571.29,-533.2 1571.29,-533.2 1571.29,-527.2 1577.29,-521.2 1583.29,-521.2 1583.29,-521.2 1862.71,-521.2 1862.71,-521.2 1868.71,-521.2 1874.71,-527.2 1874.71,-533.2 1874.71,-533.2 1874.71,-545.2 1874.71,-545.2 1874.71,-551.2 1868.71,-557.2 1862.71,-557.2"/>
 <text xml:space="preserve" text-anchor="middle" x="1723" y="-536.2" font-family="Helvetica,sans-Serif" font-size="10.00">decoupledOffDiagQuadForm_prod_tail_le_norm_bad_plus_good</text>
 </a>
@@ -1244,7 +1244,7 @@
 <!-- n63 -->
 <g id="node52" class="node">
 <title>n63</title>
-<g id="a_node52"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/HighDim/Concentration/HansonWright.lean#L2432" xlink:title="lemma · Statlib/HighDim/Concentration/HansonWright.lean:2432" target="_blank">
+<g id="a_node52"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Concentration/HansonWright.lean:2432" xlink:title="lemma · Statlib/HighDim/Concentration/HansonWright.lean:2432" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M2405.17,-629.2C2405.17,-629.2 2066.83,-629.2 2066.83,-629.2 2060.83,-629.2 2054.83,-623.2 2054.83,-617.2 2054.83,-617.2 2054.83,-605.2 2054.83,-605.2 2054.83,-599.2 2060.83,-593.2 2066.83,-593.2 2066.83,-593.2 2405.17,-593.2 2405.17,-593.2 2411.17,-593.2 2417.17,-599.2 2417.17,-605.2 2417.17,-605.2 2417.17,-617.2 2417.17,-617.2 2417.17,-623.2 2411.17,-629.2 2405.17,-629.2"/>
 <text xml:space="preserve" text-anchor="middle" x="2236" y="-608.2" font-family="Helvetica,sans-Serif" font-size="10.00">decoupledOffDiagQuadForm_prod_tail_le_norm_bernstein_plus_good_ofReal</text>
 </a>
@@ -1277,7 +1277,7 @@
 <!-- n64 -->
 <g id="node53" class="node">
 <title>n64</title>
-<g id="a_node53"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/HighDim/Concentration/HansonWright.lean#L2507" xlink:title="lemma · Statlib/HighDim/Concentration/HansonWright.lean:2507" target="_blank">
+<g id="a_node53"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Concentration/HansonWright.lean:2507" xlink:title="lemma · Statlib/HighDim/Concentration/HansonWright.lean:2507" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M2912.93,-701.2C2912.93,-701.2 2639.07,-701.2 2639.07,-701.2 2633.07,-701.2 2627.07,-695.2 2627.07,-689.2 2627.07,-689.2 2627.07,-677.2 2627.07,-677.2 2627.07,-671.2 2633.07,-665.2 2639.07,-665.2 2639.07,-665.2 2912.93,-665.2 2912.93,-665.2 2918.93,-665.2 2924.93,-671.2 2924.93,-677.2 2924.93,-677.2 2924.93,-689.2 2924.93,-689.2 2924.93,-695.2 2918.93,-701.2 2912.93,-701.2"/>
 <text xml:space="preserve" text-anchor="middle" x="2776" y="-680.2" font-family="Helvetica,sans-Serif" font-size="10.00">decoupled_zeroDiag_quadratic_form_tail_high_norm_bernstein</text>
 </a>
@@ -1304,7 +1304,7 @@
 <!-- n65 -->
 <g id="node54" class="node">
 <title>n65</title>
-<g id="a_node54"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/HighDim/Concentration/HansonWright.lean#L3112" xlink:title="theorem · Statlib/HighDim/Concentration/HansonWright.lean:3112" target="_blank">
+<g id="a_node54"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Concentration/HansonWright.lean:3112" xlink:title="theorem · Statlib/HighDim/Concentration/HansonWright.lean:3112" target="_blank">
 <path fill="#ffe6a3" stroke="#d4a017" d="M2467.96,-773.2C2467.96,-773.2 2104.04,-773.2 2104.04,-773.2 2098.04,-773.2 2092.04,-767.2 2092.04,-761.2 2092.04,-761.2 2092.04,-749.2 2092.04,-749.2 2092.04,-743.2 2098.04,-737.2 2104.04,-737.2 2104.04,-737.2 2467.96,-737.2 2467.96,-737.2 2473.96,-737.2 2479.96,-743.2 2479.96,-749.2 2479.96,-749.2 2479.96,-761.2 2479.96,-761.2 2479.96,-767.2 2473.96,-773.2 2467.96,-773.2"/>
 <text xml:space="preserve" text-anchor="middle" x="2286" y="-752.2" font-family="Helvetica,sans-Serif" font-size="10.00">zeroDiag_centered_quadratic_form_tail_high_norm_bernstein_of_const_decoupling</text>
 </a>
@@ -1343,7 +1343,7 @@
 <!-- n66 -->
 <g id="node55" class="node">
 <title>n66</title>
-<g id="a_node55"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/HighDim/Concentration/HansonWright.lean#L1625" xlink:title="lemma · Statlib/HighDim/Concentration/HansonWright.lean:1625" target="_blank">
+<g id="a_node55"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Concentration/HansonWright.lean:1625" xlink:title="lemma · Statlib/HighDim/Concentration/HansonWright.lean:1625" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M2041.59,-773.2C2041.59,-773.2 1824.41,-773.2 1824.41,-773.2 1818.41,-773.2 1812.41,-767.2 1812.41,-761.2 1812.41,-761.2 1812.41,-749.2 1812.41,-749.2 1812.41,-743.2 1818.41,-737.2 1824.41,-737.2 1824.41,-737.2 2041.59,-737.2 2041.59,-737.2 2047.59,-737.2 2053.59,-743.2 2053.59,-749.2 2053.59,-749.2 2053.59,-761.2 2053.59,-761.2 2053.59,-767.2 2047.59,-773.2 2041.59,-773.2"/>
 <text xml:space="preserve" text-anchor="middle" x="1933" y="-752.2" font-family="Helvetica,sans-Serif" font-size="10.00">const_mul_exp_neg_le_exp_neg_hanson_weaken</text>
 </a>
@@ -1352,7 +1352,7 @@
 <!-- n67 -->
 <g id="node56" class="node">
 <title>n67</title>
-<g id="a_node56"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/HighDim/Concentration/HansonWright.lean#L2963" xlink:title="theorem · Statlib/HighDim/Concentration/HansonWright.lean:2963" target="_blank">
+<g id="a_node56"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Concentration/HansonWright.lean:2963" xlink:title="theorem · Statlib/HighDim/Concentration/HansonWright.lean:2963" target="_blank">
 <path fill="#ffe6a3" stroke="#d4a017" d="M1741.59,-773.2C1741.59,-773.2 1360.41,-773.2 1360.41,-773.2 1354.41,-773.2 1348.41,-767.2 1348.41,-761.2 1348.41,-761.2 1348.41,-749.2 1348.41,-749.2 1348.41,-743.2 1354.41,-737.2 1360.41,-737.2 1360.41,-737.2 1741.59,-737.2 1741.59,-737.2 1747.59,-737.2 1753.59,-743.2 1753.59,-749.2 1753.59,-749.2 1753.59,-761.2 1753.59,-761.2 1753.59,-767.2 1747.59,-773.2 1741.59,-773.2"/>
 <text xml:space="preserve" text-anchor="middle" x="1551" y="-752.2" font-family="Helvetica,sans-Serif" font-size="10.00">zeroDiag_centered_quadratic_form_tail_high_of_const_decoupling_and_decoupled_tail</text>
 </a>
@@ -1385,7 +1385,7 @@
 <!-- n68 -->
 <g id="node57" class="node">
 <title>n68</title>
-<g id="a_node57"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/HighDim/Concentration/HansonWright.lean#L3028" xlink:title="theorem · Statlib/HighDim/Concentration/HansonWright.lean:3028" target="_blank">
+<g id="a_node57"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Concentration/HansonWright.lean:3028" xlink:title="theorem · Statlib/HighDim/Concentration/HansonWright.lean:3028" target="_blank">
 <path fill="#ffe6a3" stroke="#d4a017" d="M1935.5,-845.2C1935.5,-845.2 1610.5,-845.2 1610.5,-845.2 1604.5,-845.2 1598.5,-839.2 1598.5,-833.2 1598.5,-833.2 1598.5,-821.2 1598.5,-821.2 1598.5,-815.2 1604.5,-809.2 1610.5,-809.2 1610.5,-809.2 1935.5,-809.2 1935.5,-809.2 1941.5,-809.2 1947.5,-815.2 1947.5,-821.2 1947.5,-821.2 1947.5,-833.2 1947.5,-833.2 1947.5,-839.2 1941.5,-845.2 1935.5,-845.2"/>
 <text xml:space="preserve" text-anchor="middle" x="1773" y="-824.2" font-family="Helvetica,sans-Serif" font-size="10.00">zeroDiag_centered_quadratic_form_tail_high_of_const_decoupling_absorb</text>
 </a>
@@ -1430,7 +1430,7 @@
 <!-- n69 -->
 <g id="node58" class="node">
 <title>n69</title>
-<g id="a_node58"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/HighDim/Concentration/HansonWright.lean#L2541" xlink:title="lemma · Statlib/HighDim/Concentration/HansonWright.lean:2541" target="_blank">
+<g id="a_node58"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Concentration/HansonWright.lean:2541" xlink:title="lemma · Statlib/HighDim/Concentration/HansonWright.lean:2541" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M3121.99,-773.2C3121.99,-773.2 2812.01,-773.2 2812.01,-773.2 2806.01,-773.2 2800.01,-767.2 2800.01,-761.2 2800.01,-761.2 2800.01,-749.2 2800.01,-749.2 2800.01,-743.2 2806.01,-737.2 2812.01,-737.2 2812.01,-737.2 3121.99,-737.2 3121.99,-737.2 3127.99,-737.2 3133.99,-743.2 3133.99,-749.2 3133.99,-749.2 3133.99,-761.2 3133.99,-761.2 3133.99,-767.2 3127.99,-773.2 3121.99,-773.2"/>
 <text xml:space="preserve" text-anchor="middle" x="2967" y="-752.2" font-family="Helvetica,sans-Serif" font-size="10.00">decoupled_zeroDiag_quadratic_form_tail_high_norm_bernstein_absorb</text>
 </a>
@@ -1463,7 +1463,7 @@
 <!-- n70 -->
 <g id="node59" class="node">
 <title>n70</title>
-<g id="a_node59"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/HighDim/Concentration/HansonWright.lean#L1507" xlink:title="lemma · Statlib/HighDim/Concentration/HansonWright.lean:1507" target="_blank">
+<g id="a_node59"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Concentration/HansonWright.lean:1507" xlink:title="lemma · Statlib/HighDim/Concentration/HansonWright.lean:1507" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M2749.95,-773.2C2749.95,-773.2 2630.05,-773.2 2630.05,-773.2 2624.05,-773.2 2618.05,-767.2 2618.05,-761.2 2618.05,-761.2 2618.05,-749.2 2618.05,-749.2 2618.05,-743.2 2624.05,-737.2 2630.05,-737.2 2630.05,-737.2 2749.95,-737.2 2749.95,-737.2 2755.95,-737.2 2761.95,-743.2 2761.95,-749.2 2761.95,-749.2 2761.95,-761.2 2761.95,-761.2 2761.95,-767.2 2755.95,-773.2 2749.95,-773.2"/>
 <text xml:space="preserve" text-anchor="middle" x="2690" y="-752.2" font-family="Helvetica,sans-Serif" font-size="10.00">add_le_of_le_half_of_le_half</text>
 </a>
@@ -1472,7 +1472,7 @@
 <!-- n71 -->
 <g id="node60" class="node">
 <title>n71</title>
-<g id="a_node60"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/HighDim/Concentration/HansonWright.lean#L2582" xlink:title="lemma · Statlib/HighDim/Concentration/HansonWright.lean:2582" target="_blank">
+<g id="a_node60"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Concentration/HansonWright.lean:2582" xlink:title="lemma · Statlib/HighDim/Concentration/HansonWright.lean:2582" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M3109.67,-845.2C3109.67,-845.2 2776.33,-845.2 2776.33,-845.2 2770.33,-845.2 2764.33,-839.2 2764.33,-833.2 2764.33,-833.2 2764.33,-821.2 2764.33,-821.2 2764.33,-815.2 2770.33,-809.2 2776.33,-809.2 2776.33,-809.2 3109.67,-809.2 3109.67,-809.2 3115.67,-809.2 3121.67,-815.2 3121.67,-821.2 3121.67,-821.2 3121.67,-833.2 3121.67,-833.2 3121.67,-839.2 3115.67,-845.2 3109.67,-845.2"/>
 <text xml:space="preserve" text-anchor="middle" x="2943" y="-824.2" font-family="Helvetica,sans-Serif" font-size="10.00">decoupled_zeroDiag_quadratic_form_tail_high_norm_bernstein_absorb_split</text>
 </a>
@@ -1511,7 +1511,7 @@
 <!-- n72 -->
 <g id="node61" class="node">
 <title>n72</title>
-<g id="a_node61"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/HighDim/Concentration/HansonWright.lean#L1599" xlink:title="lemma · Statlib/HighDim/Concentration/HansonWright.lean:1599" target="_blank">
+<g id="a_node61"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Concentration/HansonWright.lean:1599" xlink:title="lemma · Statlib/HighDim/Concentration/HansonWright.lean:1599" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M2548.48,-845.2C2548.48,-845.2 2333.52,-845.2 2333.52,-845.2 2327.52,-845.2 2321.52,-839.2 2321.52,-833.2 2321.52,-833.2 2321.52,-821.2 2321.52,-821.2 2321.52,-815.2 2327.52,-809.2 2333.52,-809.2 2333.52,-809.2 2548.48,-809.2 2548.48,-809.2 2554.48,-809.2 2560.48,-815.2 2560.48,-821.2 2560.48,-821.2 2560.48,-833.2 2560.48,-833.2 2560.48,-839.2 2554.48,-845.2 2548.48,-845.2"/>
 <text xml:space="preserve" text-anchor="middle" x="2441" y="-824.2" font-family="Helvetica,sans-Serif" font-size="10.00">two_mul_exp_neg_le_half_exp_neg_hanson_high</text>
 </a>
@@ -1520,7 +1520,7 @@
 <!-- n73 -->
 <g id="node62" class="node">
 <title>n73</title>
-<g id="a_node62"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/HighDim/Concentration/HansonWright.lean#L2626" xlink:title="lemma · Statlib/HighDim/Concentration/HansonWright.lean:2626" target="_blank">
+<g id="a_node62"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Concentration/HansonWright.lean:2626" xlink:title="lemma · Statlib/HighDim/Concentration/HansonWright.lean:2626" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M2689.8,-917.2C2689.8,-917.2 2314.2,-917.2 2314.2,-917.2 2308.2,-917.2 2302.2,-911.2 2302.2,-905.2 2302.2,-905.2 2302.2,-893.2 2302.2,-893.2 2302.2,-887.2 2308.2,-881.2 2314.2,-881.2 2314.2,-881.2 2689.8,-881.2 2689.8,-881.2 2695.8,-881.2 2701.8,-887.2 2701.8,-893.2 2701.8,-893.2 2701.8,-905.2 2701.8,-905.2 2701.8,-911.2 2695.8,-917.2 2689.8,-917.2"/>
 <text xml:space="preserve" text-anchor="middle" x="2502" y="-896.2" font-family="Helvetica,sans-Serif" font-size="10.00">decoupled_zeroDiag_quadratic_form_tail_high_norm_bernstein_absorb_of_exponents</text>
 </a>
@@ -1559,7 +1559,7 @@
 <!-- n74 -->
 <g id="node63" class="node">
 <title>n74</title>
-<g id="a_node63"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/HighDim/Concentration/HansonWright.lean#L3351" xlink:title="theorem · Statlib/HighDim/Concentration/HansonWright.lean:3351" target="_blank">
+<g id="a_node63"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Concentration/HansonWright.lean:3351" xlink:title="theorem · Statlib/HighDim/Concentration/HansonWright.lean:3351" target="_blank">
 <path fill="#ffe6a3" stroke="#d4a017" d="M2242.03,-989.2C2242.03,-989.2 1841.97,-989.2 1841.97,-989.2 1835.97,-989.2 1829.97,-983.2 1829.97,-977.2 1829.97,-977.2 1829.97,-965.2 1829.97,-965.2 1829.97,-959.2 1835.97,-953.2 1841.97,-953.2 1841.97,-953.2 2242.03,-953.2 2242.03,-953.2 2248.03,-953.2 2254.03,-959.2 2254.03,-965.2 2254.03,-965.2 2254.03,-977.2 2254.03,-977.2 2254.03,-983.2 2248.03,-989.2 2242.03,-989.2"/>
 <text xml:space="preserve" text-anchor="middle" x="2042" y="-968.2" font-family="Helvetica,sans-Serif" font-size="10.00">zeroDiag_centered_quadratic_form_tail_high_of_const_decoupling_norm_bernstein_absorb</text>
 </a>
@@ -1622,7 +1622,7 @@
 <!-- n75 -->
 <g id="node64" class="node">
 <title>n75</title>
-<g id="a_node64"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/HighDim/Concentration/HansonWright.lean#L3615" xlink:title="theorem · Statlib/HighDim/Concentration/HansonWright.lean:3615" target="_blank">
+<g id="a_node64"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/HighDim/Concentration/HansonWright.lean:3615" xlink:title="theorem · Statlib/HighDim/Concentration/HansonWright.lean:3615" target="_blank">
 <path fill="#ffe6a3" stroke="#d4a017" stroke-width="3" d="M1387.96,-1061.2C1387.96,-1061.2 1044.04,-1061.2 1044.04,-1061.2 1038.04,-1061.2 1032.04,-1055.2 1032.04,-1049.2 1032.04,-1049.2 1032.04,-1037.2 1032.04,-1037.2 1032.04,-1031.2 1038.04,-1025.2 1044.04,-1025.2 1044.04,-1025.2 1387.96,-1025.2 1387.96,-1025.2 1393.96,-1025.2 1399.96,-1031.2 1399.96,-1037.2 1399.96,-1037.2 1399.96,-1049.2 1399.96,-1049.2 1399.96,-1055.2 1393.96,-1061.2 1387.96,-1061.2"/>
 <text xml:space="preserve" text-anchor="middle" x="1216" y="-1040.2" font-family="Helvetica,sans-Serif" font-size="10.00">offdiag_hanson_wright_tail_high_of_const_decoupling_norm_bernstein_absorb</text>
 </a>
@@ -1691,7 +1691,7 @@
 <!-- n24 -->
 <g id="node67" class="node">
 <title>n24</title>
-<g id="a_node67"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/StatFoundation/RandomVariable/SubGaussian/subgaussian_meas_abs_ge_le_two_exp.lean#L9" xlink:title="theorem · Statlib/StatFoundation/RandomVariable/SubGaussian/subgaussian_meas_abs_ge_le_two_exp.lean:9" target="_blank">
+<g id="a_node67"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/StatFoundation/RandomVariable/SubGaussian/subgaussian_meas_abs_ge_le_two_exp.lean:9" xlink:title="theorem · Statlib/StatFoundation/RandomVariable/SubGaussian/subgaussian_meas_abs_ge_le_two_exp.lean:9" target="_blank">
 <path fill="#ffe6a3" stroke="#d4a017" d="M3594.34,-52C3594.34,-52 3421.66,-52 3421.66,-52 3415.66,-52 3409.66,-46 3409.66,-40 3409.66,-40 3409.66,-28 3409.66,-28 3409.66,-22 3415.66,-16 3421.66,-16 3421.66,-16 3594.34,-16 3594.34,-16 3600.34,-16 3606.34,-22 3606.34,-28 3606.34,-28 3606.34,-40 3606.34,-40 3606.34,-46 3600.34,-52 3594.34,-52"/>
 <text xml:space="preserve" text-anchor="middle" x="3508" y="-31" font-family="Helvetica,sans-Serif" font-size="10.00">subgaussian_meas_abs_ge_le_two_exp</text>
 </a>
@@ -1706,7 +1706,7 @@
 <!-- n27 -->
 <g id="node69" class="node">
 <title>n27</title>
-<g id="a_node69"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/StatFoundation/RandomVariable/SubExponential/subexp_mgf_le_of_sq_subgaussian.lean#L13" xlink:title="lemma · Statlib/StatFoundation/RandomVariable/SubExponential/subexp_mgf_le_of_sq_subgaussian.lean:13" target="_blank">
+<g id="a_node69"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/StatFoundation/RandomVariable/SubExponential/subexp_mgf_le_of_sq_subgaussian.lean:13" xlink:title="lemma · Statlib/StatFoundation/RandomVariable/SubExponential/subexp_mgf_le_of_sq_subgaussian.lean:13" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M3943.2,-124C3943.2,-124 3862.8,-124 3862.8,-124 3856.8,-124 3850.8,-118 3850.8,-112 3850.8,-112 3850.8,-100 3850.8,-100 3850.8,-94 3856.8,-88 3862.8,-88 3862.8,-88 3943.2,-88 3943.2,-88 3949.2,-88 3955.2,-94 3955.2,-100 3955.2,-100 3955.2,-112 3955.2,-112 3955.2,-118 3949.2,-124 3943.2,-124"/>
 <text xml:space="preserve" text-anchor="middle" x="3903" y="-103" font-family="Helvetica,sans-Serif" font-size="10.00">sub_gauss_tail_abs</text>
 </a>
@@ -1715,7 +1715,7 @@
 <!-- n28 -->
 <g id="node70" class="node">
 <title>n28</title>
-<g id="a_node70"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/StatFoundation/RandomVariable/SubGaussian/sq_le_two_mul_exp.lean#L10" xlink:title="lemma · Statlib/StatFoundation/RandomVariable/SubGaussian/sq_le_two_mul_exp.lean:10" target="_blank">
+<g id="a_node70"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/StatFoundation/RandomVariable/SubGaussian/sq_le_two_mul_exp.lean:10" xlink:title="lemma · Statlib/StatFoundation/RandomVariable/SubGaussian/sq_le_two_mul_exp.lean:10" target="_blank">
 <path fill="#eef2f6" stroke="#94a3b8" d="M3821.19,-124C3821.19,-124 3740.81,-124 3740.81,-124 3734.81,-124 3728.81,-118 3728.81,-112 3728.81,-112 3728.81,-100 3728.81,-100 3728.81,-94 3734.81,-88 3740.81,-88 3740.81,-88 3821.19,-88 3821.19,-88 3827.19,-88 3833.19,-94 3833.19,-100 3833.19,-100 3833.19,-112 3833.19,-112 3833.19,-118 3827.19,-124 3821.19,-124"/>
 <text xml:space="preserve" text-anchor="middle" x="3781" y="-103" font-family="Helvetica,sans-Serif" font-size="10.00">sq_le_two_mul_exp</text>
 </a>
@@ -1724,7 +1724,7 @@
 <!-- n29 -->
 <g id="node71" class="node">
 <title>n29</title>
-<g id="a_node71"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/StatFoundation/RandomVariable/SubGaussian/subgaussian_exp_sq_le_at_one_third.lean#L14" xlink:title="theorem · Statlib/StatFoundation/RandomVariable/SubGaussian/subgaussian_exp_sq_le_at_one_third.lean:14" target="_blank">
+<g id="a_node71"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/StatFoundation/RandomVariable/SubGaussian/subgaussian_exp_sq_le_at_one_third.lean:14" xlink:title="theorem · Statlib/StatFoundation/RandomVariable/SubGaussian/subgaussian_exp_sq_le_at_one_third.lean:14" target="_blank">
 <path fill="#ffe6a3" stroke="#d4a017" d="M3699.23,-124C3699.23,-124 3538.77,-124 3538.77,-124 3532.77,-124 3526.77,-118 3526.77,-112 3526.77,-112 3526.77,-100 3526.77,-100 3526.77,-94 3532.77,-88 3538.77,-88 3538.77,-88 3699.23,-88 3699.23,-88 3705.23,-88 3711.23,-94 3711.23,-100 3711.23,-100 3711.23,-112 3711.23,-112 3711.23,-118 3705.23,-124 3699.23,-124"/>
 <text xml:space="preserve" text-anchor="middle" x="3619" y="-103" font-family="Helvetica,sans-Serif" font-size="10.00">subgaussian_exp_sq_le_at_one_third</text>
 </a>

@@ -18,7 +18,7 @@
 <!-- n0 -->
 <g id="node1" class="node">
 <title>n0</title>
-<g id="a_node1"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/Nonparametric/Vocabulary/KernelRegression.lean#L35" xlink:title="def · Statlib/Nonparametric/Vocabulary/KernelRegression.lean:35" target="_blank">
+<g id="a_node1"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/Nonparametric/Vocabulary/KernelRegression.lean:35" xlink:title="def · Statlib/Nonparametric/Vocabulary/KernelRegression.lean:35" target="_blank">
 <path fill="#d6e9ff" stroke="#3b82f6" d="M111.87,-268C111.87,-268 28.13,-268 28.13,-268 22.13,-268 16.13,-262 16.13,-256 16.13,-256 16.13,-244 16.13,-244 16.13,-238 22.13,-232 28.13,-232 28.13,-232 111.87,-232 111.87,-232 117.87,-232 123.87,-238 123.87,-244 123.87,-244 123.87,-256 123.87,-256 123.87,-262 117.87,-268 111.87,-268"/>
 <text xml:space="preserve" text-anchor="middle" x="70" y="-247" font-family="Helvetica,sans-Serif" font-size="10.00">FunctionBoundedOn</text>
 </a>
@@ -27,7 +27,7 @@
 <!-- n1 -->
 <g id="node2" class="node">
 <title>n1</title>
-<g id="a_node2"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/Nonparametric/Vocabulary/KernelRegression.lean#L21" xlink:title="def · Statlib/Nonparametric/Vocabulary/KernelRegression.lean:21" target="_blank">
+<g id="a_node2"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/Nonparametric/Vocabulary/KernelRegression.lean:21" xlink:title="def · Statlib/Nonparametric/Vocabulary/KernelRegression.lean:21" target="_blank">
 <path fill="#d6e9ff" stroke="#3b82f6" d="M200.52,-268C200.52,-268 153.48,-268 153.48,-268 147.48,-268 141.48,-262 141.48,-256 141.48,-256 141.48,-244 141.48,-244 141.48,-238 147.48,-232 153.48,-232 153.48,-232 200.52,-232 200.52,-232 206.52,-232 212.52,-238 212.52,-244 212.52,-244 212.52,-256 212.52,-256 212.52,-262 206.52,-268 200.52,-268"/>
 <text xml:space="preserve" text-anchor="middle" x="177" y="-247" font-family="Helvetica,sans-Serif" font-size="10.00">unitCubeSet</text>
 </a>
@@ -36,7 +36,7 @@
 <!-- n2 -->
 <g id="node3" class="node">
 <title>n2</title>
-<g id="a_node3"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/Nonparametric/Vocabulary/Kernel.lean#L33" xlink:title="noncomputable def · Statlib/Nonparametric/Vocabulary/Kernel.lean:33" target="_blank">
+<g id="a_node3"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/Nonparametric/Vocabulary/Kernel.lean:33" xlink:title="noncomputable def · Statlib/Nonparametric/Vocabulary/Kernel.lean:33" target="_blank">
 <path fill="#d6e9ff" stroke="#3b82f6" d="M632.91,-52C632.91,-52 583.09,-52 583.09,-52 577.09,-52 571.09,-46 571.09,-40 571.09,-40 571.09,-28 571.09,-28 571.09,-22 577.09,-16 583.09,-16 583.09,-16 632.91,-16 632.91,-16 638.91,-16 644.91,-22 644.91,-28 644.91,-28 644.91,-40 644.91,-40 644.91,-46 638.91,-52 632.91,-52"/>
 <text xml:space="preserve" text-anchor="middle" x="608" y="-31" font-family="Helvetica,sans-Serif" font-size="10.00">scaledKernel</text>
 </a>
@@ -45,7 +45,7 @@
 <!-- n3 -->
 <g id="node4" class="node">
 <title>n3</title>
-<g id="a_node4"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/Nonparametric/Vocabulary/Kernel.lean#L56" xlink:title="noncomputable def · Statlib/Nonparametric/Vocabulary/Kernel.lean:56" target="_blank">
+<g id="a_node4"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/Nonparametric/Vocabulary/Kernel.lean:56" xlink:title="noncomputable def · Statlib/Nonparametric/Vocabulary/Kernel.lean:56" target="_blank">
 <path fill="#d6e9ff" stroke="#3b82f6" d="M602.92,-196C602.92,-196 463.08,-196 463.08,-196 457.08,-196 451.08,-190 451.08,-184 451.08,-184 451.08,-172 451.08,-172 451.08,-166 457.08,-160 463.08,-160 463.08,-160 602.92,-160 602.92,-160 608.92,-160 614.92,-166 614.92,-172 614.92,-172 614.92,-184 614.92,-184 614.92,-190 608.92,-196 602.92,-196"/>
 <text xml:space="preserve" text-anchor="middle" x="533" y="-175" font-family="Helvetica,sans-Serif" font-size="10.00">kernelLinearRegressionEstimator</text>
 </a>
@@ -60,7 +60,7 @@
 <!-- n4 -->
 <g id="node5" class="node">
 <title>n4</title>
-<g id="a_node5"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/Nonparametric/Vocabulary/Kernel.lean#L28" xlink:title="noncomputable def · Statlib/Nonparametric/Vocabulary/Kernel.lean:28" target="_blank">
+<g id="a_node5"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/Nonparametric/Vocabulary/Kernel.lean:28" xlink:title="noncomputable def · Statlib/Nonparametric/Vocabulary/Kernel.lean:28" target="_blank">
 <path fill="#d6e9ff" stroke="#3b82f6" d="M723.13,-124C723.13,-124 668.87,-124 668.87,-124 662.87,-124 656.87,-118 656.87,-112 656.87,-112 656.87,-100 656.87,-100 656.87,-94 662.87,-88 668.87,-88 668.87,-88 723.13,-88 723.13,-88 729.13,-88 735.13,-94 735.13,-100 735.13,-100 735.13,-112 735.13,-112 735.13,-118 729.13,-124 723.13,-124"/>
 <text xml:space="preserve" text-anchor="middle" x="696" y="-103" font-family="Helvetica,sans-Serif" font-size="10.00">productKernel</text>
 </a>
@@ -69,7 +69,7 @@
 <!-- n5 -->
 <g id="node6" class="node">
 <title>n5</title>
-<g id="a_node6"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/Nonparametric/Vocabulary/Kernel.lean#L39" xlink:title="noncomputable def · Statlib/Nonparametric/Vocabulary/Kernel.lean:39" target="_blank">
+<g id="a_node6"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/Nonparametric/Vocabulary/Kernel.lean:39" xlink:title="noncomputable def · Statlib/Nonparametric/Vocabulary/Kernel.lean:39" target="_blank">
 <path fill="#d6e9ff" stroke="#3b82f6" d="M727.3,-196C727.3,-196 664.7,-196 664.7,-196 658.7,-196 652.7,-190 652.7,-184 652.7,-184 652.7,-172 652.7,-172 652.7,-166 658.7,-160 664.7,-160 664.7,-160 727.3,-160 727.3,-160 733.3,-160 739.3,-166 739.3,-172 739.3,-172 739.3,-184 739.3,-184 739.3,-190 733.3,-196 727.3,-196"/>
 <text xml:space="preserve" text-anchor="middle" x="696" y="-175" font-family="Helvetica,sans-Serif" font-size="10.00">kernelSmoother</text>
 </a>
@@ -84,7 +84,7 @@
 <!-- n6 -->
 <g id="node7" class="node">
 <title>n6</title>
-<g id="a_node7"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/Nonparametric/Vocabulary/KernelRegression.lean#L51" xlink:title="noncomputable def · Statlib/Nonparametric/Vocabulary/KernelRegression.lean:51" target="_blank">
+<g id="a_node7"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/Nonparametric/Vocabulary/KernelRegression.lean:51" xlink:title="noncomputable def · Statlib/Nonparametric/Vocabulary/KernelRegression.lean:51" target="_blank">
 <path fill="#d6e9ff" stroke="#3b82f6" d="M404.47,-124C404.47,-124 303.53,-124 303.53,-124 297.53,-124 291.53,-118 291.53,-112 291.53,-112 291.53,-100 291.53,-100 291.53,-94 297.53,-88 303.53,-88 303.53,-88 404.47,-88 404.47,-88 410.47,-88 416.47,-94 416.47,-100 416.47,-100 416.47,-112 416.47,-112 416.47,-118 410.47,-124 404.47,-124"/>
 <text xml:space="preserve" text-anchor="middle" x="354" y="-103" font-family="Helvetica,sans-Serif" font-size="10.00">kernelRegressionWeight</text>
 </a>
@@ -99,7 +99,7 @@
 <!-- n7 -->
 <g id="node8" class="node">
 <title>n7</title>
-<g id="a_node8"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/Nonparametric/Vocabulary/KernelRegression.lean#L58" xlink:title="noncomputable def · Statlib/Nonparametric/Vocabulary/KernelRegression.lean:58" target="_blank">
+<g id="a_node8"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/Nonparametric/Vocabulary/KernelRegression.lean:58" xlink:title="noncomputable def · Statlib/Nonparametric/Vocabulary/KernelRegression.lean:58" target="_blank">
 <path fill="#d6e9ff" stroke="#3b82f6" d="M245.55,-196C245.55,-196 88.45,-196 88.45,-196 82.45,-196 76.45,-190 76.45,-184 76.45,-184 76.45,-172 76.45,-172 76.45,-166 82.45,-160 88.45,-160 88.45,-160 245.55,-160 245.55,-160 251.55,-160 257.55,-166 257.55,-172 257.55,-172 257.55,-184 257.55,-184 257.55,-190 251.55,-196 245.55,-196"/>
 <text xml:space="preserve" text-anchor="middle" x="167" y="-175" font-family="Helvetica,sans-Serif" font-size="10.00">kernelRegressionWeightedResponse</text>
 </a>
@@ -114,7 +114,7 @@
 <!-- n8 -->
 <g id="node9" class="node">
 <title>n8</title>
-<g id="a_node9"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/Nonparametric/Vocabulary/KernelRegression.lean#L73" xlink:title="noncomputable def · Statlib/Nonparametric/Vocabulary/KernelRegression.lean:73" target="_blank">
+<g id="a_node9"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/Nonparametric/Vocabulary/KernelRegression.lean:73" xlink:title="noncomputable def · Statlib/Nonparametric/Vocabulary/KernelRegression.lean:73" target="_blank">
 <path fill="#d6e9ff" stroke="#3b82f6" d="M461.4,-268C461.4,-268 242.6,-268 242.6,-268 236.6,-268 230.6,-262 230.6,-256 230.6,-256 230.6,-244 230.6,-244 230.6,-238 236.6,-232 242.6,-232 242.6,-232 461.4,-232 461.4,-232 467.4,-232 473.4,-238 473.4,-244 473.4,-244 473.4,-256 473.4,-256 473.4,-262 467.4,-268 461.4,-268"/>
 <text xml:space="preserve" text-anchor="middle" x="352" y="-247" font-family="Helvetica,sans-Serif" font-size="10.00">kernelRegressionCenteredWeightedResponseSum</text>
 </a>
@@ -129,7 +129,7 @@
 <!-- n9 -->
 <g id="node10" class="node">
 <title>n9</title>
-<g id="a_node10"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/Nonparametric/Vocabulary/KernelRegression.lean#L65" xlink:title="noncomputable def · Statlib/Nonparametric/Vocabulary/KernelRegression.lean:65" target="_blank">
+<g id="a_node10"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/Nonparametric/Vocabulary/KernelRegression.lean:65" xlink:title="noncomputable def · Statlib/Nonparametric/Vocabulary/KernelRegression.lean:65" target="_blank">
 <path fill="#d6e9ff" stroke="#3b82f6" d="M420.87,-196C420.87,-196 287.13,-196 287.13,-196 281.13,-196 275.13,-190 275.13,-184 275.13,-184 275.13,-172 275.13,-172 275.13,-166 281.13,-160 287.13,-160 287.13,-160 420.87,-160 420.87,-160 426.87,-160 432.87,-166 432.87,-172 432.87,-172 432.87,-184 432.87,-184 432.87,-190 426.87,-196 420.87,-196"/>
 <text xml:space="preserve" text-anchor="middle" x="354" y="-175" font-family="Helvetica,sans-Serif" font-size="10.00">kernelRegressionWeightSqSum</text>
 </a>
@@ -144,7 +144,7 @@
 <!-- n10 -->
 <g id="node11" class="node">
 <title>n10</title>
-<g id="a_node11"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/Nonparametric/Vocabulary/KernelRegression.lean#L208" xlink:title="def · Statlib/Nonparametric/Vocabulary/KernelRegression.lean:208" target="_blank">
+<g id="a_node11"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/Nonparametric/Vocabulary/KernelRegression.lean:208" xlink:title="def · Statlib/Nonparametric/Vocabulary/KernelRegression.lean:208" target="_blank">
 <path fill="#d6e9ff" stroke="#3b82f6" d="M706.61,-268C706.61,-268 543.39,-268 543.39,-268 537.39,-268 531.39,-262 531.39,-256 531.39,-256 531.39,-244 531.39,-244 531.39,-238 537.39,-232 543.39,-232 543.39,-232 706.61,-232 706.61,-232 712.61,-232 718.61,-238 718.61,-244 718.61,-244 718.61,-256 718.61,-256 718.61,-262 712.61,-268 706.61,-268"/>
 <text xml:space="preserve" text-anchor="middle" x="625" y="-247" font-family="Helvetica,sans-Serif" font-size="10.00">KernelRegressionCenteredMSEBound</text>
 </a>
@@ -171,7 +171,7 @@
 <!-- n11 -->
 <g id="node12" class="node">
 <title>n11</title>
-<g id="a_node12"><a xlink:href="https://github.com/statopia/statlib/blob/main/Statlib/Nonparametric/KernelRegression/KernelRate.lean#L1235" xlink:title="theorem · Statlib/Nonparametric/KernelRegression/KernelRate.lean:1235" target="_blank">
+<g id="a_node12"><a xlink:href="vscode://vscode-remote/wsl+Ubuntu/home/ai4stat/statlib/Statlib/Nonparametric/KernelRegression/KernelRate.lean:1235" xlink:title="theorem · Statlib/Nonparametric/KernelRegression/KernelRate.lean:1235" target="_blank">
 <path fill="#ffe6a3" stroke="#d4a017" stroke-width="3" d="M647,-340C647,-340 357,-340 357,-340 351,-340 345,-334 345,-328 345,-328 345,-316 345,-316 345,-310 351,-304 357,-304 357,-304 647,-304 647,-304 653,-304 659,-310 659,-316 659,-316 659,-328 659,-328 659,-334 653,-340 647,-340"/>
 <text xml:space="preserve" text-anchor="middle" x="502" y="-319" font-family="Helvetica,sans-Serif" font-size="10.00">kernel_centered_mse_bound_of_uniform_design_interior_bounded</text>
 </a>

@@ -5,7 +5,7 @@ Closure: 2 declarations across 2 files. Generated from `proof_graph.json` — no
 
 Reading order (foundations first, headline last):
 
-  ◆ `IsSparse` — def · `Statlib/HighDim/Vocabulary/Sparse.lean:36`  _(also used by 14: covering_number_sparse_ball, log_covering_number_sparse, isSparse_mono, …)_
+  ◆ `IsSparse` — def · `Statlib/HighDim/Vocabulary/Sparse.lean:36`  _(also used by 49: threshold_head_quadratic_remainder_abs_from_bilinear_l2_tail, subgaussian_l1_shell_localized_centered_tail_from_sparse_approximation_cover, subgaussian_l1_shell_localized_centered_tail_from_sparse_ball_approximation_cover, …)_
 ★ `incoherence_implies_re` — theorem · `Statlib/HighDim/Regression/Incoherence.lean:19` **← headline**
 
 ## Dependency diagram

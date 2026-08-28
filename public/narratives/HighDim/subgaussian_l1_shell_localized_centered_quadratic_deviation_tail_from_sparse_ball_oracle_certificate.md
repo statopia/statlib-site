@@ -1,0 +1,84 @@
+# Proof narrative — subgaussian_l1_shell_localized_centered_quadratic_deviation_tail_from_sparse_ball_oracle_certificate
+
+Root: **subgaussian_l1_shell_localized_centered_quadratic_deviation_tail_from_sparse_ball_oracle_certificate** (theorem) `Statlib/HighDim/CovarianceMatrix/L1QuadraticProcess/RadiusFluctuation.lean:4650` · topic `HighDim`
+Closure: 75 declarations across 13 files. Generated from `proof_graph.json` — no files were moved.
+
+Reading order (foundations first, headline last):
+
+  ▣ `HasMean` — structure · `Statlib/HighDim/Vocabulary/RandomVector.lean:83`  _(also used by 109: frobenius_norm_sq_subgaussian_concentration, gaussian_quadratic_form_concentration, coord_mul_integral_eq_zero_of_indep, …)_
+  ▣ `HasCovarianceMatrix` — structure · `Statlib/HighDim/Vocabulary/RandomVector.lean:101`  _(also used by 94: cov_diagonal_concentration, cov_quadratic_deviation, cov_quadratic_deviation_unit_shifted_lower_tail, …)_
+  ▣ `IsSubGaussianVector` — structure · `Statlib/HighDim/Vocabulary/RandomVector.lean:52`  _(also used by 156: frobenius_norm_sq_subgaussian_concentration, gaussian_quadratic_form_concentration, decoupledOffDiagQuadForm_const_right_subgaussian, …)_
+  ◆ `l1Norm` — noncomputable def · `Statlib/HighDim/Vocabulary/Norms.lean:17`  _(also used by 174: l1_linear_rademacher_complexity_bound, finite_l1_quadratic_rademacher_coord_bound, finite_l1_quadratic_rademacher_coord_energy_bound, …)_
+  ◆ `l2NormSq` — noncomputable def · `Statlib/HighDim/Vocabulary/Norms.lean:13`  _(also used by 197: matrixRowVec_norm_sq, offDiagCoeffVec_norm_sq_le_frobenius, offDiagCoeffVec_norm_sq_integral_le_frobenius, …)_
+  ◆ `IsSparse` — def · `Statlib/HighDim/Vocabulary/Sparse.lean:36`  _(also used by 40: threshold_head_quadratic_remainder_abs_from_bilinear_l2_tail, subgaussian_l1_shell_localized_centered_tail_from_sparse_approximation_cover, subgaussian_l1_shell_localized_centered_tail_from_sparse_approximation_cover_absorbed, …)_
+            · `inner_eq_sum` — lemma · `Statlib/HighDim/Vocabulary/Norms.lean:100`  _(also used by 14: decoupledOffDiagQuadForm_eq_inner_coeff, offDiagCoeffVec_apply_eq_inner_row_zeroDiag, subgaussian_vector_coord, …)_
+            ▣ `HasSubexponentialMGF` — structure · `Statlib/StatFoundation/Vocabulary/RandomVariable.lean:74`  _(also used by 31: coord_mul_subexponential_exists_of_indep, subexponential_mgf_const_mul_relaxed, coord_mul_scaled_subexponential_exists_of_indep, …)_
+            · `subexponential_mgf_mono_b` — lemma · `Statlib/HighDim/Concentration/HansonWright.lean:1916`  _(also used by 1: cov_quadratic_deviation)_
+            ★ `subexp_mean_meas_ge_le_exp` — theorem · `Statlib/StatFoundation/Concentration/ExponentialType/subexp_mean_meas_ge_le_exp.lean:11`  _(also used by 1: cov_quadratic_deviation)_
+            ★ `cov_quadratic_deviation_uniform_const` — theorem · `Statlib/HighDim/CovarianceMatrix/CovQuadraticDeviation.lean:459`  _(also used by 1: cov_quadratic_deviation_unit_shifted_lower_tail)_
+            · `euclidean_norm_sq` — lemma · `Statlib/HighDim/Vocabulary/Norms.lean:89`  _(also used by 26: matrixRowVec_norm_sq, offDiagCoeffVec_norm_sq_le_frobenius, offDiagCoeffVec_norm_sq_integral_le_frobenius, …)_
+            ★ `subgaussian_variance_le` — theorem · `Statlib/StatFoundation/RandomVariable/SubGaussian/subgaussian_variance_le.lean:8`  _(also used by 2: subgaussian_projection_second_moment_le, subgaussian_rip_tail)_
+            ★ `subgaussian_cov_quadratic_unit_le_sigma_sq` — theorem · `Statlib/HighDim/CovarianceMatrix/Properties.lean:354`  _(also used by 3: cov_quadratic_deviation_unit_shifted_lower_tail, l1_shell_bad_event_implies_large_l2NormSq_of_subgaussian_covariance, kappa_le_sigma_sq_from_subgaussian_rows)_
+            ★ `cov_quadratic_deviation_unit_lower_tail` — theorem · `Statlib/HighDim/CovarianceMatrix/CovQuadraticDeviation.lean:1021`  _(also used by 1: sampleSecondMoment_unit_direction_lower_tail_double_sum)_
+            · `finite_grid_fixed_direction_tail_from_cov_lower_tail` — lemma · `Statlib/HighDim/CovarianceMatrix/L1QuadraticProcess.lean:1595`
+            · `finite_grid_fixed_direction_tail_union_from_cov_lower_tail` — lemma · `Statlib/HighDim/CovarianceMatrix/L1QuadraticProcess.lean:1798`
+            · `finite_const_ennreal_sum_ofReal_le` — lemma · `Statlib/HighDim/CovarianceMatrix/L1QuadraticProcess.lean:752`  _(also used by 1: l1_shell_scale_bad_measure_le_exp_card_tail_of_radius_fluctuation_cover)_
+            · `finite_grid_exponential_cardinality_absorption` — lemma · `Statlib/HighDim/CovarianceMatrix/L1QuadraticProcess.lean:880`  _(also used by 1: finite_grid_fixed_direction_shifted_tail_union_absorbed)_
+            · `finite_grid_fixed_direction_tail_union_absorbed` — lemma · `Statlib/HighDim/CovarianceMatrix/L1QuadraticProcess.lean:1873`  _(also used by 3: l1_shell_localized_centered_deviation_tail_from_fixed_direction_cover_absorbed, l1_shell_localized_centered_deviation_tail_from_good_cover_absorbed, l1_shell_localized_centered_deviation_tail_from_approximate_fixed_direction_cover_absorbed)_
+            · `l1_shell_localized_bad_event_subset_good_compl_union_of_grid_fixed` — lemma · `Statlib/HighDim/CovarianceMatrix/L1QuadraticProcess.lean:3921`  _(also used by 1: subgaussian_l1_shell_localized_centered_quadratic_deviation_tail_from_rademacher_profile_certificate)_
+            · `cov_quadratic_form_scaled_vector_eq` — lemma · `Statlib/HighDim/CovarianceMatrix/L1QuadraticProcess.lean:3975`  _(also used by 3: l1_lower_of_unit_l1_lower, sparse_l1_lower_of_unit_sparse_l1_lower, l1_shell_sum_dyadic_scale_measure_bound_from_delta_budget_entrywise_cover_exists_absorbed)_
+            · `sample_quadratic_l2NormSq_div_scaled_vector_eq` — lemma · `Statlib/HighDim/CovarianceMatrix/L1QuadraticProcess.lean:3998`  _(also used by 2: l1_lower_of_unit_l1_lower, sparse_l1_lower_of_unit_sparse_l1_lower)_
+            · `matrix_mulVec_l2NormSq_eq_sum_inner_sq` — lemma · `Statlib/HighDim/CovarianceMatrix/L1QuadraticProcess.lean:910`
+            · `l1_grid_bad_event_subset_scaled_fixed_direction_event` — lemma · `Statlib/HighDim/CovarianceMatrix/L1QuadraticProcess.lean:1012`
+            · `l1_grid_bad_event_subset_scaled_fixed_direction_event_of_repr` — lemma · `Statlib/HighDim/CovarianceMatrix/L1QuadraticProcess.lean:4032`
+            ★ `l1_shell_localized_centered_deviation_tail_from_scaled_good_cover` — theorem · `Statlib/HighDim/CovarianceMatrix/L1QuadraticProcess.lean:4106`
+            ◆ `sampleSecondMoment` — noncomputable def · `Statlib/HighDim/CovarianceMatrix/SampleCovariance.lean:199`  _(also used by 48: finite_l1_quadratic_rademacher_sample_envelope_entrywise_good_bound, sample_covariance_centered_entrywise_good_measurable, sample_covariance_centered_entrywise_good_profile_tail, …)_
+            · `projection_sq_integral_eq_cov_quadratic` — lemma · `Statlib/HighDim/CovarianceMatrix/SampleCovariance.lean:274`  _(also used by 2: sample_covariance_quadratic_eq_centered_projection_sum, subgaussian_rip_tail_anisotropic)_
+            · `projection_sq_integrable` — lemma · `Statlib/HighDim/CovarianceMatrix/SampleCovariance.lean:323`  _(also used by 1: sampleCovariance_concentration)_
+            · `coordinate_product_tail_from_fixed_direction_quadratic_deviation` — lemma · `Statlib/HighDim/CovarianceMatrix/L1QuadraticProcess.lean:1934`
+            · `finite_coordinate_pair_tail_union` — lemma · `Statlib/HighDim/CovarianceMatrix/L1QuadraticProcess.lean:1507`
+            · `sample_covariance_entry_centered_representation` — lemma · `Statlib/HighDim/CovarianceMatrix/L1QuadraticProcess.lean:1538`
+            · `sample_covariance_entry_bad_event_eq_centered_product_event` — lemma · `Statlib/HighDim/CovarianceMatrix/L1QuadraticProcess.lean:2146`
+            · `sample_covariance_coordinate_tail_union` — lemma · `Statlib/HighDim/CovarianceMatrix/L1QuadraticProcess.lean:2171`
+            · `sample_covariance_coordinate_tail_union_absorbed` — lemma · `Statlib/HighDim/CovarianceMatrix/L1QuadraticProcess.lean:2287`  _(also used by 3: l1_shell_centered_deviation_tail_from_coordinate_rate, sample_bilinear_tail_from_coordinate_tail_absorbed, sparse_unit_l1_lower_tail_from_coordinate_rate)_
+            · `sample_covariance_centered_entrywise_good_compl_tail_absorbed` — lemma · `Statlib/HighDim/CovarianceMatrix/L1QuadraticProcess.lean:2389`  _(also used by 2: sample_covariance_centered_entrywise_good_profile_tail, subgaussian_l1_shell_localized_centered_quadratic_deviation_tail_from_entrywise_good_cover)_
+            · `abs_sum_mul_le_l1Norm_mul_coord_bound` — lemma · `Statlib/HighDim/Vocabulary/Norms.lean:38`  _(also used by 6: l1_linear_rademacher_complexity_bound, finite_l1_quadratic_rademacher_coord_bound, finite_l1_quadratic_rademacher_sample_envelope_entrywise_good_bound, …)_
+            · `bilinear_form_entrywise_abs_le_l1Norm_mul_l1Norm` — lemma · `Statlib/HighDim/CovarianceMatrix/L1QuadraticProcess.lean:1117`  _(also used by 5: bilinear_form_entrywise_abs_le_card_mul_sqrt_l2NormSq, quadratic_form_l1_lipschitz_of_entrywise_bound_cap, quadratic_form_l1_lipschitz_of_entrywise_bound_cap_aux, …)_
+            · `quadratic_form_l1_lipschitz_of_entrywise_bound` — lemma · `Statlib/HighDim/CovarianceMatrix/L1QuadraticProcess.lean:1348`
+            · `l1_shell_good_quadratic_cover_from_entrywise_bounds` — lemma · `Statlib/HighDim/CovarianceMatrix/L1QuadraticProcess.lean:1414`
+            ◆ `toEuclidean` — noncomputable def · `Statlib/HighDim/Vocabulary/Norms.lean:109`  _(also used by 15: sampleSecondMoment_unit_direction_lower_tail_double_sum, hermitian_norm_le_two_net_sup, sample_covariance_quadratic_eq_centered_projection_sum, …)_
+            · `matrix_quadratic_eq_sum` — lemma · `Statlib/HighDim/CovarianceMatrix/SampleCovariance.lean:342`  _(also used by 4: sampleSecondMoment_unit_direction_lower_tail_double_sum, sample_covariance_quadratic_eq_centered_projection_sum, restricted_sample_deviation_quadratic, …)_
+            · `fin_sum_comm_three` — lemma · `Statlib/HighDim/CovarianceMatrix/SampleCovariance.lean:354`
+            · `sampleSecondMoment_quadratic_eq_projection_sum` — lemma · `Statlib/HighDim/CovarianceMatrix/SampleCovariance.lean:364`  _(also used by 4: sampleSecondMoment_unit_direction_lower_tail_double_sum, sample_covariance_quadratic_eq_centered_projection_sum, restricted_sample_deviation_quadratic, …)_
+            · `sampleSecondMoment_quadratic_eq_l2NormSq_div` — lemma · `Statlib/HighDim/CovarianceMatrix/L1QuadraticProcess.lean:2802`  _(also used by 3: centered_quadratic_sampleSecondMoment_representation, l1_lower_from_threshold_head_bilinear_remainders, l1_shell_centered_bad_subset_dyadic_sample_scale_bad_union_from_locator)_
+            · `l1_shell_sample_covariance_good_cover_from_entrywise_bounds` — lemma · `Statlib/HighDim/CovarianceMatrix/L1QuadraticProcess.lean:2874`  _(also used by 1: subgaussian_l1_shell_localized_centered_quadratic_deviation_tail_from_entrywise_good_cover)_
+          ★ `subgaussian_l1_shell_localized_centered_quadratic_deviation_tail_from_entrywise_scaled_good_cover` — theorem · `Statlib/HighDim/CovarianceMatrix/L1QuadraticProcess.lean:4248`
+            · `l1Norm_eq_one_l2NormSq_pos` — lemma · `Statlib/HighDim/CovarianceMatrix/L1QuadraticProcess.lean:4357`  _(also used by 3: l1_shell_normalized_l2_l1_cap_of_dyadic_lower, l1_shell_dyadic_scale_bad_event_witness, l1_shell_l2NormSq_pos_le_one)_
+            · `exists_scaled_unit_direction_of_l1Norm_eq_one` — lemma · `Statlib/HighDim/CovarianceMatrix/L1QuadraticProcess.lean:4374`
+          · `l1_grid_exists_scaled_unit_directions_of_l1Norm_eq_one` — lemma · `Statlib/HighDim/CovarianceMatrix/L1QuadraticProcess.lean:4415`
+        ★ `subgaussian_l1_shell_localized_centered_quadratic_deviation_tail_from_entrywise_l1_cover` — theorem · `Statlib/HighDim/CovarianceMatrix/L1QuadraticProcess.lean:4434`  _(also used by 3: subgaussian_l1_shell_localized_centered_tail_from_sparse_approximation_cover, subgaussian_l1_shell_centered_quadratic_deviation_tail_named_event_from_entrywise_l1_cover, subgaussian_l1_shell_localized_centered_quadratic_deviation_tail_from_entrywise_l1_cover_certificate)_
+            ★ `covering_number_euclidean_ball` — theorem · `Statlib/HighDim/Geometry/CoveringNumbers.lean:42`  _(also used by 2: operator_norm_subgaussian_matrix, covering_number_ball_to_unit_l2_euclidean_cover)_
+            · `euclidean_norm_eq` — lemma · `Statlib/HighDim/Vocabulary/Norms.lean:95`  _(also used by 4: log_covering_number_sparse, extendByEquiv_norm, nuclear_norm_le_sqrt_rank_mul_frobenius, …)_
+            ★ `covering_number_sparse_ball` — theorem · `Statlib/HighDim/Geometry/CoveringNumbers.lean:477`  _(also used by 2: subgaussian_rip_tail, subgaussian_rip_tail_anisotropic)_
+            · `l1Norm_nonneg` — lemma · `Statlib/HighDim/Geometry/CoveringNumbers.lean:1162`  _(also used by 2: sparse_head_tail_l1_l2_controls, exists_sparse_head_tail_l1_l2_controls)_
+            · `l1Norm_smul` — lemma · `Statlib/HighDim/Geometry/CoveringNumbers.lean:1330`  _(also used by 1: l1_shell_normalized_l2_l1_cap_of_dyadic_lower)_
+            · `l1Norm_inv_smul_eq_one` — lemma · `Statlib/HighDim/Geometry/CoveringNumbers.lean:1340`
+            · `euclidean_norm_toEuclidean_le_l1Norm` — lemma · `Statlib/HighDim/Geometry/CoveringNumbers.lean:869`  _(also used by 1: sparse_euclidean_cover_to_l1_cover)_
+            · `sparse_l1Norm_of_euclidean_le_sqrt_s_mul_norm` — lemma · `Statlib/HighDim/Geometry/CoveringNumbers.lean:813`  _(also used by 2: sparse_euclidean_cover_to_l1_cover, nuclear_norm_le_sqrt_rank_mul_frobenius)_
+            · `l1Norm_sub_triangle` — lemma · `Statlib/HighDim/Geometry/CoveringNumbers.lean:1315`  _(also used by 2: cover_center_l1_bound_from_l2_radius, matrix_entrywise_good_to_radius_fluctuation_two_caps)_
+            · `l1Norm_sub_comm` — lemma · `Statlib/HighDim/Geometry/CoveringNumbers.lean:1308`
+            · `normalized_l1_distance_le_two_mul` — lemma · `Statlib/HighDim/Geometry/CoveringNumbers.lean:1350`
+            · `normalized_sparse_euclidean_cover_to_unit_l1_cover` — lemma · `Statlib/HighDim/Geometry/CoveringNumbers.lean:1413`
+          · `exists_normalized_sparse_l1_cover` — lemma · `Statlib/HighDim/Geometry/CoveringNumbers.lean:1505`
+          · `exists_l1Norm_eq_one_of_pos` — lemma · `Statlib/HighDim/Geometry/CoveringNumbers.lean:1546`
+          · `localized_l1_cover_from_sparse_approximation` — lemma · `Statlib/HighDim/Geometry/CoveringNumbers.lean:1560`  _(also used by 1: subgaussian_l1_shell_localized_centered_tail_from_sparse_approximation_cover)_
+        · `exists_localized_l1_cover_from_sparse_ball` — lemma · `Statlib/HighDim/Geometry/CoveringNumbers.lean:1596`  _(also used by 1: subgaussian_l1_shell_centered_quadratic_deviation_tail_named_event_from_sparse_ball_oracle_certificate)_
+      ★ `subgaussian_l1_shell_localized_centered_tail_from_sparse_ball_approximation_cover` — theorem · `Statlib/HighDim/CovarianceMatrix/L1QuadraticProcess.lean:4596`
+    ★ `subgaussian_l1_shell_localized_centered_tail_from_sparse_ball_approximation_cover_absorbed` — theorem · `Statlib/HighDim/CovarianceMatrix/L1QuadraticProcess.lean:4782`
+  ★ `subgaussian_l1_shell_localized_centered_tail_from_sparse_ball_oracle_final_rate` — theorem · `Statlib/HighDim/CovarianceMatrix/L1QuadraticProcess.lean:4888`  _(also used by 1: subgaussian_l1_shell_centered_quadratic_deviation_tail_from_sparse_ball_oracle_final_rate)_
+      · `subgaussian_variance_bound` — lemma · `Statlib/HighDim/CovarianceMatrix/Properties.lean:143`  _(also used by 1: subgaussian_rip_tail_anisotropic)_
+    · `subgaussian_cov_offdiag_bound` — lemma · `Statlib/HighDim/CovarianceMatrix/Properties.lean:440`
+  · `cov_entry_abs_le_sigma_sq_from_subgaussian_rows` — lemma · `Statlib/HighDim/CovarianceMatrix/L1QuadraticProcess/RadiusFluctuation.lean:3917`  _(also used by 6: finite_l1_quadratic_rademacher_subgaussian_covariance_profile_tail, subgaussian_l1_shell_centered_quadratic_deviation_tail_named_event_from_entrywise_l1_cover_certificate, subgaussian_l1_shell_localized_centered_quadratic_deviation_tail_from_entrywise_l1_cover_certificate, …)_
+★ `subgaussian_l1_shell_localized_centered_quadratic_deviation_tail_from_sparse_ball_oracle_certificate` — theorem · `Statlib/HighDim/CovarianceMatrix/L1QuadraticProcess/RadiusFluctuation.lean:4650` **← headline**
+
+> Closure has 75 declarations — diagram omitted (cap 60).

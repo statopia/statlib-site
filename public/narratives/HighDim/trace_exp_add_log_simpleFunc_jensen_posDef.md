@@ -9,9 +9,9 @@ Reading order (foundations first, headline last):
       ★ `matrix_posDef_cone_convex` — theorem · `Statlib/HighDim/MatrixAnalysis/LiebTraceConcavity.lean:59`
         ★ `posDef_convex_combo` — private theorem · `Statlib/HighDim/MatrixAnalysis/LiebTraceConcavity.lean:27`
         ◆ `quantumRelativeEntropy` — noncomputable def · `Statlib/HighDim/Vocabulary/Quantum.lean:17`
-          ★ `real_log_matrix_isHermitian_of_posDef` — theorem · `Statlib/HighDim/MatrixAnalysis/TraceExp.lean:89`  _(also used by 1: matrix_lieb_one_step_trace)_
-            ★ `hermitian_exp_posSemidef` — theorem · `Statlib/HighDim/MatrixAnalysis/TraceExp.lean:74`  _(also used by 2: matrix_exp_integrable_of_trace_integrable, matrix_laplace_one_step_of_trace_exp_add_le)_
-          ★ `hermitian_exp_posDef` — theorem · `Statlib/HighDim/MatrixAnalysis/TraceExp.lean:83`  _(also used by 3: matrix_exp_integral_posDef, matrix_lieb_pair_trace_posDef, matrix_lieb_one_step_trace)_
+          ★ `real_log_matrix_isHermitian_of_posDef` — theorem · `Statlib/HighDim/MatrixAnalysis/TraceExp.lean:71`  _(also used by 1: matrix_lieb_one_step_trace)_
+            ★ `hermitian_exp_posSemidef` — theorem · `Statlib/HighDim/MatrixAnalysis/TraceExp.lean:56`  _(also used by 3: matrix_exp_integrable_of_trace_integrable, matrix_laplace_one_step_of_trace_exp_add_le, golden_thompson)_
+          ★ `hermitian_exp_posDef` — theorem · `Statlib/HighDim/MatrixAnalysis/TraceExp.lean:65`  _(also used by 4: matrix_exp_integral_posDef, matrix_lieb_pair_trace_posDef, matrix_lieb_one_step_trace, …)_
           · `add_hermitian` — lemma · `Statlib/HighDim/SpectralPerturbation/Eigenvalues.lean:582`  _(also used by 1: exists_perturbed_unit_eigenvector_near)_
           ★ `klein_trace_exp_variational_lb` — theorem · `Statlib/HighDim/MatrixAnalysis/KleinTraceExpVariationalLb.lean:9`
         ★ `trace_exp_variational_formula` — theorem · `Statlib/HighDim/MatrixAnalysis/TraceExpVariationalFormula.lean:13`
@@ -22,7 +22,7 @@ Reading order (foundations first, headline last):
             · `leftMulKronecker_posDef` — lemma · `Statlib/HighDim/MatrixAnalysis/RelativeEntropyJointConvex.lean:66`
             · `rightMulKronecker_posDef` — lemma · `Statlib/HighDim/MatrixAnalysis/RelativeEntropyJointConvex.lean:70`
             · `leftMulKronecker_comm_rightMulKronecker` — lemma · `Statlib/HighDim/MatrixAnalysis/RelativeEntropyJointConvex.lean:77`
-            ★ `real_matrix_exp_log_of_posDef` — theorem · `Statlib/HighDim/MatrixAnalysis/TraceExp.lean:94`  _(also used by 1: matrix_lieb_one_step_trace)_
+            ★ `real_matrix_exp_log_of_posDef` — theorem · `Statlib/HighDim/MatrixAnalysis/TraceExp.lean:76`  _(also used by 1: matrix_lieb_one_step_trace)_
             · `leftMulKronecker_mulVec_vec` — lemma · `Statlib/HighDim/MatrixAnalysis/RelativeEntropyJointConvex.lean:30`
             · `rightMulKronecker_mulVec_vec` — lemma · `Statlib/HighDim/MatrixAnalysis/RelativeEntropyJointConvex.lean:35`
             · `quantumRelativeEntropy_eq_perspectiveInner` — lemma · `Statlib/HighDim/MatrixAnalysis/RelativeEntropyJointConvex.lean:115`
@@ -32,19 +32,19 @@ Reading order (foundations first, headline last):
             · `rightMulKronecker_add` — lemma · `Statlib/HighDim/MatrixAnalysis/RelativeEntropyJointConvex.lean:48`
             · `rightMulKronecker_smul` — lemma · `Statlib/HighDim/MatrixAnalysis/RelativeEntropyJointConvex.lean:52`
             · `rightMulKronecker_convex` — lemma · `Statlib/HighDim/MatrixAnalysis/RelativeEntropyJointConvex.lean:61`
-            ★ `matrix_integrable_of_entry_integrable` — theorem · `Statlib/HighDim/MatrixAnalysis/TraceExp.lean:316`  _(also used by 5: matrix_integral_eq_zero_of_hasZeroMean, matrix_lieb_one_step_trace, single_exp_integral_le_quadratic_matrix, …)_
-            ★ `matrix_entry_abs_le_l2_opNorm_rect` — private theorem · `Statlib/HighDim/MatrixAnalysis/TraceExp.lean:274`
-            ◆ `matrixEntryCLM` — private def · `Statlib/HighDim/MatrixAnalysis/TraceExp.lean:299`
-            ★ `matrix_integral_apply_of_integrable` — theorem · `Statlib/HighDim/MatrixAnalysis/TraceExp.lean:309`  _(also used by 7: matrix_integral_eq_zero_of_hasZeroMean, matrix_integral_posDef_of_ae, matrix_trace_integral_of_integrable, …)_
-            ★ `matrix_log_integral_rep` — theorem · `Statlib/HighDim/MatrixAnalysis/MatrixLogIntegralRep.lean:8`
-            ★ `lieb_ruskai_conj_inv_jointly_convex` — theorem · `Statlib/HighDim/MatrixAnalysis/LiebRuskaiConjInvJointlyConvex.lean:7`
-            ★ `matrix_integral_posSemidef_of_ae` — theorem · `Statlib/HighDim/MatrixAnalysis/TraceExp.lean:334`  _(also used by 4: matrix_integral_posDef_of_ae, matrix_integral_sub_posSemidef_of_ae, matrix_laplace_one_step_of_trace_exp_add_le, …)_
+            ★ `matrix_integrable_of_entry_integrable` — theorem · `Statlib/HighDim/MatrixAnalysis/TraceExp.lean:298`  _(also used by 5: matrix_integral_eq_zero_of_hasZeroMean, matrix_lieb_one_step_trace, single_exp_integral_le_quadratic_matrix, …)_
+            ★ `matrix_entry_abs_le_l2_opNorm_rect` — private theorem · `Statlib/HighDim/MatrixAnalysis/TraceExp.lean:256`
+            ◆ `matrixEntryCLM` — private def · `Statlib/HighDim/MatrixAnalysis/TraceExp.lean:281`
+            ★ `matrix_integral_apply_of_integrable` — theorem · `Statlib/HighDim/MatrixAnalysis/TraceExp.lean:291`  _(also used by 7: matrix_integral_eq_zero_of_hasZeroMean, matrix_integral_posDef_of_ae, matrix_trace_integral_of_integrable, …)_
+            ★ `matrix_log_integral_rep` — theorem · `Statlib/HighDim/MatrixAnalysis/MatrixLogIntegralRep.lean:8`  _(also used by 1: golden_thompson)_
+            ★ `lieb_ruskai_conj_inv_jointly_convex` — theorem · `Statlib/HighDim/MatrixAnalysis/LiebRuskaiConjInvJointlyConvex.lean:7`  _(also used by 2: resolvent_loewner_convex, resolvent_trace_convex)_
+            ★ `matrix_integral_posSemidef_of_ae` — theorem · `Statlib/HighDim/MatrixAnalysis/TraceExp.lean:316`  _(also used by 4: matrix_integral_posDef_of_ae, matrix_integral_sub_posSemidef_of_ae, matrix_laplace_one_step_of_trace_exp_add_le, …)_
             ★ `op_convex_mul_log` — theorem · `Statlib/HighDim/MatrixAnalysis/OperatorConvexMulLog.lean:14`
             ★ `hansen_pedersen_jensen_mul_log` — theorem · `Statlib/HighDim/MatrixAnalysis/HansenPedersenJensenMulLog.lean:28`  _(also used by 1: hp_jensen_mul_log)_
             · `perspectiveInner_jointConvex` — lemma · `Statlib/HighDim/MatrixAnalysis/RelativeEntropyJointConvex.lean:388`
           ★ `quantumRelativeEntropy_jointConvex` — theorem · `Statlib/HighDim/MatrixAnalysis/RelativeEntropyJointConvex.lean:990`
         ★ `relative_entropy_joint_convex` — theorem · `Statlib/HighDim/MatrixAnalysis/RelativeEntropyJointConvex.lean:1053`
-      ★ `trace_exp_add_log_concave_two_point` — theorem · `Statlib/HighDim/MatrixAnalysis/LiebTraceConcavity.lean:75`
+      ★ `trace_exp_add_log_concave_two_point` — theorem · `Statlib/HighDim/MatrixAnalysis/LiebTraceConcavity.lean:75`  _(also used by 1: golden_thompson)_
     ★ `trace_exp_add_log_concave` — theorem · `Statlib/HighDim/MatrixAnalysis/LiebTraceConcavity.lean:143`  _(also used by 1: trace_exp_add_log_jensen_integral_posDef)_
   ★ `trace_exp_add_log_finset_jensen_posDef` — theorem · `Statlib/HighDim/MatrixAnalysis/LiebTraceConcavity.lean:165`
 ★ `trace_exp_add_log_simpleFunc_jensen_posDef` — theorem · `Statlib/HighDim/MatrixAnalysis/LiebTraceConcavity.lean:198` **← headline**
