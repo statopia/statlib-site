@@ -29,7 +29,7 @@ export const modules: LibraryModule[] = [
       "conformal prediction, sufficiency and statistical inference, " +
       "convergence and limit theorems, empirical-process tools, " +
       "sub-Gaussian and sub-exponential variables, finite-dimensional Gaussian " +
-      "Log-Sobolev theory, and concentration inequalities.",
+      "functional inequalities, Lipschitz concentration, and concentration inequalities.",
     roadmap:
       "Grow shared vocabulary as concepts get reused across areas, broaden " +
       "the estimation, testing, empirical-process, and asymptotic foundations, " +

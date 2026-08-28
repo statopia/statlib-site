@@ -207,7 +207,7 @@ export const topics: TopicArea[] = [
   {
     id: "random-variables",
     title: "Tail behavior of random variables",
-    summary: "Concentration and tail-bound theory for sub-Gaussian and sub-exponential random variables, plus Gaussian and Log-Sobolev infrastructure used by later analysis.",
+    summary: "Concentration and tail-bound theory for sub-Gaussian and sub-exponential random variables, plus Gaussian functional inequalities culminating in dimension-free Lipschitz concentration.",
     declarationCounts: { theorems: 94, lemmas: 70 },
     theorems: [
       {
@@ -246,10 +246,10 @@ export const topics: TopicArea[] = [
         status: "proved",
       },
       {
-        name: "Gaussian Log-Sobolev inequality for Lipschitz functions",
-        lean: "standardGaussian_logSobolev_lipschitz_euclidean",
-        latex: "\\operatorname{Ent}_{\\gamma}(e^g) \\le \\tfrac12 \\int \\|\\nabla g\\|^2 e^g\\,d\\gamma",
-        blurb: "The finite-dimensional standard Gaussian satisfies the Gross Log-Sobolev inequality for Lipschitz functions, in the public wrapper used by the downstream Herbst concentration chain.",
+        name: "Gaussian concentration for Lipschitz functions",
+        lean: "gaussian_lipschitz_concentration",
+        latex: "\\mathbb{P}\\!\\left(|f(X)-\\mathbb{E}f(X)|\\ge t\\right) \\le 2\\exp\\!\\left(-\\frac{t^2}{2L^2}\\right)",
+        blurb: "An L-Lipschitz function of a vector with independent standard Gaussian coordinates has a dimension-free two-sided Gaussian tail around its mean.",
         status: "proved",
       },
       {
@@ -277,14 +277,14 @@ export const topics: TopicArea[] = [
         name: "Ornstein-Uhlenbeck Mehler formula",
         lean: "standardReal_ou_mehler_basic",
         latex: "P_t f(x)=\\mathbb{E}\\,f(e^{-t}x+\\sqrt{1-e^{-2t}}Z)",
-        blurb: "The Gaussian Mehler semigroup is formalized as the analytic backbone for ongoing Log-Sobolev work.",
+        blurb: "The Gaussian Mehler semigroup is formalized as the analytic backbone of the functional-inequality and concentration chain.",
         status: "proved",
       },
       {
         name: "Gaussian OU generator positivity",
         lean: "standardReal_ou_mehler_generator_pos",
         latex: "\\int f\\,L f\\,d\\gamma \\ge 0\\ \\text{ in the Mehler generator normalization}",
-        blurb: "A generator-side positivity statement in the standard real Gaussian Log-Sobolev development.",
+        blurb: "A generator-side positivity statement in the standard real Gaussian functional-inequality development.",
         status: "proved",
       },
     ],

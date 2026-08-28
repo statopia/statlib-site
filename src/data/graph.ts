@@ -39,10 +39,10 @@ export const featured: {
     svg: "Nonparametric/unit_cube_bspline_high_order_holder_smooth_uniform_sieve_approximation_rate.svg",
   },
   {
-    name: "standardGaussian_logSobolev_lipschitz_euclidean",
+    name: "gaussian_lipschitz_concentration",
     topic: "Statistical foundations",
-    decls: 107,
-    svg: "StatFoundation/standardGaussian_logSobolev_lipschitz_euclidean.svg",
+    decls: 115,
+    svg: "StatFoundation/gaussian_lipschitz_concentration.svg",
   },
   {
     name: "wedin_sin_theta",

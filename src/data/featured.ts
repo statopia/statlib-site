@@ -57,30 +57,29 @@ export const featuredThms: FeaturedThm[] = [
     decls: 83,
   },
   {
-    name: "Gaussian Log-Sobolev inequality for Lipschitz functions",
+    name: "Gaussian concentration for Lipschitz functions",
     module: "Statistical foundations",
-    leanFile: "Statlib/StatFoundation/RandomVariable/Gaussian/LogSobolev.lean",
+    leanFile: "Statlib/StatFoundation/RandomVariable/Gaussian/LipschitzConcentration.lean",
     math:
-      "\\operatorname{Ent}_{\\gamma}(e^g)\\le\\frac12" +
-      "\\int\\|\\nabla g\\|^2e^g\\,d\\gamma",
+      "\\mathbb{P}\\!\\left(|f(X)-\\mathbb{E}f(X)|\\ge t\\right)" +
+      "\\le 2\\exp\\!\\left(-\\frac{t^2}{2L^2}\\right)",
     blurb:
-      "The public finite-dimensional Gross inequality for standard Gaussian " +
-      "measure, used by the downstream Herbst concentration chain.",
-    statement: `theorem standardGaussian_logSobolev_lipschitz_euclidean
+      "An L-Lipschitz function of a vector with independent standard Gaussian " +
+      "coordinates has a dimension-free Gaussian tail around its mean.",
+    statement: `theorem gaussian_lipschitz_concentration
+    {Ω : Type*} [MeasurableSpace Ω] (μ : Measure Ω) [IsProbabilityMeasure μ]
     {n : ℕ}
-    (g : EuclideanSpace ℝ (Fin n) → ℝ) (K : ℝ≥0)
-    (hg : LipschitzWith K g) :
-    let γ : Measure (EuclideanSpace ℝ (Fin n)) :=
-      (standardPi n).map
-        ((PiLp.uniformEquiv (2 : ENNReal) (fun _ : Fin n => ℝ)).symm :
-          (Fin n → ℝ) → EuclideanSpace ℝ (Fin n));
-    (∫ x, g x * Real.exp (g x) ∂γ) -
-        (∫ x, Real.exp (g x) ∂γ) *
-          Real.log (∫ x, Real.exp (g x) ∂γ) ≤
-      (1 / 2 : ℝ) *
-        ∫ x, (‖fderiv ℝ g x‖ ^ 2) * Real.exp (g x) ∂γ := by`,
-    svg: "StatFoundation/standardGaussian_logSobolev_lipschitz_euclidean.svg",
-    decls: 107,
+    (X : Ω → EuclideanSpace ℝ (Fin n)) (hX_meas : Measurable X)
+    (hX_iid : iIndepFun (fun i ω => X ω i) μ)
+    (hX_std : ∀ i, Measure.map (fun ω => X ω i) μ = gaussianReal 0 1)
+    (f : EuclideanSpace ℝ (Fin n) → ℝ) (L : ℝ≥0) (hL : 0 < L)
+    (hf : LipschitzWith L f)
+    (hf_int : Integrable (fun ω => f (X ω)) μ) :
+    ∀ {t : ℝ}, 0 ≤ t →
+      μ {ω | t ≤ |f (X ω) - ∫ ω', f (X ω') ∂μ|} ≤
+      ENNReal.ofReal (2 * Real.exp (-t ^ 2 / (2 * (L : ℝ) ^ 2))) := by`,
+    svg: "StatFoundation/gaussian_lipschitz_concentration.svg",
+    decls: 115,
   },
   {
     name: "Wedin sin-theta theorem for singular subspaces",
