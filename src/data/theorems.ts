@@ -208,7 +208,7 @@ export const topics: TopicArea[] = [
     id: "random-variables",
     title: "Tail behavior of random variables",
     summary: "Concentration and tail-bound theory for sub-Gaussian and sub-exponential random variables, plus Gaussian and Log-Sobolev infrastructure used by later analysis.",
-    declarationCounts: { theorems: 59, lemmas: 61 },
+    declarationCounts: { theorems: 94, lemmas: 70 },
     theorems: [
       {
         name: "Sub-Gaussian one-sided tail bound",
@@ -243,6 +243,13 @@ export const topics: TopicArea[] = [
         lean: "subexp_mgf_le_of_sq_subgaussian",
         latex: "X \\text{ sub-Gaussian} \\implies X^2 \\text{ is sub-exponential}",
         blurb: "The square of a sub-Gaussian random variable is sub-exponential, with an explicit moment generating function bound.",
+        status: "proved",
+      },
+      {
+        name: "Gaussian Log-Sobolev inequality for Lipschitz functions",
+        lean: "standardGaussian_logSobolev_lipschitz_euclidean",
+        latex: "\\operatorname{Ent}_{\\gamma}(e^g) \\le \\tfrac12 \\int \\|\\nabla g\\|^2 e^g\\,d\\gamma",
+        blurb: "The finite-dimensional standard Gaussian satisfies the Gross Log-Sobolev inequality for Lipschitz functions, in the public wrapper used by the downstream Herbst concentration chain.",
         status: "proved",
       },
       {
@@ -629,7 +636,7 @@ export const topics: TopicArea[] = [
     id: "nonparametric-approximation",
     title: "Nonparametric approximation",
     summary: "Approximation-error bounds for finite sieves, Holder balls, splines, wavelets, RKHS balls, and neural-network candidate classes.",
-    declarationCounts: { theorems: 232, lemmas: 2 },
+    declarationCounts: { theorems: 276, lemmas: 2 },
     theorems: [
       {
         name: "Sieve zero-order self-approximation",
@@ -674,10 +681,10 @@ export const topics: TopicArea[] = [
         status: "proved",
       },
       {
-        name: "Tensor-product spline Holder approximation",
-        lean: "tensorProductSplineSieve_holderSmoothBall_error_bound_of_has_pointwise_rate_and_exact_basisCount",
-        latex: "\\mathcal{E}_m(\\mathcal{H}^{\\alpha})\\lesssim M^{-2\\alpha}",
-        blurb: "A tensor-product spline sieve inherits a Holder pointwise approximation rate and converts it into an integrated approximation-error bound.",
+        name: "High-order multivariate B-spline Holder rate",
+        lean: "unit_cube_bspline_high_order_holder_smooth_uniform_sieve_approximation_rate",
+        latex: "f_0\\in\\mathcal{H}^{r+\\beta}([0,1]^d) \\implies \\mathcal{E}_{m_K}(f_0) \\le M\\,m_K^{-2(r+\\beta)/d}",
+        blurb: "A positive-degree tensor-product B-spline system on the high-dimensional unit cube achieves the uniform squared-error sieve rate m^(-2(r+beta)/d) over the trace Holder-smooth ball.",
         status: "proved",
       },
       {
@@ -695,10 +702,10 @@ export const topics: TopicArea[] = [
         status: "proved",
       },
       {
-        name: "ReLU network approximation from a pointwise witness",
-        lean: "reluNetworkClass_classApproximationError_le_of_exists_pointwise",
-        latex: "\\exists N\\in\\mathcal{N}:\\sup_x |N(x)-f_0(x)|\\le\\varepsilon \\Rightarrow \\mathcal{E}(\\mathcal{N},f_0)\\le \\nu(X)\\varepsilon^2",
-        blurb: "A neural-network candidate class gets the same pointwise-to-integrated approximation interface.",
+        name: "Holder-smooth ReLU approximation at the -2s/d rate",
+        lean: "holderSmoothBall_unitCube_LW2_rate_from_fixed_width_M_rate",
+        latex: "f\\in\\mathcal{H}^{r+\\beta}([0,1]^d) \\implies \\exists g\\in\\mathcal{N}_{L,W}:\\ \\sup_{x\\in[0,1]^d}|g(x)-f(x)|\\le c\\,(LW^2)^{-2(r+\\beta)/d}",
+        blurb: "An explicit fixed-width construction is converted into the architecture-scale ReLU approximation rate (L W^2)^(-2(r+beta)/d) for high-dimensional Holder-smooth functions.",
         status: "proved",
       },
     ],

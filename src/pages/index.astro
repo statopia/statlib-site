@@ -11,10 +11,11 @@ import { modules } from "../data/modules";
 const flagship = [
   "wedin_sin_theta",
   "tendsto_measure_debiasedLasso_standardWaldCI_coverage_iidScoreSum_real",
-  "reluNetworkClass_classApproximationError_le_of_exists_pointwise",
+  "holderSmoothBall_unitCube_LW2_rate_from_fixed_width_M_rate",
+  "unit_cube_bspline_high_order_holder_smooth_uniform_sieve_approximation_rate",
   "matrix_bernstein_rect",
-  "uniform_deviation_finite_class",
-  "bernstein_sum_meas_ge_le_exp",
+  "standardGaussian_logSobolev_lipschitz_euclidean",
+  "dudley_entropy_integral",
 ];
 const byLean = new Map(
   topics.flatMap((t) => t.theorems.map((th) => [th.lean, { ...th, topic: t.title }])),

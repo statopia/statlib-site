@@ -28,7 +28,8 @@ export const modules: LibraryModule[] = [
       "uniform integrability and integral convergence, " +
       "conformal prediction, sufficiency and statistical inference, " +
       "convergence and limit theorems, empirical-process tools, " +
-      "sub-Gaussian and sub-exponential variables, and concentration inequalities.",
+      "sub-Gaussian and sub-exponential variables, finite-dimensional Gaussian " +
+      "Log-Sobolev theory, and concentration inequalities.",
     roadmap:
       "Grow shared vocabulary as concepts get reused across areas, broaden " +
       "the estimation, testing, empirical-process, and asymptotic foundations, " +
@@ -72,8 +73,9 @@ export const modules: LibraryModule[] = [
     lean: "Statlib.Nonparametric",
     summary:
       "Approximation and risk vocabulary for nonparametric statistics: finite " +
-      "sieves, Holder classes, spline and wavelet approximation, RKHS and neural " +
-      "network candidate classes, conformal quantile regression, and oracle interfaces.",
+      "sieves, Holder classes, high-order tensor-product B-spline and wavelet " +
+      "approximation, RKHS and neural-network rates, conformal quantile regression, " +
+      "and oracle interfaces.",
     roadmap:
       "Fill in the remaining nonparametric approximation chains while keeping " +
       "the sieve and risk interfaces reusable across estimators; " +

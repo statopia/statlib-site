@@ -7,7 +7,7 @@ export const site = {
   name: "statlib",
   org: "statopia",
   // One-line positioning shown in the hero + meta description.
-  tagline: "A Lean 4 library for reusable, formalized statistics — 1,256 theorems, checked end to end.",
+  tagline: "A Lean 4 library for reusable, formalized statistics — 1,368 theorems, checked end to end.",
   description:
     "statlib builds the foundational layer that statistical and machine-learning " +
     "formalization needs: stochastic-order asymptotics, uniform integrability, " +
@@ -26,8 +26,8 @@ export const site = {
 //   find Statlib -path '*/_*' -prune -o -name '*.lean' -print | xargs grep -hE '^[[:space:]]*theorem[[:space:]]' | wc -l
 //   find Statlib -path '*/_*' -prune -o -name '*.lean' -print | xargs grep -hE '^[[:space:]]*lemma[[:space:]]' | wc -l
 export const stats: { label: string; value: string }[] = [
-  { label: "Lean files", value: "363" },
-  { label: "Lines of Lean", value: "232,164" },
-  { label: "Theorems proved", value: "1,256" },
-  { label: "Supporting lemmas", value: "671" },
+  { label: "Lean files", value: "375" },
+  { label: "Lines of Lean", value: "269,391" },
+  { label: "Theorems proved", value: "1,368" },
+  { label: "Supporting lemmas", value: "672" },
 ];

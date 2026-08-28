@@ -44,10 +44,4 @@ export const featured: {
     decls: 13,
     svg: "HighDim/tendsto_measure_debiasedLasso_standardWaldCI_coverage_iidScoreSum_real.svg",
   },
-  {
-    name: "reluNetworkClass_classApproximationError_le_of_exists_pointwise",
-    topic: "Nonparametric",
-    decls: 13,
-    svg: "Nonparametric/reluNetworkClass_classApproximationError_le_of_exists_pointwise.svg",
-  },
 ];

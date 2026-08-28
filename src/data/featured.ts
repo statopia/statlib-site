@@ -1,10 +1,10 @@
 // ---------------------------------------------------------------------------
 // Featured formalizations for the /featured page: representative theorems shown
 // as their REAL Lean statement (verbatim from the statlib `main` source, proof
-// body omitted), with the math statement and a dependency diagram.
+// body omitted), with the math statement and, when available, a dependency diagram.
 //
 // `statement` is copied faithfully from the source — do not paraphrase or weaken
-// it. `svg` is relative to public/narratives.
+// it. Optional `svg` paths are relative to public/narratives.
 // ---------------------------------------------------------------------------
 
 export interface FeaturedThm {
@@ -14,38 +14,113 @@ export interface FeaturedThm {
   math: string; // KaTeX statement
   blurb: string; // one-line plain-language summary
   statement: string; // real Lean statement, verbatim (proof omitted)
-  svg: string; // dependency diagram, relative to /narratives
-  decls: number; // declarations shown in the graph
+  svg?: string; // dependency diagram, relative to /narratives
+  decls?: number; // declarations shown in the graph
   graphLabel?: string; // defaults to "proof dependency graph"
 }
 
 export const featuredThms: FeaturedThm[] = [
   {
-    name: "ReLU network approximation from a pointwise witness",
+    name: "Holder-smooth ReLU approximation at the -2s/d rate",
     module: "Nonparametric approximation",
-    leanFile: "Statlib/Nonparametric/Approximation/NeuralNetwork.lean",
+    leanFile: "Statlib/Nonparametric/Approximation/NeuralNetworkAlgebra.lean",
     math:
-      "\\exists N\\in\\mathcal{N}_{d,D,W,P}:\\ \\sup_x |N(x)-f_0(x)|\\le\\varepsilon" +
-      "\\Rightarrow \\mathcal{E}(\\mathcal{N}_{d,D,W,P},f_0)\\le \\nu(X)\\varepsilon^2",
+      "f\\in\\mathcal{H}^{r+\\beta}([0,1]^d)\\Rightarrow\\exists g\\in\\mathcal{N}_{L,W}:\\ " +
+      "\\sup_{x\\in[0,1]^d}|g(x)-f(x)|\\le c\\,(LW^2)^{-2(r+\\beta)/d}",
     blurb:
-      "A fully connected ReLU witness with uniform approximation error gives a " +
-      "class approximation-error bound after integrating squared loss.",
-    statement: `theorem reluNetworkClass_classApproximationError_le_of_exists_pointwise
-  (d depth width parameterCount : ℕ)
-  (f0 : (Fin d → ℝ) → ℝ)
-  (nu : Measure (Fin d → ℝ))
-  (eps : ℝ)
-  (h_f0_meas : Measurable f0)
-  (h_nu_fin : IsFiniteMeasure nu)
-  (h_eps_nonneg : 0 ≤ eps)
-
-  (h_exists_net : ∃ N : FullyConnectedReLUNet d, 0 < N.depth ∧
-    N.depth ≤ depth ∧ N.width ≤ width ∧ N.parameterCount ≤ parameterCount ∧
-      Measurable (N.realize) ∧ ∀ x : Fin d → ℝ, |N.realize x - f0 x| ≤ eps)
-  (h_bdd_below : BddBelow (Set.image (fun (f : (Fin d → ℝ) → ℝ) => integratedSquaredError nu f f0) (reluNetworkClass d depth width parameterCount)))
-  : classApproximationError nu (reluNetworkClass d depth width parameterCount) f0 ≤ (nu Set.univ).toReal * eps ^ 2 := by`,
-    svg: "Nonparametric/reluNetworkClass_classApproximationError_le_of_exists_pointwise.svg",
-    decls: 13,
+      "A fixed-width grid-scale construction is converted into an explicit " +
+      "depth-width approximation rate for high-dimensional Holder-smooth functions.",
+    statement: `theorem holderSmoothBall_unitCube_LW2_rate_from_fixed_width_M_rate
+    {d r W0 : ℕ} {beta C B cDepth cErr : ℝ}
+    (hd : 0 < d) (hW0 : 0 < W0)
+    (hbeta_nonneg : 0 ≤ beta)
+    (hsmooth_pos : 0 < (r : ℝ) + beta)
+    (hcDepth : 0 < cDepth) (hcErr : 0 < cErr)
+    (hMrate :
+      ∀ M : ℕ, 0 < M →
+        ∃ D P : ℕ,
+          0 < D ∧
+          (D : ℝ) ≤ cDepth * ((M : ℝ) ^ d) ∧
+          P = fullyConnectedReLUParameterCount d D W0 ∧
+          ∀ f : (Fin d → ℝ) → ℝ,
+            f ∈ holderSmoothBall r beta C B →
+            ∃ g : (Fin d → ℝ) → ℝ,
+              g ∈ reluNetworkClass d D W0 P ∧
+              ∀ x : Fin d → ℝ,
+                (∀ q : Fin d, x q ∈ Set.Icc (0 : ℝ) 1) →
+                  |g x - f x| ≤ cErr * (M : ℝ).rpow (-(2 * ((r : ℝ) + beta)))) :
+    ∃ cRate : ℝ, 0 < cRate ∧
+      ∀ M : ℕ, 0 < M →
+        ∃ L W P : ℕ,
+          0 < L ∧ 0 < W ∧
+          P = fullyConnectedReLUParameterCount d L W ∧
+          ∀ f : (Fin d → ℝ) → ℝ,
+            f ∈ holderSmoothBall r beta C B →
+            ∃ g : (Fin d → ℝ) → ℝ,
+              g ∈ reluNetworkClass d L W P ∧
+              ∀ x : Fin d → ℝ,
+                (∀ q : Fin d, x q ∈ Set.Icc (0 : ℝ) 1) →
+                  |g x - f x| ≤ cRate *
+                    (((L : ℝ) * (W : ℝ) ^ 2).rpow
+                      (-(2 * ((r : ℝ) + beta) / (d : ℝ)))) := by`,
+  },
+  {
+    name: "High-order multivariate B-spline Holder rate",
+    module: "Nonparametric approximation",
+    leanFile: "Statlib/Nonparametric/Approximation/Spline.lean",
+    math:
+      "f_0\\in\\mathcal{H}^{r+\\beta}([0,1]^d)\\Rightarrow" +
+      "\\mathcal{E}_{m_K}(f_0)\\le M\\,m_K^{-2(r+\\beta)/d}",
+    blurb:
+      "A positive-degree tensor-product B-spline basis on the high-dimensional " +
+      "unit cube achieves the optimal Holder-smooth squared-error sieve exponent.",
+    statement: `theorem unit_cube_bspline_high_order_holder_smooth_uniform_sieve_approximation_rate
+    (q d r : ℕ)
+    (nu : Measure (splineUnitCubeDomain d)) [IsFiniteMeasure nu]
+    (beta C B : ℝ)
+    (hd : 0 < d)
+    (hr_pos : 0 < r)
+    (hdegree : r ≤ q + 1)
+    (hregularity : (r : ℝ) + beta ≤ (q + 1 : ℝ))
+    (hbeta_nonneg : 0 ≤ beta)
+    (hbeta_le_one : beta ≤ 1)
+    (hC_nonneg : 0 ≤ C)
+    (hB_nonneg : 0 ≤ B) :
+    ∃ M : ℝ, 0 ≤ M ∧
+      ∀ K : ℕ, 0 < K →
+        ∀ f0 : splineUnitCubeDomain d → ℝ,
+          f0 ∈ unitCubeTraceHolderSmoothBall d r beta C B →
+            sieveApproximationError nu
+              (unitCubePositiveDegreeExtendedBSplineSystem q d K).basisCount
+              (tensorProductSplineSieve
+                (unitCubePositiveDegreeExtendedBSplineSystem q d K)) f0
+            ≤ M * Real.rpow
+              ((unitCubePositiveDegreeExtendedBSplineSystem q d K).basisCount : ℝ)
+              (-(2 * ((r : ℝ) + beta)) / (d : ℝ)) := by`,
+  },
+  {
+    name: "Gaussian Log-Sobolev inequality for Lipschitz functions",
+    module: "Statistical foundations",
+    leanFile: "Statlib/StatFoundation/RandomVariable/Gaussian/LogSobolev.lean",
+    math:
+      "\\operatorname{Ent}_{\\gamma}(e^g)\\le\\frac12" +
+      "\\int\\|\\nabla g\\|^2e^g\\,d\\gamma",
+    blurb:
+      "The public finite-dimensional Gross inequality for standard Gaussian " +
+      "measure, used by the downstream Herbst concentration chain.",
+    statement: `theorem standardGaussian_logSobolev_lipschitz_euclidean
+    {n : ℕ}
+    (g : EuclideanSpace ℝ (Fin n) → ℝ) (K : ℝ≥0)
+    (hg : LipschitzWith K g) :
+    let γ : Measure (EuclideanSpace ℝ (Fin n)) :=
+      (standardPi n).map
+        ((PiLp.uniformEquiv (2 : ENNReal) (fun _ : Fin n => ℝ)).symm :
+          (Fin n → ℝ) → EuclideanSpace ℝ (Fin n));
+    (∫ x, g x * Real.exp (g x) ∂γ) -
+        (∫ x, Real.exp (g x) ∂γ) *
+          Real.log (∫ x, Real.exp (g x) ∂γ) ≤
+      (1 / 2 : ℝ) *
+        ∫ x, (‖fderiv ℝ g x‖ ^ 2) * Real.exp (g x) ∂γ := by`,
   },
   {
     name: "Wedin sin-theta theorem for singular subspaces",

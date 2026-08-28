@@ -19,6 +19,14 @@ export const libraryTree: TreeNode =
               "dir": false
             },
             {
+              "name": "Frontdoor.lean",
+              "dir": false
+            },
+            {
+              "name": "FrontdoorCriterion.lean",
+              "dir": false
+            },
+            {
               "name": "GFormula.lean",
               "dir": false
             },
@@ -64,6 +72,10 @@ export const libraryTree: TreeNode =
           "children": [
             {
               "name": "FrobeniusNormSqConcentration.lean",
+              "dir": false
+            },
+            {
+              "name": "GaussianQuadraticForm.lean",
               "dir": false
             },
             {
@@ -187,6 +199,10 @@ export const libraryTree: TreeNode =
               "dir": false
             },
             {
+              "name": "HardSvThreshold.lean",
+              "dir": false
+            },
+            {
               "name": "KleinTraceExpVariationalLb.lean",
               "dir": false
             },
@@ -272,6 +288,20 @@ export const libraryTree: TreeNode =
             },
             {
               "name": "Weyl.lean",
+              "dir": false
+            }
+          ]
+        },
+        {
+          "name": "MatrixRecovery",
+          "dir": true,
+          "children": [
+            {
+              "name": "RankConstrainedDenoising.lean",
+              "dir": false
+            },
+            {
+              "name": "RankOneSpectralInitialization.lean",
               "dir": false
             }
           ]
@@ -411,6 +441,10 @@ export const libraryTree: TreeNode =
           "dir": false
         },
         {
+          "name": "MatrixRecovery.lean",
+          "dir": false
+        },
+        {
           "name": "Regression.lean",
           "dir": false
         },
@@ -531,6 +565,10 @@ export const libraryTree: TreeNode =
           "dir": true,
           "children": [
             {
+              "name": "SignedRank.lean",
+              "dir": false
+            },
+            {
               "name": "SignTest.lean",
               "dir": false
             }
@@ -540,6 +578,10 @@ export const libraryTree: TreeNode =
           "name": "NormalTheory",
           "dir": true,
           "children": [
+            {
+              "name": "ANOVA.lean",
+              "dir": false
+            },
             {
               "name": "SampleMean.lean",
               "dir": false
@@ -1171,6 +1213,10 @@ export const libraryTree: TreeNode =
                   "dir": false
                 },
                 {
+                  "name": "SmoothComparison.lean",
+                  "dir": false
+                },
+                {
                   "name": "SmoothCutoff.lean",
                   "dir": false
                 },
@@ -1242,6 +1288,10 @@ export const libraryTree: TreeNode =
                 },
                 {
                   "name": "BootstrapInterface.lean",
+                  "dir": false
+                },
+                {
+                  "name": "GaussianMaxComparison.lean",
                   "dir": false
                 }
               ]
@@ -1346,6 +1396,10 @@ export const libraryTree: TreeNode =
                 },
                 {
                   "name": "HilbertSpace.lean",
+                  "dir": false
+                },
+                {
+                  "name": "LipschitzConcentration.lean",
                   "dir": false
                 },
                 {
