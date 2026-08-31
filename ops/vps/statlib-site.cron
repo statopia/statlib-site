@@ -1,0 +1,1 @@
+*/2 * * * * /home/web/bin/poll-deploy-statlib-site >> /home/web/statlib-site-deploy.log 2>&1

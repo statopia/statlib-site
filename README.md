@@ -59,6 +59,8 @@ statlib.statopia.ai -> Nginx Proxy Manager -> statlib-site:80
 
 The repository owns the complete, reproducible deployment:
 
+Operational scripts, installation, verification, rollback, and key-handling details live in `ops/vps/README.md`.
+
 - `Dockerfile` builds the Astro site with Node 22, then copies `dist/` into Nginx.
 - `docker-compose.yml` rebuilds and replaces only `statlib-site`.
 - `nginx.conf` serves the static routes and immutable Astro assets.

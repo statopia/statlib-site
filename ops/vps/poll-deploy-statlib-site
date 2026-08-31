@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+REPO_URL="https://github.com/statopia/statlib-site.git"
+STATE_FILE="/home/web/.statlib-site-deployed-sha"
+remote_sha=$(git ls-remote "$REPO_URL" refs/heads/main | cut -f1)
+[ -n "$remote_sha" ] || { echo "ERROR: could not resolve statlib-site main" >&2; exit 1; }
+deployed_sha=$(cat "$STATE_FILE" 2>/dev/null || true)
+
+if [ "$remote_sha" != "$deployed_sha" ]; then
+  echo "$(date -Is) deploying statlib-site $remote_sha (was ${deployed_sha:-none})"
+  /home/web/bin/deploy-statlib-site
+  printf "%s\n" "$remote_sha" > "$STATE_FILE"
+fi

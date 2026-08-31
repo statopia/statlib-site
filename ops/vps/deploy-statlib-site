@@ -1,0 +1,72 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+REPO_URL="https://github.com/statopia/statlib-site.git"
+REPO_DIR="/home/web/statlib-site-src"
+LEGACY_DIR="/home/web/statlib-site"
+SITE_URL="https://statlib.statopia.ai"
+LOCK_FILE="/tmp/statlib-site-deploy.lock"
+STATE_FILE="/home/web/.statlib-site-deployed-sha"
+
+exec 9>"$LOCK_FILE"
+flock -n 9 || { echo "ERROR: another statlib-site deployment is running" >&2; exit 1; }
+
+if [ ! -d "$REPO_DIR/.git" ]; then
+  git clone --branch main --single-branch "$REPO_URL" "$REPO_DIR"
+else
+  actual_origin=$(git -C "$REPO_DIR" remote get-url origin)
+  [ "$actual_origin" = "$REPO_URL" ] || {
+    echo "ERROR: unexpected origin in $REPO_DIR: $actual_origin" >&2
+    exit 1
+  }
+fi
+
+git -C "$REPO_DIR" fetch --prune origin main
+git -C "$REPO_DIR" checkout -B main origin/main
+source_sha=$(git -C "$REPO_DIR" rev-parse HEAD)
+
+old_image=""
+old_workdir=""
+if docker inspect statlib-site >/dev/null 2>&1; then
+  old_image=$(docker inspect statlib-site --format "{{.Image}}")
+  old_workdir=$(docker inspect statlib-site --format "{{index .Config.Labels \"com.docker.compose.project.working_dir\"}}")
+fi
+
+rollback() {
+  echo "ERROR: deployment failed; restoring previous statlib-site" >&2
+  docker rm -f statlib-site >/dev/null 2>&1 || true
+  if [ "$old_workdir" = "$REPO_DIR" ] && [ -n "$old_image" ]; then
+    docker tag "$old_image" statlib-site:latest
+    (cd "$REPO_DIR" && docker compose up -d --no-build --no-deps statlib-site)
+  elif [ -f "$LEGACY_DIR/docker-compose.yml" ]; then
+    (cd "$LEGACY_DIR" && docker compose up -d statlib-site)
+  fi
+}
+trap rollback ERR
+
+cd "$REPO_DIR"
+STATLIB_SITE_SOURCE_COMMIT="$source_sha" docker compose build statlib-site
+
+if docker inspect statlib-site >/dev/null 2>&1 && [ "$old_workdir" != "$REPO_DIR" ]; then
+  docker rm -f statlib-site >/dev/null
+fi
+
+STATLIB_SITE_SOURCE_COMMIT="$source_sha" docker compose up -d --no-deps statlib-site
+
+healthy=0
+for _ in $(seq 1 60); do
+  status=$(docker inspect statlib-site --format "{{if .State.Health}}{{.State.Health.Status}}{{else}}none{{end}}")
+  if [ "$status" = "healthy" ]; then healthy=1; break; fi
+  if [ "$status" = "unhealthy" ]; then break; fi
+  sleep 1
+done
+[ "$healthy" = 1 ] || { echo "ERROR: statlib-site did not become healthy" >&2; false; }
+
+curl -fsS http://127.0.0.1:8090/ >/dev/null
+for route in / /library /featured /about /report; do
+  curl -fsS --retry 5 --retry-delay 2 "${SITE_URL}${route}" >/dev/null
+done
+
+printf "%s\n" "$source_sha" > "$STATE_FILE"
+trap - ERR
+echo "OK: statlib-site deployed from $source_sha"
