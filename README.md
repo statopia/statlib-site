@@ -48,21 +48,35 @@ Adding a page = adding a file under `src/pages/`. Docs/blog can be added later a
 
 ## Deploy
 
-Self-hosted at `https://statlib.statopia.ai` on the Finnish VPS
-(`web@204.168.225.240`), same box as `prover.statopia.ai`:
+Production is `https://statlib.statopia.ai`, self-hosted on the Finnish VPS
+(`web@204.168.225.240`) as an independent Docker container. It shares only the
+`proxy_default` network with Nginx Proxy Manager; it is not part of the Prover
+image or Compose project.
 
-```bash
-./scripts/deploy.sh   # build + rsync + internal and public HTTPS smoke tests
+```text
+statlib.statopia.ai -> Nginx Proxy Manager -> statlib-site:80
 ```
 
-Serving chain on the VPS: `statlib-site` nginx container
-(`/home/web/statlib-site/docker-compose.yml`, bind-mounts `dist/`) ←
-Nginx Proxy Manager (`proxy-app-1`) terminates TLS and forwards the public
-hostname to `http://statlib-site:80` over the `proxy_default` network.
-Namecheap DNS has an A record for `statlib` pointing to `204.168.225.240`.
-Nginx Proxy Manager maps `statlib.statopia.ai` to `statlib-site:80`, requests
-the Let’s Encrypt certificate, and forces HTTPS. Rsync alone is a full content
-deploy — no container restart is needed.
+The repository owns the complete, reproducible deployment:
 
-The old Vercel project (`.vercel/`) is still connected and can serve as
-preview hosting until the domain cutover is complete.
+- `Dockerfile` builds the Astro site with Node 22, then copies `dist/` into Nginx.
+- `docker-compose.yml` rebuilds and replaces only `statlib-site`.
+- `nginx.conf` serves the static routes and immutable Astro assets.
+- The VPS poller checks `origin/main` every two minutes and invokes a fixed local
+  deploy wrapper only when the commit changes; no production key leaves the VPS.
+
+For a manual deployment, first push the desired commit to `origin/main`, then run:
+
+```bash
+./scripts/deploy.sh
+```
+
+The VPS checkout lives at `/home/web/statlib-site-src`. A cron entry runs the fixed host wrapper
+`/home/web/bin/poll-deploy-statlib-site` every two minutes. On a new commit it calls
+`/home/web/bin/deploy-statlib-site`, which fetches `origin/main`, builds the image,
+recreates only the Statlib container, waits for its health check, and verifies
+both loopback and public HTTPS. Prover is never rebuilt or restarted.
+
+To roll back, check out the previous known-good commit in the VPS checkout, set
+`STATLIB_SITE_SOURCE_COMMIT` to that SHA, and run `docker compose build` followed
+by `docker compose up -d --no-deps statlib-site`.
