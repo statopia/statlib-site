@@ -13,12 +13,9 @@ export const site = {
     "formalization needs: stochastic-order asymptotics, uniform integrability, " +
     "empirical-process tools, high-dimensional concentration, matrix analysis, " +
     "conformal prediction, and nonparametric approximation on top of Mathlib.",
-  // Links.
-  githubUrl: "https://github.com/statopia/statlib",
-  githubSiteUrl: "https://github.com/statopia/statlib-site",
 };
 
-// Headline numbers for the hero strip — measured from the public statlib `main`
+// Headline numbers for the hero strip — measured from the statlib `main`
 // core (Statlib/ tree, excluding underscore-prefixed scratch directories).
 // Refresh when the library grows:
 //   find Statlib -path '*/_*' -prune -o -name '*.lean' -print | wc -l

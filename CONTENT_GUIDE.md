@@ -1,6 +1,6 @@
 # 内容填充指南（给协作者）
 
-这是 **statlib** 项目主页（https://statlib-site.vercel.app）。
+这是 **statlib** 项目主页（https://statlib.statopia.ai）。
 样式和结构已经做好，**你只需要填内容**——改两个数据文件即可，不用碰任何样式/组件代码。
 
 改完提交后，网站会在 **1–2 分钟内自动更新上线**（无需手动部署）。
@@ -29,7 +29,7 @@
 3. 点右上角的 **铅笔图标 ✏️ (Edit this file)**
 4. 直接在网页里改文字
 5. 拉到底，点 **Commit changes**（提交说明随便写，如 "update theorems"）
-6. 等 1–2 分钟，刷新 https://statlib-site.vercel.app 就能看到更新
+6. VPS 每两分钟检查一次 `main`，自动构建并独立部署；刷新 https://statlib.statopia.ai 查看结果
 
 > 缺点：网页里改完不能本地预览，提交后才能在线上看效果。改小内容很方便。
 
@@ -62,8 +62,6 @@ export const site = {
   org: "statopia",                    // 组织名
   tagline: "……",                      // 首页大标题，一句话定位
   description: "……",                  // 首页 Abstract 段落
-  githubUrl: "https://github.com/…",  // "View on GitHub" 按钮指向的地址
-  githubSiteUrl: "https://github.com/statopia/statlib-site",
 };
 
 export const stats = [               // 首页三个大数字
@@ -155,9 +153,9 @@ export const topics = [
 ## 改完怎么确认生效
 
 1. 提交（网页 Commit 或本地 `git push`）。
-2. 等 1–2 分钟（Vercel 自动构建）。
-3. 打开 https://statlib-site.vercel.app 刷新查看。
-4. 想看构建有没有成功，可问仓库管理员要 Vercel 项目链接，或直接看线上结果。
+2. 等待 VPS 轮询器检测 `main` 并完成独立 Docker 构建（通常不超过 2 分钟）。
+3. 打开 https://statlib.statopia.ai 刷新查看。
+4. 想确认部署状态，可运行 `ops/vps/verify.sh`，或直接检查线上结果。
 
 > 如果改完线上 1–2 分钟还没变，多半是 `theorems.ts` 里语法错了（少了逗号/引号、`\` 没写成 `\\`），导致构建失败。把改动回退或贴出来找管理员看。
 
