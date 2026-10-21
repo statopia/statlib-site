@@ -9,13 +9,13 @@ import { modules } from "../data/modules";
 // main modules and show range. Referenced by Lean id and resolved from the catalog so
 // statements stay single-sourced in theorems.ts.
 const flagship = [
-  "wedin_sin_theta",
+  "matrix_rip_recovery_bound",
   "tendsto_measure_debiasedLasso_standardWaldCI_coverage_iidScoreSum_real",
   "holderSmoothBall_unitCube_LW2_rate_from_fixed_width_M_rate",
   "unit_cube_bspline_high_order_holder_smooth_uniform_sieve_approximation_rate",
   "matrix_bernstein_rect",
   "gaussian_lipschitz_concentration",
-  "dudley_entropy_integral",
+  "gaussianMax_cube_root_comparison_diagonal",
 ];
 const byLean = new Map(
   topics.flatMap((t) => t.theorems.map((th) => [th.lean, { ...th, topic: t.title }])),

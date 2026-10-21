@@ -7,11 +7,12 @@ export const site = {
   name: "statlib",
   org: "statopia",
   // One-line positioning shown in the hero + meta description.
-  tagline: "A Lean 4 library for reusable, formalized statistics — 1,368 theorems, checked end to end.",
+  tagline: "A Lean 4 library for reusable, formalized statistics — 1,807 theorems, checked end to end.",
   description:
     "statlib builds the foundational layer that statistical and machine-learning " +
     "formalization needs: stochastic-order asymptotics, uniform integrability, " +
-    "empirical-process tools, high-dimensional concentration, matrix analysis, " +
+    "empirical-process tools, high-dimensional concentration, low-rank matrix recovery, " +
+    "matrix analysis, " +
     "conformal prediction, and nonparametric approximation on top of Mathlib.",
 };
 
@@ -23,8 +24,8 @@ export const site = {
 //   find Statlib -path '*/_*' -prune -o -name '*.lean' -print | xargs grep -hE '^[[:space:]]*theorem[[:space:]]' | wc -l
 //   find Statlib -path '*/_*' -prune -o -name '*.lean' -print | xargs grep -hE '^[[:space:]]*lemma[[:space:]]' | wc -l
 export const stats: { label: string; value: string }[] = [
-  { label: "Lean files", value: "375" },
-  { label: "Lines of Lean", value: "269,391" },
-  { label: "Theorems proved", value: "1,368" },
-  { label: "Supporting lemmas", value: "672" },
+  { label: "Lean files", value: "470" },
+  { label: "Lines of Lean", value: "452,823" },
+  { label: "Theorems proved", value: "1,807" },
+  { label: "Supporting lemmas", value: "1,035" },
 ];

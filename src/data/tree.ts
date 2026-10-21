@@ -19,6 +19,10 @@ export const libraryTree: TreeNode =
               "dir": false
             },
             {
+              "name": "DoConditionalLaws.lean",
+              "dir": false
+            },
+            {
               "name": "Frontdoor.lean",
               "dir": false
             },
@@ -35,7 +39,27 @@ export const libraryTree: TreeNode =
               "dir": false
             },
             {
+              "name": "GraphSurgery.lean",
+              "dir": false
+            },
+            {
+              "name": "InterventionalSoundness.lean",
+              "dir": false
+            },
+            {
               "name": "MoralizedGraph.lean",
+              "dir": false
+            },
+            {
+              "name": "ObservationalChain.lean",
+              "dir": false
+            },
+            {
+              "name": "ObservationalCollider.lean",
+              "dir": false
+            },
+            {
+              "name": "ObservationalSoundness.lean",
               "dir": false
             },
             {
@@ -111,6 +135,10 @@ export const libraryTree: TreeNode =
               ]
             },
             {
+              "name": "CovarianceGap.lean",
+              "dir": false
+            },
+            {
               "name": "CovDiagonalConcentration.lean",
               "dir": false
             },
@@ -175,7 +203,15 @@ export const libraryTree: TreeNode =
               "dir": false
             },
             {
+              "name": "ArakiHeinzK3.lean",
+              "dir": false
+            },
+            {
               "name": "CStarBridge.lean",
+              "dir": false
+            },
+            {
+              "name": "FenchelDualNuclearNormProx.lean",
               "dir": false
             },
             {
@@ -219,6 +255,18 @@ export const libraryTree: TreeNode =
               "dir": false
             },
             {
+              "name": "LiebThirringK3Blocks.lean",
+              "dir": false
+            },
+            {
+              "name": "LiebThirringK3Trace.lean",
+              "dir": false
+            },
+            {
+              "name": "LiebThirringReduction.lean",
+              "dir": false
+            },
+            {
               "name": "LiebTraceConcavity.lean",
               "dir": false
             },
@@ -259,6 +307,10 @@ export const libraryTree: TreeNode =
               "dir": false
             },
             {
+              "name": "SoftThresholdDenoisingHelpers.lean",
+              "dir": false
+            },
+            {
               "name": "SVDFoundation.lean",
               "dir": false
             },
@@ -293,15 +345,93 @@ export const libraryTree: TreeNode =
           ]
         },
         {
+          "name": "MatrixCompletion",
+          "dir": true,
+          "children": [
+            {
+              "name": "BatchUnionFreshness.lean",
+              "dir": false
+            },
+            {
+              "name": "BernoulliMaskAlgebra.lean",
+              "dir": false
+            },
+            {
+              "name": "CompactFactorBridge.lean",
+              "dir": false
+            },
+            {
+              "name": "DeterministicBernoulliScalarTail.lean",
+              "dir": false
+            },
+            {
+              "name": "DualCertificateCriterion.lean",
+              "dir": false
+            },
+            {
+              "name": "FiniteCoordinateTailUnion.lean",
+              "dir": false
+            },
+            {
+              "name": "GolfingParameterBudget.lean",
+              "dir": false
+            },
+            {
+              "name": "NuclearSubgradientCompact.lean",
+              "dir": false
+            },
+            {
+              "name": "OffTangentSamplingBound.lean",
+              "dir": false
+            },
+            {
+              "name": "ProjectedCoordinateSpreadBricks.lean",
+              "dir": false
+            },
+            {
+              "name": "TangentEntryIncoherence.lean",
+              "dir": false
+            },
+            {
+              "name": "TangentProjection.lean",
+              "dir": false
+            },
+            {
+              "name": "TangentRankoneVectorization.lean",
+              "dir": false
+            },
+            {
+              "name": "TangentSamplingIsometry.lean",
+              "dir": false
+            }
+          ]
+        },
+        {
           "name": "MatrixRecovery",
           "dir": true,
           "children": [
+            {
+              "name": "EmpiricalProcessNuclearNormBound.lean",
+              "dir": false
+            },
+            {
+              "name": "MatrixRipRecoveryBound.lean",
+              "dir": false
+            },
             {
               "name": "RankConstrainedDenoising.lean",
               "dir": false
             },
             {
               "name": "RankOneSpectralInitialization.lean",
+              "dir": false
+            },
+            {
+              "name": "SoftThresholdDenoisingGuarantee.lean",
+              "dir": false
+            },
+            {
+              "name": "SpectralInitialization.lean",
               "dir": false
             }
           ]
@@ -383,6 +513,10 @@ export const libraryTree: TreeNode =
               "dir": false
             },
             {
+              "name": "MatrixCompletion.lean",
+              "dir": false
+            },
+            {
               "name": "Norms.lean",
               "dir": false
             },
@@ -441,6 +575,10 @@ export const libraryTree: TreeNode =
           "dir": false
         },
         {
+          "name": "MatrixCompletion.lean",
+          "dir": false
+        },
+        {
           "name": "MatrixRecovery.lean",
           "dir": false
         },
@@ -468,6 +606,10 @@ export const libraryTree: TreeNode =
           "children": [
             {
               "name": "ChiSquareAsymptotics.lean",
+              "dir": false
+            },
+            {
+              "name": "MultivariateChiSquareAsymptotics.lean",
               "dir": false
             },
             {
@@ -565,6 +707,14 @@ export const libraryTree: TreeNode =
           "dir": true,
           "children": [
             {
+              "name": "MannWhitney.lean",
+              "dir": false
+            },
+            {
+              "name": "MannWhitneyCLT.lean",
+              "dir": false
+            },
+            {
               "name": "SignedRank.lean",
               "dir": false
             },
@@ -610,6 +760,28 @@ export const libraryTree: TreeNode =
             },
             {
               "name": "Validity.lean",
+              "dir": false
+            }
+          ]
+        },
+        {
+          "name": "Randomization",
+          "dir": true,
+          "children": [
+            {
+              "name": "OrbitCounting.lean",
+              "dir": false
+            },
+            {
+              "name": "PermutationMW.lean",
+              "dir": false
+            },
+            {
+              "name": "Validity.lean",
+              "dir": false
+            },
+            {
+              "name": "Vocabulary.lean",
               "dir": false
             }
           ]
@@ -671,7 +843,23 @@ export const libraryTree: TreeNode =
               "dir": false
             },
             {
+              "name": "ReLUNetworkConstruction.lean",
+              "dir": false
+            },
+            {
+              "name": "ReLUStateMachine.lean",
+              "dir": false
+            },
+            {
               "name": "RKHS.lean",
+              "dir": false
+            },
+            {
+              "name": "ShallowReLUApproximation.lean",
+              "dir": false
+            },
+            {
+              "name": "ShallowReLUApproximationGeometry.lean",
               "dir": false
             },
             {
@@ -738,6 +926,16 @@ export const libraryTree: TreeNode =
           "children": [
             {
               "name": "Risk.lean",
+              "dir": false
+            }
+          ]
+        },
+        {
+          "name": "Spectral",
+          "dir": true,
+          "children": [
+            {
+              "name": "Embedding.lean",
               "dir": false
             }
           ]
@@ -829,6 +1027,10 @@ export const libraryTree: TreeNode =
           "dir": false
         },
         {
+          "name": "Spectral.lean",
+          "dir": false
+        },
+        {
           "name": "Vocabulary.lean",
           "dir": false
         }
@@ -838,6 +1040,126 @@ export const libraryTree: TreeNode =
       "name": "RandomMatrix",
       "dir": true,
       "children": [
+        {
+          "name": "SampleCovariance",
+          "dir": true,
+          "children": [
+            {
+              "name": "LeaveOneOut",
+              "dir": true,
+              "children": [
+                {
+                  "name": "AverageBiasAssembly.lean",
+                  "dir": false
+                },
+                {
+                  "name": "CondMeanBias.lean",
+                  "dir": false
+                },
+                {
+                  "name": "FullResolventQuadraticBound.lean",
+                  "dir": false
+                },
+                {
+                  "name": "OffdiagMomentBound.lean",
+                  "dir": false
+                },
+                {
+                  "name": "PairwiseCondMeanBound.lean",
+                  "dir": false
+                },
+                {
+                  "name": "ResolventEntryBound.lean",
+                  "dir": false
+                },
+                {
+                  "name": "ResolventFunctionalIntegrable.lean",
+                  "dir": false
+                },
+                {
+                  "name": "ResolventUpdatePairwise.lean",
+                  "dir": false
+                },
+                {
+                  "name": "RowInnovationBound.lean",
+                  "dir": false
+                },
+                {
+                  "name": "RowReplacementIntegralTransfer.lean",
+                  "dir": false
+                },
+                {
+                  "name": "RowSquareSumIntegrable.lean",
+                  "dir": false
+                }
+              ]
+            },
+            {
+              "name": "ComplexCondExpNormSqDecomp.lean",
+              "dir": false
+            },
+            {
+              "name": "ComplexConditionalEfronStein.lean",
+              "dir": false
+            },
+            {
+              "name": "ComplexEfronStein.lean",
+              "dir": false
+            },
+            {
+              "name": "ComplexNormSqIntegralDecomp.lean",
+              "dir": false
+            },
+            {
+              "name": "CoordinateSwap.lean",
+              "dir": false
+            },
+            {
+              "name": "CoordinateSwapPolarRewrite.lean",
+              "dir": false
+            },
+            {
+              "name": "IndependentEnvRowScalarConditionalES.lean",
+              "dir": false
+            },
+            {
+              "name": "LeaveOneOutCoordinateSwap.lean",
+              "dir": false
+            },
+            {
+              "name": "LeaveOneOutMatrixPsd.lean",
+              "dir": false
+            },
+            {
+              "name": "LOOCoordinateSwapSquared.lean",
+              "dir": false
+            },
+            {
+              "name": "ResidualSwap.lean",
+              "dir": false
+            },
+            {
+              "name": "ResidualSwapCoordFactorSum.lean",
+              "dir": false
+            },
+            {
+              "name": "ResidualSwapPointwise.lean",
+              "dir": false
+            },
+            {
+              "name": "ResidualSwapSumMoment.lean",
+              "dir": false
+            },
+            {
+              "name": "ResolventCone.lean",
+              "dir": false
+            },
+            {
+              "name": "ResolventEfronSteinBound.lean",
+              "dir": false
+            }
+          ]
+        },
         {
           "name": "Vocabulary",
           "dir": true,
@@ -873,6 +1195,10 @@ export const libraryTree: TreeNode =
           "dir": false
         },
         {
+          "name": "SampleCovariance.lean",
+          "dir": false
+        },
+        {
           "name": "SpectralMoment.lean",
           "dir": false
         },
@@ -899,7 +1225,19 @@ export const libraryTree: TreeNode =
           "dir": true,
           "children": [
             {
+              "name": "CompactSelfAdjoint.lean",
+              "dir": false
+            },
+            {
+              "name": "ENNRealBridge.lean",
+              "dir": false
+            },
+            {
               "name": "exp_neg_sq_div_le_exp_neg_sq_div_of_den_le.lean",
+              "dir": false
+            },
+            {
+              "name": "ExponentialBounds.lean",
               "dir": false
             },
             {
@@ -907,7 +1245,19 @@ export const libraryTree: TreeNode =
               "dir": false
             },
             {
+              "name": "SpectralEntropy.lean",
+              "dir": false
+            },
+            {
               "name": "sub_le_abs_sub_of_gap_near.lean",
+              "dir": false
+            },
+            {
+              "name": "TailIntegral.lean",
+              "dir": false
+            },
+            {
+              "name": "TaylorExpansions.lean",
               "dir": false
             }
           ]
@@ -962,6 +1312,10 @@ export const libraryTree: TreeNode =
                 },
                 {
                   "name": "bernstein_sum_meas_ge_le_exp.lean",
+                  "dir": false
+                },
+                {
+                  "name": "FiniteMaxBernsteinExpectation.lean",
                   "dir": false
                 },
                 {
@@ -1052,6 +1406,10 @@ export const libraryTree: TreeNode =
                 },
                 {
                   "name": "lyapunov_moment_ineq.lean",
+                  "dir": false
+                },
+                {
+                  "name": "Markov.lean",
                   "dir": false
                 },
                 {
@@ -1185,6 +1543,10 @@ export const libraryTree: TreeNode =
                   "dir": false
                 },
                 {
+                  "name": "CdfQuantile.lean",
+                  "dir": false
+                },
+                {
                   "name": "CharacteristicFunction.lean",
                   "dir": false
                 },
@@ -1197,6 +1559,14 @@ export const libraryTree: TreeNode =
                   "dir": false
                 },
                 {
+                  "name": "GaussianMaxAnticoncentration.lean",
+                  "dir": false
+                },
+                {
+                  "name": "GaussianStein.lean",
+                  "dir": false
+                },
+                {
                   "name": "IntegralConvergence.lean",
                   "dir": false
                 },
@@ -1206,6 +1576,10 @@ export const libraryTree: TreeNode =
                 },
                 {
                   "name": "MappingTheorems.lean",
+                  "dir": false
+                },
+                {
+                  "name": "Nazarov.lean",
                   "dir": false
                 },
                 {
@@ -1252,6 +1626,10 @@ export const libraryTree: TreeNode =
                 },
                 {
                   "name": "Lyapunov.lean",
+                  "dir": false
+                },
+                {
+                  "name": "MartingaleTriangularArray.lean",
                   "dir": false
                 },
                 {
@@ -1347,6 +1725,10 @@ export const libraryTree: TreeNode =
               "dir": false
             },
             {
+              "name": "RademacherSecondMoment.lean",
+              "dir": false
+            },
+            {
               "name": "RademacherSignMGF.lean",
               "dir": false
             },
@@ -1407,6 +1789,10 @@ export const libraryTree: TreeNode =
                   "dir": false
                 },
                 {
+                  "name": "Slepian.lean",
+                  "dir": false
+                },
+                {
                   "name": "Standard.lean",
                   "dir": false
                 },
@@ -1463,15 +1849,15 @@ export const libraryTree: TreeNode =
                   "dir": false
                 },
                 {
+                  "name": "subexp_mgf_finite.lean",
+                  "dir": false
+                },
+                {
                   "name": "subexp_mgf_finite_of_exp_tail.lean",
                   "dir": false
                 },
                 {
                   "name": "subexp_mgf_finite_of_moment_le.lean",
-                  "dir": false
-                },
-                {
-                  "name": "subexp_mgf_finite.lean",
                   "dir": false
                 },
                 {
@@ -1525,19 +1911,19 @@ export const libraryTree: TreeNode =
                   "dir": false
                 },
                 {
-                  "name": "subgaussian_even_moment_le_of_tail.lean",
-                  "dir": false
-                },
-                {
                   "name": "subgaussian_even_moment_le.lean",
                   "dir": false
                 },
                 {
-                  "name": "subgaussian_exp_sq_le_at_one_third.lean",
+                  "name": "subgaussian_even_moment_le_of_tail.lean",
                   "dir": false
                 },
                 {
                   "name": "subgaussian_exp_sq_le.lean",
+                  "dir": false
+                },
+                {
+                  "name": "subgaussian_exp_sq_le_at_one_third.lean",
                   "dir": false
                 },
                 {
@@ -1604,6 +1990,32 @@ export const libraryTree: TreeNode =
           "name": "Statistics",
           "dir": true,
           "children": [
+            {
+              "name": "Asymptotic",
+              "dir": true,
+              "children": [
+                {
+                  "name": "Contiguity.lean",
+                  "dir": false
+                },
+                {
+                  "name": "LAN.lean",
+                  "dir": false
+                },
+                {
+                  "name": "Power.lean",
+                  "dir": false
+                },
+                {
+                  "name": "ScoreCLT.lean",
+                  "dir": false
+                },
+                {
+                  "name": "Vocabulary.lean",
+                  "dir": false
+                }
+              ]
+            },
             {
               "name": "Estimation",
               "dir": true,
@@ -1677,6 +2089,10 @@ export const libraryTree: TreeNode =
                   "dir": false
                 }
               ]
+            },
+            {
+              "name": "Asymptotic.lean",
+              "dir": false
             },
             {
               "name": "Conformal.lean",

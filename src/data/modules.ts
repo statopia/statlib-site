@@ -53,13 +53,15 @@ export const modules: LibraryModule[] = [
       "Statistics in the high-dimensional regime: matrix concentration " +
       "(Hanson–Wright, matrix Bernstein), Wedin sin-theta perturbation, covariance estimation, " +
       "L1 quadratic-process analysis, L1 RSE bounds from covariance, " +
-      "high-dimensional geometry, regression, and debiased LASSO inference.",
+      "high-dimensional geometry, low-rank matrix recovery and completion tools, " +
+      "regression, and debiased LASSO inference.",
     roadmap:
       "Strengthen the operator-convexity, matrix-concentration, covariance, RIP, " +
       "spectral-perturbation, debiasing, and regression theorem chains; " +
       "extend L1-process results to broader design matrix families.",
     topicIds: [
       "matrix-analysis",
+      "low-rank-matrices",
       "hd-concentration",
       "covariance",
       "hd-geometry",
@@ -74,8 +76,7 @@ export const modules: LibraryModule[] = [
     summary:
       "Approximation and risk vocabulary for nonparametric statistics: finite " +
       "sieves, Holder classes, high-order tensor-product B-spline and wavelet " +
-      "approximation, RKHS and neural-network rates, conformal quantile regression, " +
-      "and oracle interfaces.",
+      "approximation, RKHS and neural-network rates, and oracle interfaces.",
     roadmap:
       "Fill in the remaining nonparametric approximation chains while keeping " +
       "the sieve and risk interfaces reusable across estimators; " +
