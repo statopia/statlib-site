@@ -63,9 +63,20 @@ const grouped = modules.map((m) => ({
                     <h4 class="font-serif text-lg font-semibold text-ink">{th.name}</h4>
                     <span class="ml-auto"><StatusBadge status={th.status} /></span>
                   </div>
-                  <div class="mt-3 min-w-0 overflow-x-auto text-sm text-ink sm:text-base">
-                    <Math expr={th.latex!} display />
-                  </div>
+                  {th.mobileLatex ? (
+                    <>
+                      <div class="mt-3 min-w-0 overflow-x-auto text-sm text-ink sm:hidden">
+                        <Math expr={th.mobileLatex} display />
+                      </div>
+                      <div class="mt-3 hidden min-w-0 overflow-x-auto text-ink sm:block">
+                        <Math expr={th.latex!} display />
+                      </div>
+                    </>
+                  ) : (
+                    <div class="mt-3 min-w-0 overflow-x-auto text-sm text-ink sm:text-base">
+                      <Math expr={th.latex!} display />
+                    </div>
+                  )}
                   <p class="mt-3 text-sm leading-relaxed text-ink-soft">{th.blurb}</p>
                   <code class="mt-2 block break-all font-mono text-xs text-faint">{th.lean}</code>
                 </li>

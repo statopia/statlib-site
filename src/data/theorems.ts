@@ -17,6 +17,7 @@ export interface TheoremEntry {
   name: string;
   lean?: string;
   latex?: string;
+  mobileLatex?: string;
   blurb: string;
   status: TheoremStatus;
 }
@@ -296,7 +297,8 @@ export const topics: TopicArea[] = [
       {
         name: "Lehmann-Scheffé theorem",
         lean: "lehmannScheffe_umvue",
-        latex: "\\begin{aligned}\\exists h,\\quad &\\mathbb{E}_\\theta[(h\\circ T-g(\\theta))^2]\\\\ &\\le \\mathbb{E}_\\theta[(\\delta'-g(\\theta))^2]\\quad(\\forall\\delta'\\text{ unbiased})\\end{aligned}",
+        latex: "\\exists h,\\; \\mathbb{E}_\\theta[(h\\circ T-g(\\theta))^2] \\le \\mathbb{E}_\\theta[(\\delta'-g(\\theta))^2]\\quad(\\forall\\delta'\\text{ unbiased})",
+        mobileLatex: "\\begin{aligned}\\exists h,\\quad &\\mathbb{E}_\\theta[(h\\circ T-g(\\theta))^2]\\\\ &\\le \\mathbb{E}_\\theta[(\\delta'-g(\\theta))^2]\\\\ &(\\forall\\delta'\\text{ unbiased})\\end{aligned}",
         blurb: "If T is complete and sufficient and δ is unbiased for g(θ), a function of T is unbiased and has no greater mean squared error than any other unbiased estimator.",
         status: "proved",
       },
@@ -744,7 +746,8 @@ export const topics: TopicArea[] = [
       {
         name: "High-order multivariate B-spline Holder rate",
         lean: "unit_cube_bspline_high_order_holder_smooth_uniform_sieve_approximation_rate",
-        latex: "\\begin{gathered}f_0\\in\\mathcal{H}^{r+\\beta}([0,1]^d)\\implies\\\\\\mathcal{E}_{m_K}(f_0)\\le M\\,m_K^{-2(r+\\beta)/d}\\end{gathered}",
+        latex: "f_0\\in\\mathcal{H}^{r+\\beta}([0,1]^d)\\implies\\mathcal{E}_{m_K}(f_0)\\le M\\,m_K^{-2(r+\\beta)/d}",
+        mobileLatex: "\\begin{gathered}f_0\\in\\mathcal{H}^{r+\\beta}([0,1]^d)\\implies\\\\\\mathcal{E}_{m_K}(f_0)\\le M\\,m_K^{-2(r+\\beta)/d}\\end{gathered}",
         blurb: "A positive-degree tensor-product B-spline system on the high-dimensional unit cube achieves the uniform squared-error sieve rate m^(-2(r+beta)/d) over the trace Holder-smooth ball.",
         status: "proved",
       },
