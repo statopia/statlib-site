@@ -25,10 +25,6 @@ export interface TopicArea {
   id: string;
   title: string;
   summary: string;
-  declarationCounts?: {
-    theorems: number;
-    lemmas: number;
-  };
   theorems: TheoremEntry[];
 }
 
@@ -37,7 +33,6 @@ export const topics: TopicArea[] = [
     id: "concentration",
     title: "Concentration inequalities",
     summary: "Tail and moment bounds controlling how sums and functions of independent (or martingale) random variables deviate from their means.",
-    declarationCounts: { theorems: 37, lemmas: 2 },
     theorems: [
       {
         name: "Hoeffding's inequality (sub-Gaussian sum)",
@@ -94,7 +89,6 @@ export const topics: TopicArea[] = [
     id: "convergence",
     title: "Convergence & limit theorems",
     summary: "Formalizes the central limit theorems (IID, Lindeberg-Feller, multivariate), the Lévy continuity and Cramér-Wold tools behind weak convergence, and uniform laws of large numbers including Glivenko-Cantelli.",
-    declarationCounts: { theorems: 32, lemmas: 51 },
     theorems: [
       {
         name: "Central Limit Theorem (IID)",
@@ -158,7 +152,6 @@ export const topics: TopicArea[] = [
     id: "empirical-processes",
     title: "Empirical processes",
     summary: "Rademacher complexity, contraction and symmetrization tools, Dudley entropy, bounded-difference controls, and quantitative Glivenko-Cantelli statements for uniform deviation arguments.",
-    declarationCounts: { theorems: 9, lemmas: 6 },
     theorems: [
       {
         name: "Rademacher contraction inequality",
@@ -215,7 +208,6 @@ export const topics: TopicArea[] = [
     id: "random-variables",
     title: "Tail behavior of random variables",
     summary: "Concentration and tail-bound theory for sub-Gaussian and sub-exponential random variables, plus Gaussian functional inequalities culminating in dimension-free Lipschitz concentration.",
-    declarationCounts: { theorems: 94, lemmas: 70 },
     theorems: [
       {
         name: "Sub-Gaussian one-sided tail bound",
@@ -300,7 +292,6 @@ export const topics: TopicArea[] = [
     id: "statistics",
     title: "Statistical inference & sufficiency",
     summary: "A measure-theoretic foundation for sufficient, ancillary, and complete statistics, culminating in the Lehmann-Scheffé and Basu theorems of classical estimation theory.",
-    declarationCounts: { theorems: 5, lemmas: 5 },
     theorems: [
       {
         name: "Lehmann-Scheffé theorem",
@@ -350,7 +341,6 @@ export const topics: TopicArea[] = [
     id: "matrix-analysis",
     title: "Matrix analysis",
     summary: "Operator-convexity, trace exponential, Lieb concavity, variational, quantum-relative-entropy, and Wedin sin-theta infrastructure supporting matrix concentration and spectral perturbation.",
-    declarationCounts: { theorems: 70, lemmas: 101 },
     theorems: [
       {
         name: "Operator convexity of A log A",
@@ -407,7 +397,6 @@ export const topics: TopicArea[] = [
     id: "low-rank-matrices",
     title: "Low-rank matrix recovery and completion tools",
     summary: "Nuclear-norm recovery under restricted isometry, compact-factor subgradients, and reusable tangent-space tools for matrix completion. The completion proof chain is still being developed.",
-    declarationCounts: { theorems: 24, lemmas: 9 },
     theorems: [
       {
         name: "Stable nuclear-norm matrix recovery under RIP",
@@ -429,7 +418,6 @@ export const topics: TopicArea[] = [
     id: "hd-concentration",
     title: "High-dimensional concentration",
     summary: "Concentration inequalities for high-dimensional random objects — sub-Gaussian maxima, the matrix Bernstein inequality for sums of independent random matrices, and the Hanson-Wright bound for quadratic forms.",
-    declarationCounts: { theorems: 38, lemmas: 110 },
     theorems: [
       {
         name: "Matrix Bernstein inequality",
@@ -535,7 +523,6 @@ export const topics: TopicArea[] = [
     id: "hd-geometry",
     title: "High-dimensional geometry",
     summary: "Geometric foundations of high-dimensional statistics: covering numbers, Johnson-Lindenstrauss dimension reduction, isotropic and anisotropic RIP, and restricted eigenvalue transfers.",
-    declarationCounts: { theorems: 11, lemmas: 53 },
     theorems: [
       {
         name: "Covering number bounds for the Euclidean unit ball",
@@ -711,7 +698,6 @@ export const topics: TopicArea[] = [
     id: "nonparametric-approximation",
     title: "Nonparametric approximation",
     summary: "Approximation-error bounds for finite sieves, Holder balls, splines, wavelets, RKHS balls, and neural-network candidate classes.",
-    declarationCounts: { theorems: 276, lemmas: 2 },
     theorems: [
       {
         name: "Sieve zero-order self-approximation",
@@ -789,7 +775,6 @@ export const topics: TopicArea[] = [
     id: "nonparametric-vocabulary",
     title: "Nonparametric vocabulary",
     summary: "Reusable definitions and measurability/continuity facts for risks, sieves, splines, wavelets, kernels, RKHS balls, neural networks, estimators, and losses.",
-    declarationCounts: { theorems: 4, lemmas: 0 },
     theorems: [
       {
         name: "Tensor-product spline sieve measurability",
@@ -825,7 +810,6 @@ export const topics: TopicArea[] = [
     id: "nonparametric-oracle",
     title: "Oracle interfaces",
     summary: "Risk and oracle-comparison interfaces for estimator classes, prediction losses, and candidate families.",
-    declarationCounts: { theorems: 1, lemmas: 0 },
     theorems: [
       {
         name: "Oracle risk is bounded by any member",
@@ -840,7 +824,6 @@ export const topics: TopicArea[] = [
     id: "stochastic-order",
     title: "Stochastic-order asymptotics",
     summary: "Big-O and little-o in probability, rate bounds, Slutsky-type product theorems, and convergence bridges connecting stochastic orders to classical limit theorems.",
-    declarationCounts: { theorems: 82, lemmas: 4 },
     theorems: [
       {
         name: "Slutsky product theorem (big-O × little-o)",
@@ -862,7 +845,6 @@ export const topics: TopicArea[] = [
     id: "uniform-integrability",
     title: "Uniform integrability",
     summary: "Uniformly integrable families, Vitali convergence, integral-convergence bridges, and conditions ensuring L¹ convergence from convergence in probability.",
-    declarationCounts: { theorems: 25, lemmas: 0 },
     theorems: [
       {
         name: "Vitali convergence theorem",
@@ -884,7 +866,6 @@ export const topics: TopicArea[] = [
     id: "conformal",
     title: "Conformal prediction",
     summary: "Reusable score-coverage and event-inclusion interfaces for conformal prediction, plus measurable finite-score ranking vocabulary.",
-    declarationCounts: { theorems: 13, lemmas: 0 },
     theorems: [
       {
         name: "Prediction coverage from score coverage",

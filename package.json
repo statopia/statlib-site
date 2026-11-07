@@ -6,6 +6,8 @@
   "scripts": {
     "dev": "astro dev",
     "build": "astro build",
+    "stats:refresh": "node scripts/update-stats.mjs",
+    "stats:check": "node scripts/update-stats.mjs --check",
     "preview": "astro preview",
     "astro": "astro"
   },

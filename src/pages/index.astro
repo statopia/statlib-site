@@ -26,10 +26,8 @@ const highlights = flagship
   .map((l) => byLean.get(l))
   .filter((th) => th !== undefined && th.latex);
 
-function formatDeclarationCounts(topic: (typeof topics)[number]) {
-  const counts = topic.declarationCounts;
-  if (!counts) return `${topic.theorems.length} entries`;
-  return `${counts.theorems} thm · ${counts.lemmas} lem`;
+function formatSelectedResultCount(topic: (typeof topics)[number]) {
+  return `${topic.theorems.length} selected results`;
 }
 ---
 
@@ -108,7 +106,7 @@ function formatDeclarationCounts(topic: (typeof topics)[number]) {
                         {t!.title}
                       </h4>
                       <span class="shrink-0 font-mono text-xs text-faint">
-                        {formatDeclarationCounts(t!)}
+                        {formatSelectedResultCount(t!)}
                       </span>
                     </div>
                     <p class="mt-1 text-sm leading-relaxed text-ink-soft">{t!.summary}</p>

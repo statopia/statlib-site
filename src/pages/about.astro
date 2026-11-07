@@ -79,8 +79,9 @@ const priorities = [
     <p class="mt-3 leading-relaxed text-ink-soft">
       <code class="rounded bg-accent-soft px-1.5 py-0.5 font-mono text-sm text-accent">lake build Statlib</code>
       builds the main imported library. The source tree contains {statValue("Lean files")} Lean
-      files and {statValue("Lines of Lean")} lines, including {statValue("Theorems proved")}
-      theorem declarations and {statValue("Supporting lemmas")} supporting lemmas.
+      files and {statValue("Lines of Lean")} lines, including {statValue("Public theorems")}
+      public theorem declarations and {statValue("Supporting lemmas")} supporting lemmas.
+      The supporting count includes public lemmas, private lemmas, and private theorems.
       The core tree has <span class="font-medium text-ink">zero <code class="font-mono text-sm">sorry</code></span> placeholders.
       New foundation layers include <span class="font-medium text-ink">stochastic-order
       asymptotics</span> (big-O/little-o in probability, Slutsky),

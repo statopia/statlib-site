@@ -1,3 +1,5 @@
+import statlibStats from "./statlib-stats.json";
+
 // ---------------------------------------------------------------------------
 // Central place for site-wide constants. Edit these instead of hunting through
 // the templates.
@@ -7,7 +9,7 @@ export const site = {
   name: "statlib",
   org: "statopia",
   // One-line positioning shown in the hero + meta description.
-  tagline: "A Lean 4 library for reusable, formalized statistics — 1,853 theorems, checked end to end.",
+  tagline: `A Lean 4 library for reusable, formalized statistics — ${statlibStats.publicTheorems.toLocaleString("en-US")} public theorems, checked end to end.`,
   description:
     "statlib builds the foundational layer that statistical and machine-learning " +
     "formalization needs: stochastic-order asymptotics, uniform integrability, " +
@@ -16,20 +18,13 @@ export const site = {
     "conformal prediction, and nonparametric approximation on top of Mathlib.",
 };
 
-// Headline numbers from statlib `main`, excluding underscore-prefixed scratch
-// directories. Recompute from the statlib checkout with Python 3:
-//   from pathlib import Path
-//   import re
-//   files = [p for p in Path("Statlib").rglob("*.lean")
-//            if not any(part.startswith("_") for part in p.parts)]
-//   lines = [line for p in files for line in p.read_text().splitlines()]
-//   count = lambda kind: sum(bool(re.match(rf"\s*{kind}(?:\s|$)", line)) for line in lines)
-//   print(len(files), len(lines), count("theorem"), count("lemma"))
-// `splitlines()` includes a final line without a newline; the declaration
-// pattern includes headers where `theorem` or `lemma` occupies the whole line.
+// Generated snapshot of statlib main. Run `npm run stats:refresh` from a local
+// checkout after the Statlib source commit, then commit the updated JSON.
+// Supporting lemmas = public lemma + private lemma + private theorem declarations.
+const formatCount = (value: number) => value.toLocaleString("en-US");
 export const stats: { label: string; value: string }[] = [
-  { label: "Lean files", value: "481" },
-  { label: "Lines of Lean", value: "523,273" },
-  { label: "Theorems proved", value: "1,853" },
-  { label: "Supporting lemmas", value: "1,035" },
+  { label: "Lean files", value: formatCount(statlibStats.leanFiles) },
+  { label: "Lines of Lean", value: formatCount(statlibStats.leanLines) },
+  { label: "Public theorems", value: formatCount(statlibStats.publicTheorems) },
+  { label: "Supporting lemmas", value: formatCount(statlibStats.supportingLemmas) },
 ];

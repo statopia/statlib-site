@@ -18,7 +18,7 @@ npm run preview  # serve the built site locally
 
 | What | File |
 |------|------|
-| Site name, tagline, links, hero stats | `src/data/site.ts` |
+| Site name, tagline, links, hero stats | `src/data/site.ts` and `src/data/statlib-stats.json` |
 | Library catalog (the /library content) | `src/data/theorems.ts` |
 | Knowledge-graph page config (the /graph content) | `src/data/graph.ts` |
 | Knowledge-graph artifact (98 SVGs + narratives) | `public/narratives/` |
@@ -33,6 +33,14 @@ Adding a page = adding a file under `src/pages/`. Docs/blog can be added later a
 ## Editing content
 
 - **Text & links:** edit `src/data/site.ts`.
+- **Library counts:** after committing Statlib source, run `npm run stats:refresh`
+  with a sibling `../statlib` checkout (or pass its path after `--`). Commit the
+  generated `src/data/statlib-stats.json`. `npm run stats:check` detects a stale
+  snapshot. Public theorem declarations are counted separately; supporting
+  lemmas include public `lemma`, private `lemma`, and private `theorem`
+  declarations. The counter ignores comments and recognizes same-line Lean
+  attributes. Proposition-valued `def` declarations define predicates and are
+  not counted as proof lemmas.
 - **Library entries:** edit `src/data/theorems.ts`. Each entry has a `status`
   (`proved` / `wip` / `planned`) that drives its badge. Long term, generate this
   file from the statlib Lean sources so it stays in sync.
