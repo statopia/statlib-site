@@ -54,7 +54,8 @@ export const modules: LibraryModule[] = [
       "(Hanson–Wright, matrix Bernstein), Wedin sin-theta perturbation, covariance estimation, " +
       "L1 quadratic-process analysis, L1 RSE bounds from covariance, " +
       "high-dimensional geometry, low-rank matrix recovery and completion tools, " +
-      "regression, and debiased LASSO inference.",
+      "random-design regression, and debiased LASSO inference. Related " +
+      "sample-covariance and Wigner limits are drawn from Statlib.RandomMatrix.",
     roadmap:
       "Strengthen the operator-convexity, matrix-concentration, covariance, RIP, " +
       "spectral-perturbation, debiasing, and regression theorem chains; " +

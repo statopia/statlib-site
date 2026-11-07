@@ -477,9 +477,8 @@ export const topics: TopicArea[] = [
   },
   {
     id: "covariance",
-    title: "Covariance estimation",
-    summary: "Concentration and unbiasedness guarantees for the sample second-moment (covariance) matrix estimator of high-dimensional sub-Gaussian random vectors.",
-    declarationCounts: { theorems: 7, lemmas: 24 },
+    title: "Covariance matrices",
+    summary: "Finite-sample covariance estimates and asymptotic sample-covariance spectra, including the Marchenko–Pastur law and Bai–Yin edges from Statlib.RandomMatrix.",
     theorems: [
       {
         name: "Sample covariance matrix concentration",
@@ -514,6 +513,20 @@ export const topics: TopicArea[] = [
         lean: "isotropic_norm_concentration",
         latex: "\\mathbb{P}\\big(\\big|\\|X\\|^2 - n\\big| \\ge t\\big) \\le 2\\exp\\!\\big(-c\\min(t^2/(\\sigma^4 n),\\, t/\\sigma^2)\\big)",
         blurb: "An isotropic sub-Gaussian vector has squared norm tightly concentrated about its dimension n, with Bernstein-type sub-exponential tails.",
+        status: "proved",
+      },
+      {
+        name: "Marchenko–Pastur law for sample covariance",
+        lean: "marchenko_pastur_convergence",
+        latex: "\\mu_{X_n^\\top X_n/n} \\Rightarrow \\mu_{\\mathrm{MP},\\gamma}\\quad\\text{a.s.}",
+        blurb: "For IID sample-covariance ensembles with aspect ratio tending to a positive limit and a uniform fourth-moment bound, the empirical spectral measures converge weakly almost surely to the Marchenko–Pastur law.",
+        status: "proved",
+      },
+      {
+        name: "Bai–Yin sample-covariance spectral edges",
+        lean: "SampleCovariance.ae_tendsto_norm_and_lowerEdgeEigenvalue",
+        latex: "\\|X_n^\\top X_n/n\\|\\to(1+\\sqrt\\gamma)^2,\\quad\\lambda_{\\mathrm{nonforced}}\\to(1-\\sqrt\\gamma)^2\\quad\\text{a.s.}",
+        blurb: "For centered, unit-variance IID entries with finite fourth moment, the covariance operator norm and first nonforced eigenvalue converge almost surely to the upper and lower spectral edges.",
         status: "proved",
       },
     ],
@@ -571,8 +584,7 @@ export const topics: TopicArea[] = [
   {
     id: "hd-regression",
     title: "High-dimensional regression",
-    summary: "Oracle inequalities and debiased-inference guarantees for sparse high-dimensional linear models, from restricted-eigenvalue LASSO bounds to asymptotic Wald coverage.",
-    declarationCounts: { theorems: 59, lemmas: 9 },
+    summary: "Restricted-eigenvalue and LASSO bounds for fixed and sub-Gaussian random designs, plus conditional debiased-inference and Wald-coverage transfers.",
     theorems: [
       {
         name: "LASSO solution (minimizer of the LASSO objective)",
@@ -617,19 +629,39 @@ export const topics: TopicArea[] = [
         status: "proved",
       },
       {
+        name: "Sub-Gaussian random-design L1-RSE",
+        lean: "subgaussian_design_l1RSE",
+        latex: "\\Pr\\!\\left(\\operatorname{L1RSE}(X,\\kappa/2,C\\sigma^4\\log(p)/(\\kappa m))\\right)\\ge 1-2e^{-c m\\kappa^2/\\sigma^4}",
+        blurb: "Independent centered sub-Gaussian design rows with covariance bounded below by κI satisfy an L1 restricted-strong-eigenvalue condition with an explicit tolerance and exponential failure bound.",
+        status: "proved",
+      },
+      {
+        name: "Random-design LASSO oracle inequality",
+        lean: "subgaussian_random_design_lasso_oracle",
+        latex: "\\frac{\\|X(\\hat\\beta-\\beta^\\star)\\|_2^2}{m}\\le\\frac{64s\\lambda^2}{\\kappa}",
+        blurb: "With independent sub-Gaussian design/noise pairs, a covariance lower bound, sparsity and tuning conditions, every LASSO minimizer satisfies high-probability prediction, L1 and squared L2 error bounds; the theorem does not assert existence of a minimizer.",
+        status: "proved",
+      },
+      {
         name: "Debiased LASSO standard Wald interval coverage",
         lean: "tendsto_measure_debiasedLasso_standardWaldCI_coverage_iidScoreSum_real",
         latex: "\\mathbb{P}\\!\\left(\\beta_j\\in \\hat b_j \\pm c\\,\\hat s_j/a_n\\right)\\to 1-\\alpha",
         blurb: "An iid-score debiased LASSO theorem: row-approximation error, L1 consistency, studentization, and Gaussian critical-value calibration imply asymptotic standard Wald confidence-interval coverage.",
         status: "proved",
       },
+      {
+        name: "Growing-dimension debiased LASSO Wald transfer",
+        lean: "debiasedLasso_growing_dimension_studentized_wald_transfer",
+        latex: "\\Pr\\!\\left(\\beta_{j_n}\\in\\mathrm{CI}_n\\right)\\to 1-\\alpha",
+        blurb: "A conditional transfer theorem for changing dimensions and sample-dependent approximate inverses: given score CLT, row-error and L1-rate control, and consistent standard errors, studentized convergence yields Wald coverage. It does not construct those inputs.",
+        status: "proved",
+      },
     ],
   },
   {
     id: "spectral",
-    title: "Spectral perturbation",
-    summary: "Quantitative bounds on how a matrix's eigenvalues and eigenvectors move under perturbation, applied to high-dimensional PCA via sample-covariance concentration.",
-    declarationCounts: { theorems: 4, lemmas: 48 },
+    title: "Spectral analysis",
+    summary: "Eigenvalue and eigenspace perturbation bounds, together with Wigner semicircle and operator-norm limits from Statlib.RandomMatrix.",
     theorems: [
       {
         name: "Weyl's inequality (per-index form)",
@@ -657,6 +689,20 @@ export const topics: TopicArea[] = [
         lean: "pca_eigvec_perturbation",
         latex: "\\lVert \\hat u_k - u_k\\rVert_2 \\le \\tfrac{2C\\sigma^2}{\\Delta}\\sqrt{\\tfrac{n+\\log(2/\\delta)}{m}}",
         blurb: "With high probability the empirical eigenvector from m sub-Gaussian samples converges to the population eigenvector at a rate set by dimension, sample size, and eigengap.",
+        status: "proved",
+      },
+      {
+        name: "Wigner semicircle law",
+        lean: "wigner_semicircle_convergence",
+        latex: "\\mu_{W_n/\\sqrt n}\\Rightarrow\\mu_{\\mathrm{sc}}\\quad\\text{a.s.}",
+        blurb: "For symmetric Wigner ensembles with independent upper-triangular entries and uniform moment bounds of every order, the empirical spectral measures converge weakly almost surely to the semicircle law.",
+        status: "proved",
+      },
+      {
+        name: "Bounded Wigner operator-norm limit",
+        lean: "Wigner.norm_tail_le_and_ae_tendsto_norm",
+        latex: "\\|W_n/\\sqrt n\\|\\to 2\\quad\\text{a.s.}",
+        blurb: "For Wigner ensembles whose entries share a uniform almost-sure bound, the normalized operator norm converges almost surely to 2, with an eventual upper-tail bound at most any fixed inverse power of n.",
         status: "proved",
       },
     ],

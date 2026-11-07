@@ -49,6 +49,8 @@ const selectedLeanByTopic: Record<string, string[]> = {
   covariance: [
     "sampleCovariance_concentration",
     "isotropic_norm_concentration",
+    "marchenko_pastur_convergence",
+    "SampleCovariance.ae_tendsto_norm_and_lowerEdgeEigenvalue",
   ],
   "hd-geometry": [
     "subgaussian_rip_tail_anisotropic",
@@ -56,8 +58,14 @@ const selectedLeanByTopic: Record<string, string[]> = {
   ],
   "hd-regression": [
     "fixed_design_lasso_oracle_of_l1RSE",
-    "tendsto_measure_debiasedLasso_standardWaldCI_coverage_iidScoreSum_real",
-    "lasso_oracle_prediction",
+    "subgaussian_design_l1RSE",
+    "subgaussian_random_design_lasso_oracle",
+    "debiasedLasso_growing_dimension_studentized_wald_transfer",
+  ],
+  spectral: [
+    "weyl_sorted",
+    "wigner_semicircle_convergence",
+    "Wigner.norm_tail_le_and_ae_tendsto_norm",
   ],
   "nonparametric-approximation": [
     "holderSmoothBall_unitCube_LW2_rate_from_fixed_width_M_rate",

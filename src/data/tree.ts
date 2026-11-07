@@ -131,6 +131,10 @@ export const libraryTree: TreeNode =
                 {
                   "name": "RadiusFluctuation.lean",
                   "dir": false
+                },
+                {
+                  "name": "UniformQuadraticDeviation.lean",
+                  "dir": false
                 }
               ]
             },
@@ -441,6 +445,16 @@ export const libraryTree: TreeNode =
           "dir": true,
           "children": [
             {
+              "name": "DebiasingLasso",
+              "dir": true,
+              "children": [
+                {
+                  "name": "RandomDesign.lean",
+                  "dir": false
+                }
+              ]
+            },
+            {
               "name": "DebiasingLasso.lean",
               "dir": false
             },
@@ -469,7 +483,19 @@ export const libraryTree: TreeNode =
               "dir": false
             },
             {
+              "name": "RandomDesignLasso.lean",
+              "dir": false
+            },
+            {
+              "name": "RandomDesignScore.lean",
+              "dir": false
+            },
+            {
               "name": "SampleCovarianceDesignBridge.lean",
+              "dir": false
+            },
+            {
+              "name": "SubgaussianDesign.lean",
               "dir": false
             }
           ]
@@ -1095,6 +1121,10 @@ export const libraryTree: TreeNode =
               ]
             },
             {
+              "name": "BaiYin.lean",
+              "dir": false
+            },
+            {
               "name": "ComplexCondExpNormSqDecomp.lean",
               "dir": false
             },
@@ -1132,6 +1162,14 @@ export const libraryTree: TreeNode =
             },
             {
               "name": "LOOCoordinateSwapSquared.lean",
+              "dir": false
+            },
+            {
+              "name": "MarchenkoPastur.lean",
+              "dir": false
+            },
+            {
+              "name": "MarchenkoPasturConvergence.lean",
               "dir": false
             },
             {
@@ -1183,6 +1221,16 @@ export const libraryTree: TreeNode =
           ]
         },
         {
+          "name": "Wigner",
+          "dir": true,
+          "children": [
+            {
+              "name": "FurediKomlos.lean",
+              "dir": false
+            }
+          ]
+        },
+        {
           "name": "Basic.lean",
           "dir": false
         },
@@ -1199,6 +1247,10 @@ export const libraryTree: TreeNode =
           "dir": false
         },
         {
+          "name": "SemicircleMoments.lean",
+          "dir": false
+        },
+        {
           "name": "SpectralMoment.lean",
           "dir": false
         },
@@ -1212,6 +1264,10 @@ export const libraryTree: TreeNode =
         },
         {
           "name": "Vocabulary.lean",
+          "dir": false
+        },
+        {
+          "name": "Wigner.lean",
           "dir": false
         }
       ]

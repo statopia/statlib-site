@@ -16,6 +16,8 @@ const flagship = [
   "matrix_bernstein_rect",
   "gaussian_lipschitz_concentration",
   "gaussianMax_cube_root_comparison_diagonal",
+  "marchenko_pastur_convergence",
+  "subgaussian_random_design_lasso_oracle",
 ];
 const byLean = new Map(
   topics.flatMap((t) => t.theorems.map((th) => [th.lean, { ...th, topic: t.title }])),
