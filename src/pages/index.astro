@@ -4,7 +4,7 @@ import Math from "../components/Math.astro";
 import { site, stats } from "../data/site";
 import { topics } from "../data/theorems";
 import { modules } from "../data/modules";
-import { homeResults } from "../data/selection";
+import { homeResults, libraryResultsByTopic } from "../data/selection";
 
 ---
 
@@ -75,7 +75,7 @@ import { homeResults } from "../data/selection";
               <div class="mt-5 grid gap-px overflow-hidden rounded-lg border border-line bg-line sm:grid-cols-2">
                 {mTopics.map((t) => (
                   <a
-                    href={`/library#${t!.id}`}
+                    href={libraryResultsByTopic.has(t!.id) ? `/library#${t!.id}` : "/library#structure"}
                     class="group bg-surface p-4 transition hover:bg-accent-soft/40"
                   >
                     <div class="flex items-baseline justify-between gap-2">
@@ -83,7 +83,7 @@ import { homeResults } from "../data/selection";
                         {t!.title}
                       </h4>
                       <span class="shrink-0 font-mono text-xs text-faint">
-                        Explore →
+                        {libraryResultsByTopic.has(t!.id) ? "Explore →" : "Browse tree →"}
                       </span>
                     </div>
                     <p class="mt-1 text-sm leading-relaxed text-ink-soft">{t!.summary}</p>

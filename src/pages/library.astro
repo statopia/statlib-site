@@ -3,7 +3,6 @@ import Layout from "../layouts/Layout.astro";
 import StatusBadge from "../components/StatusBadge.astro";
 import Math from "../components/Math.astro";
 import TreeNode from "../components/TreeNode.astro";
-import { topics } from "../data/theorems";
 import { modules } from "../data/modules";
 import { libraryTree } from "../data/tree";
 import { site, stats } from "../data/site";
@@ -14,9 +13,9 @@ const statValue = (label: string) => stats.find((s) => s.label === label)?.value
 const grouped = modules.map((m) => ({
   module: m,
   topics: m.topicIds
-    .map((id) => topics.find((t) => t.id === id))
-    .filter((t): t is (typeof topics)[number] => t !== undefined),
-}));
+    .map((id) => ({ id, results: libraryResultsByTopic.get(id) ?? [] }))
+    .filter((topic) => topic.results.length > 0),
+})).filter((group) => group.topics.length > 0);
 ---
 
 <Layout title="Library" description={`Structure and selected results of ${site.name}.`}>
@@ -32,7 +31,7 @@ const grouped = modules.map((m) => ({
     </p>
 
     <!-- Structure: complete module/file tree -->
-    <div class="mt-12 flex items-baseline gap-3">
+    <div id="structure" class="mt-12 flex items-baseline gap-3 scroll-mt-40 sm:scroll-mt-24">
       <h2 class="font-serif text-2xl font-semibold tracking-tight text-ink">Structure</h2>
       <span class="text-sm text-faint">— the full <code class="font-mono text-xs">Statlib/</code> tree (click to expand)</span>
     </div>
@@ -49,53 +48,29 @@ const grouped = modules.map((m) => ({
     <div class="mt-8 space-y-14">
       {
         grouped.map(({ module: m, topics: mTopics }, mi) => (
-          <section id={m.id} class="scroll-mt-24">
+          <section id={m.id} class="scroll-mt-40 sm:scroll-mt-24">
             <div class="flex flex-wrap items-baseline gap-x-3 gap-y-1 border-b border-line pb-3">
               <span class="font-mono text-sm text-faint">{mi + 1}</span>
               <h3 class="font-serif text-xl font-semibold text-ink">{m.title}</h3>
               <code class="font-mono text-xs text-accent">{m.lean}</code>
             </div>
 
-            <div class="mt-6 space-y-8">
-              {mTopics.map((t, ti) => {
-                const selected = libraryResultsByTopic.get(t.id) ?? [];
-                return (
-                  <section id={t.id} class="scroll-mt-24">
-                    <div class="flex items-baseline gap-3">
-                      <span class="font-mono text-xs text-faint">{mi + 1}.{ti + 1}</span>
-                      <h4 class="font-serif text-lg font-semibold text-ink">{t.title}</h4>
-                    </div>
-                    {selected.length > 0 ? (
-                      <ul class="mt-3 divide-y divide-line">
-                        {selected.map((th) => (
-                          <li class="py-4">
-                            <div class="flex items-baseline gap-3">
-                              <h5 class="font-medium text-ink">{th.name}</h5>
-                              <span class="ml-auto">
-                                <StatusBadge status={th.status} />
-                              </span>
-                            </div>
-                            {th.latex && (
-                              <div class="mt-2 overflow-x-auto text-ink">
-                                <Math expr={th.latex} display />
-                              </div>
-                            )}
-                            <p class="mt-2 text-sm text-ink-soft">{th.blurb}</p>
-                            {th.lean && (
-                              <code class="mt-1 block font-mono text-xs text-faint">{th.lean}</code>
-                            )}
-                          </li>
-                        ))}
-                      </ul>
-                    ) : (
-                      <p class="mt-3 max-w-3xl text-sm leading-relaxed text-ink-soft">
-                        {t.summary}
-                      </p>
-                    )}
-                  </section>
-                );
-              })}
-            </div>
+            <ul class="mt-4 divide-y divide-line">
+              {mTopics.flatMap((topic) => topic.results.map((th, index) => (
+                <li id={index === 0 ? topic.id : undefined} class="min-w-0 scroll-mt-40 py-6 sm:scroll-mt-24">
+                  <div class="font-mono text-xs uppercase tracking-wide text-accent">{th.topic}</div>
+                  <div class="mt-1 flex flex-wrap items-baseline gap-x-3 gap-y-1">
+                    <h4 class="font-serif text-lg font-semibold text-ink">{th.name}</h4>
+                    <span class="ml-auto"><StatusBadge status={th.status} /></span>
+                  </div>
+                  <div class="mt-3 min-w-0 overflow-x-auto text-sm text-ink sm:text-base">
+                    <Math expr={th.latex!} display />
+                  </div>
+                  <p class="mt-3 text-sm leading-relaxed text-ink-soft">{th.blurb}</p>
+                  <code class="mt-2 block break-all font-mono text-xs text-faint">{th.lean}</code>
+                </li>
+              )))}
+            </ul>
           </section>
         ))
       }

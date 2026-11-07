@@ -170,8 +170,8 @@ export const topics: TopicArea[] = [
       {
         name: "Rademacher generalization bound",
         lean: "rademacher_generalization_bound",
-        latex: "\\sup_{f\\in\\mathcal{F}}(Pf-P_nf)\\le 2\\mathfrak R_n(\\mathcal{F})+\\sqrt{\\frac{\\log(1/\\delta)}{2n}}\\quad\\text{with probability at least }1-\\delta",
-        blurb: "For a finite class of measurable [0, 1]-valued functions and IID samples, the one-sided generalization gap is bounded by twice its Rademacher complexity plus a confidence term.",
+        latex: "\\sup_{f\\in\\mathcal{F}}(Pf-P_nf)\\le 2\\mathfrak R_n(\\mathcal{F})+\\sqrt{\\frac{\\log(1/\\delta)}{2n}}",
+        blurb: "For a finite class of measurable [0, 1]-valued functions and IID samples, the one-sided generalization gap is bounded by twice its Rademacher complexity plus a confidence term with probability at least 1 − δ.",
         status: "proved",
       },
       {
@@ -296,7 +296,7 @@ export const topics: TopicArea[] = [
       {
         name: "Lehmann-Scheffé theorem",
         lean: "lehmannScheffe_umvue",
-        latex: "\\exists h,\\; \\mathbb{E}_\\theta[(h\\circ T - g(\\theta))^2] \\le \\mathbb{E}_\\theta[(\\delta' - g(\\theta))^2]\\ \\forall \\delta'\\text{ unbiased}",
+        latex: "\\begin{aligned}\\exists h,\\quad &\\mathbb{E}_\\theta[(h\\circ T-g(\\theta))^2]\\\\ &\\le \\mathbb{E}_\\theta[(\\delta'-g(\\theta))^2]\\quad(\\forall\\delta'\\text{ unbiased})\\end{aligned}",
         blurb: "If T is complete and sufficient and δ is unbiased for g(θ), a function of T is unbiased and has no greater mean squared error than any other unbiased estimator.",
         status: "proved",
       },
@@ -359,8 +359,8 @@ export const topics: TopicArea[] = [
       {
         name: "Lieb trace exponential concavity",
         lean: "trace_exp_add_log_concave",
-        latex: "A\\mapsto \\operatorname{tr}\\exp(H+\\log A)\\ \\text{ is concave on positive definite matrices}",
-        blurb: "The finite-dimensional real-matrix form of Lieb's trace concavity theorem.",
+        latex: "A\\mapsto \\operatorname{tr}\\exp(H+\\log A)\\quad\\text{is concave}",
+        blurb: "The finite-dimensional real-matrix form of Lieb's trace concavity theorem, for a fixed Hermitian H and positive definite matrices A.",
         status: "proved",
       },
       {
@@ -632,7 +632,7 @@ export const topics: TopicArea[] = [
       {
         name: "Debiased LASSO Wald coverage under score and error conditions",
         lean: "tendsto_measure_debiasedLasso_standardWaldCI_coverage_iidScoreSum_real",
-        latex: "\\text{score and error conditions}\\;\\Longrightarrow\\;\\mathbb{P}\\!\\left(\\beta_j\\in \\hat b_j \\pm c\\,\\hat s_j/a_n\\right)\\to 1-\\alpha",
+        latex: "\\mathbb{P}\\!\\left(\\beta_j\\in \\hat b_j \\pm c\\,\\hat s_j/a_n\\right)\\to 1-\\alpha",
         blurb: "Given an IID score representation, row-approximation error and L1-rate control, consistent standard errors, and Gaussian critical-value calibration, the debiased LASSO Wald interval has asymptotic coverage. The theorem assumes these inputs.",
         status: "proved",
       },
@@ -744,7 +744,7 @@ export const topics: TopicArea[] = [
       {
         name: "High-order multivariate B-spline Holder rate",
         lean: "unit_cube_bspline_high_order_holder_smooth_uniform_sieve_approximation_rate",
-        latex: "f_0\\in\\mathcal{H}^{r+\\beta}([0,1]^d) \\implies \\mathcal{E}_{m_K}(f_0) \\le M\\,m_K^{-2(r+\\beta)/d}",
+        latex: "\\begin{gathered}f_0\\in\\mathcal{H}^{r+\\beta}([0,1]^d)\\implies\\\\\\mathcal{E}_{m_K}(f_0)\\le M\\,m_K^{-2(r+\\beta)/d}\\end{gathered}",
         blurb: "A positive-degree tensor-product B-spline system on the high-dimensional unit cube achieves the uniform squared-error sieve rate m^(-2(r+beta)/d) over the trace Holder-smooth ball.",
         status: "proved",
       },
