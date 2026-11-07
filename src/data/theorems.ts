@@ -170,8 +170,8 @@ export const topics: TopicArea[] = [
       {
         name: "Rademacher generalization bound",
         lean: "rademacher_generalization_bound",
-        latex: "\\sup_{f\\in\\mathcal{F}}(Pf-P_nf) \\lesssim \\mathfrak R_n(\\mathcal{F}) + B\\sqrt{\\frac{\\log(1/\\delta)}{n}}",
-        blurb: "A high-probability uniform generalization inequality stated through the empirical Rademacher process.",
+        latex: "\\sup_{f\\in\\mathcal{F}}(Pf-P_nf)\\le 2\\mathfrak R_n(\\mathcal{F})+\\sqrt{\\frac{\\log(1/\\delta)}{2n}}\\quad\\text{with probability at least }1-\\delta",
+        blurb: "For a finite class of measurable [0, 1]-valued functions and IID samples, the one-sided generalization gap is bounded by twice its Rademacher complexity plus a confidence term.",
         status: "proved",
       },
       {
@@ -297,7 +297,7 @@ export const topics: TopicArea[] = [
         name: "Lehmann-Scheffé theorem",
         lean: "lehmannScheffe_umvue",
         latex: "\\exists h,\\; \\mathbb{E}_\\theta[(h\\circ T - g(\\theta))^2] \\le \\mathbb{E}_\\theta[(\\delta' - g(\\theta))^2]\\ \\forall \\delta'\\text{ unbiased}",
-        blurb: "If T is a complete sufficient statistic and δ is unbiased for g(θ), then a function of T is the unique uniformly minimum-variance unbiased estimator (UMVUE) of g(θ).",
+        blurb: "If T is complete and sufficient and δ is unbiased for g(θ), a function of T is unbiased and has no greater mean squared error than any other unbiased estimator.",
         status: "proved",
       },
       {
@@ -630,10 +630,10 @@ export const topics: TopicArea[] = [
         status: "proved",
       },
       {
-        name: "Debiased LASSO standard Wald interval coverage",
+        name: "Debiased LASSO Wald coverage under score and error conditions",
         lean: "tendsto_measure_debiasedLasso_standardWaldCI_coverage_iidScoreSum_real",
-        latex: "\\mathbb{P}\\!\\left(\\beta_j\\in \\hat b_j \\pm c\\,\\hat s_j/a_n\\right)\\to 1-\\alpha",
-        blurb: "An iid-score debiased LASSO theorem: row-approximation error, L1 consistency, studentization, and Gaussian critical-value calibration imply asymptotic standard Wald confidence-interval coverage.",
+        latex: "\\text{score and error conditions}\\;\\Longrightarrow\\;\\mathbb{P}\\!\\left(\\beta_j\\in \\hat b_j \\pm c\\,\\hat s_j/a_n\\right)\\to 1-\\alpha",
+        blurb: "Given an IID score representation, row-approximation error and L1-rate control, consistent standard errors, and Gaussian critical-value calibration, the debiased LASSO Wald interval has asymptotic coverage. The theorem assumes these inputs.",
         status: "proved",
       },
       {
@@ -763,10 +763,10 @@ export const topics: TopicArea[] = [
         status: "proved",
       },
       {
-        name: "Holder-smooth ReLU approximation at the -2s/d rate",
-        lean: "holderSmoothBall_unitCube_LW2_rate_from_fixed_width_M_rate",
-        latex: "f\\in\\mathcal{H}^{r+\\beta}([0,1]^d) \\implies \\exists g\\in\\mathcal{N}_{L,W}:\\ \\sup_{x\\in[0,1]^d}|g(x)-f(x)|\\le c\\,(LW^2)^{-2(r+\\beta)/d}",
-        blurb: "An explicit fixed-width construction is converted into the architecture-scale ReLU approximation rate (L W^2)^(-2(r+beta)/d) for high-dimensional Holder-smooth functions.",
+        name: "Uniform ReLU approximation of a Holder ball",
+        lean: "exists_reluNetworkClass_holderSmoothBall_unitCube_uniform_architecture",
+        latex: "\\forall\\varepsilon>0,\\;\\exists L,W,\\;\\forall f\\in\\mathcal{H}^{r+\\beta}_{C,B},\\;\\exists g\\in\\mathcal{N}_{L,W}:\\;\\sup_{x\\in[0,1]^d}|g(x)-f(x)|\\le\\varepsilon",
+        blurb: "For any positive accuracy and Holder-smooth ball on the unit cube, one fully connected ReLU architecture admits an approximant for every function in the ball. The architecture is chosen uniformly over the ball.",
         status: "proved",
       },
     ],

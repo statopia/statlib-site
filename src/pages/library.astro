@@ -7,95 +7,15 @@ import { topics } from "../data/theorems";
 import { modules } from "../data/modules";
 import { libraryTree } from "../data/tree";
 import { site, stats } from "../data/site";
+import { libraryResultsByTopic } from "../data/selection";
 
 const statValue = (label: string) => stats.find((s) => s.label === label)?.value ?? "";
-
-// Per module, the topic objects (in order). Most areas show the first few
-// catalog entries, while selected foundational areas are curated explicitly.
-const DEFAULT_PER_TOPIC = 2;
-const selectedLeanByTopic: Record<string, string[]> = {
-  concentration: [
-    "bernstein_sum_meas_ge_le_exp",
-    "mcdiarmid_meas_ge_le_exp",
-  ],
-  convergence: [
-    "uniform_strong_law",
-    "lindeberg_feller_central_limit_theorem",
-    "gaussianMax_cube_root_comparison_diagonal",
-  ],
-  "empirical-processes": [
-    "uniform_deviation_finite_class",
-    "glivenko_cantelli_quantitative",
-    "dudley_entropy_integral",
-  ],
-  "random-variables": [
-    "gaussian_lipschitz_concentration",
-    "subexp_mgf_le_of_sq_subgaussian",
-    "standardReal_ou_mehler_basic",
-  ],
-  "matrix-analysis": [
-    "op_convex_mul_log",
-    "trace_exp_add_log_simpleFunc_jensen_posDef",
-    "wedin_sin_theta",
-  ],
-  "low-rank-matrices": [
-    "matrix_rip_recovery_bound",
-    "nuclear_subgradient_compact",
-  ],
-  "hd-concentration": [
-    "matrix_bernstein_rect",
-    "hanson_wright_isotropic",
-  ],
-  covariance: [
-    "sampleCovariance_concentration",
-    "isotropic_norm_concentration",
-    "marchenko_pastur_convergence",
-    "SampleCovariance.ae_tendsto_norm_and_lowerEdgeEigenvalue",
-  ],
-  "hd-geometry": [
-    "subgaussian_rip_tail_anisotropic",
-    "subgaussian_rip_sample_complexity",
-  ],
-  "hd-regression": [
-    "fixed_design_lasso_oracle_of_l1RSE",
-    "subgaussian_design_l1RSE",
-    "subgaussian_random_design_lasso_oracle",
-    "debiasedLasso_growing_dimension_studentized_wald_transfer",
-  ],
-  spectral: [
-    "weyl_sorted",
-    "wigner_semicircle_convergence",
-    "Wigner.norm_tail_le_and_ae_tendsto_norm",
-  ],
-  "nonparametric-approximation": [
-    "holderSmoothBall_unitCube_LW2_rate_from_fixed_width_M_rate",
-    "unit_cube_bspline_high_order_holder_smooth_uniform_sieve_approximation_rate",
-    "selector_indicator_uniform_sieve_holder_approximation_rate_of_cover",
-  ],
-};
-
-const topicsHiddenFromSelectedResults = new Set([
-  "nonparametric-vocabulary",
-  "nonparametric-oracle",
-]);
-
-function selectedTheorems(topic: (typeof topics)[number]) {
-  const selected = selectedLeanByTopic[topic.id];
-  if (!selected) return topic.theorems.slice(0, DEFAULT_PER_TOPIC);
-
-  const byLean = new Map(topic.theorems.map((th) => [th.lean, th]));
-  return selected
-    .map((lean) => byLean.get(lean))
-    .filter((th): th is (typeof topic.theorems)[number] => th !== undefined);
-}
 
 const grouped = modules.map((m) => ({
   module: m,
   topics: m.topicIds
     .map((id) => topics.find((t) => t.id === id))
-    .filter((t): t is (typeof topics)[number] =>
-      t !== undefined && !topicsHiddenFromSelectedResults.has(t.id)
-    ),
+    .filter((t): t is (typeof topics)[number] => t !== undefined),
 }));
 ---
 
@@ -107,8 +27,8 @@ const grouped = modules.map((m) => ({
       and {statValue("Supporting lemmas")} supporting lemmas, organized around
       the main StatFoundation, HighDim, and Nonparametric boards with additional
       supporting packages in the full tree. Supporting lemmas include private
-      lemma and theorem declarations. Browse the structure below, then a
-      few selected results from each area.
+      lemma and theorem declarations. Browse the structure below, then explore
+      a short selection of results across the library.
     </p>
 
     <!-- Structure: complete module/file tree -->
@@ -123,7 +43,7 @@ const grouped = modules.map((m) => ({
     <!-- Selected results -->
     <div class="mt-16 flex items-baseline gap-3">
       <h2 class="font-serif text-2xl font-semibold tracking-tight text-ink">Selected results</h2>
-      <span class="text-sm text-faint">— curated per area; see <a href="/featured" class="text-accent hover:underline">Featured</a> for deep dives</span>
+      <span class="text-sm text-faint">— a short selection; see <a href="/featured" class="text-accent hover:underline">Featured</a> for deep dives</span>
     </div>
 
     <div class="mt-8 space-y-14">
@@ -138,7 +58,7 @@ const grouped = modules.map((m) => ({
 
             <div class="mt-6 space-y-8">
               {mTopics.map((t, ti) => {
-                const selected = selectedTheorems(t);
+                const selected = libraryResultsByTopic.get(t.id) ?? [];
                 return (
                   <section id={t.id} class="scroll-mt-24">
                     <div class="flex items-baseline gap-3">
